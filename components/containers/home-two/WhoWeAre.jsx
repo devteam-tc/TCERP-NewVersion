@@ -36,7 +36,7 @@ const WhoWeAre = () => {
                 <div className="count d-flex align-items-center justify-content-center">
                   <OdometerCounter value={24} />/<OdometerCounter value={7} />
                 </div>
-                <h5 className="title">Services We Provide</h5>
+                <h5 className="title">Support we provide</h5>
               </div>
               <div className="img overflow-hidden reveal left">
                 <Image src={WhoImg} alt="who-we-are" className="img-fluid w-100" />
