@@ -1,5 +1,5 @@
 import About from "@/components/containers/home-two/About";
-import Pricing from "@/components/containers/home-two/Pricing";
+// import Pricing from "@/components/containers/home-two/Pricing";
 import WhoWeAre from "@/components/containers/home-two/WhoWeAre";
 // import Cta from "@/components/containers/home/Cta";
 import Team from "@/components/containers/home/Team";
@@ -23,7 +23,7 @@ const page = () => {
       <WhoWeAre/>
       <Team/>
       {/* <Cta/> */}
-      <Pricing extraClassName="style2"/>
+      {/* <Pricing extraClassName="style2"/> */}
       <Footer/>
       <CustomCursor/>
     </>

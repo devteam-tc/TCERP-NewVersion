@@ -1,8 +1,9 @@
 "use client";
+import { useState, useEffect, useRef } from 'react';
 import SimpleReactValidator from 'simple-react-validator';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useState } from 'react';
+
 const ContactPage = () => {
   const [forms, setForms] = useState({
     name: '',
@@ -11,9 +12,65 @@ const ContactPage = () => {
     phone: '',
     message: ''
   });
+  
   const [validator] = useState(new SimpleReactValidator({
     className: 'errorMessage'
   }));
+  
+  const mapRef = useRef(null);
+
+  useEffect(() => {
+    const loadGoogleMaps = () => {
+      const script = document.createElement("script");
+      script.src =
+        "https://maps.googleapis.com/maps/api/js?key=AIzaSyAxMtzzipvLVRrXSqtoaVCFy2Ywm9X5Tko&callback=initMap";
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+      window.initMap = initMap;
+    };
+
+    if (!window.google) {
+      loadGoogleMaps();
+    } else {
+      initMap();
+    }
+
+    function initMap() {
+      const locations = [
+        { lat: 17.447342, lng: 78.386427, name: "Hyderabad, Telangana" },
+        { lat: 11.023765, lng: 77.005325, name: "Coimbatore, Tamilnadu" },
+        { lat: 13.023398, lng: 80.207697, name: "Chennai, TamilNadu" },
+        { lat: 22.751765, lng: 75.896715, name: "Indore, Madhya Pradesh" },
+      ];
+
+      const map = new google.maps.Map(mapRef.current, {
+        zoom: 4,
+        center: locations[0],
+      });
+
+      locations.forEach((location) => {
+        const marker = new google.maps.Marker({
+          position: location,
+          map: map,
+          title: location.name,
+        });
+
+        const infowindow = new google.maps.InfoWindow({
+          content: `<div style="color: green; font-size: 14px; font-weight: bold; padding: 5px; background: white; border-radius: 5px; text-align: center;">${location.name}</div>`,
+          disableAutoPan: true,
+        });
+
+        marker.addListener("mouseover", function () {
+          infowindow.open(map, marker);
+        });
+
+        marker.addListener("mouseout", function () {
+          infowindow.close();
+        });
+      });
+    }
+  }, []);
 
   const changeHandler = (e) => {
     setForms({ ...forms, [e.target.name]: e.target.value });
@@ -59,8 +116,7 @@ const ContactPage = () => {
           <div className="contact-information">
             {/* Static Information like Phone, Email, Location */}
             <div className="row">
-              <div
-                className="col-lg-6 col-xl-4">
+              <div className="col-lg-6 col-xl-4">
                 <div className="info-item d-flex align-items-center rounded-20 gap-4">
                   <div className="icon section-bg rounded-pill flex-shrink-0 d-flex align-items-center justify-content-center">
                     <i className="fa-solid fa-phone"></i>
@@ -74,8 +130,7 @@ const ContactPage = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-lg-6 col-xl-4">
+              <div className="col-lg-6 col-xl-4">
                 <div className="info-item d-flex align-items-center rounded-20 gap-4">
                   <div className="icon section-bg rounded-pill flex-shrink-0 d-flex align-items-center justify-content-center">
                     <i className="fa-solid fa-envelope"></i>
@@ -89,8 +144,7 @@ const ContactPage = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-lg-6 col-xl-4">
+              <div className="col-lg-6 col-xl-4">
                 <div className="info-item d-flex align-items-center rounded-20 gap-4">
                   <div className="icon section-bg rounded-pill flex-shrink-0 d-flex align-items-center justify-content-center">
                     <i className="fa-solid fa-location-dot"></i>
@@ -194,14 +248,11 @@ const ContactPage = () => {
           </div>
         </div>
 
-        <div className="contact-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25280012016!2d-74.14448732737499!3d40.69763123331177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1727346263569!5m2!1sen!2sbd"
-          ></iframe>
+        <div className="contact-map" ref={mapRef}
+          style={{ height: "400px", width: "100%" }}>
         </div>
       </section>
 
-      {/* ToastContainer for Toastify notifications */}
       <ToastContainer />
     </>
   );
