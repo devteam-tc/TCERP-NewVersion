@@ -1,20 +1,20 @@
 // services icon
-import serviceIcon1 from '@/public/images/icons/crm.png';
+import serviceIcon1 from '@/public/images/icons/CRM.png';
 import serviceIcon2 from '@/public/images/icons/Sales.png';
 import serviceIcon3 from '@/public/images/icons/Purchase.png';
 import serviceIcon4 from '@/public/images/icons/inventory.png';
 import serviceIcon5 from '@/public/images/icons/Production.png';
 import serviceIcon6 from '@/public/images/icons/HRM.png';
 import serviceIcon7 from '@/public/images/icons/qc.png';
-import serviceIcon8 from '@/public/images/icons/Job_work.png';
-import serviceIcon9 from '@/public/images/icons/Fixed_assets.png';
-import serviceIcon10 from '@/public/images/icons/Plant_maintenance.png';
+import serviceIcon8 from '@/public/images/icons/Job Work.png';
+import serviceIcon9 from '@/public/images/icons/Fixed Assets.png';
+import serviceIcon10 from '@/public/images/icons/Plant Maintenance.png';
 import serviceIcon11 from '@/public/images/icons/Design.png';
 import serviceIcon12 from '@/public/images/icons/Finance.png';
 import serviceIcon13 from '@/public/images/icons/qa.png';
-import serviceIcon14 from '@/public/images/icons/Project_Management.png';
+import serviceIcon14 from '@/public/images/icons/Project Management.png';
 import serviceIcon16 from '@/public/images/icons/pos.png';
-import serviceIcon18 from '@/public/images/icons/import_Export.png';
+import serviceIcon18 from '@/public/images/icons/import_and_export.png';
 // services two image icons
 import serviceTwoIcon1 from '@/public/images/icons/service-icon-1.svg';
 import serviceTwoIcon2 from '@/public/images/icons/service-icon-2.svg';
@@ -171,8 +171,10 @@ export const servicesTwo = [
   {
     id: 4,
     title: "Mobile & Tab Compatibility",
-    title: "Shaping the Future with Cutting-Edge Technology",
     icon: serviceTwoIcon4,
+    image: serviceTwoImg4,
+    className: "icon-box-primary icon-box-text-white"
+
   },
   {
     id: 5,
