@@ -60,12 +60,7 @@ const Menu = () => {
           <li>
             <Link href="/projects">Accounting Software</Link>
           </li>
-          <li>
-            <Link href="/projects">Project Single</Link>
-          </li>
-          <li>
-            <Link href="/project-details">Project Details</Link>
-          </li>
+        
         </ul>
       </li>
       <li className="nav-item">

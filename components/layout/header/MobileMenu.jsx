@@ -8,18 +8,18 @@ const menus = [
     id: 1,
     title: "Home",
     link: "/home",
-    submenu: [
-      {
-        id: 11,
-        title: "Home One",
-        link: "/",
-      },
-      {
-        id: 12,
-        title: "Home Two",
-        link: "/home-two",
-      },
-    ],
+    // submenu: [
+    //   {
+    //     id: 11,
+    //     title: "Home One",
+    //     link: "/",
+    //   },
+    //   {
+    //     id: 12,
+    //     title: "Home Two",
+    //     link: "/home-two",
+    //   },
+    // ],
   },
   {
     id: 2,
@@ -28,57 +28,110 @@ const menus = [
   },
   {
     id: 3,
-    title: "Services",
-    link: "#",
-    submenu: [
-      {
-        id: 31,
-        title: "Service Single",
-        link: "/services",
-      },
-      {
-        id: 32,
-        title: "Services Details",
-        link: "/service-details",
-      },
-    ],
-  },
-  {
-    id: 4,
     title: "Products",
     link: "#",
     submenu: [
       {
         id: 41,
-        title: "Projects Single",
+        title: "Tech Cloud ERP",
         link: "/projects",
       },
       {
         id: 42,
-        title: "Project Details",
+        title: "Tech Cloud CRM",
         link: "/project-details",
       },
+      {
+        id: 43,
+        title: "Tech Cloud POS",
+        link: "/project-details",
+      },
+      {
+        id: 44,
+        title: "Tech Cloud Trading Software",
+        link: "/project-details",
+      },
+      {
+        id: 45,
+        title: "Tech Cloud Ecommerce",
+        link: "/project-details",
+      },
+      {
+        id: 46,
+        title: "Tech Cloud HRMS",
+        link: "/project-details",
+      },
+      {
+        id: 47,
+        title: "Tech Cloud Finance",
+        link: "/project-details",
+      },
+      {
+        id: 48,
+        title: "Integrated-With-CRM-Ecommerce-POS",
+        link: "/project-details",
+      },
+      {
+        id: 49,
+        title: "Tech Cloud Restaurant ERP",
+        link: "/project-details",
+      },
+      {
+        id: 50,
+        title: "Accounting Software",
+        link: "/project-details",
+      },
+     
     ],
   },
   {
-    id: 5,
-    title: "Blog",
+    id: 4,
+    title: "Services",
     link: "#",
     submenu: [
       {
-        id: 51,
-        title: "Blog Single",
-        link: "/blog",
+        id: 31,
+        title: "Digital Marketing",
+        link: "/services",
       },
       {
-        id: 52,
-        title: "Blog Details",
-        link: "/blog-details",
+        id: 32,
+        title: "Web Development",
+        link: "/service-details",
+      },
+      {
+        id: 33,
+        title: "Mobile App Development",
+        link: "/service-details",
       },
     ],
   },
+ 
   {
-    id: 6,
+    id: 5,
+    title: "BI",
+    link: "#",
+   
+  },
+  // {
+  //   id: 6,
+  //   title: "Services",
+  //   link: "#",
+  //   submenu: [
+  //     {
+  //       id: 51,
+  //       title: "Blog Single",
+  //       link: "/blog",
+  //     },
+  //     {
+  //       id: 52,
+  //       title: "Blog Details",
+  //       link: "/blog-details",
+  //     },
+  //   ],
+  // },
+  {
+    id: 7,
     title: "Contact",
     link: "/contact",
   },
