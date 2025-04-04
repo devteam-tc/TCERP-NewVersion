@@ -5,38 +5,38 @@ import pricingIcon3 from "@/public/images/icons/pricing-icon-3.svg";
 
 export const pricingPlans = [{
     id: 1,
-    title: "Web Support",
-    price: "$29",
+    title: "Per Member, Per Month",
+    price: "Basic - ₹2000",
     icon: pricingIcon1,
     features: [
-      "Technology that empowers",
-      "Your Startup",
-      "Connecting people through IT",
-      "Unlocking possibilities through IT"
+      "1-5 Modules",
+      "1-5 Users",
+      "No credit card required",
+      "Perfect for individuals and startups to kickstart domain"
     ]
   },
   {
     id: 2,
-    title: "Site Assist",
-    price: "$39",
+    title: "Per Member, Per Month",
+    price: "Enterprise- ₹1500",
     icon: pricingIcon2,
     features: [
-      "Technology that empowers",
-      "Your Startup",
-      "Connecting people through IT",
-      "Unlocking possibilities through IT"
+      "1-15 Modules",
+      "1-25 Users",
+      "No credit card required",
+      "Tailored for large organizations with advanced needs"
     ]
   },
   {
     id: 3,
-    title: "Tech Support",
-    price: "$19",
+    title: "Per Member, Per Month",
+    price: "Ultimate - ₹0",
     icon: pricingIcon3,
     features: [
-      "Technology that empowers",
-      "Your Startup",
-      "Connecting people through IT",
-      "Unlocking possibilities through IT"
+      "Unlimited Modules",
+      "Unlimited Customization",
+      "No credit card required",
+      "Unlimited access for complete customization and scaling"
     ]
   }
 ];

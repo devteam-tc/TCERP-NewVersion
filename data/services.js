@@ -13,6 +13,7 @@ import serviceIcon11 from '@/public/images/icons/Design.png';
 import serviceIcon12 from '@/public/images/icons/Finance.png';
 import serviceIcon13 from '@/public/images/icons/qa.png';
 import serviceIcon14 from '@/public/images/icons/Project Management.png';
+import serviceIcon15 from '@/public/images/icons/multiple.png';
 import serviceIcon16 from '@/public/images/icons/pos.png';
 import serviceIcon18 from '@/public/images/icons/import_and_export.png';
 // services two image icons
@@ -29,7 +30,8 @@ import serviceTwoImg5 from '@/public/images/services/data.png';
 import serviceTwoImg7 from '@/public/images/services/pay.png';
 import serviceTwoImg8 from '@/public/images/services/chat.png';
 import serviceTwoImg9 from '@/public/images/services/unlimited.png';
-// import serviceTwoImg10 from '@/public/images/services/service-two-img10.png';
+import serviceTwoImg10 from '@/public/images/services/audit.png';
+import serviceTwoImg15 from '@/public/images/services/multiple.png';
 
 export const services = [
   {
@@ -153,6 +155,7 @@ export const servicesTwo = [
     icon: serviceTwoIcon1,
     image: serviceTwoImg1,
     className: "icon-box-primary icon-box-text-white",
+    description:"Web-based and cloud computing provide scalable, flexible access to apps and data online.",
   },
   {
     id: 2,
@@ -160,6 +163,8 @@ export const servicesTwo = [
     icon: serviceTwoIcon2,
     image: serviceTwoImg2,
     className: "icon-box-secondary icon-box-text-white",
+    description:"Dynamic dashboards offer real-time, interactive data visualization for better decision-making.",
+
   },
   {
     id: 3,
@@ -167,13 +172,16 @@ export const servicesTwo = [
     icon: serviceTwoIcon3,
     image: serviceTwoImg3,
     className: "icon-box-tertiary",
+    description:"Email and SMS integration enables seamless, efficient communication across both channels.",
   },
   {
     id: 4,
     title: "Mobile & Tab Compatibility",
     icon: serviceTwoIcon4,
     image: serviceTwoImg4,
-    className: "icon-box-primary icon-box-text-white"
+    className: "icon-box-primary icon-box-text-white",
+    description:"Ensures a seamless user experience across devices, enhancing accessibility and usability.",
+
 
   },
   {
@@ -182,6 +190,8 @@ export const servicesTwo = [
     icon: serviceTwoIcon4,
     image: serviceTwoImg5,
     className: "icon-box-primary icon-box-text-white",
+    description:"Automates secure data storage, ensuring continuity and protection against loss.",
+
   },
   // {
   //   id: 6,
@@ -196,6 +206,8 @@ export const servicesTwo = [
     icon: serviceTwoIcon4,
     image: serviceTwoImg7,
     className: "icon-box-primary icon-box-text-white",
+    description:"Enables users to pay for services based on actual usage, promoting flexibility and cost-efficiency.",
+
   },
   {
     id: 8,
@@ -203,6 +215,8 @@ export const servicesTwo = [
     icon: serviceTwoIcon4,
     image: serviceTwoImg8,
     className: "icon-box-primary icon-box-text-white",
+    description:"Facilitates real-time communication and collaboration, enhancing interaction and connectivity.",
+
   },
   {
     id: 9,
@@ -210,21 +224,27 @@ export const servicesTwo = [
     icon: serviceTwoIcon4,
     image: serviceTwoImg9,
     className: "icon-box-primary icon-box-text-white",
+    description:"Accommodates an unlimited number of users, ensuring scalability and accessibility.",
+
   },
-  // {
-  //   id: 10,
-  //   title: "Audit Trail",
-  //   icon: serviceTwoIcon4,
-  //   image: serviceTwoImg10,
-  //   className: "icon-box-primary icon-box-text-white",
-  // },
-  // {
-  //   id: 11,
-  //   title: "Multiple Inventory Location",
-  //   icon: serviceTwoIcon4,
-  //   image: serviceTwoImg4,
-  //   className: "icon-box-primary icon-box-text-white",
-  // },
+  {
+    id: 10,
+    title: "Audit Trail",
+    icon: serviceTwoIcon4,
+    image: serviceTwoImg10,
+    className: "icon-box-primary icon-box-text-white",
+    description:"Detailed log of system activities, supporting accountability, compliance and security.",
+
+  },
+  {
+    id: 11,
+    title: "Multiple Inventory Location",
+    icon: serviceTwoIcon4,
+    image: serviceTwoImg15,
+    className: "icon-box-primary icon-box-text-white",
+    description:"Detailed log of system activities, supporting accountability, compliance and security.",
+
+  },
 
 
 ]

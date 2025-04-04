@@ -14,7 +14,7 @@ const Footer = () => {
       {/* scroll to top start */}
       <ScrollProgressButton />
       {/* scroll to top end */}
-      <footer className="ep-footer-section pt-120">
+      <footer className="ep-footer-section pt-60">
         <div className="footer-bg">
           <div className="container">
             {/* <div className="row g-4">
@@ -73,7 +73,7 @@ const Footer = () => {
                             </div>
                             <h4 className="title">Address </h4>
                           </div>
-                          <p>Office Unit No. 705, Jain Sadguru Capital Park, Hyderabad, India-500081.</p>
+                          <p>VVG ELITE, Plot No 301, Kavuri Hills, Hyderabad, Telangana 500081.</p>
                         </li>
                         <li>
                           <div className="d-flex align-items-center gap-2">

@@ -21,7 +21,7 @@ const Services = ({ isSlider = true, showTitle = true, extraClassName='' }) => {
   }, [isSlider]);
 
   return (
-    <section className={`ep-services-section py-120 ${extraClassName}`}>
+    <section className={`ep-services-section ${extraClassName}`}>
       <div className="container">
         <div className="position-relative">
           {/* Conditionally render the SectionTitle only when showTitle is true */}

@@ -41,15 +41,15 @@ const ServicesTwo = () => {
                           <Image src={service.image} alt="service-img" className="img-fluid w-100" />
                         </Link>
                       </div>
-                      <div className="icon-box section-bg rounded-20 d-flex justify-content-center align-items-center position-absolute start-50 translate-middle-x">
+                      {/* <div className="icon-box section-bg rounded-20 d-flex justify-content-center align-items-center position-absolute start-50 translate-middle-x">
                         <Image src={service.icon} alt="service-icon" />
-                      </div>
+                      </div> */}
                     </div>
                     <div className="text text-center">
                       <h4 className="title">
                         <Link href="/service-details">{service.title}</Link>
                       </h4>
-                      <Link href="/service-details"
+                      {/* <Link href="/service-details"
                         className="theme-btn theme-btn-border position-relative d-inline-flex align-items-center">
                         Read More
                         <span className="arrow">
@@ -64,7 +64,8 @@ const ServicesTwo = () => {
                             </g>
                           </svg>
                         </span>
-                      </Link>
+                      </Link> */}
+                      <p> {service.description}  </p>
                     </div>
                   </div>
                 </SwiperSlide>
