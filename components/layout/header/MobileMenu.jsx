@@ -2,32 +2,28 @@ import logo from "@/public/images/logo/logo.webp";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import MenuData from './MenuData';
 
 const menus = [
   {
     id: 1,
     title: "Home",
     link: "/home",
-    // submenu: [
-    //   {
-    //     id: 11,
-    //     title: "Home One",
-    //     link: "/",
-    //   },
-    //   {
-    //     id: 12,
-    //     title: "Home Two",
-    //     link: "/home-two",
-    //   },
-    // ],
   },
   {
     id: 2,
     title: "About",
     link: "/about",
   },
+   
   {
     id: 3,
+    title: "Menu Data",
+    link : "/industries",
+    component: <MenuData />  // Rendering component directly
+  },
+  {
+    id: 4,
     title: "Products",
     link: "#",
     submenu: [
@@ -81,11 +77,10 @@ const menus = [
         title: "Accounting Software",
         link: "/project-details",
       },
-     
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Services",
     link: "#",
     submenu: [
@@ -106,30 +101,11 @@ const menus = [
       },
     ],
   },
- 
   {
-    id: 5,
+    id: 6,
     title: "BI",
     link: "#",
-   
   },
-  // {
-  //   id: 6,
-  //   title: "Services",
-  //   link: "#",
-  //   submenu: [
-  //     {
-  //       id: 51,
-  //       title: "Blog Single",
-  //       link: "/blog",
-  //     },
-  //     {
-  //       id: 52,
-  //       title: "Blog Details",
-  //       link: "/blog-details",
-  //     },
-  //   ],
-  // },
   {
     id: 7,
     title: "Contact",
@@ -164,7 +140,7 @@ const MobileMenu = () => {
           <div className="d-flex justify-content-between align-items-center">
             <div className="logo">
               <Link href="/">
-                <Image src={logo} alt="logo" priority/>
+                <Image src={logo} alt="logo" priority />
               </Link>
             </div>
             <div className="bars" onClick={toggleMenu}>
@@ -197,13 +173,14 @@ const MobileMenu = () => {
                 <li className="sub-mobile-menu" key={menu.id}>
                   {menu.submenu ? (
                     <>
-                      <Link
-                        href="#"
-                        onClick={() => toggleSubmenu(menu.id)}
-                      >
+                      <Link href="#" onClick={() => toggleSubmenu(menu.id)}>
                         {menu.title}{" "}
                         <i
-                          className={`fas float-end ${openSubmenuId === menu.id ? "fa-chevron-up" : "fa-chevron-down"}`}
+                          className={`fas float-end ${
+                            openSubmenuId === menu.id
+                              ? "fa-chevron-up"
+                              : "fa-chevron-down"
+                          }`}
                         ></i>
                       </Link>
                       <ul
@@ -218,10 +195,15 @@ const MobileMenu = () => {
                         ))}
                       </ul>
                     </>
+                  ) : menu.component ? (
+                    // If menu has a `component`, render it instead of a `Link`
+                    <div>{menu.component}</div>
                   ) : (
-                    <Link href={menu.link} onClick={closeMenu}>
-                      {menu.title}
-                    </Link>
+                    menu.link && (
+                      <Link href={menu.link} onClick={closeMenu}>
+                        {menu.title}
+                      </Link>
+                    )
                   )}
                 </li>
               ))}

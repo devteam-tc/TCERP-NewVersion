@@ -60,6 +60,8 @@
 							font-size: 16px;
 							padding: 8px 16px;
 							font-weight: 500;
+							display: flex;
+							align-items: center;
 
 							&:hover {
 								background-color: var(--bs-secondary-color);
@@ -133,6 +135,7 @@
 		}
 	}
 }
+  
 /* Preloader start */
 #preloader {
 	position: fixed;
@@ -216,6 +219,19 @@
 		}
 	}
 }
+.nested-submenu {
+    position: absolute;
+    left: 230px;
+    width: 100%;
+	background-color: #fff;
+    top: 0;
+	display: none;
+}
+
+.sub-menu > li:hover {
+    .nested-submenu {
+      display: block; // Show nested submenu on hover
+    }}
 
 /* Mobile menu area start */
 .mobile-menu-area {
@@ -379,6 +395,8 @@
 			}
 		}
 
+		
+
 		.call-us {
 			.call-us-btn {
 				.icon {
@@ -421,6 +439,20 @@
 			}
 		}
 	}
+	.nested-submenu {
+		position: relative;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		top: 0;
+		display: none;
+	}
+	.sub-menu > li:hover {
+		.nested-submenu {
+		  display: block; // Show nested submenu on hover
+		}}
+	
+	
 }
 
 @media (max-width:1799.98px) {

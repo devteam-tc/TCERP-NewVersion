@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 const industriesMenu = {
   label: "Industries",
@@ -58,8 +59,81 @@ const industriesMenu = {
   ],
 };
 
+// const MenuData = () => {
+//   return (
+//     <ul className="navbar-nav mx-auto mb-lg-0">
+//       <li className="nav-item">
+        
+//         <Link className="nav-link" href={industriesMenu.href}>
+//           {industriesMenu.label} <i className="fas fa-chevron-down"></i>
+//         </Link>
+//         <ul className="sub-menu list-unstyled">
+//           {industriesMenu.children.map((category, index) => (
+//             <li key={index}>
+//               <a className="submenu-heading"><span>{category.heading}</span> <i className="fas fa-chevron-right"></i></a>
+//               <ul className="nested-submenu list-unstyled">
+//                 {category.submenu.map((item, idx) => (
+//                   <li key={idx}>
+//                     <Link href={item.href}>{item.label}</Link>
+//                   </li>
+//                 ))}
+//               </ul>
+//             </li>
+//           ))}
+//         </ul>
+//       </li>
+//     </ul>
+//   );
+// };
+
+
+
+
+
 const MenuData = () => {
-  return (
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Update state on window resize
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth < 768); // Mobile if width < 768px
+    };
+
+    checkScreenSize(); // Initial check
+
+    // Listen for window resize events
+    window.addEventListener("resize", checkScreenSize);
+
+    // Cleanup on unmount
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
+
+  return isMobile ? (
+    // Mobile Menu
+    <>
+      <Link className="nav-link" href={industriesMenu.href}>
+        {industriesMenu.label} <i className="fas fa-chevron-down"></i>
+      </Link>
+      <ul className="sub-menu list-unstyled">
+        {industriesMenu.children.map((category, index) => (
+          <li key={index}>
+            <a className="submenu-heading">
+              <span>{category.heading}</span>{" "}
+              <i className="fas fa-chevron-right"></i>
+            </a>
+            <ul className="nested-submenu list-unstyled">
+              {category.submenu.map((item, idx) => (
+                <li key={idx}>
+                  <Link href={item.href}>{item.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ul>
+    </>
+  ) : (
+    // Desktop Menu
     <ul className="navbar-nav mx-auto mb-lg-0">
       <li className="nav-item">
         <Link className="nav-link" href={industriesMenu.href}>
@@ -68,7 +142,10 @@ const MenuData = () => {
         <ul className="sub-menu list-unstyled">
           {industriesMenu.children.map((category, index) => (
             <li key={index}>
-              <span className="submenu-heading">{category.heading}</span>
+              <a className="submenu-heading">
+                <span>{category.heading}</span>{" "}
+                <i className="fas fa-chevron-right"></i>
+              </a>
               <ul className="nested-submenu list-unstyled">
                 {category.submenu.map((item, idx) => (
                   <li key={idx}>
@@ -85,3 +162,6 @@ const MenuData = () => {
 };
 
 export default MenuData;
+
+
+
