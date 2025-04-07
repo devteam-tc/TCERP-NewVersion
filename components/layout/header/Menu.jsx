@@ -9,15 +9,6 @@ const Menu = () => {
         <Link className="nav-link" aria-current="page" href="#">
           Home 
         </Link>
-        {/* <i className="fas fa-chevron-down"></i> */}
-        {/* <ul className="sub-menu list-unstyled">
-          <li>
-            <Link href="/">Home One</Link>
-          </li>
-          <li>
-            <Link href="/home-two">Home Two</Link>
-          </li>
-        </ul> */}
       </li>
       <li className="nav-item">
         <Link className="nav-link" href="/about">
@@ -95,14 +86,14 @@ const Menu = () => {
         <Link className="nav-link" href="#">
           Blog 
         </Link>
-        {/* <ul className="sub-menu list-unstyled">
+        <ul className="sub-menu list-unstyled">
           <li>
             <Link href="/blog">Blog Single</Link>
           </li>
           <li>
             <Link href="/blog-details">Blog Details</Link>
           </li>
-        </ul> */}
+        </ul>
       </li>
       <li className="nav-item">
         <Link className="nav-link" href="/contact">
