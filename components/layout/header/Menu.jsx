@@ -17,48 +17,75 @@ const Menu = () => {
       </li>
       <MenuData />
       <li className="nav-item">
-        <Link className="nav-link" href="#">
-        Products <i className="fas fa-chevron-down"></i>
-        </Link>
-        <ul className="sub-menu list-unstyled">
-        <li>
-            <Link href="/projects">Tech Cloud ERP</Link>
-          </li>
-          <li>
-            <Link href="/projects">Tech Cloud CRM</Link>
-          </li>
-          <li>
-            <Link href="/projects">Tech Cloud POS</Link>
-          </li>
-          <li>
-            <Link href="/projects">Tech Cloud Trading Software</Link>
-          </li>
-          <li>
-            <Link href="/projects">Tech Cloud Ecommerce</Link>
-          </li>
-          <li>
-            <Link href="/projects">Tech Cloud HRMS</Link>
-          </li>
-          <li>
-            <Link href="/projects">Tech Cloud Finance</Link>
-          </li>
-          <li>
-            <Link href="/projects"> Integrated-With-CRM-Ecommerce-POS</Link>
-          </li>
-          <li>
-            <Link href="/projects">Tech Cloud Restaurant ERP</Link>
-          </li>
-          <li>
-            <Link href="/projects">Accounting Software</Link>
-          </li>
+  <Link className="nav-link" href="/products">
+    Products <i className="fas fa-chevron-down"></i>
+  </Link>
+  <ul className="sub-menu list-unstyled">
+    <li>
+      <Link href="/products/tech-cloud-erp">Tech Cloud ERP</Link>
+    </li>
+    <li>
+      <Link href="/products/customer-relationship-management">Tech Cloud CRM</Link>
+    </li>
+    <li>
+      <Link href="/products/point-of-sale">Tech Cloud POS</Link>
+    </li>
+    <li>
+      <Link href="/products/trading-software">Tech Cloud Trading Software</Link>
+    </li>
+    <li>
+      <Link href="/products/Ecommerce-software">Tech Cloud Ecommerce</Link>
+    </li>
+    <li>
+      <Link href="/products/hr-managament-software">Tech Cloud HRMS</Link>
+    </li>
+    <li>
+      <Link href="/products/financial-management-systems">Tech Cloud Finance</Link>
+    </li>
+    <li>
+      <Link href="/products/integrated-erp-software">
+        Tech Cloud ERP Integrated-With-CRM-Ecommerce-POS
+      </Link>
+    </li>
+    <li>
+      <Link href="/products/erp-for-restaraunt">Tech Cloud Restaurant ERP</Link>
+    </li>
+    <li>
+      <Link href="/products/erp-for-accounting-software">Accounting Software</Link>
+    </li>
+  </ul>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
-        </ul>
-      </li>
+  
       <li className="nav-item">
         <Link className="nav-link" href="/about">
           BI
         </Link>
       </li>
+      
       <li className="nav-item">
         <Link className="nav-link" href="#">
           Services <i className="fas fa-chevron-down"></i>

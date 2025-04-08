@@ -1,0 +1,54 @@
+[debug] [2025-04-04T05:41:28.610Z] ----------------------------------------------------------------------
+[debug] [2025-04-04T05:41:28.614Z] Command:       C:\Program Files\nodejs\node.exe C:\npm-global\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-04-04T05:41:28.614Z] CLI Version:   14.1.0
+[debug] [2025-04-04T05:41:28.614Z] Platform:      win32
+[debug] [2025-04-04T05:41:28.615Z] Node Version:  v20.15.1
+[debug] [2025-04-04T05:41:28.615Z] Time:          Fri Apr 04 2025 11:11:28 GMT+0530 (India Standard Time)
+[debug] [2025-04-04T05:41:28.615Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-04T05:41:28.618Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-04-04T05:41:28.678Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-04T05:41:28.679Z] > authorizing via signed-in user (socialmedia@techclouderp.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Divyasri\New folder\TCERP-NewVersion
+
+[debug] [2025-04-04T05:41:29.251Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-04-04T05:41:29.252Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-04T05:41:38.163Z] Checked if tokens are valid: false, expires at: 1740745501172
+[debug] [2025-04-04T05:41:38.163Z] Checked if tokens are valid: false, expires at: 1740745501172
+[debug] [2025-04-04T05:41:38.164Z] > refreshing access token with scopes: []
+[debug] [2025-04-04T05:41:38.165Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-04-04T05:41:38.165Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-04-04T05:41:38.338Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-04-04T05:41:38.338Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-04-04T05:41:38.348Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-04-04T05:41:39.259Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-04-04T05:41:39.259Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project tcerp-newversion (TCERP-NewVersion) 
+[info] 
+=== Hosting Setup
+[debug] [2025-04-04T05:41:44.282Z] Checked if tokens are valid: true, expires at: 1743748897339
+[debug] [2025-04-04T05:41:44.283Z] Checked if tokens are valid: true, expires at: 1743748897339
+[debug] [2025-04-04T05:41:44.283Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tcerp-newversion [none]
+[debug] [2025-04-04T05:41:44.696Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tcerp-newversion 200
+[debug] [2025-04-04T05:41:44.696Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tcerp-newversion {"projectId":"tcerp-newversion","projectNumber":"870652555892","displayName":"TCERP-NewVersion","name":"projects/tcerp-newversion","resources":{"hostingSite":"tcerp-newversion"},"state":"ACTIVE","etag":"1_f1f66fd4-5b9f-4f7b-9892-2d839c1f6a55"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
