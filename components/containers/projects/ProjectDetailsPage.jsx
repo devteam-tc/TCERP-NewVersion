@@ -122,8 +122,6 @@
 
 // export default ProjectDetailsPage;
 
-
-
 import Image from "next/image";
 import Link from "next/link";
 import arrowIcon from '@/public/images/icons/icon-right-arrow.svg';
@@ -147,23 +145,23 @@ const ProjectDetailsPage = ({ industrySlug }) => {
               <ul className="list-unstyled options">
                 <li className="d-flex align-items-center rounded-20 gap-4 section-bg">
                   <h5 className="flex-shrink-0 label">Industry:</h5>
-                  <p>{projectData.industry}</p>
+                  <h6>{projectData.industry}</h6>
                 </li>
                 <li className="d-flex align-items-center rounded-20 gap-4 section-bg">
                   <h5 className="flex-shrink-0 label">Solution:</h5>
-                  <p>{projectData.solution}</p>
+                  <h6>{projectData.solution}</h6>
                 </li>
                 <li className="d-flex align-items-center rounded-20 gap-4 section-bg">
                   <h5 className="flex-shrink-0 label">Modules:</h5>
-                  <p>{projectData.modules.join(", ")}</p>
+                  <h6>{projectData.modules.join(", ")}</h6>
                 </li>
                 <li className="d-flex align-items-center rounded-20 gap-4 section-bg">
                   <h5 className="flex-shrink-0 label">Result:</h5>
-                  <p>{projectData.result.join(",")}</p>
+                  <h6>{projectData.result.join(",")}</h6>
                 </li>
                 <li className="d-flex align-items-center rounded-20 gap-4 section-bg">
                   <h5 className="flex-shrink-0 label">No of Customers:</h5>
-                  <p>{projectData.customers}</p>
+                  <h6>{projectData.customers}</h6>
                 </li>
               </ul>
             </div>

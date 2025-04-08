@@ -20,15 +20,15 @@ import serviceTwoIcon1 from '@/public/images/icons/service-icon-1.svg';
 import serviceTwoIcon2 from '@/public/images/icons/service-icon-2.svg';
 import serviceTwoIcon3 from '@/public/images/icons/service-icon-3.svg';
 import serviceTwoIcon4 from '@/public/images/icons/service-icon-4.svg';
-import serviceTwoImg1 from '@/public/images/services/cloud.png';
-import serviceTwoImg2 from '@/public/images/services/dynamic.png';
-import serviceTwoImg3 from '@/public/images/services/email.png';
-import serviceTwoImg4 from '@/public/images/services/mobile.png';
-import serviceTwoImg5 from '@/public/images/services/data.png';
+import serviceTwoImg1 from '@/public/images/services/cloud.webp';
+import serviceTwoImg2 from '@/public/images/services/dynamic.webp';
+import serviceTwoImg3 from '@/public/images/services/email.webp';
+import serviceTwoImg4 from '@/public/images/services/mobile.webp';
+import serviceTwoImg5 from '@/public/images/services/data.webp';
 // import serviceTwoImg6 from '@/public/images/services/service-two-img6.png';
-import serviceTwoImg7 from '@/public/images/services/pay.png';
-import serviceTwoImg8 from '@/public/images/services/chat.png';
-import serviceTwoImg9 from '@/public/images/services/unlimited.png';
+import serviceTwoImg7 from '@/public/images/services/pay.webp';
+import serviceTwoImg8 from '@/public/images/services/chat.webp';
+import serviceTwoImg9 from '@/public/images/services/unlimited.webp';
 // import serviceTwoImg10 from '@/public/images/services/service-two-img10.png';
 
 export const services = [

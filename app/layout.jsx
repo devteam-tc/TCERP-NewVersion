@@ -30,8 +30,8 @@ export const metadata = {
   ],
   authors: [
     {
-      name: "ElegantPixels",
-      url: "https://themeforest.net/user/elegantpixels",
+      name: "Tech Cloud ERP Software Pvt Ltd",
+      url: "https://techclouderp.com/",
     },
   ],
 };
@@ -40,10 +40,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        
         <LayoutWrapper> 
           <InitAnimations />
           {children}
         </LayoutWrapper>
+        <script
+          id="ze-snippet"
+          src="https://static.zdassets.com/ekr/snippet.js?key=e3ca5133-37b8-460b-bdc3-25e8d82513ff"
+        />
       </body>
     </html>
   );
