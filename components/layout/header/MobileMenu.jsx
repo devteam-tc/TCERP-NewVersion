@@ -2,46 +2,25 @@ import logo from "@/public/images/logo/logo.webp";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import MenuData from './MenuData';
 
 const menus = [
   {
     id: 1,
     title: "Home",
     link: "/home",
-    submenu: [
-      {
-        id: 11,
-        title: "Home One",
-        link: "/",
-      },
-      {
-        id: 12,
-        title: "Home Two",
-        link: "/home-two",
-      },
-    ],
   },
   {
     id: 2,
     title: "About",
     link: "/about",
   },
+   
   {
     id: 3,
-    title: "Services",
-    link: "#",
-    submenu: [
-      {
-        id: 31,
-        title: "Service Single",
-        link: "/services",
-      },
-      {
-        id: 32,
-        title: "Services Details",
-        link: "/service-details",
-      },
-    ],
+    title: "Menu Data",
+    link : "/industries",
+    component: <MenuData />  // Rendering component directly
   },
   {
     id: 4,
@@ -50,35 +29,85 @@ const menus = [
     submenu: [
       {
         id: 41,
-        title: "Projects Single",
+        title: "Tech Cloud ERP",
         link: "/projects",
       },
       {
         id: 42,
-        title: "Project Details",
+        title: "Tech Cloud CRM",
+        link: "/project-details",
+      },
+      {
+        id: 43,
+        title: "Tech Cloud POS",
+        link: "/project-details",
+      },
+      {
+        id: 44,
+        title: "Tech Cloud Trading Software",
+        link: "/project-details",
+      },
+      {
+        id: 45,
+        title: "Tech Cloud Ecommerce",
+        link: "/project-details",
+      },
+      {
+        id: 46,
+        title: "Tech Cloud HRMS",
+        link: "/project-details",
+      },
+      {
+        id: 47,
+        title: "Tech Cloud Finance",
+        link: "/project-details",
+      },
+      {
+        id: 48,
+        title: "Integrated-With-CRM-Ecommerce-POS",
+        link: "/project-details",
+      },
+      {
+        id: 49,
+        title: "Tech Cloud Restaurant ERP",
+        link: "/project-details",
+      },
+      {
+        id: 50,
+        title: "Accounting Software",
         link: "/project-details",
       },
     ],
   },
   {
     id: 5,
-    title: "Blog",
+    title: "Services",
     link: "#",
     submenu: [
       {
-        id: 51,
-        title: "Blog Single",
-        link: "/blog",
+        id: 31,
+        title: "Digital Marketing",
+        link: "/services",
       },
       {
-        id: 52,
-        title: "Blog Details",
-        link: "/blog-details",
+        id: 32,
+        title: "Web Development",
+        link: "/service-details",
+      },
+      {
+        id: 33,
+        title: "Mobile App Development",
+        link: "/service-details",
       },
     ],
   },
   {
     id: 6,
+    title: "BI",
+    link: "#",
+  },
+  {
+    id: 7,
     title: "Contact",
     link: "/contact",
   },
@@ -111,7 +140,7 @@ const MobileMenu = () => {
           <div className="d-flex justify-content-between align-items-center">
             <div className="logo">
               <Link href="/">
-                <Image src={logo} alt="logo" priority/>
+                <Image src={logo} alt="logo" priority />
               </Link>
             </div>
             <div className="bars" onClick={toggleMenu}>
@@ -144,13 +173,14 @@ const MobileMenu = () => {
                 <li className="sub-mobile-menu" key={menu.id}>
                   {menu.submenu ? (
                     <>
-                      <Link
-                        href="#"
-                        onClick={() => toggleSubmenu(menu.id)}
-                      >
+                      <Link href="#" onClick={() => toggleSubmenu(menu.id)}>
                         {menu.title}{" "}
                         <i
-                          className={`fas float-end ${openSubmenuId === menu.id ? "fa-chevron-up" : "fa-chevron-down"}`}
+                          className={`fas float-end ${
+                            openSubmenuId === menu.id
+                              ? "fa-chevron-up"
+                              : "fa-chevron-down"
+                          }`}
                         ></i>
                       </Link>
                       <ul
@@ -165,10 +195,15 @@ const MobileMenu = () => {
                         ))}
                       </ul>
                     </>
+                  ) : menu.component ? (
+                    // If menu has a `component`, render it instead of a `Link`
+                    <div>{menu.component}</div>
                   ) : (
-                    <Link href={menu.link} onClick={closeMenu}>
-                      {menu.title}
-                    </Link>
+                    menu.link && (
+                      <Link href={menu.link} onClick={closeMenu}>
+                        {menu.title}
+                      </Link>
+                    )
                   )}
                 </li>
               ))}

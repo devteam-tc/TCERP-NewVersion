@@ -5,7 +5,7 @@ import Image from "next/image"
 
 const Pricing = ({ extraClassName = '' }) => {
   return (
-    <section className={`ep-pricing-section pt-120 pb-120 ${extraClassName}`}>
+    <section className={`ep-pricing-section pt-120 pb-60 ${extraClassName}`}>
       <div className="container">
         <div className="row">
           <div className="col-lg-6 mx-auto">
@@ -21,8 +21,8 @@ const Pricing = ({ extraClassName = '' }) => {
               <div className="pricing-item rounded-30">
                 <div className="price-header d-flex justify-content-between">
                   <div className="price-box">
-                    <h3 className="title">{plan.title}</h3>
-                    <h2 className="price">{plan.price}</h2>
+                    <h5 className="title">{plan.title}</h5>
+                    <h4 className="price">{plan.price}</h4>
                   </div>
                   <div className="icon-box rounded-20 d-flex align-items-center justify-content-center">
                     <Image src={plan.icon} alt="pricing-icon" />
