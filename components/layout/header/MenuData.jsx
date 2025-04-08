@@ -90,50 +90,137 @@ const industriesMenu = {
 
 
 
+// const MenuData = () => {
+//   const [isMobile, setIsMobile] = useState(false);
+//   const [menuOpen, setMenuOpen] = useState(false);
+
+//   // Update state on window resize
+//   useEffect(() => {
+//     const checkScreenSize = () => {
+//       setIsMobile(window.innerWidth < 768); // Mobile if width < 768px
+//     };
+
+//     checkScreenSize(); // Initial check
+
+//     // Listen for window resize events
+//     window.addEventListener("resize", checkScreenSize);
+
+//     // Cleanup on unmount
+//     return () => window.removeEventListener("resize", checkScreenSize);
+//   }, []);
+
+//   return isMobile ? (
+//     // Mobile Menu
+//     <>
+//       <Link className="nav-link" href={industriesMenu.href}>
+//         {industriesMenu.label} <i className="fas fa-chevron-down"></i>
+//       </Link>
+//       <ul className="sub-menu list-unstyled">
+//         {industriesMenu.children.map((category, index) => (
+//           <li key={index}>
+//             <a className="submenu-heading">
+//               <span>{category.heading}</span>{" "}
+//               <i className="fas fa-chevron-right"></i>
+//             </a>
+//             <ul className="nested-submenu list-unstyled">
+//               {category.submenu.map((item, idx) => (
+//                 <li key={idx}>
+//                   <Link href={item.href}>{item.label}</Link>
+//                 </li>
+//               ))}
+//             </ul>
+//           </li>
+//         ))}
+//       </ul>
+//     </>
+//   ) : (
+//     // Desktop Menu
+//     <ul className="navbar-nav mx-auto mb-lg-0">
+//       <li className="nav-item">
+//         <Link className="nav-link" href={industriesMenu.href}>
+//           {industriesMenu.label} <i className="fas fa-chevron-down"></i>
+//         </Link>
+//         <ul className="sub-menu list-unstyled">
+//           {industriesMenu.children.map((category, index) => (
+//             <li key={index}>
+//               <a className="submenu-heading">
+//                 <span>{category.heading}</span>{" "}
+//                 <i className="fas fa-chevron-right"></i>
+//               </a>
+//               <ul className="nested-submenu list-unstyled">
+//                 {category.submenu.map((item, idx) => (
+//                   <li key={idx}>
+//                     <Link href={item.href}>{item.label}</Link>
+//                   </li>
+//                 ))}
+//               </ul>
+//             </li>
+//           ))}
+//         </ul>
+//       </li>
+//     </ul>
+//   );
+// };
+
+// export default MenuData;
+
+
+
 const MenuData = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [openSubmenus, setOpenSubmenus] = useState({}); // <--- NEW: track open states
 
-  // Update state on window resize
   useEffect(() => {
     const checkScreenSize = () => {
-      setIsMobile(window.innerWidth < 768); // Mobile if width < 768px
+      setIsMobile(window.innerWidth < 768);
     };
 
-    checkScreenSize(); // Initial check
-
-    // Listen for window resize events
+    checkScreenSize();
     window.addEventListener("resize", checkScreenSize);
-
-    // Cleanup on unmount
     return () => window.removeEventListener("resize", checkScreenSize);
   }, []);
 
+  const toggleSubmenu = (index) => {
+    setOpenSubmenus((prev) => ({
+      ...prev,
+      [index]: !prev[index],
+    }));
+  };
+
   return isMobile ? (
-    // Mobile Menu
     <>
-      <Link className="nav-link" href={industriesMenu.href}>
+      <button className="nav-link" onClick={() => setMenuOpen(!menuOpen)}>
         {industriesMenu.label} <i className="fas fa-chevron-down"></i>
-      </Link>
-      <ul className="sub-menu list-unstyled">
-        {industriesMenu.children.map((category, index) => (
-          <li key={index}>
-            <a className="submenu-heading">
-              <span>{category.heading}</span>{" "}
-              <i className="fas fa-chevron-right"></i>
-            </a>
-            <ul className="nested-submenu list-unstyled">
-              {category.submenu.map((item, idx) => (
-                <li key={idx}>
-                  <Link href={item.href}>{item.label}</Link>
-                </li>
-              ))}
-            </ul>
-          </li>
-        ))}
-      </ul>
+      </button>
+
+      {menuOpen && (
+        <ul className="sub-menu list-unstyled">
+          {industriesMenu.children.map((category, index) => (
+            <li key={index}>
+              <button
+                className="submenu-heading"
+                onClick={() => toggleSubmenu(index)}
+              >
+                <span>{category.heading}</span>{" "}
+                <i className={`fas fa-chevron-${openSubmenus[index] ? "down" : "right"}`}></i>
+              </button>
+
+              {openSubmenus[index] && (
+                <ul className="nested-submenu list-unstyled">
+                  {category.submenu.map((item, idx) => (
+                    <li key={idx}>
+                      <Link href={item.href}>{item.label}</Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
     </>
   ) : (
-    // Desktop Menu
     <ul className="navbar-nav mx-auto mb-lg-0">
       <li className="nav-item">
         <Link className="nav-link" href={industriesMenu.href}>
@@ -162,6 +249,3 @@ const MenuData = () => {
 };
 
 export default MenuData;
-
-
-
