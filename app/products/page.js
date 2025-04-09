@@ -33,7 +33,7 @@ const AllProductsSection = () => {
           <p className={industryStyles.description}>{aboutus_data.allproducts.description}</p>
         </div>
       </section> */}
-      <div className={styles.container}>
+      <div>
         <Row>
           {modulesData.map((module, index) => (
             <Col key={index} sm={12} md={6} lg={4}>
