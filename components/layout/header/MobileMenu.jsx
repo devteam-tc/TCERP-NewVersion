@@ -34,52 +34,52 @@ const menus = [
       {
         id: 41,
         title: "Tech Cloud ERP",
-        link: "/projects",
+        link: "/products/tech-cloud-erp",
       },
       {
         id: 42,
         title: "Tech Cloud CRM",
-        link: "/project-details",
+        link: "/products/customer-relationship-management",
       },
       {
         id: 43,
         title: "Tech Cloud POS",
-        link: "/project-details",
+        link: "/products/point-of-sale",
       },
       {
         id: 44,
         title: "Tech Cloud Trading Software",
-        link: "/project-details",
+        link: "/products/trading-software",
       },
       {
         id: 45,
         title: "Tech Cloud Ecommerce",
-        link: "/project-details",
+        link: "/products/Ecommerce-software",
       },
       {
         id: 46,
         title: "Tech Cloud HRMS",
-        link: "/project-details",
+        link: "/products/hr-managament-software",
       },
       {
         id: 47,
         title: "Tech Cloud Finance",
-        link: "/project-details",
+        link: "/products/financial-management-systems",
       },
       {
         id: 48,
         title: "Integrated-With-CRM-Ecommerce-POS",
-        link: "/project-details",
+        link: "/products/integrated-erp-software",
       },
       {
         id: 49,
         title: "Tech Cloud Restaurant ERP",
-        link: "/project-details",
+        link: "/products/erp-for-restaraunt",
       },
       {
         id: 50,
         title: "Accounting Software",
-        link: "/project-details",
+        link: "/products/erp-for-accounting-software",
       },
      
     ],

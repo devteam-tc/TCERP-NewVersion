@@ -40,6 +40,7 @@
 
 //   return <ProductPage slug={slug} />;
 // }
+
 import { notFound } from "next/navigation";
 import ProductPage from "./ProductPage"; // Adjust the path as needed
 import { productData } from "../../utils/constant";
