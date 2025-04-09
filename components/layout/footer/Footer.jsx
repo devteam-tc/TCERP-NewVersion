@@ -17,41 +17,6 @@ const Footer = () => {
       <footer className="ep-footer-section pt-60">
         <div className="footer-bg">
           <div className="container">
-            {/* <div className="row g-4">
-              <div className="col-xl-4 col-md-6">
-                <div className="footer-short-info rounded-20 d-flex align-items-center">
-                  <div className="icon d-flex align-items-center justify-content-center rounded-pill flex-shrink-0">
-                    <Image priority src={footerIcon1} alt="footer-short-icon" />
-                  </div>
-                  <div className="text">
-                    <h4 className="title">Tech Fusion Solutions</h4>
-                    <p>It encompasses the use of computers, networks</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-md-6">
-                <div className="footer-short-info rounded-20 d-flex align-items-center">
-                  <div className="icon d-flex align-items-center justify-content-center rounded-pill flex-shrink-0">
-                    <Image priority src={footerIcon2} alt="footer-short-icon" />
-                  </div>
-                  <div className="text">
-                    <h4 className="title">Digital Edge Innovations</h4>
-                    <p>Other digital technologies to store place network</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-md-6">
-                <div className="footer-short-info rounded-20 d-flex align-items-center">
-                  <div className="icon d-flex align-items-center justify-content-center rounded-pill flex-shrink-0">
-                    <Image priority src={footerIcon3} alt="footer-short-icon" />
-                  </div>
-                  <div className="text">
-                    <h4 className="title">Cloud Wave Services</h4>
-                    <p>The rapid advancement of technology continuously</p>
-                  </div>
-                </div>
-              </div>
-            </div> */}
             <div className="footer-main">
               <div className="row g-4">
                 <div className="col-xl-3 col-lg-3 col-md-6">
@@ -73,7 +38,7 @@ const Footer = () => {
                             </div>
                             <h4 className="title">Address </h4>
                           </div>
-                          <p>VVG ELITE, Plot No 301, Kavuri Hills, Hyderabad, Telangana 500081.</p>
+                          <p>VVG ELITE, Plot No 301, Kavuri Hills, Madhapur , Hyderabad, Telangana 500081.</p>
                         </li>
                         <li>
                           <div className="d-flex align-items-center gap-2">

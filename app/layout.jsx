@@ -5,6 +5,7 @@ import "@/public/sass/main.scss";
 import 'animate.css';
 import InitAnimations from '@/components/containers/InitAnimations';
 import LayoutWrapper from './LayoutWrapper';
+import Script from 'next/script';
 
 export const metadata = {
   title: "Netwise – IT Solutions & Technology NextJs Template",
@@ -45,8 +46,9 @@ export default function RootLayout({ children }) {
           <InitAnimations />
           {children}
         </LayoutWrapper>
-        <script
+        <Script
           id="ze-snippet"
+          strategy="lazyOnload"
           src="https://static.zdassets.com/ekr/snippet.js?key=e3ca5133-37b8-460b-bdc3-25e8d82513ff"
         />
       </body>

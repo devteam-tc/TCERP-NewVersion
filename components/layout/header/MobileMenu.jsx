@@ -221,6 +221,8 @@ const MobileMenu = () => {
             <div className="info">
               <span className="title">Need ERP?</span>
               <h5 className="number">+91 8919439603</h5>
+              <h5 className="number">+91 7032082300</h5>
+
             </div>
           </a>
         </div>

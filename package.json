@@ -29,6 +29,7 @@
     "simple-react-validator": "^1.6.2",
     "split-type": "^0.3.4",
     "swiper": "^11.2.5",
+    "wowjs": "^1.1.3",
     "yet-another-react-lightbox": "^3.21.8"
   },
   "devDependencies": {
