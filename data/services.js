@@ -1,5 +1,5 @@
 // services icon
-import serviceIcon1 from '@/public/images/icons/CRM.png';
+import serviceIcon1 from '@/public/images/icons/crm.png';
 import serviceIcon2 from '@/public/images/icons/Sales.png';
 import serviceIcon3 from '@/public/images/icons/Purchase.png';
 import serviceIcon4 from '@/public/images/icons/inventory.png';
@@ -21,17 +21,16 @@ import serviceTwoIcon1 from '@/public/images/icons/service-icon-1.svg';
 import serviceTwoIcon2 from '@/public/images/icons/service-icon-2.svg';
 import serviceTwoIcon3 from '@/public/images/icons/service-icon-3.svg';
 import serviceTwoIcon4 from '@/public/images/icons/service-icon-4.svg';
-import serviceTwoImg1 from '@/public/images/services/cloud.png';
-import serviceTwoImg2 from '@/public/images/services/dynamic.png';
-import serviceTwoImg3 from '@/public/images/services/email.png';
-import serviceTwoImg4 from '@/public/images/services/mobile.png';
-import serviceTwoImg5 from '@/public/images/services/data.png';
+import serviceTwoImg1 from '@/public/images/services/cloud.webp';
+import serviceTwoImg2 from '@/public/images/services/dynamic.webp';
+import serviceTwoImg3 from '@/public/images/services/email.webp';
+import serviceTwoImg4 from '@/public/images/services/mobile.webp';
+import serviceTwoImg5 from '@/public/images/services/data.webp';
 // import serviceTwoImg6 from '@/public/images/services/service-two-img6.png';
-import serviceTwoImg7 from '@/public/images/services/pay.png';
-import serviceTwoImg8 from '@/public/images/services/chat.png';
-import serviceTwoImg9 from '@/public/images/services/unlimited.png';
-import serviceTwoImg10 from '@/public/images/services/audit.png';
-import serviceTwoImg15 from '@/public/images/services/multiple.png';
+import serviceTwoImg7 from '@/public/images/services/pay.webp';
+import serviceTwoImg8 from '@/public/images/services/chat.webp';
+import serviceTwoImg9 from '@/public/images/services/unlimited.webp';
+//import serviceTwoImg10 from '@/public/images/services/service-two-img10.png';
 
 export const services = [
   {
@@ -97,13 +96,13 @@ export const services = [
     icon: serviceIcon9,
     className: "icon-box-tertiary",
   },
-  {
-    id: 10,
-    title: "Plant Maintenance ",
-    description: "Schedule preventive and corrective maintenance, track breakdowns, servicing, and spare part requirements to reduce downtime.",
-    icon: serviceIcon10,
-    className: "icon-box-tertiary",
-  },
+  // {
+  //   id: 10,
+  //   title: "Plant Maintenance ",
+  //   description: "Schedule preventive and corrective maintenance, track breakdowns, servicing, and spare part requirements to reduce downtime.",
+  //   icon: serviceIcon10,
+  //   className: "icon-box-tertiary",
+  // },
   {
     id: 11,
     title: "HRM ",
@@ -227,24 +226,24 @@ export const servicesTwo = [
     description:"Accommodates an unlimited number of users, ensuring scalability and accessibility.",
 
   },
-  {
-    id: 10,
-    title: "Audit Trail",
-    icon: serviceTwoIcon4,
-    image: serviceTwoImg10,
-    className: "icon-box-primary icon-box-text-white",
-    description:"Detailed log of system activities, supporting accountability, compliance and security.",
+  // {
+  //   id: 10,
+  //   title: "Audit Trail",
+  //   icon: serviceTwoIcon4,
+  //   image: serviceTwoImg10,
+  //   className: "icon-box-primary icon-box-text-white",
+  //   description:"Detailed log of system activities, supporting accountability, compliance and security.",
 
-  },
-  {
-    id: 11,
-    title: "Multiple Inventory Location",
-    icon: serviceTwoIcon4,
-    image: serviceTwoImg15,
-    className: "icon-box-primary icon-box-text-white",
-    description:"Detailed log of system activities, supporting accountability, compliance and security.",
+  // },
+  // {
+  //   id: 11,
+  //   title: "Multiple Inventory Location",
+  //   icon: serviceTwoIcon4,
+  //   image: serviceTwoImg15,
+  //   className: "icon-box-primary icon-box-text-white",
+  //   description:"Detailed log of system activities, supporting accountability, compliance and security.",
 
-  },
+  // },
 
 
 ]

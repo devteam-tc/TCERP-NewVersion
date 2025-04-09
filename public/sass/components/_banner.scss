@@ -251,6 +251,44 @@
 	}
 }
 
+.rotating-background {
+	z-index: 1000;
+	overflow: hidden;
+	pointer-events: none;
+  }
+  
+  .rotating-background .rotating-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 80%; /* Adjust size as needed */
+	height: auto;
+	transform: translate(-50%, -50%);
+	animation: rotate360 60s linear infinite;
+	z-index: -1;
+  }
+  
+  @keyframes rotate360 {
+	from {
+	  transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+	  transform: translate(-50%, -50%) rotate(360deg);
+	}
+  }
+  
+  
+  .ep-banner-section {
+	position: relative;
+	z-index: 1;
+  }
+  .banner-shape {
+	z-index: 1000;
+  }
+  .rotating-background {
+	z-index: -1; /* Behind shapes and content */
+  }
+  
 @media (max-width:1799.98px) {
 	.ep-banner-section-two .banner-main::before {
 		width: 68%;

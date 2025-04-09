@@ -13,7 +13,7 @@ const ProjectsPage = () => {
               <div className="project-item position-relative">
                 <div className="img reveal zoom-out overflow-hidden rounded-20">
                   <Link href="/project-details" className="d-block w-100">
-                    <Image loading="lazy" src={project.image} alt="project-img" className="img-fluid w-100" />
+                    <Image src={project.image} alt="project-img" className="img-fluid w-100" />
                   </Link>
                 </div>
                 <div className="overlay position-absolute">

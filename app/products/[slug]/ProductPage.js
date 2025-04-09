@@ -31,10 +31,6 @@ const ProductPage = ( {breadcrumbTitle}  ) => {
   const { sidebar, content } = productDetailsData[activeKey];
   const currentData = productDetailsData[slug];
 
-  if (!currentData) {
-    return <div>Service Not Found</div>;
-  }
-
   useEffect(() => {
     if (slug) {
       const selectedProduct = productData?.[slug] ?? {
@@ -50,6 +46,11 @@ const ProductPage = ( {breadcrumbTitle}  ) => {
       setActiveTab(firstTab);
     }
   }, [slug]);
+
+  if (!currentData) {
+    return <div>Service Not Found</div>;
+  }
+
 
   if (!product) {
     return <p>Loading...</p>; // Prevent rendering before product data is available
@@ -213,7 +214,7 @@ const ProductPage = ( {breadcrumbTitle}  ) => {
     <Col md={6} lg={4} key={index} className="mb-4 d-flex">
       <div className="cardContainer">
         <div className="cardTitleContainer">
-          {card.image && <img src={card.image} alt={card.title} className="cardImage" />}
+          {card.image && <Image src={card.image} alt={card.title} width={100} height={100} className="cardImage" />}
         </div>
         <h3 className="cardTitle">{card.title}</h3>
         <p className="cardText">{card.text}</p>
