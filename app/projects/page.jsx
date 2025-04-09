@@ -1,19 +1,19 @@
-import ProjectsPage from "@/components/containers/projects/ProjectsPage";
 import CustomCursor from "@/components/layout/CustomCursor";
 import Footer from "@/components/layout/footer/Footer"
 import Header from "@/components/layout/header/Header"
 import PageHeader from "@/components/layout/PageHeader"
+import ProductPage from "../products/[slug]/ProductPage";
 
 const page = () => {
   const breadcrumbs = [
     { label: 'Home', link: '/' },
-    { label: 'Projects', link: null }
+    { label: 'Products', link: null }
   ];
   return (
     <>
       <Header/>
-      <PageHeader title="Projects" breadcrumbs={breadcrumbs} />
-      <ProjectsPage/>
+      <PageHeader title="Products" breadcrumbs={breadcrumbs} />
+      <ProductPage />
       <Footer/>
       <CustomCursor/>
     </>
