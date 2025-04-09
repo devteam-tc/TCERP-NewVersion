@@ -4,7 +4,7 @@ import Faq from "@/components/containers/home/Faq";
 import Services from "@/components/containers/home/Services";
 import CustomCursor from "@/components/layout/CustomCursor";
 import Footer from "@/components/layout/footer/Footer";
-import Header from "@/components/layout/header/Header"
+import Header from "@/components/layout/header/Header";
 import PageHeader from "@/components/layout/PageHeader";
 
 const page = () => {

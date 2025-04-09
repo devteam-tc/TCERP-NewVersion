@@ -1,5 +1,13 @@
 // This is a SERVER component
-import IndustryClientPage from "./IndustryClientPage";
+// import IndustryClientPage from "./IndustryClientPage";
+
+// This is a SERVER component
+import dynamic from 'next/dynamic';
+
+const IndustryClientPage = dynamic(() => import('./IndustryClientPage'), {
+  
+  loading: () => <p>Loading...</p>,
+});
 
 // Static list of industry slugs (or fetch from Firestore)
 const industrySlugs = [

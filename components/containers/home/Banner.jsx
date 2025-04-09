@@ -1,8 +1,8 @@
 "use client";
 import Image from 'next/image'
-import bannerImg from '@/public/images/banner/banner-img-1.png';
+import bannerImg from '@/public/images/banner/banner-img-1.webp';
 import bannerShapeOne from '@/public/images/shape/banner-shape-1.svg';
-import bannerShapeTwo from '@/public/images/shape/banner-shape-2.png';
+import bannerShapeTwo from '@/public/images/shape/banner-shape-2.webp';
 import Link from 'next/link';
 import { useState } from 'react';
 import YouTubeEmbed from '../YouTubeEmbed';

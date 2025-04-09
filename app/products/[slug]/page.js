@@ -42,21 +42,20 @@
 // }
 
 import { notFound } from "next/navigation";
-import ProductPage from "./ProductPage"; // Adjust the path as needed
 import { productData } from "../../utils/constant";
+import ProductPageClientWrapper from "./ProductPageClientWrapper";
 
 export function generateStaticParams() {
-  return Object.keys(productData).map((slug) => ({ slug })); // Ensure static params are generated
+  return Object.keys(productData).map((slug) => ({ slug }));
 }
 
 export default function ProductPageWrapper({ params }) {
   const { slug } = params;
 
-  // Check if productData exists for the given slug
   if (!productData[slug]) {
-    notFound(); // Redirects to `app/not-found.js`
-    return null; // Ensures component always returns a value
+    notFound();
+    return null;
   }
 
-  return <ProductPage slug={slug} />;
+  return <ProductPageClientWrapper slug={slug} />;
 }

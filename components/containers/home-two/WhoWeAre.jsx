@@ -34,7 +34,7 @@ const WhoWeAre = () => {
                   <Image src={IconPhone} alt="icon-headphone" />
                 </div>
                 <div className="count d-flex align-items-center justify-content-center">
-                  <OdometerCounter value={24} />/<OdometerCounter value={7} />
+                  <OdometerCounter value={24} /> / <OdometerCounter value={7} />
                 </div>
                 <h5 className="title">Support we provide</h5>
               </div>

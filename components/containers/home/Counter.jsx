@@ -1,4 +1,4 @@
-import counterImg from '@/public/images/img/counter-img.jpg';
+import counterImg from '@/public/images/img/counter-img.webp';
 import OdometerCounter from '../Odometer';
 import Image from 'next/image';
 
