@@ -118,5 +118,6 @@ export default function IndustryList({ industryList, index }) {
         ))}
       </Row>
     </Container>
+    
   );
 }

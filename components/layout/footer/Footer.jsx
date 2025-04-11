@@ -27,7 +27,7 @@ const Footer = () => {
                       </Link>
                     </div>
                     <div className="short-info">
-                      <p>Tech Cloud ERP delivers top-notch solutions tailored for any business, combining advanced technology, intuitive design, and comprehensive features.</p>
+                      <p>Tech Cloud ERP delivers top-notch solutions tailored for any business comprehensive features.</p>
                     </div>
                     <div className="contact-info">
                       <ul className="list-unstyled">
@@ -38,7 +38,7 @@ const Footer = () => {
                             </div>
                             <h4 className="title">Address </h4>
                           </div>
-                          <p>VVG ELITE, Plot No 301, Kavuri Hills, Madhapur , Hyderabad, Telangana 500081.</p>
+                          <p>Plot No. 241, 3rd Floor, VVG Elite Developers, Kavuri Hills, Madhapur, Hyderabad, Telangana - 500081</p>
                         </li>
                         <li>
                           <div className="d-flex align-items-center gap-2">
@@ -64,7 +64,7 @@ const Footer = () => {
                       <li><Link href="/services"> Our Features</Link></li>
                       <li><Link href="/services"> Our Blogs</Link></li>
                       <li><Link href="/services"> Our Branches</Link></li>
-                      <li><Link href="/services"> All Products</Link></li>
+                      <li><Link href="/products"> All Products</Link></li>
                       <li><Link href="/services"> Careers</Link></li>
                     </ul>
                   </div>
@@ -90,7 +90,7 @@ const Footer = () => {
                   <div className="footer-widget footer-links links-widget">
                     <h4 className="footer-title">Services </h4>
                     <ul className="list-unstyled">
-                      <li><Link href="/blog">All Services </Link></li>
+                      <li><Link href="/services">All Services </Link></li>
                       <li><Link href="/blog">Web Development</Link></li>
                       <li><Link href="/contact">E-Commerce Website </Link></li>
                       <li><Link href="/contact">Mobile App Development</Link></li>

@@ -96,6 +96,7 @@
 
               p {
                 margin-top: 10px;
+                text-align: left !important;
                 // opacity: 0.8;
                 color: var(--bs-Text-Dark-Color);
               }
@@ -104,7 +105,7 @@
                 color: var(--bs-Text-Dark-Color);
                 margin-top: 10px;
                 // opacity: 0.8;
-
+          text-align: left;
                 &:hover {
                   opacity: 1;
                 }
@@ -203,10 +204,10 @@
     }
 
     .footer-bottom {
-      border-top: 1px solid rgba(255, 255, 255, 0.3);
+      // border-top: 1px solid rgba(255, 255, 255, 0.3);
+      border-top: 1px solid #ccc;
       margin-top: 80px;
       padding-top: 30px;
-
       .footer-copyright {
         p {
           color: var(--bs-Text-Dark-Color);
@@ -508,6 +509,7 @@
   .ep-footer-section .footer-bg .footer-main .links-widget {
     padding-left: 0;
     margin-left: 0;
+    text-align: left;
   }
 
   .ep-footer-section .footer-bg .footer-main .services-widget {
@@ -533,7 +535,9 @@
   }
 
   .ep-footer-section .footer-bg .footer-main .footer-about .contact-info li .d-flex {
-    justify-content: center;
+    // justify-content: center;
+    justify-content: left;
+
   }
 
   .ep-footer-section .footer-bg .footer-main .footer-about .short-info p {
@@ -554,7 +558,9 @@
   }
 
   .ep-footer-section .footer-bg .footer-main .services-widget {
-    text-align: center;
+    // text-align: center;
+    text-align: left;
+
   }
 
   .ep-footer-section-two .video-image {

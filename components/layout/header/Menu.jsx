@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <ul className="navbar-nav mx-auto mb-lg-0">
       <li className="nav-item">
-        <Link className="nav-link" aria-current="page" href="#">
+        <Link className="nav-link" aria-current="page" href="/">
           Home 
         </Link>
       </li>
@@ -65,23 +65,9 @@ const Menu = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
   
       <li className="nav-item">
-        <Link className="nav-link" href="/about">
+        <Link className="nav-link" href="/business-intelligence">
           BI
         </Link>
       </li>

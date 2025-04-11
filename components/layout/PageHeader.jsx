@@ -7,18 +7,18 @@ const PageHeader = ({ title, breadcrumbs = [] }) => {
     <section className="ep-page-header-section">
       <div className="container">
         <div className="row">
-          <div className="col-md-4">
+          {/* <div className="col-md-4">
             <div className="header-img">
               <Image priority src={PageHeaderImg} alt="page-header-img" />
             </div>
-          </div>
-          <div className="col-md-8 ms-auto">
-            <div className="bread-crumb text-end">
+          </div> */}
+          <div className="col-md-12 ms-auto">
+            <div className="bread-crumb text-center">
             <h1 className="page-title">
               {title.replace(/\b\w/g, (char) => char.toUpperCase())}
             </h1>
 
-              <ul className="list-unstyled d-flex flex-wrap align-items-center justify-content-end mt-30">
+              <ul className="list-unstyled d-flex flex-wrap align-items-center justify-content-center mt-30">
                 {breadcrumbs.length > 0 && breadcrumbs.map((item, index) => (
                   <li key={index}>
                     {item.link ? (

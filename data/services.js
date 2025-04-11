@@ -1,5 +1,5 @@
 // services icon
-import serviceIcon1 from '@/public/images/icons/crm.png';
+import serviceIcon1 from '@/public/images/icons/CRM.png';
 import serviceIcon2 from '@/public/images/icons/Sales.png';
 import serviceIcon3 from '@/public/images/icons/Purchase.png';
 import serviceIcon4 from '@/public/images/icons/inventory.png';

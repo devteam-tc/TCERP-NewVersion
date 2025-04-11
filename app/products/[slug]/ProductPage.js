@@ -4,13 +4,13 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import { Accordion, Col, Container, Row , Button } from 'react-bootstrap';
 import { productData  , productDetailsData } from '../../utils/constant';
+import PageHeader from "@/components/layout/PageHeader";
 import Footer from '../../../components/layout/footer/Footer';
 import Header from '@/components/layout/header/Header';
 import Link from "next/link";
 import ServiceDetailsPage from '@/components/containers/services/ServiceDetailsPage';
-import PageHeader from '@/components/layout/PageHeader';
 import { BsCheckCircle } from 'react-icons/bs';
-
+import CustomCursor from "@/components/layout/CustomCursor";
 import Image from 'next/image'; // ✅ Correct import
 
 
@@ -89,27 +89,8 @@ const ProductPage = ( {breadcrumbTitle}  ) => {
   return (
     <>
       <Header />
+      <PageHeader title="Tech Cloud ERP" breadcrumbs={breadcrumbs} />
         <Container>
-        <section className="page-title centred pt-120">
-  <div className="auto-container">
-    <div className="content-box">
-      <h1 className=" pt-120">Tech Cloud ERP</h1>
-      <ul className="bread-crumb clearfix">
-        {breadcrumbs.map((crumb, index) => (
-          <li key={index}>
-            {crumb.link ? (
-              <Link href={crumb.link}>{crumb.label}</Link>
-            ) : (
-              <span>{crumb.label}</span>
-            )}
-            {index !== breadcrumbs.length - 1 && <span className="separator"> - </span>}
-          </li>
-        ))}
-      </ul>
-    </div>
-  </div>
-</section>
-
         <div className="boxed_wrapper">
 
         <section className="service-details pt-120 pb-120">
@@ -243,6 +224,8 @@ const ProductPage = ( {breadcrumbTitle}  ) => {
 
         </Container>
       <Footer />
+      <CustomCursor/>
+
     </>
   );
 };

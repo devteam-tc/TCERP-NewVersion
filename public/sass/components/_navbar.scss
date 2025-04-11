@@ -39,7 +39,8 @@
 				}
 
 				.sub-menu {
-					width: 226px;
+					// width: 226px;
+					width: max-content;
 					background-color: var(--bs-white-color);
 					position: absolute;
 					top: 100%;
@@ -289,7 +290,7 @@
 /* Mobile menu area start */
 .mobile-menu-area {
 	z-index: 999;
-	background-color: var(--bs-white-color);
+	// background-color: var(--bs-white-color);
 	width: 100%;
 	transition: var(--bs-transition);
 	margin-top: 0;
