@@ -33,7 +33,7 @@ const BusinessSection = () => {
                 {[
                   {
                     icon: '/bi/business-icon1.png',
-                    title: 'End to end development',
+                    title: 'Access for Every Team Member',
                     desc: 'Your time is precious, and we that cleaning is really just one more',
                   },
                   {

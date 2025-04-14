@@ -168,7 +168,7 @@
     border-radius: 20px;
     margin-bottom: 24px;
     background: #f9f9f9;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 20px #add8e680, 0 6px 6px #add8e6b3;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: fadeInUp 0.6s ease both;
     position: relative;
@@ -229,6 +229,7 @@
       p {
         color: #666;
         margin: 0;
+        text-align: left;
         font-size: 15px;
       }
     }

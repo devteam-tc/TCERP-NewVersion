@@ -138,7 +138,16 @@ const ProjectDetailsPage = ({ industrySlug }) => {
         <div className="container">
           <div className="project-banner-image position-relative">
             <div className="reveal zoom-out overflow-hidden rounded-20">
-              <Image priority src={projectData.banner} width={100} height={100} alt="Project Banner" className="img-fluid w-100" />
+            <Image
+  priority
+  src={projectData.banner}
+  width={100}
+  height={100}
+  alt="Project Banner"
+  className="img-fluid custom-banner-img"
+/>
+
+
             </div>
             <div className="project-information position-absolute rounded-20">
               <h4 className="title rounded-20 text-center mb-30">Industry Information</h4>

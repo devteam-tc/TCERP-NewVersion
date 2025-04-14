@@ -1107,6 +1107,183 @@ export const productDetailsData = {
       ],
       image: "/images/services/service-7.jpg",
     },
+  },
+  "hr-managament-software":{
+    sidebar: {
+      categories: [
+        { title: "Tech Cloud ERP",},
+        { title: "Tech Cloud CRM", },
+        { title: "Tech Cloud POS",  },
+        { title: "Tech Cloud Ecommerce", },
+        { title: "Trading Software", },
+        { title: "Finance",  },
+      ],
+      downloadWidget: {
+        bgShape: "/images/shape/shape-24.png",
+        image: "/images/resource/book-3.png",
+        title: "The 2024 guide for Optimal Content",
+        spanTitle: "Management",
+        buttonText: "Download E-book",
+      },
+    },
+    content: {
+      subTitle: "trading software Session",
+      heading: "Unlocking Your Team's Potential with Effective trading-software Session ",
+      paragraphs: [
+        "Effective training sessions are a crucial component of any organization’s growth strategy, as they equip employees with the skills and knowledge necessary to excel in their roles.",
+        "Our training sessions are designed to be engaging, interactive, and tailored to meet the unique needs of your team.",
+        "From leadership development to technical skills training, our expert trainers will work with you to create a customized training program that drives real results.",
+      ],
+      image: "/images/services/service-7.jpg",
+    },
+  },
+  "financial-management-systems":{
+    sidebar: {
+      categories: [
+        { title: "Tech Cloud ERP",},
+        { title: "Tech Cloud CRM", },
+        { title: "Tech Cloud POS",  },
+        { title: "Tech Cloud Ecommerce", },
+        { title: "Trading Software", },
+        { title: "Finance",  },
+      ],
+      downloadWidget: {
+        bgShape: "/images/shape/shape-24.png",
+        image: "/images/resource/book-3.png",
+        title: "The 2024 guide for Optimal Content",
+        spanTitle: "Management",
+        buttonText: "Download E-book",
+      },
+    },
+    content: {
+      subTitle: "Finance software Session",
+      heading: "Unlocking Your Team's Potential with Effective trading-software Session ",
+      paragraphs: [
+        "Effective training sessions are a crucial component of any organization’s growth strategy, as they equip employees with the skills and knowledge necessary to excel in their roles.",
+        "Our training sessions are designed to be engaging, interactive, and tailored to meet the unique needs of your team.",
+        "From leadership development to technical skills training, our expert trainers will work with you to create a customized training program that drives real results.",
+      ],
+      image: "/images/services/service-7.jpg",
+    },
+  },
+  "integrated-erp-software":{
+    sidebar: {
+      categories: [
+        { title: "Tech Cloud ERP",},
+        { title: "Tech Cloud CRM", },
+        { title: "Tech Cloud POS",  },
+        { title: "Tech Cloud Ecommerce", },
+        { title: "Trading Software", },
+        { title: "Finance",  },
+      ],
+      downloadWidget: {
+        bgShape: "/images/shape/shape-24.png",
+        image: "/images/resource/book-3.png",
+        title: "The 2024 guide for Optimal Content",
+        spanTitle: "Management",
+        buttonText: "Download E-book",
+      },
+    },
+    content: {
+      subTitle: "trading software Session",
+      heading: "Unlocking Your Team's Potential with Effective trading-software Session ",
+      paragraphs: [
+        "Effective training sessions are a crucial component of any organization’s growth strategy, as they equip employees with the skills and knowledge necessary to excel in their roles.",
+        "Our training sessions are designed to be engaging, interactive, and tailored to meet the unique needs of your team.",
+        "From leadership development to technical skills training, our expert trainers will work with you to create a customized training program that drives real results.",
+      ],
+      image: "/images/services/service-7.jpg",
+    },
+  },
+  "erp-for-restaraunt":{
+    sidebar: {
+      categories: [
+        { title: "Tech Cloud ERP",},
+        { title: "Tech Cloud CRM", },
+        { title: "Tech Cloud POS",  },
+        { title: "Tech Cloud Ecommerce", },
+        { title: "Trading Software", },
+        { title: "Finance",  },
+      ],
+      downloadWidget: {
+        bgShape: "/images/shape/shape-24.png",
+        image: "/images/resource/book-3.png",
+        title: "The 2024 guide for Optimal Content",
+        spanTitle: "Management",
+        buttonText: "Download E-book",
+      },
+    },
+    content: {
+      subTitle: "trading software Session",
+      heading: "Unlocking Your Team's Potential with Effective trading-software Session ",
+      paragraphs: [
+        "Effective training sessions are a crucial component of any organization’s growth strategy, as they equip employees with the skills and knowledge necessary to excel in their roles.",
+        "Our training sessions are designed to be engaging, interactive, and tailored to meet the unique needs of your team.",
+        "From leadership development to technical skills training, our expert trainers will work with you to create a customized training program that drives real results.",
+      ],
+      image: "/images/services/service-7.jpg",
+    },
+  },
+  "erp-for-accounting-software":{
+    sidebar: {
+      categories: [
+        { title: "Tech Cloud ERP",},
+        { title: "Tech Cloud CRM", },
+        { title: "Tech Cloud POS",  },
+        { title: "Tech Cloud Ecommerce", },
+        { title: "Trading Software", },
+        { title: "Finance",  },
+      ],
+      downloadWidget: {
+        bgShape: "/images/shape/shape-24.png",
+        image: "/images/resource/book-3.png",
+        title: "The 2024 guide for Optimal Content",
+        spanTitle: "Management",
+        buttonText: "Download E-book",
+      },
+    },
+    content: {
+      subTitle: "trading software Session",
+      heading: "Unlocking Your Team's Potential with Effective trading-software Session ",
+      paragraphs: [
+        "Effective training sessions are a crucial component of any organization’s growth strategy, as they equip employees with the skills and knowledge necessary to excel in their roles.",
+        "Our training sessions are designed to be engaging, interactive, and tailored to meet the unique needs of your team.",
+        "From leadership development to technical skills training, our expert trainers will work with you to create a customized training program that drives real results.",
+      ],
+      image: "/images/services/service-7.jpg",
+    },
   }
-
+  
 };
+export const allProductsData = [
+  {
+    id: 1,
+    title: "ERP Software",
+    icon: "/images/products/erp-icon.png",
+  },
+  {
+    id: 2,
+    title: "CRM Software",
+    icon: "/images/products/crm-icon.png",
+  },
+  {
+    id: 3,
+    title: "HRMS Software",
+    icon: "/images/products/hrms-icon.png",
+  },
+  {
+    id: 4,
+    title: "POS System",
+    icon: "/images/products/pos-icon.png",
+  },
+  {
+    id: 5,
+    title: "Inventory Management",
+    icon: "/images/products/inventory-icon.png",
+  },
+  {
+    id: 6,
+    title: "Accounting Software",
+    icon: "/images/products/accounting-icon.png",
+  },
+];

@@ -103,13 +103,23 @@ const menus = [
   },
   {
     id: 6,
+    title: "Pricing",
+    link: "/pricing",
+  },
+  {
+    id: 7,
     title: "BI",
     link: "business-intelligence",
   },
   {
-    id: 7,
+    id: 8,
     title: "Contact",
     link: "/contact",
+  },
+  {
+    id: 9,
+    title: "Demo",
+    link: "/demo",
   },
 ];
 
