@@ -215,7 +215,7 @@ const ContactPage = () => {
                       onBlur={changeHandler}
                       onChange={changeHandler}
                       className="form-control form-field shadow-none"
-                      placeholder="Your Message"
+                      placeholder="Your Company"
                     />
                     {validator.message('subject', forms.subject, 'required')}
                   </div>

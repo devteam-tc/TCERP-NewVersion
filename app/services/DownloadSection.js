@@ -28,7 +28,7 @@ const DownloadSection = () => {
                     types of interview questions and formats.
                   </li>
                 </ul>
-                <button type="button" className="theme-btn btn-one">
+                <button type="button" className="theme-btn btn-one" disabled>
                   Download E-book
                 </button>
               </div>
@@ -38,7 +38,7 @@ const DownloadSection = () => {
               <div className="image-box">
                 <figure className="image">
                   <Image
-                    src="/images/servicescards/book-1.png"
+                    src="/images/servicescards/book-1.webp"
                     alt="E-book cover"
                     width={300}
                     height={400}

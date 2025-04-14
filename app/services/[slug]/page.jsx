@@ -6,8 +6,7 @@ import CustomCursor from "@/components/layout/CustomCursor";
 import AboutSection from './AboutSection';
 import FAQSection from './FAQSection';
 import Specifications from './Specifications';
-import DownloadSection from './DownloadSection';
-
+ 
 // Static service data
 const servicesData = {
   'web-development': {
@@ -51,8 +50,7 @@ const Page = ({ params }) => {
       </div>
       
       <FAQSection service={slug} />
-      <DownloadSection slug={slug} />
-      <Footer />
+       <Footer />
       <CustomCursor />
     </>
   );

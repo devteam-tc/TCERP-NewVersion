@@ -43,7 +43,7 @@ const ServiceCard = () => {
           <div className="accordion">
 
             <div className="accordionItem active">
-              <img src="/images/servicescards/hov1.png" alt="img" />
+              <img src="/images/services/digital.webp" alt="img" />
               <div className="conteBox">
                 <div className="box">
                   <div className="serialInner">
@@ -64,7 +64,7 @@ const ServiceCard = () => {
             </div>
 
             <div className="accordionItem">
-              <img src="/images/servicescards/hov1.png" alt="img" />
+              <img src="/images/services/web-app.webp" alt="img" />
               <div className="conteBox">
                 <div className="box">
                   <div className="serialInner">
@@ -84,7 +84,7 @@ const ServiceCard = () => {
               </div>
             </div>
             <div className="accordionItem">
-              <img src="/images/servicescards/hov1.png" alt="img" />
+              <img src="/images/services/mobile-app.webp" alt="img" />
               <div className="conteBox">
                 <div className="box">
                   <div className="serialInner">

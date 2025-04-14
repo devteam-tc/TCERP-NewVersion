@@ -6,6 +6,8 @@
 	}
 	h2 {
 		font-weight: 500;
+        font-size: 50px;
+        line-height: 116%;
 	}
 }
 .sub-badge {
@@ -45,6 +47,7 @@
     z-index: -1;
     animation: updown 2s linear infinite;
 }
+ 
 .about-content .about-information .about-info .icon {
     width: 54px;
     min-width: 54px;
@@ -141,11 +144,14 @@
 }
  
 .dueal-section {
-    background: #d4e3e5;
+    background: var(--bs-secondary-20);
 }
 
 .pt_120 {
     padding-top: 120px;
+    @media (max-width: 767px) {
+        padding-top: 60px;
+    }
 }
 .content_block_two .content-box {
     position: relative;
@@ -485,6 +491,9 @@
 }
 .pb_120 {
     padding-bottom: 120px;
+    @media only screen and (max-width: 767px) {
+        padding-bottom: 50px;
+    }
 }   
 .download-section.alternat-2 .inner-container {
     background: #fff;
