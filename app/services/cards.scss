@@ -31,7 +31,7 @@
           opacity: 0;
   
           .serialInner {
-            margin-left: -60px;
+            margin-left: -26px;
           }
   
           .serial {
@@ -248,3 +248,167 @@
   background: #5135FF;
 }
   
+
+
+// download
+.download-section.alternat-2 {
+  background: #EFF2E6;
+}
+.download-section {
+  position: relative;
+}
+@media only screen and (max-width: 767px) {
+  .download-section {
+      padding-bottom: 70px;
+  }
+}
+.pb_120 {
+  padding-bottom: 120px;
+  @media only screen and (max-width: 767px) {
+      padding-bottom: 50px;
+  }
+}   
+.pt_120 {
+  padding-top: 120px;
+  @media only screen and (max-width: 767px) {
+      padding-top: 50px;
+  }
+}   
+.download-section.alternat-2 .inner-container {
+  background: #fff;
+}
+
+.download-section .inner-container {
+  position: relative;
+  display: block;
+  background: #eff2e6;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 80px 40px 80px 100px;
+  @media only screen and (max-width: 991px) {
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  @media (max-width: 767px) {
+    padding: 40px 40px 80px 40px;
+  }
+  @media only screen and (max-width: 599px) {
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+}
+.download-section .inner-container .pattern-layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.download-section .content-box {
+  position: relative;
+  display: block;
+}
+.download-section .content-box h2 {
+  display: block;
+  font-size: 48px;
+  line-height: 53px;
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 767px) {
+  .download-section .content-box h2 {
+      font-size: 36px;
+      line-height: 44px;
+  }
+}
+.mb_30 {
+  margin-bottom: 30px;
+}
+.download-section .content-box .list-item li {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--title-color);
+  padding-left: 36px;
+  margin-bottom: 12px;
+}
+.download-section .content-box .list-item li:before {
+  position: absolute;
+  content: "";
+  background-image: url('/images/servicescards/start-green.png');
+  left: 0;
+  top: 1px;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+.theme-btn {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #111111 !important;
+  text-align: center;
+  border-radius: 50px;
+  padding: 15px 40px;
+  z-index: 1;
+  transition: all .5s ease-in-out 0s;
+}
+.theme-btn:after, .theme-btn:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  background: #26472B;
+  transition: all .5s ease;
+}
+
+.theme-btn:before {
+  left: 0;
+  transform: translateX(0);
+  transform-origin: left center;
+}
+.download-section .image-box {
+  position: relative;
+  display: block;
+}
+.download-section .image-box .image {
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 20px 24px 20px 0 rgba(0, 0, 0, .2);
+}
+figure {
+  margin: 0;
+}
+.download-section .image-box .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  transition-delay: .1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: .7s;
+  transition-property: all;
+}
+.icon-box.no-rotate {
+  transform: none !important;
+  transition: none !important;
+
+  svg {
+    transform: none !important;
+    transition: none !important;
+  }
+}

@@ -4,7 +4,7 @@ import Header from "@/components/layout/header/Header";
 import PageHeader from "@/components/layout/PageHeader";
 import ServiceCard from "./ServiceCard";
 import WorkingSteps from "./WorkingSteps";
-
+import DownloadSection from './DownloadSection';
  
 
 
@@ -21,6 +21,7 @@ const Page = () => {
 
       <ServiceCard />
       <WorkingSteps />
+       <DownloadSection />
       <Footer />
       <CustomCursor />
     </>

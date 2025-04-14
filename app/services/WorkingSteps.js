@@ -21,12 +21,12 @@ const WorkingSteps = () => {
               Our working steps
             </h2>
           </div>
-          <Link
+          {/* <Link
             href="/team"
             className="common-btn heading-font box-style d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold black overflow-hidden border rounded100"
           >
             Learn More
-          </Link>
+          </Link> */}
         </div>
 
         <div className="row g-4">
