@@ -68,20 +68,14 @@ const Menu = () => {
         </Link>
         <ul className="sub-menu list-unstyled">
         <li>
-            <Link href="/services">Digital Marketing</Link>
+            <Link href="/services/digital-marketing">Digital Marketing</Link>
           </li>
           <li>
-            <Link href="/services">Web Development</Link>
+            <Link href="/services/web-development">Web Development</Link>
           </li>
           <li>
-            <Link href="/services">Mobile App Development</Link>
-          </li>
-          <li>
-            <Link href="/services">Service Single</Link>
-          </li>
-          <li>
-            <Link href="/service-details">Service Details</Link>
-          </li>
+            <Link href="/services/app-development">Mobile App Development</Link>
+          </li> 
         </ul>
       </li> */}
 

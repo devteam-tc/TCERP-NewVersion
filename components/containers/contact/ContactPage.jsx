@@ -208,18 +208,15 @@ const ContactPage = () => {
                 </div>
                 <div className="col-lg-6">
                   <div className="input-group">
-                    <select
+                     <input required
+                      type="text"
                       name="subject"
                       value={forms.subject}
                       onBlur={changeHandler}
                       onChange={changeHandler}
                       className="form-control form-field shadow-none"
-                    >
-                      <option value="" disabled>Subject</option>
-                      <option value="Support">Support</option>
-                      <option value="Sales">Sales</option>
-                      <option value="General">General</option>
-                    </select>
+                      placeholder="Your Message"
+                    />
                     {validator.message('subject', forms.subject, 'required')}
                   </div>
                 </div>
