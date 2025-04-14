@@ -48,8 +48,7 @@ import ProductPageClientWrapper from "./ProductPageClientWrapper";
 export function generateStaticParams() {
   return Object.keys(productData).map((slug) => ({ slug }));
 }
-
-export default function ProductPageWrapper({ params }) {
+ function ProductPageWrapper({ params }) {
   const { slug } = params;
 
   if (!productData[slug]) {
@@ -59,3 +58,4 @@ export default function ProductPageWrapper({ params }) {
 
   return <ProductPageClientWrapper slug={slug} />;
 }
+export default ProductPageWrapper;

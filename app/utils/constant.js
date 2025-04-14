@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const productData = {
     'tech-cloud-erp': {
       productTitle: 'Tech Cloud Enterprise Resource Planning',
@@ -1110,3 +1112,9 @@ export const productDetailsData = {
   }
 
 };
+
+export const serviceDetailsData = {
+  "web-development": {
+    title: "sowmya is a bad girl"
+  }
+}
