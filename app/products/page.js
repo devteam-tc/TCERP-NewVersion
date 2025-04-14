@@ -10,7 +10,7 @@ import Header from "@/components/layout/header/Header";
 import "./AllProducts.scss"; // SCSS module import
 import { FaArrowRight } from "react-icons/fa";
 import PageHeader from "@/components/layout/PageHeader";
-import WorkProcessSection from "./WorkProcess";
+// import WorkProcessSection from "./WorkProcess";
 
 const AllProductsSection = () => {
   const scrollToTop = () => {
@@ -50,7 +50,7 @@ const AllProductsSection = () => {
           ))}
         </Row>
       </div>
-    <WorkProcessSection />
+    {/* <WorkProcessSection /> */}
       <Footer />
     </>
   );

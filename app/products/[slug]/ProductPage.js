@@ -128,7 +128,7 @@ const ProductPage = ({ breadcrumbTitle }) => {
                     </div>
 
                     {/* Download Widget */}
-                    <div className="download-widget mt-5">
+                    <div className="download-widget mt-5 mb-5">
                       <div
                         className="shape"
                         style={{
@@ -141,7 +141,7 @@ const ProductPage = ({ breadcrumbTitle }) => {
                             src={sidebar?.downloadWidget?.image || ""}
                             alt="Book"
                             width={200}
-                            height={200}
+                            height={300}
                           />
                         </figure>
                         <h4>

@@ -1,10 +1,12 @@
+import { title } from "process";
+
 export const productData = {
     'tech-cloud-erp': {
       productTitle: 'Tech Cloud Enterprise Resource Planning',
       heading: "ERP Solutions",
       description: "Our ERP solutions are designed to streamline and optimize operations.",
       imageSrc : "/products/products_main_img.webp",
-      // mainTitle : "Our ERP Overview",
+      mainTitle : "Our ERP Overview",
       title : "Cloud Based ERP Software",
       productDescription: [
         "Tech Cloud ERP offers secure and scalable cloud-based ERP software to streamline business operations. Our solution integrates key functions like sales, inventory, accounting and HR into a unified platform, providing real-time insights and enhanced flexibility. Tailored for industries such as manufacturing, retail and logistics, our ERP software helps businesses improve efficiency, reduce costs and drive growth.",
@@ -1255,6 +1257,12 @@ export const productDetailsData = {
   }
   
 };
+
+export const serviceDetailsData = {
+  "web-development": {
+    title: "sowmya is a bad girl"
+  }
+}
 export const allProductsData = [
   {
     id: 1,

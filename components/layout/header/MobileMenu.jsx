@@ -87,17 +87,17 @@ const menus = [
       {
         id: 31,
         title: "Digital Marketing",
-        link: "/services",
+        link: "/services/digital-marketing",
       },
       {
         id: 32,
         title: "Web Development",
-        link: "/service-details",
+        link: "/services/web-development",
       },
       {
         id: 33,
         title: "Mobile App Development",
-        link: "/service-details",
+        link: "/services/app-development",
       },
     ],
   },

@@ -39,7 +39,7 @@ const Menu = () => {
       </li>
 
       <li className="nav-item">
-        <Link className="nav-link" href="/about">
+        <Link className="nav-link" href="/business-intelligence">
           BI
         </Link>
       </li>
@@ -49,14 +49,19 @@ const Menu = () => {
           Services <i className="fas fa-chevron-down"></i>
         </Link>
         <ul className="sub-menu list-unstyled">
-          <li><Link href="/services/digital-marketing">Digital Marketing</Link></li>
-          <li><Link href="/services/web-development">Web Development</Link></li>
-          <li><Link href="/services/app-development">Mobile App Development</Link></li>
-          <li><Link href="/services">All Services</Link></li>
+        <li>
+            <Link href="/services/digital-marketing">Digital Marketing</Link>
+          </li>
+          <li>
+            <Link href="/services/web-development">Web Development</Link>
+          </li>
+          <li>
+            <Link href="/services/app-development">Mobile App Development</Link>
+          </li> 
         </ul>
       </li>
 
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link className="nav-link" href="#">
           Blogs
         </Link>
@@ -64,7 +69,7 @@ const Menu = () => {
           <li><Link href="/blog">Blog Single</Link></li>
           <li><Link href="/blog-details">Blog Details</Link></li>
         </ul>
-      </li>
+      </li> */}
 
       <li className="nav-item">
         <Link className="nav-link" href="/contact">
@@ -73,7 +78,7 @@ const Menu = () => {
       </li>
 
       <li className="nav-item">
-        <Link className="nav-link" href="/contact">
+        <Link className="nav-link" href="/demo">
           Demo
         </Link>
       </li>
