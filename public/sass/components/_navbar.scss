@@ -14,7 +14,7 @@
 		.header-one-container {
 			background-color: var(--bs-white-color);
 			box-shadow: 0 4px 10px #f1d6cf;
-			max-width: 1320px;
+			max-width: max-content;
 			border-radius: 80px;
 			padding: 0 60px;
 			// box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -516,11 +516,16 @@
 	.ep-header-section-two .navbar::before {
 		width: 25.5%;
 	}
+	.ep-header-section .navbar .header-one-container {
+		max-width: 1230px;
+		padding: 0 35px;
+	}
+
 }
 
 @media (max-width: 1399.98px) {
 	.ep-header-section .navbar .header-one-container {
-		max-width: 1140px;
+		max-width: 1230px;
 		padding: 0 35px;
 	}
 
@@ -538,6 +543,11 @@
 }
 
 @media (max-width: 1199.98px) {
+
+	.ep-header-section .navbar .header-one-container {
+		max-width: 1230px;
+		padding: 0 35px;
+	}
 
 	.mobile-menu-area .mobile-topbar {
 		background-color: #fff;

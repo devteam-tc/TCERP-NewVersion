@@ -83,8 +83,10 @@ const ProductPage = ({ breadcrumbTitle }) => {
   // ✅ Dynamic breadcrumbs based on product
   const breadcrumbs = [
     { label: 'Home', link: '/' },
+    { label: 'Products', link: '/products' },
     { label: product?.heading || 'Tech Cloud ERP', link: null }
   ];
+  
 
   const faqSchema = generateFAQSchema(product.faqs);
 
