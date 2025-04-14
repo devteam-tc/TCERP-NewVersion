@@ -4,13 +4,13 @@ import   './bi.scss';
 const services = [
   {
     icon: 'flaticon-big-data',
-    title: 'Big Data',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.',
+    title: 'Advanced Analytical Tools',
+    description: 'Leverage sophisticated analytical capabilities, including predictive modeling and trend analysis, directly within your ERP system. These tools help anticipate market shifts, optimize operations and identify new business opportunities.',
   },
   {
     icon: 'flaticon-data-analytics',
-    title: 'Data Analytics',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.',
+    title: 'Centralized Information Management',
+    description: 'Break down data silos by consolidating information from various departments into a single, unified system. This centralization ensures consistency, reduces redundancy and enhances data accuracy across the organization.',
   },
   {
     icon: 'flaticon-document',
@@ -19,18 +19,18 @@ const services = [
   },
   {
     icon: 'flaticon-chart',
-    title: 'Business Intelligence',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.',
+    title: 'Enhanced Collaboration Across Teams',
+    description: 'Facilitate seamless collaboration by providing a unified platform where teams can access shared insights. BI within ERP systems promotes transparency and aligns departmental goals, fostering a cohesive work environment.',
   },
   {
     icon: 'flaticon-science',
-    title: 'Data Science',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.',
+    title: 'Scalable and Flexible Solutions',
+    description: 'Adapt to changing business needs with scalable BI-ERP integrations. Whether expanding operations or adjusting to market dynamics, these systems offer the flexibility required to support growth and innovation.',
   },
   {
     icon: 'flaticon-data-management',
-    title: 'Data Management',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.',
+    title: 'Improved Decision-Making Accuracy',
+    description: 'With BI integrated into ERP, decision-makers gain access to clear, visualized data that highlights key trends, KPIs and exceptions. This clarity reduces guesswork and helps leaders make faster, more confident strategic decisions.',
   }
 ];
 

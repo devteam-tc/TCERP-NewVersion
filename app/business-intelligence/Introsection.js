@@ -10,7 +10,7 @@ const BusinessSection = () => {
       <div className="container">
         <div className="sectionTitle mb-lg-4 mb-0 pb-lg-2">
           <h2 className="wow fadeInUp black fw-bold" data-wow-delay=".3s">
-            Why we are different from others
+          Advanced BI for Smarter Decisions
           </h2>
         </div>
 
@@ -26,30 +26,30 @@ const BusinessSection = () => {
           <div className="col-lg-6">
             <div className="businessContent">
               <p className="pra">
-                Applies deep technological expertise in machine learning and artificial intelligence development services to help clients deliver personalization and customer convenience at scale.
+              Tech Cloud ERP’s Business Intelligence is designed to give you more than just reports, it gives you clarity. With real-time dashboards, simple reporting tools and data directly connected to your ERP system, you can make informed decisions faster. Whether you're managing operations, sales, or finance, our BI tools help you turn everyday data into smart, strategic actions.
               </p>
 
               <div className="row g-4">
                 {[
                   {
                     icon: '/bi/business-icon1.png',
-                    title: 'End to end development',
-                    desc: 'Your time is precious, and we that cleaning is really just one more',
+                    title: 'Access for Every Team Member',
+                    desc: 'Enable every user to view real-time insights and act with confidence.',
                   },
                   {
                     icon: '/bi/business-icon2.png',
-                    title: 'Technology source',
-                    desc: 'Your time is precious, and we that cleaning is really just one more',
+                    title: 'Information Management',
+                    desc: 'Centralized data for full visibility and smarter business planning.',
                   },
                   {
                     icon: '/bi/business-icon3.png',
-                    title: 'Information manage',
-                    desc: 'Your time is precious, and we that cleaning is really just one more',
+                    title: 'Networked Business Intelligence',
+                    desc: 'Seamlessly integrate data from all sources for deeper intelligence.',
                   },
                   {
                     icon: '/bi/business-icon4.png',
-                    title: 'Network business',
-                    desc: 'Your time is precious, and we that cleaning is really just one more',
+                    title: 'Technology Source',
+                    desc: 'Integrated ERP reports offer real-time insights from centralized data.',
                   },
                 ].map((item, index) => (
                   <div key={index} className="col-sm-6">
