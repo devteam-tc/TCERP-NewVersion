@@ -893,7 +893,555 @@ export const productData = {
 
     ],
     },
-    
+    'financial-management-systems': {
+      productTitle: 'Tech Cloud Financial Management Systems',
+      heading: "Financial Management Solutions",
+      description: "Accelerate financial success with our ERP finance module—real-time insights and automation for growth.",
+      imageSrc : "/products/Finance-pdt.webp",
+      mainTitle : "Finance Provide You Best Services",
+      title : "Tech Cloud Finance",
+      productDescription: [
+        "Tech Cloud Finance ERP is designed to help companies in streamlining complex financial procedures, such as creating revenue graphs and keeping track of accounts. In addition to giving real-time data on capacity, employee performance and overall financial health, our cloud-based software integrates seamlessly.",
+        "Tech Cloud Finance ERP offers a robust, cloud-based platform tailored to streamline financial operations. With features like revenue tracking, account management and real-time data insights, our software is designed to empower businesses with the tools they need for financial success."
+      ],
+      cards: [
+        {
+          image: "/products/Finance/functionalities.png",
+          title: "Functionalities",
+          text: "We provide tools to optimize financial operations, with real-time reporting, automated billing and seamless data integration for enhanced efficiency.",
+          items: [
+            "Real-time reporting for accurate insights.",
+            "Automated billing for efficiency.",
+            "Integrated data for informed decisions.",
+          ]
+        },
+        {
+          image: "/products/Finance/report.png",
+          title: "Inquiries & Reports",
+          text: "We provide tools to simplify inquiries and generate detailed reports, delivering insights to support informed financial decisions.",
+          items: [
+            "Comprehensive inquiries for valuable insights.",
+            "Detailed reports to guide decisions.",
+            "Accurate data for better financial strategies.",
+          ]
+        },
+        {
+          image: "/products/Finance/features.png",
+          title: "Advanced Features",
+          text: "We offer advanced tools that elevate financial management, tailoring solutions to meet your business needs for optimized operations.",
+          items: [
+            "Advanced tools for superior financial management.",
+            "Customizable features to fit business requirements.",
+            "Leverage cutting-edge technology for efficiency."
+          ]
+        },
+        {
+          image: "/products/Finance/report.png",
+          title: "Multi-Currency",
+          text: "We provide robust multi-currency support, enabling smooth management of global transactions with accuracy and seamless international operations.",
+          items: [
+            "Manage global transactions with ease.",
+            "Ensure precise financial reporting across markets.",
+            "Streamline international operations for smooth business workflows.",
+          ]
+        }
+      ],
+      tabData: {
+        requirement: {
+            image: "/products/Finance/financerequire.webp",
+            content: [
+                { title: 'Identify Financial Objectives:', description: "Understand the client's financial goals, challenges and needs." },
+                { title: 'Compliance Review:', description: 'Engage with stakeholders to assess regulatory requirements and compliance needs.' },
+                { title: 'Tailored Solutions Design:', description: 'Develop solutions that cater to the specific financial management needs of the business.' }
+            ],
+        },
+        implementation: {
+            image: "/products/Finance/financeimplementatiin.webp",
+            content: [
+                { title: 'System Configuration:', description: 'Install and set up the financial management system according to specifications.' },
+                { title: 'User Training:', description: 'Provide comprehensive training to ensure users are proficient in using the system.' },
+                { title: 'Documentation Development:', description: 'Create detailed documentation for system processes and user guidelines.' }
+            ],
+        },
+        goLive: {
+            image: "/products/Finance/onboarding.webp",
+            content: [
+                { title: 'System Activation:', description: 'Activate the new financial management system for live operations.' },
+                { title: 'Performance Monitoring:', description: 'Monitor system performance to identify any issues during the initial phase.' },
+                { title: 'Support Availability:', description: 'Ensure on-site and remote support for users during the go-live period.' }
+            ],
+        },
+        postGoLive: {
+            image: "/products/Finance/financepostlive.webp",
+            content: [
+                { title: 'Continuous Support:', description: 'Provide ongoing support to address any post-implementation issues.' },
+                { title: 'System Optimization:', description: 'Fine-tune system features based on user feedback and performance metrics.' },
+                { title: 'Updates & Maintenance:', description: 'Regularly update the system to include new features and maintain security standards.' }
+            ],
+        }
+    },
+    tabsHeadings: {
+        requirement: "Requirement Gathering",
+        implementation: "Implementation & Training",
+        goLive: "Go Live & Onboarding",
+        postGoLive: "Post-Go-Live Support"
+    },
+
+      // FAQ Section
+      faqs: [
+        {
+          question: "What is the most widely used software in finance?",
+          answer: "Best Financial Management Software Xero Accounting Software. Expensify Expense Management.PlanGuru Budgeting.Approve.com Spend Management.FreshBooks Billing and Payment Processing.BrightPay Payroll Management.Gusto Tax Preparation.SOS Inventory Tracking.",
+        },
+        {
+          question: "Which is the best financial software?",
+          answer: "FreshBooks. FreshBooks is one of the top small business accounting choices. .Quicken. Quicken is the class of personal finance software. .YNAB. YNAB aims to help users of the \"paycheck to paycheck\" grind.Moneydance.Banktivity.Qapital.Mint.Personal Capital.",
+        },
+        {
+          question: "What Are the Key Advantages of Using Finance Software for My Business?",
+          answer: "A finance software automates major financial functions such as accounting, budgeting, tax compliance, and reporting. You will have real-time visibility into the financial health of your business, reduce possible human errors, and streamline workflow processes. Using finance software helps you with data-driven decision making and cash flow tracking, thus enhancing overall financial management.",
+        },   
+        {
+          question: "How Does Finance Software Enhance Financial Reporting?",
+          answer: "Finance software allows automation of financial reporting and will help you generate customized reports with balance sheets, profit and loss statements, or cash flow reports. Its analytics are already in-built, so you can get deeper insights into your financial data; it allows you to track your KPI in real-time, predict trends, and be proactive in the decisions you'll make about them.",
+        }, 
+        {
+          question: "Does finance software integrate well with other business tools?",
+          answer: "Yes! A piece of finance software will integrate with CRM systems, inventory management software, payroll systems, and banking platforms, among others. This integration causes all the data to move automatically between various systems, thus reducing manual entry to allow for better accuracy and more updated financial information.",
+        }, 
+        {
+          question: "How Does Finance Software Help People Control Expenses?",
+          answer: "Finance software is used for tracking and categorization of expenses, automation of expense approvals, and thereby generation of expense reports. Some of it can be used for tracking of spending in comparison with budgeted amounts and highlighting unusual or unapproved expenses. Automatic tracking of expenses reduces errors and also improves control of company spending.",
+        }, 
+        {
+          question: "How do I customize my finance software to suit my business needs?",
+          answer: "Our finance software is of high customization. You can even modify the dashboards, reports and workflows to suit your particular business needs. Whether you require some customized charting, certain tax configurations or unique budgetary controls, our software will adapt to your needs.",
+        }, 
+        {
+          question: "How Does Finance Software Help Manage Payroll?",
+          answer: "Finance software puts the payroll function in a bank account by computing salaries, deductions (taxes and other benefits), and pay disbursement. Additionally, the finance software will always ensure that your business adheres to all the local and federal tax regulations. You will also get payroll reports, direct deposit payments, and the ability to control employee bonuses with this system."
+        },
+      ],
+    },
+    'integrated-erp-software': {
+        productTitle: 'Tech Cloud Integrated ERP Software',
+        heading: "Integrated ERP Solutions",
+        description: "Enhance your business with integrated ERP, CRM and E- Commerce solutions.",
+        imageSrc : "/products/integrated-pdt.webp",
+        mainTitle : "Comprehensive Tech Cloud ERP Solutions",
+        title : "Tech Cloud Integrated Cloud Based ERP",
+        productDescription: [
+          "Our integrated cloud-based ERP solutions at Tech Cloud are made to optimize your company's departmental business operations. Our solution provides a single platform for managing sales, inventories, human resources, financing and more, facilitating easy collaboration and remote access to real-time data. With the help of our cloud-based ERP, you can increase productivity.",
+          "We offer an ERP solution that is completely adaptable to your particular business requirements. Our integrated solution guarantees data consistency across all corporate operations, streamlines intricate workflows and automates repetitive chores. Tech Cloud ERP gives you a scalable, secure and future-ready platform so business can concentrate on expansion while we manage your backend operations."
+        ],
+        cards: [
+          {
+            image: "/products/integrated/crm.png",
+            title: "CRM",
+            text: "We provide an integrated CRM with Tech Cloud ERP to enhance customer relationships, manage interactions and improve satisfaction and loyalty.",
+            items: [
+              "Access unified customer data for better insights.",
+              "Automate customer notifications and follow-ups.",
+              "Track customer interactions and purchase history seamlessly.",
+            ]
+          },
+          {
+            image: "/products/integrated/point.png",
+            title: "Point of Sale (POS",
+            text: "Our POS solution integrates with Tech Cloud ERP to optimize sales, capture client info, handle transactions and manage real-time inventory.",
+            items: [
+              "Real-time inventory management ensures precise stock levels.",
+              "Complete transactions in a timely and effective manner.",
+              "Create thorough analytics and sales reports to gain understanding.",
+            ]
+          },
+          {
+            image: "/products/integrated/ecommerce.png",
+            title: "E-Commerce Integration",
+            text: "We offer seamless eCommerce integration with Tech Cloud ERP, automating order management and real-time product updates.",
+            items: [
+              "Automatically sync orders and inventory across platforms.",
+              "Keep products updated in real-time for accurate listings.",
+              "Enhance customer experience with timely notifications and updates.",
+            ]
+          }
+        ],
+        tabData: {
+            requirement: {
+                image: "/products/integrated/integration.webp",
+                content: [
+                    { title: 'Define Integrated Needs:', description: "Assess client requirements for integrating various systems into a unified ERP solution." },
+                    { title: 'Collaboration with Teams:', description: 'Work with different departments to gather input and ensure comprehensive requirements.' },
+                    { title: 'Scalable Solutions Design:', description: 'Develop flexible solutions that can scale with the business needs.' }
+                ],
+            },
+            implementation: {
+                image: "/products/integrated/system.webp",
+                content: [
+                    { title: 'ERP Customization:', description: 'Customize the ERP system to align with business processes and workflows.' },
+                    { title: 'Cross-Department Training:', description: 'Train all relevant teams on the integrated system for a smooth transition.' },
+                    { title: 'User Documentation:', description: 'Provide detailed manuals and guidelines for users to reference post-implementation.' }
+                ],
+            },
+            goLive: {
+                image: "/products/integrated/integrationlaunch.webp",
+                content: [
+                    { title: 'Integrated System Launch:', description: 'Execute the launch of the integrated ERP system across all departments.' },
+                    { title: 'System Performance Monitoring:', description: 'Continuously monitor the system for performance and user feedback during the initial phase.' },
+                    { title: 'Immediate User Assistance:', description: 'Offer on-the-spot support to resolve any issues that arise during go-live.' }
+                ],
+            },
+            postGoLive: {
+                image: "/products/integrated/postinte.webp",
+                content: [
+                    { title: 'Continuous Improvement:', description: 'Implement changes based on user feedback to enhance system performance.' },
+                    { title: 'System Audits:', description: 'Regularly audit the system to ensure compliance and effectiveness.' },
+                    { title: 'Future Upgrades Planning:', description: 'Plan and implement updates to maintain system relevance and security.' }
+                ],
+            }
+        },
+        tabsHeadings: {
+            requirement: "Integration Needs Analysis",
+            implementation: "System Integration Implementation",
+            goLive: "Integration Launch & Monitoring",
+            postGoLive: "Post-Integration Support"
+        },
+           // FAQ Section
+    faqs: [
+      {
+        question: "What is integrated ERP software?",
+        answer: "An integrated ERP software is a single application that controls all aspects of a business, ensuring seamless data flow and informed decision-making. It increases efficiency and streamlines processes, ensuring smooth operations.",
+      },
+      {
+        question: "What is the ERP integration?",
+        answer: "ERP integration is the process of connecting a company's ERP software with other specialized applications and processes throughout the entire business.",
+      },
+      {
+        question: "What is an ERP system integrator?",
+        answer: "An ERP system integrator, specializing in specific software components like Dynamics 365, Oracle, SAP, or Sage, oversees, manages, installs, and maintains information systems supporting a company's business processes.",
+      },   
+      {
+        question: "What is an example of ERP software?",
+        answer: "ERP software, such as Productive for professional services businesses, Oracle NetSuite, SAP Business One, and Microsoft Dynamics 365, streamline operations, improve efficiency, and support decision-making.",
+      }, 
+      {
+        question: "Why CRM is integrated with ERP?",
+        answer: "CRM and ERP integration offers a strategic competitive edge by enabling faster, better, and personalized customer experiences. This allows sales representatives to complete orders faster, enhancing the overall purchasing experience and enhancing customer satisfaction.",
+      }, 
+      {
+      question :"What type of software can be integrated with ERP software?",
+      answer :"ERP software can integrate various systems such as CRM, eCommerce, SCM, WMS, TMS, financial systems, HCM, and marketing automation platforms, connecting them to streamline operations and improve overall business performance.",
+      },
+      {
+        question :"Which is the most expensive ERP?",
+        answer :"SAP S/4HANA is considered the most expensive ERP system due to its Enterprise Focus, designed for large enterprises, while SAP Business One and SAP Business ByDesign cater to small to mid-sized companies.",
+        },
+        {
+          question :"What is the most commonly used ERP?",
+          answer :"Common ERP deployment types include hybrid, multi-cloud, Oracle ERP Cloud, Microsoft Dynamics 365, Acumatica, NetSuite, and SAP S/4 HANA.",
+          },
+          {
+            question :"What are the three main ERP systems?",
+            answer :"The three main ERP systems are cloud ERP, on-premise ERP, and hybrid ERP, each with different deployment models, and their functions vary depending on the specific deployment model.",
+          },
+          {
+          question :"Is there free ERP software?",
+          answer :"Flowlu is a free ERP software that offers various features such as task and project management, invoicing and accounting, client and sales tracking, knowledge management, cash flow forecasting, and analytics.",
+         },
+              
+    ],
+    },
+    'erp-for-restaraunt': {
+        productTitle: 'Tech Cloud ERP For Restaraunt Business',
+        heading: "Restaraunt ERP Solutions",
+        description: "Our expert team ensures seamless expansion with restaurant management software.",
+        imageSrc : "/products/resturant-pdt.webp",
+        mainTitle : "Streamlined Restaurant Management Solutions",
+        title : "Tech Cloud Restaurant ERP",
+        productDescription: [
+          "We offer Tech Cloud Restaurant ERP, a complete software program made to make restaurant management easier in every way. Our ERP solution gives restaurant owners a single platform to handle all of their management needs, including inventory control, order processing, staff scheduling and customer relationship management. By using our solution, you can guarantee more efficient operations, cut down on waste, maximize stock levels and boost service effectiveness—all of which will improve the general client experience.",
+          "Our restaurant enterprise resource planning software is made to specifically address the demands of the hospitality sector. We help you increase profitability, reduce errors and save time by automating important procedures. Whether you manage a small cafe or a large chain with multiple locations, Tech Cloud Restaurant ERP makes sure everything goes smoothly. Give your customers an outstanding dining experience by letting us help you take charge of your operations with data-driven decisions and real-time information."
+        ],
+          cards: [
+            {
+              image: "/products/restaurant/point-of-service.png",
+              title: "POS",
+              text: "Our user-friendly POS system streamlines shop operations, managing transactions and inventory to improve customer experiences.",
+              items: [
+                "Manage billing, updates and reservations.",
+                "Monitor real-time visitor status and table allocation.",
+                "Simplify cancellations and reservations for efficient service.",
+              ]
+            },
+            {
+              image: "/products/restaurant/purchase.png",
+              title: "Purchase Management",
+              text: " We provide a complete solution to streamline procurement, from inventory tracking to vendor selection, boosting productivity and reducing costs.",
+              items: [
+                "Handle purchase requests and approvals easily.",
+                "Monitor receipts against requests.",
+                "Simplify interpersonal purchase requests.",
+              ]
+            },
+            {
+              image: "/products/restaurant/inventory-management.png",
+              title: "Inventory Management",
+              text: "Our advanced inventory management solution optimizes your supply chain, helping you effectively track and manage goods for smooth operations.",
+              items: [
+                "Track material flows in and out.",
+                "Monitor scrap or returns.",
+                "Automatically generate requisition slips.",
+              ]
+            },
+            {
+              image: "/products/restaurant/receipe.png",
+              title: "Recipe Preparation",
+              text: "Simplify cooking procedures with our recipe preparation software, making it easy to create and maintain recipes for consistent, delicious results.",
+              items: [
+                "Feed recipes with standard quantities.",
+                "Automatically generate multi-quantity requests.",
+                "Convert quantities with ease.",
+              ]
+            },
+            {
+              image: "/products/restaurant/time-management.png",
+              title: "Reservation Management",
+              text: "Streamline reservations with our easy-to-use system, enhancing customer satisfaction from booking to guest check-in.",
+              items: [
+                "Manage guests and availability promptly.",
+                "Prevent overbooking with online booking.",
+                "Send confirmation and reservation number to guests.",
+              ]
+            },
+            {
+              image: "/products/restaurant/payroll.png",
+              title: "HR & Payroll Management",
+              text: "Our integrated HR and payroll solutions streamline processes, saving time and money on payroll processing and employee onboarding.",
+              items: [
+                "Administration of employee rosters, holidays and shifts.",
+                "Management of Employee Detail Information.",
+                "Deduction management and time.",
+              ]
+            }
+          ],
+          tabData: {
+            requirement: {
+                image:"/products/restaurant/resturantassesment.webp",
+                alt: "Requirement Gathering Image",
+                content: [
+                    { title: 'Understanding Restaurant Needs:', description: "Assess the unique operational challenges and goals specific to the restaurant." },
+                    { title: 'Collaborative Requirement Gathering:', description: 'Work closely with restaurant staff to document detailed requirements.' },
+                    { title: 'Customized ERP Solutions:', description: 'Tailor the ERP system to fit the specific workflow of the restaurant.' }
+                ],
+            },
+            implementation: {
+                image: "/products/restaurant/resturantimple.webp",
+                alt: "Implementation Image",
+                content: [
+                    { title: 'ERP Setup and Configuration:', description: 'Install and configure the ERP system tailored for restaurant operations.' },
+                    { title: 'Hands-On Staff Training:', description: 'Conduct training sessions for staff to ensure effective system usage.' },
+                    { title: 'Comprehensive User Documentation:', description: 'Provide detailed documentation for reference during and after implementation.' }
+                ],
+            },
+            goLive: {
+                image: "/products/restaurant/resturantgolive.webp",
+                alt: "Go Live Image",
+                content: [
+                    { title: 'System Go Live Activation:', description: 'Officially transition to the new ERP system for restaurant management.' },
+                    { title: 'Real-Time Operational Monitoring:', description: 'Closely monitor system performance to address any immediate issues.' },
+                    { title: 'Dedicated User Support:', description: 'Offer support to restaurant staff during the transition period to ensure smooth operations.' }
+                ],
+            },
+            postGoLive: {
+                image: "/products/restaurant/resturantpostlive.webp",
+                alt: "Post Go Live Image",
+                content: [
+                    { title: 'Continued Technical Support:', description: 'Provide ongoing assistance to resolve any post-launch challenges.' },
+                    { title: 'Feedback Collection and Adaptation:', description: 'Gather feedback from users for continuous improvement of the ERP system.' },
+                    { title: 'Regular System Updates:', description: 'Schedule updates to keep the ERP system aligned with the latest industry practices.' }
+                ],
+            },
+        },
+        tabsHeadings: {
+            requirement: "Restaurant Needs Assessment",
+            implementation: "Implementation Process",
+            goLive: "Go Live Transition",
+            postGoLive: "Post-Go-Live Support"
+        },
+            // FAQ Section
+    faqs: [
+      {
+        question: "What is Restaurant ERP Software and How Does it Benefit My Restaurant?",
+        answer: "Restaurant ERP software is defined as an integrated system that manages food service operations in an effective manner, including and not limited to inventory management, order processing, scheduling of employees, billing, even customer relationship management (CRM). Financial reporting is included as well and helps make the most of data-driven decisions so that profitability and the level of customer satisfaction can be improved.",
+      },
+      {
+        question: "How Can Restaurant ERP Software Help Me Improve My Operations in a Restaurant?",
+        answer: "Restaurant ERP software streamlined several kinds of operations in the restaurant, from inventory management to scheduling an appropriate workforce for orders, and even financial tracking. Automating some of the tasks and including most of its basic functionalities reduces the need to manually do it, increases accuracy, and is basically accompanied with a total efficiency that gives you time to better focus on delivering excellent customer services.",
+      },
+      {
+        question: "What is Restaurant ERP Software?",
+        answer: "Restaurant ERP represents an integrated software system specially designed to make easier all of the restaurant's business processes. All the functions like inventory management, order processing, staff scheduling, billing, CRM, financial reporting, and analytics can be handled and maintained in one single system. A centralized system allows restaurant owners and managers to achieve efficiently the given business processes in real-time, make correct decisions, and optimize workflows and customer service.",
+      },   
+      {
+        question: "Why Restaurants Require Restaurant ERP?",
+        answer: "Today, restaurant ERP software is the most important in restaurant businesses. With all cutthroat competitions in restaurants, running a well-efficiency and customer-focused operation becomes more important than ever. Restaurant ERP software helps business streamline their operations, eliminate unnecessary costs, and advance customer experience. Restaurant owners will optimize resources, boost productivity, and gain an edge over the competitors, leading to profits and steady growth of the business.",
+      }, 
+      {
+        question: "Why Restaurant ERP Software Is Important to Your Business?",
+        answer: "Restaurant ERP is the best method of optimization in a highly competitive restaurant business. With increasing competition in restaurants, running an operation has become more efficient and customer-focused. Restaurant ERP software helps firms operate more smartly, save on costs, and make the dining experience better for customers. Restaurant owners can optimize resources, boost productivity, and gain competitive leverage that leads to higher profits and sustained business growth.",
+      }, 
+      {
+      question :"How Does Restaurant ERP Support Marketing and Promotion?",
+      answer :"Restaurant ERP software helps you track the purchase history and preferences of each customer so that you can plan targeted marketing campaigns and promotions. Furthermore, ERP software promotes the automation of loyalty programs and email marketing so that the customer does not lose interest and is reminded about visiting the same restaurant repeatedly.",
+      },
+      {
+        question :"How Does Restaurant ERP Enhance Reporting and Analytics of My Restaurant?",
+        answer :"Restaurant ERP tool provides restaurant operator real-time analytics reporting on current key performance indicators to understand sales trends, customer satisfaction, level of inventory, and gross margins. All this helps keep you informed of the most appropriate decisions and spotting trends early.",
+        },
+        {
+          question :"How Does Restaurant ERP Software Enhance Menu Management and Pricing?",
+          answer :"Restaurant ERP enables the analysis of sales data, allowing you to figure out which menu items are most popular and profitable for your restaurant. It further assists with pricing optimization through calculation of food cost percentage to adjust menu prices for better profitability without losing competitiveness in their market.",
+          },
+    ],
+    },
+    'erp-for-accounting-software':{
+        productTitle: 'Tech Cloud ERP for Accounting Software',
+        heading: "ERP for Accounting Software",
+        description: "Our ERP accounting software streamlines finances with automation, real-time insights and seamless integration.",
+        imageSrc : "/products/accounting-pdt.webp",
+        mainTitle : "Reliable, Efficient Delivery",
+        title : "Tech Cloud Accounting Software",
+        productDescription: [
+          "We at Tech Cloud ERP offer a powerful accounting software program that makes financial management easier for companies of all kinds. Real-time, accurate tracking of income, expenses and transactions is made possible by our software. Businesses can make wise decisions to guarantee development and sustainability with the help of advanced bookkeeping, tax compliance and financial reporting systems.",
+          "Our cloud-based solution provides easy access to financial data anytime and anywhere, all with top-notch security. Be it a small business or an organization big in all respects, our accounting software streamlines the process, reduces errors and ensures compliance, helping you focus on achieving your own business goals."
+        ],
+          cards: [
+            {
+              image: "/products/Accouting/module.png",
+              title: "Modules",
+              text: "Our ERP modules help streamline operations, boosting efficiency and success by managing sales, purchasing, inventory and finance.",
+              items: [
+                "Easily handle inventory, purchases and sales.",
+                "Improve financial processes to achieve better results.",
+                "Utilize integrated management technologies to streamline procedures.",
+              ]
+            },
+            {
+              image: "/products/Accouting/feature.png",
+              title: "Features",
+              text: " We offer web-based software with advanced features to streamline your operations and ensure efficiency.",
+              items: [
+                "Enjoy cloud computing with mobile and tablet compatibility.",
+                "Automatic data backups for security.",
+                "Seamlessly manage GST with flexible incorporation.",
+              ]
+            },
+            {
+              image: "/products/Accouting/support.png",
+              title: "Support",
+              text: " We provide training, 24/7 support, quick responses and quick updates.",
+              items: [
+                "24/7 support with quick response times.",
+                "Comprehensive training for seamless onboarding.",
+                "Fast updates to keep your system running smoothly.",
+              ]
+            },
+            {
+              image: "/products/Accouting/pricing.png",
+              title: "Pricing",
+              text: "We provide a feature-rich, fully integrated solution at a reasonable price of just Rs. 18,000 only.",
+              items: [
+                "Packed with features to meet your needs.",
+                "Easy operations with seamless integration.",
+                "Unmatched value at an affordable price.",
+              ]
+            }
+          ],
+          tabData: {
+            requirement: {
+                image: "/products/Accouting/accounting.webp",
+                alt: "Accounting Needs Image",
+                content: [
+                    { title: 'Understanding Client Objectives:', description: "Identify key financial goals and accounting practices." },
+                    { title: 'Compliance Requirements:', description: 'Document necessary compliance with financial regulations and standards.' },
+                    { title: 'Customization Expectations:', description: 'Gather requirements for any specific accounting features needed.' },
+                ],
+            },
+            implementation: {
+                image: "/products/Accouting/implemenuser.webp",
+                alt: "Implementation Image",
+                content: [
+                    { title: 'Setup Chart of Accounts:', description: 'Define account structures tailored to the business model.' },
+                    { title: 'Training Sessions for Users:', description: 'Educate staff on new processes and software functionalities.' },
+                    { title: 'Prepare System Documentation:', description: 'Create user manuals for reference and future training.' },
+                ],
+            },
+            goLive: {
+                image: "/products/Accouting/erpgolive.webp",
+                alt: "Go Live Image",
+                content: [
+                    { title: 'Launch the ERP System:', description: 'Transition all accounting functions to the new platform.' },
+                    { title: 'Data Verification Process:', description: 'Ensure accuracy of migrated financial data.' },
+                    { title: 'Immediate User Assistance:', description: 'Provide support for any initial issues encountered.' },
+                ],
+            },
+            postGoLive: {
+                image: "/products/Accouting/accountingpostgo.webp",
+                alt: "Post Go Live Image",
+                content: [
+                    { title: 'Regular System Maintenance:', description: 'Conduct periodic reviews to ensure optimal performance.' },
+                    { title: 'Continuous User Support:', description: 'Offer ongoing assistance for accounting software use.' },
+                    { title: 'Updates for Compliance Changes:', description: 'Keep the system aligned with evolving financial regulations.' },
+                ],
+            },
+        },
+        tabsHeadings: {
+            requirement: "Accounting Needs Assessment",
+            implementation: "Implementation & User Training",
+            goLive: "ERP Go Live Process",
+            postGoLive: "Post Go Live Support & Maintenance",
+        },
+        
+            // FAQ Section
+    faqs: [
+      {
+        question: "How can accounting software help my business?",
+        answer: "It will provide management with streamlined financial processes, accuracy, security on the data, and deliver real-time financial insights. Accounting software allows you to have an overview of your business finances clearly. It will help you decide upon valuable data for considerations.",
+      },
+      {
+        question: "What is accounting software? How do accounting softwares work?",
+        answer: "Accounting software is the bringing together of all financial transactions, records, and reporting in a computerized system. It automates time-consuming duties like invoicing and expense tracking and prepares financial statements, saving lots of time and preventing human error.",
+      },
+      {
+        question: "Does this accounting software integrate with other business tools?",
+        answer: "Yes, as most accounting software solutions will now integrate with payroll, CRM, and ERP systems so you can easily sync up data to build even greater workflow efficiency across your business.",
+      },   
+      {
+        question: "What features should I look for when choosing accounting software?",
+        answer: "I'll be looking at features that include generating invoices, tracking expenses, reconciliations with a bank account, managing the payroll of the company, tax compliance, and all forms of financial reporting. Good software also allows customization to suit the needs of the business.",
+      }, 
+      {
+        question: "How Does Accounting Software Support Small Business?",
+        answer: "Accounting software for small business is a tremendous asset. It simplifies finances, minimizes manual work, and provides suitable cash flow management. For small businesses, this software will ensure that one remains better organized while maintaining financial health as the business grows.",
+      }, 
+      {
+      question :"Does accounting software have real-time financial insights?",
+      answer :"Yes, as you may know, most solutions offer real-time dashboards and reports that really allow you to see the update the financial situation is in, allowing you to decide in time.",
+      },
+      {
+        question :"Can accounting software be customized for specific business needs?",
+        answer :"Many solutions offer the functionality of a modification: adding modules, reports, or features according to the industry or certain requirements of the business.",
+        },
+        {
+          question :"How does accounting software help with inventory management?",
+          answer :"An accounting software that comes with an inventory feature can include your stock levels, reorder points, and cost of goods sold, making it easier for you to manage your inventory and make sure you don't run out of stock.",
+          },
+          {
+            question :"Can I connect my e-commerce store with accounting software?",
+            answer :"Yes, many accounting software solutions are integrated with e-commerce platforms and synchronize their sales data and manage the inventory.",
+            },
+    ],
+    },
    
   };
   export const modulesData = [
