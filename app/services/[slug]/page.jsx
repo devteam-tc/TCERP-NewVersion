@@ -46,9 +46,9 @@ const Page = ({ params }) => {
       <PageHeader title={service.title} breadcrumbs={breadcrumbs} />
       <div className="container  ">
         <AboutSection slug={slug} />
-        <Specifications slug={slug} />
+        
       </div>
-      
+      <Specifications slug={slug} />
       <FAQSection service={slug} />
        <Footer />
       <CustomCursor />
