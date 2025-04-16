@@ -84,8 +84,11 @@
   // --bs-background-color: #F1F6FC;
   --bs-background-color: #fff;
   --bg-page-header-bg: #FFFCF3;
+  --Dark-Color:#0B0A0A;
+  --Light-Color:#FAFAFA;
   --bs-white-color: #ffffff;
-  --bs-black-color: #020842;
+  --bs-black-color: #0B0A0A;
+  // --bs-black-color: #020842;
   --bs-black-color2: #0F144B;
   --bs-border-color: #CCCCCC;
   --bs-paragraph-color: #49515B;
@@ -280,7 +283,7 @@ p {
   }
 
   .section-title {
-    color: var(--bs-black-color);
+    color: var(--Dark-Color);
     font-size: 50px;
     font-weight: 700;
     line-height: 55px;
@@ -370,7 +373,7 @@ p {
 
 /* Heading style */
 .heading-style1 {
-  color: var(--bs-black-color);
+  color: var( --Dark-Color);
   font-size: 62px;
   font-weight: 700;
   line-height: 65px;
@@ -1138,10 +1141,10 @@ p {
     display: block;
     font-size: 48px;
     line-height: 53px;
-
-    span {
-      // Add styles if needed
-    }
+    @media only screen and (max-width: 992px){
+      font-size: 30px;
+      line-height: 40px;
+  }
   }
 
   &.light h2 {
@@ -1235,7 +1238,7 @@ p {
   font-size: 2.25rem;
   font-weight: 700;
   margin: 40px 0 30px;
-  color: #333;
+  color: #000;
 }
 .cardContainer {
   padding: 30px;

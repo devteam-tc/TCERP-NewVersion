@@ -26,36 +26,6 @@ const AllProductsSection = () => {
     <>
       <Header />
       <PageHeader title="All Products" breadcrumbs={breadcrumbs} />
-      <div className="container pt-120">
-        <Row>
-          {modulesData.map((module, index) => (
-            <Col key={index} sm={12} md={6} lg={4}>
-              <div className="card">
-              <Image
-  src={module.image}
-  alt={module.title}
-  className="image"
-  width={400}
-  height={300}
-/>
-
-                <div className="cardBody">
-                  <h5>{module.title}</h5>
-                  <p>{module.description}</p>
-                  <Link href={module.link} passHref>
-                    <div className="exploreLinkWrapper" onClick={scrollToTop}>
-                      <span className="exploreLink">
-                        {module.linkText} <FaArrowRight className="exploreArrow" />
-                      </span>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </Col>
-          ))}
-        </Row>
-      </div>
-    {/* <WorkProcessSection /> */}
     <CategorySection />                                                    
       <Footer />
     </>

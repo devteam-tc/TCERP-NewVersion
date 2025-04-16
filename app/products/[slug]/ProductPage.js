@@ -11,6 +11,8 @@ import CustomCursor from '@/components/layout/CustomCursor';
 import SidebarSection from '../SidebarSection';
 import MainContentSection from '../MainContentSection';
 import ProductCards from '../ProductCards';
+import AboutSection from '../AboutSection';
+import NewProduct from '../NewProduct';
 
 const ProductPage = () => {
   const { slug } = useParams();
@@ -58,9 +60,10 @@ const ProductPage = () => {
     <>
       <Header />
       <PageHeader title={product?.heading || 'Tech Cloud ERP'} breadcrumbs={breadcrumbs} />
+        <AboutSection slug={slug} />
       <Container>
         <div className="boxed_wrapper">
-          <section className="service-details pt-120">
+          <section className="service-details pt-60">
             <div className="auto-container">
               <div className="row clearfix">
                 <SidebarSection
@@ -81,6 +84,7 @@ const ProductPage = () => {
           isExpanded={isExpanded}
         />
       </Container>
+      <NewProduct />
       <Footer />
       <CustomCursor />
     </>
