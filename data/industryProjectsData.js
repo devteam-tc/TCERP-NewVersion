@@ -53,7 +53,7 @@ const industryProjectsData = {
     },
     "automotive-industry": {
       title: "Transforming Automotive Manufacturing with Smart ERP",
-      banner: "/images/banner/agriculture_banner_img.webp",
+      banner: "/images/banner/automotive_banner_img.webp",
       industry: "Automotive",
       solution: "ERP Software",
       customers: "300 +",
@@ -61,8 +61,8 @@ const industryProjectsData = {
       result: ["Enhanced process automation and reduced production rework"],
       description: "The automotive industry is rapidly evolving, driven by new technologies, customer demands, and global supply chains. automakers manage a many of tasks, including production scheduling, parts sourcing and quality control. ERP software that helps organizations to manage all those managing everything in one system, which helps to work fast, easy and organized. By implementing ERP systems, companies will remain competitive, efficient and customer-centric.",
       images: [
-        "/images/banner/agriculture_img1.webp",
-        "/images/banner/agriculture_img2.webp",
+        "/images/banner/automotive_img1.webp",
+        "/images/banner/automotive_img2.webp",
       ],
       keyPoints: [
         "Production Planning & Control",
@@ -79,7 +79,7 @@ const industryProjectsData = {
     },
     "beverage-industry": {
       title: "Boosting Beverage Industry Efficiency with Smart ERP",
-      banner: "/images/banner/agriculture_banner_img.webp",
+      banner: "/images/banner/beverage_banner_img.webp",
       industry: "Beverage",
       solution: "ERP Software",
       customers: "180 +",
@@ -87,8 +87,8 @@ const industryProjectsData = {
       result: ["Streamlined production and better quality consistency"],
       description: "The beverage industry is growing quickly, but it also has many challenges. Businesses must handle seasonal demand, track ingredients and follow health rules. ERP software helps by managing everything like production, stock, quality checks and delivery in one system. This reduces waste, keeps the business compliant and helps respond to market changes. As trends and customer needs change, ERP helps beverage companies stay efficient, competitive and ready for the future.",
       images: [
-        "/images/banner/agriculture_img1.webp",
-        "/images/banner/agriculture_img2.webp",
+        "/images/banner/beverage_img1.webp",
+        "/images/banner/beverage_img2.webp",
       ],
       keyPoints: [
         "Recipe Management and Batch Tracking",
@@ -105,7 +105,7 @@ const industryProjectsData = {
     },
     "oilandgas-industry": {
       title: "Empowering the Oil & Gas Industry with Smart ERP Solutions",
-      banner: "/images/banner/agriculture_banner_img.webp",
+      banner: "/images/banner/oilandgas_banner_img.webp",
       industry: "Oil & Gas",
       solution: "ERP Software",
       customers: "160+",
@@ -113,8 +113,8 @@ const industryProjectsData = {
       result: ["Enhanced resource allocation and better compliance auditing"],
       description: "The oil and gas industry is full of challenges from drilling and equipment to workforce and safety. To keep all of this manageable, you need a solution to keep everything running. ERP software connects all of your data to manage tasks, cut costs and reduce downtime. With insights presented clearly and simply, decisions become easier and allows you to be more agile in the ever-changing industry.",
       images: [
-        "/images/banner/agriculture_img1.webp",
-        "/images/banner/agriculture_img2.webp",
+        "/images/banner/oilandgas_img1.webp",
+        "/images/banner/oilandgas_img2.webp",
       ],
       keyPoints: [
         "Asset Monitoring and Equipment Management",
@@ -131,7 +131,7 @@ const industryProjectsData = {
     },
     "packaging-industry": {
       title: "Transforming Packaging Operations with Industry-Ready ERP Solutions",
-      banner: "/images/banner/agriculture_banner_img.webp",
+      banner: "/images/banner/packaging_banner_img.webp",
       industry: "Packaging",
       solution: "ERP Software",
       customers: "140+",
@@ -139,8 +139,8 @@ const industryProjectsData = {
       result: ["Cost-effective packaging cycles and reduced lead times"],
       description: "The packaging business is evolving quickly. In addition to changing environmental regulations and consumer needs, competitors have also changed and are changing rapidly. Sustaining a competitive advantage requires packaging companies to be more nimble and adaptive than ever. Tech Cloud ERP gives packaging companies an edge by streamlining their operations—planning, tracking, and management, all in one easy-to-use system. Improved productivity, reduced waste and better adaptation to changing markets will allow your company to stay a step ahead.",
       images: [
-        "/images/banner/agriculture_img1.webp",
-        "/images/banner/agriculture_img2.webp",
+        "/images/banner/packaging_img1.webp",
+        "/images/banner/packaging_img2.webp",
       ],
       keyPoints: [
         "Production Planning and Quality Control",
@@ -157,7 +157,7 @@ const industryProjectsData = {
     },
     "chemical-industry": {
       title: "Optimizing Chemical Operations with Industry-Specific ERP",
-      banner: "/images/banner/agriculture_banner_img.webp",
+      banner: "/images/banner/chemical_banner_img.webp",
       industry: "Chemical",
       solution: "ERP Software",
       customers: "160+",
@@ -165,8 +165,8 @@ const industryProjectsData = {
       result: ["Better regulatory control and improved hazardous material traceability"],
       description: "The chemical industry is complicated and full of rules. They must handle potentially risky materials while complying to safety and environmental regulations. From mixing formulas, to batching, inventory and quality checks, our ERP software supports these businesses through core centralized activities. By centralising these, a business can get better efficiency, safety and compliance. As regulations continue to evolve and demand increases, ERP will do even more to support a chemical business’s ability to be flexible, compliant and in control.",
       images: [
-        "/images/banner/agriculture_img1.webp",
-        "/images/banner/agriculture_img2.webp",
+        "/images/banner/chemical_img1.webp",
+        "/images/banner/chemical_img2.webp",
       ],
       keyPoints: [
         "Formula Management and Batch Processing",
@@ -209,7 +209,7 @@ const industryProjectsData = {
     },
     "electrical-solar-industry": {
       title: "Powering the Electrical & Solar Industry with Smart ERP",
-      banner: "/images/banner/agriculture_banner_img.webp",
+      banner: "/images/banner/electrical-solar_banner_img.webp",
       industry: "Electrical Solar",
       solution: "ERP Software",
       customers: "120+",
@@ -217,8 +217,8 @@ const industryProjectsData = {
       result: ["Improved solar component delivery and optimized engineering collaboration"],
       description: "The electrical and solar industry is growing fast due to higher energy needs and the push for sustainability. But managing everything from buying materials to installing and maintaining systems can be tough. Our ERP software brings all your work into one easy system. Whether you make solar panels, sell electrical parts, or run big projects, our ERP helps you avoid delays, track stock and work more efficiently. With real-time data and automation, you can deliver smarter energy solutions quickly and reliably.",
       images: [
-        "/images/banner/agriculture_img1.webp",
-        "/images/banner/agriculture_img2.webp",
+        "/images/banner/electrical-solar_img1.webp",
+        "/images/banner/electrical-solar_img2.webp",
       ],
       keyPoints: [
         "Project and Installation Management",
@@ -235,7 +235,7 @@ const industryProjectsData = {
     },
     "electronics-industry": {
       title: "Stay Ahead in Electronics with Integrated ERP Software",
-      banner: "/images/banner/agriculture_banner_img.webp",
+      banner: "/images/banner/electronics_banner_img.webp",
       industry: "Electronics",
       solution: "ERP Software",
       customers: "350+",
@@ -243,8 +243,8 @@ const industryProjectsData = {
       result: ["Reduced production delays and enhanced inventory turnover"],
       description: "The electronics industry is fast-paced and requires constant innovation. Managing supply chains, changing product designs and meeting delivery deadlines met. You can manage procurement, production, inventory, sales and service in a single system with our ERP software that integrates your operations. our solution helps you improve control, shorten lead times and stay competitive in a fast-changing market.",
       images: [
-        "/images/banner/agriculture_img1.webp",
-        "/images/banner/agriculture_img2.webp",
+        "/images/banner/electronics_img1.webp",
+        "/images/banner/electronics_img2.webp",
       ],
       keyPoints: [
         "Component & Inventory Control",
@@ -261,7 +261,7 @@ const industryProjectsData = {
     },
     "fmcg-industry": {
       title: "Transform FMCG Supply Chain with Tech Cloud ERP",
-      banner: "/images/banner/agriculture_banner_img.webp",
+      banner: "/images/banner/fmcg_banner_img.webp",
       industry: "FMCG",
       solution: "ERP Software",
       customers: "150+",
@@ -269,8 +269,8 @@ const industryProjectsData = {
       result: ["Faster product movement and reduced shelf-stockouts"],
       description: "The fast moving consumer goods (FMCG) sector runs on speed, scale and transparency. With fast inventory turnover, thin margins and changing consumer needs, companies require a smart, flexible system. Make your entire process from production to distribution easier by using our ERP software to manage inventory, pricing, promotions and shelf-life instantly. No matter if you handle packaged, food and beverages, personal care, or household goods, tech cloud erp  enables you to remain efficient, compliant and profitable throughout your operations.",
       images: [
-        "/images/banner/agriculture_img1.webp",
-        "/images/banner/agriculture_img2.webp",
+        "/images/banner/fmcg_img1.webp",
+        "/images/banner/fmcg_img2.webp",
       ],
       keyPoints: [
         "Multi-Level Inventory & Shelf-Life Management",
@@ -287,7 +287,7 @@ const industryProjectsData = {
     },
     "food-industry": {
       title: "ERP for Food Industry: Safer, Smarter, Faster Operations",
-      banner: "/images/banner/agriculture_banner_img.webp",
+      banner: "/images/banner/food_banner_img.webp",
       industry: "FOOD",
       solution: "ERP Software",
       customers: "190+",
@@ -295,8 +295,8 @@ const industryProjectsData = {
       result: ["Enhanced shelf-life tracking and real-time production monitoring"],
       description: "The food world industry depends on quality, speed and safety. Every step from sourcing ingredients, the processing, the packaging, right through to delivery needs to be exacting and compliant. Operations can be difficult due to evolving customer demands. Our ERP software is a unified system that unites production, inventory, sales and distribution, along with quality control. And whether you’re processing fresh produce, packaged foods, or ready-to-eat meals, we help you to keep your business running efficiently, safely and prepared to meet your customers’ requirements.",
       images: [
-        "/images/banner/agriculture_img1.webp",
-        "/images/banner/agriculture_img2.webp",
+        "/images/banner/food_img1.webp",
+        "/images/banner/food_img2.webp",
       ],
       keyPoints: [
         "Batch Processing & Recipe Management",
@@ -599,7 +599,7 @@ const industryProjectsData = {
     },
     "paper-industry": {
       title: "Simplify Paper Manufacturing with Tech Cloud ERP",
-      banner: "/images/banner/agriculture_banner_img.webp",
+      banner: "/images/banner/paper_banner_img.webp",
       industry: "Paper",
       solution: "ERP Software",
       customers: "130+",
@@ -607,8 +607,8 @@ const industryProjectsData = {
       result: ["Reduced production downtime and paper waste minimization"],
       description: "The paper industry is growing, but it also comes with many challenges like rising costs, environmental rules and managing many production steps. Tech Cloud ERP makes things easier by bringing all your tasks like planning, inventory, finances and deliveries into one simple system. This helps reduce waste, save time and improve efficiency. With ERP, paper companies can stay flexible, meet customer needs and adjust to changes in the market with confidence.",
       images: [
-        "/images/banner/agriculture_img1.webp",
-        "/images/banner/agriculture_img2.webp",
+        "/images/banner/paper_img1.webp",
+        "/images/banner/paper_img2.webp",
       ],
       keyPoints: [
         "Production Planning and Quality Control",
@@ -725,6 +725,188 @@ const industryProjectsData = {
         { title: "Better Project Management", description: "Plan and monitor every stage of your project from one dashboard. This keeps your team aligned and ensures projects finish on time and within budget." },
         { title: "Smarter Use of Resources", description: " Track and manage your materials, manpower and machinery in real time. This helps reduce waste and makes sure nothing goes unused or overused." },
         { title: "Strong Quality Control", description: "Set up quality checks at every step of the production process. This ensures that all products meet required standards and customer expectations." },
+      ],
+    },
+    "rubber-industry": {
+      title: " Streamline Operations with Tech Cloud ERP . The Ideal ERP Software for Rubber Industry.",
+      banner: "/images/banner/agriculture_banner_img.webp",
+      industry: "Rubber",
+      solution: "ERP Software",
+      customers: "120+",
+      modules: ["CRM", "Sales", "Purchase", "Inventory", "Batch Manufacturing", "Plant Maintenence", "Finance & Accounting", "QC", " HSE & (Custom Modules)"],
+      result: ["Faster manufacturing cycles and improved durability testing reports"],
+      description: "The rubber industry is changing rapidly. Companies face challenges like complex manufacturing steps, strict quality standards and evolving customer needs. To manage everything effectively, they need a reliable system that connects all parts. Tech Cloud ERP offers the best ERP software for the rubber manufacturing industry by integrating key processes inventory control, production planning, quality checks and supply chain tracking into one simple system. With everything connected, businesses can work faster, maintain quality, adapt to market changes quickly and keep customers satisfied.",
+      images: [
+        "/images/banner/agriculture_img1.webp",
+        "/images/banner/agriculture_img2.webp",
+      ],
+      keyPoints: [
+        "Production Monitoring and Scheduling",
+        "Inventory and Batch Management",
+        "Quality Control and Compliance",
+      ],
+      subHeading: "Top Benefits of ERP for the Rubber Industry",
+      subText: "Implementing ERP software helps rubber manufacturers simplify their operations, improve decision-making and stay ahead in a competitive market.",
+      features: [
+        { title: "Enhanced Operational Efficiency", description: "ERP automates many daily tasks. This saves time, cuts down on mistakes and makes your whole process run more smoothly." },
+        { title: "Improved Decision-Making", description: " You get clear reports and real-time data, which helps you make smart choices quickly. It also helps you keep up with market changes and fix problems early." },
+        { title: "Cost Reduction", description: "Better planning and less waste mean you spend less money. This helps you save costs and stay competitive in the market." },
+      ],
+    },
+    "restaurant-industry": {
+      title: " Transforming Restaurant Operations with Restaurant ERP Solutions.",
+      banner: "/images/banner/agriculture_banner_img.webp",
+      industry: "Restaurant",
+      solution: "ERP Software",
+      customers: "190+",
+      modules: ["CRM", "Sales", "Purchase", "Inventory", "Production", "Recipe Management", "Finance & Accounting", "QC", " POS & (Custom Modules)"],
+      result: ["Faster manufacturing cycles and improved durability testing reports"],
+      description: "The restaurant industry is evolving with new customer expectations and operational demands. ERP solutions streamline everything from inventory management to order tracking, ensuring restaurants are more efficient and responsive. By centralizing operations, ERP systems help restaurants reduce waste, enhance customer satisfaction and manage costs, positioning them to thrive in an increasingly competitive market. In the future, ERP systems will be vital for adapting to changing consumer behaviors and market trends while improving operational flexibility.",
+      images: [
+        "/images/banner/agriculture_img1.webp",
+        "/images/banner/agriculture_img2.webp",
+      ],
+      keyPoints: [
+        "Order Management and Customer Experience Tracking",
+        "Inventory Control and Supplier Integration",
+        "Financial and Labor Cost Optimization",
+      ],
+      subHeading: "Top Benefits of Restaurant ERP",
+      subText: "Adopting restaurant ERP software unlocks numerous advantages:",
+      features: [
+        { title: "Operational Efficiency", description: "Consolidate operations like inventory, orders and customer management with restaurant ERP systems to improve workflow." },
+        { title: "Improved Customer Experience", description: " Personalise service offerings by tracking customer preferences and feedback through restaurant ERP." },
+        { title: "Better Financial and Workforce Management", description: "Optimise labour costs and budget forecasts with real-time insights provided by restaurant ERP solutions." },
+      ],
+    },
+    "retail-industry": {
+      title: " Empowering the Retail Industry with Smart ERP Solutions.",
+      banner: "/images/banner/agriculture_banner_img.webp",
+      industry: "Retail",
+      solution: "ERP Software",
+      customers: "250+",
+      modules: ["CRM", "Sales", "Purchase", "Inventory", "Imports and Exports", "Finance & Accounting", "Dealer Management", " POS & (Custom Modules)"],
+      result: ["Better customer retention and enhanced loyalty program tracking"],
+      description: "Retail is changing fast. Businesses are dealing with new problems like changing customer needs, complicated supply chains and the need for real-time data. That’s where ERP for retail helps. It brings everything into one simple system. From planning to managing inventory and finances ERP for the retail industry makes running a retail business easier and smarter.",
+      images: [
+        "/images/banner/agriculture_img1.webp",
+        "/images/banner/agriculture_img2.webp",
+      ],
+      keyPoints: [
+        "Retail Planning and Store Operations",
+        "Inventory Management and Supply Chain Oversight",
+        "Financial Management and Vendor Relations",
+      ],
+      subHeading: "Top Benefits of ERP for the Retail Industry",
+      subText: "Implementing ERP solutions in retail unlocks better efficiency, transparency and agility across the organization from the sales floor to the head office.",
+      features: [
+        { title: "Unified Financial Insights", description: "ERP systems offer a complete view of real-time financial data, adopting multidimensional reporting platforms that span from individual stores to the central office. This integration simplifies data transfer processes, enhancing the efficiency of financial operations." },
+        { title: "Enhanced Supplier Collaboration", description: " By systematically qualifying and managing suppliers, ERP solutions improve supplier performance and value. They facilitate collaboration, expedite contract completions and streamline payment processes, fostering stronger supplier relationships." },
+        { title: "Compliance and Revenue Recognition", description: "Retail ERP systems help retailers follow accounting rules by accurately tracking customer incentives like coupons, rebates, loyalty programs and gift cards. This ensures revenue is recorded correctly and reports meet compliance standards." },
+      ],
+    },
+    "steel-industry": {
+      title: " Empowering the Steel Industry with Smart ERP Solutions.",
+      banner: "/images/banner/agriculture_banner_img.webp",
+      industry: "Steel",
+      solution: "ERP Software",
+      customers: "150+",
+      modules: ["CRM", "Sales", "Purchase", "Inventory", "Production Planning", "Finance & Accounting", " QC & (Custom Modules)"],
+      result: ["Real-time production tracking and optimized furnace utilization"],
+      description: "The steel industry is growing fast but also facing challenges like changing market needs, complex production and high competition. ERP for Steel Industry helps by bringing all operations into one smart system. It supports better planning, tracking and decision-making while improving overall performance and cost control. With the right system, steel companies can work more efficiently and stay ahead in the market.",
+      images: [
+        "/images/banner/agriculture_img1.webp",
+        "/images/banner/agriculture_img2.webp",
+      ],
+      keyPoints: [
+        "Production Planning and Monitoring",
+        "Inventory Management and Quality Control",
+        "Financial Management and Compliance",
+      ],
+      subHeading: "Top Benefits of ERP for the Steel Industry",
+      subText: "Using ERP brings many advantages to steel manufacturers that help save time, reduce cost and improve overall operations.",
+      features: [
+        { title: "Enhanced Operational Efficiency", description: "ERP streamlines all your processes from procurement to production. This reduces manual work and improves coordination between departments." },
+        { title: "Improved Quality Assurance", description: " Track quality checks at every stage of production. This makes sure only the best quality steel reaches your customers." },
+        { title: "Better Customer Relationship Management", description: "Maintain detailed customer info, track orders and give timely updates. This builds trust and improves long-term business relationships." },
+      ],
+    },
+    "telecom-industry": {
+      title: " Empowering the Telecom Industry with Smart ERP Solutions.",
+      banner: "/images/banner/agriculture_banner_img.webp",
+      industry: "Telecom",
+      solution: "ERP Software",
+      customers: "280+",
+      modules: ["CRM", "Sales", "Purchase", "Inventory", "Finance & Accounting", " Service Management & (Custom Modules)"],
+      result: ["Faster service provisioning and improved field technician allocation"],
+      description: "Telecommunications is changing quickly and there are challenges with growing customer expectations as well as managing complicated services and the need for real-time data. ERP for telecoms can provide integrated solutions to organisations that create efficiencies and co-ordination with service processes, capabilities and ancillary business activities; in turn, improving operational processes, improving customer service experience and efficiencies in related departments",
+      images: [
+        "/images/banner/agriculture_img1.webp",
+        "/images/banner/agriculture_img2.webp",
+      ],
+      keyPoints: [
+        "Service Management and Network Operations",
+        "Customer Relationship Management (CRM)",
+        "Financial Management and Compliance",
+      ],
+      subHeading: "Top Benefits of ERP for the Telecom Industry",
+      subText: "Implementing ERP solutions in the telecom sector brings numerous advantages that help save time, reduce costs and improve overall operations.​",
+      features: [
+        { title: "Enhanced Operational Efficiency", description: "ERP systems streamline processes across departments, reducing manual interventions and improving workflow efficiency. This leads to faster service delivery and increased productivity." },
+        { title: "Real-Time Data Access", description: " Access to real-time data enables quick decision-making and enhances responsiveness to market changes. It allows telecom companies to adapt swiftly to customer needs and industry trends." },
+        { title: "Scalability and Flexibility", description: "Telecom cloud solutions provide the scalability needed to support business growth. They offer the flexibility to adapt to changing market demands and technological advancements." },
+      ],
+    },
+    "textiles-industry": {
+      title: " Transforming the Textile Industry with Advanced ERP Solutions",
+      banner: "/images/banner/agriculture_banner_img.webp",
+      industry: "Textiles",
+      solution: "ERP Software",
+      customers: "195+",
+      modules: ["CRM", "Sales", "Purchase", "Inventory", "Manufacturing", "QC", "E-commerce", "Finance & Accounting", " Service Management & (Custom Modules)"],
+      result: ["Better batch control and improved dye lot quality control"],
+      description: "The textile industry is changing fast. It faces many challenges like changing customer needs, complex supply chains and pressure to deliver fast. Textile ERP helps by combining all business tasks into one simple system. This makes it easier to manage production, improve quality and save time.",
+      images: [
+        "/images/banner/agriculture_img1.webp",
+        "/images/banner/agriculture_img2.webp",
+      ],
+      keyPoints: [
+        "Production Planning and Shop Floor Management",
+        "Inventory and Material Management",
+        "Financial Management and Compliance",
+      ],
+      subHeading: "Key Benefits of ERP for the Textile Industry",
+      subText: "Implementing ERP solutions in the textile sector brings numerous advantages that help save time, reduce costs and improve overall operations.​",
+      features: [
+        { title: "Enhanced Operational Efficiency", description: "ERP systems streamline processes across departments, reducing manual interventions and improving workflow efficiency. This leads to faster production cycles and increased productivity." },
+        { title: "Improved Quality Assurance", description: " Implementing quality checks at various stages ensures consistent product quality and customer satisfaction. ERP systems help monitor and control quality parameters effectively." },
+        { title: "Better Customer Relationship Management", description: "Maintain detailed customer records, track orders and manage after-sales services to build strong customer relationships. ERP systems facilitate efficient customer service and support.​" },
+      ],
+    },
+    "plastic-industry": {
+      title: " Revolutionizing the Plastic Manufacturing Industry with Smart ERP Solutions",
+      banner: "/images/banner/agriculture_banner_img.webp",
+      industry: "Plastic",
+      solution: "ERP Software",
+      customers: "210+",
+      modules: ["CRM", "Sales", "Purchase", "Inventory", "Planning and Scheduling", "QC", "Finance & Accounting & (Custom Modules)"],
+      result: ["Efficient inventory turnover and faster die & mold scheduling"],
+      description: "The plastic manufacturing business is rapidly evolving. Companies are facing challenges such as elaborate production processes, demanding quality standards and customers with elevated expectations. So, to deal with all this, several manufacturers embrace ERP (Enterprise Resource Planning) systems now. Such systems consolidate all the essential business functions to one place allowing businesses to be more effective, lessen redundancy and maintain a competitive edge",
+      images: [
+        "/images/banner/agriculture_img1.webp",
+        "/images/banner/agriculture_img2.webp",
+      ],
+      keyPoints: [
+        "Production Planning and Process Optimization",
+        "Inventory Management and Quality Control",
+        "Financial Management and Supplier Coordination",
+      ],
+      subHeading: "Top Benefits of ERP for the Plastic Manufacturing Industry",
+      subText: "Using ERP software in plastic manufacturing brings many valuable benefits, such as:​",
+      features: [
+        { title: "Better Production Efficiency", description: "ERP automates many tasks and connects different parts of the production process. This reduces mistakes and speeds up how fast things are made." },
+        { title: "Stronger Quality Control", description: " It helps businesses carry out quality checks during different steps in the production process, so final products are up to standard." },
+        { title: "Real-Time Information and Insights", description: "You get instant access to important data, helping you make smart decisions quickly and track how your business is doing." },
       ],
     },
   };
