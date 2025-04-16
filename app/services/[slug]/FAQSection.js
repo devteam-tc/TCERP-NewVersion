@@ -73,7 +73,7 @@ export default function FAQSection({ service = 'web-development' }) {
                 <div className="inner-box">
                   <div className="single-item">
                     <span className="count-text">1</span>
-                    <h3>Sign up, It's Free!</h3>
+                    <h3>Sign up, Its Free!</h3>
                     <p>We set up your account and onboard you quickly.</p>
                   </div>
                   <div className="single-item">

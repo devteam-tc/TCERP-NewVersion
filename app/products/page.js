@@ -10,6 +10,7 @@ import Header from "@/components/layout/header/Header";
 import "./AllProducts.scss"; // SCSS module import
 import { FaArrowRight } from "react-icons/fa";
 import PageHeader from "@/components/layout/PageHeader";
+import Image from "next/image";
 // import WorkProcessSection from "./WorkProcess";
 
 const AllProductsSection = () => {
@@ -29,7 +30,7 @@ const AllProductsSection = () => {
           {modulesData.map((module, index) => (
             <Col key={index} sm={12} md={6} lg={4}>
               <div className="card">
-                <img
+                <Image
                   src={module.image}
                   alt={module.title}
                   className="image"
