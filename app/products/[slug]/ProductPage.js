@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import { Accordion, Col, Container, Row, Button } from 'react-bootstrap';
 import { productData, productDetailsData } from '../../utils/constant';
+
 import PageHeader from "@/components/layout/PageHeader";
 import Footer from '../../../components/layout/footer/Footer';
 import Header from '@/components/layout/header/Header';
