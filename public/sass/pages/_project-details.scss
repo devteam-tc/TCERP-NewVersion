@@ -96,6 +96,7 @@
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
         transition: all 0.3s ease-in-out;
         height: 100%;
+        text-align: left !important;
     
         .title {
           font-weight: 700;
@@ -136,22 +137,6 @@
           box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
         }
       }
-    }
-
-    .faq-section {
-      margin-top: 60px;
-    
-      .faq-title {
-        font-size: 26px;
-        font-weight: 700;
-        margin-bottom: 30px;
-    
-        @media (max-width: 576px) {
-          font-size: 20px;
-          margin-bottom: 20px;
-        }
-      }
-    
     }
     
   }
@@ -240,7 +225,17 @@
   }
 
   .faq-section{
-
+    margin-top: 60px;
+    .faq-title {
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 30px;
+  
+      @media (max-width: 576px) {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+    }
     .faq-body {
       .accordion-button:focus {
         box-shadow: none;
