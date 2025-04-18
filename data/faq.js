@@ -1,22 +1,22 @@
 export const faq = [
   {
     id: 1,
-    question: 'What is an ERP system?',
-    answer: 'An ERP (Enterprise Resource Planning) system is software that integrates core business processes such as finance, inventory, HR, sales, and supply chain into a single platform for better efficiency and decision-making.'
+    question: 'What is Business Intelligence (BI)?',
+    answer: 'Business intelligence refers to the processes and tools used to analyze business data, turn it into actionable insights and help everyone in an organization make better-informed decisions.'
   },
   {
     id: 2,
-    question: 'What are the key features of an ERP system?',
-    answer: 'Common features include inventory management, financial management, customer relationship management (CRM), human resource management (HRM), reporting and analytics, supply chain management and more.'
+    question: 'Why is BI Important Today?',
+    answer: 'In today’s fast-moving world, businesses need to act quickly. BI helps you track your company’s performance, understand customer behavior, improve service and make decisions based on real facts not guesses.'
   },
   {
     id: 3,
-    question: 'How does ERP improve business operations?',
-    answer: 'ERP simplifies workflows, reduces manual data entry, provides real-time insights, enhances collaboration, and improves decision-making through centralized data management.'
+    question: 'How Does BI Help with Decision-Making?',
+    answer: 'BI gives you clear, up-to-date reports and dashboards that show what’s working and what’s not. It helps you make smart choices, plan for growth and solve problems faster with confidence.'
   },
   {
     id: 4,
-    question: 'What industries benefit from ERP systems?',
-    answer: 'ERP systems benefit industries such as manufacturing, retail, healthcare, logistics, finance, and services by optimizing processes and improving operational efficiency.'
+    question: 'How Does BI Help with Decision-Making?',
+    answer: 'BI gives you clear, up-to-date reports and dashboards that show what’s working and what’s not. It helps you make smart choices, plan for growth and solve problems faster with confidence.'
   }
 ];

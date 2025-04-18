@@ -44,12 +44,8 @@ const ServiceCard = () => {
           <div className="accordion">
 
             <div className="accordionItem active">
-            <Image 
-          src="/images/services/digital.webp" 
-          alt="Digital Marketing" 
-          width={500} 
-          height={300} 
-        />              <div className="conteBox">
+              <Image src="/images/services/digital.webp" alt="img" />
+              <div className="conteBox">
                 <div className="box">
                   <div className="serialInner">
                     <span className="serial">01</span>
@@ -69,12 +65,8 @@ const ServiceCard = () => {
             </div>
 
             <div className="accordionItem">
-            <Image 
-            src="/images/services/web-app.webp" 
-            alt="Web Development" 
-            width={500} 
-            height={300} 
-          />              <div className="conteBox">
+              <Image src="/images/services/web-app.webp" alt="img" />
+              <div className="conteBox">
                 <div className="box">
                   <div className="serialInner">
                     <span className="serial">02</span>
@@ -93,13 +85,8 @@ const ServiceCard = () => {
               </div>
             </div>
             <div className="accordionItem">
-            <Image 
-          src="/images/services/mobile-app.webp" 
-          alt="App Development" 
-          width={500} 
-          height={300} 
-        />       
-       <div className="conteBox">
+              <Image src="/images/services/mobile-app.webp" alt="img" />
+              <div className="conteBox">
                 <div className="box">
                   <div className="serialInner">
                     <span className="serial">02</span>

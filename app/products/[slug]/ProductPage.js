@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import { Container } from 'react-bootstrap';
+import { useMediaQuery } from 'react-responsive';
 import { productData, productDetailsData } from '../../utils/constant';
 import PageHeader from '@/components/layout/PageHeader';
 import Footer from '@/components/layout/footer/Footer';
@@ -13,6 +14,7 @@ import MainContentSection from '../MainContentSection';
 import ProductCards from '../ProductCards';
 import AboutSection from '../AboutSection';
 import NewProduct from '../NewProduct';
+import DownloadWidget from '../DownloadWidget'; 
 
 const ProductPage = () => {
   const { slug } = useParams();
@@ -21,6 +23,8 @@ const ProductPage = () => {
   const [activeIndex, setActiveIndex] = useState(1);
   const [visiblePlans, setVisiblePlans] = useState(3);
   const [isExpanded, setIsExpanded] = useState(false);
+
+  const isMobile = useMediaQuery({ maxWidth: 991 });
 
   const toggleCards = () => {
     const totalCards = product?.cards?.length || 0;
@@ -60,18 +64,29 @@ const ProductPage = () => {
     <>
       <Header />
       <PageHeader title={product?.heading || 'Tech Cloud ERP'} breadcrumbs={breadcrumbs} />
-        <AboutSection slug={slug} />
+      <AboutSection slug={slug} />
+
       <Container>
         <div className="boxed_wrapper">
           <section className="service-details pt-60">
             <div className="auto-container">
               <div className="row clearfix">
+                {/* Sidebar */}
                 <SidebarSection
                   sidebar={sidebar}
                   activeIndex={activeIndex}
                   setActiveIndex={setActiveIndex}
                 />
+
+                {/* Main Content */}
                 <MainContentSection content={content} />
+
+                {/* On mobile, move download widget below main content */}
+                {isMobile && (
+                  <div className="col-12">
+                    <DownloadWidget widget={sidebar?.downloadWidget} />
+                  </div>
+                )}
               </div>
             </div>
           </section>
@@ -84,10 +99,12 @@ const ProductPage = () => {
           isExpanded={isExpanded}
         />
       </Container>
+
       <NewProduct />
       <Footer />
       <CustomCursor />
     </>
   );
 };
+
 export default ProductPage;

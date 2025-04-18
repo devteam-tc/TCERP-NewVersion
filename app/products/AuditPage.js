@@ -30,11 +30,10 @@ const AuditPage = () => {
                   className="wow fadeInUp black fw-bold visible-slowly-right mb-xxl-4 mb-md-3 mb-2"
                   data-wow-delay=".3s"
                 >
-                  <span className="animatedText">Free ITaudit</span>
+                  <span className="animatedText"> Real-Time Data Access for All Users</span>
                 </h2>
                 <p className="pra mb-xl-4 mb-4 pb-xl-2">
-                  We believe in four pillars of influence that drive our growth. This is ingrained in
-                  everything we do. We use technology.
+                Empower every team member with instant access to up-to-date information. BI-integrated ERP systems provide real-time dashboards and reports, ensuring that employees across all departments can make data-driven decisions without delays.
                 </p>
                 <Link
                   href="/contact"

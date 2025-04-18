@@ -21,7 +21,8 @@
   
     &::after {
       content: "";
-      background: #f3f7fb;
+      // background: #f3f7fb;
+      background: var(--bs-secondary-50);
       position: absolute;
       width: 100%;
       height: 100%;
