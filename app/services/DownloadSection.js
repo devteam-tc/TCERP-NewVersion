@@ -1,56 +1,129 @@
+"use client";
 import Image from 'next/image';
+import PropTypes from 'prop-types';
+import downloadData from '@/data/services/downloadData.json';
 
-const DownloadSection = () => {
+// Feature List Component
+const FeatureList = ({ features }) => (
+  <ul className="list-item mb_30">
+    {features.map((feature, index) => (
+      <li key={index}>{feature}</li>
+    ))}
+  </ul>
+);
+
+FeatureList.propTypes = {
+  features: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
+
+// Content Box Component
+const ContentBox = ({ title, subtitle, features, buttonText, onDownload }) => (
+  <div className="content-box">
+    <h2>
+      {title} <span>{subtitle}</span>
+    </h2>
+    <FeatureList features={features} />
+    <button 
+      type="button" 
+      className="theme-btn btn-one" 
+      onClick={onDownload}
+      disabled={!onDownload}
+    >
+      {buttonText}
+    </button>
+  </div>
+);
+
+ContentBox.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  features: PropTypes.arrayOf(PropTypes.string).isRequired,
+  buttonText: PropTypes.string.isRequired,
+  onDownload: PropTypes.func,
+};
+
+// Image Box Component
+const ImageBox = ({ src, alt, width, height }) => (
+  <div className="image-box">
+    <figure className="image">
+      <Image
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        priority
+      />
+    </figure>
+  </div>
+);
+
+ImageBox.propTypes = {
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+  width: PropTypes.number.isRequired,
+  height: PropTypes.number.isRequired,
+};
+
+// Main Download Section Component
+const DownloadSection = ({ 
+  customData,
+  onDownload
+}) => {
+  const data = customData || downloadData;
+
   return (
     <section className="download-section alternat-2 pb_120 pt_120">
       <div className="auto-container">
         <div className="inner-container">
-        <div className="pattern-layer" style={{ backgroundImage: `url('/images/servicescards/background-download.png')`, }} ></div>
-
-
+          <div 
+            className="pattern-layer" 
+            style={{ backgroundImage: `url('${data.backgroundImage}')` }} 
+          />
           <div className="row align-items-center">
             <div className="col-lg-8 col-md-12 col-sm-12 content-column">
-              <div className="content-box">
-                <h2>
-                  The 2024 guide for Optimal Content <span>Management</span>
-                </h2>
-                <ul className="list-item mb_30">
-                  <li>
-                    Start by explaining the fundamental concepts of talent
-                    acquisition.
-                  </li>
-                  <li>
-                    Provide guidance on crafting clear and compelling job
-                    descriptions that accurately reflect.
-                  </li>
-                  <li>
-                    Practical tips for conducting effective interviews, including
-                    types of interview questions and formats.
-                  </li>
-                </ul>
-                <button type="button" className="theme-btn btn-one" disabled>
-                  Download E-book
-                </button>
-              </div>
+              <ContentBox
+                title={data.title}
+                subtitle={data.subtitle}
+                features={data.features}
+                buttonText={data.buttonText}
+                onDownload={onDownload}
+              />
             </div>
-
             <div className="col-lg-4 col-md-12 col-sm-12 image-column">
-              <div className="image-box">
-                <figure className="image">
-                  <Image
-                    src="/images/servicescards/book-1.webp"
-                    alt="E-book cover"
-                    width={300}
-                    height={400}
-                  />
-                </figure>
-              </div>
+              <ImageBox
+                src={data.image.src}
+                alt={data.image.alt}
+                width={data.image.width}
+                height={data.image.height}
+              />
             </div>
           </div>
         </div>
       </div>
     </section>
   );
+};
+
+DownloadSection.propTypes = {
+  customData: PropTypes.shape({
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+    features: PropTypes.arrayOf(PropTypes.string),
+    buttonText: PropTypes.string,
+    image: PropTypes.shape({
+      src: PropTypes.string,
+      alt: PropTypes.string,
+      width: PropTypes.number,
+      height: PropTypes.number,
+    }),
+    backgroundImage: PropTypes.string,
+  }),
+  onDownload: PropTypes.func,
+};
+
+DownloadSection.defaultProps = {
+  customData: null,
+  onDownload: null,
 };
 
 export default DownloadSection;

@@ -11,7 +11,10 @@ import "./AllProducts.scss"; // SCSS module import
 import { FaArrowRight } from "react-icons/fa";
 import PageHeader from "@/components/layout/PageHeader";
 import Image from "next/image";
+<<<<<<< HEAD
 import CategorySection from "./CategorySection";
+=======
+>>>>>>> origin/santhosh
 // import WorkProcessSection from "./WorkProcess";
 
 const AllProductsSection = () => {
@@ -31,6 +34,7 @@ const AllProductsSection = () => {
           {modulesData.map((module, index) => (
             <Col key={index} sm={12} md={6} lg={4}>
               <div className="card">
+<<<<<<< HEAD
               <Image
   src={module.image}
   alt={module.title}
@@ -39,6 +43,13 @@ const AllProductsSection = () => {
   height={300}
 />
 
+=======
+                <Image
+                  src={module.image}
+                  alt={module.title}
+                  className="image"
+                />
+>>>>>>> origin/santhosh
                 <div className="cardBody">
                   <h5>{module.title}</h5>
                   <p>{module.description}</p>

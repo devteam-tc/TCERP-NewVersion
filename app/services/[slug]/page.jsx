@@ -5,34 +5,30 @@ import Footer from "@/components/layout/footer/Footer";
 import CustomCursor from "@/components/layout/CustomCursor";
 import AboutSection from './AboutSection';
 import FAQSection from './FAQSection';
-import Specifications from './Specifications';
- 
-// Static service data
-const servicesData = {
-  'web-development': {
-    title: 'Web Development',
-    description: 'We build responsive, fast websites for all industries.',
-  },
-  'app-development': {
-    title: 'App Development',
-    description: 'Custom mobile and desktop apps tailored to your business.',
-  },
-  'digital-marketing': {
-    title: 'Digital Marketing',
-    description: 'Grow your brand online with SEO, PPC, and social media.',
-  },
-};
+import Specifications from '@/app/services/[slug]/Specifications';
+import servicesData from '@/data/services/servicesData.json';
+
+// Define valid service slugs
+const validServiceSlugs = ['web-development', 'app-development', 'digital-marketing'];
 
 // Generate static paths for each service
 export async function generateStaticParams() {
-  return Object.keys(servicesData).map(slug => ({ slug }));
+  return validServiceSlugs.map(slug => ({
+    slug: slug
+  }));
 }
+
+export const dynamicParams = false; // This ensures only the defined paths are allowed
 
 const Page = ({ params }) => {
   const { slug } = params;
-  const service = servicesData[slug];
+  
+  // Validate the slug
+  if (!validServiceSlugs.includes(slug)) {
+    return notFound();
+  }
 
-  if (!service) return notFound();
+  const service = servicesData[slug];
 
   const breadcrumbs = [
     { label: 'Home', link: '/' },
@@ -44,13 +40,12 @@ const Page = ({ params }) => {
     <>
       <Header />
       <PageHeader title={service.title} breadcrumbs={breadcrumbs} />
-      <div className="container  ">
+      <div className="container">
         <AboutSection slug={slug} />
-        
       </div>
       <Specifications slug={slug} />
       <FAQSection service={slug} />
-       <Footer />
+      <Footer />
       <CustomCursor />
     </>
   );

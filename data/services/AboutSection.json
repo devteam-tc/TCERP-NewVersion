@@ -1,0 +1,38 @@
+{
+  "web-development": {
+    "subtitle": "KNOW ABOUT OUR WEB DEV",
+    "heading": "Custom Web Solutions for Your Business",
+    "paragraph": "We specialize in responsive, high-performance websites tailored to your goals.",
+    "features": [
+      "Responsive & modern designs",
+      "SEO-friendly architecture",
+      "Expert SEO & PPC services"
+    ],
+    "imageMain": "/images/servicescards/mob1.png",
+    "imageDecor": "/images/servicescards/dot-grp1.png"
+  },
+  "app-development": {
+    "subtitle": "KNOW ABOUT OUR APP DEV",
+    "heading": "Mobile & Desktop Apps Built to Scale",
+    "paragraph": "From concept to deployment, we create powerful mobile and desktop applications.",
+    "features": [
+      "Cross-platform development",
+      "Secure and scalable code",
+      "Expert SEO & PPC services"
+    ],
+    "imageMain": "/images/servicescards/mob1.png",
+    "imageDecor": "/images/servicescards/dot-grp1.png"
+  },
+  "digital-marketing": {
+    "subtitle": "KNOW ABOUT OUR MARKETING",
+    "heading": "Digital Strategies That Drive Results",
+    "paragraph": "We help you reach your audience and convert more customers online.",
+    "features": [
+      "ROI-focused campaigns",
+      "Expert SEO & PPC services",
+      "Social media optimization"
+    ],
+    "imageMain": "/images/servicescards/mob1.png",
+    "imageDecor": "/images/servicescards/dot-grp1.png"
+  }
+} 

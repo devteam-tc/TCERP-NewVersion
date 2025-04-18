@@ -27,7 +27,7 @@
 	z-index: 9; 
 }
 .p1-clr {
-    color: #5135FF !important;
+    color: var(--bs-secondary-color) !important;
 }
 .black {
     color:#031740;
@@ -595,56 +595,14 @@ img {
   
   .sservice-area {
     background: $s-bg-light;
-    padding: 120px 0 88px;
-    position: relative;
+     position: relative;
     z-index: 1;
     overflow: hidden;
   
     .section-title {
       &.text-center {
         margin-bottom: 45px;
-      }
-  
-      .section-sub-title {
-        font-size: 16px;
-        color: $s-primary-color;
-        font-weight: 600;
-        font-family: $s-heading-font;
-        border-radius: 20px;
-        background-color: rgba(255, 60, 0, 0.031);
-        border: 1px solid hsla(0, 0%, 48%, 0.15);
-        display: inline-block;
-        padding: 6px 29px;
-        position: relative;
-        z-index: 1;
-        margin: 0 0 22px;
-        line-height: 25px;
-  
-        &::before {
-          content: "";
-          position: absolute;
-          width: 30px;
-          height: 7px;
-          background: $s-primary-color;
-          border-radius: 30px;
-          left: -8%;
-          top: 14px;
-        }
-      }
-  
-      .section-main-title {
-        font-size: 42px;
-        line-height: 55px;
-        color: $s-text-color;
-        font-weight: 700;
-        font-family: $s-heading-font;
-        margin: 0;
-  
-        span {
-          display: inline-block;
-          color: $s-primary-color;
-        }
-      }
+      }   
     }
   
     .service-single-box {
@@ -694,30 +652,7 @@ img {
           transition: 0.5s;
         }
   
-        .service-btn {
-          a {
-            display: inline-block;
-            font-size: 15px;
-            line-height: 26px;
-            color: #fff;
-            font-weight: 600;
-            text-decoration: none;
-  
-            i {
-              display: inline-block;
-              color: $s-primary-color;
-              background: $s-bg-light;
-              width: 35px;
-              height: 35px;
-              text-align: center;
-              line-height: 35px;
-              border-radius: 50%;
-              font-size: 20px;
-              margin-right: 11px;
-              transition: 0.5s;
-            }
-          }
-        }
+         
       }
   
       &:hover {

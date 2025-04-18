@@ -1,0 +1,44 @@
+{
+  "web-development": [
+    {
+      "question": "What technologies do you use for web development?",
+      "answer": "We use modern technologies like React, Next.js, and Node.js."
+    },
+    {
+      "question": "Do you offer custom website solutions?",
+      "answer": "Yes, tailored solutions are our specialty."
+    },
+    {
+      "question": "Is SEO included in web development?",
+      "answer": "Yes, we include basic on-page SEO."
+    }
+  ],
+  "app-development": [
+    {
+      "question": "Which platforms do you build apps for?",
+      "answer": "We build iOS and Android apps using React Native and Flutter."
+    },
+    {
+      "question": "Do you assist with app store deployment?",
+      "answer": "Yes, we help you publish apps to both stores."
+    },
+    {
+      "question": "Can I track my app development progress?",
+      "answer": "Yes! We give regular updates and demos."
+    }
+  ],
+  "digital-marketing": [
+    {
+      "question": "What channels do you use for marketing?",
+      "answer": "We use SEO, Google Ads, social media, and email."
+    },
+    {
+      "question": "Can you run ads for my brand?",
+      "answer": "Absolutely. We manage ad campaigns on major platforms."
+    },
+    {
+      "question": "How do you measure campaign success?",
+      "answer": "With detailed analytics reports and KPIs."
+    }
+  ]
+} 
