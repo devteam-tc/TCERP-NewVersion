@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/restaurant_banner_img.webp",
+  "title": "Restaurant Industry Solutions",
+  "description": "Advanced ERP solutions tailored for restaurants and food service businesses, optimizing kitchen operations, inventory management, and customer service while ensuring food safety compliance and efficient order processing.",
+  "keyPoints": [
+    "Kitchen Management System",
+    "Inventory & Recipe Control",
+    "Order Processing & POS",
+    "Food Safety Compliance",
+    "Customer Service Management"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/restaurant-operations.png",
+      "title": "Operations Management",
+      "description": "Comprehensive restaurant operations and kitchen management system.",
+      "list": [
+        "Kitchen Display",
+        "Order Management",
+        "Table Service"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/restaurant-inventory.png",
+      "title": "Inventory Control",
+      "description": "Advanced inventory and recipe management system.",
+      "list": [
+        "Stock Management",
+        "Recipe Costing",
+        "Waste Tracking"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage kitchen operations?",
+      "answer": "Our system provides comprehensive kitchen management including order routing, preparation timing, recipe display, and real-time status updates with integrated kitchen display systems."
+    },
+    {
+      "id": 2,
+      "question": "What inventory control features are included?",
+      "answer": "The system includes advanced inventory management with real-time stock tracking, automated ordering, recipe costing, portion control, and waste monitoring for optimal food cost management."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle customer service and orders?",
+      "answer": "Yes, our solution manages complete order processing with POS integration, table management, online ordering, customer loyalty programs, and detailed sales analytics."
+    }
+  ],
+  "industry": "Restaurant",
+  "solution": "Integrated Restaurant Management System",
+  "modules": [
+    "Kitchen Management",
+    "Inventory Control",
+    "Order Processing",
+    "Customer Service",
+    "Analytics Dashboard"
+  ],
+  "result": [
+    "45% improvement in order accuracy",
+    "40% reduction in food waste",
+    "35% better inventory control"
+  ],
+  "customers": "500+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Restaurant Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}

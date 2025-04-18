@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/medical_equipment_banner_img.webp",
+  "title": "Medical Equipment Manufacturing Solutions",
+  "description": "Advanced ERP solutions tailored for medical equipment manufacturers, ensuring regulatory compliance, quality control, and precision manufacturing while maintaining complete traceability and documentation.",
+  "keyPoints": [
+    "Regulatory Compliance Management",
+    "Quality Control & Validation",
+    "Product Lifecycle Management",
+    "Clean Room Manufacturing",
+    "Device Traceability"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/medical-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive medical device manufacturing and validation system.",
+      "list": [
+        "Clean Room Control",
+        "Process Validation",
+        "Batch Tracking"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/medical-quality.png",
+      "title": "Quality Assurance",
+      "description": "Advanced quality management system for medical devices.",
+      "list": [
+        "Quality Testing",
+        "Documentation Control",
+        "Compliance Monitoring"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system ensure regulatory compliance?",
+      "answer": "Our system provides comprehensive compliance management for FDA, CE, ISO 13485, and other medical device regulations, including documentation control, validation protocols, and audit trail maintenance."
+    },
+    {
+      "id": 2,
+      "question": "What quality control features are included?",
+      "answer": "The system includes advanced quality control with validation protocols, clean room monitoring, sterilization process control, and complete device history records with detailed testing documentation."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle device traceability requirements?",
+      "answer": "Yes, our solution provides end-to-end traceability from raw materials to finished devices, including UDI compliance, component tracking, and complete device history records."
+    }
+  ],
+  "industry": "Medical Equipment Manufacturing",
+  "solution": "Integrated Medical Device Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Compliance Tracking",
+    "Document Control",
+    "Device History Records"
+  ],
+  "result": [
+    "45% faster validation process",
+    "40% reduction in compliance costs",
+    "35% improvement in quality metrics"
+  ],
+  "customers": "200+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Medical Device Manufacturing Guide",
+    "buttonText": "Download Now"
+  }
+}

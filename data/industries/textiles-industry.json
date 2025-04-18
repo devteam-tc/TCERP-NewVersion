@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/textile_banner_img.webp",
+  "title": "Textile Industry Solutions",
+  "description": "Advanced ERP solutions tailored for textile manufacturers, optimizing yarn processing, fabric production, dyeing operations, and quality control while ensuring efficient material utilization and process consistency.",
+  "keyPoints": [
+    "Yarn & Fabric Processing",
+    "Dyeing & Finishing Control",
+    "Quality Assurance Management",
+    "Production Planning & Control",
+    "Material Resource Planning"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/textile-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive textile manufacturing and process control system.",
+      "list": [
+        "Process Control",
+        "Machine Monitoring",
+        "Production Scheduling"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/textile-quality.png",
+      "title": "Quality Control",
+      "description": "Advanced quality management system for textile manufacturing.",
+      "list": [
+        "Quality Testing",
+        "Color Management",
+        "Defect Tracking"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage textile processing?",
+      "answer": "Our system provides comprehensive process management including yarn processing, weaving/knitting control, dyeing operations, finishing processes, and real-time production monitoring with quality checkpoints."
+    },
+    {
+      "id": 2,
+      "question": "What quality control features are included?",
+      "answer": "The system includes advanced quality testing with fabric inspection, color matching, shade variation tracking, defect classification, and detailed quality reporting across all production stages."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle material planning?",
+      "answer": "Yes, our solution manages complete material planning with yarn inventory, dye requirements, chemical consumption tracking, and production scheduling optimization."
+    }
+  ],
+  "industry": "Textile Manufacturing",
+  "solution": "Integrated Textile Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Material Planning",
+    "Process Monitoring",
+    "Color Management"
+  ],
+  "result": [
+    "45% improvement in production efficiency",
+    "40% reduction in quality issues",
+    "35% better color consistency"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Textile Manufacturing Guide",
+    "buttonText": "Download Now"
+  }
+}

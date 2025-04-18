@@ -87,58 +87,9 @@
     }
 
     .two-info-cards {
-      margin-top: 50px;
-    
-      .info-card {
-        background-color: #fff;
-        border-radius: 14px;
-        padding: 30px;
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-        transition: all 0.3s ease-in-out;
-        height: 100%;
-        text-align: left !important;
-    
-        .title {
-          font-weight: 700;
-          font-size: 20px;
-          margin-bottom: 15px;
-        }
-    
-        p {
-          color: #555;
-          font-size: 16px;
-        }
-    
-        ul {
-          margin-top: 15px;
-    
-          li {
-            font-size: 16px;
-            color: #000;
-            margin-bottom: 10px;
-    
-            span {
-              color: var(--bs-primary);
-              margin-right: 6px;
-            }
-    
-            strong {
-              font-weight: 700;
-            }
-          }
-        }
-    
-        .icon i {
-          color: var(--bs-primary);
-        }
-    
-        &:hover {
-          transform: translateY(-4px);
-          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-        }
-      }
+      margin-top: 30px;
+      margin-bottom: 30px;
     }
-    
   }
 
   .download-widget {
@@ -330,5 +281,59 @@
   .ep-project-details-section .project-description .inner-options ul li {
     font-size: 16px;
     line-height: 26px;
+  }
+}
+
+.info-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0px 20px 70px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+
+  .icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--heading-dark);
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: var(--text-color);
+    line-height: 1.75;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    li {
+      margin-bottom: 12px;
+      color: var(--text-color);
+      
+      img {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 25px 70px rgba(0, 0, 0, 0.07);
   }
 }

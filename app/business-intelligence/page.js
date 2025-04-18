@@ -8,6 +8,7 @@ import Header from '@/components/layout/header/Header';
 import PageHeader from '@/components/layout/PageHeader';
 import CardsSection from './CardsSection';
 
+
 const breadcrumbs = [
   { label: 'Home', link: '/' },
   { label: 'Business Intelligence', link: null }

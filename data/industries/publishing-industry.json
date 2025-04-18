@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/publishing_banner_img.webp",
+  "title": "Publishing Industry Solutions",
+  "description": "Advanced ERP solutions tailored for publishing companies, optimizing content management, digital publishing workflows, and distribution processes while ensuring efficient rights management and royalty tracking.",
+  "keyPoints": [
+    "Content Management System",
+    "Digital Publishing Workflow",
+    "Rights & Royalty Management",
+    "Distribution Control",
+    "Editorial Process Management"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/publishing-content.png",
+      "title": "Content Management",
+      "description": "Comprehensive content and editorial management system.",
+      "list": [
+        "Manuscript Tracking",
+        "Editorial Workflow",
+        "Version Control"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/publishing-digital.png",
+      "title": "Digital Publishing",
+      "description": "Advanced digital publishing and distribution system.",
+      "list": [
+        "Multi-format Publishing",
+        "Digital Distribution",
+        "Analytics Tracking"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage content workflow?",
+      "answer": "Our system provides comprehensive content management with manuscript tracking, editorial workflow automation, version control, and collaborative tools for authors, editors, and reviewers."
+    },
+    {
+      "id": 2,
+      "question": "What digital publishing features are included?",
+      "answer": "The system includes advanced digital publishing capabilities with multi-format output (print, ebook, web), automated formatting, digital rights management, and distribution channel integration."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle rights and royalty management?",
+      "answer": "Yes, our solution manages rights contracts, royalty calculations, payment tracking, and reporting with automated statements generation and rights expiration monitoring."
+    }
+  ],
+  "industry": "Publishing",
+  "solution": "Integrated Publishing Management System",
+  "modules": [
+    "Content Management",
+    "Digital Publishing",
+    "Rights Management",
+    "Distribution Control",
+    "Analytics Dashboard"
+  ],
+  "result": [
+    "45% faster publishing cycle",
+    "40% improvement in workflow efficiency",
+    "35% better royalty management"
+  ],
+  "customers": "250+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Publishing Industry Guide",
+    "buttonText": "Download Now"
+  }
+}

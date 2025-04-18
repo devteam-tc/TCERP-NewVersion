@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/printing_banner_img.webp",
+  "title": "Printing Industry Solutions",
+  "description": "Advanced ERP solutions tailored for printing companies, optimizing print production workflows, color management, and quality control while ensuring efficient material utilization and timely delivery.",
+  "keyPoints": [
+    "Print Production Management",
+    "Color Management & Control",
+    "Material & Inventory Planning",
+    "Job Cost Estimation",
+    "Quality Assurance"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/printing-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive print production and workflow management system.",
+      "list": [
+        "Job Scheduling",
+        "Press Management",
+        "Workflow Automation"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/printing-quality.png",
+      "title": "Quality Control",
+      "description": "Advanced quality management system for print production.",
+      "list": [
+        "Color Control",
+        "Quality Inspection",
+        "Standards Compliance"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle print job management?",
+      "answer": "Our system provides comprehensive print job management including estimating, scheduling, material planning, press allocation, and real-time production tracking with automated workflow management."
+    },
+    {
+      "id": 2,
+      "question": "What color management features are included?",
+      "answer": "The system includes advanced color management with color profile handling, calibration tracking, color quality control, and compliance with industry color standards."
+    },
+    {
+      "id": 3,
+      "question": "Can it manage material inventory and costs?",
+      "answer": "Yes, our solution manages material inventory with paper stock management, ink consumption tracking, automated reordering, and detailed job costing with waste monitoring."
+    }
+  ],
+  "industry": "Printing",
+  "solution": "Integrated Print Management System",
+  "modules": [
+    "Production Control",
+    "Color Management",
+    "Material Planning",
+    "Job Estimation",
+    "Quality Assurance"
+  ],
+  "result": [
+    "45% improvement in production efficiency",
+    "40% reduction in material waste",
+    "35% faster job turnaround"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Printing Industry Guide",
+    "buttonText": "Download Now"
+  }
+}

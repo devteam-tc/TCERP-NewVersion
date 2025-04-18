@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/wholesale_banner_img.webp",
+  "title": "Wholesale Industry Solutions",
+  "description": "Comprehensive ERP solutions designed for wholesale distributors, optimizing inventory management, order processing, and supply chain operations while enhancing customer service and operational efficiency.",
+  "keyPoints": [
+    "Inventory Management",
+    "Order Processing & Fulfillment",
+    "Supply Chain Optimization",
+    "Customer Relationship Management",
+    "Multi-Location Operations"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/wholesale-operations.png",
+      "title": "Operations Management",
+      "description": "Advanced wholesale distribution and operations management system.",
+      "list": [
+        "Order Management",
+        "Inventory Control",
+        "Warehouse Operations"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/wholesale-logistics.png",
+      "title": "Logistics Control",
+      "description": "Comprehensive logistics and supply chain management system.",
+      "list": [
+        "Route Optimization",
+        "Delivery Tracking",
+        "Fleet Management"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle multi-location inventory?",
+      "answer": "Our system provides real-time inventory tracking across multiple locations with automated replenishment, transfer management, and optimized stock levels based on demand patterns."
+    },
+    {
+      "id": 2,
+      "question": "What order processing features are included?",
+      "answer": "The system includes comprehensive order management with bulk processing, automated fulfillment, pricing management, and real-time status tracking across the supply chain."
+    },
+    {
+      "id": 3,
+      "question": "Can it manage customer relationships?",
+      "answer": "Yes, our solution includes advanced CRM features with customer segmentation, pricing tiers, credit management, and detailed transaction history tracking."
+    }
+  ],
+  "industry": "Wholesale Distribution",
+  "solution": "Integrated Wholesale Management System",
+  "modules": [
+    "Order Management",
+    "Inventory Control",
+    "Logistics Management",
+    "Customer Management",
+    "Financial Control"
+  ],
+  "result": [
+    "45% faster order processing",
+    "40% improvement in inventory turnover",
+    "35% reduction in logistics costs"
+  ],
+  "customers": "400+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Wholesale Distribution Guide",
+    "buttonText": "Download Now"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/steel_banner_img.webp",
+  "title": "Steel Industry Solutions",
+  "description": "Advanced ERP solutions tailored for steel manufacturers, optimizing production processes, quality control, and material management while ensuring efficient operations and regulatory compliance.",
+  "keyPoints": [
+    "Production Process Control",
+    "Quality Testing & Certification",
+    "Material Grade Management",
+    "Heat Treatment Tracking",
+    "Inventory & Supply Chain"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/steel-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive steel production and process control system.",
+      "list": [
+        "Process Control",
+        "Heat Treatment",
+        "Production Planning"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/steel-quality.png",
+      "title": "Quality Control",
+      "description": "Advanced quality management system for steel manufacturing.",
+      "list": [
+        "Material Testing",
+        "Grade Certification",
+        "Quality Standards"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage production processes?",
+      "answer": "Our system provides comprehensive production management including furnace operations, rolling mill control, heat treatment tracking, and real-time process monitoring with automated quality checks."
+    },
+    {
+      "id": 2,
+      "question": "What quality control features are included?",
+      "answer": "The system includes advanced quality testing with material composition analysis, mechanical property testing, grade certification management, and complete traceability for each batch."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle material grade management?",
+      "answer": "Yes, our solution manages detailed grade specifications, heat numbers, material certifications, and inventory segregation by grade with complete tracking from raw material to finished product."
+    }
+  ],
+  "industry": "Steel Manufacturing",
+  "solution": "Integrated Steel Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Material Planning",
+    "Process Monitoring",
+    "Inventory Control"
+  ],
+  "result": [
+    "45% improvement in production efficiency",
+    "40% reduction in quality deviations",
+    "35% better inventory accuracy"
+  ],
+  "customers": "200+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Steel Manufacturing Guide",
+    "buttonText": "Download Now"
+  }
+}

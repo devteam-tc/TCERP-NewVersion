@@ -1,0 +1,71 @@
+{
+  "banner": "/images/banner/agriculture_banner_img.webp",
+  "title": "Agriculture Industry Solutions",
+  "description": "Comprehensive ERP solutions tailored for modern agricultural businesses, helping streamline operations from field to market.",
+  "keyPoints": [
+    "Farm Management & Planning",
+    "Crop Monitoring & Tracking",
+    "Inventory & Supply Chain Management",
+    "Financial Management & Reporting",
+    "Weather Integration & Forecasting"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/agriculture-management.png",
+      "title": "Farm Management",
+      "description": "Complete farm operations management including planning, scheduling, and resource allocation.",
+      "list": [
+        "Resource Planning",
+        "Crop Management",
+        "Yield Tracking"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/agriculture-analytics.png",
+      "title": "Analytics & Reporting",
+      "description": "Advanced analytics and reporting tools for data-driven decision making.",
+      "list": [
+        "Performance Analytics",
+        "Financial Reports",
+        "Yield Analysis"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle crop planning?",
+      "answer": "Our system provides comprehensive crop planning tools including seasonal scheduling, resource allocation, and yield forecasting."
+    },
+    {
+      "id": 2,
+      "question": "Can it integrate with existing farm equipment?",
+      "answer": "Yes, our solution supports integration with most modern farm equipment and IoT devices through standard protocols."
+    },
+    {
+      "id": 3,
+      "question": "What kind of reporting features are available?",
+      "answer": "The system offers extensive reporting capabilities including financial reports, yield analysis, resource utilization, and custom report generation."
+    }
+  ],
+  "industry": "Agriculture",
+  "solution": "Integrated Farm Management System",
+  "modules": [
+    "Farm Operations",
+    "Inventory Management",
+    "Financial Management",
+    "Analytics & Reporting"
+  ],
+  "result": [
+    "30% increase in operational efficiency",
+    "25% reduction in resource waste",
+    "40% improvement in planning accuracy"
+  ],
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Agriculture Solutions Brochure",
+    "buttonText": "Download Now"
+  }
+}
