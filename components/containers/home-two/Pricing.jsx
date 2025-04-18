@@ -54,8 +54,8 @@ const Pricing = ({ extraClassName = '' }) => {
                   <div className="price-box">
                     <h5 className="title">{plan.title}</h5>
                     <h3 className="price">{plan.price}</h3>
-                    <p>{plan.description}</p>
-                  </div>
+                    <p className="price-desc">{plan.description}</p>
+                    </div>
                 
                 </div>
                 <ul className="list-unstyled mt-40 options">

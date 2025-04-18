@@ -39,8 +39,8 @@ const CardsSection = () => {
     <section className="servicesSection pt-100 pb-70">
       <div className="container">
         <div className="sectionTitle">
-          <span>Our Services</span>
-          <h2>Expolre Our Data Services</h2>
+          {/* <span>Our Services</span> */}
+          <h2>Explore Our Data Services</h2>
         </div>
         <div className="row">
           {services.map((service, index) => (

@@ -87,29 +87,39 @@ const menus = [
       {
         id: 31,
         title: "Digital Marketing",
-        link: "/services",
+        link: "/services/digital-marketing",
       },
       {
         id: 32,
         title: "Web Development",
-        link: "/service-details",
+        link: "/services/web-development",
       },
       {
         id: 33,
         title: "Mobile App Development",
-        link: "/service-details",
+        link: "/services/app-development",
       },
     ],
   },
   {
     id: 6,
+    title: "Pricing",
+    link: "/pricing",
+  },
+  {
+    id: 7,
     title: "BI",
     link: "business-intelligence",
   },
   {
-    id: 7,
+    id: 8,
     title: "Contact",
     link: "/contact",
+  },
+  {
+    id: 9,
+    title: "Demo",
+    link: "/demo",
   },
 ];
 

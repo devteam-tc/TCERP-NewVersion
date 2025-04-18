@@ -1,0 +1,414 @@
+.customImagesWrapper {
+    .accordion {
+      display: flex;
+      gap: 44px;
+  
+      .accordionItem {
+        width: 25%;
+        height: 420px;
+        padding: 0;
+        border: 0;
+        border-radius: 12px;
+        overflow: hidden;
+        position: relative;
+        transition: all 0.5s;
+  
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+  
+        .conteBox {
+          background: #fff;
+          border-radius: 12px;
+          padding: 36px 26px 36px 36px;
+          position: absolute;
+          bottom: 26px;
+          left: 50px;
+          transition: all 0.5s;
+          width: 0;
+          opacity: 0;
+  
+          .serialInner {
+            margin-left: -26px;
+          }
+  
+          .serial {
+            width: 40px;
+            height: 40px;
+            min-width: 40px;
+            background: linear-gradient(135deg, #5135ff 0%, #ff5455 100%);
+            border-radius: 6px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+  
+          .box {
+            max-width: 290px;
+          }
+        }
+  
+        &.active {
+          width: 100%;
+  
+          .conteBox {
+            opacity: 1;
+            width: initial;
+          }
+        }
+  
+        &:hover {
+          cursor: pointer;
+        }
+      }
+  
+      // Responsive: max-width 1600px
+      @media screen and (max-width: 1600px) {
+        gap: 20px;
+  
+        .accordionItem {
+          .conteBox {
+            padding: 22px 16px 22px 24px;
+            bottom: 26px;
+            left: 26px;
+  
+            .serialInner {
+              margin-left: 0;
+            }
+  
+            .serial {
+              width: 34px;
+              height: 34px;
+              min-width: 34px;
+            }
+          }
+        }
+      }
+  
+      // Responsive: max-width 1199px
+      @media screen and (max-width: 1199px) {
+        gap: 16px;
+  
+        .accordionItem {
+          .conteBox {
+            padding: 18px 12px 18px 18px;
+            bottom: 18px;
+            left: 18px;
+  
+            .serial {
+              width: 32px;
+              height: 32px;
+              min-width: 32px;
+            }
+          }
+        }
+      }
+  
+      // Responsive: max-width 768px
+      @media screen and (max-width: 768px) {
+        flex-wrap: wrap;
+  
+        .accordionItem {
+          width: 100%;
+          height: 350px;
+  
+          .conteBox {
+            left: 10px;
+            bottom: 10px;
+            margin: 10px;
+          }
+        }
+      }
+    }
+  }
+  
+
+
+
+
+  .pt-120 {
+    padding-top: 120px;
+}
+  .section-padding {
+    padding: 120px 0;
+}
+.fix {
+    overflow: hidden !important;
+}
+.bg-color {
+    background: var(--bg);
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.section-title-area {
+    display: flex
+;
+    justify-content: space-between;
+    position: relative;
+    z-index: 9;
+}
+.section-title {
+    position: relative;
+}
+.sub-badge {
+    letter-spacing: 2px;
+}
+.fs-seven {
+    font-size: 16px;
+    line-height: 150%;
+}
+.p1-clr {
+    color: var(--p1-clr) !important;
+}
+.section-title h2 {
+    font-weight: 500;
+}
+
+.black {
+    color: var(--black);
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.rounded100 {
+    border-radius: 100px;
+}
+.heading-font {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.box-style {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    text-align: center;
+}
+.common-btn {
+    position: relative;
+    padding: 16px 30px 18px;
+    line-height: 18px;
+    font-weight: 600;
+    transition: all 0.5s;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 16px;
+}
+.work-learn-item .thumb-author {
+    position: relative;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background: #dbe3f5;
+    margin: 0 auto;
+    transition: all 0.4s;
+}
+.d-center {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+.work-learn-item .thumb-author::before {
+    position: absolute;
+    right: -28px;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(100% 48%, 0 0, 0 100%);
+    background: #dbe3f5;
+    transition: all 0.4s;
+}
+.work-learn-item .thumb-author .serial {
+    width: 55px;
+    height: 55px;
+    background: #dbe3f5;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--black);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    transition: all 0.4s;
+}
+.fs-seven {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.pra {
+    color: var(--pra);
+}
+.work-learn-item:hover .thumb-author {
+  background: #5135FF;
+}
+  
+
+
+// download
+.download-section.alternat-2 {
+  background: #EFF2E6;
+}
+.download-section {
+  position: relative;
+}
+@media only screen and (max-width: 767px) {
+  .download-section {
+      padding-bottom: 70px;
+  }
+}
+.pb_120 {
+  padding-bottom: 120px;
+  @media only screen and (max-width: 767px) {
+      padding-bottom: 50px;
+  }
+}   
+.pt_120 {
+  padding-top: 120px;
+  @media only screen and (max-width: 767px) {
+      padding-top: 50px;
+  }
+}   
+.download-section.alternat-2 .inner-container {
+  background: #fff;
+}
+
+.download-section .inner-container {
+  position: relative;
+  display: block;
+  background: #eff2e6;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 80px 40px 80px 100px;
+  @media only screen and (max-width: 991px) {
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  @media (max-width: 767px) {
+    padding: 40px 40px 80px 40px;
+  }
+  @media only screen and (max-width: 599px) {
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+}
+.download-section .inner-container .pattern-layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.download-section .content-box {
+  position: relative;
+  display: block;
+}
+.download-section .content-box h2 {
+  display: block;
+  font-size: 48px;
+  line-height: 53px;
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 767px) {
+  .download-section .content-box h2 {
+      font-size: 36px;
+      line-height: 44px;
+  }
+}
+.mb_30 {
+  margin-bottom: 30px;
+}
+.download-section .content-box .list-item li {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--title-color);
+  padding-left: 36px;
+  margin-bottom: 12px;
+}
+.download-section .content-box .list-item li:before {
+  position: absolute;
+  content: "";
+  background-image: url('/images/servicescards/start-green.png');
+  left: 0;
+  top: 1px;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+.theme-btn {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #111111 !important;
+  text-align: center;
+  border-radius: 50px;
+  padding: 15px 40px;
+  z-index: 1;
+  transition: all .5s ease-in-out 0s;
+}
+.theme-btn:after, .theme-btn:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  background: #26472B;
+  transition: all .5s ease;
+}
+
+.theme-btn:before {
+  left: 0;
+  transform: translateX(0);
+  transform-origin: left center;
+}
+.download-section .image-box {
+  position: relative;
+  display: block;
+}
+.download-section .image-box .image {
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 20px 24px 20px 0 rgba(0, 0, 0, .2);
+}
+figure {
+  margin: 0;
+}
+.download-section .image-box .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  transition-delay: .1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: .7s;
+  transition-property: all;
+}
+.icon-box.no-rotate {
+  transform: none !important;
+  transition: none !important;
+
+  svg {
+    transform: none !important;
+    transition: none !important;
+  }
+}

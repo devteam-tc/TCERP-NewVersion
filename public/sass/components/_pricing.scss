@@ -19,7 +19,15 @@
 
       .price-box {
         .title {
-          margin-bottom: 20px;
+          margin-bottom: 0px;
+        }
+        .price {
+         font-weight: 600;
+        }
+        .price-desc {
+          font-size: 14px;
+          color: #666;
+          line-height: 1.6;
         }
       }
 
@@ -172,7 +180,7 @@
       height: 0;
 
       &:checked + .slider {
-        background-color: #007bff;
+        background-color: #05afcc;
 
         &:before {
           transform: translateX(24px);

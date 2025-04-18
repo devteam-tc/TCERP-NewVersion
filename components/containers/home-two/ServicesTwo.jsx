@@ -45,7 +45,7 @@ const ServicesTwo = () => {
                         <Image src={service.icon} alt="service-icon" />
                       </div> */}
                     </div>
-                    <div className="text text-center">
+                    <div className="text">
                       <h4 className="title">
                         <Link href="/service-details">{service.title}</Link>
                       </h4>

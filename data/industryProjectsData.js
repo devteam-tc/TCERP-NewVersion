@@ -1,6 +1,6 @@
 const industryProjectsData = {
     "agriculture-industry": {
-      title: "Empowering the Agriculture Industry with Smart ERP Solutions",
+      title: "Empowering Agriculture Industry",
       banner: "/images/banner/agriculture_banner_img.webp",
       industry: "Agriculture",
       solution: "ERP Software",
@@ -8,22 +8,52 @@ const industryProjectsData = {
       modules: ["CRM", "Sales", "Purchase", "Inventory", "Production & Harvesting", "Finance & Accounting", "Machinery Management & (Custom Modules)"],
       result: ["Improved stock visibility and harvest forecasting accuracy"],
       description: "Agriculture has always been important, but today it faces new challenges. Farming is now more complex, with the need to manage resources, track production and handle supply chains. ERP software helps by putting all these tasks into one easy system. This reduces waste and makes buying, producing and delivering goods more efficient. In the future, ERP systems will help farms of all sizes stay flexible, work clearly and adjust to changes in the economy and environment while still meeting customer demands.",
-      images: [
-        "/images/banner/agriculture_img1.webp",
-        "/images/banner/agriculture_img2.webp",
-      ],
       keyPoints: [
         "Crop Planning and Performance Tracking",
         "Inventory Tracking and Quality Check",
         "Financial Management and Machinery Management",
       ],
-      subHeading: "Top Benefits of ERP for Agriculture",
-      subText: "The adoption of ERP software in agriculture leads to numerous benefits, including:",
-      features: [
-        { title: "Smart Farming Solutions", description: "Buy seeds online, manage fertilizers and control harvesting, watering and storage with ease. Get all crop data for better farm management." },
-        { title: "Effective Machinery Management", description: "Monitor farm equipment like harvesters and sprinklers, track usage hours and optimize performance." },
-        { title: "Advanced Traceability & Insights", description: "Track seeds, fertilizers and supply chains for better crop growth and quality" },
+      downloadWidget: {
+        bgShape: "/images/shape/shape-24.png",
+        image: "/images/industry-icons/book-3.png",
+        title: "The 2025 guide for Optimal Content",
+        spanTitle: "Management",
+        buttonText: "Download E-book",
+      },
+      faqData: [
+        {
+          id: 1,
+          question: 'What is Agriculture ERP software?',
+          answer: 'Agriculture ERP is an All- in- one software solution that enables them to manage crop planning, inventory, supply chain, finances, machinery and quality control to increase productivity and transparency.'
+        },
+        {
+          id: 2,
+          question: 'Is ERP software useful for small and medium-sized farms?',
+          answer: 'Absolutely ERP systems are flexible and customizable for farms of any size, enabling even small-scale farmers to cut waste, optimize resource use and increase profitability.'
+        },
+        {
+          id: 3,
+          question: 'Can I manage farm inventory and quality with this software?',
+          answer: 'Yes, ERP software keeps track of the inventory level where seeds, fertilizers, pesticides and tools. It also covers quality checks of stored crops to avoid standard violations and minimize the postharvest losses.'
+        }
       ],
+      infoCards: [
+        {
+          title: "Why Choose Us",
+          description: "Our ERP system supports smarter, data-driven agriculture to improve yields, reduce waste and ensure profitability.",
+          list: [
+            "End-to-End Supply Chain Visibility",
+            "Soil Health & Crop Cycle Management",
+            "Livestock & Equipment Monitoring"
+          ]
+        },
+        {
+          title: "Empowering Your Growth",
+          image: "/images/industry-icons/agriculture-logo-short.png",
+          description: "Whether you're managing a single farm or an agri-enterprise, our ERP delivers precision, productivity and peace of mind"
+        }
+      ],
+      
     },
     "apparel-industry": {
       title: "Empowering the Apparel Industry with Smart ERP Solutions",
@@ -50,6 +80,9 @@ const industryProjectsData = {
         { title: "Optimized supply chain inventory", description: "Accurately forecast demand by sales channel and maximize sales and customer service with visibility into global inventory." },
         { title: "Enhanced profitability and growth", description: "Support growth, gain the agility to adopt new business models, enhance financial reporting and leverage AI to reduce costs and improve margin." },
       ],
+
+     
+      
     },
     "automotive-industry": {
       title: "Transforming Automotive Manufacturing with Smart ERP",

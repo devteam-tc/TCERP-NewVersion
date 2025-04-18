@@ -17,9 +17,9 @@ const BusinessSection = () => {
         <div className="row g-4 justify-content-between">
           <div className="col-lg-5 order-lg-0 order-1">
             <div className="businessThumbnail">
-              <Image src="/bi/business-thumb.png" alt="Business" width={500} height={500} className="mimg" />
-              <Image src="/bi/line-card.png" alt="line" className="lineCard" width={100} height={100} />
-              <Image src="/bi/box-card.png" alt="box" className="boxCard" width={100} height={100} />
+              <Image src="/bi/business-thumb (1).png" alt="Business" width={500} height={500} className="mimg" />
+              <Image src="/bi/line-card.png" alt="line" className="lineCard" width={300} height={200} />
+              <Image src="/bi/box-card.png" alt="box" className="boxCard" width={300} height={200} />
             </div>
           </div>
 

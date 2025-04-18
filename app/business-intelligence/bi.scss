@@ -24,6 +24,7 @@
     .lineCard,
     .boxCard {
       position: absolute;
+      right: 400px;
     }
 
     .lineCard {
@@ -100,7 +101,15 @@
     }
   }
 }
-
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  transition-delay: .1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: .7s;
+  transition-property: all;
+}
 .singleServicesBox {
   margin-bottom: 30px;
   box-shadow: 0 5px 40px rgba(0, 0, 0, 0.11);
