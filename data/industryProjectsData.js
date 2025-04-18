@@ -34,7 +34,7 @@ const industryProjectsData = {
         {
           id: 3,
           question: 'What Makes Your Company Different?',
-          answer: 'We combine ERP expertise with domain-specific insights...'
+          answer: 'We combine ERP expertise with domain-specific insights...sdfvgsdfffffffffffff fffffffffffffffff ffuiuiuiuiuiuiuiuiuiuigbbbbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbbbbbbbbbbkldity7u'
         }
       ],
       infoCards: [
