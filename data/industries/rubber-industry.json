@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/rubber_banner_img.webp",
+  "title": "Rubber Industry Solutions",
+  "description": "Advanced ERP solutions tailored for rubber manufacturers, optimizing compound formulation, production processes, and quality control while ensuring efficient material utilization and process consistency.",
+  "keyPoints": [
+    "Compound Formulation Management",
+    "Process Control & Monitoring",
+    "Quality Testing & Compliance",
+    "Material Requirements Planning",
+    "Production Optimization"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/rubber-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive rubber processing and production control system.",
+      "list": [
+        "Mixing Control",
+        "Process Monitoring",
+        "Batch Tracking"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/rubber-quality.png",
+      "title": "Quality Control",
+      "description": "Advanced quality management system for rubber manufacturing.",
+      "list": [
+        "Quality Testing",
+        "Property Analysis",
+        "Standards Compliance"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle compound formulation?",
+      "answer": "Our system provides comprehensive compound management including recipe formulation, material specifications, mixing parameters, and batch tracking with complete traceability."
+    },
+    {
+      "id": 2,
+      "question": "What quality control features are included?",
+      "answer": "The system includes advanced quality testing with physical property analysis, rheology testing, aging studies, and detailed quality reporting for various rubber compounds and products."
+    },
+    {
+      "id": 3,
+      "question": "Can it manage process parameters?",
+      "answer": "Yes, our solution manages process parameters with real-time monitoring, temperature control, curing profiles, and automated adjustments for optimal production conditions."
+    }
+  ],
+  "industry": "Rubber Manufacturing",
+  "solution": "Integrated Rubber Manufacturing System",
+  "modules": [
+    "Compound Management",
+    "Production Control",
+    "Quality Assurance",
+    "Process Monitoring",
+    "Material Planning"
+  ],
+  "result": [
+    "45% improvement in compound consistency",
+    "40% reduction in material waste",
+    "35% better quality compliance"
+  ],
+  "customers": "200+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Rubber Manufacturing Guide",
+    "buttonText": "Download Now"
+  }
+}

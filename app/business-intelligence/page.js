@@ -9,6 +9,7 @@ import PageHeader from '@/components/layout/PageHeader';
 // import CardsSection from './CardsSection';
 import BusinessCards from './BusinessCards';
 
+
 const breadcrumbs = [
   { label: 'Home', link: '/' },
   { label: 'Business Intelligence', link: null }

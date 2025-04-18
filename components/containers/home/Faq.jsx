@@ -9,6 +9,7 @@ import Image from "next/image";
 import OdometerCounter from "../Odometer";
 import SectionTitle from "../SectionTitle";
 
+
 const Faq = ({ extraClassName = '' }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 

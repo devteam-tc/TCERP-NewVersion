@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import './servicesection.scss';
 import { CiCircleMinus, CiCirclePlus } from 'react-icons/ci';
+import SectionTitle from '@/components/containers/SectionTitle';
 
 const FAQ_DATA = {
   'web-development': [
@@ -62,14 +63,13 @@ export default function FAQSection({ service = 'web-development' }) {
       <div className="auto-container">
         <div className="row clearfix">
           {/* Process Steps */}
-          <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+          <div className="col-lg-6 col-md-12 col-sm-12 process-column mb-lg-0 mb-5">
             <div className="content_block_two">
               <div className="content-box mr_100">
                 <div className="sec-title pb_35">
                   <span className="sub-title mb_10">The Process</span>
                   <h2>How it Works</h2>
                 </div>
-
                 <div className="inner-box">
                   <div className="single-item">
                     <span className="count-text">1</span>
@@ -92,44 +92,33 @@ export default function FAQSection({ service = 'web-development' }) {
           </div>
 
           {/* FAQs */}
-          <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-            <div className="content_block_three">
-              <div className="content-box">
-                <div className="sec-title pb_30">
-                  <span className="sub-title mb_10">General Faqs</span>
-                  <h2>Frequently Asked Questions</h2>
-                </div>
-
-                <ul className="accordion-box">
-                  {faqs.map((item, index) => {
-                    const isActive = activeIndex === index;
-                    return (
-                      <li
-                        key={index}
-                        className={`accordion block ${isActive ? 'active-block' : ''}`}
-                      >
-                        <div
-                          className={`acc-btn ${isActive ? 'active' : ''}`}
+          <div className="col-lg-6 col-md-12 col-sm-12 faq-column">
+            <div className="ep-faq-section">
+              <div className="sec-title pb_35">
+                <span className="sub-title mb_10">FAQ</span>
+                <h2>Frequently Asked Questions</h2>
+              </div>
+              <div className="faq-body">
+                <div className="accordion">
+                  {faqs.map((item, index) => (
+                    <div className="accordion-item" key={index}>
+                      <div className="accordion-header">
+                        <button
+                          className={`accordion-button ${activeIndex === index ? "" : "collapsed"}`}
+                          type="button"
                           onClick={() => toggleFAQ(index)}
                         >
-                          <div className="icon-box">
-                            {isActive ? (
-                              <CiCircleMinus size={24} />
-                            ) : (
-                              <CiCirclePlus size={24} />
-                            )}
-                          </div>
-                          <h4>{item.question}</h4>
+                          {index + 1}. {item.question}
+                        </button>
+                      </div>
+                      <div className={`accordion-collapse collapse ${activeIndex === index ? "show" : ""}`}>
+                        <div className="accordion-body">
+                          <p>{item.answer}</p>
                         </div>
-                        <div className={`acc-content ${isActive ? 'current' : ''}`}>
-                          <div className="content">
-                            <p>{item.answer}</p>
-                          </div>
-                        </div>
-                      </li>
-                    );
-                  })}
-                </ul>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>

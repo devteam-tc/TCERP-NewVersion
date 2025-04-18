@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/garment_banner_img.webp",
+  "title": "Garment Industry Solutions",
+  "description": "Advanced ERP solutions tailored for garment manufacturers, streamlining production processes from design to delivery while optimizing style management, costing, and quality control.",
+  "keyPoints": [
+    "Style & Sample Management",
+    "Production Planning & Control",
+    "Material Resource Planning",
+    "Quality Assurance",
+    "Cost & Efficiency Tracking"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/garment-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive garment production management system with style tracking and scheduling.",
+      "list": [
+        "Style Management",
+        "Production Tracking",
+        "Efficiency Monitoring"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/garment-quality.png",
+      "title": "Quality Control",
+      "description": "Integrated quality management system for garment manufacturing.",
+      "list": [
+        "Quality Inspection",
+        "Defect Tracking",
+        "Standards Compliance"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage different styles and sizes?",
+      "answer": "Our system provides comprehensive style management with size-wise planning, color variations, sample tracking, and detailed specifications management for each style variant."
+    },
+    {
+      "id": 2,
+      "question": "What production tracking features are included?",
+      "answer": "The system includes real-time production tracking with line efficiency monitoring, worker productivity analysis, and detailed cost tracking for each production stage."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle material planning and costing?",
+      "answer": "Yes, our solution manages detailed material requirements planning, consumption analysis, cost calculations, and wastage tracking for optimal resource utilization."
+    }
+  ],
+  "industry": "Garment",
+  "solution": "Integrated Garment Manufacturing System",
+  "modules": [
+    "Style Management",
+    "Production Control",
+    "Quality Assurance",
+    "Material Planning",
+    "Cost Management"
+  ],
+  "result": [
+    "40% improvement in production efficiency",
+    "35% reduction in material wastage",
+    "45% better quality compliance"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Garment Industry Guide",
+    "buttonText": "Download Now"
+  }
+}
