@@ -2,7 +2,7 @@
 import './AboutSection.scss';
 import Image from 'next/image';
 import Link from 'next/link';
-import { productAboutData } from '../utils/constant'; // ✅ Import constants
+import { productAboutData } from '../../data/productsData'; // ✅ Import constants
 
 const AboutSection = ({ slug }) => {
   const data = productAboutData[slug];

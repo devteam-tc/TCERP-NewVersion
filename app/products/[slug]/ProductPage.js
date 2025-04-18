@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import { Container } from 'react-bootstrap';
 import { useMediaQuery } from 'react-responsive';
-import { productData, productDetailsData } from '../../utils/constant';
+import { productData, productDetailsData } from '../../../data/productsData';
 import PageHeader from '@/components/layout/PageHeader';
 import Footer from '@/components/layout/footer/Footer';
 import Header from '@/components/layout/header/Header';

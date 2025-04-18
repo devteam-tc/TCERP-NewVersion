@@ -13,13 +13,13 @@ const MainContentSection = ({ content }) => {
     
         <div className="text-box">
           {content?.paragraphs?.slice(1).map((para, index) => (
-            <p key={index} className={index === 0 ? 'mb-4' : ''}>
+            <p key={index} className={index === 0 ? 'mb-3' : ''}>
               {para}
             </p>
           ))}
         </div>
         <figure className="image-box mb-5">
-          <Image
+          <Image className='mt-3'
             src={content?.image}
             alt={content?.subTitle}
             width={800}

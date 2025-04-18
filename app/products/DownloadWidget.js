@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import '../../../TCERP-NewVersion/public/sass/common/_common.scss';
+import './DownloadWidget.scss';
 
 const DownloadWidget = ({ widget }) => {
   // Log the widget prop to verify if it's passed correctly
@@ -9,7 +9,7 @@ const DownloadWidget = ({ widget }) => {
   if (!widget) return <div>Download widget data is unavailable.</div>;
 
   return (
-    <div className="download-widget mt-5 mb-5">
+    <div className="download-widget mt-3 mb-3">
       <div
         className="shape"
         style={{ backgroundImage: `url(${widget.bgShape})` }}

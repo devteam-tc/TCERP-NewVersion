@@ -47,7 +47,7 @@ const Footer = () => {
                             </div>
                             <h4 className="title">Email </h4>
                           </div>
-                          <a href="mailto:info@techclouderp.com">info@techclouderp.com</a>
+                          <p> <a href="mailto:info@techclouderp.com">info@techclouderp.com</a></p>
                         </li>
                       </ul>
                     </div>

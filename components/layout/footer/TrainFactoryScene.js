@@ -1,9 +1,9 @@
-import styles from './TrainFactoryScene.module.scss';
+import './TrainFactoryScene.scss';
 
 const TrainFactoryScene = () => {
   return (
-    <div className={styles.backgroundSection}>
-      <div className={styles.scrollingImages}>
+    <div className="backgroundSection">
+      <div className="scrollingImages">
         <img src="/footer/scrollimg.png" alt="img1" />
       </div>
     </div>

@@ -29,7 +29,7 @@ const DownloadSection = () => {
                   </li>
                 </ul>
                 <button type="button" className="theme-btn btn-one" disabled>
-                  Download E-book
+                  Download Book
                 </button>
               </div>
             </div>

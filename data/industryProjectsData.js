@@ -18,7 +18,7 @@ const industryProjectsData = {
         image: "/images/industry-icons/book-3.png",
         title: "The 2024 guide for Optimal Content",
         spanTitle: "Management",
-        buttonText: "Download E-book",
+        buttonText: "Download Book",
       },
       faqData: [
         {

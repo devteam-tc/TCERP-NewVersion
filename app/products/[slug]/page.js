@@ -42,7 +42,7 @@
 // }
 
 import { notFound } from "next/navigation";
-import { productData } from "../../utils/constant";
+import { productData } from "../../../data/productsData";
 import ProductPageClientWrapper from "./ProductPageClientWrapper";
 
 export function generateStaticParams() {
