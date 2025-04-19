@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useParams } from "next/navigation";
-import ProjectDetailsPage from "@/components/containers/projects/ProjectDetailsPage";
+import ProjectDetailsPage from "@/components/containers/industries/IndustryDetailsPage";
 import CustomCursor from "@/components/layout/CustomCursor";
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";

@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/jewellery_banner_img.webp",
+  "title": "Jewellery Industry Solutions",
+  "description": "Advanced ERP solutions tailored for jewellery manufacturers, ensuring precise precious metal tracking, design management, and production control while maintaining quality and security standards.",
+  "keyPoints": [
+    "Precious Metal Inventory",
+    "Design & CAD Management",
+    "Production Tracking",
+    "Quality & Hallmarking",
+    "Stone & Metal Management"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/jewellery-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive jewellery production system with design and material tracking.",
+      "list": [
+        "Design Management",
+        "Material Control",
+        "Process Tracking"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/jewellery-quality.png",
+      "title": "Quality Control",
+      "description": "Advanced quality assurance system for precious metals and stones.",
+      "list": [
+        "Metal Testing",
+        "Stone Grading",
+        "Certification Management"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage precious metal inventory?",
+      "answer": "Our system provides precise tracking of precious metals with weight management, purity tracking, wastage control, and complete audit trail from raw material to finished product."
+    },
+    {
+      "id": 2,
+      "question": "What design management features are included?",
+      "answer": "The system includes comprehensive design management with CAD integration, 3D model storage, version control, and detailed specifications for each design variant."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle stone inventory and grading?",
+      "answer": "Yes, our solution manages detailed stone inventory with grading specifications, certification tracking, and stone setting management for various jewellery types."
+    }
+  ],
+  "industry": "Jewellery",
+  "solution": "Integrated Jewellery Manufacturing System",
+  "modules": [
+    "Design Management",
+    "Production Control",
+    "Metal Management",
+    "Stone Inventory",
+    "Quality Assurance"
+  ],
+  "result": [
+    "45% better inventory accuracy",
+    "40% reduction in metal wastage",
+    "35% faster design-to-production"
+  ],
+  "customers": "250+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Jewellery Industry Guide",
+    "buttonText": "Download Now"
+  }
+}

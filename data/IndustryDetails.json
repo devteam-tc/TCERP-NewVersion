@@ -1,0 +1,2480 @@
+{
+  "agriculture-industry": {
+    "banner": "/images/banner/agriculture_banner_img.webp",
+    "title": "Agriculture Industry Solutions",
+    "description": "Comprehensive ERP solutions tailored for modern agricultural businesses, helping streamline operations from field to market.",
+    "keyPoints": [
+      "Farm Management & Planning",
+      "Crop Monitoring & Tracking",
+      "Inventory & Supply Chain Management",
+      "Financial Management & Reporting",
+      "Weather Integration & Forecasting"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/agriculture-management.png",
+        "title": "Farm Management",
+        "description": "Complete farm operations management including planning, scheduling, and resource allocation.",
+        "list": [
+          "Resource Planning",
+          "Crop Management",
+          "Yield Tracking"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/agriculture-analytics.png",
+        "title": "Analytics & Reporting",
+        "description": "Advanced analytics and reporting tools for data-driven decision making.",
+        "list": [
+          "Performance Analytics",
+          "Financial Reports",
+          "Yield Analysis"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle crop planning?",
+        "answer": "Our system provides comprehensive crop planning tools including seasonal scheduling, resource allocation, and yield forecasting."
+      },
+      {
+        "id": 2,
+        "question": "Can it integrate with existing farm equipment?",
+        "answer": "Yes, our solution supports integration with most modern farm equipment and IoT devices through standard protocols."
+      },
+      {
+        "id": 3,
+        "question": "What kind of reporting features are available?",
+        "answer": "The system offers extensive reporting capabilities including financial reports, yield analysis, resource utilization, and custom report generation."
+      }
+    ],
+    "industry": "Agriculture",
+    "solution": "Integrated Farm Management System",
+    "modules": [
+      "Farm Operations",
+      "Inventory Management",
+      "Financial Management",
+      "Analytics & Reporting"
+    ],
+    "result": [
+      "30% increase in operational efficiency",
+      "25% reduction in resource waste",
+      "40% improvement in planning accuracy"
+    ],
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Agriculture Solutions Brochure",
+      "buttonText": "Download Now"
+    }
+  },
+  "apparel-industry": {
+    "banner": "/images/industries/apparel-banner.jpg",
+    "title": "Apparel Industry Solutions",
+    "description": "Comprehensive ERP solutions designed for apparel and fashion businesses, streamlining processes from design to retail distribution.",
+    "keyPoints": [
+      "Design & Product Development",
+      "Material & Inventory Management",
+      "Production Planning & Control",
+      "Quality Assurance",
+      "Supply Chain & Distribution"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/apparel-management.png",
+        "title": "Fashion Management",
+        "description": "End-to-end fashion lifecycle management from design conceptualization to retail distribution.",
+        "list": [
+          "Design Management",
+          "Collection Planning",
+          "Season Tracking"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/apparel-analytics.png",
+        "title": "Production Analytics",
+        "description": "Real-time analytics and insights for optimizing production and inventory management.",
+        "list": [
+          "Production Metrics",
+          "Inventory Analytics",
+          "Cost Analysis"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle seasonal collections?",
+        "answer": "Our system provides comprehensive collection planning tools including design management, material requirements planning, and production scheduling for seasonal collections."
+      },
+      {
+        "id": 2,
+        "question": "Can it manage multiple size and color variations?",
+        "answer": "Yes, the system supports matrix management for size, color, and style variations with advanced inventory tracking and production planning features."
+      },
+      {
+        "id": 3,
+        "question": "What kind of quality control features are included?",
+        "answer": "The system includes detailed quality control modules with inspection planning, defect tracking, and quality metrics reporting across the production process."
+      }
+    ],
+    "industry": "Apparel & Fashion",
+    "solution": "Integrated Fashion Management System",
+    "modules": [
+      "Design Management",
+      "Production Planning",
+      "Inventory Control",
+      "Quality Management",
+      "Distribution"
+    ],
+    "result": [
+      "40% reduction in design-to-production time",
+      "35% improvement in inventory accuracy",
+      "25% decrease in production costs"
+    ],
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Fashion Industry Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "automotive-industry": {
+    "banner": "/images/banner/automotive_banner_img.webp",
+    "title": "Automotive Industry Solutions",
+    "description": "Advanced ERP solutions tailored for automotive manufacturers and suppliers, optimizing production, supply chain, and quality control processes.",
+    "keyPoints": [
+      "Production Line Management",
+      "Supply Chain Optimization",
+      "Quality Control & Compliance",
+      "Inventory & Parts Management",
+      "Vehicle Lifecycle Tracking"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/automotive-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive production line management with real-time monitoring and optimization tools.",
+        "list": [
+          "Assembly Line Control",
+          "Production Scheduling",
+          "Resource Optimization"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/automotive-quality.png",
+        "title": "Quality & Compliance",
+        "description": "Advanced quality control and regulatory compliance management system.",
+        "list": [
+          "Quality Inspections",
+          "Compliance Tracking",
+          "Defect Analysis"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle supply chain management?",
+        "answer": "Our system provides end-to-end supply chain visibility with real-time tracking, supplier management, and just-in-time inventory optimization."
+      },
+      {
+        "id": 2,
+        "question": "Can it integrate with existing automotive production systems?",
+        "answer": "Yes, our solution supports integration with major automotive production systems, PLCs, and quality control equipment through standard industrial protocols."
+      },
+      {
+        "id": 3,
+        "question": "What kind of quality control features are available?",
+        "answer": "The system includes comprehensive quality control features including inspection planning, defect tracking, compliance monitoring, and automated quality reporting."
+      }
+    ],
+    "industry": "Automotive",
+    "solution": "Integrated Automotive Manufacturing System",
+    "modules": [
+      "Production Management",
+      "Supply Chain Control",
+      "Quality Assurance",
+      "Inventory Management",
+      "Compliance Tracking"
+    ],
+    "result": [
+      "45% improvement in production efficiency",
+      "30% reduction in supply chain costs",
+      "50% decrease in quality-related issues"
+    ],
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Automotive Solutions Brochure",
+      "buttonText": "Download Now"
+    }
+  },
+  "beverage-industry": {
+    "banner": "/images/banner/beverage_banner_img.webp",
+    "title": "Beverage Industry Solutions",
+    "description": "Comprehensive ERP solutions designed for beverage manufacturers, optimizing production, quality control, and distribution while ensuring compliance with food safety standards.",
+    "keyPoints": [
+      "Recipe & Formula Management",
+      "Batch Production Control",
+      "Quality & Safety Compliance",
+      "Cold Chain Management",
+      "Distribution & Logistics"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/beverage-production.png",
+        "title": "Production Control",
+        "description": "Advanced batch production management with recipe control and scaling capabilities.",
+        "list": [
+          "Recipe Management",
+          "Batch Tracking",
+          "Production Scheduling"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/beverage-quality.png",
+        "title": "Quality & Safety",
+        "description": "Comprehensive quality control and food safety compliance management system.",
+        "list": [
+          "Quality Testing",
+          "Safety Compliance",
+          "Shelf-life Tracking"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle recipe management?",
+        "answer": "Our system provides complete recipe management with version control, scaling capabilities, and ingredient tracking while protecting proprietary formulations."
+      },
+      {
+        "id": 2,
+        "question": "What food safety compliance features are included?",
+        "answer": "The system includes comprehensive food safety compliance tools including HACCP monitoring, quality testing workflows, and regulatory documentation management."
+      },
+      {
+        "id": 3,
+        "question": "Can it manage cold chain logistics?",
+        "answer": "Yes, our solution includes temperature-controlled logistics management, real-time monitoring, and automated alerts for cold chain integrity maintenance."
+      }
+    ],
+    "industry": "Beverage",
+    "solution": "Integrated Beverage Manufacturing System",
+    "modules": [
+      "Recipe Management",
+      "Production Control",
+      "Quality Assurance",
+      "Inventory Management",
+      "Distribution Control"
+    ],
+    "result": [
+      "35% increase in production efficiency",
+      "40% reduction in quality incidents",
+      "45% improvement in inventory accuracy"
+    ],
+    "customers": "300+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Beverage Solutions Brochure",
+      "buttonText": "Download Now"
+    }
+  },
+  "chemical-industry": {
+    "banner": "/images/banner/chemical_banner_img.webp",
+    "title": "Chemical Industry Solutions",
+    "description": "Advanced ERP solutions tailored for chemical manufacturers, ensuring safety compliance, process control, and efficient material management while optimizing production workflows.",
+    "keyPoints": [
+      "Process Safety Management",
+      "Hazardous Material Handling",
+      "Batch Process Control",
+      "Regulatory Compliance",
+      "Laboratory Information Management"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/chemical-process.png",
+        "title": "Process Management",
+        "description": "Comprehensive process control and monitoring system for chemical manufacturing operations.",
+        "list": [
+          "Batch Processing",
+          "Process Automation",
+          "Real-time Monitoring"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/chemical-safety.png",
+        "title": "Safety & Compliance",
+        "description": "Integrated safety and compliance management system for chemical operations.",
+        "list": [
+          "Safety Protocols",
+          "Regulatory Tracking",
+          "Environmental Monitoring"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle hazardous material management?",
+        "answer": "Our system provides comprehensive hazardous material tracking, including SDS management, storage conditions monitoring, and automated safety protocol enforcement."
+      },
+      {
+        "id": 2,
+        "question": "What regulatory compliance features are included?",
+        "answer": "The system includes features for EPA, OSHA, and international chemical regulations compliance, with automated documentation, reporting, and audit trail capabilities."
+      },
+      {
+        "id": 3,
+        "question": "Can it integrate with laboratory equipment?",
+        "answer": "Yes, our solution integrates with various laboratory instruments and LIMS systems, providing seamless data flow between quality control labs and production."
+      }
+    ],
+    "industry": "Chemical",
+    "solution": "Integrated Chemical Manufacturing System",
+    "modules": [
+      "Process Control",
+      "Safety Management",
+      "Quality Assurance",
+      "Laboratory Management",
+      "Compliance Tracking"
+    ],
+    "result": [
+      "50% improvement in compliance efficiency",
+      "40% reduction in safety incidents",
+      "35% increase in batch consistency"
+    ],
+    "customers": "250+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Chemical Industry Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "educational-institutes": {
+    "banner": "/images/banner/education_banner_img.webp",
+    "title": "Educational Institute Solutions",
+    "description": "Comprehensive ERP solutions designed for educational institutions, streamlining academic operations, student management, and administrative processes while enhancing learning outcomes.",
+    "keyPoints": [
+      "Student Information Management",
+      "Academic Planning & Scheduling",
+      "Learning Management System",
+      "Financial Aid & Billing",
+      "Campus Resource Management"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/education-academic.png",
+        "title": "Academic Management",
+        "description": "Complete academic lifecycle management from admission to graduation.",
+        "list": [
+          "Course Planning",
+          "Grade Management",
+          "Attendance Tracking"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/education-admin.png",
+        "title": "Administrative Control",
+        "description": "Comprehensive administrative and resource management system.",
+        "list": [
+          "Resource Allocation",
+          "Staff Management",
+          "Financial Planning"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle student records?",
+        "answer": "Our system provides secure, comprehensive student information management including academic records, attendance, behavior tracking, and progress monitoring with role-based access control."
+      },
+      {
+        "id": 2,
+        "question": "Can it manage multiple academic programs?",
+        "answer": "Yes, the system supports multiple programs, departments, and campuses with customizable curriculum management, scheduling, and reporting capabilities."
+      },
+      {
+        "id": 3,
+        "question": "What features are available for online learning?",
+        "answer": "The system includes integrated learning management features with virtual classroom support, content management, assignment tracking, and online assessment tools."
+      }
+    ],
+    "industry": "Education",
+    "solution": "Integrated Education Management System",
+    "modules": [
+      "Student Management",
+      "Academic Planning",
+      "Resource Management",
+      "Financial Management",
+      "Learning Management"
+    ],
+    "result": [
+      "45% reduction in administrative workload",
+      "35% improvement in resource utilization",
+      "50% faster academic planning process"
+    ],
+    "customers": "500+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Education Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "electrical-solar-industry": {
+    "banner": "/images/banner/solar_banner_img.webp",
+    "title": "Solar Industry Solutions",
+    "description": "Advanced ERP solutions tailored for solar energy companies, optimizing installation projects, monitoring system performance, and managing renewable energy operations.",
+    "keyPoints": [
+      "Solar Project Management",
+      "Installation Tracking",
+      "Performance Monitoring",
+      "Maintenance Planning",
+      "Energy Production Analytics"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/solar-project.png",
+        "title": "Project Management",
+        "description": "Comprehensive solar project lifecycle management from site assessment to installation.",
+        "list": [
+          "Site Assessment",
+          "Installation Planning",
+          "Resource Scheduling"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/solar-monitoring.png",
+        "title": "System Monitoring",
+        "description": "Real-time monitoring and analytics for solar power systems.",
+        "list": [
+          "Performance Tracking",
+          "Energy Analytics",
+          "Maintenance Alerts"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle project planning?",
+        "answer": "Our system provides end-to-end project management including site surveys, design planning, installation scheduling, and resource allocation with real-time progress tracking."
+      },
+      {
+        "id": 2,
+        "question": "What monitoring capabilities are included?",
+        "answer": "The system includes comprehensive monitoring features with real-time performance tracking, energy production analytics, and predictive maintenance alerts."
+      },
+      {
+        "id": 3,
+        "question": "Can it manage multiple installation teams?",
+        "answer": "Yes, the system supports multiple installation teams with resource scheduling, skill tracking, and mobile app support for field operations."
+      }
+    ],
+    "industry": "Solar Energy",
+    "solution": "Integrated Solar Management System",
+    "modules": [
+      "Project Planning",
+      "Installation Management",
+      "Performance Monitoring",
+      "Maintenance Control",
+      "Analytics Dashboard"
+    ],
+    "result": [
+      "40% faster project completion",
+      "35% improvement in system efficiency",
+      "45% reduction in maintenance costs"
+    ],
+    "customers": "200+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Solar Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "electronics-industry": {
+    "banner": "/images/banner/electronics_banner_img.webp",
+    "title": "Electronics Industry Solutions",
+    "description": "Advanced ERP solutions designed for electronics manufacturers, optimizing production processes, component management, and quality control while ensuring compliance with industry standards.",
+    "keyPoints": [
+      "PCB Assembly Management",
+      "Component Inventory Control",
+      "Quality Testing & Inspection",
+      "BOM Management",
+      "Production Line Automation"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/electronics-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive electronics manufacturing and assembly management system.",
+        "list": [
+          "Assembly Line Control",
+          "Process Automation",
+          "Yield Optimization"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/electronics-quality.png",
+        "title": "Quality Control",
+        "description": "Advanced quality assurance and testing management system.",
+        "list": [
+          "Automated Testing",
+          "Defect Tracking",
+          "Quality Metrics"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage component inventory?",
+        "answer": "Our system provides real-time component tracking, automated reordering, supplier management, and detailed inventory analytics with minimum stock level alerts."
+      },
+      {
+        "id": 2,
+        "question": "What quality control features are included?",
+        "answer": "The system includes comprehensive quality control features with automated testing integration, defect tracking, root cause analysis, and statistical process control."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle complex BOMs?",
+        "answer": "Yes, our solution manages multi-level Bills of Materials with version control, component substitution, and cost tracking capabilities."
+      }
+    ],
+    "industry": "Electronics",
+    "solution": "Integrated Electronics Manufacturing System",
+    "modules": [
+      "Production Control",
+      "Inventory Management",
+      "Quality Assurance",
+      "BOM Management",
+      "Process Automation"
+    ],
+    "result": [
+      "40% increase in production efficiency",
+      "45% reduction in component stockouts",
+      "35% improvement in quality yield"
+    ],
+    "customers": "300+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Electronics Manufacturing Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "fmcg-industry": {
+    "banner": "/images/banner/fmcg_banner_img.webp",
+    "title": "FMCG Industry Solutions",
+    "description": "Comprehensive ERP solutions tailored for Fast-Moving Consumer Goods companies, optimizing production, distribution, and inventory management while ensuring rapid market response.",
+    "keyPoints": [
+      "Demand Forecasting",
+      "Supply Chain Optimization",
+      "Batch Production Control",
+      "Distribution Management",
+      "Retail Channel Integration"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/fmcg-production.png",
+        "title": "Production Management",
+        "description": "Advanced production planning and control system for rapid manufacturing cycles.",
+        "list": [
+          "Batch Processing",
+          "Production Scheduling",
+          "Resource Optimization"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/fmcg-distribution.png",
+        "title": "Distribution Control",
+        "description": "Comprehensive distribution and retail channel management system.",
+        "list": [
+          "Logistics Planning",
+          "Retailer Management",
+          "Stock Optimization"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle demand forecasting?",
+        "answer": "Our system uses advanced analytics and machine learning for accurate demand forecasting, considering seasonal trends, market dynamics, and historical data."
+      },
+      {
+        "id": 2,
+        "question": "What distribution features are included?",
+        "answer": "The system includes comprehensive distribution management with route optimization, retailer relationship management, and real-time stock tracking across the supply chain."
+      },
+      {
+        "id": 3,
+        "question": "Can it manage multiple product variants?",
+        "answer": "Yes, our solution handles multiple product variants, packaging options, and SKUs with automated batch tracking and expiry date management."
+      }
+    ],
+    "industry": "FMCG",
+    "solution": "Integrated FMCG Management System",
+    "modules": [
+      "Production Planning",
+      "Supply Chain Management",
+      "Distribution Control",
+      "Retail Integration",
+      "Demand Analytics"
+    ],
+    "result": [
+      "40% improvement in forecast accuracy",
+      "35% reduction in stockouts",
+      "45% faster time-to-market"
+    ],
+    "customers": "450+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "FMCG Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "food-industry": {
+    "banner": "/images/banner/food_banner_img.webp",
+    "title": "Food Industry Solutions",
+    "description": "Advanced ERP solutions designed for food manufacturers, ensuring food safety compliance, quality control, and efficient production while optimizing supply chain and inventory management.",
+    "keyPoints": [
+      "Food Safety & Compliance",
+      "Recipe & Batch Management",
+      "Quality Control & Testing",
+      "Supply Chain Traceability",
+      "Inventory & Shelf Life Control"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/food-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive food production management system with recipe control and batch tracking.",
+        "list": [
+          "Recipe Management",
+          "Batch Processing",
+          "Production Scheduling"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/food-quality.png",
+        "title": "Quality & Safety",
+        "description": "Integrated quality control and food safety management system.",
+        "list": [
+          "Quality Testing",
+          "Safety Compliance",
+          "Allergen Control"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system ensure food safety compliance?",
+        "answer": "Our system provides comprehensive food safety management including HACCP compliance, allergen control, quality testing workflows, and complete traceability from raw materials to finished products."
+      },
+      {
+        "id": 2,
+        "question": "What traceability features are included?",
+        "answer": "The system offers end-to-end traceability with lot tracking, supplier management, and recall capabilities, ensuring compliance with food safety regulations and quick response to quality issues."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle recipe and nutritional management?",
+        "answer": "Yes, our solution includes detailed recipe management with version control, nutritional analysis, allergen tracking, and scaling capabilities while protecting proprietary formulations."
+      }
+    ],
+    "industry": "Food",
+    "solution": "Integrated Food Manufacturing System",
+    "modules": [
+      "Production Control",
+      "Quality Management",
+      "Recipe Management",
+      "Inventory Control",
+      "Compliance Tracking"
+    ],
+    "result": [
+      "45% improvement in production efficiency",
+      "50% reduction in quality incidents",
+      "40% better inventory accuracy"
+    ],
+    "customers": "400+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Food Industry Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "furniture-industry": {
+    "banner": "/images/banner/furniture_banner_img.webp",
+    "title": "Furniture Industry Solutions",
+    "description": "Comprehensive ERP solutions tailored for furniture manufacturers, optimizing design, production, and inventory management while streamlining custom orders and supply chain operations.",
+    "keyPoints": [
+      "Design & Product Configuration",
+      "Custom Order Management",
+      "Production Planning & Control",
+      "Material Requirements Planning",
+      "Warehouse & Inventory Management"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/furniture-production.png",
+        "title": "Production Management",
+        "description": "Complete furniture manufacturing management system with custom order tracking.",
+        "list": [
+          "Production Planning",
+          "Custom Orders",
+          "Resource Scheduling"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/furniture-inventory.png",
+        "title": "Inventory Control",
+        "description": "Advanced inventory and material management system for furniture manufacturing.",
+        "list": [
+          "Material Planning",
+          "Stock Management",
+          "Warehouse Control"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle custom orders?",
+        "answer": "Our system provides comprehensive custom order management including design specifications, material requirements, cost calculations, and production scheduling with real-time status tracking."
+      },
+      {
+        "id": 2,
+        "question": "What inventory management features are included?",
+        "answer": "The system includes advanced inventory control with material requirements planning, multi-warehouse management, and automated reordering based on production schedules and stock levels."
+      },
+      {
+        "id": 3,
+        "question": "Can it manage product configurations?",
+        "answer": "Yes, our solution handles complex product configurations with variant management, bill of materials generation, and pricing calculations for different materials and finishes."
+      }
+    ],
+    "industry": "Furniture",
+    "solution": "Integrated Furniture Manufacturing System",
+    "modules": [
+      "Design Management",
+      "Production Control",
+      "Inventory Management",
+      "Order Processing",
+      "Supply Chain Control"
+    ],
+    "result": [
+      "40% reduction in production time",
+      "45% improvement in inventory accuracy",
+      "35% decrease in material waste"
+    ],
+    "customers": "350+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Furniture Industry Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "garment-industry": {
+    "banner": "/images/banner/garment_banner_img.webp",
+    "title": "Garment Industry Solutions",
+    "description": "Advanced ERP solutions tailored for garment manufacturers, streamlining production processes from design to delivery while optimizing style management, costing, and quality control.",
+    "keyPoints": [
+      "Style & Sample Management",
+      "Production Planning & Control",
+      "Material Resource Planning",
+      "Quality Assurance",
+      "Cost & Efficiency Tracking"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/garment-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive garment production management system with style tracking and scheduling.",
+        "list": [
+          "Style Management",
+          "Production Tracking",
+          "Efficiency Monitoring"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/garment-quality.png",
+        "title": "Quality Control",
+        "description": "Integrated quality management system for garment manufacturing.",
+        "list": [
+          "Quality Inspection",
+          "Defect Tracking",
+          "Standards Compliance"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage different styles and sizes?",
+        "answer": "Our system provides comprehensive style management with size-wise planning, color variations, sample tracking, and detailed specifications management for each style variant."
+      },
+      {
+        "id": 2,
+        "question": "What production tracking features are included?",
+        "answer": "The system includes real-time production tracking with line efficiency monitoring, worker productivity analysis, and detailed cost tracking for each production stage."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle material planning and costing?",
+        "answer": "Yes, our solution manages detailed material requirements planning, consumption analysis, cost calculations, and wastage tracking for optimal resource utilization."
+      }
+    ],
+    "industry": "Garment",
+    "solution": "Integrated Garment Manufacturing System",
+    "modules": [
+      "Style Management",
+      "Production Control",
+      "Quality Assurance",
+      "Material Planning",
+      "Cost Management"
+    ],
+    "result": [
+      "40% improvement in production efficiency",
+      "35% reduction in material wastage",
+      "45% better quality compliance"
+    ],
+    "customers": "300+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Garment Industry Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "hydraulic-industry": {
+    "banner": "/images/banner/hydraulic_banner_img.webp",
+    "title": "Hydraulic Cylinders Industry Solutions",
+    "description": "Specialized ERP solutions designed for hydraulic cylinder manufacturers, ensuring precision production, quality control, and efficient inventory management while maintaining industry standards and specifications.",
+    "keyPoints": [
+      "Precision Manufacturing Control",
+      "Technical Specifications Management",
+      "Quality Testing & Certification",
+      "Component Inventory Control",
+      "Custom Design Management"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/hydraulic-production.png",
+        "title": "Production Management",
+        "description": "Advanced production control system for precision hydraulic cylinder manufacturing.",
+        "list": [
+          "Process Control",
+          "Precision Tracking",
+          "Assembly Management"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/hydraulic-quality.png",
+        "title": "Quality Assurance",
+        "description": "Comprehensive quality control system for hydraulic components.",
+        "list": [
+          "Testing Protocols",
+          "Certification Management",
+          "Performance Validation"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle technical specifications?",
+        "answer": "Our system manages detailed technical specifications including pressure ratings, stroke lengths, bore sizes, and material specifications with version control and engineering change management."
+      },
+      {
+        "id": 2,
+        "question": "What quality control features are included?",
+        "answer": "The system includes comprehensive testing protocols, pressure testing documentation, material certification tracking, and quality inspection workflows with detailed reporting."
+      },
+      {
+        "id": 3,
+        "question": "Can it manage custom cylinder designs?",
+        "answer": "Yes, our solution handles custom cylinder designs with specification management, BOM generation, cost calculation, and production planning for specialized requirements."
+      }
+    ],
+    "industry": "Hydraulic Cylinders",
+    "solution": "Integrated Hydraulic Manufacturing System",
+    "modules": [
+      "Production Control",
+      "Quality Management",
+      "Technical Documentation",
+      "Inventory Control",
+      "Engineering Change Management"
+    ],
+    "result": [
+      "45% improvement in production accuracy",
+      "40% reduction in quality issues",
+      "35% faster design-to-production time"
+    ],
+    "customers": "200+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Hydraulic Manufacturing Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "jewellery-industry": {
+    "banner": "/images/banner/jewellery_banner_img.webp",
+    "title": "Jewellery Industry Solutions",
+    "description": "Advanced ERP solutions tailored for jewellery manufacturers, ensuring precise precious metal tracking, design management, and production control while maintaining quality and security standards.",
+    "keyPoints": [
+      "Precious Metal Inventory",
+      "Design & CAD Management",
+      "Production Tracking",
+      "Quality & Hallmarking",
+      "Stone & Metal Management"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/jewellery-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive jewellery production system with design and material tracking.",
+        "list": [
+          "Design Management",
+          "Material Control",
+          "Process Tracking"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/jewellery-quality.png",
+        "title": "Quality Control",
+        "description": "Advanced quality assurance system for precious metals and stones.",
+        "list": [
+          "Metal Testing",
+          "Stone Grading",
+          "Certification Management"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage precious metal inventory?",
+        "answer": "Our system provides precise tracking of precious metals with weight management, purity tracking, wastage control, and complete audit trail from raw material to finished product."
+      },
+      {
+        "id": 2,
+        "question": "What design management features are included?",
+        "answer": "The system includes comprehensive design management with CAD integration, 3D model storage, version control, and detailed specifications for each design variant."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle stone inventory and grading?",
+        "answer": "Yes, our solution manages detailed stone inventory with grading specifications, certification tracking, and stone setting management for various jewellery types."
+      }
+    ],
+    "industry": "Jewellery",
+    "solution": "Integrated Jewellery Manufacturing System",
+    "modules": [
+      "Design Management",
+      "Production Control",
+      "Metal Management",
+      "Stone Inventory",
+      "Quality Assurance"
+    ],
+    "result": [
+      "45% better inventory accuracy",
+      "40% reduction in metal wastage",
+      "35% faster design-to-production"
+    ],
+    "customers": "250+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Jewellery Industry Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "leather-industry": {
+    "banner": "/images/banner/leather_banner_img.webp",
+    "title": "Leather Industry Solutions",
+    "description": "Comprehensive ERP solutions designed for leather manufacturers, optimizing tannery operations, quality control, and production processes while ensuring environmental compliance and material traceability.",
+    "keyPoints": [
+      "Tannery Process Management",
+      "Quality Grading & Control",
+      "Environmental Compliance",
+      "Material Traceability",
+      "Production Planning"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/leather-production.png",
+        "title": "Production Management",
+        "description": "Advanced leather processing and production management system.",
+        "list": [
+          "Process Control",
+          "Batch Tracking",
+          "Chemical Management"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/leather-quality.png",
+        "title": "Quality Control",
+        "description": "Comprehensive quality management system for leather processing.",
+        "list": [
+          "Quality Grading",
+          "Defect Tracking",
+          "Testing Protocols"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage tannery processes?",
+        "answer": "Our system provides complete tannery process management including chemical formulations, process scheduling, environmental monitoring, and quality control at each stage."
+      },
+      {
+        "id": 2,
+        "question": "What quality control features are included?",
+        "answer": "The system includes comprehensive quality grading, defect tracking, testing protocols, and certification management with detailed reporting for each batch and product."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle environmental compliance?",
+        "answer": "Yes, our solution manages environmental compliance with effluent treatment monitoring, chemical usage tracking, and regulatory reporting for environmental standards."
+      }
+    ],
+    "industry": "Leather",
+    "solution": "Integrated Leather Manufacturing System",
+    "modules": [
+      "Process Control",
+      "Quality Management",
+      "Environmental Monitoring",
+      "Production Planning",
+      "Inventory Control"
+    ],
+    "result": [
+      "40% improvement in process efficiency",
+      "45% reduction in quality issues",
+      "35% better environmental compliance"
+    ],
+    "customers": "200+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Leather Industry Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "wood-industry": {
+    "banner": "/images/banner/wood_banner_img.webp",
+    "title": "Wood Industry Solutions",
+    "description": "Advanced ERP solutions tailored for wood processing and furniture manufacturers, optimizing timber management, production processes, and quality control while ensuring sustainable resource utilization.",
+    "keyPoints": [
+      "Timber Resource Management",
+      "Production & Processing Control",
+      "Quality Grading & Testing",
+      "Inventory Optimization",
+      "Sustainable Operations"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/wood-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive wood processing and manufacturing control system.",
+        "list": [
+          "Process Control",
+          "Cutting Optimization",
+          "Waste Management"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/wood-quality.png",
+        "title": "Quality Control",
+        "description": "Advanced quality management system for wood products.",
+        "list": [
+          "Grade Classification",
+          "Moisture Control",
+          "Quality Testing"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage timber inventory?",
+        "answer": "Our system provides complete timber inventory management including log tracking, grade classification, moisture content monitoring, and optimization of cutting patterns for maximum yield."
+      },
+      {
+        "id": 2,
+        "question": "What production control features are included?",
+        "answer": "The system includes comprehensive production planning, cutting optimization, waste tracking, machine integration, and real-time monitoring of processing operations."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle sustainability requirements?",
+        "answer": "Yes, our solution manages sustainability certifications, tracks chain of custody, monitors resource utilization, and provides reporting for environmental compliance."
+      }
+    ],
+    "industry": "Wood Processing",
+    "solution": "Integrated Wood Manufacturing System",
+    "modules": [
+      "Resource Management",
+      "Production Control",
+      "Quality Assurance",
+      "Inventory Management",
+      "Sustainability Tracking"
+    ],
+    "result": [
+      "40% improvement in material yield",
+      "35% reduction in waste",
+      "45% better inventory accuracy"
+    ],
+    "customers": "300+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Wood Industry Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "wholesalers-industry": {
+    "banner": "/images/banner/wholesale_banner_img.webp",
+    "title": "Wholesale Industry Solutions",
+    "description": "Comprehensive ERP solutions designed for wholesale distributors, optimizing inventory management, order processing, and supply chain operations while enhancing customer service and operational efficiency.",
+    "keyPoints": [
+      "Inventory Management",
+      "Order Processing & Fulfillment",
+      "Supply Chain Optimization",
+      "Customer Relationship Management",
+      "Multi-Location Operations"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/wholesale-operations.png",
+        "title": "Operations Management",
+        "description": "Advanced wholesale distribution and operations management system.",
+        "list": [
+          "Order Management",
+          "Inventory Control",
+          "Warehouse Operations"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/wholesale-logistics.png",
+        "title": "Logistics Control",
+        "description": "Comprehensive logistics and supply chain management system.",
+        "list": [
+          "Route Optimization",
+          "Delivery Tracking",
+          "Fleet Management"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle multi-location inventory?",
+        "answer": "Our system provides real-time inventory tracking across multiple locations with automated replenishment, transfer management, and optimized stock levels based on demand patterns."
+      },
+      {
+        "id": 2,
+        "question": "What order processing features are included?",
+        "answer": "The system includes comprehensive order management with bulk processing, automated fulfillment, pricing management, and real-time status tracking across the supply chain."
+      },
+      {
+        "id": 3,
+        "question": "Can it manage customer relationships?",
+        "answer": "Yes, our solution includes advanced CRM features with customer segmentation, pricing tiers, credit management, and detailed transaction history tracking."
+      }
+    ],
+    "industry": "Wholesale Distribution",
+    "solution": "Integrated Wholesale Management System",
+    "modules": [
+      "Order Management",
+      "Inventory Control",
+      "Logistics Management",
+      "Customer Management",
+      "Financial Control"
+    ],
+    "result": [
+      "45% faster order processing",
+      "40% improvement in inventory turnover",
+      "35% reduction in logistics costs"
+    ],
+    "customers": "400+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Wholesale Distribution Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "metal-fabrication-industry": {
+    "banner": "/images/banner/metal_fabrication_banner_img.webp",
+    "title": "Metal Fabrication Industry Solutions",
+    "description": "Advanced ERP solutions tailored for metal fabrication companies, optimizing manufacturing processes, quality control, and project management while ensuring precision and efficiency in custom fabrication.",
+    "keyPoints": [
+      "Precision Manufacturing Control",
+      "Material Resource Planning",
+      "Project & Job Tracking",
+      "Quality Assurance",
+      "Machine & Tool Management"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/metal-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive metal fabrication and production control system.",
+        "list": [
+          "Process Planning",
+          "Machine Scheduling",
+          "Material Optimization"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/metal-quality.png",
+        "title": "Quality Control",
+        "description": "Advanced quality assurance system for metal fabrication.",
+        "list": [
+          "Quality Testing",
+          "Weld Inspection",
+          "Dimensional Control"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage custom fabrication projects?",
+        "answer": "Our system provides comprehensive project management with detailed job tracking, material requirements planning, cost estimation, and real-time progress monitoring for custom fabrication work."
+      },
+      {
+        "id": 2,
+        "question": "What quality control features are included?",
+        "answer": "The system includes advanced quality control features with inspection planning, weld quality tracking, dimensional verification, material certification management, and detailed quality reporting."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle machine and tool management?",
+        "answer": "Yes, our solution manages machine scheduling, tool lifecycle tracking, preventive maintenance planning, and performance monitoring for optimal equipment utilization."
+      }
+    ],
+    "industry": "Metal Fabrication",
+    "solution": "Integrated Metal Fabrication System",
+    "modules": [
+      "Production Planning",
+      "Quality Management",
+      "Machine Control",
+      "Project Management",
+      "Material Planning"
+    ],
+    "result": [
+      "40% improvement in production efficiency",
+      "45% reduction in material waste",
+      "35% better project completion time"
+    ],
+    "customers": "300+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Metal Fabrication Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "microfinance-industry": {
+    "banner": "/images/banner/microfinance_banner_img.webp",
+    "title": "Micro Finance Industry Solutions",
+    "description": "Comprehensive ERP solutions designed for microfinance institutions, optimizing loan management, client servicing, and financial operations while ensuring regulatory compliance and social impact tracking.",
+    "keyPoints": [
+      "Loan Portfolio Management",
+      "Client Relationship Management",
+      "Collection & Recovery",
+      "Risk Assessment",
+      "Social Impact Tracking"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/microfinance-operations.png",
+        "title": "Operations Management",
+        "description": "Advanced loan and portfolio management system for microfinance institutions.",
+        "list": [
+          "Loan Processing",
+          "Portfolio Tracking",
+          "Group Management"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/microfinance-client.png",
+        "title": "Client Management",
+        "description": "Comprehensive client and field operations management system.",
+        "list": [
+          "Client Profiling",
+          "Field Collection",
+          "Performance Monitoring"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle loan management?",
+        "answer": "Our system provides end-to-end loan management including application processing, disbursement tracking, repayment scheduling, collection management, and portfolio monitoring with detailed analytics."
+      },
+      {
+        "id": 2,
+        "question": "What client management features are included?",
+        "answer": "The system includes comprehensive client management with KYC verification, credit history tracking, group management, social impact assessment, and mobile-based field operations support."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle regulatory compliance?",
+        "answer": "Yes, our solution ensures compliance with microfinance regulations including reporting requirements, interest rate calculations, documentation management, and audit trail maintenance."
+      }
+    ],
+    "industry": "Micro Finance",
+    "solution": "Integrated Microfinance Management System",
+    "modules": [
+      "Loan Management",
+      "Client Management",
+      "Collection Control",
+      "Risk Management",
+      "Impact Assessment"
+    ],
+    "result": [
+      "45% faster loan processing",
+      "40% improvement in collection efficiency",
+      "35% reduction in operational costs"
+    ],
+    "customers": "250+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Microfinance Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "medicalequipmentmanufacturing-industry": {
+    "banner": "/images/banner/medical_equipment_banner_img.webp",
+    "title": "Medical Equipment Manufacturing Solutions",
+    "description": "Advanced ERP solutions tailored for medical equipment manufacturers, ensuring regulatory compliance, quality control, and precision manufacturing while maintaining complete traceability and documentation.",
+    "keyPoints": [
+      "Regulatory Compliance Management",
+      "Quality Control & Validation",
+      "Product Lifecycle Management",
+      "Clean Room Manufacturing",
+      "Device Traceability"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/medical-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive medical device manufacturing and validation system.",
+        "list": [
+          "Clean Room Control",
+          "Process Validation",
+          "Batch Tracking"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/medical-quality.png",
+        "title": "Quality Assurance",
+        "description": "Advanced quality management system for medical devices.",
+        "list": [
+          "Quality Testing",
+          "Documentation Control",
+          "Compliance Monitoring"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system ensure regulatory compliance?",
+        "answer": "Our system provides comprehensive compliance management for FDA, CE, ISO 13485, and other medical device regulations, including documentation control, validation protocols, and audit trail maintenance."
+      },
+      {
+        "id": 2,
+        "question": "What quality control features are included?",
+        "answer": "The system includes advanced quality control with validation protocols, clean room monitoring, sterilization process control, and complete device history records with detailed testing documentation."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle device traceability requirements?",
+        "answer": "Yes, our solution provides end-to-end traceability from raw materials to finished devices, including UDI compliance, component tracking, and complete device history records."
+      }
+    ],
+    "industry": "Medical Equipment Manufacturing",
+    "solution": "Integrated Medical Device Manufacturing System",
+    "modules": [
+      "Production Control",
+      "Quality Management",
+      "Compliance Tracking",
+      "Document Control",
+      "Device History Records"
+    ],
+    "result": [
+      "45% faster validation process",
+      "40% reduction in compliance costs",
+      "35% improvement in quality metrics"
+    ],
+    "customers": "200+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Medical Device Manufacturing Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "oilandgas-industry": {
+    "banner": "/images/banner/oilandgas_banner_img.webp",
+    "title": "Oil and Gas Industry Solutions",
+    "description": "Advanced ERP solutions tailored for oil and gas companies, optimizing upstream, midstream, and downstream operations while ensuring safety compliance, asset management, and operational efficiency.",
+    "keyPoints": [
+      "Production Operations Management",
+      "Asset Lifecycle Management",
+      "HSE Compliance & Safety",
+      "Supply Chain Optimization",
+      "Maintenance & Reliability"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/oilgas-operations.png",
+        "title": "Operations Management",
+        "description": "Comprehensive oil and gas operations management system.",
+        "list": [
+          "Production Tracking",
+          "Well Management",
+          "Equipment Monitoring"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/oilgas-safety.png",
+        "title": "Safety & Compliance",
+        "description": "Advanced safety and regulatory compliance management system.",
+        "list": [
+          "Safety Protocols",
+          "Environmental Monitoring",
+          "Regulatory Reporting"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle production operations?",
+        "answer": "Our system provides comprehensive production management including well monitoring, equipment performance tracking, production scheduling, and real-time operational analytics across upstream, midstream, and downstream operations."
+      },
+      {
+        "id": 2,
+        "question": "What safety and compliance features are included?",
+        "answer": "The system includes advanced HSE management with incident tracking, safety protocols, permit management, environmental monitoring, and automated regulatory reporting compliance."
+      },
+      {
+        "id": 3,
+        "question": "Can it manage asset maintenance?",
+        "answer": "Yes, our solution provides complete asset lifecycle management with predictive maintenance, equipment reliability tracking, spare parts management, and maintenance scheduling optimization."
+      }
+    ],
+    "industry": "Oil and Gas",
+    "solution": "Integrated Oil & Gas Management System",
+    "modules": [
+      "Operations Management",
+      "Asset Management",
+      "Safety Compliance",
+      "Maintenance Control",
+      "Production Analytics"
+    ],
+    "result": [
+      "45% improvement in operational efficiency",
+      "40% reduction in maintenance costs",
+      "35% better safety compliance"
+    ],
+    "customers": "150+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Oil & Gas Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "packaging-industry": {
+    "banner": "/images/banner/packaging_banner_img.webp",
+    "title": "Packaging Industry Solutions",
+    "description": "Advanced ERP solutions tailored for packaging manufacturers, optimizing production processes, material management, and quality control while promoting sustainable packaging solutions and operational efficiency.",
+    "keyPoints": [
+      "Production Process Control",
+      "Material Resource Planning",
+      "Quality Assurance",
+      "Sustainable Packaging",
+      "Inventory Optimization"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/packaging-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive packaging production and process control system.",
+        "list": [
+          "Process Automation",
+          "Production Scheduling",
+          "Material Planning"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/packaging-quality.png",
+        "title": "Quality Control",
+        "description": "Advanced quality management system for packaging manufacturing.",
+        "list": [
+          "Quality Testing",
+          "Specification Control",
+          "Compliance Tracking"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle production planning?",
+        "answer": "Our system provides comprehensive production planning with material requirements planning, machine scheduling, capacity optimization, and real-time production monitoring for efficient packaging operations."
+      },
+      {
+        "id": 2,
+        "question": "What quality control features are included?",
+        "answer": "The system includes advanced quality control features with specification management, testing protocols, compliance tracking, and detailed quality reporting for various packaging materials and products."
+      },
+      {
+        "id": 3,
+        "question": "Can it manage sustainable packaging initiatives?",
+        "answer": "Yes, our solution supports sustainable packaging initiatives with material tracking, recycled content management, waste reduction monitoring, and environmental impact assessment tools."
+      }
+    ],
+    "industry": "Packaging",
+    "solution": "Integrated Packaging Manufacturing System",
+    "modules": [
+      "Production Control",
+      "Quality Management",
+      "Material Planning",
+      "Inventory Control",
+      "Sustainability Tracking"
+    ],
+    "result": [
+      "40% improvement in production efficiency",
+      "45% reduction in material waste",
+      "35% better quality compliance"
+    ],
+    "customers": "300+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Packaging Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "paper-industry": {
+    "banner": "/images/banner/paper_banner_img.webp",
+    "title": "Paper Industry Solutions",
+    "description": "Advanced ERP solutions tailored for paper manufacturers, optimizing pulp processing, production control, and quality management while ensuring environmental compliance and sustainable operations.",
+    "keyPoints": [
+      "Pulp Processing Control",
+      "Production Management",
+      "Quality Assurance",
+      "Environmental Compliance",
+      "Energy Optimization"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/paper-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive paper manufacturing and process control system.",
+        "list": [
+          "Pulp Processing",
+          "Production Control",
+          "Grade Management"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/paper-quality.png",
+        "title": "Quality Control",
+        "description": "Advanced quality management system for paper manufacturing.",
+        "list": [
+          "Quality Testing",
+          "Grade Certification",
+          "Process Monitoring"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage pulp processing?",
+        "answer": "Our system provides comprehensive pulp processing management including fiber quality control, chemical dosing, consistency monitoring, and real-time process optimization for different paper grades."
+      },
+      {
+        "id": 2,
+        "question": "What quality control features are included?",
+        "answer": "The system includes advanced quality control with paper grade specifications, testing protocols, brightness monitoring, weight control, and detailed quality reporting for various paper products."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle environmental compliance?",
+        "answer": "Yes, our solution manages environmental compliance with effluent treatment monitoring, energy consumption tracking, emissions control, and sustainability reporting for regulatory requirements."
+      }
+    ],
+    "industry": "Paper Manufacturing",
+    "solution": "Integrated Paper Manufacturing System",
+    "modules": [
+      "Production Control",
+      "Quality Management",
+      "Environmental Control",
+      "Energy Management",
+      "Grade Management"
+    ],
+    "result": [
+      "40% improvement in production efficiency",
+      "45% reduction in quality variations",
+      "35% better environmental compliance"
+    ],
+    "customers": "250+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Paper Industry Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "plastic-industry": {
+    "banner": "/images/banner/plastic_banner_img.webp",
+    "title": "Plastic Industry Solutions",
+    "description": "Advanced ERP solutions tailored for plastic manufacturers, optimizing polymer processing, production control, and quality management while promoting sustainable practices and operational efficiency.",
+    "keyPoints": [
+      "Polymer Processing Control",
+      "Mold Management",
+      "Quality Assurance",
+      "Recycling Operations",
+      "Production Optimization"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/plastic-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive plastic manufacturing and process control system.",
+        "list": [
+          "Process Control",
+          "Injection Molding",
+          "Material Planning"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/plastic-quality.png",
+        "title": "Quality Control",
+        "description": "Advanced quality management system for plastic manufacturing.",
+        "list": [
+          "Quality Testing",
+          "Process Monitoring",
+          "Material Certification"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage polymer processing?",
+        "answer": "Our system provides comprehensive polymer processing management including material formulation, temperature control, pressure monitoring, and cycle time optimization for various plastic products."
+      },
+      {
+        "id": 2,
+        "question": "What quality control features are included?",
+        "answer": "The system includes advanced quality control with material testing, dimensional verification, visual inspection tracking, and detailed quality reporting for different plastic products and processes."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle recycling operations?",
+        "answer": "Yes, our solution manages recycling operations with material segregation tracking, regrind management, quality control for recycled materials, and sustainability reporting capabilities."
+      }
+    ],
+    "industry": "Plastic Manufacturing",
+    "solution": "Integrated Plastic Manufacturing System",
+    "modules": [
+      "Production Control",
+      "Quality Management",
+      "Mold Management",
+      "Material Planning",
+      "Recycling Control"
+    ],
+    "result": [
+      "45% improvement in production efficiency",
+      "40% reduction in material waste",
+      "35% better quality compliance"
+    ],
+    "customers": "350+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Plastic Manufacturing Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "pharma-industry": {
+    "banner": "/images/banner/pharmaceutical_banner_img.webp",
+    "title": "Pharmaceutical Industry Solutions",
+    "description": "Advanced ERP solutions tailored for pharmaceutical manufacturers, ensuring GMP compliance, quality control, and regulatory adherence while optimizing production processes and maintaining complete traceability.",
+    "keyPoints": [
+      "GMP Compliance Management",
+      "Quality Control & Validation",
+      "Batch Production Control",
+      "Regulatory Documentation",
+      "Research & Development"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/pharma-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive pharmaceutical manufacturing and compliance system.",
+        "list": [
+          "Batch Processing",
+          "Process Validation",
+          "Clean Room Control"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/pharma-quality.png",
+        "title": "Quality Assurance",
+        "description": "Advanced quality management system for pharmaceutical manufacturing.",
+        "list": [
+          "Quality Testing",
+          "Stability Studies",
+          "Documentation Control"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system ensure GMP compliance?",
+        "answer": "Our system provides comprehensive GMP compliance management including batch record control, validation protocols, clean room monitoring, and complete documentation management with audit trails."
+      },
+      {
+        "id": 2,
+        "question": "What quality control features are included?",
+        "answer": "The system includes advanced quality control with stability testing, analytical method validation, raw material testing, in-process controls, and finished product testing with complete documentation."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle regulatory requirements?",
+        "answer": "Yes, our solution manages regulatory compliance with FDA, EMA, and other global standards, including electronic batch records, validation documentation, and regulatory submission support."
+      }
+    ],
+    "industry": "Pharmaceutical Manufacturing",
+    "solution": "Integrated Pharmaceutical Manufacturing System",
+    "modules": [
+      "Production Control",
+      "Quality Management",
+      "Document Control",
+      "Regulatory Compliance",
+      "R&D Management"
+    ],
+    "result": [
+      "45% faster batch release time",
+      "40% reduction in compliance costs",
+      "35% improvement in quality metrics"
+    ],
+    "customers": "200+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Pharmaceutical Manufacturing Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "publishing-industry": {
+    "banner": "/images/banner/publishing_banner_img.webp",
+    "title": "Publishing Industry Solutions",
+    "description": "Advanced ERP solutions tailored for publishing companies, optimizing content management, digital publishing workflows, and distribution processes while ensuring efficient rights management and royalty tracking.",
+    "keyPoints": [
+      "Content Management System",
+      "Digital Publishing Workflow",
+      "Rights & Royalty Management",
+      "Distribution Control",
+      "Editorial Process Management"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/publishing-content.png",
+        "title": "Content Management",
+        "description": "Comprehensive content and editorial management system.",
+        "list": [
+          "Manuscript Tracking",
+          "Editorial Workflow",
+          "Version Control"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/publishing-digital.png",
+        "title": "Digital Publishing",
+        "description": "Advanced digital publishing and distribution system.",
+        "list": [
+          "Multi-format Publishing",
+          "Digital Distribution",
+          "Analytics Tracking"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage content workflow?",
+        "answer": "Our system provides comprehensive content management with manuscript tracking, editorial workflow automation, version control, and collaborative tools for authors, editors, and reviewers."
+      },
+      {
+        "id": 2,
+        "question": "What digital publishing features are included?",
+        "answer": "The system includes advanced digital publishing capabilities with multi-format output (print, ebook, web), automated formatting, digital rights management, and distribution channel integration."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle rights and royalty management?",
+        "answer": "Yes, our solution manages rights contracts, royalty calculations, payment tracking, and reporting with automated statements generation and rights expiration monitoring."
+      }
+    ],
+    "industry": "Publishing",
+    "solution": "Integrated Publishing Management System",
+    "modules": [
+      "Content Management",
+      "Digital Publishing",
+      "Rights Management",
+      "Distribution Control",
+      "Analytics Dashboard"
+    ],
+    "result": [
+      "45% faster publishing cycle",
+      "40% improvement in workflow efficiency",
+      "35% better royalty management"
+    ],
+    "customers": "250+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Publishing Industry Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "printing-industry": {
+    "banner": "/images/banner/printing_banner_img.webp",
+    "title": "Printing Industry Solutions",
+    "description": "Advanced ERP solutions tailored for printing companies, optimizing print production workflows, color management, and quality control while ensuring efficient material utilization and timely delivery.",
+    "keyPoints": [
+      "Print Production Management",
+      "Color Management & Control",
+      "Material & Inventory Planning",
+      "Job Cost Estimation",
+      "Quality Assurance"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/printing-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive print production and workflow management system.",
+        "list": [
+          "Job Scheduling",
+          "Press Management",
+          "Workflow Automation"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/printing-quality.png",
+        "title": "Quality Control",
+        "description": "Advanced quality management system for print production.",
+        "list": [
+          "Color Control",
+          "Quality Inspection",
+          "Standards Compliance"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle print job management?",
+        "answer": "Our system provides comprehensive print job management including estimating, scheduling, material planning, press allocation, and real-time production tracking with automated workflow management."
+      },
+      {
+        "id": 2,
+        "question": "What color management features are included?",
+        "answer": "The system includes advanced color management with color profile handling, calibration tracking, color quality control, and compliance with industry color standards."
+      },
+      {
+        "id": 3,
+        "question": "Can it manage material inventory and costs?",
+        "answer": "Yes, our solution manages material inventory with paper stock management, ink consumption tracking, automated reordering, and detailed job costing with waste monitoring."
+      }
+    ],
+    "industry": "Printing",
+    "solution": "Integrated Print Management System",
+    "modules": [
+      "Production Control",
+      "Color Management",
+      "Material Planning",
+      "Job Estimation",
+      "Quality Assurance"
+    ],
+    "result": [
+      "45% improvement in production efficiency",
+      "40% reduction in material waste",
+      "35% faster job turnaround"
+    ],
+    "customers": "300+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Printing Industry Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "preengineering-industry": {
+    "banner": "/images/banner/preengineering_banner_img.webp",
+    "title": "Pre-engineering Industry Solutions",
+    "description": "Advanced ERP solutions tailored for pre-engineered building manufacturers, optimizing structural design, fabrication planning, and project management while ensuring quality and efficiency in construction.",
+    "keyPoints": [
+      "Structural Design Management",
+      "Project Planning & Control",
+      "Material Requirements Planning",
+      "Quality & Standards Compliance",
+      "Installation Coordination"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/preengineering-design.png",
+        "title": "Design & Planning",
+        "description": "Comprehensive structural design and project planning system.",
+        "list": [
+          "Design Management",
+          "Project Scheduling",
+          "Resource Planning"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/preengineering-fabrication.png",
+        "title": "Fabrication Control",
+        "description": "Advanced fabrication and quality management system.",
+        "list": [
+          "Production Control",
+          "Quality Inspection",
+          "Assembly Management"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle structural design?",
+        "answer": "Our system provides comprehensive structural design management including CAD integration, load calculations, material specifications, and automated drawing generation with revision control."
+      },
+      {
+        "id": 2,
+        "question": "What project management features are included?",
+        "answer": "The system includes advanced project planning with scheduling, resource allocation, progress tracking, cost monitoring, and coordination tools for installation teams."
+      },
+      {
+        "id": 3,
+        "question": "Can it manage material requirements?",
+        "answer": "Yes, our solution handles material planning with detailed estimation, inventory management, procurement scheduling, and waste optimization for steel and other construction materials."
+      }
+    ],
+    "industry": "Pre-engineering",
+    "solution": "Integrated Pre-engineering Management System",
+    "modules": [
+      "Design Management",
+      "Project Control",
+      "Material Planning",
+      "Quality Assurance",
+      "Installation Management"
+    ],
+    "result": [
+      "45% faster project completion",
+      "40% reduction in material waste",
+      "35% better design accuracy"
+    ],
+    "customers": "250+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Pre-engineering Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "rubber-industry": {
+    "banner": "/images/banner/rubber_banner_img.webp",
+    "title": "Rubber Industry Solutions",
+    "description": "Advanced ERP solutions tailored for rubber manufacturers, optimizing compound formulation, production processes, and quality control while ensuring efficient material utilization and process consistency.",
+    "keyPoints": [
+      "Compound Formulation Management",
+      "Process Control & Monitoring",
+      "Quality Testing & Compliance",
+      "Material Requirements Planning",
+      "Production Optimization"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/rubber-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive rubber processing and production control system.",
+        "list": [
+          "Mixing Control",
+          "Process Monitoring",
+          "Batch Tracking"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/rubber-quality.png",
+        "title": "Quality Control",
+        "description": "Advanced quality management system for rubber manufacturing.",
+        "list": [
+          "Quality Testing",
+          "Property Analysis",
+          "Standards Compliance"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle compound formulation?",
+        "answer": "Our system provides comprehensive compound management including recipe formulation, material specifications, mixing parameters, and batch tracking with complete traceability."
+      },
+      {
+        "id": 2,
+        "question": "What quality control features are included?",
+        "answer": "The system includes advanced quality testing with physical property analysis, rheology testing, aging studies, and detailed quality reporting for various rubber compounds and products."
+      },
+      {
+        "id": 3,
+        "question": "Can it manage process parameters?",
+        "answer": "Yes, our solution manages process parameters with real-time monitoring, temperature control, curing profiles, and automated adjustments for optimal production conditions."
+      }
+    ],
+    "industry": "Rubber Manufacturing",
+    "solution": "Integrated Rubber Manufacturing System",
+    "modules": [
+      "Compound Management",
+      "Production Control",
+      "Quality Assurance",
+      "Process Monitoring",
+      "Material Planning"
+    ],
+    "result": [
+      "45% improvement in compound consistency",
+      "40% reduction in material waste",
+      "35% better quality compliance"
+    ],
+    "customers": "200+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Rubber Manufacturing Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "restaurant-industry": {
+    "banner": "/images/banner/restaurant_banner_img.webp",
+    "title": "Restaurant Industry Solutions",
+    "description": "Advanced ERP solutions tailored for restaurants and food service businesses, optimizing kitchen operations, inventory management, and customer service while ensuring food safety compliance and efficient order processing.",
+    "keyPoints": [
+      "Kitchen Management System",
+      "Inventory & Recipe Control",
+      "Order Processing & POS",
+      "Food Safety Compliance",
+      "Customer Service Management"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/restaurant-operations.png",
+        "title": "Operations Management",
+        "description": "Comprehensive restaurant operations and kitchen management system.",
+        "list": [
+          "Kitchen Display",
+          "Order Management",
+          "Table Service"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/restaurant-inventory.png",
+        "title": "Inventory Control",
+        "description": "Advanced inventory and recipe management system.",
+        "list": [
+          "Stock Management",
+          "Recipe Costing",
+          "Waste Tracking"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage kitchen operations?",
+        "answer": "Our system provides comprehensive kitchen management including order routing, preparation timing, recipe display, and real-time status updates with integrated kitchen display systems."
+      },
+      {
+        "id": 2,
+        "question": "What inventory control features are included?",
+        "answer": "The system includes advanced inventory management with real-time stock tracking, automated ordering, recipe costing, portion control, and waste monitoring for optimal food cost management."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle customer service and orders?",
+        "answer": "Yes, our solution manages complete order processing with POS integration, table management, online ordering, customer loyalty programs, and detailed sales analytics."
+      }
+    ],
+    "industry": "Restaurant",
+    "solution": "Integrated Restaurant Management System",
+    "modules": [
+      "Kitchen Management",
+      "Inventory Control",
+      "Order Processing",
+      "Customer Service",
+      "Analytics Dashboard"
+    ],
+    "result": [
+      "45% improvement in order accuracy",
+      "40% reduction in food waste",
+      "35% better inventory control"
+    ],
+    "customers": "500+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Restaurant Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "retail-industry": {
+    "banner": "/images/banner/retail_banner_img.webp",
+    "title": "Retail Industry Solutions",
+    "description": "Advanced ERP solutions tailored for retail businesses, optimizing inventory management, point of sale operations, and customer engagement while ensuring seamless omnichannel experience and efficient supply chain operations.",
+    "keyPoints": [
+      "Inventory Management",
+      "POS & Payment Processing",
+      "Customer Relationship Management",
+      "Multi-Store Operations",
+      "E-commerce Integration"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/retail-operations.png",
+        "title": "Store Operations",
+        "description": "Comprehensive retail operations and POS management system.",
+        "list": [
+          "Sales Processing",
+          "Inventory Control",
+          "Store Management"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/retail-customer.png",
+        "title": "Customer Management",
+        "description": "Advanced customer relationship and loyalty management system.",
+        "list": [
+          "Loyalty Programs",
+          "Customer Analytics",
+          "Marketing Tools"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system handle multi-store operations?",
+        "answer": "Our system provides comprehensive multi-store management including centralized inventory control, inter-store transfers, consolidated reporting, and real-time synchronization across all locations."
+      },
+      {
+        "id": 2,
+        "question": "What POS and payment features are included?",
+        "answer": "The system includes advanced POS functionality with multiple payment methods, split payments, returns processing, gift cards, and integrated payment security compliance."
+      },
+      {
+        "id": 3,
+        "question": "Can it manage e-commerce integration?",
+        "answer": "Yes, our solution provides seamless e-commerce integration with real-time inventory sync, unified customer profiles, omnichannel order fulfillment, and integrated loyalty programs."
+      }
+    ],
+    "industry": "Retail",
+    "solution": "Integrated Retail Management System",
+    "modules": [
+      "Store Operations",
+      "Inventory Management",
+      "Customer Relations",
+      "E-commerce Integration",
+      "Analytics Dashboard"
+    ],
+    "result": [
+      "45% improvement in inventory accuracy",
+      "40% increase in customer retention",
+      "35% faster order processing"
+    ],
+    "customers": "1000+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Retail Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "steel-industry": {
+    "banner": "/images/banner/steel_banner_img.webp",
+    "title": "Steel Industry Solutions",
+    "description": "Advanced ERP solutions tailored for steel manufacturers, optimizing production processes, quality control, and material management while ensuring efficient operations and regulatory compliance.",
+    "keyPoints": [
+      "Production Process Control",
+      "Quality Testing & Certification",
+      "Material Grade Management",
+      "Heat Treatment Tracking",
+      "Inventory & Supply Chain"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/steel-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive steel production and process control system.",
+        "list": [
+          "Process Control",
+          "Heat Treatment",
+          "Production Planning"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/steel-quality.png",
+        "title": "Quality Control",
+        "description": "Advanced quality management system for steel manufacturing.",
+        "list": [
+          "Material Testing",
+          "Grade Certification",
+          "Quality Standards"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage production processes?",
+        "answer": "Our system provides comprehensive production management including furnace operations, rolling mill control, heat treatment tracking, and real-time process monitoring with automated quality checks."
+      },
+      {
+        "id": 2,
+        "question": "What quality control features are included?",
+        "answer": "The system includes advanced quality testing with material composition analysis, mechanical property testing, grade certification management, and complete traceability for each batch."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle material grade management?",
+        "answer": "Yes, our solution manages detailed grade specifications, heat numbers, material certifications, and inventory segregation by grade with complete tracking from raw material to finished product."
+      }
+    ],
+    "industry": "Steel Manufacturing",
+    "solution": "Integrated Steel Manufacturing System",
+    "modules": [
+      "Production Control",
+      "Quality Management",
+      "Material Planning",
+      "Process Monitoring",
+      "Inventory Control"
+    ],
+    "result": [
+      "45% improvement in production efficiency",
+      "40% reduction in quality deviations",
+      "35% better inventory accuracy"
+    ],
+    "customers": "200+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Steel Manufacturing Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "telecom-industry": {
+    "banner": "/images/banner/telecom_banner_img.webp",
+    "title": "Telecom Industry Solutions",
+    "description": "Advanced ERP solutions tailored for telecommunications companies, optimizing network operations, service delivery, and customer management while ensuring regulatory compliance and efficient billing processes.",
+    "keyPoints": [
+      "Network Operations Management",
+      "Service Provisioning & Delivery",
+      "Customer Relationship Management",
+      "Billing & Revenue Management",
+      "Regulatory Compliance"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/telecom-operations.png",
+        "title": "Network Operations",
+        "description": "Comprehensive network operations and service management system.",
+        "list": [
+          "Network Monitoring",
+          "Service Provisioning",
+          "Performance Management"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/telecom-customer.png",
+        "title": "Customer Management",
+        "description": "Advanced customer service and billing management system.",
+        "list": [
+          "Customer Support",
+          "Billing Operations",
+          "Service Analytics"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage network operations?",
+        "answer": "Our system provides comprehensive network management including real-time monitoring, service provisioning, fault detection, performance analysis, and automated maintenance scheduling."
+      },
+      {
+        "id": 2,
+        "question": "What billing and revenue features are included?",
+        "answer": "The system includes advanced billing capabilities with usage tracking, tariff management, automated invoicing, revenue assurance, and integrated payment processing."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle customer service management?",
+        "answer": "Yes, our solution manages complete customer lifecycle including service activation, support ticket management, SLA monitoring, and customer analytics with integrated CRM features."
+      }
+    ],
+    "industry": "Telecommunications",
+    "solution": "Integrated Telecom Management System",
+    "modules": [
+      "Network Operations",
+      "Service Management",
+      "Customer Relations",
+      "Billing Control",
+      "Compliance Tracking"
+    ],
+    "result": [
+      "45% improvement in service delivery",
+      "40% reduction in customer complaints",
+      "35% better revenue assurance"
+    ],
+    "customers": "150+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Telecom Solutions Guide",
+      "buttonText": "Download Now"
+    }
+  },
+  "textiles-industry": {
+    "banner": "/images/banner/textile_banner_img.webp",
+    "title": "Textile Industry Solutions",
+    "description": "Advanced ERP solutions tailored for textile manufacturers, optimizing yarn processing, fabric production, dyeing operations, and quality control while ensuring efficient material utilization and process consistency.",
+    "keyPoints": [
+      "Yarn & Fabric Processing",
+      "Dyeing & Finishing Control",
+      "Quality Assurance Management",
+      "Production Planning & Control",
+      "Material Resource Planning"
+    ],
+    "infoCards": [
+      {
+        "image": "/images/industry-icons/textile-production.png",
+        "title": "Production Management",
+        "description": "Comprehensive textile manufacturing and process control system.",
+        "list": [
+          "Process Control",
+          "Machine Monitoring",
+          "Production Scheduling"
+        ]
+      },
+      {
+        "image": "/images/industry-icons/textile-quality.png",
+        "title": "Quality Control",
+        "description": "Advanced quality management system for textile manufacturing.",
+        "list": [
+          "Quality Testing",
+          "Color Management",
+          "Defect Tracking"
+        ]
+      }
+    ],
+    "faqData": [
+      {
+        "id": 1,
+        "question": "How does the system manage textile processing?",
+        "answer": "Our system provides comprehensive process management including yarn processing, weaving/knitting control, dyeing operations, finishing processes, and real-time production monitoring with quality checkpoints."
+      },
+      {
+        "id": 2,
+        "question": "What quality control features are included?",
+        "answer": "The system includes advanced quality testing with fabric inspection, color matching, shade variation tracking, defect classification, and detailed quality reporting across all production stages."
+      },
+      {
+        "id": 3,
+        "question": "Can it handle material planning?",
+        "answer": "Yes, our solution manages complete material planning with yarn inventory, dye requirements, chemical consumption tracking, and production scheduling optimization."
+      }
+    ],
+    "industry": "Textile Manufacturing",
+    "solution": "Integrated Textile Manufacturing System",
+    "modules": [
+      "Production Control",
+      "Quality Management",
+      "Material Planning",
+      "Process Monitoring",
+      "Color Management"
+    ],
+    "result": [
+      "45% improvement in production efficiency",
+      "40% reduction in quality issues",
+      "35% better color consistency"
+    ],
+    "customers": "300+",
+    "downloadWidget": {
+      "bgShape": "/images/shapes/widget-bg.png",
+      "image": "/images/industry-icons/book-3.png",
+      "title": "Download Our",
+      "spanTitle": "Textile Manufacturing Guide",
+      "buttonText": "Download Now"
+    }
+  }
+}

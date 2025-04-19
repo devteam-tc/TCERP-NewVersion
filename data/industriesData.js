@@ -74,7 +74,7 @@ export const industriesDataList = {
         description: "In FMCG, timely delivery, accurate stock info and personalized experiences drive loyalty and growth.",
         icon: '/images/img/fmcg.webp',
         linkText: 'Explore',
-        link: '/industries/FMCG-industry', 
+        link: '/industries/fmcg-industry', 
       },
       {
         id: 2,

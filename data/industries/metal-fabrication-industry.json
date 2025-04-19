@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/metal_fabrication_banner_img.webp",
+  "title": "Metal Fabrication Industry Solutions",
+  "description": "Advanced ERP solutions tailored for metal fabrication companies, optimizing manufacturing processes, quality control, and project management while ensuring precision and efficiency in custom fabrication.",
+  "keyPoints": [
+    "Precision Manufacturing Control",
+    "Material Resource Planning",
+    "Project & Job Tracking",
+    "Quality Assurance",
+    "Machine & Tool Management"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/metal-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive metal fabrication and production control system.",
+      "list": [
+        "Process Planning",
+        "Machine Scheduling",
+        "Material Optimization"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/metal-quality.png",
+      "title": "Quality Control",
+      "description": "Advanced quality assurance system for metal fabrication.",
+      "list": [
+        "Quality Testing",
+        "Weld Inspection",
+        "Dimensional Control"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage custom fabrication projects?",
+      "answer": "Our system provides comprehensive project management with detailed job tracking, material requirements planning, cost estimation, and real-time progress monitoring for custom fabrication work."
+    },
+    {
+      "id": 2,
+      "question": "What quality control features are included?",
+      "answer": "The system includes advanced quality control features with inspection planning, weld quality tracking, dimensional verification, material certification management, and detailed quality reporting."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle machine and tool management?",
+      "answer": "Yes, our solution manages machine scheduling, tool lifecycle tracking, preventive maintenance planning, and performance monitoring for optimal equipment utilization."
+    }
+  ],
+  "industry": "Metal Fabrication",
+  "solution": "Integrated Metal Fabrication System",
+  "modules": [
+    "Production Planning",
+    "Quality Management",
+    "Machine Control",
+    "Project Management",
+    "Material Planning"
+  ],
+  "result": [
+    "40% improvement in production efficiency",
+    "45% reduction in material waste",
+    "35% better project completion time"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Metal Fabrication Guide",
+    "buttonText": "Download Now"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/paper_banner_img.webp",
+  "title": "Paper Industry Solutions",
+  "description": "Advanced ERP solutions tailored for paper manufacturers, optimizing pulp processing, production control, and quality management while ensuring environmental compliance and sustainable operations.",
+  "keyPoints": [
+    "Pulp Processing Control",
+    "Production Management",
+    "Quality Assurance",
+    "Environmental Compliance",
+    "Energy Optimization"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/paper-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive paper manufacturing and process control system.",
+      "list": [
+        "Pulp Processing",
+        "Production Control",
+        "Grade Management"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/paper-quality.png",
+      "title": "Quality Control",
+      "description": "Advanced quality management system for paper manufacturing.",
+      "list": [
+        "Quality Testing",
+        "Grade Certification",
+        "Process Monitoring"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage pulp processing?",
+      "answer": "Our system provides comprehensive pulp processing management including fiber quality control, chemical dosing, consistency monitoring, and real-time process optimization for different paper grades."
+    },
+    {
+      "id": 2,
+      "question": "What quality control features are included?",
+      "answer": "The system includes advanced quality control with paper grade specifications, testing protocols, brightness monitoring, weight control, and detailed quality reporting for various paper products."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle environmental compliance?",
+      "answer": "Yes, our solution manages environmental compliance with effluent treatment monitoring, energy consumption tracking, emissions control, and sustainability reporting for regulatory requirements."
+    }
+  ],
+  "industry": "Paper Manufacturing",
+  "solution": "Integrated Paper Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Environmental Control",
+    "Energy Management",
+    "Grade Management"
+  ],
+  "result": [
+    "40% improvement in production efficiency",
+    "45% reduction in quality variations",
+    "35% better environmental compliance"
+  ],
+  "customers": "250+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Paper Industry Guide",
+    "buttonText": "Download Now"
+  }
+}

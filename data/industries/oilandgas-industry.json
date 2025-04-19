@@ -1,0 +1,73 @@
+{
+  "banner": "/images/banner/oilandgas_banner_img.webp",
+  "title": "Oil and Gas Industry Solutions",
+  "description": "Advanced ERP solutions tailored for oil and gas companies, optimizing upstream, midstream, and downstream operations while ensuring safety compliance, asset management, and operational efficiency.",
+  "keyPoints": [
+    "Production Operations Management",
+    "Asset Lifecycle Management",
+    "HSE Compliance & Safety",
+    "Supply Chain Optimization",
+    "Maintenance & Reliability"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/oilgas-operations.png",
+      "title": "Operations Management",
+      "description": "Comprehensive oil and gas operations management system.",
+      "list": [
+        "Production Tracking",
+        "Well Management",
+        "Equipment Monitoring"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/oilgas-safety.png",
+      "title": "Safety & Compliance",
+      "description": "Advanced safety and regulatory compliance management system.",
+      "list": [
+        "Safety Protocols",
+        "Environmental Monitoring",
+        "Regulatory Reporting"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle production operations?",
+      "answer": "Our system provides comprehensive production management including well monitoring, equipment performance tracking, production scheduling, and real-time operational analytics across upstream, midstream, and downstream operations."
+    },
+    {
+      "id": 2,
+      "question": "What safety and compliance features are included?",
+      "answer": "The system includes advanced HSE management with incident tracking, safety protocols, permit management, environmental monitoring, and automated regulatory reporting compliance."
+    },
+    {
+      "id": 3,
+      "question": "Can it manage asset maintenance?",
+      "answer": "Yes, our solution provides complete asset lifecycle management with predictive maintenance, equipment reliability tracking, spare parts management, and maintenance scheduling optimization."
+    }
+  ],
+  "industry": "Oil and Gas",
+  "solution": "Integrated Oil & Gas Management System",
+  "modules": [
+    "Operations Management",
+    "Asset Management",
+    "Safety Compliance",
+    "Maintenance Control",
+    "Production Analytics"
+  ],
+  "result": [
+    "45% improvement in operational efficiency",
+    "40% reduction in maintenance costs",
+    "35% better safety compliance"
+  ],
+  "customers": "150+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Oil & Gas Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}
