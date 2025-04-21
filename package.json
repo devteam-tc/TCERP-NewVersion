@@ -10,9 +10,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
+    "emailjs": "^4.0.3",
+    "emailjs-com": "^3.2.0",
     "firebase": "^11.6.0",
     "formik": "^2.4.6",
     "gsap": "^3.12.7",

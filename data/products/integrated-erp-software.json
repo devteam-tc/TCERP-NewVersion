@@ -1,0 +1,163 @@
+{
+    "productTitle": "Tech Cloud Integrated ERP Software",
+    "heading": "Integrated ERP Solutions",
+    "description": "Enhance your business with integrated ERP, CRM and E- Commerce solutions.",
+    "imageSrc": "/products/integrated-pdt.webp",
+    "mainTitle": "Comprehensive Tech Cloud ERP Solutions",
+    "title": "Tech Cloud Integrated Cloud Based ERP",
+    "productDescription": [
+      "Our integrated cloud-based ERP solutions at Tech Cloud are made to optimize your company's departmental business operations. Our solution provides a single platform for managing sales, inventories, human resources, financing and more, facilitating easy collaboration and remote access to real-time data. With the help of our cloud-based ERP, you can increase productivity.",
+      "We offer an ERP solution that is completely adaptable to your particular business requirements. Our integrated solution guarantees data consistency across all corporate operations, streamlines intricate workflows and automates repetitive chores. Tech Cloud ERP gives you a scalable, secure and future-ready platform so business can concentrate on expansion while we manage your backend operations."
+    ],
+    "cards": [
+      {
+        "image": "/products/integrated/crm.png",
+        "title": "CRM",
+        "text": "We provide an integrated CRM with Tech Cloud ERP to enhance customer relationships, manage interactions and improve satisfaction and loyalty.",
+        "items": [
+          "Access unified customer data for better insights.",
+          "Automate customer notifications and follow-ups.",
+          "Track customer interactions and purchase history seamlessly."
+        ]
+      },
+      {
+        "image": "/products/integrated/point.png",
+        "title": "Point of Sale (POS)",
+        "text": "Our POS solution integrates with Tech Cloud ERP to optimize sales, capture client info, handle transactions and manage real-time inventory.",
+        "items": [
+          "Real-time inventory management ensures precise stock levels.",
+          "Complete transactions in a timely and effective manner.",
+          "Create thorough analytics and sales reports to gain understanding."
+        ]
+      },
+      {
+        "image": "/products/integrated/ecommerce.png",
+        "title": "E-Commerce Integration",
+        "text": "We offer seamless eCommerce integration with Tech Cloud ERP, automating order management and real-time product updates.",
+        "items": [
+          "Automatically sync orders and inventory across platforms.",
+          "Keep products updated in real-time for accurate listings.",
+          "Enhance customer experience with timely notifications and updates."
+        ]
+      }
+    ],
+    "tabData": {
+      "requirement": {
+        "image": "/products/integrated/integration.webp",
+        "content": [
+          {
+            "title": "Define Integrated Needs:",
+            "description": "Assess client requirements for integrating various systems into a unified ERP solution."
+          },
+          {
+            "title": "Collaboration with Teams:",
+            "description": "Work with different departments to gather input and ensure comprehensive requirements."
+          },
+          {
+            "title": "Scalable Solutions Design:",
+            "description": "Develop flexible solutions that can scale with the business needs."
+          }
+        ]
+      },
+      "implementation": {
+        "image": "/products/integrated/system.webp",
+        "content": [
+          {
+            "title": "ERP Customization:",
+            "description": "Customize the ERP system to align with business processes and workflows."
+          },
+          {
+            "title": "Cross-Department Training:",
+            "description": "Train all relevant teams on the integrated system for a smooth transition."
+          },
+          {
+            "title": "User Documentation:",
+            "description": "Provide detailed manuals and guidelines for users to reference post-implementation."
+          }
+        ]
+      },
+      "goLive": {
+        "image": "/products/integrated/integrationlaunch.webp",
+        "content": [
+          {
+            "title": "Integrated System Launch:",
+            "description": "Execute the launch of the integrated ERP system across all departments."
+          },
+          {
+            "title": "System Performance Monitoring:",
+            "description": "Continuously monitor the system for performance and user feedback during the initial phase."
+          },
+          {
+            "title": "Immediate User Assistance:",
+            "description": "Offer on-the-spot support to resolve any issues that arise during go-live."
+          }
+        ]
+      },
+      "postGoLive": {
+        "image": "/products/integrated/postinte.webp",
+        "content": [
+          {
+            "title": "Continuous Improvement:",
+            "description": "Implement changes based on user feedback to enhance system performance."
+          },
+          {
+            "title": "System Audits:",
+            "description": "Regularly audit the system to ensure compliance and effectiveness."
+          },
+          {
+            "title": "Future Upgrades Planning:",
+            "description": "Plan and implement updates to maintain system relevance and security."
+          }
+        ]
+      }
+    },
+    "tabsHeadings": {
+      "requirement": "Integration Needs Analysis",
+      "implementation": "System Integration Implementation",
+      "goLive": "Integration Launch & Monitoring",
+      "postGoLive": "Post-Integration Support"
+    },
+    "faqs": [
+      {
+        "question": "What is integrated ERP software?",
+        "answer": "An integrated ERP software is a single application that controls all aspects of a business, ensuring seamless data flow and informed decision-making. It increases efficiency and streamlines processes, ensuring smooth operations."
+      },
+      {
+        "question": "What is the ERP integration?",
+        "answer": "ERP integration is the process of connecting a company's ERP software with other specialized applications and processes throughout the entire business."
+      },
+      {
+        "question": "What is an ERP system integrator?",
+        "answer": "An ERP system integrator, specializing in specific software components like Dynamics 365, Oracle, SAP, or Sage, oversees, manages, installs, and maintains information systems supporting a company's business processes."
+      },
+      {
+        "question": "What is an example of ERP software?",
+        "answer": "ERP software, such as Productive for professional services businesses, Oracle NetSuite, SAP Business One, and Microsoft Dynamics 365, streamline operations, improve efficiency, and support decision-making."
+      },
+      {
+        "question": "Why CRM is integrated with ERP?",
+        "answer": "CRM and ERP integration offers a strategic competitive edge by enabling faster, better, and personalized customer experiences. This allows sales representatives to complete orders faster, enhancing the overall purchasing experience and enhancing customer satisfaction."
+      },
+      {
+        "question": "What type of software can be integrated with ERP software?",
+        "answer": "ERP software can integrate various systems such as CRM, eCommerce, SCM, WMS, TMS, financial systems, HCM, and marketing automation platforms, connecting them to streamline operations and improve overall business performance."
+      },
+      {
+        "question": "Which is the most expensive ERP?",
+        "answer": "SAP S/4HANA is considered the most expensive ERP system due to its Enterprise Focus, designed for large enterprises, while SAP Business One and SAP Business ByDesign cater to small to mid-sized companies."
+      },
+      {
+        "question": "What is the most commonly used ERP?",
+        "answer": "Common ERP deployment types include hybrid, multi-cloud, Oracle ERP Cloud, Microsoft Dynamics 365, Acumatica, NetSuite, and SAP S/4 HANA."
+      },
+      {
+        "question": "What are the three main ERP systems?",
+        "answer": "The three main ERP systems are cloud ERP, on-premise ERP, and hybrid ERP, each with different deployment models, and their functions vary depending on the specific deployment model."
+      },
+      {
+        "question": "Is there free ERP software?",
+        "answer": "Flowlu is a free ERP software that offers various features such as task and project management, invoicing and accounting, client and sales tracking, knowledge management, cash flow forecasting, and analytics."
+      }
+    ]
+  }
+  
