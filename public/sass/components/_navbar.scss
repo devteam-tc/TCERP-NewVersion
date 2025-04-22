@@ -244,7 +244,7 @@
 
 .sticky-menu {
 	background-color: var(--bs-white-color);
-	animation: 400ms ease-in-out 0s normal none 1 running fadeInDown;
+	// animation: 400ms ease-in-out 0s normal none 1 running fadeInDown;
 	box-shadow: 0 2px 20px rgba(25, 25, 25, 0.1);
 	border-radius: 0;
 	position: fixed;
@@ -504,7 +504,7 @@
 		width: 100%;
 		background-color: #fff;
 		top: 0;
-		display: none;
+		display: block;
 	}
 	.sub-menu > li:hover {
 		.nested-submenu {

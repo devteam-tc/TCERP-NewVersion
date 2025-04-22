@@ -1,14 +1,5 @@
 {
-    "productTitle": "Tech Cloud Point of Sale",
-    "heading": "Point of Sale",
-    "description": "Unlock growth and increase profits with our efficient, advanced POS system.",
-    "imageSrc": "/products/pos-pdt.webp",
     "mainTitle": "Popular Tech Cloud POS",
-    "title": "Advanced Cloud-Based POS for Retail Stores",
-    "productDescription": [
-      "Another smarter cloud-based POS software for retail stores. Offering our solution that brings together the sales processes, inventory management and customer engagements on one single roof. Our POS system provides near real-time data synchronization between both the systems, allowing seamless transactions that minimize errors and also improves operational efficiency making it a perfect solution for such retail businesses interested in boosting customer experience and growth.",
-      "Cloud-based POS system with functionality including inventory management, sales tracking and customer data. It also helps you in multi-store retailing to control your stores from anywhere at any time. Our software is here to handle sales, stock management and even process sales analytics, ensuring you have all the tools at your disposal to not only streamline retail but to also maintain a competitive edge."
-    ],
     "cards": [
       {
         "image": "/products/POS/webdevelopment.png",
@@ -99,100 +90,6 @@
           "Identify trends for effective strategic planning.",
           "Optimize sales and marketing strategies with data-driven insights."
         ]
-      }
-    ],
-    "tabData": {
-      "requirement": {
-        "image": "/products/POS/posrequirement.webp",
-        "content": [
-          {
-            "title": "Understand Retail Needs:",
-            "description": "Identify the specific POS requirements based on store size, transaction volume and customer experience goals."
-          },
-          {
-            "title": "Stakeholder Collaboration:",
-            "description": "Engage with store managers and decision-makers to gather comprehensive requirements."
-          },
-          {
-            "title": "Tailored POS Solutions:",
-            "description": "Design a POS system that meets the unique needs of your retail operations."
-          }
-        ]
-      },
-      "implementation": {
-        "image": "/products/POS/posimple.webp",
-        "content": [
-          {
-            "title": "POS System Setup:",
-            "description": "Install, configure and customize the POS system to match store operations."
-          },
-          {
-            "title": "Staff Training:",
-            "description": "Train staff to use the POS system efficiently, covering transactions, inventory and reporting."
-          },
-          {
-            "title": "Documentation & Support:",
-            "description": "Provide user guides and ongoing support for staff during the implementation phase."
-          }
-        ]
-      },
-      "goLive": {
-        "image": "/products/POS/posgolive.webp",
-        "content": [
-          {
-            "title": "POS Go-Live:",
-            "description": "Launch the POS system in your store and ensure all staff are comfortable with its usage."
-          },
-          {
-            "title": "Monitoring Performance:",
-            "description": "Monitor system performance, address any issues and ensure smooth operations post-launch."
-          },
-          {
-            "title": "Live Support:",
-            "description": "Provide real-time support for any operational challenges during the go-live phase."
-          }
-        ]
-      },
-      "postGoLive": {
-        "image": "/products/POS/postgolive.webp",
-        "content": [
-          {
-            "title": "Ongoing Support & Maintenance:",
-            "description": "Offer continued support to resolve any post-launch challenges and ensure system stability."
-          },
-          {
-            "title": "POS Optimization:",
-            "description": "Optimize the POS system based on feedback and real-time performance data."
-          },
-          {
-            "title": "System Updates:",
-            "description": "Keep the system up-to-date with new features and security improvements."
-          }
-        ]
-      }
-    },
-    "tabsHeadings": {
-      "requirement": "POS Requirement Gathering",
-      "implementation": "POS Implementation & Training",
-      "goLive": "Go Live & Monitoring",
-      "postGoLive": "Post-Go-Live Support & Optimization"
-    },
-    "faqs": [
-      {
-        "question": "How Much Can Your Business Improve with a Cloud POS System?",
-        "answer": "Imagine having real-time access to sales, inventory, and customer data from the pub anywhere. A cloud POS system eliminates those old hardware needs, and you'll be able to manage your business from just about any device at any time."
-      },
-      {
-        "question": "How Would You Like to Accept Payments Anywhere, Anytime?",
-        "answer": "Accept payments from virtually any device-with Cloud POS: smartphone, tablet, or traditional POS terminal. Whether in-store or on the go, you could not have made it easier."
-      },
-      {
-        "question": "Want to Know How to Cut Operational Costs with a Cloud-Based POS?",
-        "answer": "Traditional POS systems come with certain expensive requirements, including cost-expensive hardware and maintenance, while usually demanding updates. The cloud POS system eliminates all these costs through a subscription-based model automatically updating the software and having no upfront hardware costs."
-      },
-      {
-        "question": "How Could POS Help You Build Stronger Customer Relationships?",
-        "answer": "Cloud POS keeps track of customer purchase history and preferences, so you may offer promotions with more personalization, loyalty rewards, and discounts - in other words, relationships will be stronger, and retention better."
       }
     ]
   }

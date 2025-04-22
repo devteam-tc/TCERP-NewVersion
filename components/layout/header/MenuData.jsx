@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 const industriesMenu = {
   label: "Industries",
@@ -19,7 +20,7 @@ const industriesMenu = {
       ],
     },
     {
-      heading: "FMCG to Metal Fabrication Industry",
+      heading: "FMCG to Metal FNabrication Industry",
       submenu: [
         { label: "FMCG Industry", href: "/industries/fmcg-industry" },
         { label: "Food Industry", href: "/industries/food-industry" },
@@ -56,10 +57,64 @@ const industriesMenu = {
       ],
     },
   ],
-};
+}; 
+
 
 const MenuData = () => {
-  return (
+  const [isMobile, setIsMobile] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [openSubmenus, setOpenSubmenus] = useState({});
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkScreenSize();
+    window.addEventListener("resize", checkScreenSize);
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
+
+  const toggleSubmenu = (index) => {
+    setOpenSubmenus((prev) => ({
+      ...prev,
+      [index]: !prev[index],
+    }));
+  };
+
+  return isMobile ? (
+    <>
+      <button className="nav-link" onClick={() => setMenuOpen(!menuOpen)}>
+        {industriesMenu.label} <i className="fas fa-chevron-down"></i>
+      </button>
+
+      {menuOpen && (
+        <ul className="sub-menu list-unstyled">
+          {industriesMenu.children.map((category, index) => (
+            <li key={index}>
+              <button
+                className="submenu-heading"
+                onClick={() => toggleSubmenu(index)}
+              >
+                <span>{category.heading}</span>{" "}
+                <i className={`fas fa-chevron-${openSubmenus[index] ? "down" : "right"}`}></i>
+              </button>
+
+              {openSubmenus[index] && (
+                <ul className="nested-submenu list-unstyled">
+                  {category.submenu.map((item, idx) => (
+                    <li key={idx}>
+                      <Link href={item.href}>{item.label}</Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
+    </>
+  ) : (
     <ul className="navbar-nav mx-auto mb-lg-0">
       <li className="nav-item">
         <Link className="nav-link" href={industriesMenu.href}>
@@ -68,7 +123,10 @@ const MenuData = () => {
         <ul className="sub-menu list-unstyled">
           {industriesMenu.children.map((category, index) => (
             <li key={index}>
-              <span className="submenu-heading">{category.heading}</span>
+              <a className="submenu-heading">
+                <span>{category.heading}</span>{" "}
+                <i className="fas fa-chevron-right"></i>
+              </a>
               <ul className="nested-submenu list-unstyled">
                 {category.submenu.map((item, idx) => (
                   <li key={idx}>

@@ -1,14 +1,6 @@
 {
-    "productTitle": "Tech Cloud Trading Software",
-    "heading": "Trading software",
-    "description": "Enhance customer relationships and streamline operations with our trading software.",
-    "imageSrc": "/products/trading-pdt.webp",
+
     "mainTitle": "Why Choose Tech Cloud ERP",
-    "title": "A Perfect Software for Traders",
-    "productDescription": [
-      "At Tech Cloud ERP, we offer a comprehensive solution designed specifically for traders. Our software simplifies inventory management, order tracking and financial processes, enabling traders to operate efficiently and stay competitive. With powerful tools for real-time insights and seamless automation, managing trade activities has never been easier.",
-      "Whether you're handling procurement, sales, or logistics, Tech Cloud ERP provides the flexibility and control you need. Our customizable platform adapts to your unique trading requirements, helping you reduce costs, optimize workflows and drive business growth effortlessly."
-    ],
     "cards": [
       {
         "image": "/products/trading/newcustomer.png",
@@ -69,64 +61,6 @@
           "Support frequent trading under applicable regulations.",
           "Provide secure handling of various investment assets."
         ]
-      }
-    ],
-    "tabData": {
-      "discovery": {
-        "image": "/products/trading/discovery.webp",
-        "alt": "Alt text for discovery image",
-        "content": [
-          { "title": "Understand Business Goals:", "description": "Gain insights into the business's trading objectives, pain points and market opportunities." },
-          { "title": "Stakeholder Engagement:", "description": "Collaborate with key team members to understand expectations and priorities for the software." },
-          { "title": "Identify Key Challenges:", "description": "Focus on understanding trading cycles, bottlenecks and competitive pressures." }
-        ]
-      },
-      "implementation": {
-        "image": "/products/trading/implemenattion.webp",
-        "alt": "Alt text for implementation image",
-        "content": [
-          { "title": "System Configuration:", "description": "Install and configure ERP software to meet trading-specific needs." },
-          { "title": "Team Training:", "description": "Ensure that all users are trained to handle trading workflows, inventory and customer management effectively." },
-          { "title": "Documentation Creation:", "description": "Create comprehensive user guides and process documentation for reference." }
-        ]
-      },
-      "goLive": {
-        "image": "/products/trading/tradinggolive.webp",
-        "alt": "Alt text for go live image",
-        "content": [
-          { "title": "System Launch:", "description": "Officially activate the trading ERP system, transitioning from legacy solutions." },
-          { "title": "Monitoring & Adjustment:", "description": "Track system performance and make any necessary real-time adjustments." },
-          { "title": "Support & Guidance:", "description": "Provide ongoing support during the initial go-live phase to resolve any user issues." }
-        ]
-      },
-      "optimization": {
-        "image": "/products/trading/tradingpostlive.webp",
-        "alt": "Alt text for optimization image",
-        "content": [
-          { "title": "System Enhancements:", "description": "Identify areas for improvement based on user feedback and operational performance." },
-          { "title": "Continuous Support:", "description": "Provide continuous support to resolve emerging issues and optimize trading operations." },
-          { "title": "Upgrades & Features:", "description": "Ensure the system is equipped with the latest trading tools and capabilities." }
-        ]
-      }
-    },
-    "tabsHeadings": {
-      "discovery": "Discovery & Planning",
-      "implementation": "Implementation & Training",
-      "goLive": "Go Live & Support",
-      "optimization": "Post-Go-Live Optimization"
-    },
-    "faqs": [
-      {
-        "question": "How Can This Trading Software Help You Make Smarter Decisions in Real-Time?",
-        "answer": "Our system offers you the real-time market data, advanced tools for charting, and fully automated alerts, making all decisions as quick as well-informed. What you are watching is stock trends or forex movements-think of everything you need to stay one step ahead in this market."
-      },
-      {
-        "question": "How Do I Monitor My Performance and Improve My Trading?",
-        "answer": "Through performance monitoring tools, you can monitor your trades, see your profit/loss history, understand your strengths and areas for improvement, and then tailor your strategy accordingly for better results."
-      },
-      {
-        "question": "How Might You Leverage Your Trading Potential with the Right Software?",
-        "answer": "Get all your real-time market data, advanced charting tools and algorism trading strategies at your fingertips as our trading software brings you closer to realizing your full trading potential whether it is just a beginner or an experienced trader."
       }
     ]
   }

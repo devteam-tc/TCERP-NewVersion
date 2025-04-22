@@ -2,7 +2,7 @@
 import './AboutSection.scss';
 import Image from 'next/image';
 import Link from 'next/link';
-import { productAboutData } from '../../data/productsData'; // ✅ Import constants
+import productAboutData from '../../data/products/productAboutData.json'; // ✅ Corrected path to JSON
 
 const AboutSection = ({ slug }) => {
   const data = productAboutData[slug];

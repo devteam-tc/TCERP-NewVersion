@@ -8,8 +8,8 @@ import LayoutWrapper from './LayoutWrapper';
 import Script from 'next/script';
 
 export const metadata = {
-  title: "Netwise – IT Solutions & Technology NextJs Template",
-  description: "Netwise – IT Solutions & Technology NextJs Template",
+  // title: "Netwise – IT Solutions & Technology NextJs Template",
+  // description: "Netwise – IT Solutions & Technology NextJs Template",
   keywords: [
     "business solutions",
     "consulting",

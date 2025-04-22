@@ -1,14 +1,5 @@
 {
-    "productTitle": "Tech Cloud HRMS Management Software",
-    "heading": "HR management Solutions",
-    "description": "Our expert team delivers top support, empowering your HR department with confidence.",
-    "imageSrc": "/products/hrms-pdt.webp",
     "mainTitle": "Our HR Management Solutions",
-    "title": "Tech Cloud HRMS",
-    "productDescription": [
-      "At Tech Cloud, we provide the leading edge HRMS solution that could simplify and streamline the mechanism of management for the workforce for you. Our software offers an integrated platform to handle everything from recruitment, onboarding, payroll, leave and attendance management, all integrated within one single platform for an organization. Offer in real dashboards, automated processes and self-service features with the purpose of promoting employee engagement and ensuring operational efficiency among businesses.",
-      "We offer a user-friendly system that adapts to your organization's unique needs, enabling seamless collaboration and accurate data handling. Whether it’s performance tracking or welfare management, our HRMS ensures you stay ahead with efficient and comprehensive tools, allowing you to focus on what matters most—growing your business. Let us help you transform your HR processes with Tech Cloud HRMS."
-    ],
     "cards": [
       {
         "image": "/products/Hr/recruitment.png",
@@ -99,108 +90,6 @@
           "Replace manual processes with real-time collaboration.",
           "Promote continuous feedback and improvement."
         ]
-      }
-    ],
-    "tabData": {
-      "employeeManagement": {
-        "image": "/products/Hr/emplyeemange.webp",
-        "alt": "HR Employee Management Image",
-        "content": [
-          {
-            "title": "Employee Profiles:",
-            "description": "Maintain detailed profiles for all employees, including personal information and performance history."
-          },
-          {
-            "title": "Attendance Tracking:",
-            "description": "Efficiently monitor employee attendance and punctuality."
-          },
-          {
-            "title": "Performance Reviews:",
-            "description": "Conduct regular performance reviews to assess employee growth and areas for improvement."
-          }
-        ]
-      },
-      "complianceManagement": {
-        "image": "/products/Hr/compliance.webp",
-        "alt": "HR Compliance Management Image",
-        "content": [
-          {
-            "title": "Regulatory Compliance:",
-            "description": "Ensure compliance with labor laws and regulations to avoid legal issues."
-          },
-          {
-            "title": "Policy Management:",
-            "description": "Develop and maintain organizational policies that align with legal requirements."
-          },
-          {
-            "title": "Audit Readiness:",
-            "description": "Prepare for audits with organized records and documentation."
-          }
-        ]
-      },
-      "employeeEngagement": {
-        "image": "/products/Hr/emplayeenage.webp",
-        "alt": "HR Employee Engagement Image",
-        "content": [
-          {
-            "title": "Feedback Mechanisms:",
-            "description": "Implement systems for collecting employee feedback and suggestions."
-          },
-          {
-            "title": "Recognition Programs:",
-            "description": "Establish programs to recognize and reward employee achievements."
-          },
-          {
-            "title": "Engagement Surveys:",
-            "description": "Conduct surveys to gauge employee satisfaction and engagement levels."
-          }
-        ]
-      },
-      "analyticsAndReporting": {
-        "image": "/products/Hr/analytics.png",
-        "alt": "HR Analytics and Reporting Image",
-        "content": [
-          {
-            "title": "HR Metrics Analysis:",
-            "description": "Analyze key HR metrics to assess organizational health."
-          },
-          {
-            "title": "Custom Reports:",
-            "description": "Generate customized reports to meet specific business needs."
-          },
-          {
-            "title": "Predictive Analytics:",
-            "description": "Use data analytics to predict workforce trends and challenges."
-          }
-        ]
-      }
-    },
-    "tabsHeadings": {
-      "employeeManagement": "Employee Management",
-      "complianceManagement": "Compliance Management",
-      "employeeEngagement": "Employee Engagement",
-      "analyticsAndReporting": "Analytics & Reporting"
-    },
-    "faqs": [
-      {
-        "question": "How Do HRMS Software Systems Improve Employee Management for My Business?",
-        "answer": "HRMS Software automates core HR Functions in payroll processing, attendance, leave management, and performance evaluation. HRMS can be considered an integrated platform where employee data can be centralized and, therefore, assist the HR team in efficiently managing the entire lifecycle of employees and making easy tracking of performance, growth, and compliance."
-      },
-      {
-        "question": "How Does HRMS Software Help in Handling Payroll and Taxes Management?",
-        "answer": "HRMS software supports errorless and tax laws compliance payroll processing through the automated calculations of wages, taxes, bonuses, deductions, and benefits. This system integrates tax calculation tools to ensure correct filing with the necessary reports towards tax compliance as well as yearly filings to avoid delays and mistakes."
-      },
-      {
-        "question": "How Does HRMS Improve Employee Engagement and Performance?",
-        "answer": "HRMS Software Tools for Managing Employee Performance management through regular appraisals, goal tracking, and the feedback system is provided by HRMS software tools. It provides real-time performance insight to the managers so that they can easily bridge their gaps in performance and celebrate their achievements. Features such as surveys and employee satisfaction tools help maintain higher levels of engagement and morale with HRMS."
-      },
-      {
-        "question": "In what ways does HRMS software support real-time reporting and analytics?",
-        "answer": "HRMS offers rich reporting and analytics capabilities that allow HR teams to track the following: employee turnover, absenteeism, performance scores, and compensation. All of these in real-time means that you can stay always data-driven - making decisions and tracking HR initiatives."
-      },
-      {
-        "question": "Which Businesses Will Benefit from the HRMS Software?",
-        "answer": "HRMS software can benefit any size category, ranging from small startup companies to big enterprises. This software will make easier the task of those businesses managing employee information, payroll, performance reviews, recruitments, and so many other things. It is scalable due to its adaptability in trying to fit the different needs of various industries, from retail to healthcare, technology, manufacturing, and many others."
       }
     ]
   }

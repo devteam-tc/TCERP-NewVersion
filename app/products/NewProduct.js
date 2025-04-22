@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import "./NewProduct.scss"; // Regular SCSS import
-import { productscardData } from "../../data/productsData";
+import  productscardData  from "../../data/products/productscardData.json"; 
 import { Button } from "react-bootstrap";
 
 const ProductsSection = () => {
@@ -49,7 +49,16 @@ const ProductsSection = () => {
                     <p className="product-des">{card.text}</p>
                   </div>
                   <div className="product-icon">
-                    <Image src={card.image} alt="product icon" width={50} height={40} />
+                    <Image 
+                      src={card.image} 
+                      alt="product icon" 
+                      width={50} 
+                      height={40} 
+                      style={{
+                        maxWidth: "100%",
+                        height: "auto"
+                      }} 
+                    />
                   </div>
                 </div>
               </div>

@@ -22,7 +22,6 @@ const IndustryClientPage = () => {
       <Header />
       <PageHeader title={industryName} breadcrumbs={breadcrumbs} />
       <main>
-
         {/* Pass slug to ProjectDetailsPage */}
         <ProjectDetailsPage industrySlug={slug} />
       </main>

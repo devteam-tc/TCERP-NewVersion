@@ -1,14 +1,5 @@
 {
-    "productTitle": "Tech Cloud Enterprise Resource Planning",
-    "heading": "ERP Solutions",
-    "description": "Our ERP solutions are designed to streamline and optimize operations.",
-    "imageSrc": "/products/products_main_img.webp",
     "mainTitle": "Our ERP Overview",
-    "title": "Cloud Based ERP Software",
-    "productDescription": [
-      "Tech Cloud ERP offers secure and scalable cloud-based ERP software to streamline business operations. Our solution integrates key functions like sales, inventory, accounting and HR into a unified platform, providing real-time insights and enhanced flexibility. Tailored for industries such as manufacturing, retail and logistics, our ERP software helps businesses improve efficiency, reduce costs and drive growth.",
-      "To get a clearer view on ERP software solutions and what it does to change the fortune of an enterprise, understand what ERP is. This is Enterprise Resource Planning, where all main company functions, such as sales, marketing, inventory, production, accounting and human resources, are joined together in a single program. Cloud-based ERP software that we have here in Hyderabad, India, helps operate more efficiently by centralising and streamlining operations at all levels within the business.Thank you for your understanding and support."
-    ],
     "cards": [
       {
         "image": "/products/tcerp/sale.png",
@@ -69,30 +60,6 @@
           "Track preventive maintenance.",
           "Monitor utility details and maintenance."
         ]
-      }
-    ],
-    "tabsHeadings": {
-      "requirement": "Requirement Gathering",
-      "implementation": "Implementation & Training",
-      "goLive": "Go Live & Onboarding",
-      "postGoLive": "Post-Go-Live Support"
-    },
-    "faqs": [
-      {
-        "question": "What is Cloud-Based ERP Software?",
-        "answer": "A Cloud-Based ERP is basically an integration of all the business processes, including finance, HR, sales, supply chain, inventory, and customer relationships-managed in one platform housed on the cloud. This offers real-time access, scalability, and flexibility over traditional on-premise ERP systems."
-      },
-      {
-        "question": "What are the key advantages of cloud-based ERP software?",
-        "answer": "Cost-Efficient: Hardware or IT setup not required. Scalable: Scale up or down based on your business needs. Accessible: Data available from anywhere and any time using an internet-connected device. Security: Advanced cloud security measures protect your business data. Real-Time Data: Real-time insights available for faster decision-making."
-      },
-      {
-        "question": "How much does Cloud-Based ERP software cost?",
-        "answer": "The amount of Cloud ERP varies with aspects like the number of users, the types of modules you require such as finance, inventory, or HR, and the extents to which customization needs to be done. The usual pricing models are usually based on subscription, and it ranges from monthly to yearly plans and we have flexible pricing models that can accommodate businesses of all sizes."
-      },
-      {
-        "question": "How Can Cloud ERP Help Improve My Business Operations?",
-        "answer": "Cloud ERP helps centralize all the data, and thus improvement is created in collaboration between departments, reduces manual tasks, and allows real-time insights. Hence, you can automate the processes, increase efficiency, and make data-driven decisions to maximize productivity and profitability."
       }
     ]
   }

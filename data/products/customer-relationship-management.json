@@ -1,14 +1,5 @@
 {
-    "productTitle": "Tech Cloud Customer Relationship Management",
-    "heading": "CRM Solutions",
-    "description": "Elevate customer interactions with our CRM for personalized growth solutions.",
-    "imageSrc": "/products/crm-pdt.webp",
     "mainTitle": "Our CRM Solutions Overview",
-    "title": "Cloud Based CRM Software",
-    "productDescription": [
-      "Tech Cloud ERP gives you a cloud CRM solution that improves your internal processes and builds strong relationships with customers while increasing growth. Live-stream Customer Data, Sales & Marketing Activity – With the CRM Consultants you take all data Live as per inputs and get every functionality in sync by leaving your mind in it. We enable businesses to streamline workflows and improve productivity, with features like sales & marketing integration, invoicing & order management and purchase management.",
-      "In one single shippable software, we have integrated various features like quality check and project management tools alongside handling assets with our CRM platform. Find big and custom tailored solutions that scale with your business, making sure everyone in your team works efficiently as part of one network."
-    ],
     "cards": [
       {
         "image": "/products/CRM/contact.png",
@@ -99,60 +90,6 @@
           "Engage customers with relevant, personalized content.",
           "Prioritize high-value customers to boost sales."
         ]
-      }
-    ],
-    "tabData": {
-      "requirement": {
-        "image": "/products/CRM/crmrequire.webp",
-        "content": [
-          { "title": "Identify CRM Needs:", "description": "Understand the organization's goals for managing customer relationships." },
-          { "title": "Team Collaboration:", "description": "Work with sales, marketing and support teams to define specific CRM requirements." },
-          { "title": "Tailored CRM Approach:", "description": "Design a CRM solution tailored to your business processes and customer journey." }
-        ]
-      },
-      "implementation": {
-        "image": "/products/CRM/crmimplementation.webp",
-        "content": [
-          { "title": "CRM System Setup:", "description": "Install, configure and customize the CRM system to meet your business needs." },
-          { "title": "Training & Enablement:", "description": "Train employees on how to efficiently use the CRM system for their roles." },
-          { "title": "Data Import & Migration:", "description": "Seamlessly migrate customer and business data into the new CRM system." }
-        ]
-      },
-      "goLive": {
-        "image": "/products/CRM/crmgolive.webp",
-        "content": [
-          { "title": "Go Live Activation:", "description": "Make the CRM system live and accessible for all users." },
-          { "title": "Real-time Monitoring:", "description": "Monitor system performance and address issues during the go-live phase." },
-          { "title": "User Support:", "description": "Provide on-site and remote support to ensure smooth adoption." }
-        ]
-      },
-      "postGoLive": {
-        "image": "/products/CRM/crmpostgolive.webp",
-        "content": [
-          { "title": "Continuous Support:", "description": "Offer ongoing support to resolve any post-launch challenges." },
-          { "title": "CRM Optimization:", "description": "Optimize the CRM system based on user feedback and business requirements." },
-          { "title": "Regular Updates:", "description": "Ensure the CRM system stays up-to-date with new features and security patches." }
-        ]
-      }
-    },
-    "tabsHeadings": {
-      "requirement": "CRM Requirement Analysis",
-      "implementation": "CRM Implementation",
-      "goLive": "Go Live & User Adoption",
-      "postGoLive": "Post-Go-Live CRM Optimization"
-    },
-    "faqs": [
-      {
-        "question": "How Much Would You Benefit from Having All Your Customer Data in One Place?",
-        "answer": "Visualize a single platform wherein all these customer interactions, communications, as well as insights, are centralized. Cloud CRM brings you the 360-degree view of all your customers. Track leads, manage relationships, and close deals faster with a simple, intuitive interface."
-      },
-      {
-        "question": "What Would Your Business Do with Real-Time Access to Customer Data?",
-        "answer": "Access customer data in real-time with Cloud CRM. See the impact when your team can make faster, more informed decisions-in the office or on the go-by responding instantly to the demands of your customers and driving real-time value."
-      },
-      {
-        "question": "How much would your business benefit from a CRM that scales with you?",
-        "answer": "Cloud CRM is one that grows with your business. You can add more users, manage more customers, and track more data, free from the restraint of system limitations. Therefore, Cloud CRM offers a scalable ability to extend your business seamlessly."
       }
     ]
   }

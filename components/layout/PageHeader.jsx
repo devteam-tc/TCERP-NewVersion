@@ -26,8 +26,8 @@ const PageHeader = ({ title, breadcrumbs = [] }) => {
                     ) : (
                       <span>{item.label}</span>
                     )}
-                    {index < breadcrumbs.length - 1 && (
-                      <i className="fa-solid fa-chevron-right"></i>
+                     {index < breadcrumbs.length - 1 && (
+                      <i className="fa-solid fa-chevron-right mx-2"></i>
                     )}
                   </li>
                 ))}
