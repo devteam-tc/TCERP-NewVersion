@@ -152,7 +152,7 @@ const ContactPage = () => {
                   <div className="text">
                     <h4 className="title">Location</h4>
                     <ul className="list-unstyled">
-                      <li>VVG ELITE, Plot No 301, Kavuri Hills, Madhapur, Hyderabad, Telangana 500081</li>
+                      <li>Plot No. 241, 3rd Floor, VVG Elite Developers, Kavuri Hills, Madhapur, Hyderabad, Telangana - 500081</li>
                     </ul>
                   </div>
                 </div>

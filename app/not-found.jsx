@@ -1,7 +1,8 @@
-import Error from '@/components/containers/Error';
-import Footer from '@/components/layout/footer/Footer';
-import Header from '@/components/layout/header/Header';
-import PageHeader from '@/components/layout/PageHeader';
+// import Error from '@/components/containers/Error';
+import Error from "../components/containers/Error"
+import Footer from '../components/layout/footer/Footer';
+import Header from '../components/layout/header/Header';
+import PageHeader from '../components/layout/PageHeader';
 import React from 'react'
 
 const page = () => {

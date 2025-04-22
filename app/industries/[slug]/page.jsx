@@ -4,7 +4,7 @@
 // This is a SERVER component
 import dynamic from 'next/dynamic';
 
-const IndustryClientPage = dynamic(() => import('./IndustryClientPage'), {
+const IndustryClientPage = dynamic(() => import('../../../components/containers/industry-details/IndustryClientPage'), {
   
   loading: () => <p>Loading...</p>,
 });

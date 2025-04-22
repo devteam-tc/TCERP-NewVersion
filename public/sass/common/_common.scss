@@ -501,12 +501,12 @@ p {
   .icon {
     width: 55px;
     height: 55px;
-    background-color:var(--bs-secondary-color);
+    // background-color:var(--bs-secondary-color);
     border-radius: 50%;
     transition: var(--bs-transition);
 
     i {
-      color: var(--bs-white-color);
+      color: var( --bs-secondary-500);
       transition: var(--bs-transition);
     }
   }
@@ -874,7 +874,7 @@ p {
 
           &.current,
           &:hover {
-            color: #fff;
+            color: #fff !important;
             background: var( --bs-primary-500);
           }
         }

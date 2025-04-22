@@ -1,0 +1,212 @@
+.tf__categories {
+    margin-top: 95px;
+  }
+  
+  .tf__heading_area {
+    text-align: center;
+  
+    h5 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+  
+    h2 {
+      font-size: 32px;
+      font-weight: 700;
+    }
+  }
+  
+  .tf__single_category {
+    position: relative;
+    margin-top: 25px;
+  
+    &_icon {
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      color: #fff;
+      font-size: 40px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      z-index: 1;
+      transition: all 0.3s linear;
+      transform: translateY(-50%);
+      background: var(--colorBlue);
+    }
+  
+    &_text {
+      background: url('/images/categiry_bg.png') no-repeat center center;
+      background-size: cover;
+      padding: 50px;
+      margin-left: 50px;
+      padding-left: 80px;
+      position: relative;
+      border-radius: 5px;
+      border-left: 3px solid var(--colorBlue);
+      overflow: hidden;
+      transform: skewX(-10deg);
+      transition: all 0.3s linear;
+  
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #f3f7fb;
+        top: 0;
+        left: 0;
+        transition: all 0.3s linear;
+        z-index: 0;
+      }
+  
+      h3, p {
+        position: relative;
+        z-index: 1;
+        transform: skewX(10deg);
+        transition: all 0.3s linear;
+      }
+  
+      h3 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+      }
+  
+      p {
+        padding-left: 8px;
+        text-align: left;
+    font-size: 16px;
+    width: -webkit-fill-available;
+    height: auto;
+      }
+    }
+  
+    &:hover {
+      .tf__single_category_text::after {
+        opacity: 0.85;
+      }
+  
+      .tf__single_category_icon {
+        background: #fff !important;
+      }
+  
+      h3, p {
+        color: #fff;
+      }
+    }
+  }
+  
+  // Color Variants
+  .light_blue {
+    .tf__single_category_icon {
+      background: #ef5226;
+    }
+  
+    .tf__single_category_text {
+      border-left: 2px solid #ef5226;
+    }
+  
+    &:hover .tf__single_category_text::after {
+      background: #ef5226;
+    }
+  
+    &:hover .tf__single_category_icon {
+      color: #8e56ff;
+    }
+  }
+  
+  .blue {
+    .tf__single_category_icon {
+      background: #4582ff;
+    }
+  
+    .tf__single_category_text {
+        border-left: 2px solid #4582ff;
+    }
+  
+    &:hover .tf__single_category_text::after {
+      background: #4582ff;
+    }
+  
+    &:hover .tf__single_category_icon {
+      color: #4582ff;
+    }
+  }
+  
+  .green {
+    .tf__single_category_icon {
+      background: #1ab69d;
+    }
+  
+    .tf__single_category_text {
+        border-left: 2px solid #1ab69d;
+    }
+  
+    &:hover .tf__single_category_text::after {
+      background: #1ab69d;
+    }
+  
+    &:hover .tf__single_category_icon {
+      color: #1ab69d;
+    }
+  }
+  
+  .gray {
+    .tf__single_category_icon {
+      background: #ada729;
+    }
+  
+    .tf__single_category_text {
+        border-left: 2px solid #ada729;
+    }
+  
+    &:hover .tf__single_category_text::after {
+      background: #ada729;
+    }
+  
+    &:hover .tf__single_category_icon {
+      color: #ada729;
+    }
+  }
+  
+  .orange {
+    .tf__single_category_icon {
+      background: #ff7f46;
+    }
+  
+    .tf__single_category_text {
+        border-left: 2px solid #ff7f46;
+    }
+  
+    &:hover .tf__single_category_text::after {
+      background: #ff7f46;
+    }
+  
+    &:hover .tf__single_category_icon {
+      color: #ff7f46;
+    }
+  }
+  
+  .red {
+    .tf__single_category_icon {
+      background: #ff5b5c;
+    }
+  
+    .tf__single_category_text {
+        border-left: 2px solid #ff5b5c;
+    }
+  
+    &:hover .tf__single_category_text::after {
+      background: #ff5b5c;
+    }
+  
+    &:hover .tf__single_category_icon {
+      color: #ff5b5c;
+    }
+  }
+  

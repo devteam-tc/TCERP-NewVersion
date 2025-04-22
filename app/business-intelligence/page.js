@@ -5,8 +5,9 @@ import CustomCursor from "@/components/layout/CustomCursor";
 import AuditPage from '../products/AuditPage';
 import Faq from '@/components/containers/home/Faq';
 import Header from '@/components/layout/header/Header';
-import PageHeader from '@/components/layout/PageHeader';
-import CardsSection from './CardsSection';
+import PageHeader from '../../components/layout/PageHeader';
+// import CardsSection from './CardsSection';
+import BusinessCards from './BusinessCards';
 
 
 const breadcrumbs = [
@@ -51,7 +52,8 @@ export default function Page() {
       <PageHeader title="Business Intelligence" breadcrumbs={breadcrumbs} />
         <IntroSection />
      <AuditPage />
-     <CardsSection />
+     {/* <CardsSection /> */}
+     <BusinessCards />
      <Faq />
       </main>
 
