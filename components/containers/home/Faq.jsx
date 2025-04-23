@@ -1,10 +1,10 @@
 "use client";
 import { useState } from "react";
-import faqImg1 from "@/public/images/faq/faq-img-1.png";
-import faqImg2 from "@/public/images/faq/faq-img-2.png";
-import groupIcon from "@/public/images/icons/group-person-icon.svg";
-import groupIcon2 from "@/public/images/icons/group-person-icon-2.svg";
-import { faq } from "@/data/faq";
+import faqImg1 from "../../../public/images/faq/faq-img-1.png";
+import faqImg2 from "../../../public/images/faq/faq-img-2.png";
+import groupIcon from "../../../public/images/icons/group-person-icon.svg";
+import groupIcon2 from "../../../public/images/icons/group-person-icon-2.svg";
+import { faq } from "../../../data/faq";
 import Image from "next/image";
 import OdometerCounter from "../Odometer";
 import SectionTitle from "../SectionTitle";

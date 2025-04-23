@@ -5,7 +5,8 @@ import Image from "next/image";
 import OdometerCounter from "../Odometer";
 import Link from "next/link";
 import SectionTitle from "../SectionTitle";
-import aboutContent from "@/data/about/aboutContent.json";
+import aboutContent from "../../../data/about.json";
+
 
 const About = ({extraClassName = ''}) => {
   return (

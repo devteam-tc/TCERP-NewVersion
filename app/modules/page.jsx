@@ -1,26 +1,24 @@
-import ContactPage from "../../components/containers/contact/ContactPage";
+
 import CustomCursor from "../../components/layout/CustomCursor";
 import Footer from "../../components/layout/footer/Footer";
-import TrainFactoryScene from "../../components/layout/footer/TrainFactoryScene";
 import Header from "../../components/layout/header/Header";
 import PageHeader from "../../components/layout/PageHeader";
+import ModulePage from './ModulePage';
 
 const page = () => {
   const breadcrumbs = [
     { label: 'Home', link: '/' },
-    { label: 'Contact Us', link: null }
+    { label: 'Modules', link: null }
   ];
   return (
     <>
       <Header/>
-      <PageHeader title="Contact Us" breadcrumbs={breadcrumbs}/>
-      <ContactPage/>
+      <PageHeader title="Modules" breadcrumbs={breadcrumbs}/>
+      <ModulePage />
       <Footer/>
-      <TrainFactoryScene />
-
       <CustomCursor/>
     </>
   )
 }
 
-export default page
+export default page;

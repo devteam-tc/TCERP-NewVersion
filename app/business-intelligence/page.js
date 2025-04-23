@@ -1,11 +1,11 @@
 // page.js
 import IntroSection from './Introsection';
 import Footer from '../../components/layout/footer/Footer';
-import CustomCursor from "@/components/layout/CustomCursor";
+import CustomCursor from "../../components/layout/CustomCursor";
 import AuditPage from '../products/AuditPage';
-import Faq from '@/components/containers/home/Faq';
-import Header from '@/components/layout/header/Header';
-import PageHeader from '@/components/layout/PageHeader';
+import Faq from '../../components/containers/home/Faq';
+import Header from '../../components/layout/header/Header';
+import PageHeader from '../../components/layout/PageHeader';
 // import CardsSection from './CardsSection';
 import BusinessCards from './BusinessCards';
 
