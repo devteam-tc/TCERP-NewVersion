@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/microfinance_banner_img.webp",
+  "banner": "/images/industries/microfinance_banner_img.webp",
   "title": "Micro Finance Industry Solutions",
-  "description": "Comprehensive ERP solutions designed for microfinance institutions, optimizing loan management, client servicing, and financial operations while ensuring regulatory compliance and social impact tracking.",
+  "description": "Comprehensive ERP solutions designed for microfinance institutions, optimizing loan management, client servicing and financial operations while ensuring regulatory compliance and social impact tracking.",
   "keyPoints": [
     "Loan Portfolio Management",
     "Client Relationship Management",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system handle loan management?",
-      "answer": "Our system provides end-to-end loan management including application processing, disbursement tracking, repayment scheduling, collection management, and portfolio monitoring with detailed analytics."
+      "answer": "Our system provides end-to-end loan management including application processing, disbursement tracking, repayment scheduling, collection management and portfolio monitoring with detailed analytics."
     },
     {
       "id": 2,
       "question": "What client management features are included?",
-      "answer": "The system includes comprehensive client management with KYC verification, credit history tracking, group management, social impact assessment, and mobile-based field operations support."
+      "answer": "The system includes comprehensive client management with KYC verification, credit history tracking, group management, social impact assessment and mobile-based field operations support."
     },
     {
       "id": 3,
       "question": "Can it handle regulatory compliance?",
-      "answer": "Yes, our solution ensures compliance with microfinance regulations including reporting requirements, interest rate calculations, documentation management, and audit trail maintenance."
+      "answer": "Yes, our solution ensures compliance with microfinance regulations including reporting requirements, interest rate calculations, documentation management and audit trail maintenance."
     }
   ],
   "industry": "Micro Finance",

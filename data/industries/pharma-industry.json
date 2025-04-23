@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/pharmaceutical_banner_img.webp",
+  "banner": "/images/industries/pharmaceutical_banner_img.webp",
   "title": "Pharmaceutical Industry Solutions",
-  "description": "Advanced ERP solutions tailored for pharmaceutical manufacturers, ensuring GMP compliance, quality control, and regulatory adherence while optimizing production processes and maintaining complete traceability.",
+  "description": "Advanced ERP solutions tailored for pharmaceutical manufacturers, ensuring GMP compliance, quality control and regulatory adherence while optimizing production processes and maintaining complete traceability.",
   "keyPoints": [
     "GMP Compliance Management",
     "Quality Control & Validation",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system ensure GMP compliance?",
-      "answer": "Our system provides comprehensive GMP compliance management including batch record control, validation protocols, clean room monitoring, and complete documentation management with audit trails."
+      "answer": "Our system provides comprehensive GMP compliance management including batch record control, validation protocols, clean room monitoring and complete documentation management with audit trails."
     },
     {
       "id": 2,
       "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality control with stability testing, analytical method validation, raw material testing, in-process controls, and finished product testing with complete documentation."
+      "answer": "The system includes advanced quality control with stability testing, analytical method validation, raw material testing, in-process controls and finished product testing with complete documentation."
     },
     {
       "id": 3,
       "question": "Can it handle regulatory requirements?",
-      "answer": "Yes, our solution manages regulatory compliance with FDA, EMA, and other global standards, including electronic batch records, validation documentation, and regulatory submission support."
+      "answer": "Yes, our solution manages regulatory compliance with FDA, EMA, and other global standards, including electronic batch records, validation documentation and regulatory submission support."
     }
   ],
   "industry": "Pharmaceutical Manufacturing",

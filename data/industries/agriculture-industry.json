@@ -13,7 +13,7 @@
     {
       "image": "/images/industry-icons/agriculture-management.png",
       "title": "Farm Management",
-      "description": "Complete farm operations management including planning, scheduling, and resource allocation.",
+      "description": "Complete farm operations management including planning, scheduling and resource allocation.",
       "list": [
         "Resource Planning",
         "Crop Management",
@@ -35,7 +35,7 @@
     {
       "id": 1,
       "question": "How does the system handle crop planning?",
-      "answer": "Our system provides comprehensive crop planning tools including seasonal scheduling, resource allocation, and yield forecasting."
+      "answer": "Our system provides comprehensive crop planning tools including seasonal scheduling, resource allocation and yield forecasting."
     },
     {
       "id": 2,
@@ -45,7 +45,7 @@
     {
       "id": 3,
       "question": "What kind of reporting features are available?",
-      "answer": "The system offers extensive reporting capabilities including financial reports, yield analysis, resource utilization, and custom report generation."
+      "answer": "The system offers extensive reporting capabilities including financial reports, yield analysis, resource utilization and custom report generation."
     }
   ],
   "industry": "Agriculture",
@@ -68,4 +68,4 @@
     "spanTitle": "Agriculture Solutions Brochure",
     "buttonText": "Download Now"
   }
-}
+} 

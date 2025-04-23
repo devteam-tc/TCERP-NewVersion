@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/jewellery_banner_img.webp",
+  "banner": "/images/industries/jewellery_banner_img.webp",
   "title": "Jewellery Industry Solutions",
-  "description": "Advanced ERP solutions tailored for jewellery manufacturers, ensuring precise precious metal tracking, design management, and production control while maintaining quality and security standards.",
+  "description": "Advanced ERP solutions tailored for jewellery manufacturers, ensuring precise precious metal tracking, design management and production control while maintaining quality and security standards.",
   "keyPoints": [
     "Precious Metal Inventory",
     "Design & CAD Management",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system manage precious metal inventory?",
-      "answer": "Our system provides precise tracking of precious metals with weight management, purity tracking, wastage control, and complete audit trail from raw material to finished product."
+      "answer": "Our system provides precise tracking of precious metals with weight management, purity tracking, wastage control and complete audit trail from raw material to finished product."
     },
     {
       "id": 2,
       "question": "What design management features are included?",
-      "answer": "The system includes comprehensive design management with CAD integration, 3D model storage, version control, and detailed specifications for each design variant."
+      "answer": "The system includes comprehensive design management with CAD integration, 3D model storage, version control and detailed specifications for each design variant."
     },
     {
       "id": 3,
       "question": "Can it handle stone inventory and grading?",
-      "answer": "Yes, our solution manages detailed stone inventory with grading specifications, certification tracking, and stone setting management for various jewellery types."
+      "answer": "Yes, our solution manages detailed stone inventory with grading specifications, certification tracking and stone setting management for various jewellery types."
     }
   ],
   "industry": "Jewellery",

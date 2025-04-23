@@ -17,4 +17,4 @@ Object.entries(industryData).forEach(([industry, data]) => {
     console.log(`Created ${filePath}`);
 });
 
-console.log('Industry data split complete!'); 
+console.log('Industry data split complete!');

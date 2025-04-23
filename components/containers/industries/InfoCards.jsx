@@ -5,21 +5,22 @@ const InfoCards = ({ infoCards }) => (
     {infoCards?.map((card, index) => (
       <div key={index} className="col-lg-6 col-md-6">
         <div className="info-card h-100">
-          {card.image && (
-            <div className="icon mb-4">
-              <Image 
-                src={card.image} 
-                alt={`${card.title} icon`}
-                width={100}
-                height={100}
-                style={{
-                  width: '100%',
-                  height: 'auto',
-                  objectFit: 'contain'
-                }}
-              />
-            </div>
-          )}
+          <div className="icon mb-4">
+            <Image 
+              src={card.image || '/images/industries/default-card-image.png'} 
+              alt={`${card.title || 'Info Card'} icon`}
+              width={100}
+              height={100}
+              style={{
+                width: '100%',
+                height: 'auto',
+                objectFit: 'contain'
+              }}
+              onError={(e) => {
+                e.currentTarget.src = '/images/industries/default-card-image.png'
+              }}
+            />
+          </div>
           <h4 className="title mb-3">{card.title}</h4>
           {card.description && (
             <p className="mb-4">{card.description}</p>

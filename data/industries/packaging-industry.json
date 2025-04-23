@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/packaging_banner_img.webp",
+  "banner": "/images/industries/packaging_banner_img.webp",
   "title": "Packaging Industry Solutions",
-  "description": "Advanced ERP solutions tailored for packaging manufacturers, optimizing production processes, material management, and quality control while promoting sustainable packaging solutions and operational efficiency.",
+  "description": "Advanced ERP solutions tailored for packaging manufacturers, optimizing production processes, material management and quality control while promoting sustainable packaging solutions and operational efficiency.",
   "keyPoints": [
     "Production Process Control",
     "Material Resource Planning",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system handle production planning?",
-      "answer": "Our system provides comprehensive production planning with material requirements planning, machine scheduling, capacity optimization, and real-time production monitoring for efficient packaging operations."
+      "answer": "Our system provides comprehensive production planning with material requirements planning, machine scheduling, capacity optimization and real-time production monitoring for efficient packaging operations."
     },
     {
       "id": 2,
       "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality control features with specification management, testing protocols, compliance tracking, and detailed quality reporting for various packaging materials and products."
+      "answer": "The system includes advanced quality control features with specification management, testing protocols, compliance tracking and detailed quality reporting for various packaging materials and products."
     },
     {
       "id": 3,
       "question": "Can it manage sustainable packaging initiatives?",
-      "answer": "Yes, our solution supports sustainable packaging initiatives with material tracking, recycled content management, waste reduction monitoring, and environmental impact assessment tools."
+      "answer": "Yes, our solution supports sustainable packaging initiatives with material tracking, recycled content management, waste reduction monitoring and environmental impact assessment tools."
     }
   ],
   "industry": "Packaging",

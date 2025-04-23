@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/publishing_banner_img.webp",
+  "banner": "/images/industries/publishing_banner_img.webp",
   "title": "Publishing Industry Solutions",
-  "description": "Advanced ERP solutions tailored for publishing companies, optimizing content management, digital publishing workflows, and distribution processes while ensuring efficient rights management and royalty tracking.",
+  "description": "Advanced ERP solutions tailored for publishing companies, optimizing content management, digital publishing workflows and distribution processes while ensuring efficient rights management and royalty tracking.",
   "keyPoints": [
     "Content Management System",
     "Digital Publishing Workflow",
@@ -35,12 +35,12 @@
     {
       "id": 1,
       "question": "How does the system manage content workflow?",
-      "answer": "Our system provides comprehensive content management with manuscript tracking, editorial workflow automation, version control, and collaborative tools for authors, editors, and reviewers."
+      "answer": "Our system provides comprehensive content management with manuscript tracking, editorial workflow automation, version control and collaborative tools for authors, editors, and reviewers."
     },
     {
       "id": 2,
       "question": "What digital publishing features are included?",
-      "answer": "The system includes advanced digital publishing capabilities with multi-format output (print, ebook, web), automated formatting, digital rights management, and distribution channel integration."
+      "answer": "The system includes advanced digital publishing capabilities with multi-format output (print, ebook, web), automated formatting, digital rights management and distribution channel integration."
     },
     {
       "id": 3,

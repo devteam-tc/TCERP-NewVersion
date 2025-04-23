@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/food_banner_img.webp",
+  "banner": "/images/industries/food_banner_img.webp",
   "title": "Food Industry Solutions",
-  "description": "Advanced ERP solutions designed for food manufacturers, ensuring food safety compliance, quality control, and efficient production while optimizing supply chain and inventory management.",
+  "description": "Advanced ERP solutions designed for food manufacturers, ensuring food safety compliance, quality control and efficient production while optimizing supply chain and inventory management.",
   "keyPoints": [
     "Food Safety & Compliance",
     "Recipe & Batch Management",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system ensure food safety compliance?",
-      "answer": "Our system provides comprehensive food safety management including HACCP compliance, allergen control, quality testing workflows, and complete traceability from raw materials to finished products."
+      "answer": "Our system provides comprehensive food safety management including HACCP compliance, allergen control, quality testing workflows and complete traceability from raw materials to finished products."
     },
     {
       "id": 2,
       "question": "What traceability features are included?",
-      "answer": "The system offers end-to-end traceability with lot tracking, supplier management, and recall capabilities, ensuring compliance with food safety regulations and quick response to quality issues."
+      "answer": "The system offers end-to-end traceability with lot tracking, supplier management and recall capabilities, ensuring compliance with food safety regulations and quick response to quality issues."
     },
     {
       "id": 3,
       "question": "Can it handle recipe and nutritional management?",
-      "answer": "Yes, our solution includes detailed recipe management with version control, nutritional analysis, allergen tracking, and scaling capabilities while protecting proprietary formulations."
+      "answer": "Yes, our solution includes detailed recipe management with version control, nutritional analysis, allergen tracking and scaling capabilities while protecting proprietary formulations."
     }
   ],
   "industry": "Food",

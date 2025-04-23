@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/hydraulic_banner_img.webp",
+  "banner": "/images/industries/hydraulic_banner_img.webp",
   "title": "Hydraulic Cylinders Industry Solutions",
-  "description": "Specialized ERP solutions designed for hydraulic cylinder manufacturers, ensuring precision production, quality control, and efficient inventory management while maintaining industry standards and specifications.",
+  "description": "Specialized ERP solutions designed for hydraulic cylinder manufacturers, ensuring precision production, quality control and efficient inventory management while maintaining industry standards and specifications.",
   "keyPoints": [
     "Precision Manufacturing Control",
     "Technical Specifications Management",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system handle technical specifications?",
-      "answer": "Our system manages detailed technical specifications including pressure ratings, stroke lengths, bore sizes, and material specifications with version control and engineering change management."
+      "answer": "Our system manages detailed technical specifications including pressure ratings, stroke lengths, bore sizes and material specifications with version control and engineering change management."
     },
     {
       "id": 2,
       "question": "What quality control features are included?",
-      "answer": "The system includes comprehensive testing protocols, pressure testing documentation, material certification tracking, and quality inspection workflows with detailed reporting."
+      "answer": "The system includes comprehensive testing protocols, pressure testing documentation, material certification tracking and quality inspection workflows with detailed reporting."
     },
     {
       "id": 3,
       "question": "Can it manage custom cylinder designs?",
-      "answer": "Yes, our solution handles custom cylinder designs with specification management, BOM generation, cost calculation, and production planning for specialized requirements."
+      "answer": "Yes, our solution handles custom cylinder designs with specification management, BOM generation, cost calculation and production planning for specialized requirements."
     }
   ],
   "industry": "Hydraulic Cylinders",

@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/electronics_banner_img.webp",
+  "banner": "/images/industries/electronics_banner_img.webp",
   "title": "Electronics Industry Solutions",
-  "description": "Advanced ERP solutions designed for electronics manufacturers, optimizing production processes, component management, and quality control while ensuring compliance with industry standards.",
+  "description": "Advanced ERP solutions designed for electronics manufacturers, optimizing production processes, component management and quality control while ensuring compliance with industry standards.",
   "keyPoints": [
     "PCB Assembly Management",
     "Component Inventory Control",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system manage component inventory?",
-      "answer": "Our system provides real-time component tracking, automated reordering, supplier management, and detailed inventory analytics with minimum stock level alerts."
+      "answer": "Our system provides real-time component tracking, automated reordering, supplier management and detailed inventory analytics with minimum stock level alerts."
     },
     {
       "id": 2,
       "question": "What quality control features are included?",
-      "answer": "The system includes comprehensive quality control features with automated testing integration, defect tracking, root cause analysis, and statistical process control."
+      "answer": "The system includes comprehensive quality control features with automated testing integration, defect tracking, root cause analysis and statistical process control."
     },
     {
       "id": 3,
       "question": "Can it handle complex BOMs?",
-      "answer": "Yes, our solution manages multi-level Bills of Materials with version control, component substitution, and cost tracking capabilities."
+      "answer": "Yes, our solution manages multi-level Bills of Materials with version control, component substitution and cost tracking capabilities."
     }
   ],
   "industry": "Electronics",
