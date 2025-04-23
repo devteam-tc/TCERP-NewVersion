@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/preengineering_banner_img.webp",
+  "title": "Pre-engineering Industry Solutions",
+  "description": "Advanced ERP solutions tailored for pre-engineered building manufacturers, optimizing structural design, fabrication planning and project management while ensuring quality and efficiency in construction.",
+  "keyPoints": [
+    "Structural Design Management",
+    "Project Planning & Control",
+    "Material Requirements Planning",
+    "Quality & Standards Compliance",
+    "Installation Coordination"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/preengineering-design.png",
+      "title": "Design & Planning",
+      "description": "Comprehensive structural design and project planning system.",
+      "list": [
+        "Design Management",
+        "Project Scheduling",
+        "Resource Planning"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/preengineering-fabrication.png",
+      "title": "Fabrication Control",
+      "description": "Advanced fabrication and quality management system.",
+      "list": [
+        "Production Control",
+        "Quality Inspection",
+        "Assembly Management"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle structural design?",
+      "answer": "Our system provides comprehensive structural design management including CAD integration, load calculations, material specifications and automated drawing generation with revision control."
+    },
+    {
+      "id": 2,
+      "question": "What project management features are included?",
+      "answer": "The system includes advanced project planning with scheduling, resource allocation, progress tracking, cost monitoring and coordination tools for installation teams."
+    },
+    {
+      "id": 3,
+      "question": "Can it manage material requirements?",
+      "answer": "Yes, our solution handles material planning with detailed estimation, inventory management, procurement scheduling and waste optimization for steel and other construction materials."
+    }
+  ],
+  "industry": "Pre-engineering",
+  "solution": "Integrated Pre-engineering Management System",
+  "modules": [
+    "Design Management",
+    "Project Control",
+    "Material Planning",
+    "Quality Assurance",
+    "Installation Management"
+  ],
+  "result": [
+    "45% faster project completion",
+    "40% reduction in material waste",
+    "35% better design accuracy"
+  ],
+  "customers": "250+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Pre-engineering Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}

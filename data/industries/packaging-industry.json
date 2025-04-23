@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/packaging_banner_img.webp",
+  "title": "Packaging Industry Solutions",
+  "description": "Advanced ERP solutions tailored for packaging manufacturers, optimizing production processes, material management and quality control while promoting sustainable packaging solutions and operational efficiency.",
+  "keyPoints": [
+    "Production Process Control",
+    "Material Resource Planning",
+    "Quality Assurance",
+    "Sustainable Packaging",
+    "Inventory Optimization"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/packaging-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive packaging production and process control system.",
+      "list": [
+        "Process Automation",
+        "Production Scheduling",
+        "Material Planning"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/packaging-quality.png",
+      "title": "Quality Control",
+      "description": "Advanced quality management system for packaging manufacturing.",
+      "list": [
+        "Quality Testing",
+        "Specification Control",
+        "Compliance Tracking"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle production planning?",
+      "answer": "Our system provides comprehensive production planning with material requirements planning, machine scheduling, capacity optimization and real-time production monitoring for efficient packaging operations."
+    },
+    {
+      "id": 2,
+      "question": "What quality control features are included?",
+      "answer": "The system includes advanced quality control features with specification management, testing protocols, compliance tracking and detailed quality reporting for various packaging materials and products."
+    },
+    {
+      "id": 3,
+      "question": "Can it manage sustainable packaging initiatives?",
+      "answer": "Yes, our solution supports sustainable packaging initiatives with material tracking, recycled content management, waste reduction monitoring and environmental impact assessment tools."
+    }
+  ],
+  "industry": "Packaging",
+  "solution": "Integrated Packaging Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Material Planning",
+    "Inventory Control",
+    "Sustainability Tracking"
+  ],
+  "result": [
+    "40% improvement in production efficiency",
+    "45% reduction in material waste",
+    "35% better quality compliance"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Packaging Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}

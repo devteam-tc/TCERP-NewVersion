@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/retail_banner_img.webp",
+  "title": "Retail Industry Solutions",
+  "description": "Advanced ERP solutions tailored for retail businesses, optimizing inventory management, point of sale operations and customer engagement while ensuring seamless omnichannel experience and efficient supply chain operations.",
+  "keyPoints": [
+    "Inventory Management",
+    "POS & Payment Processing",
+    "Customer Relationship Management",
+    "Multi-Store Operations",
+    "E-commerce Integration"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/retail-operations.png",
+      "title": "Store Operations",
+      "description": "Comprehensive retail operations and POS management system.",
+      "list": [
+        "Sales Processing",
+        "Inventory Control",
+        "Store Management"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/retail-customer.png",
+      "title": "Customer Management",
+      "description": "Advanced customer relationship and loyalty management system.",
+      "list": [
+        "Loyalty Programs",
+        "Customer Analytics",
+        "Marketing Tools"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle multi-store operations?",
+      "answer": "Our system provides comprehensive multi-store management including centralized inventory control, inter-store transfers, consolidated reporting and real-time synchronization across all locations."
+    },
+    {
+      "id": 2,
+      "question": "What POS and payment features are included?",
+      "answer": "The system includes advanced POS functionality with multiple payment methods, split payments, returns processing, gift cards and integrated payment security compliance."
+    },
+    {
+      "id": 3,
+      "question": "Can it manage e-commerce integration?",
+      "answer": "Yes, our solution provides seamless e-commerce integration with real-time inventory sync, unified customer profiles, omnichannel order fulfillment and integrated loyalty programs."
+    }
+  ],
+  "industry": "Retail",
+  "solution": "Integrated Retail Management System",
+  "modules": [
+    "Store Operations",
+    "Inventory Management",
+    "Customer Relations",
+    "E-commerce Integration",
+    "Analytics Dashboard"
+  ],
+  "result": [
+    "45% improvement in inventory accuracy",
+    "40% increase in customer retention",
+    "35% faster order processing"
+  ],
+  "customers": "1000+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Retail Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}

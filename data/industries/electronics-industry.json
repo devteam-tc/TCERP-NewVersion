@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/electronics_banner_img.webp",
+  "title": "Electronics Industry Solutions",
+  "description": "Advanced ERP solutions designed for electronics manufacturers, optimizing production processes, component management and quality control while ensuring compliance with industry standards.",
+  "keyPoints": [
+    "PCB Assembly Management",
+    "Component Inventory Control",
+    "Quality Testing & Inspection",
+    "BOM Management",
+    "Production Line Automation"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/electronics-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive electronics manufacturing and assembly management system.",
+      "list": [
+        "Assembly Line Control",
+        "Process Automation",
+        "Yield Optimization"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/electronics-quality.png",
+      "title": "Quality Control",
+      "description": "Advanced quality assurance and testing management system.",
+      "list": [
+        "Automated Testing",
+        "Defect Tracking",
+        "Quality Metrics"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage component inventory?",
+      "answer": "Our system provides real-time component tracking, automated reordering, supplier management and detailed inventory analytics with minimum stock level alerts."
+    },
+    {
+      "id": 2,
+      "question": "What quality control features are included?",
+      "answer": "The system includes comprehensive quality control features with automated testing integration, defect tracking, root cause analysis and statistical process control."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle complex BOMs?",
+      "answer": "Yes, our solution manages multi-level Bills of Materials with version control, component substitution and cost tracking capabilities."
+    }
+  ],
+  "industry": "Electronics",
+  "solution": "Integrated Electronics Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Inventory Management",
+    "Quality Assurance",
+    "BOM Management",
+    "Process Automation"
+  ],
+  "result": [
+    "40% increase in production efficiency",
+    "45% reduction in component stockouts",
+    "35% improvement in quality yield"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Electronics Manufacturing Guide",
+    "buttonText": "Download Now"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/solar_banner_img.webp",
+  "title": "Solar Industry Solutions",
+  "description": "Advanced ERP solutions tailored for solar energy companies, optimizing installation projects, monitoring system performance and managing renewable energy operations.",
+  "keyPoints": [
+    "Solar Project Management",
+    "Installation Tracking",
+    "Performance Monitoring",
+    "Maintenance Planning",
+    "Energy Production Analytics"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/solar-project.png",
+      "title": "Project Management",
+      "description": "Comprehensive solar project lifecycle management from site assessment to installation.",
+      "list": [
+        "Site Assessment",
+        "Installation Planning",
+        "Resource Scheduling"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/solar-monitoring.png",
+      "title": "System Monitoring",
+      "description": "Real-time monitoring and analytics for solar power systems.",
+      "list": [
+        "Performance Tracking",
+        "Energy Analytics",
+        "Maintenance Alerts"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle project planning?",
+      "answer": "Our system provides end-to-end project management including site surveys, design planning, installation scheduling and resource allocation with real-time progress tracking."
+    },
+    {
+      "id": 2,
+      "question": "What monitoring capabilities are included?",
+      "answer": "The system includes comprehensive monitoring features with real-time performance tracking, energy production analytics and predictive maintenance alerts."
+    },
+    {
+      "id": 3,
+      "question": "Can it manage multiple installation teams?",
+      "answer": "Yes, the system supports multiple installation teams with resource scheduling, skill tracking and mobile app support for field operations."
+    }
+  ],
+  "industry": "Solar Energy",
+  "solution": "Integrated Solar Management System",
+  "modules": [
+    "Project Planning",
+    "Installation Management",
+    "Performance Monitoring",
+    "Maintenance Control",
+    "Analytics Dashboard"
+  ],
+  "result": [
+    "40% faster project completion",
+    "35% improvement in system efficiency",
+    "45% reduction in maintenance costs"
+  ],
+  "customers": "200+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Solar Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}

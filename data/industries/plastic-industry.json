@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/plastic_banner_img.webp",
+  "title": "Plastic Industry Solutions",
+  "description": "Advanced ERP solutions tailored for plastic manufacturers, optimizing polymer processing, production control and quality management while promoting sustainable practices and operational efficiency.",
+  "keyPoints": [
+    "Polymer Processing Control",
+    "Mold Management",
+    "Quality Assurance",
+    "Recycling Operations",
+    "Production Optimization"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/plastic-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive plastic manufacturing and process control system.",
+      "list": [
+        "Process Control",
+        "Injection Molding",
+        "Material Planning"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/plastic-quality.png",
+      "title": "Quality Control",
+      "description": "Advanced quality management system for plastic manufacturing.",
+      "list": [
+        "Quality Testing",
+        "Process Monitoring",
+        "Material Certification"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage polymer processing?",
+      "answer": "Our system provides comprehensive polymer processing management including material formulation, temperature control, pressure monitoring and cycle time optimization for various plastic products."
+    },
+    {
+      "id": 2,
+      "question": "What quality control features are included?",
+      "answer": "The system includes advanced quality control with material testing, dimensional verification, visual inspection tracking and detailed quality reporting for different plastic products and processes."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle recycling operations?",
+      "answer": "Yes, our solution manages recycling operations with material segregation tracking, regrind management, quality control for recycled materials and sustainability reporting capabilities."
+    }
+  ],
+  "industry": "Plastic Manufacturing",
+  "solution": "Integrated Plastic Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Mold Management",
+    "Material Planning",
+    "Recycling Control"
+  ],
+  "result": [
+    "45% improvement in production efficiency",
+    "40% reduction in material waste",
+    "35% better quality compliance"
+  ],
+  "customers": "350+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Plastic Manufacturing Guide",
+    "buttonText": "Download Now"
+  }
+}

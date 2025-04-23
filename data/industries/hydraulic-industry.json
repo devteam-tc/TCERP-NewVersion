@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/hydraulic_banner_img.webp",
+  "title": "Hydraulic Cylinders Industry Solutions",
+  "description": "Specialized ERP solutions designed for hydraulic cylinder manufacturers, ensuring precision production, quality control and efficient inventory management while maintaining industry standards and specifications.",
+  "keyPoints": [
+    "Precision Manufacturing Control",
+    "Technical Specifications Management",
+    "Quality Testing & Certification",
+    "Component Inventory Control",
+    "Custom Design Management"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/hydraulic-production.png",
+      "title": "Production Management",
+      "description": "Advanced production control system for precision hydraulic cylinder manufacturing.",
+      "list": [
+        "Process Control",
+        "Precision Tracking",
+        "Assembly Management"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/hydraulic-quality.png",
+      "title": "Quality Assurance",
+      "description": "Comprehensive quality control system for hydraulic components.",
+      "list": [
+        "Testing Protocols",
+        "Certification Management",
+        "Performance Validation"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle technical specifications?",
+      "answer": "Our system manages detailed technical specifications including pressure ratings, stroke lengths, bore sizes and material specifications with version control and engineering change management."
+    },
+    {
+      "id": 2,
+      "question": "What quality control features are included?",
+      "answer": "The system includes comprehensive testing protocols, pressure testing documentation, material certification tracking and quality inspection workflows with detailed reporting."
+    },
+    {
+      "id": 3,
+      "question": "Can it manage custom cylinder designs?",
+      "answer": "Yes, our solution handles custom cylinder designs with specification management, BOM generation, cost calculation and production planning for specialized requirements."
+    }
+  ],
+  "industry": "Hydraulic Cylinders",
+  "solution": "Integrated Hydraulic Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Technical Documentation",
+    "Inventory Control",
+    "Engineering Change Management"
+  ],
+  "result": [
+    "45% improvement in production accuracy",
+    "40% reduction in quality issues",
+    "35% faster design-to-production time"
+  ],
+  "customers": "200+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Hydraulic Manufacturing Guide",
+    "buttonText": "Download Now"
+  }
+}
