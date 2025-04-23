@@ -20,7 +20,7 @@ const industriesMenu = {
       ],
     },
     {
-      heading: "FMCG to Metal FNabrication Industry",
+      heading: "FMCG to Metal Fabrication Industry",
       submenu: [
         { label: "FMCG Industry", href: "/industries/fmcg-industry" },
         { label: "Food Industry", href: "/industries/food-industry" },

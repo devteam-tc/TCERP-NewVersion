@@ -5,10 +5,10 @@ import { useParams } from 'next/navigation';
 import { Container } from 'react-bootstrap';
 import { productData, productDetailsData } from '../../utils/constant';
 
-import PageHeader from "@/components/layout/PageHeader";
+import PageHeader from "../../../components/layout/PageHeader";
 import Footer from '../../../components/layout/footer/Footer';
-import Header from '@/components/layout/header/Header';
-import CustomCursor from '@/components/layout/CustomCursor';
+import Header from '../../../components/layout/header/Header';
+import CustomCursor from '../../../components/layout/CustomCursor';
 import SidebarSection from '../SidebarSection';
 import MainContentSection from '../MainContentSection';
 import ProductCards from '../ProductCards';

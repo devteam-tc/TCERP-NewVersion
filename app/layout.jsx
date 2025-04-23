@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "@/public/icons/css/all.min.css";
 import "yet-another-react-lightbox/styles.css";
-import "@/public/sass/main.scss";
+import "../public/sass/main.scss";
 import 'animate.css';
 import InitAnimations from '@/components/containers/InitAnimations';
 import LayoutWrapper from './LayoutWrapper';
