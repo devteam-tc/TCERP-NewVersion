@@ -1,10 +1,10 @@
 // team images
-import teamImg1 from '@/public/images/team/team-img-1.png';
+import teamImg1 from '../public/images/team/team-img-1.png';
 // team two images
-import team2Img1 from '@/public/images/team/team-2-img1.png';
-import team2Img2 from '@/public/images/team/team-2-img2.png';
-import team2Img3 from '@/public/images/team/team-2-img3.png';
-import team2Img4 from '@/public/images/team/team-2-img4.png';
+import team2Img1 from '../public/images/team/team-2-img1.png';
+import team2Img2 from '../public/images/team/team-2-img2.png';
+import team2Img3 from '../public/images/team/team-2-img3.png';
+import team2Img4 from '../public/images/team/team-2-img4.png';
 
 export const teams = [{
     id: 1,

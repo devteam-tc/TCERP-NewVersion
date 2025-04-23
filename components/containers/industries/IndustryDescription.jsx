@@ -1,5 +1,5 @@
 import Image from "next/image";
-import arrowIcon from '@/public/images/icons/icon-right-arrow.svg';
+import arrowIcon from '../../../public/images/icons/icon-right-arrow.svg';
 const ProjectDescription = ({ title, description, keyPoints }) => (
   <div>
     <h3 className="title split-text right">{title}</h3>

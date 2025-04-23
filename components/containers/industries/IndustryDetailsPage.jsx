@@ -1,3 +1,5 @@
+'use client';
+
 import { useState, useEffect } from "react";
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import ProjectBanner from "./IndustryBanner";

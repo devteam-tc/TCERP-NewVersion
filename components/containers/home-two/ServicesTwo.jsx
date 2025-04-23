@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import SectionTitle from "../SectionTitle";
 import Link from "next/link";
-import { servicesTwo } from "@/data/services";
+import { servicesTwo } from "../../../data/services";
 import Image from "next/image";
 
 const ServicesTwo = () => {

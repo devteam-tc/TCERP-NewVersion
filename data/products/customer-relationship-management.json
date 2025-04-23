@@ -1,0 +1,96 @@
+{
+    "mainTitle": "Our CRM Solutions Overview",
+    "cards": [
+      {
+        "image": "/products/CRM/contact.png",
+        "title": "Contact Management",
+        "text": "Streamline contact organization, lead creation and imports for effective client communication and marketing campaigns, improving efficiency by reducing duplication.",
+        "items": [
+          "Organize and import contacts for smooth communication.",
+          "Create and manage leads to enhance marketing.",
+          "Duplicate contact details to save time and boost efficiency."
+        ]
+      },
+      {
+        "image": "/products/CRM/target customers.png",
+        "title": "Target Customers",
+        "text": "Segment customers using contact database info to craft targeted marketing campaigns, enhancing product/service appeal to your ideal audience.",
+        "items": [
+          "Segment customers for personalized marketing campaigns.",
+          "Enhance product and service appeal to your target audience.",
+          "Leverage contact database insights to drive engagement."
+        ]
+      },
+      {
+        "image": "/products/CRM/organise.png",
+        "title": "Organise Meetings",
+        "text": "Streamline meeting scheduling and management to enhance productivity and communication with your team and clients.",
+        "items": [
+          "Schedule meetings and send invites effortlessly.",
+          "Track meeting notes for efficient follow-up.",
+          "Set meeting durations and reminders for better organization."
+        ]
+      },
+      {
+        "image": "/products/CRM/manage.png",
+        "title": "Manage Opportunities",
+        "text": "Track potential sales and boost your bottom line by managing opportunities, recording expected revenue and close dates to generate precise sales pipeline reports.",
+        "items": [
+          "Track opportunities by expected revenue and close dates.",
+          "Generate accurate sales pipeline reports for better forecasting.",
+          "Combine emails, calls, tasks and documents to drive action."
+        ]
+      },
+      {
+        "image": "/products/CRM/Streamline workflow.png",
+        "title": "Streamline Workflow",
+        "text": "Generate leads from referrals, emails and webinars. Assign tasks, quotes and calls to sales teams for quick follow-up and faster deal closures.",
+        "items": [
+          "Capture leads through referrals, email and webinars.",
+          "Assign tasks and quotes to sales for efficient follow-up.",
+          "Streamline workflow to close deals faster."
+        ]
+      },
+      {
+        "image": "/products/CRM/Invoicing & Order Management.png",
+        "title": "Invoicing & Order Management",
+        "text": "Quickly create quotes from won opportunities and convert them into orders with our CRM, streamlining sales for a competitive edge.",
+        "items": [
+          "Generate quotes from won opportunities with ease.",
+          "Convert quotes into orders upon client confirmation.",
+          "Streamline sales processes for better efficiency."
+        ]
+      },
+      {
+        "image": "/products/CRM/Case Management.png",
+        "title": "Case Management",
+        "text": "Efficiently manage and resolve customer issues with our CRM to improve satisfaction and loyalty. Prioritize tasks for timely resolution.",
+        "items": [
+          "Track and resolve customer issues to improve satisfaction.",
+          "Prioritize and delegate tasks for quick issue resolution.",
+          "Enhance service efficiency with streamlined case management."
+        ]
+      },
+      {
+        "image": "/products/CRM/projectmanage.png",
+        "title": "Project Management",
+        "text": "Easily manage projects with our CRM by creating tasks and integrating documents. Optimize timelines with effective allocation of hours and days.",
+        "items": [
+          "Create tasks and integrate documents for smooth management.",
+          "Optimize timelines by allocating hours and days efficiently.",
+          "Streamline workflows for better project execution."
+        ]
+      },
+      {
+        "image": "/products/CRM/email marketing.png",
+        "title": "Email Marketing",
+        "text": "Leverage our CRM for targeted campaigns to promote new products and services, engaging customers with personalized content.",
+        "items": [
+          "Launch targeted campaigns for new products and services.",
+          "Engage customers with relevant, personalized content.",
+          "Prioritize high-value customers to boost sales."
+        ]
+      }
+    ]
+  }
+  

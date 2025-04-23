@@ -1,15 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "@/public/icons/css/all.min.css";
+import "../public/icons/css/all.min.css";
 import "yet-another-react-lightbox/styles.css";
 import "../public/sass/main.scss";
 import 'animate.css';
-import InitAnimations from '@/components/containers/InitAnimations';
+import InitAnimations from '../components/containers/InitAnimations';
 import LayoutWrapper from './LayoutWrapper';
 import Script from 'next/script';
 
 export const metadata = {
-  title: "Netwise – IT Solutions & Technology NextJs Template",
-  description: "Netwise – IT Solutions & Technology NextJs Template",
+  // title: "Netwise – IT Solutions & Technology NextJs Template",
+  // description: "Netwise – IT Solutions & Technology NextJs Template",
   keywords: [
     "business solutions",
     "consulting",

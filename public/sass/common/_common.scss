@@ -1,10 +1,4 @@
-/*
-  Theme Name: Netwise - Netwise – IT Solutions & Technology NextJs Template
-  Support: ronee.bu@gmail.com
-  Description: Netwise - Netwise – IT Solutions & Technology NextJs Template
-  Version: 1.0
-*/
-
+ 
 /* CSS Index
 ============================
 
@@ -84,8 +78,11 @@
   // --bs-background-color: #F1F6FC;
   --bs-background-color: #fff;
   --bg-page-header-bg: #FFFCF3;
+  --Dark-Color:#0B0A0A;
+  --Light-Color:#FAFAFA;
   --bs-white-color: #ffffff;
-  --bs-black-color: #020842;
+  --bs-black-color: #0B0A0A;
+  // --bs-black-color: #020842;
   --bs-black-color2: #0F144B;
   --bs-border-color: #CCCCCC;
   --bs-paragraph-color: #49515B;
@@ -280,7 +277,7 @@ p {
   }
 
   .section-title {
-    color: var(--bs-black-color);
+    color: var(--Dark-Color);
     font-size: 50px;
     font-weight: 700;
     line-height: 55px;
@@ -370,7 +367,7 @@ p {
 
 /* Heading style */
 .heading-style1 {
-  color: var(--bs-black-color);
+  color: var( --Dark-Color);
   font-size: 62px;
   font-weight: 700;
   line-height: 65px;
@@ -802,7 +799,33 @@ p {
     height: 120px;
   }
 }
+.form-control {
+ display: block;
+    width: 100% !important;
+    padding: .375rem .75rem;
+    border-radius: 5px !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    // border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 
+  // &:focus {
+  //   z-index: 1;
+  //   border-color: var(--bs-primary-color);
+  // }
+
+  // &::placeholder {
+  //   color: var(--bs-paragraph-color);
+  // }
+}
 @media (max-width:557.98px) {
   .section-title-block .section-title {
     font-size: 32px;
@@ -948,6 +971,16 @@ p {
     img {
       width: 100%;
       border-radius: 10px;
+      height: auto; 
+
+      @media (max-width: 992px) {
+        height: auto;
+        object-fit: cover;
+        width: 100%;
+        border-radius: 8px;
+      }
+
+   
     }
   }
 
@@ -1138,10 +1171,10 @@ p {
     display: block;
     font-size: 48px;
     line-height: 53px;
-
-    span {
-      // Add styles if needed
-    }
+    @media only screen and (max-width: 992px){
+      font-size: 30px;
+      line-height: 40px;
+  }
   }
 
   &.light h2 {
@@ -1235,7 +1268,7 @@ p {
   font-size: 2.25rem;
   font-weight: 700;
   margin: 40px 0 30px;
-  color: #333;
+  color: #000;
 }
 .cardContainer {
   padding: 30px;
@@ -1308,53 +1341,8 @@ p {
   }
 }
 
-.auditSection {
-  background: url('/audit.png') no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 160px 0;
-
-  .section-title {
-    .sub-badge {
-      color: #ff6600; 
-    }
-
-    h2 {
-      font-size: 2.5rem;
-    }
-
-    .pra {
-      font-size: 1rem;
-      color: #333;
-    }
-
-    ul {
-      li {
-        font-size: 0.95rem;
-      }
-
-      i {
-        color: #00b894;
-      }
-      
-    }
-  }
-  @media (max-width: 992px) {
-    background-position: 100% ;
-    // background: url('/mobile.png') no-repeat center center;
-  }
-}
 
 
-
-.animatedText {
-  display: inline-block;
-
-  div {
-    display: inline-block;
-    animation: fadeInUp 0.3s ease-in-out;
-  }
-}
 
 @keyframes fadeInUp {
   from {

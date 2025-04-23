@@ -1,258 +1,162 @@
 "use client";
-import { useState, useEffect, useRef } from 'react';
-import SimpleReactValidator from 'simple-react-validator';
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import React, { useState , useEffect, useRef } from "react";  
+import { Formik, Field, Form as FormikForm, ErrorMessage, FormikHelpers } from "formik";
+import * as Yup from "yup";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Form, Button, Col, Row , Container } from 'react-bootstrap';
+import { db } from '../../../firebaseConfig';
+import { collection, addDoc } from 'firebase/firestore';
+import emailjs from '@emailjs/browser';
+import {  doc, getDoc} from "firebase/firestore";
+import LocationCard from "./LocationCard";
+import MapMarkers from "./MapMarkers";
 
-const ContactPage = () => {
-  const [forms, setForms] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    phone: '',
-    message: ''
+
+
+
+const ContactForm = () => {
+
+  const validationSchema = Yup.object().shape({
+    name: Yup.string().required('Name is required'),
+    email: Yup.string().email('Invalid email').required('Email is required'),
+    phone: Yup.string().required('Phone number is required'),
+    message: Yup.string().required('Message is required'),
+    companyName: Yup.string().nullable(),
   });
   
-  const [validator] = useState(new SimpleReactValidator({
-    className: 'errorMessage'
-  }));
-  
-  const mapRef = useRef(null);
 
-  useEffect(() => {
-    const loadGoogleMaps = () => {
-      const script = document.createElement("script");
-      script.src =
-        "https://maps.googleapis.com/maps/api/js?key=AIzaSyAxMtzzipvLVRrXSqtoaVCFy2Ywm9X5Tko&callback=initMap";
-      script.async = true;
-      script.defer = true;
-      document.body.appendChild(script);
-      window.initMap = initMap;
+ 
+   
+  
+
+
+    const fetchEmailKeys = async () => {
+      const docRef = doc(db, "emailConfig", "emailKeys");
+      const docSnap = await getDoc(docRef);
+      if (docSnap.exists()) {
+        const { service_id, template_id, public_key } = docSnap.data();
+        return { service_id, template_id, public_key };
+      } else {
+        throw new Error("No email configuration found!");
+      }
     };
 
-    if (!window.google) {
-      loadGoogleMaps();
-    } else {
-      initMap();
-    }
-
-    function initMap() {
-      const locations = [
-        { lat: 17.447342, lng: 78.386427, name: "Hyderabad, Telangana" },
-        { lat: 11.023765, lng: 77.005325, name: "Coimbatore, Tamilnadu" },
-        { lat: 13.023398, lng: 80.207697, name: "Chennai, TamilNadu" },
-        { lat: 22.751765, lng: 75.896715, name: "Indore, Madhya Pradesh" },
-      ];
-
-      const map = new google.maps.Map(mapRef.current, {
-        zoom: 5,
-        center: locations[0],
-      });
-
-      locations.forEach((location) => {
-        const marker = new google.maps.Marker({
-          position: location,
-          map: map,
-          title: location.name,
+    const handleSubmit = async (values, { setSubmitting, resetForm }) => {
+      try {
+        await addDoc(collection(db, 'contactapplications'), {
+          ...values,
+          timestamp: new Date(),
         });
-
-        const infowindow = new google.maps.InfoWindow({
-          content: `<div style="color: green; font-size: 14px; font-weight: bold; padding: 5px; background: white; border-radius: 5px; text-align: center;">${location.name}</div>`,
-          disableAutoPan: true,
+    
+        resetForm();
+    
+        const structuredData = {
+          name: values.name,
+          email: values.email,
+          phone: values.phone,
+          message: values.message,
+          companyName: values.companyName,
+        };
+    
+        const { service_id, template_id, public_key } = await fetchEmailKeys();
+        const templateParams = { ...structuredData };
+        await emailjs.send(service_id, template_id, templateParams, public_key);
+    
+        toast.success('Message sent successfully!', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
         });
-
-        marker.addListener("mouseover", function () {
-          infowindow.open(map, marker);
+      } catch (error) {
+        console.error('Error submitting form:', error);
+        toast.error('Error submitting form. Please try again later.', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
         });
-
-        marker.addListener("mouseout", function () {
-          infowindow.close();
-        });
-      });
-    }
-  }, []);
-
-  const changeHandler = (e) => {
-    setForms({ ...forms, [e.target.name]: e.target.value });
-    if (validator.allValid()) {
-      validator.hideMessages();
-    } else {
-      validator.showMessages();
-    }
-  };
-
-  const submitHandler = (e) => {
-    e.preventDefault();
-    if (validator.allValid()) {
-      validator.hideMessages();
-
-      toast.success("Form submitted successfully!", {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-      });
-
-      // Clear form fields after successful submission
-      setForms({
-        name: '',
-        email: '',
-        subject: '',
-        phone: '',
-        message: ''
-      });
-    } else {
-      validator.showMessages();
-    }
-  };
-
+      } finally {
+        setSubmitting(false);
+      }
+    };
+    
   return (
-    <>
-      <section className="ep-contact-section pt-120">
-        <div className="container">
-          <div className="contact-information">
-            {/* Static Information like Phone, Email, Location */}
-            <div className="row">
-              <div className="col-lg-6 col-xl-4">
-                <div className="info-item d-flex align-items-center rounded-20 gap-4">
-                  <div className="icon section-bg rounded-pill flex-shrink-0 d-flex align-items-center justify-content-center">
-                    <i className="fa-solid fa-phone"></i>
-                  </div>
-                  <div className="text">
-                    <h4 className="title">Phone</h4>
-                    <ul className="list-unstyled">
-                      <li><a href="tel:(480)555-0103">+91 8919439603</a></li>
-                      <li><a href="tel:(505)555-0125">+91 7032082300</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6 col-xl-4">
-                <div className="info-item d-flex align-items-center rounded-20 gap-4">
-                  <div className="icon section-bg rounded-pill flex-shrink-0 d-flex align-items-center justify-content-center">
-                    <i className="fa-solid fa-envelope"></i>
-                  </div>
-                  <div className="text">
-                    <h4 className="title">Email</h4>
-                    <ul className="list-unstyled">
-                      <li><a href="mailto:info@gmail.com">info@techclouderp.com</a></li>
-                      {/* <li><a href="mailto:example@example.com">example@example.com</a></li> */}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6 col-xl-4">
-                <div className="info-item d-flex align-items-center rounded-20 gap-4">
-                  <div className="icon section-bg rounded-pill flex-shrink-0 d-flex align-items-center justify-content-center">
-                    <i className="fa-solid fa-location-dot"></i>
-                  </div>
-                  <div className="text">
-                    <h4 className="title">Location</h4>
-                    <ul className="list-unstyled">
-                      <li>Plot No. 241, 3rd Floor, VVG Elite Developers, Kavuri Hills, Madhapur, Hyderabad, Telangana - 500081</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="contact-form position-relative section-bg">
-            <h2 className="title text-center">Get In Touch</h2>
-            <form onSubmit={submitHandler}>
-              <div className="row g-4">
-                <div className="col-lg-6">
-                  <div className="input-group">
-                    <input required
-                      type="text"
-                      name="name"
-                      value={forms.name}
-                      onBlur={changeHandler}
-                      onChange={changeHandler}
-                      className="form-control form-field shadow-none"
-                      placeholder="Your Name"
-                    />
-                    {validator.message('name', forms.name, 'required|alpha_space')}
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="input-group">
-                    <input required
-                      type="email"
-                      name="email"
-                      value={forms.email}
-                      onBlur={changeHandler}
-                      onChange={changeHandler}
-                      className="form-control form-field shadow-none"
-                      placeholder="Your Email"
-                    />
-                    {validator.message('email', forms.email, 'required|email')}
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="input-group">
-                    <input required
-                      type="phone"
-                      name="phone"
-                      value={forms.phone}
-                      onBlur={changeHandler}
-                      onChange={changeHandler}
-                      className="form-control form-field shadow-none"
-                      placeholder="Your Phone"
-                    />
-                    {validator.message('phone', forms.phone, 'required|phone')}
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="input-group">
-                     <input required
-                      type="text"
-                      name="subject"
-                      value={forms.subject}
-                      onBlur={changeHandler}
-                      onChange={changeHandler}
-                      className="form-control form-field shadow-none"
-                      placeholder="Your Company"
-                    />
-                    {validator.message('subject', forms.subject, 'required')}
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="input-group">
-                    <textarea
-                      name="message"
-                      value={forms.message}
-                      onBlur={changeHandler}
-                      onChange={changeHandler}
-                      className="form-field textarea-control"
-                      placeholder="Message here.."
-                    ></textarea>
-                    {validator.message('message', forms.message, 'required')}
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="text-center">
-                    <button type="submit" className="theme-btn position-relative">
-                      Submit Now
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-
-        <div className="contact-map" ref={mapRef}
-          style={{ height: "630px", width: "100%" }}>
-        </div>
-      </section>
-
+    <section className="ep-contact-section pt-120">
+    <Container>
       <ToastContainer />
-    </>
-  );
-};
+     <LocationCard />
+    
+     <h2 className="title text-center mb-4">Get In Touch</h2>     
 
-export default ContactPage;
+        <Formik
+          initialValues={{ name: '', email: '', phone: '', message: '', companyName: '' }}
+          validationSchema={validationSchema}
+          onSubmit={handleSubmit}
+        >
+           {({ errors, touched }) => (
+         <FormikForm>
+         <Row className="g-4">
+           <Col md={6}>
+             <div className="input-group">
+               <Field name="name" type="text" className="form-control" placeholder="Your Name" />
+               {touched.name && errors.name && <div className="text-danger mt-1">{errors.name}</div>}
+             </div>
+           </Col>
+
+           <Col md={6}>
+             <div className="input-group">
+               <Field name="email" type="email" className="form-control" placeholder="Your Email" />
+               {touched.email && errors.email && <div className="text-danger mt-1">{errors.email}</div>}
+             </div>
+           </Col>
+
+           <Col md={6}>
+             <div className="input-group">
+               <Field name="phone" type="text" className="form-control" placeholder="Your Phone" />
+               {touched.phone && errors.phone && <div className="text-danger mt-1">{errors.phone}</div>}
+             </div>
+           </Col>
+
+           <Col md={6}>
+             <div className="input-group">
+               <Field name="companyName" type="text" className="form-control" placeholder="Your Company" />
+               {touched.companyName && errors.companyName && <div className="text-danger mt-1">{errors.companyName}</div>}
+             </div>
+           </Col>
+
+           <Col lg={12}>
+             <div className="input-group">
+               <Field name="message" as="textarea" className="form-control" placeholder="Message here..." />
+               {touched.message && errors.message && <div className="text-danger mt-1">{errors.message}</div>}
+             </div>
+           </Col>
+
+           <Col lg={12}>
+             <div className="text-center">
+               <Button type="submit"  className="theme-btn position-relative">
+                 Submit Now
+               </Button>
+             </div>
+           </Col>
+                </Row>
+              </FormikForm>
+            )}
+          </Formik>
+          </Container>
+          <MapMarkers />
+          </section>
+        );
+      };
+
+export default ContactForm;
+     
