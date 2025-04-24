@@ -16,6 +16,7 @@ const page = () => {
       <Header/>
       <PageHeader title="Contact Us" breadcrumbs={breadcrumbs}/>
       <ContactPage/>
+
       <Footer/>
       <TrainFactoryScene />
 
