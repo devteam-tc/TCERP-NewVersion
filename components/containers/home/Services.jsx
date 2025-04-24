@@ -66,19 +66,25 @@ const Services = ({ isSlider = true, showTitle = true, extraClassName='' }) => {
             }}
           >
             {services.map((service) => (
-              <SwiperSlide key={service.id}>
-                <div className="service-item rounded-20">
-                  <Link href="/service-details" className="d-block w-100">
-                    <div className={`icon-box rounded-20 ${service.className} d-flex justify-content-center align-items-center`}>
-                      <Image src={service.icon} alt="service-icon" />
-                    </div>
-                    <div className="text">
-                      <h4 className="service-title">{service.title}</h4>
-                      <p>{service.description}</p>
-                    </div>
-                  </Link>
+            <SwiperSlide key={service.id}>
+            <div className="service-item rounded-20">
+              <Link 
+                href="/modules"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="d-block w-100"
+              >
+                <div className={`icon-box rounded-20 ${service.className} d-flex justify-content-center align-items-center`}>
+                  <Image src={service.icon} alt="service-icon" />
                 </div>
-              </SwiperSlide>
+                <div className="text">
+                  <h4 className="service-title">{service.title}</h4>
+                  <p>{service.description}</p>
+                </div>
+              </Link>
+            </div>
+          </SwiperSlide>
+          
             ))}
           </Swiper>
         ) : (
@@ -86,7 +92,7 @@ const Services = ({ isSlider = true, showTitle = true, extraClassName='' }) => {
             {services.map((service) => (
               <div key={service.id} className="col-lg-4 col-md-6">
                 <div className="service-item rounded-20">
-                  <Link href="/service-details" className="d-block w-100">
+                  <Link href="/modules" className="d-block w-100">
                     {/* Override className only for non-slider view */}
                     <div className="icon-box rounded-20 icon-box-tertiary d-flex justify-content-center align-items-center">
                       <Image src={service.icon} alt="service-icon" />
@@ -106,4 +112,4 @@ const Services = ({ isSlider = true, showTitle = true, extraClassName='' }) => {
   );
 };
 
-export default Services
+export default Services;

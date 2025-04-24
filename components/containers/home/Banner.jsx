@@ -24,7 +24,7 @@ const Banner = () => {
                 <h2 className="banner-title heading-style1 title-anim">Cloud-Based ERP Software Solutions</h2>
                 <p>Empower your business with Tech Cloud ERP a scalable cloud-based solution that streamlines operations, boosts productivity, and fuels growth.</p>
                 <div className="banner-buttons">
-                  <Link href="/about" className="theme-btn position-relative d-inline-flex align-items-center">
+                  <Link href="/about" className="theme-btn position-relative d-inline-flex align-items-center" style={{ color : "#fff !important"} }>
                    Book a Demo
                     <span className="arrow">
                       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,31 +1,23 @@
 {
-  "services": [
-    {
+    "web-development": {
       "id": 1,
-      "icon": "/images/services/ser-icon2.png",
-      "title": "Digital Marketing",
-      "description": "Elevate your brand with strategic SEO, social media, content marketing, and data-driven campaigns to reach your target audience effectively.",
-      "thumb": "/images/services/digital.webp",
-      "link": "/services/digital-marketing",
-      "serial": "01"
-    },
-    {
-      "id": 2,
       "icon": "/images/services/ser-icon.png",
       "title": "Web Development",
-      "description": "Build powerful, responsive websites and web applications using modern technologies that drive business growth.",
-      "thumb": "/images/services/web-app.webp",
-      "link": "/services/web-development",
-      "serial": "02"
+      "description": "Success profesions development our solutions sapien maximu creative services.",
+      "thumb": "/images/services/ser-thumb.webp"
     },
-    {
+    "digital-marketing": {
+      "id": 2,
+      "icon": "/images/services/ser-icon2.png",
+      "title": "Digital Marketing",
+      "description": "Success profesions development our solutions sapien maximu creative services.",
+      "thumb": "/images/services/ser-thumb2.png"
+    },
+    "app-development": {
       "id": 3,
       "icon": "/images/services/ser-icon3.png",
       "title": "App Development",
-      "description": "Create innovative mobile applications for iOS and Android with focus on performance and exceptional user experience.",
-      "thumb": "/images/services/mobile-app.webp",
-      "link": "/services/app-development",
-      "serial": "03"
+      "description": "Success profesions development our solutions sapien maximu creative services.",
+      "thumb": "/images/services/ser-thumb3.png"
     }
-  ]
-} 
+  } 
