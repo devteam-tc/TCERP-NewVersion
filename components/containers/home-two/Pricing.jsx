@@ -26,7 +26,7 @@ const Pricing = ({ extraClassName = '' }) => {
         </div>
         <div className="d-flex justify-content-center mb-5">
   <div className="toggle-switch">
-    <span className="me-2">INR</span>
+    <span className="me-2">₹ INR</span>
     <label className="switch">
       <input
         type="checkbox"
@@ -37,7 +37,7 @@ const Pricing = ({ extraClassName = '' }) => {
       />
       <span className="slider round"></span>
     </label>
-    <span className="ms-2">USD</span>
+    <span className="ms-2">$ USD</span>
   </div>
 </div>
 

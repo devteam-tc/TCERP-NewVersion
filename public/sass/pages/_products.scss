@@ -6,12 +6,24 @@
   padding: 120px 0 125px;
   background-size: cover;
 }
+@media (max-width: 997px) {
+  .aboutSection {
+    padding: 6px 12px;
+  }
+}
 
 .aboutBoxItem {
   display: flex;
   gap: 45px;
   padding-bottom: 40px;
 }
+
+@media (max-width: 997px) {
+  .aboutBoxItem {
+    display: block;
+  }
+}
+
 
 .aboutItemList {
   margin-bottom: 46px;
@@ -49,11 +61,15 @@
 .product-area {
   &.style-two {
     padding: 120px 0 125px;
-
-    .section-title.text-center {
-      margin-bottom: 82px;
+    @media (max-width: 997px) {
+      padding: 0px;
     }
-
+    .section-title.text-center {
+      margin-bottom: 60px;
+    }
+    @media (max-width: 997px) {
+      margin-top: 60px;
+    }
     .single-product-box {
       background: url('/products/serice-two-img.png') no-repeat center center;
       background-size: cover;
@@ -69,7 +85,7 @@
         content: "";
         width: 175px;
         height: 5px;
-        background-color: #050a1e;
+        // background-color: #050a1e;
         top: -5px;
         right: 0;
         z-index: 1;
@@ -118,7 +134,7 @@
     }
 
     .product-box-inner {
-      position: relative;
+      // position: relative;
 
       &::after {
         position: absolute;
@@ -508,3 +524,94 @@
     padding-right: 30px;
   }
 } 
+
+
+h1.sectionMainTitle {
+  font-size: 42px !important;
+  line-height: 55px;
+  color: #050a1e;
+  font-weight: 700;
+  font-family: var(--heading-font);
+  margin: 0;
+}
+
+h1.sectionMainTitle span {
+  display: inline-block;
+  color: #05afcc;
+}
+
+@media (max-width: 997px) {
+  h1.sectionMainTitle {
+    line-height: 40px;
+    font-size: 30px !important;
+  }
+
+  h1.sectionMainTitle span {
+    font-size: 35px !important;
+  }
+}
+
+
+.about-section {
+  .section-title.text-left {
+    margin-bottom: 36px;
+  }
+
+  .about-item-list {
+    margin-bottom: 46px;
+
+    ul {
+      li {
+        list-style: none;
+        margin-left: 54px;
+        position: relative;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+.sectionDescr {
+  width: 100%;
+  margin: 0;
+  padding: 12px 0 0;
+}
+.aboutIcon {
+  width: 50px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  line-height: 60px;
+  margin-right: 14px;
+  text-align: center;
+
+  img {
+    margin-left: -22px;
+  }
+}
+
+.aboutTitle {
+  h3 {
+    font-size: 18px;
+    line-height: 55px;
+    color: #050a1e;
+    font-weight: 600;
+    font-family: var(--heading-font);
+    margin: 0;
+  }
+}
+
+.solutekBtn {
+  a {
+    background: #05afcc;
+    text-decoration: none;
+    padding: 16px 28px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+}

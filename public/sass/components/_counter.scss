@@ -5,14 +5,17 @@
 .ep-counter-section {
   .counter-text {
     p {
-      margin-bottom: 68px;
+      // margin-bottom: 68px;
+      margin-bottom: 28px;
+
     }
 
     .counter-wrapper {
       .counter-item {
         background-color: var(--bs-white-color);
         box-shadow: 0 10px 20px rgba(173,216,230,.5),0 6px 6px rgba(173,216,230,.7);
-        padding: 38px 20px;
+        // padding: 38px 20px;
+        padding: 16px 18px;
         transition: var(--bs-transition);
         border: 1px solid transparent;
 

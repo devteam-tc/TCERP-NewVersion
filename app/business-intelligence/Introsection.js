@@ -21,7 +21,6 @@ const BusinessSection = () => {
               <Image src="/bi/box-card.png" alt="box" className="boxCard" width={300} height={200} />
             </div>
           </div>
-
           <div className="col-lg-6">
             <div className="businessContent">
               <p className="pra">
