@@ -1,0 +1,67 @@
+{
+
+    "mainTitle": "Why Choose Tech Cloud ERP",
+    "cards": [
+      {
+        "image": "/products/trading/newcustomer.png",
+        "title": "New Customers",
+        "text": "We help you generate leads with valuable content that encourages potential customers to share their contact details.",
+        "items": [
+          "Capture leads via word of mouth, emails and webinars.",
+          "Assign leads to your sales team for follow-ups and deal closure.",
+          "Schedule calls or send emails to convert leads into customers."
+        ]
+      },
+      {
+        "image": "/products/trading/customermanage.png",
+        "title": "Customer Management",
+        "text": "We provide solutions to simplify customer management by tracking interactions, resolving issues quickly and building strong relationships to boost satisfaction and loyalty.",
+        "items": [
+          "Essential for collecting and organizing customer data.",
+          "Beneficial for both small and large businesses.",
+          "Helps analyze customer behavior, preferences and demographics effectively."
+        ]
+      },
+      {
+        "image": "/products/trading/purchase.png",
+        "title": "Purchase Management",
+        "text": "We offer solutions to streamline purchase management, ensuring efficient sourcing, procurement and inventory tracking for cost-effective operations.",
+        "items": [
+          "A vital part of materials management in any company.",
+          "Helps address competition, market demands and resource scarcity.",
+          "Covers supplier verification, timely delivery and quality checks."
+        ]
+      },
+      {
+        "image": "/products/trading/streamline.png",
+        "title": "Streamline Warehouse Management",
+        "text": "We provide efficient warehouse management solutions with optimized inventory control, streamlined workflows and advanced technology.",
+        "items": [
+          "Subscription-based system with no upfront costs.",
+          "Monthly payments ensure the latest updates and no technical issues.",
+          "Designed with a user-friendly approach for a seamless experience."
+        ]
+      },
+      {
+        "image": "/products/trading/shipping.png",
+        "title": "Reduced Shipping Costs",
+        "text": "We help reduce shipping costs by optimizing logistics routes, negotiating with carriers and improving packaging efficiency.",
+        "items": [
+          "Build strong connections with shipping representatives.",
+          "Use flat-rate shipping options.",
+          "Negotiate better shipping rates."
+        ]
+      },
+      {
+        "image": "/products/trading/accounts.png",
+        "title": "Accounts Maintenance",
+        "text": "We ensure smooth account maintenance by updating details, tracking transactions and addressing inquiries to build trust and satisfaction.",
+        "items": [
+          "Manage investment accounts with securities and cash.",
+          "Support frequent trading under applicable regulations.",
+          "Provide secure handling of various investment assets."
+        ]
+      }
+    ]
+  }
+  

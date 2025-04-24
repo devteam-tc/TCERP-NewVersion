@@ -1,0 +1,35 @@
+
+.backgroundSection {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-image: url('/footer/footerbg1.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  .scrollingImages {
+    position: absolute;
+    top: 215px;
+    left: 0;
+    display: flex;
+    gap: 30px;
+    animation: scroll-left 20s linear infinite;
+    white-space: nowrap;
+  
+    img {
+      height: 200px;
+      object-fit: contain;
+    }
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

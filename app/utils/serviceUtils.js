@@ -1,9 +1,9 @@
 import { notFound } from 'next/navigation';
 import { FaHome } from 'react-icons/fa';
 import servicesData from '../../data/servicesData.json';
-import { VALID_SERVICE_SLUGS } from '../config/services';
-//import { VALID_SERVICE_SLUGS } from '@/app/config/services';
- /**
+import { VALID_SERVICE_SLUGS } from '../../app/config/services';
+
+/**
  * Check if a slug is a valid service slug
  * @param {string} slug - The slug to validate
  * @returns {boolean} Whether the slug is valid

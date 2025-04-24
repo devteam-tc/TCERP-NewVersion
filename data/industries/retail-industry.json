@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/retail_banner_img.webp",
+  "banner": "/images/industries/retail_banner_img.webp",
   "title": "Retail Industry Solutions",
-  "description": "Advanced ERP solutions tailored for retail businesses, optimizing inventory management, point of sale operations, and customer engagement while ensuring seamless omnichannel experience and efficient supply chain operations.",
+  "description": "Advanced ERP solutions tailored for retail businesses, optimizing inventory management, point of sale operations and customer engagement while ensuring seamless omnichannel experience and efficient supply chain operations.",
   "keyPoints": [
     "Inventory Management",
     "POS & Payment Processing",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system handle multi-store operations?",
-      "answer": "Our system provides comprehensive multi-store management including centralized inventory control, inter-store transfers, consolidated reporting, and real-time synchronization across all locations."
+      "answer": "Our system provides comprehensive multi-store management including centralized inventory control, inter-store transfers, consolidated reporting and real-time synchronization across all locations."
     },
     {
       "id": 2,
       "question": "What POS and payment features are included?",
-      "answer": "The system includes advanced POS functionality with multiple payment methods, split payments, returns processing, gift cards, and integrated payment security compliance."
+      "answer": "The system includes advanced POS functionality with multiple payment methods, split payments, returns processing, gift cards and integrated payment security compliance."
     },
     {
       "id": 3,
       "question": "Can it manage e-commerce integration?",
-      "answer": "Yes, our solution provides seamless e-commerce integration with real-time inventory sync, unified customer profiles, omnichannel order fulfillment, and integrated loyalty programs."
+      "answer": "Yes, our solution provides seamless e-commerce integration with real-time inventory sync, unified customer profiles, omnichannel order fulfillment and integrated loyalty programs."
     }
   ],
   "industry": "Retail",

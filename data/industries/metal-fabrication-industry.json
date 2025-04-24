@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/metal_fabrication_banner_img.webp",
+  "banner": "/images/industries/metal_fabrication_banner_img.webp",
   "title": "Metal Fabrication Industry Solutions",
-  "description": "Advanced ERP solutions tailored for metal fabrication companies, optimizing manufacturing processes, quality control, and project management while ensuring precision and efficiency in custom fabrication.",
+  "description": "Advanced ERP solutions tailored for metal fabrication companies, optimizing manufacturing processes, quality control and project management while ensuring precision and efficiency in custom fabrication.",
   "keyPoints": [
     "Precision Manufacturing Control",
     "Material Resource Planning",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system manage custom fabrication projects?",
-      "answer": "Our system provides comprehensive project management with detailed job tracking, material requirements planning, cost estimation, and real-time progress monitoring for custom fabrication work."
+      "answer": "Our system provides comprehensive project management with detailed job tracking, material requirements planning, cost estimation and real-time progress monitoring for custom fabrication work."
     },
     {
       "id": 2,
       "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality control features with inspection planning, weld quality tracking, dimensional verification, material certification management, and detailed quality reporting."
+      "answer": "The system includes advanced quality control features with inspection planning, weld quality tracking, dimensional verification, material certification management and detailed quality reporting."
     },
     {
       "id": 3,
       "question": "Can it handle machine and tool management?",
-      "answer": "Yes, our solution manages machine scheduling, tool lifecycle tracking, preventive maintenance planning, and performance monitoring for optimal equipment utilization."
+      "answer": "Yes, our solution manages machine scheduling, tool lifecycle tracking, preventive maintenance planning and performance monitoring for optimal equipment utilization."
     }
   ],
   "industry": "Metal Fabrication",

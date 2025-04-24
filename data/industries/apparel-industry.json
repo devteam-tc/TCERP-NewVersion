@@ -1,5 +1,5 @@
 {
-  "banner": "/images/industries/apparel-banner.jpg",
+  "banner": "/images/industries/apparel-banner_img.webp",
   "title": "Apparel Industry Solutions",
   "description": "Comprehensive ERP solutions designed for apparel and fashion businesses, streamlining processes from design to retail distribution.",
   "keyPoints": [
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system handle seasonal collections?",
-      "answer": "Our system provides comprehensive collection planning tools including design management, material requirements planning, and production scheduling for seasonal collections."
+      "answer": "Our system provides comprehensive collection planning tools including design management, material requirements planning and production scheduling for seasonal collections."
     },
     {
       "id": 2,
       "question": "Can it manage multiple size and color variations?",
-      "answer": "Yes, the system supports matrix management for size, color, and style variations with advanced inventory tracking and production planning features."
+      "answer": "Yes, the system supports matrix management for size, color and style variations with advanced inventory tracking and production planning features."
     },
     {
       "id": 3,
       "question": "What kind of quality control features are included?",
-      "answer": "The system includes detailed quality control modules with inspection planning, defect tracking, and quality metrics reporting across the production process."
+      "answer": "The system includes detailed quality control modules with inspection planning, defect tracking and quality metrics reporting across the production process."
     }
   ],
   "industry": "Apparel & Fashion",

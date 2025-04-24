@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/automotive_banner_img.webp",
+  "banner": "/images/industries/automotive_banner_img.webp",
   "title": "Automotive Industry Solutions",
-  "description": "Advanced ERP solutions tailored for automotive manufacturers and suppliers, optimizing production, supply chain, and quality control processes.",
+  "description": "Advanced ERP solutions tailored for automotive manufacturers and suppliers, optimizing production, supply chain and quality control processes.",
   "keyPoints": [
     "Production Line Management",
     "Supply Chain Optimization",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system handle supply chain management?",
-      "answer": "Our system provides end-to-end supply chain visibility with real-time tracking, supplier management, and just-in-time inventory optimization."
+      "answer": "Our system provides end-to-end supply chain visibility with real-time tracking, supplier management and just-in-time inventory optimization."
     },
     {
       "id": 2,
       "question": "Can it integrate with existing automotive production systems?",
-      "answer": "Yes, our solution supports integration with major automotive production systems, PLCs, and quality control equipment through standard industrial protocols."
+      "answer": "Yes, our solution supports integration with major automotive production systems, PLCs and quality control equipment through standard industrial protocols."
     },
     {
       "id": 3,
       "question": "What kind of quality control features are available?",
-      "answer": "The system includes comprehensive quality control features including inspection planning, defect tracking, compliance monitoring, and automated quality reporting."
+      "answer": "The system includes comprehensive quality control features including inspection planning, defect tracking, compliance monitoring and automated quality reporting."
     }
   ],
   "industry": "Automotive",

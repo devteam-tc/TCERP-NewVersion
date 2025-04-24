@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { indiaPricingPlans ,usPricingPlans  } from "@/data/pricing";
+import { indiaPricingPlans ,usPricingPlans  } from "../../../data/pricing";
 import SectionTitle from "../SectionTitle";
 import Link from "next/link";
 import Image from "next/image";

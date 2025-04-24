@@ -1,8 +1,9 @@
-import CustomCursor from "@/components/layout/CustomCursor";
-import Footer from "@/components/layout/footer/Footer"
-import Header from "@/components/layout/header/Header"
-import PageHeader from "@/components/layout/PageHeader"
+import CustomCursor from "../../components/layout/CustomCursor";
+import Footer from "../../components/layout/footer/Footer"
+import Header from "../../components/layout/header/Header"
+import PageHeader from "../../components/layout/PageHeader"
 import DemoPage from "./DemoPage";
+import { FaHome } from 'react-icons/fa';
 
 export async function generateMetadata() {
   return {
@@ -30,7 +31,7 @@ export function generateStaticParams() {
 }
 const page = () => {
   const breadcrumbs = [
-    { label: 'Home', link: '/' },
+    { label: 'Home', link: '/', icon: FaHome },
     { label: 'Book a Demo', link: null }
   ];
   return (

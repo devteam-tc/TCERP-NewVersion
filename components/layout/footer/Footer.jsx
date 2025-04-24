@@ -1,11 +1,7 @@
 import Link from 'next/link'
-import footerIcon1 from '@/public/images/icons/footer-short-icon-1.svg';
-import footerIcon2 from '@/public/images/icons/footer-short-icon-2.svg';
-import footerIcon3 from '@/public/images/icons/footer-short-icon-3.svg';
 // import logo2 from '@/public/images/logo/logo2.svg';
-import logo2 from '@/public/images/logo/logo.webp';
+import logo2 from '../../../public/images/logo/logo.webp';
 import Image from 'next/image';
-import ScrollToTop from '../ScrollProgressButton';
 import ScrollProgressButton from '../ScrollProgressButton';
 
 const Footer = () => {
@@ -47,7 +43,7 @@ const Footer = () => {
                             </div>
                             <h4 className="title">Email </h4>
                           </div>
-                          <a href="mailto:info@techclouderp.com">info@techclouderp.com</a>
+                          <p> <a href="mailto:info@techclouderp.com">info@techclouderp.com</a></p>
                         </li>
                       </ul>
                     </div>

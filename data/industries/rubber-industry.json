@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/rubber_banner_img.webp",
+  "banner": "/images/industries/rubber_banner_img.webp",
   "title": "Rubber Industry Solutions",
-  "description": "Advanced ERP solutions tailored for rubber manufacturers, optimizing compound formulation, production processes, and quality control while ensuring efficient material utilization and process consistency.",
+  "description": "Advanced ERP solutions tailored for rubber manufacturers, optimizing compound formulation, production processes and quality control while ensuring efficient material utilization and process consistency.",
   "keyPoints": [
     "Compound Formulation Management",
     "Process Control & Monitoring",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system handle compound formulation?",
-      "answer": "Our system provides comprehensive compound management including recipe formulation, material specifications, mixing parameters, and batch tracking with complete traceability."
+      "answer": "Our system provides comprehensive compound management including recipe formulation, material specifications, mixing parameters and batch tracking with complete traceability."
     },
     {
       "id": 2,
       "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality testing with physical property analysis, rheology testing, aging studies, and detailed quality reporting for various rubber compounds and products."
+      "answer": "The system includes advanced quality testing with physical property analysis, rheology testing, aging studies and detailed quality reporting for various rubber compounds and products."
     },
     {
       "id": 3,
       "question": "Can it manage process parameters?",
-      "answer": "Yes, our solution manages process parameters with real-time monitoring, temperature control, curing profiles, and automated adjustments for optimal production conditions."
+      "answer": "Yes, our solution manages process parameters with real-time monitoring, temperature control, curing profiles and automated adjustments for optimal production conditions."
     }
   ],
   "industry": "Rubber Manufacturing",

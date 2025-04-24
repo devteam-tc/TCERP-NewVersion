@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/plastic_banner_img.webp",
+  "banner": "/images/industries/plastic_banner_img.webp",
   "title": "Plastic Industry Solutions",
-  "description": "Advanced ERP solutions tailored for plastic manufacturers, optimizing polymer processing, production control, and quality management while promoting sustainable practices and operational efficiency.",
+  "description": "Advanced ERP solutions tailored for plastic manufacturers, optimizing polymer processing, production control and quality management while promoting sustainable practices and operational efficiency.",
   "keyPoints": [
     "Polymer Processing Control",
     "Mold Management",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system manage polymer processing?",
-      "answer": "Our system provides comprehensive polymer processing management including material formulation, temperature control, pressure monitoring, and cycle time optimization for various plastic products."
+      "answer": "Our system provides comprehensive polymer processing management including material formulation, temperature control, pressure monitoring and cycle time optimization for various plastic products."
     },
     {
       "id": 2,
       "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality control with material testing, dimensional verification, visual inspection tracking, and detailed quality reporting for different plastic products and processes."
+      "answer": "The system includes advanced quality control with material testing, dimensional verification, visual inspection tracking and detailed quality reporting for different plastic products and processes."
     },
     {
       "id": 3,
       "question": "Can it handle recycling operations?",
-      "answer": "Yes, our solution manages recycling operations with material segregation tracking, regrind management, quality control for recycled materials, and sustainability reporting capabilities."
+      "answer": "Yes, our solution manages recycling operations with material segregation tracking, regrind management, quality control for recycled materials and sustainability reporting capabilities."
     }
   ],
   "industry": "Plastic Manufacturing",

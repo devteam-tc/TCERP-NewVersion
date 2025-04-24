@@ -1,5 +1,4 @@
-import PageHeaderImg from '@/public/images/img/page-header-img.svg';
-import Image from 'next/image';
+
 import Link from 'next/link';
 
 const PageHeader = ({ title = '', breadcrumbs = [] }) => {

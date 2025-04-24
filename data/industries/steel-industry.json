@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/steel_banner_img.webp",
+  "banner": "/images/industries/steel_banner_img.webp",
   "title": "Steel Industry Solutions",
-  "description": "Advanced ERP solutions tailored for steel manufacturers, optimizing production processes, quality control, and material management while ensuring efficient operations and regulatory compliance.",
+  "description": "Advanced ERP solutions tailored for steel manufacturers, optimizing production processes, quality control and material management while ensuring efficient operations and regulatory compliance.",
   "keyPoints": [
     "Production Process Control",
     "Quality Testing & Certification",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system manage production processes?",
-      "answer": "Our system provides comprehensive production management including furnace operations, rolling mill control, heat treatment tracking, and real-time process monitoring with automated quality checks."
+      "answer": "Our system provides comprehensive production management including furnace operations, rolling mill control, heat treatment tracking and real-time process monitoring with automated quality checks."
     },
     {
       "id": 2,
       "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality testing with material composition analysis, mechanical property testing, grade certification management, and complete traceability for each batch."
+      "answer": "The system includes advanced quality testing with material composition analysis, mechanical property testing, grade certification management and complete traceability for each batch."
     },
     {
       "id": 3,
       "question": "Can it handle material grade management?",
-      "answer": "Yes, our solution manages detailed grade specifications, heat numbers, material certifications, and inventory segregation by grade with complete tracking from raw material to finished product."
+      "answer": "Yes, our solution manages detailed grade specifications, heat numbers, material certifications and inventory segregation by grade with complete tracking from raw material to finished product."
     }
   ],
   "industry": "Steel Manufacturing",

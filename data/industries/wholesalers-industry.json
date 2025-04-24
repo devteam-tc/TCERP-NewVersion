@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/wholesale_banner_img.webp",
+  "banner": "/images/industries/wholesale_banner_img.webp",
   "title": "Wholesale Industry Solutions",
-  "description": "Comprehensive ERP solutions designed for wholesale distributors, optimizing inventory management, order processing, and supply chain operations while enhancing customer service and operational efficiency.",
+  "description": "Comprehensive ERP solutions designed for wholesale distributors, optimizing inventory management, order processing and supply chain operations while enhancing customer service and operational efficiency.",
   "keyPoints": [
     "Inventory Management",
     "Order Processing & Fulfillment",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system handle multi-location inventory?",
-      "answer": "Our system provides real-time inventory tracking across multiple locations with automated replenishment, transfer management, and optimized stock levels based on demand patterns."
+      "answer": "Our system provides real-time inventory tracking across multiple locations with automated replenishment, transfer management and optimized stock levels based on demand patterns."
     },
     {
       "id": 2,
       "question": "What order processing features are included?",
-      "answer": "The system includes comprehensive order management with bulk processing, automated fulfillment, pricing management, and real-time status tracking across the supply chain."
+      "answer": "The system includes comprehensive order management with bulk processing, automated fulfillment, pricing management and real-time status tracking across the supply chain."
     },
     {
       "id": 3,
       "question": "Can it manage customer relationships?",
-      "answer": "Yes, our solution includes advanced CRM features with customer segmentation, pricing tiers, credit management, and detailed transaction history tracking."
+      "answer": "Yes, our solution includes advanced CRM features with customer segmentation, pricing tiers, credit management and detailed transaction history tracking."
     }
   ],
   "industry": "Wholesale Distribution",

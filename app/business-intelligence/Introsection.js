@@ -1,4 +1,3 @@
-// components/BusinessSection.js
 
 import  '../business-intelligence/bi.scss';
 import Image from 'next/image';
@@ -26,7 +25,7 @@ const BusinessSection = () => {
           <div className="col-lg-6">
             <div className="businessContent">
               <p className="pra">
-              Tech Cloud ERP’s Business Intelligence is designed to give you more than just reports, it gives you clarity. With real-time dashboards, simple reporting tools and data directly connected to your ERP system, you can make informed decisions faster. Whether you're managing operations, sales, or finance, our BI tools help you turn everyday data into smart, strategic actions.
+              Tech Cloud ERP s Business Intelligence is designed to give you more than just reports, it gives you clarity. With real-time dashboards, simple reporting tools and data directly connected to your ERP system, you can make informed decisions faster. Whether you re managing operations, sales, or finance, our BI tools help you turn everyday data into smart, strategic actions.
               </p>
 
               <div className="row g-4">

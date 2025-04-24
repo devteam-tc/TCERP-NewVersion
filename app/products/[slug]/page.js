@@ -1,20 +1,31 @@
+import { notFound } from 'next/navigation';
+import ProductPage from '../../../components/containers/product-details/ProductPage';
 
-
-import { notFound } from "next/navigation";
-import { productData } from "../../utils/constant";
-import ProductPageClientWrapper from "./ProductPageClientWrapper";
+const productSlugs = [
+  'tech-cloud-erp',
+  'customer-relationship-management',
+  'point-of-sale',
+  'trading-software',
+  'Ecommerce-software',
+  'hr-managament-software',
+  'financial-management-systems',
+  'integrated-erp-software',
+  'erp-for-restaraunt',
+  'erp-for-accounting-software',
+];
 
 export function generateStaticParams() {
-  return Object.keys(productData).map((slug) => ({ slug }));
+  return productSlugs.map((slug) => ({ slug }));
 }
- function ProductPageWrapper({ params }) {
+
+export default function ProductPageWrapper({ params }) {
   const { slug } = params;
 
-  if (!productData[slug]) {
-    notFound();
+  // ✅ Use .includes() for array
+  if (!productSlugs.includes(slug)) {
+    notFound(); // Shows 404 page
     return null;
   }
 
-  return <ProductPageClientWrapper slug={slug} />;
+  return <ProductPage slug={slug} />;
 }
-export default ProductPageWrapper;

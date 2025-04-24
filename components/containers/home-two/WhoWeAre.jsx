@@ -1,5 +1,5 @@
-import IconPhone from '@/public/images/icons/icon-headphone.svg';
-import WhoImg from '@/public/images/img/who-we-are.png';
+import IconPhone from '../../../public/images/icons/icon-headphone.svg';
+import WhoImg from '../../../public/images/img/who-we-are.png';
 import SectionTitle from "../SectionTitle";
 import Image from "next/image";
 import OdometerCounter from '../Odometer';
