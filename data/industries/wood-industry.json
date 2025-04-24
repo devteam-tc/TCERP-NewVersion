@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/wood_banner_img.webp",
+  "banner": "/images/industries/wood_banner_img.webp",
   "title": "Wood Industry Solutions",
-  "description": "Advanced ERP solutions tailored for wood processing and furniture manufacturers, optimizing timber management, production processes, and quality control while ensuring sustainable resource utilization.",
+  "description": "Advanced ERP solutions tailored for wood processing and furniture manufacturers, optimizing timber management, production processes and quality control while ensuring sustainable resource utilization.",
   "keyPoints": [
     "Timber Resource Management",
     "Production & Processing Control",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system manage timber inventory?",
-      "answer": "Our system provides complete timber inventory management including log tracking, grade classification, moisture content monitoring, and optimization of cutting patterns for maximum yield."
+      "answer": "Our system provides complete timber inventory management including log tracking, grade classification, moisture content monitoring and optimization of cutting patterns for maximum yield."
     },
     {
       "id": 2,
       "question": "What production control features are included?",
-      "answer": "The system includes comprehensive production planning, cutting optimization, waste tracking, machine integration, and real-time monitoring of processing operations."
+      "answer": "The system includes comprehensive production planning, cutting optimization, waste tracking, machine integration and real-time monitoring of processing operations."
     },
     {
       "id": 3,
       "question": "Can it handle sustainability requirements?",
-      "answer": "Yes, our solution manages sustainability certifications, tracks chain of custody, monitors resource utilization, and provides reporting for environmental compliance."
+      "answer": "Yes, our solution manages sustainability certifications, tracks chain of custody, monitors resource utilization and provides reporting for environmental compliance."
     }
   ],
   "industry": "Wood Processing",

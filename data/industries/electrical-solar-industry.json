@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/solar_banner_img.webp",
+  "banner": "/images/industries/solar_banner_img.webp",
   "title": "Solar Industry Solutions",
-  "description": "Advanced ERP solutions tailored for solar energy companies, optimizing installation projects, monitoring system performance, and managing renewable energy operations.",
+  "description": "Advanced ERP solutions tailored for solar energy companies, optimizing installation projects, monitoring system performance and managing renewable energy operations.",
   "keyPoints": [
     "Solar Project Management",
     "Installation Tracking",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system handle project planning?",
-      "answer": "Our system provides end-to-end project management including site surveys, design planning, installation scheduling, and resource allocation with real-time progress tracking."
+      "answer": "Our system provides end-to-end project management including site surveys, design planning, installation scheduling and resource allocation with real-time progress tracking."
     },
     {
       "id": 2,
       "question": "What monitoring capabilities are included?",
-      "answer": "The system includes comprehensive monitoring features with real-time performance tracking, energy production analytics, and predictive maintenance alerts."
+      "answer": "The system includes comprehensive monitoring features with real-time performance tracking, energy production analytics and predictive maintenance alerts."
     },
     {
       "id": 3,
       "question": "Can it manage multiple installation teams?",
-      "answer": "Yes, the system supports multiple installation teams with resource scheduling, skill tracking, and mobile app support for field operations."
+      "answer": "Yes, the system supports multiple installation teams with resource scheduling, skill tracking and mobile app support for field operations."
     }
   ],
   "industry": "Solar Energy",

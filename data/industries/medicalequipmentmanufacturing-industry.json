@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/medical_equipment_banner_img.webp",
+  "banner": "/images/industries/medical_equipment_banner_img.webp",
   "title": "Medical Equipment Manufacturing Solutions",
-  "description": "Advanced ERP solutions tailored for medical equipment manufacturers, ensuring regulatory compliance, quality control, and precision manufacturing while maintaining complete traceability and documentation.",
+  "description": "Advanced ERP solutions tailored for medical equipment manufacturers, ensuring regulatory compliance, quality control and precision manufacturing while maintaining complete traceability and documentation.",
   "keyPoints": [
     "Regulatory Compliance Management",
     "Quality Control & Validation",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system ensure regulatory compliance?",
-      "answer": "Our system provides comprehensive compliance management for FDA, CE, ISO 13485, and other medical device regulations, including documentation control, validation protocols, and audit trail maintenance."
+      "answer": "Our system provides comprehensive compliance management for FDA, CE, ISO 13485, and other medical device regulations, including documentation control, validation protocols and audit trail maintenance."
     },
     {
       "id": 2,
       "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality control with validation protocols, clean room monitoring, sterilization process control, and complete device history records with detailed testing documentation."
+      "answer": "The system includes advanced quality control with validation protocols, clean room monitoring, sterilization process control and complete device history records with detailed testing documentation."
     },
     {
       "id": 3,
       "question": "Can it handle device traceability requirements?",
-      "answer": "Yes, our solution provides end-to-end traceability from raw materials to finished devices, including UDI compliance, component tracking, and complete device history records."
+      "answer": "Yes, our solution provides end-to-end traceability from raw materials to finished devices, including UDI compliance, component tracking and complete device history records."
     }
   ],
   "industry": "Medical Equipment Manufacturing",

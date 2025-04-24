@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/chemical_banner_img.webp",
+  "banner": "/images/industries/chemical_banner_img.webp",
   "title": "Chemical Industry Solutions",
-  "description": "Advanced ERP solutions tailored for chemical manufacturers, ensuring safety compliance, process control, and efficient material management while optimizing production workflows.",
+  "description": "Advanced ERP solutions tailored for chemical manufacturers, ensuring safety compliance, process control and efficient material management while optimizing production workflows.",
   "keyPoints": [
     "Process Safety Management",
     "Hazardous Material Handling",
@@ -35,12 +35,12 @@
     {
       "id": 1,
       "question": "How does the system handle hazardous material management?",
-      "answer": "Our system provides comprehensive hazardous material tracking, including SDS management, storage conditions monitoring, and automated safety protocol enforcement."
+      "answer": "Our system provides comprehensive hazardous material tracking, including SDS management, storage conditions monitoring and automated safety protocol enforcement."
     },
     {
       "id": 2,
       "question": "What regulatory compliance features are included?",
-      "answer": "The system includes features for EPA, OSHA, and international chemical regulations compliance, with automated documentation, reporting, and audit trail capabilities."
+      "answer": "The system includes features for EPA, OSHA and international chemical regulations compliance, with automated documentation, reporting and audit trail capabilities."
     },
     {
       "id": 3,

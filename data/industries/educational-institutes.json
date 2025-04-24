@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/education_banner_img.webp",
+  "banner": "/images/industries/educational_banner_img.webp",
   "title": "Educational Institute Solutions",
-  "description": "Comprehensive ERP solutions designed for educational institutions, streamlining academic operations, student management, and administrative processes while enhancing learning outcomes.",
+  "description": "Comprehensive ERP solutions designed for educational institutions, streamlining academic operations, student management and administrative processes while enhancing learning outcomes.",
   "keyPoints": [
     "Student Information Management",
     "Academic Planning & Scheduling",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system handle student records?",
-      "answer": "Our system provides secure, comprehensive student information management including academic records, attendance, behavior tracking, and progress monitoring with role-based access control."
+      "answer": "Our system provides secure, comprehensive student information management including academic records, attendance, behavior tracking and progress monitoring with role-based access control."
     },
     {
       "id": 2,
       "question": "Can it manage multiple academic programs?",
-      "answer": "Yes, the system supports multiple programs, departments, and campuses with customizable curriculum management, scheduling, and reporting capabilities."
+      "answer": "Yes, the system supports multiple programs, departments and campuses with customizable curriculum management, scheduling and reporting capabilities."
     },
     {
       "id": 3,
       "question": "What features are available for online learning?",
-      "answer": "The system includes integrated learning management features with virtual classroom support, content management, assignment tracking, and online assessment tools."
+      "answer": "The system includes integrated learning management features with virtual classroom support, content management, assignment tracking and online assessment tools."
     }
   ],
   "industry": "Education",

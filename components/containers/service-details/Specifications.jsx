@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import appDevelopmentData from '../../../data/services/app-development.json';
 import webDevelopmentData from '../../../data/services/web-development.json';
@@ -44,11 +46,14 @@ const Specifications = ({ slug }) => {
                 }}>
                   <div className="service-icon">
                     <Image 
-                      src={service.img} 
+                      src={service.img || '/images/industries/default-card-image.png'} 
                       alt={service.title} 
-                      width={300} 
-                      height={300}
-                      style={{ height: 'auto', maxWidth: '120px' }}
+                      width={250} 
+                      height={250}
+                      style={{ height: 'auto', maxWidth: '100px' }}
+                      onError={(e) => {
+                        e.currentTarget.src = '/images/industries/default-card-image.png'
+                      }}
                     />
                   </div>
                   <div className="service-content" style={{ flex: 1 }}>

@@ -8,7 +8,7 @@ import Link from "next/link";
 import Footer from "../../components/layout/footer/Footer";
 import Header from "../../components/layout/header/Header";
 // import "./AllProducts.scss"; // SCSS module import
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaHome } from "react-icons/fa";
 import PageHeader from "../../components/layout/PageHeader";
 import Image from "next/image";
 import CategorySection from "../../components/containers/products/CategorySection";
@@ -19,7 +19,7 @@ const AllProductsSection = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   const breadcrumbs = [
-    { label: 'Home', link: '/' },
+    { label: 'Home', link: '/', icon: FaHome },
     { label: 'All Products', link: null }
   ];
   return (

@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/paper_banner_img.webp",
+  "banner": "/images/industries/paper_banner_img.webp",
   "title": "Paper Industry Solutions",
-  "description": "Advanced ERP solutions tailored for paper manufacturers, optimizing pulp processing, production control, and quality management while ensuring environmental compliance and sustainable operations.",
+  "description": "Advanced ERP solutions tailored for paper manufacturers, optimizing pulp processing, production control and quality management while ensuring environmental compliance and sustainable operations.",
   "keyPoints": [
     "Pulp Processing Control",
     "Production Management",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system manage pulp processing?",
-      "answer": "Our system provides comprehensive pulp processing management including fiber quality control, chemical dosing, consistency monitoring, and real-time process optimization for different paper grades."
+      "answer": "Our system provides comprehensive pulp processing management including fiber quality control, chemical dosing, consistency monitoring and real-time process optimization for different paper grades."
     },
     {
       "id": 2,
       "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality control with paper grade specifications, testing protocols, brightness monitoring, weight control, and detailed quality reporting for various paper products."
+      "answer": "The system includes advanced quality control with paper grade specifications, testing protocols, brightness monitoring, weight control and detailed quality reporting for various paper products."
     },
     {
       "id": 3,
       "question": "Can it handle environmental compliance?",
-      "answer": "Yes, our solution manages environmental compliance with effluent treatment monitoring, energy consumption tracking, emissions control, and sustainability reporting for regulatory requirements."
+      "answer": "Yes, our solution manages environmental compliance with effluent treatment monitoring, energy consumption tracking, emissions control and sustainability reporting for regulatory requirements."
     }
   ],
   "industry": "Paper Manufacturing",

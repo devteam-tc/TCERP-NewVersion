@@ -13,6 +13,7 @@ import AboutSection from '../products/AboutSection';
 import NewProduct from '../products/NewProduct';
 import FaqSection from '../products/FaqSection';
 import DownloadWidget from '../products/DownloadWidget';
+import { FaHome } from 'react-icons/fa';
 
 const ProductPage = ({ slug }) => {
 
@@ -58,8 +59,8 @@ const ProductPage = ({ slug }) => {
   const productName = product?.heading || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 
   const breadcrumbs = [
-    { label: 'Home', link: '/' },
-    { label: 'Products', link: '/products'  },
+    { label: 'Home', link: '/', icon: FaHome },
+    { label: 'All Products', link: '/products' },
     { label: productName, link: null },
   ];
   

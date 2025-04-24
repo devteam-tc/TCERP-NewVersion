@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/preengineering_banner_img.webp",
+  "banner": "/images/industries/preengineering_banner_img.webp",
   "title": "Pre-engineering Industry Solutions",
-  "description": "Advanced ERP solutions tailored for pre-engineered building manufacturers, optimizing structural design, fabrication planning, and project management while ensuring quality and efficiency in construction.",
+  "description": "Advanced ERP solutions tailored for pre-engineered building manufacturers, optimizing structural design, fabrication planning and project management while ensuring quality and efficiency in construction.",
   "keyPoints": [
     "Structural Design Management",
     "Project Planning & Control",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system handle structural design?",
-      "answer": "Our system provides comprehensive structural design management including CAD integration, load calculations, material specifications, and automated drawing generation with revision control."
+      "answer": "Our system provides comprehensive structural design management including CAD integration, load calculations, material specifications and automated drawing generation with revision control."
     },
     {
       "id": 2,
       "question": "What project management features are included?",
-      "answer": "The system includes advanced project planning with scheduling, resource allocation, progress tracking, cost monitoring, and coordination tools for installation teams."
+      "answer": "The system includes advanced project planning with scheduling, resource allocation, progress tracking, cost monitoring and coordination tools for installation teams."
     },
     {
       "id": 3,
       "question": "Can it manage material requirements?",
-      "answer": "Yes, our solution handles material planning with detailed estimation, inventory management, procurement scheduling, and waste optimization for steel and other construction materials."
+      "answer": "Yes, our solution handles material planning with detailed estimation, inventory management, procurement scheduling and waste optimization for steel and other construction materials."
     }
   ],
   "industry": "Pre-engineering",

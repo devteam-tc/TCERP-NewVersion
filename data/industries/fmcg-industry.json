@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/fmcg_banner_img.webp",
+  "banner": "/images/industries/fmcg_banner_img.webp",
   "title": "FMCG Industry Solutions",
-  "description": "Comprehensive ERP solutions tailored for Fast-Moving Consumer Goods companies, optimizing production, distribution, and inventory management while ensuring rapid market response.",
+  "description": "Comprehensive ERP solutions tailored for Fast-Moving Consumer Goods companies, optimizing production, distribution and inventory management while ensuring rapid market response.",
   "keyPoints": [
     "Demand Forecasting",
     "Supply Chain Optimization",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system handle demand forecasting?",
-      "answer": "Our system uses advanced analytics and machine learning for accurate demand forecasting, considering seasonal trends, market dynamics, and historical data."
+      "answer": "Our system uses advanced analytics and machine learning for accurate demand forecasting, considering seasonal trends, market dynamics and historical data."
     },
     {
       "id": 2,
       "question": "What distribution features are included?",
-      "answer": "The system includes comprehensive distribution management with route optimization, retailer relationship management, and real-time stock tracking across the supply chain."
+      "answer": "The system includes comprehensive distribution management with route optimization, retailer relationship management and real-time stock tracking across the supply chain."
     },
     {
       "id": 3,
       "question": "Can it manage multiple product variants?",
-      "answer": "Yes, our solution handles multiple product variants, packaging options, and SKUs with automated batch tracking and expiry date management."
+      "answer": "Yes, our solution handles multiple product variants, packaging options and SKUs with automated batch tracking and expiry date management."
     }
   ],
   "industry": "FMCG",

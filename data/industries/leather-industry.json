@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/leather_banner_img.webp",
+  "banner": "/images/industries/leather_banner_img.webp",
   "title": "Leather Industry Solutions",
-  "description": "Comprehensive ERP solutions designed for leather manufacturers, optimizing tannery operations, quality control, and production processes while ensuring environmental compliance and material traceability.",
+  "description": "Comprehensive ERP solutions designed for leather manufacturers, optimizing tannery operations, quality control and production processes while ensuring environmental compliance and material traceability.",
   "keyPoints": [
     "Tannery Process Management",
     "Quality Grading & Control",
@@ -35,7 +35,7 @@
     {
       "id": 1,
       "question": "How does the system manage tannery processes?",
-      "answer": "Our system provides complete tannery process management including chemical formulations, process scheduling, environmental monitoring, and quality control at each stage."
+      "answer": "Our system provides complete tannery process management including chemical formulations, process scheduling, environmental monitoring and quality control at each stage."
     },
     {
       "id": 2,
@@ -45,7 +45,7 @@
     {
       "id": 3,
       "question": "Can it handle environmental compliance?",
-      "answer": "Yes, our solution manages environmental compliance with effluent treatment monitoring, chemical usage tracking, and regulatory reporting for environmental standards."
+      "answer": "Yes, our solution manages environmental compliance with effluent treatment monitoring, chemical usage tracking and regulatory reporting for environmental standards."
     }
   ],
   "industry": "Leather",

@@ -1,7 +1,7 @@
 {
-  "banner": "/images/banner/garment_banner_img.webp",
+  "banner": "/images/industries/garment_banner_img.webp",
   "title": "Garment Industry Solutions",
-  "description": "Advanced ERP solutions tailored for garment manufacturers, streamlining production processes from design to delivery while optimizing style management, costing, and quality control.",
+  "description": "Advanced ERP solutions tailored for garment manufacturers, streamlining production processes from design to delivery while optimizing style management, costing and quality control.",
   "keyPoints": [
     "Style & Sample Management",
     "Production Planning & Control",
@@ -35,17 +35,17 @@
     {
       "id": 1,
       "question": "How does the system manage different styles and sizes?",
-      "answer": "Our system provides comprehensive style management with size-wise planning, color variations, sample tracking, and detailed specifications management for each style variant."
+      "answer": "Our system provides comprehensive style management with size-wise planning, color variations, sample tracking and detailed specifications management for each style variant."
     },
     {
       "id": 2,
       "question": "What production tracking features are included?",
-      "answer": "The system includes real-time production tracking with line efficiency monitoring, worker productivity analysis, and detailed cost tracking for each production stage."
+      "answer": "The system includes real-time production tracking with line efficiency monitoring, worker productivity analysis and detailed cost tracking for each production stage."
     },
     {
       "id": 3,
       "question": "Can it handle material planning and costing?",
-      "answer": "Yes, our solution manages detailed material requirements planning, consumption analysis, cost calculations, and wastage tracking for optimal resource utilization."
+      "answer": "Yes, our solution manages detailed material requirements planning, consumption analysis, cost calculations and wastage tracking for optimal resource utilization."
     }
   ],
   "industry": "Garment",
