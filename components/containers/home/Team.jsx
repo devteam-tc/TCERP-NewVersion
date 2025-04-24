@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import Image from 'next/image';
 import SectionTitle from "../SectionTitle";
-import { teams } from '@/data/team';
+import { teams } from '../../../data/team';
 import Link from 'next/link';
 import { gsap } from 'gsap';
 

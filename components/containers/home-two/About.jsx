@@ -1,12 +1,11 @@
-import aboutImg from "@/public/images/about-us/about-img.png";
-import aboutShape from "@/public/images/about-us/about-shape.svg";
-import userIcon from "@/public/images/icons/group-user.svg";
+import aboutImg from "../../../public/images/about-us/about-img.png";
+import aboutShape from "../../../public/images/about-us/about-shape.svg";
+import userIcon from "../../../public/images/icons/group-user.svg";
 import Image from "next/image";
 import OdometerCounter from "../Odometer";
 import Link from "next/link";
 import SectionTitle from "../SectionTitle";
-import aboutContent from "../../../data/about.json";
-
+import aboutContent from "../../../data/about/aboutContent.json";
 
 const About = ({extraClassName = ''}) => {
   return (

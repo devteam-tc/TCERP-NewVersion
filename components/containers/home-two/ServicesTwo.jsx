@@ -4,12 +4,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import SectionTitle from "../SectionTitle";
 import Link from "next/link";
-import { servicesTwo } from "@/data/services";
+import { servicesTwo } from "../../../data/services";
 import Image from "next/image";
 
 const ServicesTwo = () => {
   return (
-    <section className="ep-services-section-two mt-120">
+    <section className="ep-services-section-two pt-120">
       <div className="service-main  rounded-30">
         <div className="container">
           <div className="row">

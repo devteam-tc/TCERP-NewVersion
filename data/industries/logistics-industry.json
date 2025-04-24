@@ -1,0 +1,72 @@
+{
+  "banner": "/images/industries/logistics-banner.jpg",
+  "title": "Logistics Industry Solutions",
+  "description": "Advanced ERP solutions designed for logistics and supply chain businesses, optimizing operations from warehousing to last-mile delivery.",
+  "keyPoints": [
+    "Fleet Management",
+    "Warehouse Operations",
+    "Route Optimization",
+    "Shipment Tracking",
+    "Supply Chain Visibility"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/logistics-management.png",
+      "title": "Operations Management",
+      "description": "Comprehensive logistics operations management from warehouse to delivery tracking.",
+      "list": [
+        "Fleet Scheduling",
+        "Warehouse Management",
+        "Delivery Planning"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/logistics-analytics.png",
+      "title": "Performance Analytics",
+      "description": "Real-time analytics and insights for optimizing logistics operations and resource utilization.",
+      "list": [
+        "Delivery Metrics",
+        "Resource Utilization",
+        "Cost Analysis"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle route optimization?",
+      "answer": "Our system uses advanced algorithms for real-time route optimization, considering factors like traffic, delivery windows, and vehicle capacity."
+    },
+    {
+      "id": 2,
+      "question": "Can it manage multiple warehouse operations?",
+      "answer": "Yes, the system supports multi-warehouse management with real-time inventory tracking, pick-pack operations, and cross-docking capabilities."
+    },
+    {
+      "id": 3,
+      "question": "What tracking features are included?",
+      "answer": "The system includes end-to-end shipment tracking, real-time GPS fleet monitoring, and automated delivery status updates."
+    }
+  ],
+  "industry": "Logistics & Supply Chain",
+  "solution": "Integrated Logistics Management System",
+  "modules": [
+    "Fleet Management",
+    "Warehouse Operations",
+    "Route Planning",
+    "Shipment Tracking",
+    "Distribution"
+  ],
+  "result": [
+    "45% improvement in delivery efficiency",
+    "30% reduction in fuel costs",
+    "35% increase in warehouse productivity"
+  ],
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Logistics Industry Solutions Guide",
+    "buttonText": "Download Now"
+  }
+} 

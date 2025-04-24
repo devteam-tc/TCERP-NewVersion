@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import SectionTitle from "../SectionTitle";
-import { testimonials } from "@/data/testmonial";
+import { testimonials } from "../../../data/testmonial";
 import Image from "next/image";
 
 const Testimonial = () => {

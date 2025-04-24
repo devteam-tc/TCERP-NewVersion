@@ -4,15 +4,15 @@ import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { useMediaQuery } from 'react-responsive';
 import  productscardData  from '../../../data/products/productscardData.json';
-import PageHeader from '../../../components/layout/PageHeader';
-import Footer from '../../../components/layout/footer/Footer';
-import Header from '@/components/layout/header/Header';
-import CustomCursor from '@/components/layout/CustomCursor';
+import PageHeader from '../../layout/PageHeader';
+import Footer from '../../layout/footer/Footer';
+import Header from '../../layout/header/Header';
+import CustomCursor from '../../layout/CustomCursor';
 // import ProductCards from '../ProductCards';
-import AboutSection from '../AboutSection';
-import NewProduct from '../NewProduct';
-import FaqSection from '../FaqSection';
-import DownloadWidget from '../DownloadWidget';
+import AboutSection from '../products/AboutSection';
+import NewProduct from '../products/NewProduct';
+import FaqSection from '../products/FaqSection';
+import DownloadWidget from '../products/DownloadWidget';
 
 const ProductPage = ({ slug }) => {
 
@@ -59,7 +59,7 @@ const ProductPage = ({ slug }) => {
 
   const breadcrumbs = [
     { label: 'Home', link: '/' },
-    { label: 'Products', link: '/products' },
+    { label: 'Products', link: '/products'  },
     { label: productName, link: null },
   ];
   

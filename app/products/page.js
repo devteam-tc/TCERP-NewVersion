@@ -5,13 +5,13 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { modulesData } from "../utils/constant";
 import Link from "next/link";
-import Footer from "@/components/layout/footer/Footer";
-import Header from "@/components/layout/header/Header";
-import "./AllProducts.scss"; // SCSS module import
+import Footer from "../../components/layout/footer/Footer";
+import Header from "../../components/layout/header/Header";
+// import "./AllProducts.scss"; // SCSS module import
 import { FaArrowRight } from "react-icons/fa";
-import PageHeader from "@/components/layout/PageHeader";
+import PageHeader from "../../components/layout/PageHeader";
 import Image from "next/image";
-import CategorySection from "./CategorySection";
+import CategorySection from "../../components/containers/products/CategorySection";
 // import WorkProcessSection from "./WorkProcess";
 
 const AllProductsSection = () => {

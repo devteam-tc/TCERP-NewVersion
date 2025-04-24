@@ -4,7 +4,7 @@ import "swiper/swiper-bundle.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import SectionTitle from '../SectionTitle';
-import { services } from '@/data/services';
+import { services } from '../../../data/services';
 import Link from 'next/link';
 import Image from 'next/image';
 

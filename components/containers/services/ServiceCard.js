@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const ServiceCard = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -37,7 +38,7 @@ const ServiceCard = () => {
       <div className="service-box">
         <div className="single-service-box">
           <div className="service-icon">
-            <img src={icon} alt="icon" />
+            <Image src={icon} alt="icon" width={50} height={50}/>
           </div>
           <div className="service-box-content">
             <h4 className="service-title">
@@ -47,7 +48,7 @@ const ServiceCard = () => {
           </div>
         </div>
         <div className="service-thumb">
-          <img src={thumb} alt="thumb" />
+          <Image src={thumb} alt="thumb" width={50} height={50}/>
         </div>
       </div>
     </div>
@@ -97,7 +98,7 @@ const ServiceCard = () => {
           <div className="customImagesWrapper">
             <div className="accordion">
               <div className="accordionItem active">
-                <img src="/images/services/digital.webp" alt="img" />
+                <Image src="/images/services/digital.webp" alt="img" width={50} height={50}/>
                 <div className="conteBox">
                   <div className="box">
                     <div className="serialInner">
@@ -115,7 +116,7 @@ const ServiceCard = () => {
               </div>
 
               <div className="accordionItem">
-                <img src="/images/services/web-app.webp" alt="img" />
+                <Image src="/images/services/web-app.webp" alt="img" width={50} height={50}/>
                 <div className="conteBox">
                   <div className="box">
                     <div className="serialInner">
@@ -133,7 +134,7 @@ const ServiceCard = () => {
               </div>
 
               <div className="accordionItem">
-                <img src="/images/services/mobile-app.webp" alt="img" />
+                <Image src="/images/services/mobile-app.webp" alt="img" width={50} height={50}/>
                 <div className="conteBox">
                   <div className="box">
                     <div className="serialInner">
