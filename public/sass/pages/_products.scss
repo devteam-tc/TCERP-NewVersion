@@ -60,7 +60,8 @@
 // Product Area Styles
 .product-area {
   &.style-two {
-    padding: 120px 0 125px;
+    padding: 0px 0 125px;
+
     @media (max-width: 997px) {
       padding: 0px;
     }
@@ -365,6 +366,125 @@
     }
   }
 }
+.gray {
+  .tf__single_category_icon {
+    background: #6c757d;
+  }
+
+  .tf__single_category_text {
+    border-left: 2px solid #6c757d;
+  }
+
+  &:hover {
+    .tf__single_category_text::after {
+      background: #6c757d;
+    }
+
+    .tf__single_category_icon {
+      color: #6c757d;
+    }
+  }
+}
+
+.orange {
+  .tf__single_category_icon {
+    background: #fd7e14;
+  }
+
+  .tf__single_category_text {
+    border-left: 2px solid #fd7e14;
+  }
+
+  &:hover {
+    .tf__single_category_text::after {
+      background: #fd7e14;
+    }
+
+    .tf__single_category_icon {
+      color: #fd7e14;
+    }
+  }
+}
+
+.red {
+  .tf__single_category_icon {
+    background: #dc3545;
+  }
+
+  .tf__single_category_text {
+    border-left: 2px solid #dc3545;
+  }
+
+  &:hover {
+    .tf__single_category_text::after {
+      background: #dc3545;
+    }
+
+    .tf__single_category_icon {
+      color: #dc3545;
+    }
+  }
+}
+
+.violet {
+  .tf__single_category_icon {
+    background: #6f42c1;
+  }
+
+  .tf__single_category_text {
+    border-left: 2px solid #6f42c1;
+  }
+
+  &:hover {
+    .tf__single_category_text::after {
+      background: #6f42c1;
+    }
+
+    .tf__single_category_icon {
+      color: #6f42c1;
+    }
+  }
+}
+
+.yellow {
+  .tf__single_category_icon {
+    background: #ffc107;
+  }
+
+  .tf__single_category_text {
+    border-left: 2px solid #ffc107;
+  }
+
+  &:hover {
+    .tf__single_category_text::after {
+      background: #ffc107;
+    }
+
+    .tf__single_category_icon {
+      color: #ffc107;
+    }
+  }
+}
+
+.teal {
+  .tf__single_category_icon {
+    background: #20c997;
+  }
+
+  .tf__single_category_text {
+    border-left: 2px solid #20c997;
+  }
+
+  &:hover {
+    .tf__single_category_text::after {
+      background: #20c997;
+    }
+
+    .tf__single_category_icon {
+      color: #20c997;
+    }
+  }
+}
 
 // Download Widget Styles
 .download-section {
@@ -579,7 +699,7 @@ h1.sectionMainTitle span {
   width: 50px;
   height: 60px;
   border-radius: 10px;
-  background-color: #f4f4f4;
+  // background-color: #f4f4f4;
   line-height: 60px;
   margin-right: 14px;
   text-align: center;

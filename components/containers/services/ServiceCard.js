@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import servicesData from '../../../data/servicesData.json';
+import servicesData from '../../../data/services.json';
 
 const ServiceCard = () => {
   const [isMobile, setIsMobile] = useState(false);

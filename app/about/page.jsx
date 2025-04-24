@@ -25,10 +25,7 @@ const page = () => {
       <WhoWeAre/>
       <UniqueFeatures/>
       {/* <Team/> */}
-      {/* <Cta/> */}
-      {/* <Pricing extraClassName="style2"/> */}
-      {/* <Footer/> */}
-      <Footer />
+      <Footer/>
       <CustomCursor/>
     </>
   )
