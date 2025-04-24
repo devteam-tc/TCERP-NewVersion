@@ -24,7 +24,10 @@ const page = () => {
       <About />
       {/* <TextSlider/> */}
       <WhoWeAre/>
+<<<<<<< HEAD
       <UniqueFeatures/>
+=======
+>>>>>>> origin/santhosh
       {/* <Team/> */}
       {/* <Cta/> */}
       {/* <Pricing extraClassName="style2"/> */}
