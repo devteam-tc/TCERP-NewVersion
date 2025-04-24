@@ -22,7 +22,7 @@ const page = () => {
       <About extraClassName="style2"/>
       {/* <TextSlider/> */}
       <WhoWeAre/>
-      <Team/>
+      {/* <Team/> */}
       {/* <Cta/> */}
       {/* <Pricing extraClassName="style2"/> */}
       <Footer/>

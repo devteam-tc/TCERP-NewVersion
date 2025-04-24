@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import servicesData from '../../../data/servicesData.json';
 
 const ServiceCard = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -34,21 +35,38 @@ const ServiceCard = () => {
   }, [isMobile]);
 
   const ServiceBox = ({ icon, title, description, thumb, link }) => (
-    <div className="col-lg-4 col-md-6 mb-5">
-      <div className="service-box">
-        <div className="single-service-box">
-          <div className="service-icon">
-            <Image src={icon} alt="icon" width={50} height={50}/>
+    <div className="col-lg-4 col-md-6 col-sm-12">
+      <div className="service-box mb-4 bg-white rounded-3 overflow-hidden">
+        <div className="single-service-box p-4">
+          <div className="service-icon mb-3">
+            <Image 
+              src={icon} 
+              alt={title} 
+              width={50} 
+              height={50} 
+              className="img-fluid"
+              style={{ objectFit: 'contain' }}
+            />
           </div>
           <div className="service-box-content">
-            <h4 className="service-title">
-              <a href={link}>{title}</a>
+            <h4 className="service-title h5 mb-3">
+              <Link href={link} className="text-decoration-none text-dark">{title}</Link>
             </h4>
-            <p className="service-desc">{description}</p>
+            <p className="service-desc mb-0 text-muted">{description}</p>
           </div>
         </div>
         <div className="service-thumb">
-          <Image src={thumb} alt="thumb" width={50} height={50}/>
+          <Image 
+            src={thumb} 
+            alt={title} 
+            width={400} 
+            height={250} 
+            className="img-fluid w-100"
+            style={{ 
+              objectFit: 'cover',
+              height: '200px'
+            }}
+          />
         </div>
       </div>
     </div>
@@ -71,85 +89,40 @@ const ServiceCard = () => {
         </div>
 
         {isMobile ? (
-          <div className="row">
-            <ServiceBox
-              icon="/images/services/ser-icon.png"
-              title="Web Development"
-              description="Success profesions development our solutions sapien maximu creative services."
-              thumb="/images/services/ser-thumb.webp"
-              link="service-details.html"
-            />
-            <ServiceBox
-              icon="/images/services/ser-icon2.png"
-              title="Digital Marketing"
-              description="Success profesions development our solutions sapien maximu creative services."
-              thumb="/images/services/ser-thumb2.png"
-              link="service-details.html"
-            />
-            <ServiceBox
-              icon="/images/services/ser-icon3.png"
-              title="App Development"
-              description="Success profesions development our solutions sapien maximu creative services."
-              thumb="/images/services/ser-thumb3.png"
-              link="service-details.html"
-            />
+          <div className="row g-4 justify-content-center">
+            {servicesData.services.map((service) => (
+              <ServiceBox
+                key={service.id}
+                icon={service.icon}
+                title={service.title}
+                description={service.description}
+                thumb={service.thumb}
+                link={service.link}
+              />
+            ))}
           </div>
         ) : (
           <div className="customImagesWrapper">
             <div className="accordion">
-              <div className="accordionItem active">
-                <Image src="/images/services/digital.webp" alt="img" width={50} height={50}/>
-                <div className="conteBox">
-                  <div className="box">
-                    <div className="serialInner">
-                      <span className="serial">01</span>
-                      <h4 className="black">
-                        <Link href="/services/digital-marketing" className="black">Digital Marketing</Link>
-                      </h4>
+              {servicesData.services.map((service) => (
+                <div key={service.id} className={`accordionItem ${service.id === 1 ? 'active' : ''}`}>
+                  <Image src={service.thumb} alt={service.title} width={50} height={50}/>
+                  <div className="conteBox">
+                    <div className="box">
+                      <div className="serialInner">
+                        <span className="serial">{service.serial}</span>
+                        <h4 className="black">
+                          <Link href={service.link} className="black">{service.title}</Link>
+                        </h4>
+                      </div>
+                      <p className="pra fs-seven mb-xxl-4 mb-xl-3 mb-2 pb-xxl-1">
+                        {service.description}
+                      </p>
+                      <Link href={service.link} className="fs-seven fw-semibold p1-clr">Explore More</Link>
                     </div>
-                    <p className="pra fs-seven mb-xxl-4 mb-xl-3 mb-2 pb-xxl-1">
-                      The housekeepers we hired are professionals who take pride
-                    </p>
-                    <Link href="/services/digital-marketing" className="fs-seven fw-semibold p1-clr">Explore More</Link>
                   </div>
                 </div>
-              </div>
-
-              <div className="accordionItem">
-                <Image src="/images/services/web-app.webp" alt="img" width={50} height={50}/>
-                <div className="conteBox">
-                  <div className="box">
-                    <div className="serialInner">
-                      <span className="serial">02</span>
-                      <h4 className="black">
-                        <Link href="/services/web-development" className="black">Web Development</Link>
-                      </h4>
-                    </div>
-                    <p className="pra fs-seven mb-xxl-4 mb-xl-3 mb-2 pb-xxl-1">
-                      The housekeepers we hired are professionals who take pride
-                    </p>
-                    <Link href="/services/web-development" className="fs-seven fw-semibold p1-clr">Explore More</Link>
-                  </div>
-                </div>
-              </div>
-
-              <div className="accordionItem">
-                <Image src="/images/services/mobile-app.webp" alt="img" width={50} height={50}/>
-                <div className="conteBox">
-                  <div className="box">
-                    <div className="serialInner">
-                      <span className="serial">03</span>
-                      <h4 className="black">
-                        <Link href="/services/app-development" className="black">App Development</Link>
-                      </h4>
-                    </div>
-                    <p className="pra fs-seven mb-xxl-4 mb-xl-3 mb-2 pb-xxl-1">
-                      The housekeepers we hired are professionals who take pride
-                    </p>
-                    <Link href="/services/app-development" className="fs-seven fw-semibold p1-clr">Explore More</Link>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         )}
