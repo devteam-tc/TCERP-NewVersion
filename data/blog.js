@@ -1,23 +1,23 @@
 // blog images
-import blogImg1 from '@/public/images/blog/blog-img-1.png';
-import blogImg2 from '@/public/images/blog/blog-img-2.png';
-import blogImg3 from '@/public/images/blog/blog-img-3.png';
+import blogImg1 from '../public/images/blog/blog-img-1.png';
+import blogImg2 from '../public/images/blog/blog-img-2.png';
+import blogImg3 from '../public/images/blog/blog-img-3.png';
 
 // blog two images
-import blog2Img1 from '@/public/images/blog/blog-2-img-1.png';
-import blog2Img2 from '@/public/images/blog/blog-2-img-2.png';
-import blog2Img3 from '@/public/images/blog/blog-2-img-3.png';
-import blog2Img4 from '@/public/images/blog/blog-2-img-4.png';
+import blog2Img1 from '../public/images/blog/blog-2-img-1.png';
+import blog2Img2 from '../public/images/blog/blog-2-img-2.png';
+import blog2Img3 from '../public/images/blog/blog-2-img-3.png';
+import blog2Img4 from '../public/images/blog/blog-2-img-4.png';
 
 // blog single images
-import blogSingleImg1 from '@/public/images/blog/blog-single-img-1.png';
-import blogSingleImg2 from '@/public/images/blog/blog-single-img-2.png';
-import blogSingleImg3 from '@/public/images/blog/blog-single-img-3.png';
+import blogSingleImg1 from '../public/images/blog/blog-single-img-1.png';
+import blogSingleImg2 from '../public/images/blog/blog-single-img-2.png';
+import blogSingleImg3 from '../public/images/blog/blog-single-img-3.png';
 
 // blog sidebar images
-import blogSmImg1 from '@/public/images/blog/blog-sm-img-1.png';
-import blogSmImg2 from '@/public/images/blog/blog-sm-img-2.png';
-import blogSmImg3 from '@/public/images/blog/blog-sm-img-3.png';
+import blogSmImg1 from '../public/images/blog/blog-sm-img-1.png';
+import blogSmImg2 from '../public/images/blog/blog-sm-img-2.png';
+import blogSmImg3 from '../public/images/blog/blog-sm-img-3.png';
 
 export const blogs = [{
     img: blogImg1,

@@ -75,16 +75,16 @@ const DownloadSection = ({ onDownload }) => {
   
   // Get the correct data based on the current route
   const getServiceData = () => {
-    switch (pathname) {
-      case '/services/app-development':
-        return appDevData.downloadGuide;
-      case '/services/web-development':
+    if (pathname.startsWith('/services')) {
+      if (pathname.includes('web-development')) {
         return webDevData.downloadGuide;
-      case '/services/digital-marketing':
+      } else if (pathname.includes('digital-marketing')) {
         return digitalMarketingData.downloadGuide;
-      default:
-        return null;
+      } else {
+        return appDevData.downloadGuide;
+      }
     }
+    return null;
   };
 
   const data = getServiceData();

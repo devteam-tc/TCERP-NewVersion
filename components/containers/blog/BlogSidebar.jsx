@@ -1,6 +1,6 @@
-import { blogSidebar } from "@/data/blog"
-import { categories } from "@/data/categories"
-import { blogTags } from "@/data/tags"
+import { blogSidebar } from "../../../data/blog"
+import { categories } from "../../../data/categories"
+import { blogTags } from "../../../data/tags"
 import Image from "next/image"
 import Link from "next/link"
 

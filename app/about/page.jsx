@@ -7,6 +7,7 @@ import Footer from "../../components/layout/footer/Footer"
 import Header from "../../components/layout/header/Header"
 import PageHeader from "../../components/layout/PageHeader"
 import { FaHome } from 'react-icons/fa';
+import UniqueFeatures from "../../components/containers/home-two/UniqueFeatures";
 
 const page = () => {
   const breadcrumbs = [
@@ -16,12 +17,18 @@ const page = () => {
   return (
     <>
       <Header/>
-      <PageHeader title="About Us" breadcrumbs={breadcrumbs}/>
-      <About extraClassName="style2"/>
+      {/* <PageHeader title="About Us" breadcrumbs={breadcrumbs}/> */}
+      <PageHeader />
+      {/* <About extraClassName="style2"/> */}
+      <About />
       {/* <TextSlider/> */}
       <WhoWeAre/>
+      <UniqueFeatures/>
       {/* <Team/> */}
-      <Footer/>
+      {/* <Cta/> */}
+      {/* <Pricing extraClassName="style2"/> */}
+      {/* <Footer/> */}
+      <Footer />
       <CustomCursor/>
     </>
   )
