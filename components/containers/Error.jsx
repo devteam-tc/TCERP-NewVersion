@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import errorImg from '@/public/images/img/error.gif';
+import errorImg from '../../public/images/img/error.gif';
 import Image from 'next/image';
 const Error = () => {
   return (

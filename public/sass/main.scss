@@ -1,6 +1,9 @@
-@use "./pages/home"as *;
-@use "./pages/service-details"as *;
-@use "./pages/project-details"as *;
-@use "./pages/blog"as *;
-@use "./pages/blog-details"as *;
-@use "./pages/contact"as *;
+@use "./pages/_home" as *;
+@use "./pages/_project-details" as *;
+@use "./pages/_blog" as *;
+@use "./pages/_blog-details" as *;
+@use "./pages/_contact" as *;
+@use "./pages/_service-section" as *;
+@use "./pages/_cards" as *;
+@use "./pages/_industries" as *;
+@use "./pages/_products" as *;

@@ -1,0 +1,363 @@
+{
+  "tech-cloud-erp": {
+    "mainTitle": "Our ERP Overview",
+    "cards": [
+      {
+        "image": "/products/tcerp/sale.png",
+        "title": "Sales & Marketing",
+        "text": "Automate sales processes, manage campaigns and analyze performance metrics to boost revenue and market reach."
+      },
+      {
+        "image": "/products/tcerp/purchase.png",
+        "title": "Purchase Management",
+        "text": "Streamline procurement cycles, from requisition to payment, ensuring timely acquisitions and supplier coordination."
+      },
+      {
+        "image": "/products/tcerp/stores.png",
+        "title": "Stores & Inventory",
+        "text": "Maintain optimal stock levels with real-time tracking, automated reordering and multi-location inventory management."
+      },
+      {
+        "image": "/products/tcerp/production.png",
+        "title": "Production Planning & Control",
+        "text": "Optimize manufacturing workflows with tools for scheduling, resource allocation and real-time production monitoring."
+      },
+      {
+        "image": "/products/tcerp/quality.png",
+        "title": "Quality Management",
+        "text": "Ensure product excellence through automated quality checks, compliance tracking and detailed inspection records."
+      },
+      {
+        "image": "/products/tcerp/plantmain.png",
+        "title": "Plant Maintenance",
+        "text": "Schedule preventive maintenance, monitor equipment health and reduce downtime with proactive asset management."
+      }
+    ]
+  },
+  "customer-relationship-management": {
+    "mainTitle": "Our CRM Solutions Overview",
+    "cards": [
+      {
+        "image": "/products/CRM/contact.png",
+        "title": "Lead Management",
+        "text": "Easily collect and organize new leads. Assign them to your team automatically and follow up on time, so no opportunity is missed."
+      },
+      {
+        "image": "/products/CRM/target customers.png",
+        "title": "Customizable Dashboards",
+        "text": "See all your important numbers like leads, sales and team performance on a dashboard that fits your needs."
+      },
+      {
+        "image": "/products/CRM/organise.png",
+        "title": "Opportunity Pipeline",
+        "text": "See all your deals in one place. Move them through each stage from first contact to final sale with simple drag and-drop features."
+      },
+      {
+        "image": "/products/CRM/manage.png",
+        "title": "Activity & Follow-Up Scheduler",
+        "text": "Set reminders, follow-ups and meetings so your team never misses a task. Stay on top of daily activities with alerts and notifications."
+      },
+      {
+        "image": "/products/CRM/Streamline workflow.png",
+        "title": "Customer Database",
+        "text": "Store customer details, contact history and documents in a single place. Know exactly where you stand with every client."
+      },
+      {
+        "image": "/products/CRM/Invoicing & Order Management.png",
+        "title": "Quotation & Sales Order Integration",
+        "text": "Create and send professional quotes quickly. Convert them into sales orders with just one click saving time and effort."
+      },
+      {
+        "image": "/products/CRM/Case Management.png",
+        "title": "Campaign Management",
+        "text": "Efficiently manage and resolve customer issues with our CRM to improve satisfaction and loyalty. Prioritize tasks for timely resolution."
+      },
+      {
+        "image": "/products/CRM/projectmanage.png",
+        "title": "Support Ticketing",
+        "text": "Solve customer issues faster with an easy-to-use ticket system. Track requests, assign tasks and respond quickly."
+      },
+      {
+        "image": "/products/CRM/email marketing.png",
+        "title": "Full ERP Integration",
+        "text": "Tech Cloud CRM connects with other ERP modules like Sales, Finance and Inventory for a complete business solution."
+      }
+    ]
+  },
+  "point-of-sale": {
+    "mainTitle": "Popular Tech Cloud POS",
+    "cards": [
+      {
+        "image": "/products/POS/webdevelopment.png",
+        "title": "Fast & Accurate Billing",
+        "text": "Quickly process sales with barcode scanning and touch-friendly interfaces, reducing checkout times and errors."
+      },
+      {
+        "image": "/products/POS/customerunderstanding.png",
+        "title": "Offline Functionality",
+        "text": "Continue sales operations uninterrupted during internet outages; data syncs automatically once reconnected."
+      },
+      {
+        "image": "/products/POS/discount.png",
+        "title": "Multi-Device Compatibility",
+        "text": "Operate the POS system on tablets, desktops, or mobile devices, providing flexibility in various retail environments.​"
+      },
+      {
+        "image": "/products/POS/inventory.png",
+        "title": "Integrated Inventory Management",
+        "text": "Maintain real-time stock levels across all locations, preventing stockouts and overstock situations.​"
+      },
+      {
+        "image": "/products/POS/cashmanage.png",
+        "title": "Customizable Receipts",
+        "text": "Personalize receipts with promotional messages, branding and essential business information.​"
+      },
+      {
+        "image": "/products/POS/customreceipts.png",
+        "title": "Loyalty Programs & Discounts",
+        "text": "Implement customer loyalty schemes and manage discounts or promotional offers directly through the POS."
+      },
+      {
+        "image": "/products/POS/fasttraining.png",
+        "title": "Multi-Payment Options",
+        "text": "Accept various payment methods, including cash, credit/debit cards, UPI and digital wallets, enhancing customer convenience.​"
+      },
+      {
+        "image": "/products/POS/useraccount.png",
+        "title": "Customer Relationship Management",
+        "text": "Capture customer details at the point of sale to build profiles, track purchase history and tailor marketing efforts.​"
+      },
+      {
+        "image": "/products/POS/data-analysis.png",
+        "title": "Real-Time Reporting & Analytics",
+        "text": "Access sales reports, employee performance and inventory data instantly to make informed business decisions.​"
+      }
+    ]
+  },
+  "trading-software": {
+    "mainTitle": "Why Choose Tech Cloud ERP",
+    "cards": [
+      {
+        "image": "/products/trading/newcustomer.png",
+        "title": "Sales & Quotation Management",
+        "text": "Create, manage and track sales inquiries and quotations with ease. Close deals faster with accurate pricing and stock visibility."
+      },
+      {
+        "image": "/products/trading/customermanage.png",
+        "title": "Purchase & Vendor Control",
+        "text": "Simplify your purchasing process from order placement to vendor payments while keeping costs under control."
+      },
+      {
+        "image": "/products/trading/purchase.png",
+        "title": "Inventory Tracking",
+        "text": "Track inventory across warehouses in real time. Get alerts for low stock and manage reorders effortlessly."
+      },
+      {
+        "image": "/products/trading/streamline.png",
+        "title": "Billing & Invoicing",
+        "text": "Generate professional invoices, credit notes and tax-compliant bills quickly and accurately."
+      },
+      {
+        "image": "/products/trading/shipping.png",
+        "title": "Customer Management",
+        "text": "Store customer history, preferences and past orders in one place. Improve relationships and repeat sales."
+      },
+      {
+        "image": "/products/trading/accounts.png",
+        "title": "Multi-Warehouse Support",
+        "text": "Manage inventory and transfers across multiple branches with centralized control and visibility."
+      }
+    ]
+  },
+  "Ecommerce-software": {
+    "mainTitle": "Our E-Commerce Overview",
+    "cards": [
+      {
+        "image": "/products/ecommerce/automation.png",
+        "title": "ERP-Ecommerce Integration",
+        "text": "Automatically sync data between your ERP and ecommerce site including inventory, pricing, shipping and customer details to eliminate manual data entry and errors."
+      },
+      {
+        "image": "/products/ecommerce/website-builder.png",
+        "title": "Product & Catalog Management",
+        "text": "Manage digital catalogs with dynamic pricing, detailed product descriptions, images and categories directly from your ERP."
+      },
+      {
+        "image": "/products/ecommerce/database.png",
+        "title": "Order & Fulfillment Automation",
+        "text": "Streamline order processing, fulfilment and tracking. Orders placed online are automatically reflected in your ERP for fast, accurate execution."
+      },
+      {
+        "image": "/products/ecommerce/search.png",
+        "title": "Customer Self-Service Portal",
+        "text": "Allow customers to view order history, track shipments, manage returns and access invoices improving satisfaction and reducing support requests."
+      },
+      {
+        "image": "/products/ecommerce/integration.png",
+        "title": "Multi-Channel Selling",
+        "text": "Sell across multiple platforms web, mobile, marketplaces with centralized control and real-time inventory updates."
+      },
+      {
+        "image": "/products/ecommerce/data-visualization.png",
+        "title": "Pricing & Discount Engine",
+        "text": "Customize pricing for different customer groups or locations. Run promotions, discounts and special offers all driven by ERP rules."
+      }
+    ]
+  },
+  "hr-managament-software": {
+    "mainTitle": "Our HR Management Solutions",
+    "cards": [
+      {
+        "image": "/products/Hr/recruitment.png",
+        "title": "Employee Lifecycle Management",
+        "text": "Manage hiring, onboarding, performance, transfers, promotions and offboarding with full visibility and control across all HR touchpoints."
+      },
+      {
+        "image": "/products/Hr/onboarding.png",
+        "title": "Recruitment & Applicant Tracking",
+        "text": "Attract and hire top talent faster with streamlined job postings, resume management, applicant tracking and interview scheduling."
+      },
+      {
+        "image": "/products/Hr/welfare.png",
+        "title": "Payroll Management",
+        "text": "Automate complex payroll processes with accurate calculations for salary, taxes, deductions, benefits and compliance with local labor laws."
+      },
+      {
+        "image": "/products/Hr/training.png",
+        "title": "Attendance & Leave Tracking",
+        "text": "Monitor employee attendance, working hours, shifts and leave balances in real time using biometric or digital check-in systems."
+      },
+      {
+        "image": "/products/Hr/leave.png",
+        "title": "Performance Management",
+        "text": "Set goals, conduct evaluations and track employee performance with feedback tools, appraisal cycles and performance dashboards."
+      },
+      {
+        "image": "/products/Hr/payroll.png",
+        "title": "Employee Self-Service Portal",
+        "text": "Empower employees with access to personal data, payslips, leave applications, attendance logs and HR announcements from anywhere."
+      },
+      {
+        "image": "/products/Hr/dashboard.png",
+        "title": "Analytics & HR Dashboards",
+        "text": "Get actionable insights into hiring trends, attrition rates, workforce productivity and more with real-time analytics and custom dashboards."
+      },
+      {
+        "image": "/products/Hr/versatility.png",
+        "title": "Compliance & Document Management",
+        "text": "Maintain employee records, contracts and HR documents securely with role-based access and automated policy compliance."
+      },
+      {
+        "image": "/products/Hr/real-time.png",
+        "title": "Training & Development",
+        "text": "Plan and manage training programs, skill development sessions and certification tracking to upskill your workforce effectively."
+      }
+    ]
+  },
+  "financial-management-systems": {
+    "mainTitle": "Finance Provide You Best Services",
+    "cards": [
+      {
+        "image": "/products/Finance/functionalities.png",
+        "title": "General Ledger",
+        "text": "Track every financial transaction across your business with a centralized ledger that supports compliance and audit readiness."
+      },
+      {
+        "image": "/products/Finance/report.png",
+        "title": "Accounts Payable",
+        "text": "Manage vendor payments, due dates and expenses efficiently while avoiding duplicate or delayed payments."
+      },
+      {
+        "image": "/products/Finance/features.png",
+        "title": "Accounts Receivable",
+        "text": "Streamline customer invoicing and collections to maintain healthy cash flow and reduce outstanding receivables."
+      },
+      {
+        "image": "/products/Finance/report.png",
+        "title": "Cash Flow Management",
+        "text": "Monitor inflows and outflows in real time to ensure liquidity and make informed business decisions."
+      }
+      
+    ]
+  },
+  "integrated-erp-software": {
+    "mainTitle": "Comprehensive Tech Cloud ERP Solutions",
+    "cards": [
+      {
+        "image": "/products/integrated/crm.png",
+        "title": "Customer Relationship Management (CRM)",
+        "text": "Track leads, nurture prospects, manage sales pipelines and improve post-sales engagement through a centralized CRM dashboard."
+      },
+      {
+        "image": "/products/integrated/point.png",
+        "title": "Point of Sale (POS)",
+        "text": "Speed up in-store billing and reduce customer wait times with an intuitive POS system connected directly to backend systems."
+      },
+      {
+        "image": "/products/integrated/ecommerce.png",
+        "title": "E-Commerce Integration",
+        "text": "Manage online product listings, automate order processing and sync inventory across platforms like web stores and marketplaces."
+      }
+    ]
+  },
+  "erp-for-restaraunt": {
+    "mainTitle": "Streamlined Restaurant Management Solutions",
+    "cards": [
+      {
+        "image": "/products/restaurant/point-of-service.png",
+        "title": "Restaurant POS System",
+        "text": "Quick and user-friendly POS interface for managing dine-in, takeaway and delivery orders with GST billing."
+      },
+      {
+        "image": "/products/restaurant/purchase.png",
+        "title": "Kitchen Order Ticket (KOT) Management",
+        "text": "Digitally generate and send orders directly to the kitchen to eliminate communication delays and order errors."
+      },
+      {
+        "image": "/products/restaurant/inventory-management.png",
+        "title": "Inventory & Recipe Management",
+        "text": "Monitor ingredient usage, control wastage and standardize recipes for consistent food quality."
+      },
+      {
+        "image": "/products/restaurant/receipe.png",
+        "title": "Menu Customization",
+        "text": "Easily update items, pricing and combo offers across one or multiple restaurant outlets."
+      },
+      {
+        "image": "/products/restaurant/time-management.png",
+        "title": "Billing & Payment Processing",
+        "text": "Support for multi-mode payments (cash, UPI, cards), split bills, discounts and tax calculations."
+      },
+      {
+        "image": "/products/restaurant/payroll.png",
+        "title": "Multi-Outlet Monitoring",
+        "text": "Manage multiple branches from a single dashboard with real-time data on sales, stock and staff."
+      }
+    ]
+  },
+  "erp-for-accounting-software": {
+    "mainTitle": "Reliable, Efficient Delivery",
+    "cards": [
+      {
+        "image": "/products/Accouting/module.png",
+        "title": "Ledger & Journal Management",
+        "text": "Maintain detailed general ledgers and record all journal entries with automatic reconciliation."
+      },
+      {
+        "image": "/products/Accouting/feature.png",
+        "title": "Professional Invoicing",
+        "text": "Generate GST-compliant invoices with custom branding, item-wise tax breakdowns and payment tracking."
+      },
+      {
+        "image": "/products/Accouting/support.png",
+        "title": "Accounts Payable & Receivable",
+        "text": "Monitor vendor dues and customer payments with aging reports and reminders to maintain cash flow."
+      },
+      {
+        "image": "/products/Accouting/pricing.png",
+        "title": "Financial Statements",
+        "text": "Auto-generate profit & loss reports, balance sheets and cash flow statements for internal and external reporting."
+      }
+    ]
+  }
+}

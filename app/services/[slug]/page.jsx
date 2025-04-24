@@ -1,59 +1,74 @@
 import { notFound } from 'next/navigation';
-import Header from "@/components/layout/header/Header";
-import PageHeader from "@/components/layout/PageHeader";
-import Footer from "@/components/layout/footer/Footer";
-import CustomCursor from "@/components/layout/CustomCursor";
-import AboutSection from './AboutSection';
-import FAQSection from './FAQSection';
-import Specifications from './Specifications';
- 
-// Static service data
-const servicesData = {
-  'web-development': {
-    title: 'Web Development',
-    description: 'We build responsive, fast websites for all industries.',
-  },
-  'app-development': {
-    title: 'App Development',
-    description: 'Custom mobile and desktop apps tailored to your business.',
-  },
-  'digital-marketing': {
-    title: 'Digital Marketing',
-    description: 'Grow your brand online with SEO, PPC, and social media.',
-  },
-};
+// import Header from "@/components/layout/header/Header";
+import Header from "../../../components/layout/header/Header"
+import PageHeader from "../../../components/layout/PageHeader";
+import Footer from "../../../components/layout/footer/Footer";
+import CustomCursor from "../../../components/layout/CustomCursor";
+import AboutSection from '../../../components/containers/service-details/AboutSection';
+import FAQSection from '../../../components/containers/service-details/FAQSection';
+import Specifications from '../../../components/containers/service-details/Specifications';
+import { getServiceData, getServiceBreadcrumbs } from '../../utils/serviceUtils';
+import { VALID_SERVICE_SLUGS, COMPANY_NAME } from '../../config/services';
 
-// Generate static paths for each service
-export async function generateStaticParams() {
-  return Object.keys(servicesData).map(slug => ({ slug }));
+/**
+ * Generate static paths for each service
+ * @returns {Array<{slug: string}>}
+ */
+export function generateStaticParams() {
+  return VALID_SERVICE_SLUGS.map(slug => ({
+    slug,
+  }));
 }
 
-const Page = ({ params }) => {
-  const { slug } = params;
-  const service = servicesData[slug];
+/**
+ * Generate metadata for the service page
+ * @param {Object} params - Route parameters
+ * @param {string} params.params.slug - Service slug
+ * @returns {Object} Page metadata
+ */
+export async function generateMetadata({ params }) {
+  const service = getServiceData(params.slug);
+  
+  if (!service) {
+    return notFound();
+  }
+  
+  return {
+    title: `${service.title} - ${COMPANY_NAME}`,
+    description: service.description,
+  };
+}
 
-  if (!service) return notFound();
+// Disable dynamic paths to ensure only predefined services are accessible
+export const dynamicParams = false;
 
-  const breadcrumbs = [
-    { label: 'Home', link: '/' },
-    { label: 'Services', link: '/services' },
-    { label: service.title, link: null },
-  ];
+/**
+ * Service page component
+ * @param {Object} props - Component props
+ * @param {Object} props.params - Route parameters
+ * @param {string} props.params.slug - Service slug
+ * @returns {JSX.Element} Service page
+ */
+export default function ServicePage({ params }) {
+  const service = getServiceData(params.slug);
+  
+  if (!service) {
+    return notFound();
+  }
+  
+  const breadcrumbs = getServiceBreadcrumbs(params.slug, service.title);
 
   return (
-    <>
+    <main className="service-page">
       <Header />
       <PageHeader title={service.title} breadcrumbs={breadcrumbs} />
-      <div className="container  ">
-        <AboutSection slug={slug} />
-        <Specifications slug={slug} />
+      <div className="container">
+        <AboutSection slug={params.slug} />
       </div>
-      
-      <FAQSection service={slug} />
-       <Footer />
+      <Specifications slug={params.slug} />
+      <FAQSection service={params.slug} />
+      <Footer />
       <CustomCursor />
-    </>
+    </main>
   );
-};
-
-export default Page;
+}

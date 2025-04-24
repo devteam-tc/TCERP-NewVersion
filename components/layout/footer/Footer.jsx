@@ -1,11 +1,7 @@
 import Link from 'next/link'
-import footerIcon1 from '@/public/images/icons/footer-short-icon-1.svg';
-import footerIcon2 from '@/public/images/icons/footer-short-icon-2.svg';
-import footerIcon3 from '@/public/images/icons/footer-short-icon-3.svg';
 // import logo2 from '@/public/images/logo/logo2.svg';
-import logo2 from '@/public/images/logo/logo.webp';
+import logo2 from '../../../public/images/logo/logo.webp';
 import Image from 'next/image';
-import ScrollToTop from '../ScrollProgressButton';
 import ScrollProgressButton from '../ScrollProgressButton';
 
 const Footer = () => {
@@ -47,7 +43,7 @@ const Footer = () => {
                             </div>
                             <h4 className="title">Email </h4>
                           </div>
-                          <a href="mailto:info@techclouderp.com">info@techclouderp.com</a>
+                          <p> <a href="mailto:info@techclouderp.com">info@techclouderp.com</a></p>
                         </li>
                       </ul>
                     </div>
@@ -73,16 +69,14 @@ const Footer = () => {
                   <div className="footer-widget footer-links links-widget">
                     <h4 className="footer-title">Industries</h4>
                     <ul className="list-unstyled">
-                      <li><Link href="/about">All Industries</Link></li>
-                      <li><Link href="/services">Jewellery</Link></li>
-                      <li><Link href="/projects">Pharma</Link></li>
-                      <li><Link href="/blog">Agriculture</Link></li>
-                      <li><Link href="/contact">Beverage</Link></li>
-                      <li><Link href="/contact">Leather</Link></li>
-                      <li><Link href="/contact">Beverage</Link></li>
-                      <li><Link href="/contact">Textile</Link></li>
-                      {/* <li><Link href="/contact">Food</Link></li>
-                      <li><Link href="/contact">Tech Cloud Trading</Link></li> */}
+                      <li><Link href="/industries">All Industries</Link></li>
+                      <li><Link href="/industries/jewellery-industry">Jewellery</Link></li>
+                      <li><Link href="/industries/pharma-industry">Pharma</Link></li>
+                      <li><Link href="/industries/agriculture-industry">Agriculture</Link></li>
+                      <li><Link href="/industries/beverage-industry">Beverage</Link></li>
+                      <li><Link href="/industries/leather-industry">Leather</Link></li>
+                      <li><Link href="/industries/textiles-industry">Textile</Link></li>
+                      <li><Link href="/industries/food-industry">Food</Link></li>
                     </ul>
                   </div>
                 </div>

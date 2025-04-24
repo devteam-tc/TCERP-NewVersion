@@ -1,4 +1,4 @@
-import logo from "@/public/images/logo/logo.webp";
+import logo from "../../../public/images/logo/logo.webp";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -82,7 +82,7 @@ const menus = [
   {
     id: 5,
     title: "Services",
-    link: "#",
+    link: "/services",
     submenu: [
       {
         id: 31,

@@ -1,16 +1,18 @@
 // page.js
 import IntroSection from './Introsection';
 import Footer from '../../components/layout/footer/Footer';
-import CustomCursor from "@/components/layout/CustomCursor";
-import AuditPage from '../products/AuditPage';
-import Faq from '@/components/containers/home/Faq';
-import Header from '@/components/layout/header/Header';
-import PageHeader from '@/components/layout/PageHeader';
-import CardsSection from './CardsSection';
+import CustomCursor from "../../components/layout/CustomCursor";
+import AuditPage from '../../components/containers/products/AuditPage';
+import Faq from '../../components/containers/home/Faq';
+import Header from '../../components/layout/header/Header';
+import PageHeader from '../../components/layout/PageHeader';
+// import CardsSection from './CardsSection';
+import BusinessCards from './BusinessCards';
+import { FaHome } from 'react-icons/fa';
 
 
 const breadcrumbs = [
-  { label: 'Home', link: '/' },
+  { label: 'Home', link: '/', icon: FaHome },
   { label: 'Business Intelligence', link: null }
 ];
 export const metadata = {
@@ -18,7 +20,6 @@ export const metadata = {
   description: "Discover how Tech Cloud ERP's business intelligence tools empower your business with actionable insights. Turn data into your competitive edge today!",
   keywords: "what is business intelligence, business intelligence, top business intelligence software, ERP and Business Intelligence",
 };
-
 // Function to generate FAQ structured data
 const generateFAQSchema = (faqs) => {
   if (!faqs || faqs.length === 0) return null;
@@ -37,29 +38,21 @@ const generateFAQSchema = (faqs) => {
   };
 };
 
-
 export default function Page() {
   return (
     <div className="min-h-screen">
       <Header />
-
-    
-
-    
-
       <main>
       <PageHeader title="Business Intelligence" breadcrumbs={breadcrumbs} />
         <IntroSection />
      <AuditPage />
-     <CardsSection />
+     {/* <CardsSection /> */}
+     <BusinessCards />
      <Faq />
       </main>
-
       <Footer />
       <CustomCursor/>
-
       {/* Inject Structured FAQ Data */}
-     
     </div>
   );
 }

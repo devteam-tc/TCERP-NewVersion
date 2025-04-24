@@ -306,7 +306,7 @@
         max-width: 276px;
 
         .form-control {
-          width: 100%;
+          width: 100% !important;
           height: 63px;
           border-radius: 50px !important;
           background-color: rgba(255, 255, 255, 0.1);
@@ -542,6 +542,7 @@
 
   .ep-footer-section .footer-bg .footer-main .footer-about .short-info p {
     padding-right: 0;
+    text-align: left;
   }
 
   .ep-footer-section .footer-bg .footer-main .recent-post-widget {
