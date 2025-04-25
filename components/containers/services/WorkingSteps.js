@@ -10,8 +10,8 @@ const WorkingSteps = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title text-center">
-                <h6 className="section-sub-title">work process</h6>
-                <h1 className="section-main-title2">WORKS IN 3 EASY STEPS</h1>
+                <h6 className="section-sub-title">Work Process</h6>
+                <h1 className="section-main-title2">WORKS IN 4 EASY STEPS</h1>
               </div>
             </div>
           </div>
@@ -31,8 +31,8 @@ const WorkingSteps = () => {
                   </div>
                 </div>
                 <div className="process-content">
-                  <h4>Design & Prototyping</h4>
-                  <p>Solution is a long established proces reada content a looking at layout point.</p>
+                  <h4>Discussion & Planning</h4>
+                  <p>We start with in-depth discussions to understand your goals, target audience and market needs, then develop a plan that is unique to your business's vision.</p>
                 </div>
               </div>
             </div>
@@ -51,8 +51,8 @@ const WorkingSteps = () => {
                   </div>
                 </div>
                 <div className="process-content">
-                  <h4>Design & Prototyping</h4>
-                  <p>Solution is a long established proces reada content a looking at layout point.</p>
+                  <h4>Strategy & Design</h4>
+                  <p>Based on research, we create a strategy and create intuitive designs that match your brand while providing a smooth user experience.</p>
                 </div>
               </div>
             </div>
@@ -71,8 +71,8 @@ const WorkingSteps = () => {
                   </div>
                 </div>
                 <div className="process-content">
-                  <h4>Design & Prototyping</h4>
-                  <p>Solution is a long established proces reada content a looking at layout point.</p>
+                  <h4>Build & Optimize</h4>
+                  <p>Our team of experts use the latest technologies to create your solution, which is constantly optimised for speed, SEO and performance.</p>
                 </div>
               </div>
             </div>
@@ -91,8 +91,8 @@ const WorkingSteps = () => {
                   </div>
                 </div>
                 <div className="process-content">
-                  <h4>Design & Prototyping</h4>
-                  <p>Solution is a long established proces reada content a looking at layout point.</p>
+                  <h4>Launch & Support</h4>
+                  <p>We implement the final solution, monitor performance and offer post-launch support to ensure that your platform runs properly.</p>
                 </div>
               </div>
             </div>

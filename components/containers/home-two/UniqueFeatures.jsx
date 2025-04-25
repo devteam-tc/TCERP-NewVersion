@@ -103,11 +103,14 @@ const UniqueFeatures = () => {
                 <div className="d-flex align-items-center gap-3">
                   <div className="feature-icon flex-shrink-0">
                     <Image
-                      src={feature.icon}
+                      src={feature.icon || "/images/industries/default-card-image.png"}
                       alt={feature.alt}
                       width={40}
                       height={40}
                       className="img-fluid"
+                      onError={(e) => {
+                        e.target.src = "/images/industries/default-card-image.png";
+                      }}
                     />
                   </div>
                   <h5 className="mb-0">{feature.title}</h5>
