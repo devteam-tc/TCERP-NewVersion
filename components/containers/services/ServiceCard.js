@@ -1,4 +1,5 @@
 'use client';
+import './cards.scss';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -35,37 +36,32 @@ const ServiceCard = () => {
   }, [isMobile]);
 
   const ServiceBox = ({ icon, title, description, thumb, link }) => (
-    <div className="col-lg-4 col-md-6 col-sm-12">
-      <div className="service-box mb-4 bg-white rounded-3 overflow-hidden">
-        <div className="single-service-box p-4">
-          <div className="service-icon mb-3">
+    <div className="col-lg-4 col-md-6 col-sm-12 mb-5">
+      <div className="service-box">
+        <div className="single-service-box">
+          <div className="service-icon">
             <Image 
               src={icon} 
               alt={title} 
               width={50} 
               height={50} 
-              className="img-fluid"
-              style={{ objectFit: 'contain' }}
+              
             />
           </div>
           <div className="service-box-content">
-            <h4 className="service-title h5 mb-3">
+            <h4 className="service-title">
               <Link href={link} className="text-decoration-none text-dark">{title}</Link>
             </h4>
-            <p className="service-desc mb-0 text-muted">{description}</p>
+            <p className="service-desc ">{description}</p>
           </div>
         </div>
         <div className="service-thumb">
           <Image 
             src={thumb} 
             alt={title} 
-            width={400} 
-            height={250} 
-            className="img-fluid w-100"
-            style={{ 
-              objectFit: 'cover',
-              height: '200px'
-            }}
+            width={50} 
+            height={50} 
+             
           />
         </div>
       </div>
@@ -106,7 +102,13 @@ const ServiceCard = () => {
             <div className="accordion">
               {servicesData.services.map((service) => (
                 <div key={service.id} className={`accordionItem ${service.id === 1 ? 'active' : ''}`}>
-                  <Image src={service.thumb} alt={service.title} width={50} height={50}/>
+                  <Image 
+                    src={service.thumb} 
+                    alt={service.title} 
+                    width={800} 
+                    height={600}
+                    className="img-fluid"
+                  />
                   <div className="conteBox">
                     <div className="box">
                       <div className="serialInner">
