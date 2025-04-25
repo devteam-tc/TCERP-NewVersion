@@ -1,0 +1,77 @@
+{
+  "web-development": {
+    "title": "Web Development",
+    "features": [
+      {
+        "title": "Responsive Design",
+        "description": "Create websites that look great on all devices with our responsive design approach.",
+        "img": "/images/services/web-dev/responsive.png"
+      },
+      {
+        "title": "Performance Optimization",
+        "description": "Fast-loading websites with optimized code and assets for better user experience.",
+        "img": "/images/services/web-dev/performance.png"
+      },
+      {
+        "title": "SEO Friendly",
+        "description": "Built with SEO best practices to help your website rank higher in search results.",
+        "img": "/images/services/web-dev/seo.png"
+      },
+      {
+        "title": "Security First",
+        "description": "Implement robust security measures to protect your website and user data.",
+        "img": "/images/services/web-dev/security.png"
+      }
+    ]
+  },
+  "app-development": {
+    "title": "App Development",
+    "features": [
+      {
+        "title": "Cross-Platform",
+        "description": "Develop apps that work seamlessly across iOS and Android platforms.",
+        "img": "/images/services/app-dev/cross-platform.png"
+      },
+      {
+        "title": "User Experience",
+        "description": "Create intuitive and engaging user interfaces for better app adoption.",
+        "img": "/images/services/app-dev/ux.png"
+      },
+      {
+        "title": "Offline Support",
+        "description": "Build apps that work even without internet connection.",
+        "img": "/images/services/app-dev/offline.png"
+      },
+      {
+        "title": "Push Notifications",
+        "description": "Keep users engaged with timely and relevant push notifications.",
+        "img": "/images/services/app-dev/notifications.png"
+      }
+    ]
+  },
+  "digital-marketing": {
+    "title": "Digital Marketing",
+    "features": [
+      {
+        "title": "SEO Strategy",
+        "description": "Comprehensive SEO strategies to improve your online visibility.",
+        "img": "/images/services/marketing/seo.png"
+      },
+      {
+        "title": "Social Media",
+        "description": "Engage with your audience through effective social media campaigns.",
+        "img": "/images/services/marketing/social.png"
+      },
+      {
+        "title": "Content Marketing",
+        "description": "Create valuable content that attracts and converts your target audience.",
+        "img": "/images/services/marketing/content.png"
+      },
+      {
+        "title": "Analytics",
+        "description": "Track and analyze your marketing performance with detailed insights.",
+        "img": "/images/services/marketing/analytics.png"
+      }
+    ]
+  }
+}

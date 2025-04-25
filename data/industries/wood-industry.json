@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/wood_banner_img.webp",
+  "title": "Wood Industry Solutions",
+  "description": "Advanced ERP solutions tailored for wood processing and furniture manufacturers, optimizing timber management, production processes and quality control while ensuring sustainable resource utilization.",
+  "keyPoints": [
+    "Timber Resource Management",
+    "Production & Processing Control",
+    "Quality Grading & Testing",
+    "Inventory Optimization",
+    "Sustainable Operations"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/wood-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive wood processing and manufacturing control system.",
+      "list": [
+        "Process Control",
+        "Cutting Optimization",
+        "Waste Management"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/wood-quality.png",
+      "title": "Quality Control",
+      "description": "Advanced quality management system for wood products.",
+      "list": [
+        "Grade Classification",
+        "Moisture Control",
+        "Quality Testing"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage timber inventory?",
+      "answer": "Our system provides complete timber inventory management including log tracking, grade classification, moisture content monitoring and optimization of cutting patterns for maximum yield."
+    },
+    {
+      "id": 2,
+      "question": "What production control features are included?",
+      "answer": "The system includes comprehensive production planning, cutting optimization, waste tracking, machine integration and real-time monitoring of processing operations."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle sustainability requirements?",
+      "answer": "Yes, our solution manages sustainability certifications, tracks chain of custody, monitors resource utilization and provides reporting for environmental compliance."
+    }
+  ],
+  "industry": "Wood Processing",
+  "solution": "Integrated Wood Manufacturing System",
+  "modules": [
+    "Resource Management",
+    "Production Control",
+    "Quality Assurance",
+    "Inventory Management",
+    "Sustainability Tracking"
+  ],
+  "result": [
+    "40% improvement in material yield",
+    "35% reduction in waste",
+    "45% better inventory accuracy"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Wood Industry Guide",
+    "buttonText": "Download Now"
+  }
+}

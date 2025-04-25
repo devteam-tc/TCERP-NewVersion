@@ -1,0 +1,183 @@
+{
+    "tech-cloud-erp": {
+      "image": "/images/about-us/about-thu3.png",
+      "subTitle": "About Tech Cloud ERP",
+      "titleLine1": "Smart ERP Solutions to",
+      "titleLine2": "Transform Your",
+      "highlight": "Business.",
+      "description": "Tech Cloud ERP is a cloud-based enterprise solution that streamlines your business operations end-to-end.",
+      "features": [
+        { "icon": "/images/about-us/about4.png", "title": "End-to-End Integration" },
+        { "icon": "/images/about-us/about4.png", "title": "Custom Modules" }
+      ],
+      "list": [
+        "Manage your finance, HR, and sales from one dashboard",
+        "Track real-time performance with Business Intelligence tools"
+      ],
+      "link": "/products/tech-cloud-erp",
+      "linkText": "EXPLORE ERP"
+    },
+    "customer-relationship-management": {
+      "image": "/images/about-us/about-thu3.png",
+      "subTitle": "About Tech Cloud CRM",
+      "titleLine1": "Build Lasting",
+      "titleLine2": "Customer",
+      "highlight": "Relationships.",
+      "description": "Tech Cloud CRM helps businesses improve customer service, streamline sales, and manage leads.",
+      "features": [
+        { "icon": "/images/about-us/about4.png", "title": "Lead Management" },
+        { "icon": "/images/about-us/about4.png", "title": "Sales Pipeline" }
+      ],
+      "list": [
+        "Track customer interactions in one place",
+        "Automated follow-ups and campaign tools"
+      ],
+      "link": "/products/customer-relationship-management",
+      "linkText": "EXPLORE CRM"
+    },
+    "point-of-sale": {
+      "image": "/images/about-us/about-thu3.png",
+      "subTitle": "About Tech Cloud POS",
+      "titleLine1": "Build Lasting",
+      "titleLine2": "Customer",
+      "highlight": "Relationships.",
+      "description": "Tech Cloud POS helps businesses improve customer service, streamline sales, and manage leads.",
+      "features": [
+        { "icon": "/images/about-us/about4.png", "title": "Lead Management" },
+        { "icon": "/images/about-us/about4.png", "title": "Sales Pipeline" }
+      ],
+      "list": [
+        "Track customer interactions in one place",
+        "Automated follow-ups and campaign tools"
+      ],
+      "link": "/products/customer-relationship-management",
+      "linkText": "EXPLORE POS"
+    },
+    "trading-software": {
+      "image": "/images/about-us/about-thu3.png",
+      "subTitle": "About Tech Cloud Trading",
+      "titleLine1": "Build Lasting",
+      "titleLine2": "Customer",
+      "highlight": "Relationships.",
+      "description": "Tech Cloud Trading helps businesses improve customer service, streamline sales, and manage leads.",
+      "features": [
+        { "icon": "/images/about-us/about4.png", "title": "Lead Management" },
+        { "icon": "/images/about-us/about4.png", "title": "Sales Pipeline" }
+      ],
+      "list": [
+        "Track customer interactions in one place",
+        "Automated follow-ups and campaign tools"
+      ],
+      "link": "/products/customer-relationship-management",
+      "linkText": "EXPLORE Trading"
+    },
+    "Ecommerce-software": {
+      "image": "/images/about-us/about-thu3.png",
+      "subTitle": "About Tech Cloud Ecommerce",
+      "titleLine1": "Build Lasting",
+      "titleLine2": "Customer",
+      "highlight": "Relationships.",
+      "description": "Tech Cloud Ecommerce helps businesses improve customer service, streamline sales, and manage leads.",
+      "features": [
+        { "icon": "/images/about-us/about4.png", "title": "Lead Management" },
+        { "icon": "/images/about-us/about4.png", "title": "Sales Pipeline" }
+      ],
+      "list": [
+        "Track customer interactions in one place",
+        "Automated follow-ups and campaign tools"
+      ],
+      "link": "/products/customer-relationship-management",
+      "linkText": "EXPLORE Ecommerce"
+    },
+    "hr-managament-software": {
+      "image": "/images/about-us/about-thu3.png",
+      "subTitle": "About Tech Cloud HRM",
+      "titleLine1": "Build Lasting",
+      "titleLine2": "Customer",
+      "highlight": "Relationships.",
+      "description": "Tech Cloud HRM helps businesses improve customer service, streamline sales, and manage leads.",
+      "features": [
+        { "icon": "/images/about-us/about4.png", "title": "Lead Management" },
+        { "icon": "/images/about-us/about4.png", "title": "Sales Pipeline" }
+      ],
+      "list": [
+        "Track customer interactions in one place",
+        "Automated follow-ups and campaign tools"
+      ],
+      "link": "/products/customer-relationship-management",
+      "linkText": "EXPLORE HRM"
+    },
+    "financial-management-systems": {
+      "image": "/images/about-us/about-thu3.png",
+      "subTitle": "About Tech Cloud financial management",
+      "titleLine1": "Build Lasting",
+      "titleLine2": "Customer",
+      "highlight": "Relationships.",
+      "description": "Tech Cloud financial management helps businesses improve customer service, streamline sales, and manage leads.",
+      "features": [
+        { "icon": "/images/about-us/about4.png", "title": "Lead Management" },
+        { "icon": "/images/about-us/about4.png", "title": "Sales Pipeline" }
+      ],
+      "list": [
+        "Track customer interactions in one place",
+        "Automated follow-ups and campaign tools"
+      ],
+      "link": "/products/customer-relationship-management",
+      "linkText": "EXPLORE financial management"
+    },
+    "integrated-erp-software": {
+      "image": "/images/about-us/about-thu3.png",
+      "subTitle": "About Tech Cloud Integrated",
+      "titleLine1": "Build Lasting",
+      "titleLine2": "Customer",
+      "highlight": "Relationships.",
+      "description": "Tech Cloud integrated helps businesses improve customer service, streamline sales, and manage leads.",
+      "features": [
+        { "icon": "/images/about-us/about4.png", "title": "Lead Management" },
+        { "icon": "/images/about-us/about4.png", "title": "Sales Pipeline" }
+      ],
+      "list": [
+        "Track customer interactions in one place",
+        "Automated follow-ups and campaign tools"
+      ],
+      "link": "/products/customer-relationship-management",
+      "linkText": "EXPLORE integrated"
+    },
+    "erp-for-restaraunt": {
+      "image": "/images/about-us/about-thu3.png",
+      "subTitle": "About Tech Cloud Restaraunt",
+      "titleLine1": "Build Lasting",
+      "titleLine2": "Customer",
+      "highlight": "Relationships.",
+      "description": "Tech Cloud restaraunt helps businesses improve customer service, streamline sales, and manage leads.",
+      "features": [
+        { "icon": "/images/about-us/about4.png", "title": "Lead Management" },
+        { "icon": "/images/about-us/about4.png", "title": "Sales Pipeline" }
+      ],
+      "list": [
+        "Track customer interactions in one place",
+        "Automated follow-ups and campaign tools"
+      ],
+      "link": "/products/customer-relationship-management",
+      "linkText": "EXPLORE restaraunt"
+    },
+    "erp-for-accounting-software": {
+      "image": "/images/about-us/about-thu3.png",
+      "subTitle": "About Tech Cloud Accounting",
+      "titleLine1": "Build Lasting",
+      "titleLine2": "Customer",
+      "highlight": "Relationships.",
+      "description": "Tech Cloud accounting helps businesses improve customer service, streamline sales, and manage leads.",
+      "features": [
+        { "icon": "/images/about-us/about4.png", "title": "Lead Management" },
+        { "icon": "/images/about-us/about4.png", "title": "Sales Pipeline" }
+      ],
+      "list": [
+        "Track customer interactions in one place",
+        "Automated follow-ups and campaign tools"
+      ],
+      "link": "/products/customer-relationship-management",
+      "linkText": "EXPLORE accounting"
+    }
+  }
+  

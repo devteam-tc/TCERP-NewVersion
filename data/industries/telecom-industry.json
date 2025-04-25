@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/telecom_banner_img.webp",
+  "title": "Telecom Industry Solutions",
+  "description": "Advanced ERP solutions tailored for telecommunications companies, optimizing network operations, service delivery and customer management while ensuring regulatory compliance and efficient billing processes.",
+  "keyPoints": [
+    "Network Operations Management",
+    "Service Provisioning & Delivery",
+    "Customer Relationship Management",
+    "Billing & Revenue Management",
+    "Regulatory Compliance"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/telecom-operations.png",
+      "title": "Network Operations",
+      "description": "Comprehensive network operations and service management system.",
+      "list": [
+        "Network Monitoring",
+        "Service Provisioning",
+        "Performance Management"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/telecom-customer.png",
+      "title": "Customer Management",
+      "description": "Advanced customer service and billing management system.",
+      "list": [
+        "Customer Support",
+        "Billing Operations",
+        "Service Analytics"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage network operations?",
+      "answer": "Our system provides comprehensive network management including real-time monitoring, service provisioning, fault detection, performance analysis and automated maintenance scheduling."
+    },
+    {
+      "id": 2,
+      "question": "What billing and revenue features are included?",
+      "answer": "The system includes advanced billing capabilities with usage tracking, tariff management, automated invoicing, revenue assurance and integrated payment processing."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle customer service management?",
+      "answer": "Yes, our solution manages complete customer lifecycle including service activation, support ticket management, SLA monitoring and customer analytics with integrated CRM features."
+    }
+  ],
+  "industry": "Telecommunications",
+  "solution": "Integrated Telecom Management System",
+  "modules": [
+    "Network Operations",
+    "Service Management",
+    "Customer Relations",
+    "Billing Control",
+    "Compliance Tracking"
+  ],
+  "result": [
+    "45% improvement in service delivery",
+    "40% reduction in customer complaints",
+    "35% better revenue assurance"
+  ],
+  "customers": "150+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Telecom Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}

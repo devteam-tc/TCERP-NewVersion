@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/pharmaceutical_banner_img.webp",
+  "title": "Pharmaceutical Industry Solutions",
+  "description": "Advanced ERP solutions tailored for pharmaceutical manufacturers, ensuring GMP compliance, quality control and regulatory adherence while optimizing production processes and maintaining complete traceability.",
+  "keyPoints": [
+    "GMP Compliance Management",
+    "Quality Control & Validation",
+    "Batch Production Control",
+    "Regulatory Documentation",
+    "Research & Development"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/pharma-production.png",
+      "title": "Production Management",
+      "description": "Comprehensive pharmaceutical manufacturing and compliance system.",
+      "list": [
+        "Batch Processing",
+        "Process Validation",
+        "Clean Room Control"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/pharma-quality.png",
+      "title": "Quality Assurance",
+      "description": "Advanced quality management system for pharmaceutical manufacturing.",
+      "list": [
+        "Quality Testing",
+        "Stability Studies",
+        "Documentation Control"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system ensure GMP compliance?",
+      "answer": "Our system provides comprehensive GMP compliance management including batch record control, validation protocols, clean room monitoring and complete documentation management with audit trails."
+    },
+    {
+      "id": 2,
+      "question": "What quality control features are included?",
+      "answer": "The system includes advanced quality control with stability testing, analytical method validation, raw material testing, in-process controls and finished product testing with complete documentation."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle regulatory requirements?",
+      "answer": "Yes, our solution manages regulatory compliance with FDA, EMA, and other global standards, including electronic batch records, validation documentation and regulatory submission support."
+    }
+  ],
+  "industry": "Pharmaceutical Manufacturing",
+  "solution": "Integrated Pharmaceutical Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Document Control",
+    "Regulatory Compliance",
+    "R&D Management"
+  ],
+  "result": [
+    "45% faster batch release time",
+    "40% reduction in compliance costs",
+    "35% improvement in quality metrics"
+  ],
+  "customers": "200+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Pharmaceutical Manufacturing Guide",
+    "buttonText": "Download Now"
+  }
+}

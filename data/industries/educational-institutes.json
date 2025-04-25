@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/educational_banner_img.webp",
+  "title": "Educational Institute Solutions",
+  "description": "Comprehensive ERP solutions designed for educational institutions, streamlining academic operations, student management and administrative processes while enhancing learning outcomes.",
+  "keyPoints": [
+    "Student Information Management",
+    "Academic Planning & Scheduling",
+    "Learning Management System",
+    "Financial Aid & Billing",
+    "Campus Resource Management"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/education-academic.png",
+      "title": "Academic Management",
+      "description": "Complete academic lifecycle management from admission to graduation.",
+      "list": [
+        "Course Planning",
+        "Grade Management",
+        "Attendance Tracking"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/education-admin.png",
+      "title": "Administrative Control",
+      "description": "Comprehensive administrative and resource management system.",
+      "list": [
+        "Resource Allocation",
+        "Staff Management",
+        "Financial Planning"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle student records?",
+      "answer": "Our system provides secure, comprehensive student information management including academic records, attendance, behavior tracking and progress monitoring with role-based access control."
+    },
+    {
+      "id": 2,
+      "question": "Can it manage multiple academic programs?",
+      "answer": "Yes, the system supports multiple programs, departments and campuses with customizable curriculum management, scheduling and reporting capabilities."
+    },
+    {
+      "id": 3,
+      "question": "What features are available for online learning?",
+      "answer": "The system includes integrated learning management features with virtual classroom support, content management, assignment tracking and online assessment tools."
+    }
+  ],
+  "industry": "Education",
+  "solution": "Integrated Education Management System",
+  "modules": [
+    "Student Management",
+    "Academic Planning",
+    "Resource Management",
+    "Financial Management",
+    "Learning Management"
+  ],
+  "result": [
+    "45% reduction in administrative workload",
+    "35% improvement in resource utilization",
+    "50% faster academic planning process"
+  ],
+  "customers": "500+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Education Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}

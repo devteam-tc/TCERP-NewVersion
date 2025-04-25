@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/chemical_banner_img.webp",
+  "title": "Chemical Industry Solutions",
+  "description": "Advanced ERP solutions tailored for chemical manufacturers, ensuring safety compliance, process control and efficient material management while optimizing production workflows.",
+  "keyPoints": [
+    "Process Safety Management",
+    "Hazardous Material Handling",
+    "Batch Process Control",
+    "Regulatory Compliance",
+    "Laboratory Information Management"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/chemical-process.png",
+      "title": "Process Management",
+      "description": "Comprehensive process control and monitoring system for chemical manufacturing operations.",
+      "list": [
+        "Batch Processing",
+        "Process Automation",
+        "Real-time Monitoring"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/chemical-safety.png",
+      "title": "Safety & Compliance",
+      "description": "Integrated safety and compliance management system for chemical operations.",
+      "list": [
+        "Safety Protocols",
+        "Regulatory Tracking",
+        "Environmental Monitoring"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle hazardous material management?",
+      "answer": "Our system provides comprehensive hazardous material tracking, including SDS management, storage conditions monitoring and automated safety protocol enforcement."
+    },
+    {
+      "id": 2,
+      "question": "What regulatory compliance features are included?",
+      "answer": "The system includes features for EPA, OSHA and international chemical regulations compliance, with automated documentation, reporting and audit trail capabilities."
+    },
+    {
+      "id": 3,
+      "question": "Can it integrate with laboratory equipment?",
+      "answer": "Yes, our solution integrates with various laboratory instruments and LIMS systems, providing seamless data flow between quality control labs and production."
+    }
+  ],
+  "industry": "Chemical",
+  "solution": "Integrated Chemical Manufacturing System",
+  "modules": [
+    "Process Control",
+    "Safety Management",
+    "Quality Assurance",
+    "Laboratory Management",
+    "Compliance Tracking"
+  ],
+  "result": [
+    "50% improvement in compliance efficiency",
+    "40% reduction in safety incidents",
+    "35% increase in batch consistency"
+  ],
+  "customers": "250+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Chemical Industry Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}

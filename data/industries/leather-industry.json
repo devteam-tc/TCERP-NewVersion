@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/leather_banner_img.webp",
+  "title": "Leather Industry Solutions",
+  "description": "Comprehensive ERP solutions designed for leather manufacturers, optimizing tannery operations, quality control and production processes while ensuring environmental compliance and material traceability.",
+  "keyPoints": [
+    "Tannery Process Management",
+    "Quality Grading & Control",
+    "Environmental Compliance",
+    "Material Traceability",
+    "Production Planning"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/leather-production.png",
+      "title": "Production Management",
+      "description": "Advanced leather processing and production management system.",
+      "list": [
+        "Process Control",
+        "Batch Tracking",
+        "Chemical Management"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/leather-quality.png",
+      "title": "Quality Control",
+      "description": "Comprehensive quality management system for leather processing.",
+      "list": [
+        "Quality Grading",
+        "Defect Tracking",
+        "Testing Protocols"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage tannery processes?",
+      "answer": "Our system provides complete tannery process management including chemical formulations, process scheduling, environmental monitoring and quality control at each stage."
+    },
+    {
+      "id": 2,
+      "question": "What quality control features are included?",
+      "answer": "The system includes comprehensive quality grading, defect tracking, testing protocols, and certification management with detailed reporting for each batch and product."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle environmental compliance?",
+      "answer": "Yes, our solution manages environmental compliance with effluent treatment monitoring, chemical usage tracking and regulatory reporting for environmental standards."
+    }
+  ],
+  "industry": "Leather",
+  "solution": "Integrated Leather Manufacturing System",
+  "modules": [
+    "Process Control",
+    "Quality Management",
+    "Environmental Monitoring",
+    "Production Planning",
+    "Inventory Control"
+  ],
+  "result": [
+    "40% improvement in process efficiency",
+    "45% reduction in quality issues",
+    "35% better environmental compliance"
+  ],
+  "customers": "200+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Leather Industry Guide",
+    "buttonText": "Download Now"
+  }
+}

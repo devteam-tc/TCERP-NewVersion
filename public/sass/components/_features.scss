@@ -1,0 +1,225 @@
+/*=============================
+	05. Features CSS Start
+===============================*/
+
+.ep-features-section {
+	padding-bottom: 149px;
+
+	.feature-image {
+		padding-left: 35px;
+
+		&::after {
+			position: absolute;
+			bottom: -32px;
+			left: 0;
+			width: 413px;
+			height: 229px;
+			border-radius: 20px;
+			background-color: var(--bs-secondary-color);
+			content: "";
+		}
+
+		.img-one {
+			max-width: 482px;
+			z-index: 9;
+
+			img {
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.img-two {
+			max-width: 331px;
+			border: 14px solid var(--bs-white-color);
+			border-radius: 34px;
+			bottom: -72px;
+			right: 0;
+			z-index: 99;
+
+			img {
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+	}
+
+	.feature-text {
+		padding-left: 43px;
+		padding-right: 70px;
+		margin-top: 14px;
+
+		.feature-item {
+			gap: 30px;
+
+			.icon-box {
+				flex: 0 0 auto;
+			}
+
+			.info {
+				.feature-title {
+					font-size: 22px;
+					font-weight: 700;
+					line-height: 36px;
+					margin-bottom: 10px;
+				}
+			}
+		}
+
+		.feature-item+.feature-item {
+			margin-top: 30px;
+		}
+	}
+}
+
+@media (max-width: 1199.98px) {
+	.ep-features-section .feature-text {
+		margin-top: 0;
+	}
+
+	.ep-features-section .feature-text .feature-item+.feature-item {
+		margin-top: 22px;
+	}
+
+	.ep-features-section .feature-text {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.ep-features-section .feature-text {
+		margin-top: 100px;
+	}
+
+	.ep-features-section {
+		padding-bottom: 50px;
+		padding-top: 0px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.ep-features-section .feature-image .img-two {
+		display: none;
+	}
+
+	.ep-features-section .feature-image {
+		padding-left: 13px;
+	}
+
+	.ep-features-section .feature-image::after {
+		bottom: -13px;
+		width: 100%;
+	}
+
+	.ep-features-section .feature-text {
+		// margin-top: 40px;
+		margin-top: 0px;
+	}
+}
+
+/*=============================
+    Features Section CSS
+===============================*/
+.quiety-features {
+    background-color: #f8f9fa;
+
+    .section-heading {
+        h6 {
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--bs-dark);
+            margin-bottom: 0;
+        }
+    }
+
+    .feature-card {
+        transition: all 0.3s ease;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        cursor: pointer;
+
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            background-color: rgba(var(--bs-primary-rgb), 0.1);
+            transition: all 0.3s ease;
+
+            img {
+                transition: all 0.3s ease;
+            }
+        }
+
+        h5 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--bs-dark);
+            transition: all 0.3s ease;
+        }
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+            .feature-icon {
+                background-color: var(--bs-primary);
+
+                img {
+                    // filter: brightness(0) invert(1);
+                }
+            }
+
+            h5 {
+                color: var(--bs-primary);
+            }
+        }
+    }
+}
+
+// Responsive styles
+@media (max-width: 991.98px) {
+    .quiety-features {
+        .section-heading {
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    .quiety-features {
+        .section-heading {
+            h2 {
+                font-size: 1.75rem;
+            }
+        }
+
+        .feature-card {
+            h5 {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .quiety-features {
+        .section-heading {
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

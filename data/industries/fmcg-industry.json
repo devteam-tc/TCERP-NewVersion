@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/fmcg_banner_img.webp",
+  "title": "FMCG Industry Solutions",
+  "description": "Comprehensive ERP solutions tailored for Fast-Moving Consumer Goods companies, optimizing production, distribution and inventory management while ensuring rapid market response.",
+  "keyPoints": [
+    "Demand Forecasting",
+    "Supply Chain Optimization",
+    "Batch Production Control",
+    "Distribution Management",
+    "Retail Channel Integration"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/fmcg-production.png",
+      "title": "Production Management",
+      "description": "Advanced production planning and control system for rapid manufacturing cycles.",
+      "list": [
+        "Batch Processing",
+        "Production Scheduling",
+        "Resource Optimization"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/fmcg-distribution.png",
+      "title": "Distribution Control",
+      "description": "Comprehensive distribution and retail channel management system.",
+      "list": [
+        "Logistics Planning",
+        "Retailer Management",
+        "Stock Optimization"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle demand forecasting?",
+      "answer": "Our system uses advanced analytics and machine learning for accurate demand forecasting, considering seasonal trends, market dynamics and historical data."
+    },
+    {
+      "id": 2,
+      "question": "What distribution features are included?",
+      "answer": "The system includes comprehensive distribution management with route optimization, retailer relationship management and real-time stock tracking across the supply chain."
+    },
+    {
+      "id": 3,
+      "question": "Can it manage multiple product variants?",
+      "answer": "Yes, our solution handles multiple product variants, packaging options and SKUs with automated batch tracking and expiry date management."
+    }
+  ],
+  "industry": "FMCG",
+  "solution": "Integrated FMCG Management System",
+  "modules": [
+    "Production Planning",
+    "Supply Chain Management",
+    "Distribution Control",
+    "Retail Integration",
+    "Demand Analytics"
+  ],
+  "result": [
+    "40% improvement in forecast accuracy",
+    "35% reduction in stockouts",
+    "45% faster time-to-market"
+  ],
+  "customers": "450+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "FMCG Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}
