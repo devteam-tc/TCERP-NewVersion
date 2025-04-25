@@ -1,126 +1,79 @@
 {
   "services": [
     {
-      "title": "Web Development",
-      "img": "/images/services/service1.png",
+      "title": "Planning & Research",
+      "img": "/images/servicescards/service-planning-research.png",
       "link": "/services/web-development",
-      "description": "We build responsive, fast websites for all industries.",
+      "description": "We start by understanding your business needs, target audience and goals. This helps us define the site structure, technology and user experience strategy.",
       "icon": "/images/services/ser-icon.png",
       "thumb": "/images/services/ser-thumb.webp"
     },
     {
-      "title": "E-commerce Development",
-      "img": "/images/services/ecommerce.png",
+      "title": "Design & Prototyping",
+      "img": "/images/servicescards/service-design-prototyping.png",
       "link": "/services/ecommerce-development",
-      "description": "Custom online stores with secure payment integration and inventory management.",
+      "description": "Our creative team crafts wireframes and visual designs focused on usability and brand identity. You’ll get a clear view of how your site will look and function.",
       "icon": "/images/services/ecom-icon.png",
       "thumb": "/images/services/ecom-thumb.webp"
     },
     {
-      "title": "Progressive Web Apps",
-      "img": "/images/services/pwa.png",
+      "title": "Development & Integration",
+      "img": "/images/servicescards/service-development- integration.png",
       "link": "/services/progressive-web-apps",
-      "description": "Fast, reliable, and engaging web apps that work offline and feel native.",
+      "description": "We transform designs into a fully functional website using modern, scalable code. We ensure mobile responsiveness and seamless integration with tools or APIs.",
       "icon": "/images/services/pwa-icon.png",
       "thumb": "/images/services/pwa-thumb.webp"
     },
     {
-      "title": "CMS Development",
-      "img": "/images/services/cms.png",
+      "title": "Testing, Launch & Support",
+      "img": "/images/servicescards/service-testing-launch-support.png",
       "link": "/services/cms-development",
-      "description": "Custom content management systems for easy website updates and management.",
+      "description": "Before going live, we test across devices, fix bugs and optimize performance. After launch, we offer ongoing support and maintenance to keep your site running smoothly.",
       "icon": "/images/services/cms-icon.png",
       "thumb": "/images/services/cms-thumb.webp"
     },
     {
-      "title": "API Development",
-      "img": "/images/services/api.png",
+      "title": "CMS Development",
+      "img": "/images/servicescards/service-cms-development.png",
       "link": "/services/api-development",
-      "description": "Robust and scalable API solutions for seamless system integration.",
+      "description": "Custom content management systems for easy website updates and management.",
       "icon": "/images/services/api-icon.png",
       "thumb": "/images/services/api-thumb.webp"
     },
     {
-      "title": "Web Application Security",
-      "img": "/images/services/security.png",
+      "title": "API Development",
+      "img": "/images/servicescards/service-api-integration.png",
       "link": "/services/web-security",
-      "description": "Comprehensive security audits and implementation for web applications.",
+      "description": "Robust and scalable API solutions for seamless system integration.",
       "icon": "/images/services/security-icon.png",
       "thumb": "/images/services/security-thumb.webp"
     },
     {
-      "title": "Frontend Development",
-      "img": "/images/services/frontend.png",
+      "title": "Cloud Integration",
+      "img": "/images/servicescards/service-cloud-integration.png",
       "link": "/services/frontend-development",
-      "description": "Modern, responsive, and interactive user interfaces using latest technologies.",
+      "description": "Seamless cloud service integration and deployment solutions.",
       "icon": "/images/services/frontend-icon.png",
       "thumb": "/images/services/frontend-thumb.webp"
     },
     {
-      "title": "Backend Development",
-      "img": "/images/services/backend.png",
+      "title": "Web Analytics Integration",
+      "img": "/images/servicescards/service-web-analytics -integration.png",
       "link": "/services/backend-development",
-      "description": "Scalable server-side solutions and database architecture.",
+      "description": "Implementation of tracking and analytics tools for data-driven insights.",
       "icon": "/images/services/backend-icon.png",
       "thumb": "/images/services/backend-thumb.webp"
-    },
-    {
-      "title": "Web Performance Optimization",
-      "img": "/images/services/performance.png",
-      "link": "/services/web-performance",
-      "description": "Speed optimization and performance tuning for faster loading websites.",
-      "icon": "/images/services/performance-icon.png",
-      "thumb": "/images/services/performance-thumb.webp"
-    },
-    {
-      "title": "Web Maintenance",
-      "img": "/images/services/maintenance.png",
-      "link": "/services/web-maintenance",
-      "description": "Regular updates, monitoring, and maintenance of web applications.",
-      "icon": "/images/services/maintenance-icon.png",
-      "thumb": "/images/services/maintenance-thumb.webp"
-    },
-    {
-      "title": "UI/UX Design",
-      "img": "/images/services/uiux.png",
-      "link": "/services/ui-ux-design",
-      "description": "User-centered design solutions with intuitive interfaces and seamless experiences.",
-      "icon": "/images/services/uiux-icon.png",
-      "thumb": "/images/services/uiux-thumb.webp"
-    },
-    {
-      "title": "Cloud Integration",
-      "img": "/images/services/cloud.png",
-      "link": "/services/cloud-integration",
-      "description": "Seamless cloud service integration and deployment solutions.",
-      "icon": "/images/services/cloud-icon.png",
-      "thumb": "/images/services/cloud-thumb.webp"
-    },
-    {
-      "title": "Website Migration",
-      "img": "/images/services/migration.png",
-      "link": "/services/website-migration",
-      "description": "Safe and efficient website migration services with zero downtime.",
-      "icon": "/images/services/migration-icon.png",
-      "thumb": "/images/services/migration-thumb.webp"
-    },
-    {
-      "title": "Web Analytics Integration",
-      "img": "/images/services/analytics.png",
-      "link": "/services/web-analytics",
-      "description": "Implementation of tracking and analytics tools for data-driven insights.",
-      "icon": "/images/services/analytics-icon.png",
-      "thumb": "/images/services/analytics-thumb.webp"
     }
+    
   ],
   "about": {
     "subtitle": "KNOW ABOUT OUR WEB DEV",
     "heading": "Custom Web Solutions for Your Business",
-    "paragraph": "We specialize in responsive, high-performance websites tailored to your goals.",
+    "paragraph": "Need a website that’s fast, functional and future-ready? We blend design and development with digital marketing strategy to give you the competitive edge online.",
     "features": [
       "Responsive & modern designs",
       "SEO-friendly architecture",
-      "Expert SEO & PPC services"
+      "Fast loading and mobile-friendly"
     ],
     "imageMain": "/images/servicescards/mob1.png",
     "imageDecor": "/images/servicescards/dot-grp1.png"
@@ -142,18 +95,18 @@
   "process": [
     {
       "step": 1,
-      "title": "Requirements Gathering",
-      "description": "We analyze your needs and define project scope."
+      "title": "Share Your Requirements",
+      "description": "Tell us what you need  from features to design preferences. We’ll plan the perfect structure for your site."
     },
     {
       "step": 2,
-      "title": "Design & Development",
-      "description": "Our team creates your custom web solution."
+      "title": "Design & Develop",
+      "description": "We create responsive, user-friendly designs and develop them using modern web technologies for a seamless experience."
     },
     {
       "step": 3,
-      "title": "Testing & Launch",
-      "description": "Thorough testing and successful deployment."
+      "title": "Launch & Maintain",
+      "description": "After testing and approval, we launch your site and provide ongoing support, updates and optimizations."
     }
   ],
   "downloadGuide": {
