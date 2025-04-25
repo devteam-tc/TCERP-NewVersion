@@ -56,7 +56,11 @@
         .logo {
           margin-bottom: 12px;
         }
-
+        @media (max-width: 998px) {
+          .logo {
+           display: flex;
+          }
+        }
         .footer-title {
           color: var(--bs-Text-Dark-Color);
           font-size: 22px;
@@ -95,7 +99,7 @@
               }
 
               p {
-                margin-top: 10px;
+                // margin-top: 10px;
                 text-align: left !important;
                 // opacity: 0.8;
                 color: var(--bs-Text-Dark-Color);
@@ -103,7 +107,7 @@
 
               a {
                 color: var(--bs-Text-Dark-Color);
-                margin-top: 10px;
+                // margin-top: 10px;
                 // opacity: 0.8;
           text-align: left;
                 &:hover {
@@ -459,25 +463,6 @@
   }
 }
 
-// .progress-wrap {
-  // position: fixed;
-  // bottom: 20px;
-  // left: 20px;         // 👈 move to the left
-  // right: auto;        // 👈 cancel the default right positioning
-  // z-index: 9999;
-  // width: 50px;
-  // height: 50px;
-  // cursor: pointer;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-  // background-color: white;
-  // border-radius: 50%;
-  // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  // transition: opacity 0.3s ease, visibility 0.3s ease;
-  // opacity: 0;
-  // visibility: hidden;
-// }
 
 
 .active-progress {

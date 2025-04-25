@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 
-const PageHeader = ({ title, breadcrumbs = [] }) => {
+const PageHeader = ({ title = '', breadcrumbs = [] }) => {
   return (
     <section className="ep-page-header-section">
       <div className="container">
@@ -9,7 +9,7 @@ const PageHeader = ({ title, breadcrumbs = [] }) => {
           <div className="col-md-12 ms-auto">
             <div className="bread-crumb text-center">
             <h1 className="page-title">
-              {title.replace(/\b\w/g, (char) => char.toUpperCase())}
+              {title ? title.replace(/\b\w/g, (char) => char.toUpperCase()) : ''}
             </h1>
 
               <ul className="list-unstyled d-flex flex-wrap align-items-center justify-content-center mt-30">

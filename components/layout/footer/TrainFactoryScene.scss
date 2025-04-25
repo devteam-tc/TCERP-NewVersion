@@ -1,35 +1,77 @@
-
+/* Background Section */
 .backgroundSection {
-    position: relative;
-    width: 100%;
-    height: 450px;
-    background-image: url('/footer/footerbg1.png');
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background-image: url('/footer/bg_img3.png');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* Scrolling images container */
+.scrollingImages {
+  position: absolute;
+  top: 74%; /* Adjust as needed */
+  left: 0;
+  display: flex;
+  gap: 30px;
+  animation: scroll-left 70s linear infinite;
+  white-space: nowrap;
+}
+
+.scrollingImages img {
+  height: 100px;
+  object-fit: contain;
+  /* Applying vertical movement */
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+
+/* Horizontal scrolling animation */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
   }
-  
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Vertical movement (bounce) animation */
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-2px);
+  }
+}
+
+/* Media Queries for Mobile and Tablet */
+@media (max-width: 768px) {
   .scrollingImages {
-    position: absolute;
-    top: 215px;
-    left: 0;
-    display: flex;
-    gap: 30px;
-    animation: scroll-left 20s linear infinite;
-    white-space: nowrap;
-  
-    img {
-      height: 200px;
-      object-fit: contain;
-    }
+    display: none;
   }
-  
-  @keyframes scroll-left {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+  .backgroundSection{
+    display: none;
   }
-  
+}
+
+@media (max-width: 480px) {
+  .scrollingImages {
+    display: none;
+  }
+  .backgroundSection{
+    display: none;
+  }
+}

@@ -39,12 +39,22 @@ const Specifications = ({ slug }) => {
             {services.map((service, index) => (
               <div key={index} className="col-xl-3 col-lg-4 col-md-6">
                 <div className="service-single-box" style={{
-                  height: '100%',
+                  height: '400px',
                   display: 'flex',
                   flexDirection: 'column',
-                  justifyContent: 'flex-start'
+                  justifyContent: 'space-between',
+                  padding: '20px',
+                  boxShadow: '0 0 10px rgba(0,0,0,0.1)',
+                  borderRadius: '8px',
+                  backgroundColor: '#fff',
+                  marginBottom: '20px'
                 }}>
-                  <div className="service-icon">
+                  <div className="service-icon" style={{ 
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    height: '120px'
+                  }}>
                     <Image 
                       src={service.img || '/images/industries/default-card-image.png'} 
                       alt={service.title} 
@@ -56,9 +66,26 @@ const Specifications = ({ slug }) => {
                       }}
                     />
                   </div>
-                  <div className="service-content" style={{ flex: 1 }}>
-                    <h3 className="service-title">{service.title}</h3>
-                    <p className="service-text">{service.description}</p>
+                  <div className="service-content" style={{ 
+                    flex: 1,
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'space-between',
+                    height: 'calc(100% - 120px)'
+                  }}>
+                    <h3 className="service-title" style={{ 
+                      marginBottom: '10px',
+                      fontSize: '18px',
+                      fontWeight: '600'
+                    }}>{service.title}</h3>
+                    <p className="service-text" style={{ 
+                      margin: 0,
+                      overflow: 'hidden',
+                      textOverflow: 'ellipsis',
+                      display: '-webkit-box',
+                      WebkitLineClamp: '4',
+                      WebkitBoxOrient: 'vertical'
+                    }}>{service.description}</p>
                   </div>
                 </div>
               </div>

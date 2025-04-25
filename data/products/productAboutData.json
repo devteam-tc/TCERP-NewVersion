@@ -1,6 +1,6 @@
 {
     "tech-cloud-erp": {
-      "image": "/images/about-us/about-thu3.png",
+      "image": "/images/about-us/product-erp.png",
       "subTitle": "About Tech Cloud ERP",
       "titleLine1": "Smart ERP Solutions to",
       "titleLine2": "Transform Your",
@@ -18,7 +18,7 @@
       "linkText": "EXPLORE ERP"
     },
     "customer-relationship-management": {
-      "image": "/images/about-us/about-thu3.png",
+      "image": "/images/about-us/product-crm.png",
       "subTitle": "About Tech Cloud CRM",
       "titleLine1": "Customer Relationship Management",
       "titleLine2": "",
@@ -36,7 +36,7 @@
       "linkText": "EXPLORE CRM"
     },
     "point-of-sale": {
-      "image": "/images/about-us/about-thu3.png",
+      "image": "/images/about-us/product-pos.png",
       "subTitle": "About Tech Cloud POS",
       "titleLine1": "Modern POS Solutions for",
       "titleLine2": "Streamlined Retail ",
@@ -54,7 +54,7 @@
       "linkText": "EXPLORE POS"
     },
     "trading-software": {
-      "image": "/images/about-us/about-thu3.png",
+      "image": "/images/about-us/product-treding.png",
       "subTitle": "About Tech Cloud Trading",
       "titleLine1": "Smart ERP for Profitable &",
       "titleLine2": "Agile Trading",
@@ -72,7 +72,7 @@
       "linkText": "EXPLORE Trading"
     },
     "Ecommerce-software": {
-      "image": "/images/about-us/about-thu3.png",
+      "image": "/images/about-us/product-ecommerce.png",
       "subTitle": "About Tech Cloud Ecommerce",
       "titleLine1": "Tech Cloud Ecommerce",
       "titleLine2": "Software Overview",
@@ -90,7 +90,7 @@
       "linkText": "EXPLORE Ecommerce"
     },
     "hr-managament-software": {
-      "image": "/images/about-us/about-thu3.png",
+      "image": "/images/about-us/product-hrm.png",
       "subTitle": "About Tech Cloud HRM",
       "titleLine1": "Tech Cloud HRMS",
       "titleLine2": "Software Overview",
@@ -108,7 +108,7 @@
       "linkText": "EXPLORE HRM"
     },
     "financial-management-systems": {
-      "image": "/images/about-us/about-thu3.png",
+      "image": "/images/about-us/product-finance.png",
       "subTitle": "About Tech Cloud financial management",
       "titleLine1": "Tech Cloud Financial Management",
       "titleLine2": "Software Overview",
@@ -126,7 +126,7 @@
       "linkText": "EXPLORE financial management"
     },
     "integrated-erp-software": {
-      "image": "/images/about-us/about-thu3.png",
+      "image": "/images/about-us/product-integrated-erp-software.png",
       "subTitle": "About Tech Cloud Integrated",
       "titleLine1": "Tech Cloud ERP Integrated With",
       "titleLine2": "CRM, Ecommerce &",
@@ -144,7 +144,7 @@
       "linkText": "EXPLORE integrated"
     },
     "erp-for-restaraunt": {
-      "image": "/images/about-us/about-thu3.png",
+      "image": "/images/about-us/product-restaraunt.png",
       "subTitle": "About Tech Cloud Restaraunt",
       "titleLine1": "Tech Cloud",
       "titleLine2": "Restaurant ERP Software",
@@ -162,7 +162,7 @@
       "linkText": "EXPLORE restaraunt"
     },
     "erp-for-accounting-software": {
-      "image": "/images/about-us/about-thu3.png",
+      "image": "/images/about-us/product-accounting.png",
       "subTitle": "About Tech Cloud Accounting",
       "titleLine1": "Tech Cloud",
       "titleLine2": "Accounting Software",
