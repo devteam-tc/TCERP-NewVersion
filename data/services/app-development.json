@@ -1,94 +1,47 @@
 {
   "services": [
     {
-    "title": "Native Android Development",
+    "title": "Ideation & Planning",
     "img": "/images/services/android-dev.jpg",
     "link": "/services/android-development",
-    "description": "Professional Android app development using Kotlin and Jetpack Compose with material design principles.",
+    "description": "Lay the foundation with clear goals, target audience and feature planning. Define your app’s purpose and create a strategic roadmap for development.",
     "icon": "/images/icons/android-icon.png",
     "thumb": "/images/thumbs/android-thumb.png"
     },
     {
-    "title": "Cross-Platform Mobile Apps",
+    "title": "UI/UX Design",
     "img": "/images/services/cross-platform.jpg",
     "link": "/services/cross-platform",
-    "description": "Unified mobile app development using React Native and Flutter for iOS and Android platforms.",
+    "description": "Design intuitive, user-centric interfaces that ensure seamless navigation and a satisfying user experience, setting the stage for long-term engagement.",
     "icon": "/images/icons/cross-platform-icon.png",
     "thumb": "/images/thumbs/cross-platform-thumb.png"
     },
     {
-    "title": "Enterprise Mobile Solutions",
+    "title": "Development & Integration",
     "img": "/images/services/enterprise-mobile.jpg",
     "link": "/services/enterprise-mobile",
-    "description": "Secure and scalable enterprise mobile applications with comprehensive business solutions.",
+    "description": "Build the app using cross-platform technologies for iOS and Android.Incorporate essential features like offline access and system integrations.",
     "icon": "/images/icons/enterprise-icon.png",
     "thumb": "/images/thumbs/enterprise-thumb.png"
     },
     {
-    "title": "Mobile App UI Development",
+    "title": "Launch & Engagement",
     "img": "/images/services/ui-design.jpg",
     "link": "/services/mobile-ui",
-    "description": "Modern and intuitive mobile interfaces with responsive design and smooth user interactions.",
+    "description": "Deploy your app and boost user retention with push notifications, real-time updates and continuous improvements based on user feedback.",
     "icon": "/images/icons/ui-icon.png",
     "thumb": "/images/thumbs/ui-thumb.png"
-    },
-    {
-    "title": "App Performance Optimization",
-    "img": "/images/services/performance.jpg",
-    "link": "/services/app-optimization",
-    "description": "Comprehensive app optimization services for enhanced speed and efficient resource management.",
-    "icon": "/images/icons/performance-icon.png",
-    "thumb": "/images/thumbs/performance-thumb.png"
-    },
-    {
-    "title": "App Backend Development",
-    "img": "/images/services/backend.jpg",
-    "link": "/services/app-backend",
-    "description": "Scalable backend infrastructure development with secure APIs and database management.",
-    "icon": "/images/icons/backend-icon.png",
-    "thumb": "/images/thumbs/backend-thumb.png"
-    },
-    {
-    "title": "App Testing & QA",
-    "img": "/images/services/testing.jpg",
-    "link": "/services/app-testing",
-    "description": "Thorough quality assurance and testing services ensuring reliable app performance.",
-    "icon": "/images/icons/testing-icon.png",
-    "thumb": "/images/thumbs/testing-thumb.png"
-    },
-    {
-    "title": "App Maintenance & Support",
-    "img": "/images/services/maintenance.jpg",
-    "link": "/services/app-maintenance",
-    "description": "Regular updates and dedicated technical support for continuous app improvement.",
-    "icon": "/images/icons/maintenance-icon.png",
-    "thumb": "/images/thumbs/maintenance-thumb.png"
-    },
-    {
-    "title": "App Security Services",
-    "img": "/images/services/security.jpg",
-    "link": "/services/app-security",
-    "description": "Advanced security implementation with data protection and compliance measures.",
-    "icon": "/images/icons/security-icon.png",
-    "thumb": "/images/thumbs/security-thumb.png"
-    },
-    {
-    "title": "App Integration Services",
-    "img": "/images/services/integration.jpg",
-    "link": "/services/app-integration",
-    "description": "Seamless integration solutions for third-party services and existing systems.",
-    "icon": "/images/icons/integration-icon.png",
-    "thumb": "/images/thumbs/integration-thumb.png"
     }
+    
   ],
   "about": {
     "subtitle": "KNOW ABOUT OUR APP DEV",
-    "heading": "Mobile & Desktop Apps Built to Scale",
-    "paragraph": "From concept to deployment, we create powerful mobile and desktop applications.",
+    "heading": "Innovative App Development That Drives Results",
+    "paragraph": "Our team creates tailored mobile and desktop apps that solve real business challenges. Whether it’s cross-platform or native, we build with performance, security and growth in mind.",
     "features": [
-      "Cross-platform development",
-      "Secure and scalable code",
-      "Expert SEO & PPC services"
+      "Agile Development Approach",
+      "Enterprise-grade Security Standards",
+      "Optimized for Speed, UX & Market Fit"
     ],
     "imageMain": "/images/servicescards/mob1.png",
     "imageDecor": "/images/servicescards/dot-grp1.png"
@@ -111,17 +64,17 @@
     {
       "step": 1,
       "title": "App Strategy",
-      "description": "Define your app's features and target platform."
+      "description": "We define your app’s goals, target users and platform to build a strong foundation."
     },
     {
       "step": 2,
-      "title": "Development & UI/UX",
-      "description": "Building your app with stunning user experience."
+      "title": "Design & Development",
+      "description": "We craft stunning UI/UX and develop a secure, high-performance app tailored to your needs."
     },
     {
       "step": 3,
-      "title": "Testing & Store Launch",
-      "description": "Quality assurance and app store deployment."
+      "title": "Testing & Launch",
+      "description": "After thorough testing, we deploy your app to stores and ensure it runs smoothly with ongoing support."
     }
   ],
   "downloadGuide": {

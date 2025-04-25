@@ -1,4 +1,4 @@
-import { blogSingle } from "@/data/blog";
+import { blogSingle } from "../../../data/blog";
 import Image from "next/image";
 import Link from "next/link";
 import BlogSidebar from "./BlogSidebar";

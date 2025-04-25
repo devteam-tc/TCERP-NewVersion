@@ -1,7 +1,16 @@
 import { notFound } from 'next/navigation';
 import { FaHome } from 'react-icons/fa';
-import servicesData from '../../data/servicesData.json';
+import servicesData from '../../data/services.json';
 import { VALID_SERVICE_SLUGS } from '../../app/config/services';
+
+/**
+ * Normalize a service slug by converting spaces to hyphens and lowercasing
+ * @param {string} slug - The slug to normalize
+ * @returns {string} The normalized slug
+ */
+export function normalizeSlug(slug) {
+  return slug.toLowerCase().replace(/\s+/g, '-');
+}
 
 /**
  * Check if a slug is a valid service slug
@@ -9,7 +18,8 @@ import { VALID_SERVICE_SLUGS } from '../../app/config/services';
  * @returns {boolean} Whether the slug is valid
  */
 export function isValidServiceSlug(slug) {
-  return VALID_SERVICE_SLUGS.includes(slug);
+  const normalizedSlug = normalizeSlug(slug);
+  return VALID_SERVICE_SLUGS.includes(normalizedSlug);
 }
 
 /**
@@ -18,11 +28,13 @@ export function isValidServiceSlug(slug) {
  * @returns {Object|null} The service data or null if not found
  */
 export function getServiceData(slug) {
-  if (!isValidServiceSlug(slug)) {
+  const normalizedSlug = normalizeSlug(slug);
+  
+  if (!isValidServiceSlug(normalizedSlug)) {
     return null;
   }
 
-  const service = servicesData[slug];
+  const service = servicesData.servicesBySlug[normalizedSlug];
   
   if (!service) {
     return null;
