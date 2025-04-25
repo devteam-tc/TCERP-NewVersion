@@ -1,9 +1,9 @@
 "use client";
-import rotateImg from '@/public/images/banner/banner-2-btn-img.svg';
-import bannerImg from '@/public/images/banner/banner-img-2.png';
-import bannerShape2 from '@/public/images/banner/banner-shape-2.svg';
-import bannerShape3 from '@/public/images/banner/banner-shape-3.svg';
-import bannerShape4 from '@/public/images/banner/banner-shape-4.svg';
+import rotateImg from '../../../public/images/banner/banner-2-btn-img.svg';
+import bannerImg from '../../../public/images/banner/banner-img-2.png';
+import bannerShape2 from '../../../public/images/banner/banner-shape-2.svg';
+import bannerShape3 from '../../../public/images/banner/banner-shape-3.svg';
+import bannerShape4 from '../../../public/images/banner/banner-shape-4.svg';
 import Image from 'next/image';
 import { useState } from 'react';
 import YouTubeEmbed from '../YouTubeEmbed';

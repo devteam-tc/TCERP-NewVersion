@@ -1,5 +1,5 @@
-import CtaBg1 from '@/public//images/bg/cta-bg-1.svg';
-import CtaBg2 from '@/public//images/bg/cta-bg-2.svg';
+import CtaBg1 from '../../../public/images/bg/cta-bg-1.svg';
+import CtaBg2 from '../../../public/images/bg/cta-bg-2.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import SectionTitle from '../SectionTitle';

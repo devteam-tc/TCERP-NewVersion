@@ -1,12 +1,12 @@
 "use client";
 import Link from 'next/link'
 // import footerLogo from '@/public/images/logo/logo2.svg';
-import footerLogo from '@/public/images/logo/logo.webp';
-import VideoImg from '@/public/images/img/video-banner-img.png';
+import footerLogo from '../../../public/images/logo/logo.webp';
+import VideoImg from '../../../public/images/img/video-banner-img.png';
 import Image from 'next/image';
 import ScrollProgressButton from '../ScrollProgressButton';
 import { useState } from 'react';
-import YouTubeEmbed from '@/components/containers/YouTubeEmbed';
+import YouTubeEmbed from '../../../components/containers/YouTubeEmbed';
 const FooterTwo = () => {
   const [videoActive, setVideoActive] = useState(false);
   return (

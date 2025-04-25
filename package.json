@@ -40,10 +40,11 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@types/node": "22.13.10",
-    "@types/react": "19.0.10",
+    "@types/node": "^22.15.1",
+    "@types/react": "^19.1.2",
     "eslint": "^9",
-    "eslint-config-next": "15.2.2"
+    "eslint-config-next": "15.2.2",
+    "typescript": "^5.8.3"
   },
   "homepage": "https://github.com/devteam-tc/TCERP-NewVersion#readme",
   "bugs": {
