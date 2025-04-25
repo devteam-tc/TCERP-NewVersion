@@ -11,7 +11,7 @@ const WorkingSteps = () => {
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <h6 className="section-sub-title">work process</h6>
-                <h1 className="section-main-title2">WORKS IN 3 EASY STEPS</h1>
+                <h2 className="section-title title-anim undefined section-main-title2">WORKS IN 3 EASY STEPS</h2>
               </div>
             </div>
           </div>
