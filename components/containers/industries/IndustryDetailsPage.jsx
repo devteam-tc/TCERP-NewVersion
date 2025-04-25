@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from "react";
-import 'bootstrap/dist/js/bootstrap.bundle.min';
 import ProjectBanner from "./IndustryBanner";
 import ProjectDescription from "./IndustryDescription";
 import InfoCards from "./InfoCards";
@@ -18,6 +17,13 @@ const ProjectDetailsPage = ({ industrySlug }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  useEffect(() => {
+    // Initialize Bootstrap only on client side
+    import('bootstrap/dist/js/bootstrap.bundle.min').catch(err => 
+      console.error('Failed to load Bootstrap:', err)
+    );
+  }, []);
 
   useEffect(() => {
     const loadIndustryData = async () => {

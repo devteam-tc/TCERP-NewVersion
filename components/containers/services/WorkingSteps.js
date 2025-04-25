@@ -32,7 +32,7 @@ const WorkingSteps = () => {
                 </div>
                 <div className="process-content">
                   <h4>Discussion & Planning</h4>
-                  <p>We start with in-depth discussions to understand your goals, target audience and market needs, then develop a plan that is unique to your business's vision.</p>
+                  <p>We start with in-depth discussions to understand your goals, target audience and market needs, then develop a plan that is unique to your business&apos;s vision.</p>
                 </div>
               </div>
             </div>
