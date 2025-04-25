@@ -19,7 +19,7 @@ const Counter = () => {
             <div className="counter-text">
             <h2
               className="heading-style1 title-anim">
-            Trusted ERP Software Solutions for All Businesses
+            Trusted ERP Software Solutions For All Businesses
             </h2>
               <p>
               At Tech Cloud ERP, we deliver innovative ERP solutions that help businesses streamline operations, enhance productivity, and drive growth. With decades of expertise, we empower industries worldwide through digital transformation and seamless business management.

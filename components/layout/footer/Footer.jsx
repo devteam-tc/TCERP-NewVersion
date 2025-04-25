@@ -3,7 +3,7 @@ import Link from 'next/link'
 import logo2 from '../../../public/images/logo/logo.svg';
 import Image from 'next/image';
 import ScrollProgressButton from '../ScrollProgressButton';
-
+// import SocialMediaIcons from './SocialMediaIcons';
 const Footer = () => {
   return (
     <>
@@ -108,10 +108,11 @@ const Footer = () => {
                       <ul className="list-unstyled">
                         <li className="d-inline-block"><Link href="#">Terms & Conditions</Link></li>
                         <li className="d-inline-block"><Link href="#">Privacy Policy</Link></li>
-                        <li className="d-inline-block"><Link href="/contact">Contact Us</Link></li>
+                        {/* <li className="d-inline-block"><Link href="/contact">Contact Us</Link></li> */}
                       </ul>
                     </div>
                   </div>
+                  {/* <SocialMediaIcons /> */}
                 </div>
               </div>
             </div>

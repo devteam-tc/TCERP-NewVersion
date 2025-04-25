@@ -19,7 +19,7 @@ const Pricing = ({ extraClassName = '' }) => {
           <div className="col-lg-6 mx-auto">
             <SectionTitle
               subTitle="Pricing plan"
-              title="Connecting the Dots of Digital Innovation"
+              title="Choose the Perfect Plan For Your Business Needs"
               extraClass="text-center"
             />
           </div>
