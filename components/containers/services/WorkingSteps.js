@@ -76,7 +76,7 @@ const WorkingSteps = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="working-process-box card-4 after-transprent">
                 <div className="process-thumb">
                   <Image
@@ -95,7 +95,7 @@ const WorkingSteps = () => {
                   <p>Solution is a long established proces reada content a looking at layout point.</p>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
            
         </div>
