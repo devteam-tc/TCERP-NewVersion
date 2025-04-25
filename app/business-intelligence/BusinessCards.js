@@ -36,39 +36,39 @@ const BusinessCards = () => {
 
 const serviceData = [
   {
-    title: "Study Off Flexibly",
+    title: "Advanced Analytical Tools",
     description:
-      "We can provide you with a reliable handyan in London. you need to included the today.",
+      "Use built-in ERP analytics to spot trends, predict changes and improve operations.",
     icon: "fa fa-books-medical",
   },
   {
-    title: "Exclusive Advisor",
+    title: "Centralized Information Management",
     description:
-      "We can provide you with a reliable handyan in London. you need to included the today.",
+      "Bring all department data together in one ERP system to stay consistent, cut duplicates and boost accuracy.",
     icon: "fal fa-book",
   },
   {
-    title: "Collage Study Bus",
+    title: "Enhanced Collaboration Across Teams",
     description:
-      "We can provide you with a reliable handyan in London. you need to included the today.",
+      "Use ERP‑embedded BI to share insights across teams, boost transparency and align goals.",
     icon: "fal fa-car-bus",
   },
   {
-    title: "Classes Completed",
+    title: "Scalable and Flexible Solutions",
     description:
-      "We can provide you with a reliable handyan in London. you need to included the today.",
+      "Scale your ERP’s BI tools as your business grows, so you stay flexible and ready for change.",
     icon: "far fa-pencil-ruler",
   },
   {
-    title: "Online Certificates",
+    title: "Improved Decision-Making Accuracy",
     description:
-      "We can provide you with a reliable handyan in London. you need to included the today.",
+      "With BI integrated into ERP can turn your data into easy-to-read visuals, helping leaders act quickly with confidence.",
     icon: "far fa-file-certificate",
   },
   {
-    title: "Edidence Of Learned",
+    title: "Process Performance Analytics",
     description:
-      "We can provide you with a reliable handyan in London. you need to included the today.",
+      "Monitor and benchmark key operational workflows (order‑to‑cash, procure‑to‑pay) with drill‑down KPIs to spot bottlenecks.",
     icon: "far fa-university",
   },
 ];
