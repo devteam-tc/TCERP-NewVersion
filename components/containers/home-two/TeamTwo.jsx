@@ -1,6 +1,6 @@
 import Link from "next/link"
 import SectionTitle from "../SectionTitle"
-import { teamTwo } from "../../../data/team"
+import { teamTwo } from "@/data/team"
 import Image from "next/image"
 
 const TeamTwo = () => {

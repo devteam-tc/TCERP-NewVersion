@@ -629,9 +629,6 @@ p {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   visibility: visible;
-  @media screen and (max-width :992px) {
-    display: none;
-  }
 }
 
 .cursor-inner {
@@ -650,9 +647,9 @@ p {
 .cursor-inner.cursor-hover {
   margin-inline-start: -35px;
   margin-top: -35px;
-  width: 50px;
-  height: 50px;
-  background-color: var(--bs-primary-300);
+  width: 70px;
+  height: 70px;
+  background-color: var(--bs-primary-color);
   opacity: 0.3;
 }
 
@@ -753,9 +750,8 @@ p {
 
 @media (max-width:1399.98px) {
   .heading-style1 {
-    // font-size: 64px;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 64px;
+    line-height: 74px;
   }
 
   .section-title-block .section-title {

@@ -7,7 +7,7 @@ const BusinessSection = () => {
   return (
     <section className="businessSection fix">
       <div className="container">
-        <div className="sectionTitle mb-lg-4 mb-3 pb-lg-2">
+        <div className="sectionTitle mb-lg-4 mb-0 pb-lg-2">
           <h2 className="wow fadeInUp black fw-bold" data-wow-delay=".3s">
           Advanced BI for Smarter Decisions
           </h2>

@@ -1,87 +1,69 @@
 "use client";
 import Image from "next/image";
+import SectionTitle from "../SectionTitle";
 
 const features = [
   {
-    icon: "../public/images/about-us/speed.png",
-    title: "WordPress",
-    alt: "WordPress icon"
+    icon: "/images/about-us/user-friendly.png",
+    title: "User Friendly",
+    alt: "UserFriendly icon"
   },
   {
-    icon: "/images/features/elementor.svg",
-    title: "Elementor",
-    alt: "Elementor icon"
+    icon: "/images/about-us/web-technologies.png",
+    title: "Web Technologies",
+    alt: "WebTechnologies icon"
   },
   {
-    icon: "/images/features/woocommerce.svg",
-    title: "WooCommerce Supported",
-    alt: "WooCommerce icon"
+    icon: "/images/about-us/Customization.png",
+    title: "Customisation",
+    alt: "customisation icon"
   },
   {
-    icon: "/images/features/contact-form.svg",
-    title: "Contact Form 7",
-    alt: "Contact Form 7 icon"
+    icon: "/images/about-us/opensource.png",
+    title: "Opensource",
+    alt: "Opensource icon"
   },
   {
-    icon: "/images/features/rtl.svg",
-    title: "RTL support",
-    alt: "RTL support icon"
+    icon: "/images/about-us/Amazing Support.png",
+    title: "Amazing Support",
+    alt: "Amazing Support icon"
   },
   {
-    icon: "/images/features/browser.svg",
-    title: "Browser Compatibility",
-    alt: "Browser Compatibility icon"
+    icon: "/images/about-us/versatility.png",
+    title: "Versatility",
+    alt: "Versatility icon"
   },
   {
-    icon: "/images/features/mailchimp.svg",
-    title: "Mailchimp Supported",
-    alt: "Mailchimp icon"
+    icon: "/images/about-us/Flexible Pricing.png",
+    title: "Flexible Pricing",
+    alt: "Flexible Pricing icon"
   },
   {
-    icon: "/images/features/google-fonts.svg",
-    title: "Google Fonts",
-    alt: "Google Fonts icon"
+    icon: "/images/about-us/Mobile Versions.png",
+    title: "Mobile Versions",
+    alt: "Mobile Versions icon"
   },
   {
-    icon: "/images/features/responsive.svg",
-    title: "Responsive Design",
-    alt: "Responsive Design icon"
+    icon: "/images/about-us/Cloud Servers.png",
+    title: "Cloud Servers",
+    alt: "Cloud Servers icon"
   },
   {
-    icon: "/images/features/color-scheme.svg",
-    title: "Color Scheme",
-    alt: "Color Scheme icon"
+    icon: "/images/about-us/plugin marketplace.png",
+    title: "Plugin Marketplace",
+    alt: "Plugin Marketplace icon"
   },
   {
-    icon: "/images/features/support.svg",
-    title: "Quick Support",
-    alt: "Quick Support icon"
+    icon: "/images/about-us/Secure & Reliable.png",
+    title: "Secure & Reliable",
+    alt: "Secure & Reliable icon"
   },
   {
-    icon: "/images/features/clean-code.svg",
-    title: "Clean Code",
-    alt: "Clean Code icon"
+    icon: "/images/about-us/speed.png",
+    title: "Speed",
+    alt: "Speed icon"
   },
-  {
-    icon: "/images/features/documentation.svg",
-    title: "Well Documented",
-    alt: "Documentation icon"
-  },
-  {
-    icon: "/images/features/layouts.svg",
-    title: "Awesome Layouts",
-    alt: "Layouts icon"
-  },
-  {
-    icon: "/images/features/updates.svg",
-    title: "Regular Updates",
-    alt: "Updates icon"
-  },
-  {
-    icon: "/images/features/minimal.svg",
-    title: "Minimal & Clean",
-    alt: "Minimal & Clean icon"
-  }
+  
 ];
 
 const UniqueFeatures = () => {
@@ -90,10 +72,13 @@ const UniqueFeatures = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
-            <div className="section-heading text-center mb-5">
+            {/* <div className="section-heading text-center mb-5">
               <h6 className="text-primary mb-3">Quiety Featured</h6>
               <h2>Enjoy some exclusive features</h2>
-            </div>
+            </div> */}
+             <div className=" text-center">
+               <SectionTitle subTitle="Quiety Featured" title="Enjoy some exclusive features" extraClass="mb-30" />
+             </div>
           </div>
         </div>
         <div className="row g-4">

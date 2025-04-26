@@ -1,6 +1,7 @@
 'use client'; // only needed if using inside a Next.js App Router (app directory)
 import Image from 'next/image';
 import Link from 'next/link';
+import SectionTitle from '../SectionTitle';
 
 const WorkingSteps = () => {
   return (
@@ -9,10 +10,14 @@ const WorkingSteps = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="section-title text-center">
+              {/* <div className="section-title text-center">
                 <h6 className="section-sub-title">work process</h6>
-                <h2 className="section-title title-anim undefined section-main-title2">WORKS IN 3 EASY STEPS</h2>
-              </div>
+                <h1 className="section-main-title2">WORKS IN 3 EASY STEPS</h1>
+              </div> */}
+              <div className="feature-text section-title text-center">
+              <SectionTitle subTitle="work process" title="WORKS IN 3 EASY STEPS" />
+               
+            </div>
             </div>
           </div>
           <div className="row">
@@ -20,7 +25,7 @@ const WorkingSteps = () => {
               <div className="working-process-box  card-1 after-transprent">
                 <div className="process-thumb">
                   <Image
-                    src="/images/services/servicedetail1.png"
+                    src="/images/services/process-1.png"
                     alt="Process 2"
                     width={100}
                     height={100}
@@ -40,7 +45,7 @@ const WorkingSteps = () => {
               <div className="working-process-box card-2 after-transprent">
                 <div className="process-thumb">
                   <Image
-                    src="/images/services/servicedetail2.png"
+                    src="/images/services/process-2.png"
                     alt="Process 2"
                     width={100}
                     height={100}
@@ -60,7 +65,7 @@ const WorkingSteps = () => {
               <div className="working-process-box card-3 after-transprent">
                 <div className="process-thumb">
                   <Image
-                    src="/images/services/servicedetail3.png"
+                    src="/images/services/process-3.png"
                     alt="Process 2"
                     width={100}
                     height={100}
@@ -80,7 +85,7 @@ const WorkingSteps = () => {
               <div className="working-process-box card-4 after-transprent">
                 <div className="process-thumb">
                   <Image
-                    src="/images/services/process-1.png"
+                    src="/images/services/process-4.png"
                     alt="Process 2"
                     width={100}
                     height={100}

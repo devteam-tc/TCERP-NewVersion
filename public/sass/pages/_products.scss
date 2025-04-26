@@ -1,231 +1,66 @@
+// Combined styles for products section
 
 // About Section Styles
 .aboutSection {
   background: url('/images/about-us/about3-bg.png') no-repeat center center;
   padding: 120px 0 125px;
   background-size: cover;
-
-  @media (max-width: 997px) {
-    padding: 60px 12px;
+}
+@media (max-width: 997px) {
+  .aboutSection {
+    padding: 6px 12px;
   }
+}
 
-  .container {
-    .row {
-      align-items: center;
-      
-      .aboutThumb {
-        position: relative;
-        z-index: 1;
-        // margin-left: -96px;
+.aboutBoxItem {
+  display: flex;
+  gap: 45px;
+  padding-bottom: 40px;
+}
 
-        @media (max-width: 997px) {
-          margin-left: 0;
-          margin-bottom: 30px;
-          justify-content: center;
-       align-items: center;
-        display: flex;
-        }
+@media (max-width: 997px) {
+  .aboutBoxItem {
+    display: block;
+  }
+}
 
-        .about-ele {
-          position: absolute;
-          right: 100px;
-          top: 70px;
-          z-index: -1;
-          animation: updown 2s linear infinite;
-        }
-      }
 
-      .aboutContact {
-        margin-left: 80px;
+.aboutItemList {
+  margin-bottom: 46px;
 
-        @media (max-width: 997px) {
-          margin-left: 0;
-        }
-        @media (min-width: 768px) and (max-width: 1024px) {
-          margin-left: 80px; 
-        }
-        .sectionTitle {
-          text-align: left;
-          margin-bottom: 36px;
+  ul {
+    li {
+      list-style: none;
+      margin-left: 54px;
+      position: relative;
+      margin-bottom: 20px;
 
-          .sectionSubTitle {
-            display: inline-block;
-            font-size: 17px;
-            line-height: 28px;
-            text-transform: uppercase;
-            color: #ff3c00;
-            font-weight: 600;
-            font-family: var(--heading-font);
-            position: relative;
-            z-index: 1;
-            margin-bottom: 15px;
-            margin-left: 70px;
-
-            @media (max-width: 767px) {
-              margin-left: 60px;
-            }
-
-            &:before, &:after {
-              position: absolute;
-              content: "";
-              width: 60px;
-              height: 2px;
-              top: 12px;
-              left: -69px;
-              background-image: linear-gradient(270deg, #fff, #ff3b00);
-            }
-          }
-
-          .sectionMainTitle {
-            font-size: 42px;
-            line-height: 55px;
-            color: #050a1e;
-            font-weight: 700;
-            font-family: var(--heading-font);
-            margin: 0;
-
-            span {
-              display: inline-block;
-              color: #05afcc;
-            }
-
-            @media (max-width: 997px) {
-              line-height: 40px;
-              font-size: 30px !important;
-
-              span {
-                font-size: 35px !important;
-              }
-            }
-          }
-
-          .sectionDescr {
-            width: 100%;
-            margin: 0;
-            padding: 12px 0 0;
-            font-size: 16px;
-            line-height: 28px;
-            color: #555;
-          }
-        }
-
-        .aboutBoxItem {
-          display: flex;
-          gap: 45px;
-          padding-bottom: 40px;
-
-          @media (max-width: 997px) {
-            display: block;
-            gap: 20px;
-          }
-
-          .aboutBox {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-
-            .aboutIcon {
-              width: 50px;
-              height: 60px;
-              border-radius: 10px;
-              line-height: 60px;
-              margin-right: 14px;
-              text-align: center;
-
-              img {
-                margin-left: -22px;
-              }
-            }
-
-            .aboutTitle h3 {
-              font-size: 18px;
-              line-height: 55px;
-              color: #050a1e;
-              font-weight: 600;
-              font-family: var(--heading-font);
-              margin: 0;
-            }
-          }
-        }
-
-        .aboutItemList {
-          margin-bottom: 46px;
-
-          ul {
-            padding-left: 0;
-
-            li {
-              list-style: none;
-              margin-left: 54px;
-              position: relative;
-              margin-bottom: 20px;
-              font-size: 16px;
-              line-height: 28px;
-              color: #555;
-
-              &::before {
-                position: absolute;
-                content: '';
-                width: 45px;
-                height: 2px;
-                background-image: linear-gradient(270deg, #ffffff 0%, #ff3b00 100%);
-                left: -53px;
-                top: 12px;
-              }
-            }
-          }
-        }
-
-        .solutekBtn {
-          a {
-            background: #05afcc;
-            text-decoration: none;
-            padding: 16px 28px;
-            font-size: 15px;
-            text-transform: uppercase;
-            color: #fff;
-            font-weight: 600;
-            position: relative;
-            z-index: 1;
-            border-radius: 30px;
-            transition: 0.5s;
-            display: inline-block;
-
-            &:hover {
-              background: darken(#05afcc, 10%);
-            }
-
-            .hoverBx, .hoverBx2, .hoverBx3, .hoverBx4 {
-              position: absolute;
-              background: rgba(255, 255, 255, 0.2);
-              transition: all 0.4s ease;
-              z-index: -1;
-            }
-          }
-        }
+      &::before {
+        position: absolute;
+        content: '';
+        width: 45px;
+        height: 2px;
+        background-image: linear-gradient(270deg, #ffffff 0%, #ff3b00 100%);
+        left: -53px;
+        top: 12px;
       }
     }
   }
 }
 
-// Animation for about element
-@keyframes updown {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+.aboutBox {
+  gap: 15px;
+}
+
+.aboutTitle h3 {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 // Product Area Styles
 .product-area {
   &.style-two {
-    padding: 0px 0 125px;
-
+    padding: 120px 0 125px;
     @media (max-width: 997px) {
       padding: 0px;
     }
@@ -530,125 +365,6 @@
     }
   }
 }
-.gray {
-  .tf__single_category_icon {
-    background: #6c757d;
-  }
-
-  .tf__single_category_text {
-    border-left: 2px solid #6c757d;
-  }
-
-  &:hover {
-    .tf__single_category_text::after {
-      background: #6c757d;
-    }
-
-    .tf__single_category_icon {
-      color: #6c757d;
-    }
-  }
-}
-
-.orange {
-  .tf__single_category_icon {
-    background: #fd7e14;
-  }
-
-  .tf__single_category_text {
-    border-left: 2px solid #fd7e14;
-  }
-
-  &:hover {
-    .tf__single_category_text::after {
-      background: #fd7e14;
-    }
-
-    .tf__single_category_icon {
-      color: #fd7e14;
-    }
-  }
-}
-
-.red {
-  .tf__single_category_icon {
-    background: #dc3545;
-  }
-
-  .tf__single_category_text {
-    border-left: 2px solid #dc3545;
-  }
-
-  &:hover {
-    .tf__single_category_text::after {
-      background: #dc3545;
-    }
-
-    .tf__single_category_icon {
-      color: #dc3545;
-    }
-  }
-}
-
-.violet {
-  .tf__single_category_icon {
-    background: #6f42c1;
-  }
-
-  .tf__single_category_text {
-    border-left: 2px solid #6f42c1;
-  }
-
-  &:hover {
-    .tf__single_category_text::after {
-      background: #6f42c1;
-    }
-
-    .tf__single_category_icon {
-      color: #6f42c1;
-    }
-  }
-}
-
-.yellow {
-  .tf__single_category_icon {
-    background: #ffc107;
-  }
-
-  .tf__single_category_text {
-    border-left: 2px solid #ffc107;
-  }
-
-  &:hover {
-    .tf__single_category_text::after {
-      background: #ffc107;
-    }
-
-    .tf__single_category_icon {
-      color: #ffc107;
-    }
-  }
-}
-
-.teal {
-  .tf__single_category_icon {
-    background: #20c997;
-  }
-
-  .tf__single_category_text {
-    border-left: 2px solid #20c997;
-  }
-
-  &:hover {
-    .tf__single_category_text::after {
-      background: #20c997;
-    }
-
-    .tf__single_category_icon {
-      color: #20c997;
-    }
-  }
-}
 
 // Download Widget Styles
 .download-section {
@@ -808,3 +524,94 @@
     padding-right: 30px;
   }
 } 
+
+
+h1.sectionMainTitle {
+  font-size: 42px !important;
+  line-height: 55px;
+  color: #050a1e;
+  font-weight: 700;
+  font-family: var(--heading-font);
+  margin: 0;
+}
+
+h1.sectionMainTitle span {
+  display: inline-block;
+  color: #05afcc;
+}
+
+@media (max-width: 997px) {
+  h1.sectionMainTitle {
+    line-height: 40px;
+    font-size: 30px !important;
+  }
+
+  h1.sectionMainTitle span {
+    font-size: 35px !important;
+  }
+}
+
+
+.about-section {
+  .section-title.text-left {
+    margin-bottom: 36px;
+  }
+
+  .about-item-list {
+    margin-bottom: 46px;
+
+    ul {
+      li {
+        list-style: none;
+        margin-left: 54px;
+        position: relative;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+.sectionDescr {
+  width: 100%;
+  margin: 0;
+  padding: 12px 0 0;
+}
+.aboutIcon {
+  width: 50px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  line-height: 60px;
+  margin-right: 14px;
+  text-align: center;
+
+  img {
+    margin-left: -22px;
+  }
+}
+
+.aboutTitle {
+  h3 {
+    font-size: 18px;
+    line-height: 55px;
+    color: #050a1e;
+    font-weight: 600;
+    font-family: var(--heading-font);
+    margin: 0;
+  }
+}
+
+.solutekBtn {
+  a {
+    background: #05afcc;
+    text-decoration: none;
+    padding: 16px 28px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+}

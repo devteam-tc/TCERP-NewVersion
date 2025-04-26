@@ -1,5 +1,5 @@
 // Text slider image
-// import globeIcon from '@/public/images/icons/globe-icon.svg';
+import globeIcon from '@/public/images/icons/globe-icon.svg';
 
 // export const textSlider = [
 //   {
