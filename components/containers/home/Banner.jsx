@@ -22,7 +22,7 @@ const Banner = () => {
               <div className="banner-text position-relative">
                 <Image priority src={bannerShapeOne} alt="banner-shape" className="position-absolute banner-title-shape" />
                 <h2 className="banner-title heading-style1 title-anim">Cloud-Based ERP Software Solutions</h2>
-                <p>Empower your business with Tech Cloud ERP a scalable cloud-based solution that streamlines operations, boosts productivity, and fuels growth.</p>
+                <p>Empower your business with Tech Cloud ERP a scalable cloud-based solution that streamlines operations, boosts productivity and fuels growth.</p>
                 <div className="banner-buttons">
                   <Link href="/about" className="theme-btn position-relative d-inline-flex align-items-center" style={{ color : "#fff !important"} }>
                    Book a Demo
