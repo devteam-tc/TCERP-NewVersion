@@ -1,6 +1,6 @@
 import Link from 'next/link'
 // import logo2 from '@/public/images/logo/logo2.svg';
-import logo2 from '../../../public/images/logo/logo.svg';
+import logo2 from '../../../public/images/logo/logo.webp';
 import Image from 'next/image';
 import ScrollProgressButton from '../ScrollProgressButton';
 // import SocialMediaIcons from './SocialMediaIcons';
@@ -19,10 +19,10 @@ const Footer = () => {
                   <div className="footer-widget footer-about">
                     <div className="logo">
                       <Link href="/">
-                        <Image priority src={logo2} alt="logo2" width={200} height={100} />
+                        <Image priority src={logo2} alt="logo2" />
                       </Link>
                     </div>
-                    <div className="short-info mt-3">
+                    <div className="short-info">
                       <p>Tech Cloud ERP delivers top-notch solutions tailored for any business comprehensive features.</p>
                     </div>
                     <div className="contact-info">

@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from "swiper/modules";
 import SectionTitle from '../SectionTitle';
-import { blogsTwo } from '../../../data/blog';
+import { blogsTwo } from '@/data/blog';
 import Link from 'next/link';
 import Image from 'next/image';
 

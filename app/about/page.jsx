@@ -17,18 +17,15 @@ const page = () => {
   return (
     <>
       <Header/>
-      {/* <PageHeader title="About Us" breadcrumbs={breadcrumbs}/> */}
-      <PageHeader />
+      <PageHeader title="About Us" breadcrumbs={breadcrumbs}/>
+      {/* <PageHeader /> */}
       {/* <About extraClassName="style2"/> */}
       <About />
       {/* <TextSlider/> */}
       <WhoWeAre/>
       <UniqueFeatures/>
       {/* <Team/> */}
-      {/* <Cta/> */}
-      {/* <Pricing extraClassName="style2"/> */}
-      {/* <Footer/> */}
-      <Footer />
+      <Footer/>
       <CustomCursor/>
     </>
   )

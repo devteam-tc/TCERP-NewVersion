@@ -1,7 +1,7 @@
 "use client"
 import "swiper/swiper-bundle.css";
-import { testimonialsTwo } from "../../../data/testmonial";
-import testimonialImg from "../../../public/images/testimonial/testimonial-img-2.png";
+import { testimonialsTwo } from "@/data/testmonial";
+import testimonialImg from "@/public/images/testimonial/testimonial-img-2.png";
 import Image from "next/image";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from 'swiper/react';

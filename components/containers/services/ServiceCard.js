@@ -1,10 +1,9 @@
 'use client';
-import './cards.scss';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import servicesData from '../../../data/services.json';
-
+import SectionTitle from '../SectionTitle';
 const ServiceCard = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -36,52 +35,63 @@ const ServiceCard = () => {
   }, [isMobile]);
 
   const ServiceBox = ({ icon, title, description, thumb, link }) => (
-    <div className="col-lg-4 col-md-6 col-sm-12 mb-5">
-      <div className="service-box">
-        <div className="single-service-box">
-          <div className="service-icon">
+    <div className="col-lg-4 col-md-6 col-sm-12">
+      <div className="service-box mb-4 bg-white rounded-3 overflow-hidden">
+        <div className="single-service-box p-4">
+          <div className="service-icon mb-3">
             <Image 
               src={icon} 
               alt={title} 
               width={50} 
               height={50} 
-              
+              className="img-fluid"
+              style={{ objectFit: 'contain' }}
             />
           </div>
           <div className="service-box-content">
-            <h4 className="service-title">
+            <h4 className="service-title h5 mb-3">
               <Link href={link} className="text-decoration-none text-dark">{title}</Link>
             </h4>
-            <p className="service-desc ">{description}</p>
+            <p className="service-desc mb-0  ">{description}</p>
           </div>
         </div>
-        <div className="service-thumb">
-          <Image 
-            src={thumb} 
-            alt={title} 
-            width={50} 
-            height={50} 
-             
-          />
-        </div>
+        {!isMobile && (
+          <div className="service-thumb">
+            <Image 
+              src={thumb} 
+              alt={title} 
+              width={400} 
+              height={250} 
+              className="img-fluid w-100"
+              style={{ 
+                objectFit: 'cover',
+                height: '200px'
+              }}
+            />
+          </div>
+        )}
       </div>
     </div>
   );
 
   return (
-    <section className="section-padding feature-studio-section fix space-bottom">
+    <section className="pt-60 pb-60 feature-studio-section fix space-bottom">
       <div className="container">
         <div className="row mb-xl-5 mb-4 text-center justify-content-center">
           <div className="col-lg-7">
-            <div className="section-title">
+            {/* <div className="section-title">
               <span className="sub-badge p1-clr fw-semibold fs-seven text-uppercase d-block mb-3">
                 OUR FEATURED PROJECTS
               </span>
               <h2 className="wow fadeInUp black fw-bold visible-slowly-right" data-wow-delay=".3s">
                 Selected case studies
               </h2>
+            </div> */}
+             <div className="feature-text">
+              <SectionTitle subTitle=" OUR FEATURED PROJECTS" title="Selected case studies" />
+               
             </div>
-          </div>
+           </div>
         </div>
 
         {isMobile ? (
@@ -102,13 +112,7 @@ const ServiceCard = () => {
             <div className="accordion">
               {servicesData.services.map((service) => (
                 <div key={service.id} className={`accordionItem ${service.id === 1 ? 'active' : ''}`}>
-                  <Image 
-                    src={service.thumb} 
-                    alt={service.title} 
-                    width={800} 
-                    height={600}
-                    className="img-fluid"
-                  />
+                  <Image src={service.thumb} alt={service.title} width={50} height={50}/>
                   <div className="conteBox">
                     <div className="box">
                       <div className="serialInner">
@@ -133,4 +137,4 @@ const ServiceCard = () => {
   );
 };
 
-export default ServiceCard; 
+export default ServiceCard;

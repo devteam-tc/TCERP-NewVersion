@@ -3,7 +3,7 @@ import "swiper/swiper-bundle.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import SectionTitle from "../SectionTitle";
-import { projectsTwo } from "../../../data/projects";
+import { projectsTwo } from "@/data/projects";
 import Image from "next/image";
 import Link from "next/link";
 

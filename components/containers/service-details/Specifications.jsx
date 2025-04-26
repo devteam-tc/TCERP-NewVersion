@@ -92,7 +92,7 @@ const Specifications = ({ slug }) => {
             ))}
 
             {/* Decorative Shapes */}
-            <div className="service-shape bounce-animate3">
+            {/* <div className="service-shape bounce-animate3">
               <Image
                 src="/images/services/service5.webp"
                 alt="shape"
@@ -100,7 +100,7 @@ const Specifications = ({ slug }) => {
                 height={100}
                 style={{ width: '199px', height: '420px', aspectRatio: '199 / 420' }}
               />
-            </div>
+            </div> */}
 
             <div className="service-shape2">
               <Image src="/images/services/service7.png" alt="shape" width={100} height={100} />

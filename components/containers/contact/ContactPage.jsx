@@ -5,23 +5,17 @@ import * as Yup from "yup";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Form, Button, Col, Row , Container } from 'react-bootstrap';
+import { db } from '../../../firebaseConfig';
+import { collection, addDoc } from 'firebase/firestore';
 import emailjs from '@emailjs/browser';
+import {  doc, getDoc} from "firebase/firestore";
 import LocationCard from "./LocationCard";
 import MapMarkers from "./MapMarkers";
 
 
-import { db } from '../../../firebaseConfig';
-import { collection, addDoc, doc, getDoc } from "firebase/firestore";
+
 
 const ContactForm = () => {
-
-  const initialValues = {
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
-    companyName: '',
-  };
 
   const validationSchema = Yup.object().shape({
     name: Yup.string().required('Name is required'),
@@ -50,38 +44,47 @@ const ContactForm = () => {
 
     const handleSubmit = async (values, { setSubmitting, resetForm }) => {
       try {
-        // Correct Firestore v9+ syntax
-        const docRef = await addDoc(collection(db, 'contactapplications'), {
+        await addDoc(collection(db, 'contactapplications'), {
+          ...values,
+          timestamp: new Date(),
+        });
+    
+        resetForm();
+    
+        const structuredData = {
           name: values.name,
           email: values.email,
           phone: values.phone,
           message: values.message,
-          companyName: values.companyName || '', // Handle null case
-          timestamp: new Date(),
-        });
-        
-        console.log("Document written with ID: ", docRef.id); // For debugging
-    
-        resetForm();
+          companyName: values.companyName,
+        };
     
         const { service_id, template_id, public_key } = await fetchEmailKeys();
-        await emailjs.send(
-          service_id, 
-          template_id, 
-          {
-            name: values.name,
-            email: values.email,
-            phone: values.phone,
-            message: values.message,
-            companyName: values.companyName || '',
-          }, 
-          public_key
-        );
+        const templateParams = { ...structuredData };
+        await emailjs.send(service_id, template_id, templateParams, public_key);
     
-        toast.success('Message sent successfully!');
+        toast.success('Message sent successfully!', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
       } catch (error) {
-        console.error('Full error:', error); // More detailed logging
-        toast.error(error.message || 'Error submitting form. Please try again later.');
+        console.error('Error submitting form:', error);
+        toast.error('Error submitting form. Please try again later.', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
       } finally {
         setSubmitting(false);
       }
@@ -92,9 +95,11 @@ const ContactForm = () => {
     <Container>
       <ToastContainer />
      <LocationCard />
+    
      <h2 className="title text-center mb-4">Get In Touch</h2>     
+
         <Formik
-          initialValues={initialValues}
+          initialValues={{ name: '', email: '', phone: '', message: '', companyName: '' }}
           validationSchema={validationSchema}
           onSubmit={handleSubmit}
         >

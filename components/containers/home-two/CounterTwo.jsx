@@ -1,4 +1,4 @@
-import counterImg from "../../../public/images/bg/counter-two-bg.svg"; // Counter background image
+import counterImg from "@/public/images/bg/counter-two-bg.svg"; // Counter background image
 import Image from 'next/image';
 import OdometerCounter from "../Odometer";
 import TestimonialTwo from "./TestimonialTwo";
