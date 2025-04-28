@@ -32,7 +32,7 @@ const Features = () => {
                  for better outcomes by merging data and optimizing work processes. More data in one place means more accuracy, less chance of 
                 manual mistakes and better productivity.
               </p>
-              <p className='mt-3 mb-3' style={{ textAlign: 'justify' }}>Whether managing a small or large business, this adaptable system helps cut costs, improve performance and scale efficiently. With seamless integration, robust analytics, and user-friendly features, it supports long-term growth while keeping businesses competitive. Stay organised, work smarter, and achieve more.
+              <p className='mt-3 mb-3' style={{ textAlign: 'justify' }}>Whether managing a small or large business, this adaptable system helps cut costs, improve performance and scale efficiently. With seamless integration, robust analytics and user-friendly features, it supports long-term growth while keeping businesses competitive. Stay organised, work smarter, and achieve more.
               </p>
             </div>
           </div>

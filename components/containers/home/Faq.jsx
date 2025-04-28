@@ -16,7 +16,6 @@ const Faq = ({ extraClassName = '' }) => {
   const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
   // Conditionally select the icon
   const currentIcon = extraClassName.includes('style2') ? groupIcon2 : groupIcon;
 

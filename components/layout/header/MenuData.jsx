@@ -1,10 +1,7 @@
-"use client";
-import Link from "next/link";
-import { useState, useEffect } from "react";
-
-const industriesMenu = {
-  label: "Industries",
-  href: "/industries",
+export const industriesMenu = {
+  id: 3,
+  title: "Industries",
+  link: "/industries",
   children: [
     {
       heading: "Agriculture to Electronic Industries",
@@ -57,89 +54,117 @@ const industriesMenu = {
       ],
     },
   ],
-}; 
-
-
-const MenuData = () => {
-  const [isMobile, setIsMobile] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [openSubmenus, setOpenSubmenus] = useState({});
-
-  useEffect(() => {
-    const checkScreenSize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    checkScreenSize();
-    window.addEventListener("resize", checkScreenSize);
-    return () => window.removeEventListener("resize", checkScreenSize);
-  }, []);
-
-  const toggleSubmenu = (index) => {
-    setOpenSubmenus((prev) => ({
-      ...prev,
-      [index]: !prev[index],
-    }));
-  };
-
-  return isMobile ? (
-    <>
-      <button className="nav-link" onClick={() => setMenuOpen(!menuOpen)}>
-        {industriesMenu.label} <i className="fas fa-chevron-down"></i>
-      </button>
-
-      {menuOpen && (
-        <ul className="sub-menu list-unstyled">
-          {industriesMenu.children.map((category, index) => (
-            <li key={index}>
-              <button
-                className="submenu-heading"
-                onClick={() => toggleSubmenu(index)}
-              >
-                <span>{category.heading}</span>{" "}
-                <i className={`fas fa-chevron-${openSubmenus[index] ? "down" : "right"}`}></i>
-              </button>
-
-              {openSubmenus[index] && (
-                <ul className="nested-submenu list-unstyled">
-                  {category.submenu.map((item, idx) => (
-                    <li key={idx}>
-                      <Link href={item.href}>{item.label}</Link>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          ))}
-        </ul>
-      )}
-    </>
-  ) : (
-    <ul className="navbar-nav mx-auto mb-lg-0">
-      <li className="nav-item">
-        <Link className="nav-link" href={industriesMenu.href}>
-          {industriesMenu.label} <i className="fas fa-chevron-down"></i>
-        </Link>
-        <ul className="sub-menu list-unstyled">
-          {industriesMenu.children.map((category, index) => (
-            <li key={index}>
-              <a className="submenu-heading">
-                <span>{category.heading}</span>{" "}
-                <i className="fas fa-chevron-right"></i>
-              </a>
-              <ul className="nested-submenu list-unstyled">
-                {category.submenu.map((item, idx) => (
-                  <li key={idx}>
-                    <Link href={item.href}>{item.label}</Link>
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul>
-      </li>
-    </ul>
-  );
 };
 
-export default MenuData;
+export const menus = [
+  {
+    id: 1,
+    title: "Home",
+    link: "/",
+  },
+  {
+    id: 2,
+    title: "About",
+    link: "/about",
+  },
+  industriesMenu,
+  {
+    id: 4,
+    title: "Products",
+    link: "/products",
+    submenu: [
+      {
+        id: 41,
+        title: "Tech Cloud ERP",
+        link: "/products/tech-cloud-erp",
+      },
+      {
+        id: 42,
+        title: "Tech Cloud CRM",
+        link: "/products/customer-relationship-management",
+      },
+      {
+        id: 43,
+        title: "Tech Cloud POS",
+        link: "/products/point-of-sale",
+      },
+      {
+        id: 44,
+        title: "Tech Cloud Trading Software",
+        link: "/products/trading-software",
+      },
+      {
+        id: 45,
+        title: "Tech Cloud Ecommerce",
+        link: "/products/Ecommerce-software",
+      },
+      {
+        id: 46,
+        title: "Tech Cloud HRMS",
+        link: "/products/hr-managament-software",
+      },
+      {
+        id: 47,
+        title: "Tech Cloud Finance",
+        link: "/products/financial-management-systems",
+      },
+      {
+        id: 48,
+        title: "Integrated-With-CRM-Ecommerce-POS",
+        link: "/products/integrated-erp-software",
+      },
+      {
+        id: 49,
+        title: "Tech Cloud Restaurant ERP",
+        link: "/products/erp-for-restaraunt",
+      },
+      {
+        id: 50,
+        title: "Accounting Software",
+        link: "/products/erp-for-accounting-software",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Services",
+    link: "/services",
+    submenu: [
+      {
+        id: 31,
+        title: "Digital Marketing",
+        link: "/services/digital-marketing",
+      },
+      {
+        id: 32,
+        title: "Web Development",
+        link: "/services/web-development",
+      },
+      {
+        id: 33,
+        title: "Mobile App Development",
+        link: "/services/app-development",
+      },
+    ],
+  },
+  // {
+  //   id: 6,
+  //   title: "Pricing",
+  //   link: "/pricing",
+  // },
+  {
+    id: 7,
+    title: "BI",
+    link: "business-intelligence",
+  },
+  {
+    id: 8,
+    title: "Contact",
+    link: "/contact",
+  },
+  {
+    id: 9,
+    title: "Demo",
+    link: "/demo",
+  },
+]; 
