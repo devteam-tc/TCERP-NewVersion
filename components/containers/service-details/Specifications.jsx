@@ -79,8 +79,7 @@ const Specifications = ({ slug }) => {
                       fontWeight: '600'
                     }}>{service.title}</h3>
                     <p className="service-text" style={{ 
-                      margin: 0,
-                      overflow: 'hidden',
+                      margin: 0, 
                       textOverflow: 'ellipsis',
                       display: '-webkit-box',
                       WebkitLineClamp: '4',

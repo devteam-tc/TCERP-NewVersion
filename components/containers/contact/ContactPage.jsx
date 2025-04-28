@@ -8,7 +8,8 @@ import { Form, Button, Col, Row , Container } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
 import LocationCard from "./LocationCard";
 import MapMarkers from "./MapMarkers";
-
+import Image from 'next/image';
+import styles from './ContactPage.module.css';
 
 import { db } from '../../../firebaseConfig';
 import { collection, addDoc, doc, getDoc } from "firebase/firestore";
@@ -91,67 +92,129 @@ const ContactForm = () => {
     <section className="ep-contact-section pt-120">
     <Container>
       <ToastContainer />
-     <LocationCard />
-     <h2 className="title text-center mb-4">Get In Touch</h2>     
-        <Formik
-          initialValues={initialValues}
-          validationSchema={validationSchema}
-          onSubmit={handleSubmit}
-        >
-           {({ errors, touched }) => (
-         <FormikForm>
-         <Row className="g-4">
-           <Col md={6}>
-             <div className="input-group">
-               <Field name="name" type="text" className="form-control" placeholder="Your Name" />
-               {touched.name && errors.name && <div className="text-danger mt-1">{errors.name}</div>}
-             </div>
-           </Col>
+      <LocationCard />
+      <div className={styles['contact-content-wrapper']}>
+        <h2 className="title text-center mb-4">Get In Touch</h2>     
+        <Row className="g-4">
+          <Col lg={6}>
+            <div className={styles['contact-image-wrapper']}>
+              <Image
+                src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-4.0.3"
+                alt="Contact Us"
+                width={1200}
+                height={400}
+                className="img-fluid rounded"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  minHeight: '400px',
+                  objectFit: 'cover'
+                }}
+                priority
+              />
+            </div>
+          </Col>
+          <Col lg={6}>
+            <div className={styles['contact-form-wrapper']}>
+              <Formik
+                initialValues={initialValues}
+                validationSchema={validationSchema}
+                onSubmit={handleSubmit}
+              >
+                {({ errors, touched }) => (
+                  <FormikForm>
+                    <Row className="g-4">
+                      <Col md={6}>
+                        <div className="input-group">
+                          <Field 
+                            name="name" 
+                            type="text" 
+                            className="form-control" 
+                            placeholder="Your Name *"
+                          />
+                          {touched.name && errors.name && 
+                            <div className="text-danger">{errors.name}</div>
+                          }
+                        </div>
+                      </Col>
 
-           <Col md={6}>
-             <div className="input-group">
-               <Field name="email" type="email" className="form-control" placeholder="Your Email" />
-               {touched.email && errors.email && <div className="text-danger mt-1">{errors.email}</div>}
-             </div>
-           </Col>
+                      <Col md={6}>
+                        <div className="input-group">
+                          <Field 
+                            name="email" 
+                            type="email" 
+                            className="form-control" 
+                            placeholder="Your Email *"
+                          />
+                          {touched.email && errors.email && 
+                            <div className="text-danger">{errors.email}</div>
+                          }
+                        </div>
+                      </Col>
 
-           <Col md={6}>
-             <div className="input-group">
-               <Field name="phone" type="text" className="form-control" placeholder="Your Phone" />
-               {touched.phone && errors.phone && <div className="text-danger mt-1">{errors.phone}</div>}
-             </div>
-           </Col>
+                      <Col md={6}>
+                        <div className="input-group">
+                          <Field 
+                            name="phone" 
+                            type="text" 
+                            className="form-control" 
+                            placeholder="Your Phone *"
+                          />
+                          {touched.phone && errors.phone && 
+                            <div className="text-danger">{errors.phone}</div>
+                          }
+                        </div>
+                      </Col>
 
-           <Col md={6}>
-             <div className="input-group">
-               <Field name="companyName" type="text" className="form-control" placeholder="Your Company" />
-               {touched.companyName && errors.companyName && <div className="text-danger mt-1">{errors.companyName}</div>}
-             </div>
-           </Col>
+                      <Col md={6}>
+                        <div className="input-group">
+                          <Field 
+                            name="companyName" 
+                            type="text" 
+                            className="form-control" 
+                            placeholder="Company Name (Optional)"
+                          />
+                          {touched.companyName && errors.companyName && 
+                            <div className="text-danger">{errors.companyName}</div>
+                          }
+                        </div>
+                      </Col>
 
-           <Col lg={12}>
-             <div className="input-group">
-               <Field name="message" as="textarea" className="form-control" placeholder="Message here..." />
-               {touched.message && errors.message && <div className="text-danger mt-1">{errors.message}</div>}
-             </div>
-           </Col>
+                      <Col lg={12}>
+                        <div className="input-group">
+                          <Field 
+                            name="message" 
+                            as="textarea" 
+                            className="form-control" 
+                            placeholder="Your Message *"
+                          />
+                          {touched.message && errors.message && 
+                            <div className="text-danger">{errors.message}</div>
+                          }
+                        </div>
+                      </Col>
 
-           <Col lg={12}>
-             <div className="text-center">
-               <Button type="submit"  className="theme-btn position-relative">
-                 Submit Now
-               </Button>
-             </div>
-           </Col>
-                </Row>
-              </FormikForm>
-            )}
-          </Formik>
-          </Container>
-          <MapMarkers />
-          </section>
-        );
-      };
+                      <Col lg={12}>
+                        <div className="text-center">
+                          <Button type="submit" className="theme-btn">
+                            Send Message
+                          </Button>
+                        </div>
+                      </Col>
+                    </Row>
+                  </FormikForm>
+                )}
+              </Formik>
+            </div>
+          </Col>
+        </Row>
+        
+      </div>
+    </Container>
+    <MapMarkers />
+  </section>
+  );
+};
 
 export default ContactForm;
      
