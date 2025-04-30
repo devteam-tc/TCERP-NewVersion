@@ -251,6 +251,8 @@
 	}
 }
 
+
+  
 .rotating-background {
 	z-index: 1000;
 	overflow: hidden;
@@ -283,8 +285,28 @@
 	z-index: 1;
   }
   .banner-shape {
-	z-index: 1000;
+	position: absolute;
+	top: 1%;
+    left: -24%;
+	pointer-events: none;
+	animation: spinner 60s linear infinite;
+  
+	img {
+	  object-fit: contain;
+	  max-width: 100%;
+	  height: auto;
+	}
   }
+  
+  @keyframes spinner {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
   .rotating-background {
 	z-index: -1; /* Behind shapes and content */
   }

@@ -1,10 +1,11 @@
 import Link from 'next/link'
-// import logo2 from '@/public/images/logo/logo2.svg';
-import logo2 from '../../../public/images/logo/logo.webp';
+import logo2 from '../../../public/images/logo/logo.svg';
 import Image from 'next/image';
 import ScrollProgressButton from '../ScrollProgressButton';
 import WebCounter from '../../containers/home/WebCounter';
-// import SocialMediaIcons from './SocialMediaIcons';
+import SocialMediaIcons from './SocialMediaIcons';
+import Certifications from './Certifications';
+
 const Footer = () => {
   return (
     <>
@@ -20,10 +21,10 @@ const Footer = () => {
                   <div className="footer-widget footer-about">
                     <div className="logo">
                       <Link href="/">
-                        <Image priority src={logo2} alt="logo2" />
+                        <Image priority src={logo2} alt="logo2" width={200} height={100} />
                       </Link>
                     </div>
-                    <div className="short-info">
+                    <div className="short-info mt-3">
                       <p>Tech Cloud ERP delivers top-notch solutions tailored for any business comprehensive features.</p>
                     </div>
                     <div className="contact-info">
@@ -46,6 +47,7 @@ const Footer = () => {
                           </div>
                           <p> <a href="mailto:info@techclouderp.com">info@techclouderp.com</a></p>
                           <WebCounter />
+                          <Certifications />
                         </li>
                       </ul>
                     </div>
@@ -56,14 +58,16 @@ const Footer = () => {
                     <h4 className="footer-title">Useful Links</h4>
                     <ul className="list-unstyled">
                     {/* <i className="fas fa-chevron-right"></i>  */}
-                      <li><Link href="/services">Home</Link></li>
-                      <li><Link href="/services"> About Us</Link></li>
-                      <li><Link href="/services"> Contact Us</Link></li>
-                      <li><Link href="/services"> Our Features</Link></li>
-                      <li><Link href="/services"> Our Blogs</Link></li>
+                      <li><Link href="/">Home</Link></li>
+                      <li><Link href="/about"> About Us</Link></li>
+                      <li><Link href="/contact"> Contact Us</Link></li>
+                      <li><Link href="/features"> Our Features</Link></li>
+                      <li><Link href="/blogs"> Our Blogs</Link></li>
                       <li><Link href="/services"> Our Branches</Link></li>
                       <li><Link href="/products"> All Products</Link></li>
-                      <li><Link href="/services"> Careers</Link></li>
+                      <li><Link href="/careers"> Careers</Link></li>
+                      <li><Link href="/pricing"> Pricing</Link></li>
+
                     </ul>
                   </div>
                 </div>
@@ -87,34 +91,37 @@ const Footer = () => {
                     <h4 className="footer-title">Services </h4>
                     <ul className="list-unstyled">
                       <li><Link href="/services">All Services </Link></li>
-                      <li><Link href="/blog">Web Development</Link></li>
+                      <li><Link href="/services/web-development/">Web Development</Link></li>
                       <li><Link href="/contact">E-Commerce Website </Link></li>
-                      <li><Link href="/contact">Mobile App Development</Link></li>
-                      <li><Link href="/contact">Digital Marketing</Link></li>
+                      <li><Link href="/services/app-development/">Mobile App Development</Link></li>
+                      <li><Link href="/services/digital-marketing/">Digital Marketing</Link></li>
                       <li><Link href="/contact">Whatsapp Business</Link></li>
-                      <li><Link href="/contact">Business Intelligence</Link></li>
+                      <li><Link href="/business-intelligence/">Business Intelligence</Link></li>
                       <li><Link href="/contact">Web Hosting</Link></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="footer-bottom">
-                <div className="row g-2">
-                  <div className="col-lg-6">
+                <div className="row align-items-center">
+                  <div className="col-lg-4">
                     <div className="footer-copyright text-center text-lg-start">
                       <p>© 2025 Tech Cloud ERP | All Rights Reserved.</p>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-4">
+                    <div className="social-icons-container text-center">
+                      <SocialMediaIcons />
+                    </div>
+                  </div>
+                  <div className="col-lg-4">
                     <div className="footer-menu text-center text-lg-end">
                       <ul className="list-unstyled">
-                        <li className="d-inline-block"><Link href="#">Terms & Conditions</Link></li>
-                        <li className="d-inline-block"><Link href="#">Privacy Policy</Link></li>
-                        {/* <li className="d-inline-block"><Link href="/contact">Contact Us</Link></li> */}
+                        <li className="d-inline-block"><Link href="/terms-and-conditions">Terms & Conditions</Link></li>
+                        <li className="d-inline-block"><Link href="/privacypolicy">Privacy Policy</Link></li>
                       </ul>
                     </div>
                   </div>
-                  {/* <SocialMediaIcons /> */}
                 </div>
               </div>
             </div>

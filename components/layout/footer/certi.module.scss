@@ -1,0 +1,11 @@
+.contents {
+    display: flex;
+    gap: 20px; // Adds space between the images
+    justify-content: center; // Centers the images horizontally
+    align-items: center; // Centers the images vertically
+  
+    img {
+      max-width: 100%; // Ensures images are responsive
+      height: auto; // Maintains aspect ratio
+    }
+  }

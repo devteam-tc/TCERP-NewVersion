@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import bannerImg from '../../../public/images/banner/banner-img-1.webp';
 import bannerShapeOne from '../../../public/images/shape/banner-shape-1.svg';
-import bannerShapeTwo from '../../../public/images/shape/globe4_blue.png';
+import bannerShapeTwo from '../../../public/images/shape/worldmap2.png';
 import Link from 'next/link';
 import { useState } from 'react';
 import YouTubeEmbed from '../YouTubeEmbed';
@@ -13,8 +13,10 @@ const Banner = () => {
   return (
     <>
       <section className="ep-banner-section position-relative overflow-hidden">
-        <div className="banner-shape position-absolute top-50 translate-middle-y z-0">
-          <Image src={bannerShapeTwo} alt="banner-shape" />
+        <div className="banner-shape ">
+        {/* position-absolute top-50 translate-middle-y z-0 */}
+          <Image src={bannerShapeTwo} alt="banner-shape" width={1000}
+    height={1000} />
         </div>
         <div className="container">
           <div className="row">
@@ -34,10 +36,10 @@ const Banner = () => {
                       </svg>
                     </span>
                   </Link>
-                  <button onClick={() => setVideoActive(true)} className="video-popup bg-transparent border-0 play-now-btn d-inline-flex align-items-center">
+                  {/* <button onClick={() => setVideoActive(true)} className="video-popup bg-transparent border-0 play-now-btn d-inline-flex align-items-center">
                     <span className="icon ripple position-relative d-flex align-items-center justify-content-center rounded-pill"><i className="fas fa-play"></i></span>
                     <span className="text">Play Now</span>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

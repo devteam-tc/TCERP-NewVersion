@@ -12,7 +12,7 @@
 /* Scrolling images container */
 .scrollingImages {
   position: absolute;
-  top: 74%; /* Adjust as needed */
+  top: 71%;
   left: 0;
   display: flex;
   gap: 30px;
@@ -20,15 +20,31 @@
   white-space: nowrap;
 }
 
-.scrollingImages img {
-  height: 100px;
+/* Image wrapper to enforce height */
+.imageWrapper {
+  height: 200px; /* You can adjust this */
+  width: auto;
+  position: relative;
+}
+
+/* Force image inside next/image to follow wrapper */
+.imageWrapper :global(span) {
+  height: 100% !important;
+  width: auto !important;
+}
+
+.trainImage {
+  height: 100% !important;
+  width: auto !important;
   object-fit: contain;
-  /* Applying vertical movement */
-  -webkit-animation: mover 1s infinite alternate;
+}
+
+/* Bounce animation */
+.vert-move {
   animation: mover 1s infinite alternate;
 }
 
-/* Horizontal scrolling animation */
+/* Horizontal scroll */
 @keyframes scroll-left {
   0% {
     transform: translateX(100%);
@@ -38,8 +54,8 @@
   }
 }
 
-/* Vertical movement (bounce) animation */
-@-webkit-keyframes mover {
+/* Vertical bounce animation */
+@keyframes mover {
   0% {
     transform: translateY(0);
   }
@@ -48,30 +64,17 @@
   }
 }
 
-@keyframes mover {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-2px);
-  }
-}
-
-/* Media Queries for Mobile and Tablet */
+/* Responsive behavior */
 @media (max-width: 768px) {
-  .scrollingImages {
-    display: none;
-  }
-  .backgroundSection{
+  .scrollingImages,
+  .backgroundSection {
     display: none;
   }
 }
 
 @media (max-width: 480px) {
-  .scrollingImages {
-    display: none;
-  }
-  .backgroundSection{
+  .scrollingImages,
+  .backgroundSection {
     display: none;
   }
 }
