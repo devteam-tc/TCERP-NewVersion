@@ -1,5 +1,5 @@
 .howItWorks {
-    padding: 60px 20px;
+    padding: 100px 20px;
     background-color: #f9f9f9;
   
     .container {
@@ -8,6 +8,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      align-items: center;
   
       @media (max-width: 992px) {
         flex-direction: column;
@@ -52,7 +53,7 @@
     .stepCard {
       background: #fff;
       border-radius: 10px;
-      padding: 20px;
+      padding: 40px;
       text-align: center;
       flex: 1;
       max-width: 300px;

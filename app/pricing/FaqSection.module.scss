@@ -21,10 +21,10 @@
 }
 
 .support {
-  color: #8A2BE2;
+  color: var(--bs-primary-500);
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   letter-spacing: 1px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .getInTouch {
-  background-color: #8A2BE2;
+  background-color: #05afcc;
   color: white;
   border: none;
   padding: 16px 32px;
@@ -55,7 +55,7 @@
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: darken(#8A2BE2, 10%);
+    background-color: var(--bs-secondary-600);
   }
 }
 
@@ -78,10 +78,10 @@
 
   &.active {
     .questionButton {
-      color: #8A2BE2;
+      color: var(--bs-black-color);
       
       .icon {
-        background-color: #8A2BE2;
+        background-color: var(--bs-primary-500);
         color: white;
       }
     }
@@ -98,13 +98,14 @@
   border: none;
   text-align: left;
   font-size: 20px;
-  font-weight: 600;
+  // font-weight: 600;
   color: #1a1a1a;
   cursor: pointer;
   transition: color 0.3s ease;
 
   &:hover {
-    color: #8A2BE2;
+    color: #000 !important;
+    font-weight: 500 !important;
   }
 }
 

@@ -6,12 +6,12 @@ import Image from 'next/image';
 const Certifications = () => {
   return (
     <div className="contents mt-3">
-      <Image 
+      {/* <Image 
         src="/images/certifications/iso.png" 
         alt="ISO Certification" 
         width={50}  
         height={50} 
-      />
+      /> */}
       <Image 
         src="/images/certifications/msme.png" 
         alt="MSME Certification" 

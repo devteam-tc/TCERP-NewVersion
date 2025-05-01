@@ -76,7 +76,7 @@ const UniqueFeatures = () => {
               <h6 className="text-primary mb-3">Quiety Featured</h6>
               <h2>Enjoy some exclusive features</h2>
             </div> */}
-             <div className=" text-center">
+             <div className="text-center">
                <SectionTitle subTitle="Quiety Featured" title="Enjoy some exclusive features" extraClass="mb-30" />
              </div>
           </div>

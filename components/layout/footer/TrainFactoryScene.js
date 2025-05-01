@@ -5,16 +5,16 @@ const TrainFactoryScene = () => {
   return (
     <div className="backgroundSection">
       <div className="scrollingImages">
-        <div className="imageWrapper">
-          <Image 
-            src="/footer/train_11.png" 
-            alt="img1" 
-            width={5000} 
-            height={3500}
-            className="trainImage vert-move"
-            priority
-          />
-        </div>
+        {/* Repeating image multiple times for continuous scroll effect */}
+        <Image 
+          src="/footer/train_11.png" 
+          alt="Train Image 1" 
+          width={300}
+          height={120}
+          className="trainImage"
+          style={{ objectFit: 'contain' }}
+        />
+        
       </div>
     </div>
   );

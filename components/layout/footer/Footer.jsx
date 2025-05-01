@@ -47,7 +47,7 @@ const Footer = () => {
                           </div>
                           <p> <a href="mailto:info@techclouderp.com">info@techclouderp.com</a></p>
                           <WebCounter />
-                          <Certifications />
+                          {/* <Certifications /> */}
                         </li>
                       </ul>
                     </div>

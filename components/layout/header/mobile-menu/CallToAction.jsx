@@ -3,7 +3,7 @@ const CallToAction = () => {
     <div className="call-us p-4">
       <a
         href="tel:+91 8919439603"
-        className="call-us-btn d-flex align-items-center gap-3"
+        className="call-us-btn d-flex align-items-center gap-1"
       >
         <span className="icon d-flex justify-content-center align-items-center">
           <i className="fa-solid fa-phone"></i>

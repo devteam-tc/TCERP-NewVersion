@@ -1,80 +1,33 @@
-/* Background Section */
 .backgroundSection {
   position: relative;
   width: 100%;
-  height: 450px;
+  height: 500px;
   background-image: url('/footer/bg_img3.png');
   background-size: cover;
   background-position: center;
   overflow: hidden;
 }
 
-/* Scrolling images container */
 .scrollingImages {
   position: absolute;
-  top: 71%;
+  top: 73%;
   left: 0;
   display: flex;
   gap: 30px;
   animation: scroll-left 70s linear infinite;
   white-space: nowrap;
+
+  .trainImage {
+    height: 120px;
+    width: auto;
+  }
 }
 
-/* Image wrapper to enforce height */
-.imageWrapper {
-  height: 200px; /* You can adjust this */
-  width: auto;
-  position: relative;
-}
-
-/* Force image inside next/image to follow wrapper */
-.imageWrapper :global(span) {
-  height: 100% !important;
-  width: auto !important;
-}
-
-.trainImage {
-  height: 100% !important;
-  width: auto !important;
-  object-fit: contain;
-}
-
-/* Bounce animation */
-.vert-move {
-  animation: mover 1s infinite alternate;
-}
-
-/* Horizontal scroll */
 @keyframes scroll-left {
   0% {
     transform: translateX(100%);
   }
   100% {
     transform: translateX(-100%);
-  }
-}
-
-/* Vertical bounce animation */
-@keyframes mover {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-15px);
-  }
-}
-
-/* Responsive behavior */
-@media (max-width: 768px) {
-  .scrollingImages,
-  .backgroundSection {
-    display: none;
-  }
-}
-
-@media (max-width: 480px) {
-  .scrollingImages,
-  .backgroundSection {
-    display: none;
   }
 }
