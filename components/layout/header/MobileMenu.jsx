@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../../public/images/logo/logo.webp";
+import logo from "../../../public/images/logo/logo.svg";
 import { menus } from "../../../data/menuData";
 import MobileMenuHeader from "./mobile-menu/MobileMenuHeader";
 import MenuItem from "./mobile-menu/MenuItem";
@@ -53,7 +53,7 @@ const MobileMenu = () => {
         <div>
           <div className="logo">
             <Link href="/">
-              <Image src={logo} alt="logo" />
+              <Image src={logo} alt="logo" width={200} height={100}  />
             </Link>
           </div>
           <div className="close-mobile-menu" onClick={closeMenu}>

@@ -18,28 +18,29 @@ const Pricing = ({ extraClassName = '' }) => {
         <div className="row">
           <div className="col-lg-6 mx-auto">
             <SectionTitle
-              subTitle="Pricing plan"
-              title="Choose the Perfect Plan For Your Business Needs"
+              subTitle="Pricing Plans"
+              title="Choose the Perfect Plan for Your Business Needs"
               extraClass="text-center"
             />
           </div>
+          <p className="text-center mt-3 mb-3">Note: Taxes (GST/VAT) may apply based on region</p>
         </div>
         <div className="d-flex justify-content-center mb-5">
-  <div className="toggle-switch">
-    <span className="me-2">₹ INR</span>
-    <label className="switch">
-      <input
-        type="checkbox"
-        checked={selectedCountry === "us"}
-        onChange={(e) =>
-          setSelectedCountry(e.target.checked ? "us" : "india")
-        }
-      />
-      <span className="slider round"></span>
-    </label>
-    <span className="ms-2">$ USD</span>
-  </div>
-</div>
+              <div className="toggle-switch">
+            <span className="me-2">₹ INR</span>
+            <label className="switch">
+              <input
+                type="checkbox"
+                checked={selectedCountry === "us"}
+                onChange={(e) =>
+                  setSelectedCountry(e.target.checked ? "us" : "india")
+                }
+              />
+                <span className="slider round"></span>
+              </label>
+              <span className="ms-2">$ USD</span>
+            </div>
+          </div>
 
         <div className="row">
           {pricingPlans.map((plan) => (

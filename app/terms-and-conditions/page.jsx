@@ -4,7 +4,7 @@ import Footer from "../../components/layout/footer/Footer";
 import Header from "../../components/layout/header/Header";
 import PageHeader from "../../components/layout/PageHeader";
 import { FaHome } from 'react-icons/fa';
-import TermsPage from "./TermsPage";
+import TermsPage from '../../components/containers/terms-and-conditions/TermsPage';
 
 const page = () => {
   const breadcrumbs = [
@@ -15,7 +15,7 @@ const page = () => {
     <>
       <Header/>
       <PageHeader title="Terms & Conditions" breadcrumbs={breadcrumbs}/>
-     <TermsPage />
+      <TermsPage />
       <Footer/>
 
       <CustomCursor/>

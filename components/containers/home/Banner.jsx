@@ -6,6 +6,11 @@ import bannerShapeTwo from '../../../public/images/shape/worldmap2.png';
 import Link from 'next/link';
 import { useState } from 'react';
 import YouTubeEmbed from '../YouTubeEmbed';
+import bannerImg5 from '../../../public/images/banner/Chart1.png';
+import bannerImg6 from '../../../public/images/banner/Chart2.png';
+import bannerImg7 from '../../../public/images/banner/Chart3.png';
+import bannerImg8 from '../../../public/images/banner/Chart4.png';
+import styles from './Banner.module.css';
 
 const Banner = () => {
   const [videoActive, setVideoActive] = useState(false);
@@ -36,16 +41,16 @@ const Banner = () => {
                       </svg>
                     </span>
                   </Link>
-                  {/* <button onClick={() => setVideoActive(true)} className="video-popup bg-transparent border-0 play-now-btn d-inline-flex align-items-center">
-                    <span className="icon ripple position-relative d-flex align-items-center justify-content-center rounded-pill"><i className="fas fa-play"></i></span>
-                    <span className="text">Play Now</span>
-                  </button> */}
                 </div>
               </div>
             </div>
             <div className="col-lg-7 col-md-10 mx-auto ps-xl-0">
-              <div className="banner-image" data-aos-duration="800" data-aos="fade-left">
-                <Image priority src={bannerImg} alt="banner-img" className="img-fluid w-100" />
+              <div className="custom-images-grid" data-aos-duration="800" data-aos="fade-left">
+                <Image priority src={bannerImg5} alt="banner-img-5" className="img-fluid custom-image-bounce  bounce-1" />
+                <Image priority src={bannerImg6} alt="banner-img-6" className="img-fluid custom-image-bounce  bounce-2" />
+                <Image priority src={bannerImg8} alt="banner-img-8" className="img-fluid custom-image-bounce  bounce-3" />
+                <Image priority src={bannerImg7} alt="banner-img-7" className="img-fluid custom-image-bounce  bounce-4" />
+
               </div>
             </div>
           </div>

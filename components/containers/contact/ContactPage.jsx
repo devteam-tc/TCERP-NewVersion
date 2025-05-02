@@ -47,7 +47,7 @@ export default function ContactSection() {
           <div className={styles.iconCircle}><HiOutlinePhone className={styles.icon} /></div>
           <div>
               <span>Give us a Call</span>
-              <strong>123-456-7890</strong>
+              <strong>+91 7032082300</strong>
             </div>
           </div>
 
@@ -55,7 +55,7 @@ export default function ContactSection() {
           <div className={styles.iconCircle}><HiOutlineMail className={styles.icon} /></div>
           <div>
               <span>Send me Mail</span>
-              <strong>OTech It Service.com</strong>
+              <strong>www.techclouderp.com</strong>
             </div>
           </div>
 
@@ -63,7 +63,8 @@ export default function ContactSection() {
           <div className={styles.iconCircle}><HiOutlineLocationMarker className={styles.icon} /></div>
           <div>
               <span>Contact us</span>
-              <strong>8708 Technology, USA</strong>
+              <strong>Plot No. 241, 3rd Floor, VVG Elite Developers, Kavuri Hills, Phase - 2
+              </strong>
             </div>
           </div>
         </div>
