@@ -277,9 +277,9 @@ p {
 
   .section-title {
     color: var(--Dark-Color);
-    font-size: 47px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 58px;
+    line-height: 50px;
     letter-spacing: -1.48px;
   }
 }
@@ -367,9 +367,9 @@ p {
 /* Heading style */
 .heading-style1 {
   color: var( --Dark-Color);
-  font-size: 47px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 58px;
+  line-height: 50px;
   letter-spacing: -1.48px;
 }
 
@@ -497,6 +497,7 @@ p {
   .icon {
     width: 55px;
     height: 55px;
+    background: none;
     // background-color:var(--bs-secondary-color);
     border-radius: 50%;
     transition: var(--bs-transition);
@@ -512,7 +513,7 @@ p {
       color: var(--bs-black-color);
       font-size: 16px;
       font-weight: 600;
-      line-height: 28px;
+      line-height: 30px;
       letter-spacing: -0.36px;
     }
 
@@ -554,7 +555,8 @@ p {
   }
 
   .number {
-    font-size: 22px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
     line-height: 36px !important;
   }
 

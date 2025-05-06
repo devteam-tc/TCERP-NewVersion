@@ -1,25 +1,22 @@
-.termsContainer {
+.terms-container {
     min-height: 100vh;
-    // background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     padding: 60px 0;
   }
   
-  .termsContent {
-    // max-width: 800px;
+  .terms-content {
     margin: 0 auto;
     padding: 40px;
     background-color: #ffffff;
     border-radius: 16px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(173, 216, 230, 0.5), 0 6px 6px rgba(173, 216, 230, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.18);
   
     @media (max-width: 768px) {
       padding: 20px;
-      margin: 0 20px;
     }
   }
   
-  .title {
+  .titles {
     color: #2c3e50;
     font-size: 36px;
     font-weight: 700;
@@ -34,7 +31,7 @@
     }
   }
   
-  .lastUpdated {
+  .last-updated {
     color: #666;
     font-size: 14px;
     text-align: center;
@@ -48,7 +45,9 @@
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
-  
+    @media (max-width: 992px) {
+        padding: 6px;
+      }
     &:hover {
       transform: translateY(-2px);
     }
@@ -58,22 +57,22 @@
     }
   }
   
-  .sectionTitle {
+  .section-title {
     color: #ef5226;
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 16px;
+    // margin-bottom: 16px;
     padding-bottom: 8px;
-    // border-bottom: 3px solid #3498db;
-    display: inline-block;
+    // display: inline-block;
   
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
       font-size: 20px;
+      line-height: 30px;
     }
   }
   
   .paragraph {
-    color: #34495e;
+    color: var(--bs-black-color);
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 16px;
@@ -85,31 +84,23 @@
     margin-bottom: 16px;
   
     li {
-      color: #34495e;
+      color: var(--bs-black-color);
       font-size: 16px;
       line-height: 1.8;
       margin-bottom: 12px;
       padding-left: 24px;
       position: relative;
-  
-      &:before {
-        // content: "•";
-        // color: #3498db;
-        font-size: 24px;
-        position: absolute;
-        left: 0;
-        top: -2px;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+
+      .list-icon {
+        color: var(--bs-primary-500);
+        font-size: 18px;
+        margin-top: 4px;
+        flex-shrink: 0;
       }
     }
   }
   
-  .contactInfo {
-    color: #34495e;
-    font-size: 16px;
-    line-height: 1.8;
-    margin-top: 8px;
-    padding: 16px;
-    border-left: 4px solid #3498db;
-    background-color: #f8f9fa;
-    border-radius: 0 8px 8px 0;
-  } 
+ 

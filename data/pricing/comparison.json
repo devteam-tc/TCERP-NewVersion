@@ -1,0 +1,52 @@
+{
+    "title": {
+      "main": "Plan",
+      "sub": "Comparison Table",
+      "description": "Comparing our pricing plans side-by-side so you can choose the best one for yourself."
+    },
+    "plans": [
+      {
+        "name": "BASIC",
+        "buttonText": "Get Basic",
+        "features": {
+          "versionHistory": "30days",
+          "ModulesIncluded": false,
+          "UserLimit": true,
+          "Customization": true,
+          "DataMigration": "50gb",
+          "RealtimeReportsDashboards": true,
+          "BestFor": true
+        }
+      },
+      {
+        "name": "GROWTH",
+        "buttonText": "Get Growth",
+        "isHighlighted": true,
+        "features": {
+          "versionHistory": true,
+          "sendInvoices": true,
+          "crossPlatform": true,
+          "scanReceipts": true,
+          "storage": "100gb"
+        }
+      },
+      {
+        "name": "PREMIUM",
+        "buttonText": "Get Premium",
+        "features": {
+          "versionHistory": true,
+          "sendInvoices": true,
+          "crossPlatform": true,
+          "scanReceipts": true,
+          "storage": "Unlimited"
+        }
+      }
+    ],
+    "features": [
+      { "label": "Version history", "key": "versionHistory" },
+      { "label": "Send invoices and quotes", "key": "sendInvoices" },
+      { "label": "Cross platform", "key": "crossPlatform" },
+      { "label": "Scan receipts and bills", "key": "scanReceipts" },
+      { "label": "Storage", "key": "storage" }
+    ]
+  }

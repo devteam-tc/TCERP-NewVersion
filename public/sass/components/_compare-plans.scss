@@ -50,6 +50,7 @@
   
             strong {
               margin-bottom: 0.5rem;
+              background: none;
             }
           }
         }
@@ -64,6 +65,7 @@
             text-align: left;
             font-weight: 500;
             font-size: 20px;
+            margin-top: 0px;
             border-left: none;
           }
   
@@ -87,6 +89,7 @@
       .checkmark {
         font-size: 1.25rem;
         color: #7e22ce;
+        background: none;
       }
     }
   }
