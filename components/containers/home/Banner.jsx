@@ -6,10 +6,10 @@ import bannerShapeTwo from '../../../public/images/shape/worldmap2.webp';
 import Link from 'next/link';
 import { useState } from 'react';
 import YouTubeEmbed from '../YouTubeEmbed';
-import bannerImg5 from '../../../public/images/banner/Chart1.png';
-import bannerImg6 from '../../../public/images/banner/Chart2.png';
-import bannerImg7 from '../../../public/images/banner/Chart3.png';
-import bannerImg8 from '../../../public/images/banner/Chart4.png';
+import bannerImg5 from '../../../public/images/banner/Chart1.webp';
+import bannerImg6 from '../../../public/images/banner/Chart2.webp';
+import bannerImg7 from '../../../public/images/banner/Chart3.webp';
+import bannerImg8 from '../../../public/images/banner/Chart4.webp';
 import styles from './Banner.module.css';
 
 const Banner = () => {

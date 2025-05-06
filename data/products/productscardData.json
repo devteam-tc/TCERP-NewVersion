@@ -1,6 +1,7 @@
 {
   "tech-cloud-erp": {
     "mainTitle": "Our ERP Overview",
+    "heading" : "Tech Cloud ERP",
     "cards": [
       {
         "image": "/products/tcerp/sale.png",
@@ -36,6 +37,7 @@
   },
   "customer-relationship-management": {
     "mainTitle": "Our CRM Solutions Overview",
+    "heading": "Tech Cloud CRM",
     "cards": [
       {
         "image": "/products/CRM/contact.png",
@@ -86,6 +88,8 @@
   },
   "point-of-sale": {
     "mainTitle": "Popular Tech Cloud POS",
+    "heading": "Point of Sale",
+
     "cards": [
       {
         "image": "/products/POS/webdevelopment.png",
@@ -136,6 +140,7 @@
   },
   "trading-software": {
     "mainTitle": "Why Choose Tech Cloud ERP",
+    "heading": "Trading software",
     "cards": [
       {
         "image": "/products/trading/newcustomer.png",
@@ -171,6 +176,7 @@
   },
   "Ecommerce-software": {
     "mainTitle": "Our E-Commerce Overview",
+    "heading": "E-Commerce Software",
     "cards": [
       {
         "image": "/products/ecommerce/automation.png",
@@ -206,6 +212,7 @@
   },
   "hr-managament-software": {
     "mainTitle": "Our HR Management Solutions",
+    "heading": "HR management Software",
     "cards": [
       {
         "image": "/products/Hr/recruitment.png",
@@ -256,6 +263,7 @@
   },
   "financial-management-systems": {
     "mainTitle": "Finance Provide You Best Services",
+    "heading": "Financial Management Solutions",
     "cards": [
       {
         "image": "/products/Finance/functionalities.png",
@@ -281,6 +289,7 @@
   },
   "integrated-erp-software": {
     "mainTitle": "Comprehensive Tech Cloud ERP Solutions",
+    "heading": "Integrated ERP Software",
     "cards": [
       {
         "image": "/products/integrated/crm.png",
@@ -301,6 +310,7 @@
   },
   "erp-for-restaraunt": {
     "mainTitle": "Streamlined Restaurant Management Solutions",
+    "heading": "ERP For Restaraunt",
     "cards": [
       {
         "image": "/products/restaurant/point-of-service.png",
@@ -336,6 +346,7 @@
   },
   "erp-for-accounting-software": {
     "mainTitle": "Reliable, Efficient Delivery",
+    "heading": "ERP for Accounting Software",
     "cards": [
       {
         "image": "/products/Accouting/module.png",
