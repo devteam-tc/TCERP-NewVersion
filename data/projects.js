@@ -10,9 +10,9 @@ import project2Img2 from '../public/images/projects/project-2-img-2.png';
 import project2Img3 from '../public/images/projects/project-2-img-3.png';
 import project2Img4 from '../public/images/projects/project-2-img-4.png';
 import project2Img5 from '../public/images/projects/project-2-img-5.png';
-// import project2Img6 from '@/public/images/projects/project-2-img-6.png';
-// import project2Img7 from '@/public/images/projects/project-2-img-7.png';
-// import project2Img8 from '@/public/images/projects/project-2-img-8.png';
+// import project2Img6 from '../public/images/projects/project-2-img-6.png';
+// import project2Img7 from '../public/images/projects/project-2-img-7.png';
+// import project2Img8 from '../public/images/projects/project-2-img-8.png';
 
 // Projects single images
 import projectSingleImg1 from '../public/images/projects/project-single-img-1.png';

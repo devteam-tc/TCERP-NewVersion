@@ -69,7 +69,7 @@ export const menus = [
   },
   industriesMenu,
   {
-    id: 4,
+    id: 3,
     title: "Products",
     link: "/products",
     submenu: [
@@ -126,7 +126,7 @@ export const menus = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     title: "Services",
     link: "/services",
     submenu: [
@@ -147,23 +147,24 @@ export const menus = [
       },
     ],
   },
-  // {
-  //   id: 6,
-  //   title: "Pricing",
-  //   link: "/pricing",
-  // },
+  ,
   {
-    id: 7,
+    id: 5,
     title: "BI",
-    link: "business-intelligence",
+    link: "/business-intelligence",
   },
   {
-    id: 8,
+    id: 6,
     title: "Contact",
     link: "/contact",
   },
   {
-    id: 9,
+    id: 7,
+    title: "Pricing",
+    link: "/pricing",
+  },
+  {
+    id: 8,
     title: "Demo",
     link: "/demo",
   },

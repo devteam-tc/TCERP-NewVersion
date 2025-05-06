@@ -1,97 +1,103 @@
 {
-  "services": [
-    {
-    "title": "Ideation & Planning",
-    "img": "/images/servicescards/service-ideation-planning.png",
-    "link": "/services/android-development",
-    "description": "Lay the foundation with clear goals, target audience and feature planning. Define your app’s purpose and create a strategic roadmap for development.",
-    "icon": "/images/icons/android-icon.png",
-    "thumb": "/images/thumbs/android-thumb.png"
-    },
-    {
-    "title": "UI/UX Design",
-    "img": "/images/servicescards/service-uiux.png",
-    "link": "/services/cross-platform",
-    "description": "Design intuitive, user-centric interfaces that ensure seamless navigation and a satisfying user experience, setting the stage for long-term engagement.",
-    "icon": "/images/icons/cross-platform-icon.png",
-    "thumb": "/images/thumbs/cross-platform-thumb.png"
-    },
-    {
-    "title": "Development & Integration",
-    "img": "/images/servicescards/service-development-integration.png",
-    "link": "/services/enterprise-mobile",
-    "description": "Build the app using cross-platform technologies for iOS and Android.Incorporate essential features like offline access and system integrations.",
-    "icon": "/images/icons/enterprise-icon.png",
-    "thumb": "/images/thumbs/enterprise-thumb.png"
-    },
-    {
-    "title": "Launch & Engagement",
-    "img": "/images/servicescards/service-launch-engagement.png",
-    "link": "/services/mobile-ui",
-    "description": "Deploy your app and boost user retention with push notifications, real-time updates and continuous improvements based on user feedback.",
-    "icon": "/images/icons/ui-icon.png",
-    "thumb": "/images/thumbs/ui-thumb.png"
-    }
-    
-  ],
-  "about": {
-    "subtitle": "KNOW ABOUT OUR APP DEV",
-    "heading": "Innovative App Development That Drives Results",
-    "paragraph": "Our team creates tailored mobile and desktop apps that solve real business challenges. Whether it’s cross-platform or native, we build with performance, security and growth in mind.",
-    "features": [
-      "Agile Development Approach",
-      "Enterprise-grade Security Standards",
-      "Optimized for Speed, UX & Market Fit"
+    "services": [
+      {
+      "title": "Ideation & Planning",
+      "img": "/images/servicescards/service-ideation-planning.png",
+      "link": "/services/android-development",
+      "description": "Lay the foundation with clear goals, target audience and feature planning. Define your app's purpose and create a strategic roadmap for development.",
+      "icon": "/images/icons/android-icon.png",
+      "thumb": "/images/thumbs/android-thumb.png"
+      },
+      {
+      "title": "UI/UX Design",
+      "img": "/images/servicescards/service-uiux.png",
+      "link": "/services/cross-platform",
+      "description": "Design intuitive, user-centric interfaces that ensure seamless navigation and a satisfying user experience, setting the stage for long-term engagement.",
+      "icon": "/images/icons/cross-platform-icon.png",
+      "thumb": "/images/thumbs/cross-platform-thumb.png"
+      },
+      {
+      "title": "Development & Integration",
+      "img": "/images/servicescards/service-development-integration.png",
+      "link": "/services/enterprise-mobile",
+      "description": "Build the app using cross-platform technologies for iOS and Android.Incorporate essential features like offline access and system integrations.",
+      "icon": "/images/icons/enterprise-icon.png",
+      "thumb": "/images/thumbs/enterprise-thumb.png"
+      },
+      {
+      "title": "Launch & Engagement",
+      "img": "/images/servicescards/service-launch-engagement.png",
+      "link": "/services/mobile-ui",
+      "description": "Deploy your app and boost user retention with push notifications, real-time updates and continuous improvements based on user feedback.",
+      "icon": "/images/icons/ui-icon.png",
+      "thumb": "/images/thumbs/ui-thumb.png"
+      }
+      
     ],
-    "imageMain": "/images/servicescards/mob1.png",
-    "imageDecor": "/images/servicescards/dot-grp1.png"
-  },
-  "faq": [
-    {
-      "question": "Which platforms do you build apps for?",
-      "answer": "We build iOS and Android apps using React Native and Flutter."
+    "about": {
+      "subtitle": "KNOW ABOUT OUR APP DEV",
+      "heading": "Innovative App Development That Drives Results",
+      "paragraph": "Our team creates tailored mobile and desktop apps that solve real business challenges. Whether it's cross-platform or native, we build with performance, security and growth in mind.",
+      "features": [
+        "Agile Development Approach",
+        "Enterprise-grade Security Standards",
+        "Optimized for Speed, UX & Market Fit"
+      ],
+      "imageMain": "/images/servicescards/mob1.png",
+      "imageDecor": "/images/servicescards/dot-grp1.png"
     },
-    {
-      "question": "Do you assist with app store deployment?",
-      "answer": "Yes, we help you publish apps to both stores."
-    },
-    {
-      "question": "Can I track my app development progress?",
-      "answer": "Yes! We give regular updates and demos."
-    }
-  ],
-  "process": [
-    {
-      "step": 1,
-      "title": "App Strategy",
-      "description": "We define your app’s goals, target users and platform to build a strong foundation."
-    },
-    {
-      "step": 2,
-      "title": "Design & Development",
-      "description": "We craft stunning UI/UX and develop a secure, high-performance app tailored to your needs."
-    },
-    {
-      "step": 3,
-      "title": "Testing & Launch",
-      "description": "After thorough testing, we deploy your app to stores and ensure it runs smoothly with ongoing support."
-    }
-  ],
-  "downloadGuide": {
-    "title": "The 2024 guide for App Development",
-    "subtitle": "Best Practices",
-    "features": [
-      "Cross-platform development strategies",
-      "Mobile app security best practices",
-      "App store optimization techniques"
+    "faq": [
+      {
+        "question": "What development methodologies do you follow?",
+        "answer": "We follow Agile and Scrum methodologies, ensuring regular updates, sprint reviews, and continuous integration. This approach allows for flexibility and quick adaptation to changing requirements."
+      },
+      {
+        "question": "How do you ensure app security and performance?",
+        "answer": "We implement industry-standard security protocols, regular security audits, and performance optimization techniques. Our apps undergo rigorous testing for vulnerabilities and performance bottlenecks."
+      },
+      {
+        "question": "What is your post-launch support policy?",
+        "answer": "We provide comprehensive post-launch support including bug fixes, updates, performance monitoring, and feature enhancements. Our support team is available for technical assistance and maintenance."
+      },
+      {
+        "question": "How long does it typically take to develop an app?",
+        "answer": "Development timeline varies based on complexity, features, and platform requirements. A basic app typically takes 2-3 months, while complex enterprise solutions may take 6-12 months."
+      },
+      {
+        "question": "Do you provide app maintenance services?",
+        "answer": "Yes, we offer ongoing maintenance services including regular updates, security patches, performance optimization, and feature enhancements to keep your app current and competitive."
+      }
     ],
-    "buttonText": "Download Guide",
-    "image": {
-      "src": "/images/servicescards/book-1.webp",
-      "alt": "App Development Guide",
-      "width": 300,
-      "height": 400
-    },
-    "backgroundImage": "/images/servicescards/background-download.png"
-  }
-} 
+    "process": [
+      {
+        "step": 1,
+        "title": "Discovery & Strategy",
+        "description": "We conduct market research, define user personas, establish KPIs, and create a detailed project roadmap with timeline and resource allocation."
+      },
+      {
+        "step": 2,
+        "title": "Design & Prototyping",
+        "description": "Our team creates wireframes, interactive prototypes, and high-fidelity designs focusing on user experience, accessibility, and brand consistency."
+      },
+      {
+        "step": 3,
+        "title": "Development & Integration",
+        "description": "We implement the app using modern frameworks, integrate APIs, implement security measures, and ensure cross-platform compatibility."
+      },
+      {
+        "step": 4,
+        "title": "Quality Assurance",
+        "description": "Comprehensive testing including functional testing, performance testing, security audits, and user acceptance testing to ensure app reliability."
+      },
+      {
+        "step": 5,
+        "title": "Deployment & Launch",
+        "description": "We handle app store submissions, implement analytics, set up monitoring tools, and ensure smooth deployment across all platforms."
+      },
+      {
+        "step": 6,
+        "title": "Post-Launch Support",
+        "description": "Ongoing maintenance, performance monitoring, user feedback analysis, and regular updates to keep your app optimized and competitive."
+      }
+    ]
+  } 

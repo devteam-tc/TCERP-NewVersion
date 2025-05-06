@@ -1,12 +1,9 @@
 "use client";
 import Image from 'next/image';
 import PropTypes from 'prop-types';
-import { usePathname } from 'next/navigation';
 
-// Import all service data
-import appDevData from '../../../data/services/app-development.json';
-import webDevData from '../../../data/services/web-development.json';
-import digitalMarketingData from '../../../data/services/digital-marketing.json';
+// Import static download guide data
+import downloadGuideData from '../../../data/services/downloadGuide.json';
 
 // Feature List Component
 const FeatureList = ({ features }) => (
@@ -71,51 +68,30 @@ ImageBox.propTypes = {
 
 // Main Download Section Component
 const DownloadSection = ({ onDownload }) => {
-  const pathname = usePathname();
-  
-  // Get the correct data based on the current route
-  const getServiceData = () => {
-    if (pathname.startsWith('/services')) {
-      if (pathname.includes('web-development')) {
-        return webDevData.downloadGuide;
-      } else if (pathname.includes('digital-marketing')) {
-        return digitalMarketingData.downloadGuide;
-      } else {
-        return appDevData.downloadGuide;
-      }
-    }
-    return null;
-  };
-
-  const data = getServiceData();
-
-  // If no matching route/data, don't render the section
-  if (!data) return null;
-
   return (
     <section className="download-section alternat-2 pb_120 pt_120">
       <div className="auto-container">
         <div className="inner-container">
           <div 
             className="pattern-layer" 
-            style={{ backgroundImage: `url('${data.backgroundImage}')` }} 
+            style={{ backgroundImage: `url('${downloadGuideData.backgroundImage}')` }} 
           />
           <div className="row align-items-center">
             <div className="col-lg-8 col-md-12 col-sm-12 content-column">
               <ContentBox
-                title={data.title}
-                subtitle={data.subtitle}
-                features={data.features}
-                buttonText={data.buttonText}
+                title={downloadGuideData.title}
+                subtitle={downloadGuideData.subtitle}
+                features={downloadGuideData.features}
+                buttonText={downloadGuideData.buttonText}
                 onDownload={onDownload}
               />
             </div>
             <div className="col-lg-4 col-md-12 col-sm-12 image-column">
               <ImageBox
-                src={data.image.src}
-                alt={data.image.alt}
-                width={data.image.width}
-                height={data.image.height}
+                src={downloadGuideData.image.src}
+                alt={downloadGuideData.image.alt}
+                width={downloadGuideData.image.width}
+                height={downloadGuideData.image.height}
               />
             </div>
           </div>

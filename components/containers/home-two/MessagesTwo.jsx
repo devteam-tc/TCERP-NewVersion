@@ -1,3 +1,5 @@
+"use client";
+
 import SectionTitle from "../SectionTitle"
 
 const MessagesTwo = ({ extraClassName = '' }) => {

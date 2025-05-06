@@ -1,6 +1,5 @@
 "use client";
 import { useState, useCallback } from "react";
-import PropTypes from "prop-types";
 import faqData from "./FAQSection.json";
 
 // FAQ Item Component
@@ -24,16 +23,6 @@ const FAQItem = ({ faq, isOpen, onToggle }) => (
   </div>
 );
 
-FAQItem.propTypes = {
-  faq: PropTypes.shape({
-    id: PropTypes.number.isRequired,
-    question: PropTypes.string.isRequired,
-    answer: PropTypes.string.isRequired,
-  }).isRequired,
-  isOpen: PropTypes.bool.isRequired,
-  onToggle: PropTypes.func.isRequired,
-};
-
 // Section Header Component
 const SectionHeader = ({ title, subtitle }) => (
   <div className="col-lg-6 text-center">
@@ -43,11 +32,6 @@ const SectionHeader = ({ title, subtitle }) => (
     </div>
   </div>
 );
-
-SectionHeader.propTypes = {
-  title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
-};
 
 // Main FAQ Section Component
 const FAQSection = ({ customData }) => {
@@ -84,20 +68,6 @@ const FAQSection = ({ customData }) => {
       </div>
     </section>
   );
-};
-
-FAQSection.propTypes = {
-  customData: PropTypes.shape({
-    title: PropTypes.string,
-    subtitle: PropTypes.string,
-    faqs: PropTypes.arrayOf(
-      PropTypes.shape({
-        id: PropTypes.number,
-        question: PropTypes.string,
-        answer: PropTypes.string,
-      })
-    ),
-  }),
 };
 
 FAQSection.defaultProps = {

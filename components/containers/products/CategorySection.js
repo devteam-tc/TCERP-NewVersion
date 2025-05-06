@@ -5,15 +5,15 @@ import { FaBook } from "react-icons/fa";
 
 const CategorySection = () => {
   const categories = [
-    { title: "ERP", desc: "All core functions finance, HR, inventory are in one ERP system to automate tasks, improve accuracy and control departments..", color: "light_blue" },
-    { title: "CRM", desc: "Our CRM helps manage customers, track leads and build lasting relationships to boost satisfaction and business success.", color: "blue" },
-    { title: "POS", desc: "POS system enhances billing and sales with secure transactions, real-time stock sync and seamless customer checkout.", color: "green" },
-    { title: "Trading Software", desc: "Manage buying, selling and stock levels efficiently with real-time tracking to reduce delays and  improve operations", color: "gray" },
-    { title: "E-commerce", desc: "Our e-commerce platform handles listings, payments and orders to boost customer experience and grow online sales.", color: "orange" },
-    { title: "HRM", desc: "HRM automates payroll, recruitment, attendance and tracking to streamline workforce management and boost productivity.", color: "red" },
-    { title: "ERP Integrated-With-CRM-Ecommerce-POS", desc: "Connects ERP with CRM, POS and e-commerce for smooth communication, real-time visibility and streamlined workflow.", color: "violet" },
-    { title: "Restaurant ERP", desc: "Restaurant ERP manages kitchen orders, staff, billing and inventory to improve speed, service and daily operations.", color: "yellow" },
-    { title: "Accounting Software", desc: "Handle invoices, budgets, taxes and reporting in one platform to keep finances clear and support better decisions.", color: "teal" },
+    { title: "ERP", desc: "Integrates finance, HR and inventory into one system, automating processes and boosting efficiency for better decision-making.", color: "light_blue" },
+    { title: "CRM", desc: "Manages customer interactions and data, enhancing sales, service and relationships for stronger customer connections.", color: "blue" },
+    { title: "POS", desc: "Ensures secure sales transactions, integrates with inventory and customer data and provides real-time updates for efficiency.", color: "green" },
+    { title: "Trading Software", desc: "It helps optimize procurement, inventory and order management with real-time tracking, thus enhancing workflows automatically.", color: "gray" },
+    { title: "E-commerce", desc: "Online stores management with product catalogs, payment systems and real-time updates to improve customer experience.", color: "orange" },
+    { title: "HRM", desc: "It automates payroll, attendance, recruitment and performance management for an efficient workforce while keeping track of compliance.", color: "red" },
+    { title: "ERP Integrated-With-CRM-Ecommerce-POS", desc: "Sales, inventory and customer data are integrated, enabling automation and improving efficiency.", color: "violet" },
+    { title: "Restaurant ERP", desc: "The integration of order management, inventory, HR and accounting automates tasks for efficient restaurant operations and service delivery.", color: "yellow" },
+    { title: "Accounting Software", desc: "Automates bookkeeping, invoicing, tax calculations and legal compliance, providing real-time financial insights and streamlined management.", color: "teal" },
   ];
 
   return (
@@ -23,7 +23,7 @@ const CategorySection = () => {
           <div className="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp">
             <div className="tf__heading_area mb_15">
               {/* <h5>OUR COURSE CATEGORIES</h5> */}
-              <h2>Our Product Suite</h2>
+              <h2>We success for categories creative students.</h2>
             </div>
           </div>
         </div>

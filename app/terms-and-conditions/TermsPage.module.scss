@@ -1,0 +1,115 @@
+.termsContainer {
+    min-height: 100vh;
+    // background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 60px 0;
+  }
+  
+  .termsContent {
+    // max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  
+    @media (max-width: 768px) {
+      padding: 20px;
+      margin: 0 20px;
+    }
+  }
+  
+  .title {
+    color: #2c3e50;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    background: linear-gradient(45deg, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    @media (max-width: 768px) {
+      font-size: 28px;
+    }
+  }
+  
+  .lastUpdated {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-2px);
+    }
+  
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  .sectionTitle {
+    color: #ef5226;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    // border-bottom: 3px solid #3498db;
+    display: inline-block;
+  
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+  
+  .paragraph {
+    color: #34495e;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 16px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 16px;
+  
+    li {
+      color: #34495e;
+      font-size: 16px;
+      line-height: 1.8;
+      margin-bottom: 12px;
+      padding-left: 24px;
+      position: relative;
+  
+      &:before {
+        // content: "•";
+        // color: #3498db;
+        font-size: 24px;
+        position: absolute;
+        left: 0;
+        top: -2px;
+      }
+    }
+  }
+  
+  .contactInfo {
+    color: #34495e;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: 8px;
+    padding: 16px;
+    border-left: 4px solid #3498db;
+    background-color: #f8f9fa;
+    border-radius: 0 8px 8px 0;
+  } 

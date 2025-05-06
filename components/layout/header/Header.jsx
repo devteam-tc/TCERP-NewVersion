@@ -42,7 +42,7 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <Menu />
             <div className="call-us">
-              <a href="tel:+91 8919439603" className="call-us-btn d-flex align-items-center gap-3">
+              <a href="tel:+91 8919439603" className="call-us-btn d-flex align-items-center gap-1">
                 <span className="icon d-flex justify-content-center align-items-center">
                   <i className="fa-solid fa-phone"></i>
                 </span>
