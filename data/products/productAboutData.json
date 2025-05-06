@@ -20,9 +20,9 @@
     "customer-relationship-management": {
       "image": "/images/about-us/product-crm.png",
       "subTitle": "About Tech Cloud CRM",
-      "titleLine1": "Customer Relationship Management",
+      "titleLine1": "Customer Relationship ",
       "titleLine2": "",   
-      "highlight": "",
+      "highlight": "Management",
       "description": "Tech Cloud CRM helps businesses improve customer service, streamline sales and manage leads.",
       "features": [
         { "icon": "/images/about-us/about4.png", "title": "Lead Management" },
@@ -38,8 +38,8 @@
     "point-of-sale": {
       "image": "/images/about-us/product-pos.png",
       "subTitle": "About Tech Cloud POS",
-      "titleLine1": "Modern POS Solutions for",
-      "titleLine2": "Streamlined Retail ",
+      "titleLine1": "Modern POS Solutions for Streamlined Retail",
+      "titleLine2": "",
       "highlight": "Management",
       "description": "Tech Cloud POS is a next-generation Point of Sale system built to enhance in-store efficiency, improve customer experience and simplify retail operations for businesses of all sizes.",
       "features": [
@@ -56,8 +56,8 @@
     "trading-software": {
       "image": "/images/about-us/product-treding.png",
       "subTitle": "About Tech Cloud Trading",
-      "titleLine1": "Smart ERP for Profitable &",
-      "titleLine2": "Agile Trading",
+      "titleLine1": "Smart ERP for Profitable & Agile Trading",
+      "titleLine2": "",
       "highlight": "Operations.",
       "description": "Tech Cloud Trading Software is a complete ERP solution tailored for wholesale, retail and distribution businesses. It helps you manage the entire trading lifecycle from inquiries to delivery with real-time data, smart automation and seamless integration across departments.",
       "features": [
@@ -75,8 +75,8 @@
       "image": "/images/about-us/product-ecommerce.png",
       "subTitle": "About Tech Cloud Ecommerce",
       "titleLine1": "Tech Cloud Ecommerce",
-      "titleLine2": "Software Overview",
-      "highlight": "",
+      "titleLine2": "Software ",
+      "highlight": "Overview",
       "description": "Tech Cloud Ecommerce Software is a powerful ERP-integrated ecommerce solution designed to streamline online sales, operations and customer experiences. Whether you're running B2B or B2C, our platform ensures end-to-end connectivity between your online store and back-end ERP system reducing errors, automating processes and boosting productivity.",
       "features": [
         { "icon": "/images/about-us/about4.png", "title": "Unified Ecommerce Management" },

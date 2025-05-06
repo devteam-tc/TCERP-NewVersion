@@ -36,7 +36,7 @@
       }
 
       .aboutContact {
-        margin-left: 80px;
+        // margin-left: 80px;
 
         @media (max-width: 997px) {
           margin-left: 0;
@@ -138,7 +138,7 @@
             }
 
             .aboutTitle h3 {
-              font-size: 18px;
+              font-size: 16px;
               line-height: 55px;
               color: #050a1e;
               font-weight: 600;
@@ -236,7 +236,7 @@
       margin-top: 60px;
     }
     .single-product-box {
-      background: url('/products/serice-two-img.png') no-repeat center center;
+      background: url('/products/service-two-img.png') no-repeat center center;
       background-size: cover;
       border-radius: 35px 0 35px 35px;
       padding: 32px 20px 56px;
@@ -261,9 +261,9 @@
         content: "";
         width: 175px;
         height: 5px;
-        background-color: #ff3c00;
-        left: 66px;
-        top: -5px;
+        background-color: var(--bs-primary-500);
+        left: 120px;
+          top: -5px;
         margin: 0 auto;
         z-index: 1;
       }
@@ -284,7 +284,7 @@
         }
 
         .product-icon {
-          background: #ff3b00;
+          background: var(--bs-primary-500);
 
           img {
             filter: brightness(0) invert(1);
@@ -306,7 +306,7 @@
         content: "";
         height: 0;
         width: 100%;
-        background: url('/products/service-hover.png') no-repeat center;
+        background: url('/products/light1.png') no-repeat center;
         background-size: cover;
         transition: 0.5s;
         border-radius: 35px 0 35px 35px;

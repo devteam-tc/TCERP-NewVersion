@@ -1,104 +1,54 @@
 'use client';
-import styles from './ComparePlans.module.scss';
+import comparisonData from '../../../data/pricing/comparison.json';
 
-const plans = [
-  {
-    name: 'BASIC',
-    buttonText: 'Get Basic',
-    features: {
-      versionHistory: '30days',
-      ModulesIncluded: false,
-      UserLimit: true,
-      Customization: true,
-      DataMigration: '50gb',
-      RealtimeReportsDashboards:true,
-      BestFor:true,
-    },
-  },
-  {
-    name: 'GROWTH',
-    buttonText: 'Get Growth',
-    isHighlighted: true,
-    features: {
-      versionHistory: true,
-      sendInvoices: true,
-      crossPlatform: true,
-      scanReceipts: true,
-      storage: '100gb',
-    },
-  },
-  {
-    name: 'PREMIUM',
-    buttonText: 'Get Premium',
-    features: {
-      versionHistory: true,
-      sendInvoices: true,
-      crossPlatform: true,
-      scanReceipts: true,
-      storage: 'Unlimited',
-    },
-  },
-];
+const Checkmark = () => (
+  <span className="checkmark">✔</span>
+);
 
 const ComparePlans = () => {
+  const { title, plans, features } = comparisonData;
+
+  const renderFeatureCell = (plan, featureKey) => {
+    const value = plan.features[featureKey];
+    
+    if (value === true) return <Checkmark />;
+    if (value === false) return '';
+    return value;
+  };
+
   return (
-    <section className={styles.comparePlans}>
+    <section className="comparePlans">
       <h2>
-        <span>Plan 
-        </span> Comparison Table
+        <span>{title.main}</span> {title.sub}
       </h2>
-      <p>Comparing our pricing plans side-by-side so you can choose the best one for yourself.</p>
+      <p>{title.description}</p>
 
-      <div className={styles.table}>
-        <div className={`${styles.row} ${styles.header}`}>
-          <div className={styles.cell}>Features and Services</div>
+      <div className="table">
+        <div className="row header">
+          <div className="cell">Features and Services</div>
           {plans.map((plan, i) => (
-            <div key={i} className={styles.cell}>
+            <div key={i} className="cell">
               <strong>{plan.name}</strong>
-              <button className={plan.isHighlighted ? styles.activeBtn : ''}>{plan.buttonText}</button>
+              <button className={plan.isHighlighted ? 'activeBtn' : ''}>
+                {plan.buttonText}
+              </button>
             </div>
           ))}
         </div>
 
-        <div className={styles.row}>
-          <div className={styles.cell}>Version history</div>
-          {plans.map((plan, i) => (
-            <div key={i} className={styles.cell}>
-              {typeof plan.features.versionHistory === 'string'
-                ? plan.features.versionHistory
-                : <Checkmark />}
-            </div>
-          ))}
-        </div>
-
-        {[
-          { label: 'Send invoices and quotes', key: 'sendInvoices' },
-          { label: 'Cross platform', key: 'crossPlatform' },
-          { label: 'Scan receipts and bills', key: 'scanReceipts' },
-        ].map((feature, idx) => (
-          <div className={styles.row} key={idx}>
-            <div className={styles.cell}>{feature.label}</div>
+        {features.map((feature, idx) => (
+          <div className="row" key={idx}>
+            <div className="cell">{feature.label}</div>
             {plans.map((plan, i) => (
-              <div key={i} className={styles.cell}>
-                {plan.features[feature.key] ? <Checkmark /> : ''}
+              <div key={i} className="cell">
+                {renderFeatureCell(plan, feature.key)}
               </div>
             ))}
           </div>
         ))}
-
-        <div className={styles.row}>
-          <div className={styles.cell}>Storage</div>
-          {plans.map((plan, i) => (
-            <div key={i} className={styles.cell}>{plan.features.storage}</div>
-          ))}
-        </div>
       </div>
     </section>
   );
 };
-
-const Checkmark = () => (
-  <span className={styles.checkmark}>✔</span>
-);
 
 export default ComparePlans;

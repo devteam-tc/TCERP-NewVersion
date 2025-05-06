@@ -23,9 +23,8 @@ const Pricing = ({ extraClassName = '' }) => {
               extraClass="text-center"
             />
           </div>
-          <p className="text-center mt-3 mb-3">Note: Taxes (GST/VAT) may apply based on region</p>
         </div>
-        <div className="d-flex justify-content-center mb-5">
+        <div className="d-flex justify-content-center">
               <div className="toggle-switch">
             <span className="me-2">₹ INR</span>
             <label className="switch">
@@ -41,8 +40,11 @@ const Pricing = ({ extraClassName = '' }) => {
               <span className="ms-2">$ USD</span>
             </div>
           </div>
+          <p className="text-center" style={{ fontSize: '12px' }}>
+  Taxes (GST/VAT) may apply based on region
+</p>
 
-        <div className="row">
+        <div className="row mt-4">
           {pricingPlans.map((plan) => (
             <div
               data-aos-duration="600"

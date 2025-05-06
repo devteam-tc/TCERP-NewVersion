@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import bannerImg from '../../../public/images/banner/banner-img-1.webp';
 import bannerShapeOne from '../../../public/images/shape/banner-shape-1.svg';
-import bannerShapeTwo from '../../../public/images/shape/worldmap2.png';
+import bannerShapeTwo from '../../../public/images/shape/worldmap2.webp';
 import Link from 'next/link';
 import { useState } from 'react';
 import YouTubeEmbed from '../YouTubeEmbed';
@@ -18,7 +18,7 @@ const Banner = () => {
   return (
     <>
       <section className="ep-banner-section position-relative overflow-hidden">
-        <div className="banner-shape ">
+        <div className="banner-shape">
         {/* position-absolute top-50 translate-middle-y z-0 */}
           <Image src={bannerShapeTwo} alt="banner-shape" width={1000}
     height={1000} />

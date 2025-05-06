@@ -7,7 +7,6 @@ import Counter from "../components/containers/home/Counter";
 // import Cta from "@/components/containers/home/Cta";
 // import Faq from "@/components/containers/home/Faq";
 import Features from "../components/containers/home/Features";
-// import Messages from "@/components/containers/home/Messages";
 // import Projects from "@/components/containers/home/Projects";
 import Services from "../components/containers/home/Services";
 // import Team from "@/components/containers/home/Team";
