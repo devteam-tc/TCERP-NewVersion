@@ -1,0 +1,19 @@
+{
+  "title": "Download Our",
+  "subtitle": "Service Guide",
+  "features": [
+    "Comprehensive service overview",
+    "Detailed pricing information",
+    "Technology stack details",
+    "Project timeline estimates",
+    "Case studies and success stories"
+  ],
+  "buttonText": "Download Guide",
+  "backgroundImage": "/images/background/pattern-1.png",
+  "image": {
+    "src": "/images/services/all-services.jpg",
+    "alt": "Download Guide",
+    "width": 400,
+    "height": 400
+  }
+} 

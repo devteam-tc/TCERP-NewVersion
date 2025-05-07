@@ -1,129 +1,135 @@
 {
-  "services": [
-    {
-      "title": "Planning & Research",
-      "img": "/images/servicescards/service-planning-research.png",
-      "link": "/services/web-development",
-      "description": "We start by understanding your business needs, target audience and goals. This helps us define the site structure, technology and user experience strategy.",
-      "icon": "/images/services/ser-icon.png",
-      "thumb": "/images/services/ser-thumb.webp"
-    },
-    {
-      "title": "Design & Prototyping",
-      "img": "/images/servicescards/service-design-prototyping.png",
-      "link": "/services/ecommerce-development",
-      "description": "Our creative team crafts wireframes and visual designs focused on usability and brand identity. You’ll get a clear view of how your site will look and function.",
-      "icon": "/images/services/ecom-icon.png",
-      "thumb": "/images/services/ecom-thumb.webp"
-    },
-    {
-      "title": "Development & Integration",
-      "img": "/images/servicescards/service-development- integration.png",
-      "link": "/services/progressive-web-apps",
-      "description": "We transform designs into a fully functional website using modern, scalable code. We ensure mobile responsiveness and seamless integration with tools or APIs.",
-      "icon": "/images/services/pwa-icon.png",
-      "thumb": "/images/services/pwa-thumb.webp"
-    },
-    {
-      "title": "Testing, Launch & Support",
-      "img": "/images/servicescards/service-testing-launch-support.png",
-      "link": "/services/cms-development",
-      "description": "Before going live, we test across devices, fix bugs and optimize performance. After launch, we offer ongoing support and maintenance to keep your site running smoothly.",
-      "icon": "/images/services/cms-icon.png",
-      "thumb": "/images/services/cms-thumb.webp"
-    },
-    {
-      "title": "CMS Development",
-      "img": "/images/servicescards/service-cms-development.png",
-      "link": "/services/api-development",
-      "description": "Custom content management systems for easy website updates and management.",
-      "icon": "/images/services/api-icon.png",
-      "thumb": "/images/services/api-thumb.webp"
-    },
-    {
-      "title": "API Development",
-      "img": "/images/servicescards/service-api-integration.png",
-      "link": "/services/web-security",
-      "description": "Robust and scalable API solutions for seamless system integration.",
-      "icon": "/images/services/security-icon.png",
-      "thumb": "/images/services/security-thumb.webp"
-    },
-    {
-      "title": "Cloud Integration",
-      "img": "/images/servicescards/service-cloud-integration.png",
-      "link": "/services/frontend-development",
-      "description": "Seamless cloud service integration and deployment solutions.",
-      "icon": "/images/services/frontend-icon.png",
-      "thumb": "/images/services/frontend-thumb.webp"
-    },
-    {
-      "title": "Web Analytics Integration",
-      "img": "/images/servicescards/service-web-analytics -integration.png",
-      "link": "/services/backend-development",
-      "description": "Implementation of tracking and analytics tools for data-driven insights.",
-      "icon": "/images/services/backend-icon.png",
-      "thumb": "/images/services/backend-thumb.webp"
-    }
-    
-  ],
-  "about": {
-    "subtitle": "KNOW ABOUT OUR WEB DEV",
-    "heading": "Custom Web Solutions for Your Business",
-    "paragraph": "Need a website that’s fast, functional and future-ready? We blend design and development with digital marketing strategy to give you the competitive edge online.",
-    "features": [
-      "Responsive & modern designs",
-      "SEO-friendly architecture",
-      "Fast loading and mobile-friendly"
+    "services": [
+      {
+        "title": "Planning & Research",
+        "img": "/images/servicescards/service-planning-research.png",
+        "link": "/services/web-development",
+        "description": "We start by understanding your business needs, target audience and goals. This helps us define the site structure, technology and user experience strategy.",
+        "icon": "/images/services/ser-icon.png",
+        "thumb": "/images/services/ser-thumb.webp"
+      },
+      {
+        "title": "Design & Prototyping",
+        "img": "/images/servicescards/service-design-prototyping.png",
+        "link": "/services/ecommerce-development",
+        "description": "Our creative team crafts wireframes and visual designs focused on usability and brand identity. You'll get a clear view of how your site will look and function.",
+        "icon": "/images/services/ecom-icon.png",
+        "thumb": "/images/services/ecom-thumb.webp"
+      },
+      {
+        "title": "Development & Integration",
+        "img": "/images/servicescards/service-development- integration.png",
+        "link": "/services/progressive-web-apps",
+        "description": "We transform designs into a fully functional website using modern, scalable code. We ensure mobile responsiveness and seamless integration with tools or APIs.",
+        "icon": "/images/services/pwa-icon.png",
+        "thumb": "/images/services/pwa-thumb.webp"
+      },
+      {
+        "title": "Testing, Launch & Support",
+        "img": "/images/servicescards/service-testing-launch-support.png",
+        "link": "/services/cms-development",
+        "description": "Before going live, we test across devices, fix bugs and optimize performance. After launch, we offer ongoing support and maintenance to keep your site running smoothly.",
+        "icon": "/images/services/cms-icon.png",
+        "thumb": "/images/services/cms-thumb.webp"
+      },
+      {
+        "title": "CMS Development",
+        "img": "/images/servicescards/service-cms-development.png",
+        "link": "/services/api-development",
+        "description": "Custom content management systems for easy website updates and management.",
+        "icon": "/images/services/api-icon.png",
+        "thumb": "/images/services/api-thumb.webp"
+      },
+      {
+        "title": "API Development",
+        "img": "/images/servicescards/service-api-integration.png",
+        "link": "/services/web-security",
+        "description": "Robust and scalable API solutions for seamless system integration.",
+        "icon": "/images/services/security-icon.png",
+        "thumb": "/images/services/security-thumb.webp"
+      },
+      {
+        "title": "Cloud Integration",
+        "img": "/images/servicescards/service-cloud-integration.png",
+        "link": "/services/frontend-development",
+        "description": "Seamless cloud service integration and deployment solutions.",
+        "icon": "/images/services/frontend-icon.png",
+        "thumb": "/images/services/frontend-thumb.webp"
+      },
+      {
+        "title": "Web Analytics Integration",
+        "img": "/images/servicescards/service-web-analytics -integration.png",
+        "link": "/services/backend-development",
+        "description": "Implementation of tracking and analytics tools for data-driven insights.",
+        "icon": "/images/services/backend-icon.png",
+        "thumb": "/images/services/backend-thumb.webp"
+      }
+      
     ],
-    "imageMain": "/images/servicescards/WebDevelopment.png",
-    "imageDecor": "/images/servicescards/dot-grp1.png"
-  },
-  "faq": [
-    {
-      "question": "What technologies do you use for web development?",
-      "answer": "We use modern technologies like React, Next.js, and Node.js."
+    "about": {
+      "subtitle": "KNOW ABOUT OUR WEB DEV",
+      "heading": "Custom Web Solutions for Your Business",
+      "paragraph": "Need a website that's fast, functional and future-ready? We blend design and development with digital marketing strategy to give you the competitive edge online.",
+      "features": [
+        "Responsive & modern designs",
+        "SEO-friendly architecture",
+        "Fast loading and mobile-friendly"
+      ],
+      "imageMain": "/images/servicescards/mob1.png",
+      "imageDecor": "/images/servicescards/dot-grp1.png"
     },
-    {
-      "question": "Do you offer custom website solutions?",
-      "answer": "Yes, tailored solutions are our specialty."
-    },
-    {
-      "question": "Is SEO included in web development?",
-      "answer": "Yes, we include basic on-page SEO."
-    }
-  ],
-  "process": [
-    {
-      "step": 1,
-      "title": "Share Your Requirements",
-      "description": "Tell us what you need  from features to design preferences. We’ll plan the perfect structure for your site."
-    },
-    {
-      "step": 2,
-      "title": "Design & Develop",
-      "description": "We create responsive, user-friendly designs and develop them using modern web technologies for a seamless experience."
-    },
-    {
-      "step": 3,
-      "title": "Launch & Maintain",
-      "description": "After testing and approval, we launch your site and provide ongoing support, updates and optimizations."
-    }
-  ],
-  "downloadGuide": {
-    "title": "Empowering Your Business with Digital Excellence",
-    "subtitle": "Best Practices",
-    "features": [
-      "Boost your online presence with result-driven digital marketing services.",
-      "Build stunning, high-performance websites tailored to your goals.",
-      "Develop cutting-edge mobile applications to engage customers anytime, anywhere."
+    "faq": [
+      {
+        "question": "What technologies and frameworks do you use for web development?",
+        "answer": "We use modern tech stack including React.js, Next.js, Node.js, and TypeScript for frontend development. For backend, we utilize Node.js, Python (Django/Flask), and PHP (Laravel). We also work with various databases like MongoDB, PostgreSQL, and MySQL based on project requirements."
+      },
+      {
+        "question": "How do you ensure website performance and speed optimization?",
+        "answer": "We implement various optimization techniques including code splitting, lazy loading, image optimization, CDN integration, caching strategies, and performance monitoring tools like Lighthouse and WebPageTest to ensure optimal website performance."
+      },
+      {
+        "question": "Do you provide responsive design for all devices?",
+        "answer": "Yes, we create fully responsive websites that work seamlessly across all devices - desktops, tablets, and mobile phones. We follow mobile-first design principles and use modern CSS frameworks and techniques to ensure perfect display on all screen sizes."
+      },
+      {
+        "question": "What security measures do you implement in web development?",
+        "answer": "We implement comprehensive security measures including SSL/TLS encryption, input validation, XSS protection, CSRF tokens, secure authentication, regular security audits, and following OWASP security guidelines to protect your website from vulnerabilities."
+      },
+      {
+        "question": "How do you handle website maintenance and updates?",
+        "answer": "We provide ongoing maintenance services including regular security updates, performance monitoring, bug fixes, content updates, and technical support. We also offer maintenance packages with different service levels to meet your specific needs."
+      }
     ],
-    "buttonText": "Download E-book",
-    "image": {
-      "src": "/images/servicescards/book-1.webp",
-      "alt": "App Development Guide",
-      "width": 300,
-      "height": 400
-    },
-    "backgroundImage": "/images/servicescards/background-download.png"
-  }
-} 
+    "process": [
+      {
+        "step": 1,
+        "title": "Requirement Analysis & Planning",
+        "description": "We conduct detailed discussions to understand your business goals, target audience, and technical requirements. This includes defining project scope, technology stack, architecture, and creating a comprehensive project roadmap."
+      },
+      {
+        "step": 2,
+        "title": "UI/UX Design & Prototyping",
+        "description": "Our design team creates wireframes and interactive prototypes focusing on user experience. We ensure the design is responsive, accessible, and aligns with your brand identity while following modern web design principles."
+      },
+      {
+        "step": 3,
+        "title": "Development & Integration",
+        "description": "Our developers implement the design using modern frameworks and best practices. We ensure clean code architecture, implement responsive design, integrate necessary APIs, and set up content management systems if required."
+      },
+      {
+        "step": 4,
+        "title": "Testing & Quality Assurance",
+        "description": "We conduct thorough testing including unit testing, integration testing, cross-browser testing, performance testing, and security audits. We ensure the website meets all quality standards and performs optimally across all devices."
+      },
+      {
+        "step": 5,
+        "title": "Deployment & Launch",
+        "description": "We handle the deployment process, including server setup, database configuration, SSL implementation, and final testing in the production environment. We ensure a smooth transition to the live environment with zero downtime."
+      },
+      {
+        "step": 6,
+        "title": "Post-Launch Support",
+        "description": "After launch, we provide ongoing support, monitoring, and maintenance. This includes performance optimization, security updates, bug fixes, and regular backups to ensure your website runs smoothly."
+      }
+    ]
+  } 

@@ -11,38 +11,31 @@ const Pricing = ({ extraClassName = '' }) => {
   const pricingPlans = selectedCountry === "india" ? indiaPricingPlans : usPricingPlans;
 
   return (
-    <section className={`ep-pricing-section pt-120 pb-60 ${extraClassName}`}>
+    <><section className={`ep-pricing-section pt-120 pb-60 ${extraClassName}`}>
       <div className="container">
         {/* Country Toggle */}
-      
+
         <div className="row">
           <div className="col-lg-6 mx-auto">
             <SectionTitle
               subTitle="Pricing Plans"
               title="Choose the Perfect Plan for Your Business Needs"
-              extraClass="text-center"
-            />
+              extraClass="text-center" />
           </div>
         </div>
         <div className="d-flex justify-content-center">
-              <div className="toggle-switch">
+          <div className="toggle-switch">
             <span className="me-2">₹ INR</span>
             <label className="switch">
               <input
                 type="checkbox"
                 checked={selectedCountry === "us"}
-                onChange={(e) =>
-                  setSelectedCountry(e.target.checked ? "us" : "india")
-                }
-              />
-                <span className="slider round"></span>
-              </label>
-              <span className="ms-2">$ USD</span>
-            </div>
+                onChange={(e) => setSelectedCountry(e.target.checked ? "us" : "india")} />
+              <span className="slider round"></span>
+            </label>
+            <span className="ms-2">$ USD</span>
           </div>
-          <p className="text-center" style={{ fontSize: '12px' }}>
-  Taxes (GST/VAT) may apply based on region
-</p>
+        </div>
 
         <div className="row mt-4">
           {pricingPlans.map((plan) => (
@@ -52,16 +45,15 @@ const Pricing = ({ extraClassName = '' }) => {
               key={plan.id}
               className="col-lg-4 col-md-6 mx-auto mx-lg-0"
             >
-              <div className="pricing-item rounded-30">
+              <div className="pricing-item rounded-30 d-flex flex-column" style={{ minHeight: '500px' }}>
                 <div className="price-header d-flex justify-content-between align-items-center">
                   <div className="price-box">
                     <h5 className="title">{plan.title}</h5>
                     <h3 className="price">{plan.price}</h3>
                     <p className="price-desc">{plan.description}</p>
-                    </div>
-                
+                  </div>
                 </div>
-                <ul className="list-unstyled mt-40 options">
+                <ul className="list-unstyled mt-40 options flex-grow-1">
                   {plan.features.map((feature, i) => (
                     <li key={`${plan.id}-${i}`} className="d-flex">
                       <i className="fa-solid fa-angles-right"></i>
@@ -84,8 +76,7 @@ const Pricing = ({ extraClassName = '' }) => {
                     >
                       <path
                         d="M1.25 11C1.00391 11 0.785156 10.918 0.621094 10.7539C0.265625 10.4258 0.265625 9.85156 0.621094 9.52344L4.36719 5.75L0.621094 2.00391C0.265625 1.67578 0.265625 1.10156 0.621094 0.773437C0.949219 0.417969 1.52344 0.417969 1.85156 0.773437L6.22656 5.14844C6.58203 5.47656 6.58203 6.05078 6.22656 6.37891L1.85156 10.7539C1.6875 10.918 1.46875 11 1.25 11Z"
-                        fill="#020842"
-                      />
+                        fill="#020842" />
                     </svg>
                   </span>
                 </Link>
@@ -93,8 +84,14 @@ const Pricing = ({ extraClassName = '' }) => {
             </div>
           ))}
         </div>
+
       </div>
+      <p className="text-center mt-4" style={{ fontSize: '12px' }}>
+        Taxes (GST/VAT) may apply based on region
+      </p>
     </section>
+    
+      </>
   );
 };
 

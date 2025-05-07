@@ -47,7 +47,6 @@
 :root {
   --bs-font-primary: "Inter", sans-serif !important;
   --bs-font-secondary: "Space Grotesk", sans-serif;
-  --bs-font-tertiary: "Bebas Neue", sans-serif;
   --bs-Text-Dark-Color:#0B0A0A;
   --bs-primary-50:#fdeee9;
   --bs-primary-100:#fac9bc;
@@ -556,7 +555,7 @@ p {
   }
 
   .number {
-    font-size: 14px !important;
+    font-size: 18px !important;
     font-weight: 600 !important;
     line-height: 36px !important;
   }

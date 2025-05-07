@@ -12,7 +12,7 @@ const Footer = () => {
       {/* scroll to top start */}
       <ScrollProgressButton />
       {/* scroll to top end */}
-      <footer className="ep-footer-section pt-60">
+      <footer className="ep-footer-section">
         <div className="footer-bg">
           <div className="container">
             <div className="footer-main">
@@ -58,11 +58,11 @@ const Footer = () => {
                     <h4 className="footer-title">Useful Links</h4>
                     <ul className="list-unstyled">
                     {/* <i className="fas fa-chevron-right"></i>  */}
-                      <li><Link href="/">Home</Link></li>
-                      <li><Link href="/about"> About Us</Link></li>
-                      <li><Link href="/contact"> Contact Us</Link></li>
-                      <li><Link href="/features"> Our Features</Link></li>
-                      <li><Link href="/blogs"> Our Blogs</Link></li>
+                      <li><Link href="/services">Home</Link></li>
+                      <li><Link href="/services"> About Us</Link></li>
+                      <li><Link href="/services"> Contact Us</Link></li>
+                      <li><Link href="/services"> Our Features</Link></li>
+                      <li><Link href="/services"> Our Blogs</Link></li>
                       <li><Link href="/locations"> Our Locations</Link></li>
                       <li><Link href="/products"> All Products</Link></li>
                       <li><Link href="/careers"> Careers</Link></li>

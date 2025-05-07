@@ -107,64 +107,87 @@ export const allProductsData = [
 export const modulesdata = [
   {
       image: "/modules/webbased.webp", 
-      title: "Web Based And Cloud Computing",
-      description: "No IT infrastructure or server maintenance required—access our cloud-based ERP securely from anywhere, anytime.",
+      title: "CRM",
+      description: "Manage leads, inquiries, follow-ups, meetings and customer interactions. Track sales pipeline to improve conversion rates.",
   },
   {
       image: "/modules/dynamic.webp",
-      title: "Dynamic Dashboards",
-      description: "Get real-time insights with dashboards tailored for business owners and employees, enabling quick, data-driven decisions.",
+      title: "Sales Management",
+      description: "Handle inquiries, quotations, sales orders, invoices and transactions. Gain real-time insights into order processing and revenue.",
   },
   {
       image: "/modules/Whatsapp_email.webp",
-      title: "Email & Whatsapp Integration",
-      description: "Send purchase orders, invoices, and updates instantly via email or WhatsApp, reducing manual effort and follow-ups.",
+      title: "Purchase Management",
+      description: "Streamline procurement with purchase indents, approvals, quotations, supplier details and purchase orders for a smooth cycle.",
   },
   {
       image: "/modules/mobilenadtab.webp",
-      title: "Mobile & Tab Compatibility",
-      description: "Access the ERP on any device—desktop, mobile, or tablet—without installation, making business management seamless.",
+      title: "Inventory Management",
+      description: "Track stock movements with GRN, material requests, transfers, pricing details, subcategories and gate entries for stock control.",
   },
   {
       image: "/modules/autobackup.webp",
-      title: "Data Auto Backup",
-      description: "Automatic cloud backups ensure data security and recovery without manual intervention, keeping operations smooth.",
+      title: "Production Management",
+      description: "Plan and monitor manufacturing with work orders, BOM, machine allocations, stages, work centers and real-time tracking.",
   },
   {
       image: "/modules/customisable.webp",
-      title: "Customizable Software",
-      description: "Our ERP is 90-95% ready for manufacturing businesses, with easy customization to match specific needs.",
+      title: "Job Work Management",
+      description: "Manage outsourced production tasks with work orders, vendor tracking, job costing and material handling.",
   },
   {
       image: "/modules/payasgo.webp",
-      title: "Pay As You Go",
-      description: "Scalable pricing ensures you only pay for what you use, making it cost-effective for businesses of all sizes.",
+      title: "Quality Control",
+      description: "Ensure quality with raw material inspections, in-process checks and finished goods QC, adhering to AQL and QAP standards.",
   },
   {
       image: "/modules/chatusers.webp",
-      title: "Chat Between Users",
-      description: "Internal Chat System - Built-in chat enables real-time communication among users, improving collaboration within the ERP system.",
+      title: "Quality Assurance",
+      description: "Maintain quality across production processes, verifying that final products meet specifications before customer delivery.",
   },
   {
       image: "/modules/infiniteusers.webp",
-      title: "Unlimited Users",
-      description: "No per-user licensing fees—add unlimited users with role-based permissions for secure access control.",
+      title: "Fixed Assets",
+      description: "Track asset depreciation, movements, categories and reports. Manage asset lifecycle from procurement to disposal.",
   },
   {
       image: "/modules/Audit_trail.webp",
-      title: "Audit Trail",
-      description: "Every action is logged for accountability, ensuring transparency and preventing unauthorized changes.",
+      title: "HRM",
+      description: "Manage employee attendance, payroll, tax compliance, departments and documents with a dedicated HRM app featuring geo-fencing & tagging.",
   },
   {
       image: "/modules/Inventory.webp",
-      title: "Multiple Inventory Location",
-      description: "Track stock movement across multiple warehouses, ensuring proper inventory management and availability.",
-  }
+      title: "Finance & Accounting",
+      description: "Cover General Ledger, bank transactions, GST, e-way bills, e-invoicing and financial reporting for accurate management.",
+  },
+  {
+    image: "/modules/Inventory.webp",
+    title: "Imports and Exports",
+    description: "Streamline trade with customs documentation, shipment tracking, compliance management, and financial handling.",
+},
+{
+  image: "/modules/Inventory.webp",
+  title: "Project Management",
+  description: "Plan and execute projects with task tracking, timelines, resource allocation and budget management for efficiency.",
+},
+{
+  image: "/modules/Inventory.webp",
+  title: "Design Management",
+  description: "Manage BOM drawings, plans and specifications with revisions and approvals for precise production planning.",
+},
+{
+  image: "/modules/Inventory.webp",
+  title: "POS",
+  description: "Integrated POS system for seamless billing, inventory sync and real-time transaction tracking in retail businesses.",
+},
+
+
+
 ];
 export const uniquefeaturesdata = [
   {
       image: "/features/webbased.webp", // Use absolute path
-      title: "Web Based And Cloud Computing",
+      title: "Web Based & Cloud Computing",
       description: "No IT infrastructure or server maintenance required—access our cloud-based ERP securely from anywhere, anytime.",
   },
   {

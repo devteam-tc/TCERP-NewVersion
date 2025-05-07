@@ -1,0 +1,104 @@
+.contact-image-wrapper {
+  overflow: hidden;
+  border-radius: 8px;
+  height: 100%;
+  min-height: 400px;
+}
+
+.contact-image-wrapper img {
+  transition: transform 0.3s ease;
+}
+
+.contact-image-wrapper:hover img {
+  transform: scale(1.02);
+}
+
+.contact-content-wrapper {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.contact-form-wrapper {
+  height: 100%;
+}
+
+.contact-form-wrapper :global(.form-control) {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.contact-form-wrapper :global(.form-control:focus) {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.15);
+  background-color: #fff;
+}
+
+.contact-form-wrapper :global(textarea.form-control) {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-form-wrapper :global(.input-group) {
+  margin-bottom: 1.25rem;
+}
+
+.contact-form-wrapper :global(.text-danger) {
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  color: #dc3545;
+}
+
+.contact-form-wrapper :global(.theme-btn) {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  border: none;
+  color: white;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contact-form-wrapper :global(.theme-btn:hover) {
+  background: linear-gradient(45deg, #0056b3, #004494);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+}
+
+@media (max-width: 991px) {
+  .contact-content-wrapper {
+    padding: 1.5rem;
+  }
+  
+  .contact-image-wrapper {
+    margin-bottom: 1.5rem;
+    min-height: 300px;
+  }
+  
+  .contact-form-wrapper {
+    margin-top: 1rem;
+  }
+
+  .contact-form-wrapper :global(.form-control) {
+    padding: 0.625rem 0.875rem;
+  }
+}
+
+.contact-form-section {
+  padding: 2rem 0;
+}
+
+@media (min-width: 992px) {
+  .contact-form-section {
+    padding: 3rem 0;
+  }
+} 

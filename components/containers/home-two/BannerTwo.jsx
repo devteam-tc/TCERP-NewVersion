@@ -8,6 +8,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import YouTubeEmbed from '../YouTubeEmbed';
 
+
 const BannerTwo = () => {
   const [videoActive, setVideoActive] = useState(false);
 
