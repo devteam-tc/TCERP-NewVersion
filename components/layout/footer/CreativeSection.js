@@ -7,12 +7,12 @@ const CreativeSection = () => {
       <div className="scrolling-bg"></div>
       <div className="staticImages">
         <Image 
-          src="/footer/cards.png" 
-          alt="Static Image"
+          src="/footer/cargif.gif" 
+          alt="Animated Car"
           width={300}
           height={120}
           className="staticImage"
-          style={{ objectFit: 'contain' }}
+          priority
         />
       </div>
     </div>

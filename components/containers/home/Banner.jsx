@@ -30,6 +30,7 @@ const Banner = () => {
                 <Image priority src={bannerShapeOne} alt="banner-shape" className="position-absolute banner-title-shape" />
                 <h2 className="banner-title heading-style1 title-anim">Cloud-Based ERP Software Solutions</h2>
                 <p>Empower your business with Tech Cloud ERP a scalable cloud-based solution that streamlines operations, boosts productivity and fuels growth.</p>
+                <p className='mt-3'>We don’t just sell software — we tailor it to your business.</p>
                 <div className="banner-buttons">
                   <Link href="/demo" className="theme-btn position-relative d-inline-flex align-items-center" style={{ color : "#fff !important"} }>
                    Book a Demo

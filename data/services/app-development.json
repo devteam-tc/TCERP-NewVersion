@@ -2,7 +2,8 @@
     "services": [
       {
       "title": "Ideation & Planning",
-      "img": "/images/servicescards/service-ideation-planning.png",
+      "img": "/images/servicescards/Ideation&Planning.png",
+      "hoverImg": "/images/servicescards/white/Ideation&Planning-white.png",
       "link": "/services/android-development",
       "description": "Lay the foundation with clear goals, target audience and feature planning. Define your app's purpose and create a strategic roadmap for development.",
       "icon": "/images/icons/android-icon.png",
@@ -10,15 +11,17 @@
       },
       {
       "title": "UI/UX Design",
-      "img": "/images/servicescards/service-uiux.png",
-      "link": "/services/cross-platform",
+      "img": "/images/servicescards/UXDesign.png",
+      "hoverImg": "/images/servicescards/white/UXDesign-white.png",
+      "link": "/services/UXDesign",
       "description": "Design intuitive, user-centric interfaces that ensure seamless navigation and a satisfying user experience, setting the stage for long-term engagement.",
       "icon": "/images/icons/cross-platform-icon.png",
       "thumb": "/images/thumbs/cross-platform-thumb.png"
       },
       {
       "title": "Development & Integration",
-      "img": "/images/servicescards/service-development-integration.png",
+      "img": "/images/servicescards/Development&Integration.png",
+      "hoverImg": "/images/servicescards/white/Development&Integration-white.png",
       "link": "/services/enterprise-mobile",
       "description": "Build the app using cross-platform technologies for iOS and Android.Incorporate essential features like offline access and system integrations.",
       "icon": "/images/icons/enterprise-icon.png",
@@ -26,7 +29,8 @@
       },
       {
       "title": "Launch & Engagement",
-      "img": "/images/servicescards/service-launch-engagement.png",
+      "img": "/images/servicescards/LaunchEngagement.png",
+      "hoverImg": "/images/servicescards/white/LaunchEngagement-white.png",
       "link": "/services/mobile-ui",
       "description": "Deploy your app and boost user retention with push notifications, real-time updates and continuous improvements based on user feedback.",
       "icon": "/images/icons/ui-icon.png",
@@ -43,7 +47,7 @@
         "Enterprise-grade Security Standards",
         "Optimized for Speed, UX & Market Fit"
       ],
-      "imageMain": "/images/servicescards/mob1.png",
+      "imageMain": "/images/servicescards/Mobileappdevelopment.png",
       "imageDecor": "/images/servicescards/dot-grp1.png"
     },
     "faq": [

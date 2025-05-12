@@ -11,7 +11,7 @@
   ],
   "infoCards": [
     {
-      "image": "/images/industry-icons/apparel-management.png",
+      "image": "/images/industry-icons/apparel_management.png",
       "title": "Fashion Management",
       "description": "End-to-end fashion lifecycle management from design conceptualization to retail distribution.",
       "list": [
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "image": "/images/industry-icons/apparel-analytics.png",
+      "image": "/images/industry-icons/production_analytics.png",
       "title": "Production Analytics",
       "description": "Real-time analytics and insights for optimizing production and inventory management.",
       "list": [

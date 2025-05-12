@@ -33,8 +33,7 @@ const Testimonial = () => {
                   <div className="info">
                     <span className="title ">Call Us Anytime</span>
                     {/* <h4 className="number">(704) 555-0127</h4> */}
-                    <h4 className="number">+91 8919439603, +91 7032082300</h4>
-                    {/* <h4 className="number"> +91 7032082300</h4> */}
+                    <h4 className="number">+91 8919439603, +91 7032803200</h4>
                   </div>
                 </a>
               </div>

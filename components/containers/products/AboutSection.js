@@ -57,7 +57,7 @@ const AboutSection = ({ slug }) => {
                 </ul>
               </div>
 
-              <div className="solutekBtn">
+              {/* <div className="solutekBtn">
                 <Link href={data.link}>
                   {data.linkText}
                   <div className="hoverBx"></div>
@@ -65,7 +65,7 @@ const AboutSection = ({ slug }) => {
                   <div className="hoverBx3"></div>
                   <div className="hoverBx4"></div>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

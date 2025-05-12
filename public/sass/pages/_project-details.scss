@@ -286,7 +286,7 @@
   background: #fff;
   border-radius: 14px;
   padding: 30px;
-  box-shadow: 0px 20px 70px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 10px 20px rgba(173, 216, 230, 0.5019607843), 0 6px 6px rgba(173, 216, 230, 0.7019607843);
   transition: all 0.3s ease-in-out;
   height: 100%;
 
@@ -295,7 +295,7 @@
     // height: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left !important;
     margin-bottom: 25px;
 
     img {

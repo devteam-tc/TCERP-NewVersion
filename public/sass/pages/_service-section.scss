@@ -697,7 +697,7 @@ img {
       }
   
       .service-icon {
-        margin-bottom: 33px;
+        margin-bottom: 10px;
   
         img {
           filter: brightness(1) invert(0);
@@ -711,6 +711,7 @@ img {
           color: $s-text-color;
           font-weight: 600;
           font-family: $s-heading-font;
+          line-height: 30px;
           margin: 0;
           transition: 0.5s;
           cursor: pointer;
@@ -718,7 +719,7 @@ img {
   
         .service-text {
           margin: 0;
-          padding: 11px 0 38px;
+        //   padding: 11px 0 38px;
           transition: 0.5s;
         }
   

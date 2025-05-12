@@ -47,12 +47,6 @@ const ProductPage = ({ slug }) => {
     }
   }, [slug]);
 
-  // const toggleCards = () => {
-  //   const totalCards = product?.cards?.length || 0;
-  //   setVisiblePlans(isExpanded ? 3 : totalCards);
-  //   setIsExpanded(!isExpanded);
-  // };
-
   const currentData = productscardData[slug];
   if (!currentData) return <div>Product Not Found</div>;
 

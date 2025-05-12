@@ -10,6 +10,7 @@ export const industriesMenu = {
         { label: "Apparel Industry", href: "/industries/apparel-industry" },
         { label: "Automotive Industry", href: "/industries/automotive-industry" },
         { label: "Beverage Industry", href: "/industries/beverage-industry" },
+        { label: "Casting Industry ", href: "/industries/casting-industry" },
         { label: "Chemical Industry", href: "/industries/chemical-industry" },
         { label: "Educational Institutes", href: "/industries/educational-institutes" },
         { label: "Electrical Solar Industry", href: "/industries/electrical-solar-industry" },
