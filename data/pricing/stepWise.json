@@ -3,17 +3,17 @@
       {
         "title": "1.Choose Your Plan",
         "description": "Select a plan that fits your business startup, SME or enterprise with essential ERP features and room to grow.",
-        "img": "/images/icons/icon-acquis.svg"
+        "img": "/images/pricing/choose.png"
       },
       {
         "title": "2.Setup & Customization",
         "description": "Our team configures your ERP system to match your workflows ensuring a smooth and tailored setup.",
-        "img": "/images/icons/icon-active.svg"
+        "img": "/images/pricing/setup.png"
       },
       {
         "title": "3.Go Live & Scale",
         "description": "Start managing everything on one platform with the flexibility to add users, tools and modules as needed.",
-        "img": "/images/icons/icon-retent.svg"
+        "img": "/images/pricing/live.png"
       }
     ],
     "header": {
