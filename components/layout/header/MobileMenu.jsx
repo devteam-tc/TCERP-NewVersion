@@ -1,241 +1,107 @@
-import logo from "../../../public/images/logo/logo.webp";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
-import MenuData from './MenuData';
-
-const menus = [
-  {
-    id: 1,
-    title: "Home",
-    link: "/",
-  },
-  {
-    id: 2,
-    title: "About",
-    link: "/about",
-  },
-   
-  {
-    id: 3,
-    title: "Menu Data",
-    link : "/industries",
-    component: <MenuData />  // Rendering component directly
-  },
-  {
-    id: 4,
-    title: "Products",
-    link: "/products",
-    submenu: [
-      {
-        id: 41,
-        title: "Tech Cloud ERP",
-        link: "/products/tech-cloud-erp",
-      },
-      {
-        id: 42,
-        title: "Tech Cloud CRM",
-        link: "/products/customer-relationship-management",
-      },
-      {
-        id: 43,
-        title: "Tech Cloud POS",
-        link: "/products/point-of-sale",
-      },
-      {
-        id: 44,
-        title: "Tech Cloud Trading Software",
-        link: "/products/trading-software",
-      },
-      {
-        id: 45,
-        title: "Tech Cloud Ecommerce",
-        link: "/products/Ecommerce-software",
-      },
-      {
-        id: 46,
-        title: "Tech Cloud HRMS",
-        link: "/products/hr-managament-software",
-      },
-      {
-        id: 47,
-        title: "Tech Cloud Finance",
-        link: "/products/financial-management-systems",
-      },
-      {
-        id: 48,
-        title: "Integrated-With-CRM-Ecommerce-POS",
-        link: "/products/integrated-erp-software",
-      },
-      {
-        id: 49,
-        title: "Tech Cloud Restaurant ERP",
-        link: "/products/erp-for-restaraunt",
-      },
-      {
-        id: 50,
-        title: "Accounting Software",
-        link: "/products/erp-for-accounting-software",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Services",
-    link: "/services",
-    submenu: [
-      {
-        id: 31,
-        title: "Digital Marketing",
-        link: "/services/digital-marketing",
-      },
-      {
-        id: 32,
-        title: "Web Development",
-        link: "/services/web-development",
-      },
-      {
-        id: 33,
-        title: "Mobile App Development",
-        link: "/services/app-development",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Pricing",
-    link: "/pricing",
-  },
-  {
-    id: 7,
-    title: "BI",
-    link: "business-intelligence",
-  },
-  {
-    id: 8,
-    title: "Contact",
-    link: "/contact",
-  },
-  {
-    id: 9,
-    title: "Demo",
-    link: "/demo",
-  },
-];
+import logo from "../../../public/images/logo/logo.svg";
+import { menus } from "../../../data/menuData";
+import MobileMenuHeader from "./mobile-menu/MobileMenuHeader";
+import MenuItem from "./mobile-menu/MenuItem";
+import CallToAction from "./mobile-menu/CallToAction";
 
 const MobileMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openSubmenuId, setOpenSubmenuId] = useState(null);
+  const [openIndustrySection, setOpenIndustrySection] = useState(null);
 
-  // Toggle mobile menu
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Close mobile menu
   const closeMenu = () => {
     setIsMenuOpen(false);
     setOpenSubmenuId(null);
+    setOpenIndustrySection(null);
   };
 
-  // Toggle submenu visibility with smooth transition
   const toggleSubmenu = (id) => {
-    setOpenSubmenuId(openSubmenuId === id ? null : id);
+    if (openSubmenuId === id) {
+      setOpenSubmenuId(null);
+      setOpenIndustrySection(null);
+    } else {
+      setOpenSubmenuId(id);
+      setOpenIndustrySection(null);
+    }
+  };
+
+  const toggleIndustrySection = (e, heading) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setOpenIndustrySection(openIndustrySection === heading ? null : heading);
   };
 
   return (
     <div className="mobile-menu-area d-block d-xl-none">
       <div className="container">
-        <div className="mobile-topbar">
-          <div className="d-flex justify-content-between align-items-center">
-            <div className="logo">
-              <Link href="/">
-                <Image src={logo} alt="logo" priority />
-              </Link>
-            </div>
-            <div className="bars" onClick={toggleMenu}>
-              <i className="fas fa-bars"></i>
-            </div>
-          </div>
-        </div>
+        <MobileMenuHeader toggleMenu={toggleMenu} />
       </div>
 
-      {/* Mobile Menu Overlay */}
       <div
         className={`mobile-menu-overlay ${isMenuOpen ? "active" : ""}`}
         onClick={closeMenu}
       ></div>
 
-      {/* Mobile Menu Main */}
       <div className={`mobile-menu-main ${isMenuOpen ? "active" : ""}`}>
-        <div className="logo">
-          <Link href="/">
-            <Image src={logo} alt="logo" />
-          </Link>
-        </div>
-        <div className="close-mobile-menu" onClick={closeMenu}>
-          <i className="fas fa-times"></i>
+        <div>
+          <div className="logo">
+            <Link href="/">
+              <Image src={logo} alt="logo" width={200} height={100}  />
+            </Link>
+          </div>
+          <div className="close-mobile-menu" onClick={closeMenu}>
+            <i className="fa-solid fa-xmark"></i>
+          </div>
+          <style jsx>{`
+            .close-mobile-menu {
+              position: absolute;
+              top: 20px;
+              right: 20px;
+              cursor: pointer;
+              width: 40px;
+              height: 40px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 50%;
+              background: rgba(0, 0, 0, 0.05);
+              transition: all 0.3s ease;
+            }
+            .close-mobile-menu:hover {
+              background: rgba(0, 0, 0, 0.1);
+              transform: rotate(90deg);
+            }
+            .close-mobile-menu i {
+              font-size: 24px;
+              color: #333;
+            }
+          `}</style>
         </div>
         <div className="menu-body">
           <div className="menu-list">
             <ul className="list-unstyled">
               {menus.map((menu) => (
-                <li className="sub-mobile-menu" key={menu.id}>
-                  {menu.submenu ? (
-                    <>
-                      <Link href="#" onClick={() => toggleSubmenu(menu.id)}>
-                        {menu.title}{" "}
-                        <i
-                          className={`fas float-end ${
-                            openSubmenuId === menu.id
-                              ? "fa-chevron-up"
-                              : "fa-chevron-down"
-                          }`}
-                        ></i>
-                      </Link>
-                      <ul
-                        className={`submenu ${openSubmenuId === menu.id ? "open" : ""}`}
-                      >
-                        {menu.submenu.map((submenu) => (
-                          <li key={submenu.id}>
-                            <Link href={submenu.link} onClick={closeMenu}>
-                              {submenu.title}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </>
-                  ) : menu.component ? (
-                    // If menu has a `component`, render it instead of a `Link`
-                    <div>{menu.component}</div>
-                  ) : (
-                    menu.link && (
-                      <Link href={menu.link} onClick={closeMenu}>
-                        {menu.title}
-                      </Link>
-                    )
-                  )}
-                </li>
+                <MenuItem
+                  key={menu.id}
+                  menu={menu}
+                  openSubmenuId={openSubmenuId}
+                  openIndustrySection={openIndustrySection}
+                  toggleSubmenu={toggleSubmenu}
+                  toggleIndustrySection={toggleIndustrySection}
+                  closeMenu={closeMenu}
+                />
               ))}
             </ul>
           </div>
         </div>
-        <div className="call-us p-4">
-          <a
-            href="tel:+91 8919439603"
-            className="call-us-btn d-flex align-items-center gap-3"
-          >
-            <span className="icon d-flex justify-content-center align-items-center">
-              <i className="fa-solid fa-phone"></i>
-            </span>
-            <div className="info">
-              <span className="title">Need ERP?</span>
-              <h5 className="number">+91 8919439603</h5>
-              <h5 className="number">+91 7032082300</h5>
-
-            </div>
-          </a>
-        </div>
+        <CallToAction />
       </div>
     </div>
   );

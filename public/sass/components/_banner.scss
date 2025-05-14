@@ -4,10 +4,34 @@
 
 /* Banner section one */
 .ep-banner-section {
-	padding-top: 113px;
+	padding-top: 300px;
 	// padding-bottom: 17px;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
 	background-color: var(--bs-white-color);
+	@media (max-width: 991.98px) {
+		height: auto;
+	}
+  
+	
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url('/images/banner/banner-bg-img.webp'); // Update with your image path
+		background-size: cover;
+		background-position: 100% 100%;
+		background-repeat: no-repeat;
+		z-index: 0;
 
+		@media (max-width: 991.98px) {
+			display: none;
+		}
+	  }
 	.banner-title {
 		margin-bottom: 30px;
 	}
@@ -67,7 +91,7 @@
 	.custom-shadown {
 		width: 431px;
 		height: 431px;
-		background: var(--bs-primary-300);
+		// background: var(--bs-primary-300);
 		opacity: 0.6;
 		filter: blur(152.60000610351562px);
 		bottom: -176px;
@@ -160,97 +184,8 @@
 	}
 }
 
-/* Banner section two */
-.ep-banner-section-two {
-	background-color: var(--bs-white-color);
 
-	.banner-main {
-		&::before {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 64%;
-			height: 100%;
-			background: var(--bs-black-color);
-			content: "";
-			clip-path: polygon(0 0, calc(100% - 360px) 0, 100% 100%, 0% 100%);
-		}
-	}
-
-	.banner-row {
-		--bs-gutter-y: 0px;
-	}
-
-	.banner-shape-4 {
-		top: 0;
-		right: 0;
-	}
-
-	.banner-text {
-		padding: 90px 0;
-
-		.banner-title {
-			color: var(--bs-white-color);
-			font-size: 92px;
-			font-weight: 700;
-			line-height: 100px;
-			letter-spacing: -1.841px;
-		}
-
-		p {
-			color: var(--bs-white-color);
-			font-size: 18px;
-			font-weight: 400;
-			line-height: 28px;
-			letter-spacing: -0.36px;
-			max-width: 463px;
-			margin: 28px 0 30px 0;
-		}
-
-		.rotate-img {
-			width: 203px;
-			height: 203px;
-			border-radius: 50%;
-			position: relative;
-			padding: 13px;
-			background-color: rgba(255, 255, 255, 0.05);
-
-			img {
-				animation: spin 26s infinite linear;
-			}
-
-			.video-rotate-btn {
-				color: var(--bs-white-color);
-				width: 89px;
-				height: 89px;
-				border-radius: 50%;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				background-color: var(--bs-secondary-color);
-
-				i {
-					font-size: 25px;
-				}
-			}
-		}
-	}
-
-	.banner-image {
-		width: 873px;
-
-		.banner-shape-2 {
-			top: -89px;
-			right: 65.3%;
-		}
-
-		.banner-shape-3 {
-			top: 357px;
-			right: 86%;
-		}
-	}
-}
-
+  
 .rotating-background {
 	z-index: 1000;
 	overflow: hidden;
@@ -278,13 +213,30 @@
   }
   
   
-  .ep-banner-section {
-	position: relative;
-	z-index: 1;
-  }
   .banner-shape {
-	z-index: 1000;
+	position: absolute;
+	top: -22%;
+    opacity: 50%;
+    left: -27%;
+	pointer-events: none;
+	animation: spinner 60s linear infinite;
+  
+	img {
+	  object-fit: contain;
+	  max-width: 100%;
+	  height: auto;
+	}
   }
+  
+  @keyframes spinner {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
   .rotating-background {
 	z-index: -1; /* Behind shapes and content */
   }
@@ -338,7 +290,7 @@
 	}
 
 	.ep-banner-section {
-		padding-top: 90px;
+		padding-top: 300px;
 	}
 
 	.ep-banner-section .banner-shape {
@@ -389,6 +341,9 @@
 	.ep-banner-section-two .banner-text {
 		padding: 70px 0;
 	}
+	.custom-images-grid{
+		margin-left: 100px !important;
+	}
 }
 
 @media (max-width: 991.98px) {
@@ -412,6 +367,7 @@
 
 	.ep-banner-section {
 		padding-bottom: 50px;
+		padding-top: 100px;
 	}
 
 	.ep-banner-section-two .banner-main::before {
@@ -447,6 +403,9 @@
 		margin: 0 auto;
 		padding-bottom: 60px;
 	}
+	.custom-images-grid{
+		display: none !important;
+	}
 }
 
 @media (max-width: 767.98px) {
@@ -472,4 +431,116 @@
 		font-size: 44px;
 		line-height: 56px;
 	}
+}
+
+
+
+
+
+
+
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-20px);
+	}
+	60% {
+		transform: translateY(-10px);
+	}
+	
+}
+
+
+.custom-image-bounce {
+	animation: bounce 8s infinite ease-in-out;
+}
+
+.custom-images-grid {
+  position: relative;
+  width: 420px;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  &::before {
+	content: '';
+	position: absolute;
+	top: -75%;
+    width: 250%;
+    left: -63%;// Center the extension
+	background-size: cover; // Alternative to 'contain'
+    height: 250%;
+	background-image: url('/images/banner/cardbg.webp'); // Update with your image path
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 1;
+	opacity: 0.8;   
+
+	@media (max-width: 991.98px) {
+		display: none;
+	}
+	@media (max-width: 1199.98px) {
+		.custom-images-grid {
+			display: none !important;
+		}
+	  }
+  }
+}
+
+.custom-images-grid .custom-image-bounce {
+  position: absolute;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10), 0 1.5px 6px rgba(0,0,0,0.08);
+  border-radius: 16px;
+  background: #fff;
+  transition: box-shadow 0.3s;
+  z-index: 3;                   // Ensures cards stay above background
+
+}
+
+.custom-images-grid .custom-image-bounce:nth-child(1) {
+	top: -68px;
+    left: -120px;
+  width: 400px;
+  z-index: 3;
+  animation-delay: 0s;
+}
+.custom-images-grid .custom-image-bounce:nth-child(2) {
+	top: -17px;
+    left: 224px;
+  width: 300px;
+  z-index: 3;
+  animation-delay: 0.3s;
+}
+.custom-images-grid .custom-image-bounce:nth-child(3) {
+	top: 150px;
+    left: -92px;
+  width: 280px;
+  z-index: 3;
+  animation-delay: 0.6s;
+}
+.custom-images-grid .custom-image-bounce:nth-child(4) {
+  top: 180px;
+  left: 160px;
+  width: 300px;
+  z-index: 4;
+  animation-delay: 0.9s;
+}
+
+@media (max-width: 991.98px) {
+  .custom-images-grid .custom-image-bounce {
+    border-radius: 10px;
+  }
+  .custom-images-grid .custom-image-bounce:nth-child(1) { left: 30px; width: 140px; 
+	
+}
+  
+  .custom-images-grid .custom-image-bounce:nth-child(2) { left: 120px; width: 120px; 
+	}
+  
+  .custom-images-grid .custom-image-bounce:nth-child(3) { left: 0; width: 120px; }
+  .custom-images-grid .custom-image-bounce:nth-child(4) { left: 90px; width: 90px;  }
 }

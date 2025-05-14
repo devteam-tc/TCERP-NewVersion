@@ -56,7 +56,11 @@
         .logo {
           margin-bottom: 12px;
         }
-
+        @media (max-width: 998px) {
+          .logo {
+           display: flex;
+          }
+        }
         .footer-title {
           color: var(--bs-Text-Dark-Color);
           font-size: 22px;
@@ -241,108 +245,6 @@
   }
 }
 
-// Footer section two
-.ep-footer-section-two {
-  padding-top: 360px;
-
-  .video-image {
-    margin-top: -360px;
-
-    .icon-box {
-      width: 100px;
-      height: 100px;
-      font-size: 30px;
-
-      &:hover {
-        background-color: var(--bs-primary-color);
-      }
-    }
-  }
-
-  .footer-bg {
-    background-position: bottom right;
-    background-image: url('../../images/bg/footer-bg-2.svg');
-    .footer-widget {
-      .social-icon-box {
-        li {
-          a {
-            color: var(--bs-white-color);
-            border-color: var(--bs-secondary-color);
-
-            &:hover {
-              border-color: var(--bs-primary-color);
-            }
-          }
-        }
-      }
-
-      .footer-title {
-        margin-bottom: 43px;
-      }
-    }
-
-    .footer-links {
-      ul {
-        li {
-          a {
-            opacity: 1 !important;
-
-            &:hover {
-              color: var(--bs-primary-color);
-            }
-          }
-        }
-      }
-    }
-
-    .newsletter-widget {
-      p {
-        color: var(--bs-white-color);
-        opacity: 0.8;
-        padding-right: 20px;
-      }
-
-      .input-group {
-        max-width: 276px;
-
-        .form-control {
-          width: 100% !important;
-          height: 63px;
-          border-radius: 50px !important;
-          background-color: rgba(255, 255, 255, 0.1);
-          padding: 0 20px;
-          border: 0;
-          color: rgba(255, 255, 255, 0.8);
-          padding-right: 73px;
-
-          &:focus {
-            z-index: 1;
-          }
-
-          &::placeholder {
-            color: rgba(255, 255, 255, 0.8);
-          }
-        }
-
-        button {
-          width: 65px;
-          height: 63px;
-          background-color: var(--bs-primary-color);
-          border-top-right-radius: 50px;
-          border-bottom-right-radius: 50px;
-          color: var(--bs-white-color);
-          border: 0;
-
-        }
-      }
-    }
-
-    .footer-bottom {
-      border-color: var(--bs-black-color2);
-    }
-  }
-}
-
 /* back to top button */
 .progress-wrap {
   // position: fixed;
@@ -459,25 +361,6 @@
   }
 }
 
-// .progress-wrap {
-  // position: fixed;
-  // bottom: 20px;
-  // left: 20px;         // 👈 move to the left
-  // right: auto;        // 👈 cancel the default right positioning
-  // z-index: 9999;
-  // width: 50px;
-  // height: 50px;
-  // cursor: pointer;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-  // background-color: white;
-  // border-radius: 50%;
-  // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  // transition: opacity 0.3s ease, visibility 0.3s ease;
-  // opacity: 0;
-  // visibility: hidden;
-// }
 
 
 .active-progress {

@@ -6,10 +6,10 @@ export const indiaPricingPlans = [
     description: "Per Member, Per Month.",
     price: " ₹2000",
     features: [
-      "1-5 Modules",
-      "1-5 Users",
-      "No credit card required",
-      "Perfect for individuals and startups to kickstart domain",
+      " Access to 1–5 Core Modules",
+      " Limited to 1–5 Users",
+      "Ideal for early-stage businesses or freelancers",
+      " Quick and simple onboarding",
     ],
   },
   {
@@ -18,10 +18,10 @@ export const indiaPricingPlans = [
     description: "Per Member, Per Month.",
     price: " ₹1500",
     features: [
-      "1-15 Modules",
-      "1-25 Users",
-      "No credit card required",
-      "Tailored for large organizations with advanced needs",
+      "Access to 1–15 Business Modules",
+      "Supports 1–25 Users",
+      "Perfect for growing teams and expanding startups",
+      "Scalable features with priority onboarding",
     ],
   },
   {
@@ -30,10 +30,10 @@ export const indiaPricingPlans = [
     description: "Per Member, Per Month.",
     price: "₹0",
     features: [
-      "Unlimited Modules",
-      "Unlimited Customization",
-      "No credit card required",
-      "Unlimited access for complete customization and scaling",
+      "Unlimited Modules Access",
+      "Unlimited Users",
+      "Full customization capabilities",
+      " Designed for enterprise-grade solutions and complete scalability",
     ],
   },
 ];
@@ -45,10 +45,10 @@ export const usPricingPlans = [
     description: "Per Member, Per Month",
     price: " $25",
     features: [
-      "1-5 Modules",
-      "1-5 Users",
-      "No credit card required",
-      "Ideal for small businesses in the US",
+      " Access to 1–5 Core Modules",
+      " Limited to 1–5 Users",
+      "Ideal for early-stage businesses or freelancers",
+      " Quick and simple onboarding",
     ],
   },
   {
@@ -57,10 +57,10 @@ export const usPricingPlans = [
     description: "Per Member, Per Month",
     price: " $18",
     features: [
-      "1-15 Modules",
-      "1-25 Users",
-      "No credit card required",
-      "Perfect for growing US enterprises",
+      "Access to 1–15 Business Modules",
+      "Supports 1–25 Users",
+      "Perfect for growing teams and expanding startups",
+      "Scalable features with priority onboarding",
     ],
   },
   {
@@ -69,10 +69,10 @@ export const usPricingPlans = [
     description: "Per Member, Per Month",
     price: "$0",
     features: [
-      "Unlimited Modules",
-      "Unlimited Customization",
-      "No credit card required",
-      "All-in-one US-based scalable solution",
+      "Unlimited Modules Access",
+      "Unlimited Users",
+      "Full customization capabilities",
+      " Designed for enterprise-grade solutions and complete scalability",
     ],
   },
 ];

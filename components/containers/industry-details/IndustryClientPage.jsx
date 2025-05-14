@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import ProjectDetailsPage from "../industries/IndustryDetailsPage"
 import CustomCursor from "../../layout/CustomCursor"
@@ -8,27 +8,38 @@ import Header from "../../layout/header/Header";
 import PageHeader from "../../layout/PageHeader";
 import { FaHome } from 'react-icons/fa';
 
-const capitalizeWords = (str) => {
-  return str
-    .split(' ')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
-};
-
 const IndustryClientPage = () => {
   const { slug } = useParams();
-  const industryName = capitalizeWords(slug.replace(/-/g, " "));
+  const [industryTitle, setIndustryTitle] = useState("");
+
+  useEffect(() => {
+    const loadIndustryData = async () => {
+      try {
+        const industryData = await import(`../../../data/industries/${slug}.json`)
+          .then(module => module.default);
+        setIndustryTitle(industryData.title);
+      } catch (error) {
+        console.error('Failed to load industry data:', error);
+        // Fallback to slug-based title if data loading fails
+        setIndustryTitle(slug.split('-').map(word => 
+          word.charAt(0).toUpperCase() + word.slice(1)
+        ).join(' '));
+      }
+    };
+
+    loadIndustryData();
+  }, [slug]);
 
   const breadcrumbs = [
     { label: "Home", link: "/", icon: FaHome },
     { label: "All Industries", link: "/industries" },
-    { label: industryName, link: null },
+    { label: industryTitle, link: null },
   ];
 
   return (
     <>
       <Header />
-      <PageHeader title={industryName} breadcrumbs={breadcrumbs} />
+      <PageHeader title={industryTitle} breadcrumbs={breadcrumbs} />
       <main>
         {/* Pass slug to ProjectDetailsPage */}
         <ProjectDetailsPage industrySlug={slug} />

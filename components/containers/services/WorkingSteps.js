@@ -37,7 +37,7 @@ const WorkingSteps = () => {
                 </div>
                 <div className="process-content">
                   <h4>Discussion & Planning</h4>
-                  <p>We start with in-depth discussions to understand your goals, target audience and market needs, then develop a plan that is unique to your business's vision.</p>
+                  <p>We start with in-depth discussions to understand your goals, target audience and market needs, then develop a plan that is unique to your business vision.</p>
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ const WorkingSteps = () => {
                   </div>
                 </div>
                 <div className="process-content">
-                  <h4>Strategy & Design                  </h4>
+                  <h4>Strategy & Design  </h4>
                   <p>Based on research, we create a strategy and create intuitive designs that match your brand while providing a smooth user experience.                  </p>
                 </div>
               </div>

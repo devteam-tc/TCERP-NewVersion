@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import { FaHome } from 'react-icons/fa';
 import servicesData from '../../data/services.json';
-import { VALID_SERVICE_SLUGS } from '../../app/config/services';
+import { VALID_SERVICE_SLUGS } from '../config/services';
 
 /**
  * Normalize a service slug by converting spaces to hyphens and lowercasing
