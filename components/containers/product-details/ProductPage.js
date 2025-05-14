@@ -47,12 +47,6 @@ const ProductPage = ({ slug }) => {
     }
   }, [slug]);
 
-  // const toggleCards = () => {
-  //   const totalCards = product?.cards?.length || 0;
-  //   setVisiblePlans(isExpanded ? 3 : totalCards);
-  //   setIsExpanded(!isExpanded);
-  // };
-
   const currentData = productscardData[slug];
   if (!currentData) return <div>Product Not Found</div>;
 
@@ -61,7 +55,7 @@ const ProductPage = ({ slug }) => {
   const breadcrumbs = [
     { label: 'Home', link: '/', icon: FaHome },
     { label: 'All Products', link: '/products' },
-    { label: productName, link: null },
+    { label: product?.heading, link: null },
   ];
   
   return (
@@ -69,9 +63,6 @@ const ProductPage = ({ slug }) => {
       <Header />
       <PageHeader title={productName} breadcrumbs={breadcrumbs} />
       <AboutSection slug={slug} />
-      {/* <Container>
-        <ProductCards slug={slug} visiblePlans={visiblePlans} toggleCards={toggleCards} />
-      </Container> */}
       <NewProduct slug ={slug}  />
       <FaqSection product={slug} />
       <DownloadWidget />

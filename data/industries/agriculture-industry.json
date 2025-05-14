@@ -11,7 +11,7 @@
   ],
   "infoCards": [
     {
-      "image": "/images/industry-icons/agriculture-management.png",
+      "image": "/images/industry-icons/Farm_Management.png",
       "title": "Farm Management",
       "description": "Complete farm operations management including planning, scheduling and resource allocation.",
       "list": [
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "image": "/images/industry-icons/agriculture-analytics.png",
+      "image": "/images/industry-icons/Analytics_&_Reporting.png",
       "title": "Analytics & Reporting",
       "description": "Advanced analytics and reporting tools for data-driven decision making.",
       "list": [

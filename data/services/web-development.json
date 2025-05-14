@@ -2,7 +2,8 @@
     "services": [
       {
         "title": "Planning & Research",
-        "img": "/images/servicescards/service-planning-research.png",
+        "img": "/images/servicescards/Planning&Research.png",
+        "hoverImg": "/images/servicescards/white/Planning&Research-white.png",
         "link": "/services/web-development",
         "description": "We start by understanding your business needs, target audience and goals. This helps us define the site structure, technology and user experience strategy.",
         "icon": "/images/services/ser-icon.png",
@@ -10,7 +11,8 @@
       },
       {
         "title": "Design & Prototyping",
-        "img": "/images/servicescards/service-design-prototyping.png",
+        "img": "/images/servicescards/Design&Prototyping.png",
+        "hoverImg": "/images/servicescards/white/Design&Prototyping-white.png",
         "link": "/services/ecommerce-development",
         "description": "Our creative team crafts wireframes and visual designs focused on usability and brand identity. You'll get a clear view of how your site will look and function.",
         "icon": "/images/services/ecom-icon.png",
@@ -18,7 +20,8 @@
       },
       {
         "title": "Development & Integration",
-        "img": "/images/servicescards/service-development- integration.png",
+        "img": "/images/servicescards/Development&Integration1.png",
+        "hoverImg": "/images/servicescards/white/Development&Integration1-white.png",
         "link": "/services/progressive-web-apps",
         "description": "We transform designs into a fully functional website using modern, scalable code. We ensure mobile responsiveness and seamless integration with tools or APIs.",
         "icon": "/images/services/pwa-icon.png",
@@ -26,7 +29,8 @@
       },
       {
         "title": "Testing, Launch & Support",
-        "img": "/images/servicescards/service-testing-launch-support.png",
+        "img": "/images/servicescards/LaunchSupport.png",
+        "hoverImg": "/images/servicescards/white/LaunchSupport-white.png",
         "link": "/services/cms-development",
         "description": "Before going live, we test across devices, fix bugs and optimize performance. After launch, we offer ongoing support and maintenance to keep your site running smoothly.",
         "icon": "/images/services/cms-icon.png",
@@ -34,7 +38,8 @@
       },
       {
         "title": "CMS Development",
-        "img": "/images/servicescards/service-cms-development.png",
+        "img": "/images/servicescards/CMSDevelopment.png",
+        "hoverImg": "/images/servicescards/white/CMSDevelopment-white.png",
         "link": "/services/api-development",
         "description": "Custom content management systems for easy website updates and management.",
         "icon": "/images/services/api-icon.png",
@@ -42,7 +47,8 @@
       },
       {
         "title": "API Development",
-        "img": "/images/servicescards/service-api-integration.png",
+        "img": "/images/servicescards/APIDevelopment.png",
+        "hoverImg": "/images/servicescards/white/APIDevelopment-white.png",
         "link": "/services/web-security",
         "description": "Robust and scalable API solutions for seamless system integration.",
         "icon": "/images/services/security-icon.png",
@@ -50,7 +56,8 @@
       },
       {
         "title": "Cloud Integration",
-        "img": "/images/servicescards/service-cloud-integration.png",
+        "img": "/images/servicescards/CloudIntegration.png",
+        "hoverImg": "/images/servicescards/white/CloudIntegration-white.png",
         "link": "/services/frontend-development",
         "description": "Seamless cloud service integration and deployment solutions.",
         "icon": "/images/services/frontend-icon.png",
@@ -58,7 +65,8 @@
       },
       {
         "title": "Web Analytics Integration",
-        "img": "/images/servicescards/service-web-analytics -integration.png",
+        "img": "/images/servicescards/WebAnalytics.png",
+        "hoverImg": "/images/servicescards/white/WebAnalytics-white.png",
         "link": "/services/backend-development",
         "description": "Implementation of tracking and analytics tools for data-driven insights.",
         "icon": "/images/services/backend-icon.png",
@@ -75,7 +83,7 @@
         "SEO-friendly architecture",
         "Fast loading and mobile-friendly"
       ],
-      "imageMain": "/images/servicescards/web-development.png",
+      "imageMain": "/images/servicescards/WebDevelopment.png",
       "imageDecor": "/images/servicescards/dot-grp1.png"
     },
     "faq": [

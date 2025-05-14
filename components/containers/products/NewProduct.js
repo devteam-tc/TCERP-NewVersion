@@ -35,7 +35,7 @@ const ProductsSection = () => {
           <div className="col-lg-12">
             <div className="section-title text-center">
               <h5 className="section-sub-title">FEATURED PRODUCTS</h5>
-              <h1 className="section-main-title">{product.mainTitle}</h1>
+              <h1 className="section-main-title mt-3 mb-3">{product.mainTitle}</h1>
             </div>
           </div>
         </div>
@@ -52,8 +52,8 @@ const ProductsSection = () => {
                     <Image 
                       src={card.image} 
                       alt="product icon" 
-                      width={50} 
-                      height={40} 
+                      width={35} 
+                      height={35} 
                       style={{
                         maxWidth: "100%",
                         height: "auto"

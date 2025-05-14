@@ -6,10 +6,10 @@ import bannerShapeTwo from '../../../public/images/shape/worldmap2.webp';
 import Link from 'next/link';
 import { useState } from 'react';
 import YouTubeEmbed from '../YouTubeEmbed';
-import bannerImg5 from '../../../public/images/banner/Chart1.png';
-import bannerImg6 from '../../../public/images/banner/Chart2.png';
-import bannerImg7 from '../../../public/images/banner/Chart3.png';
-import bannerImg8 from '../../../public/images/banner/Chart4.png';
+import bannerImg5 from '../../../public/images/banner/Chart1.webp';
+import bannerImg6 from '../../../public/images/banner/Chart2.webp';
+import bannerImg7 from '../../../public/images/banner/Chart3.webp';
+import bannerImg8 from '../../../public/images/banner/Chart4.webp';
 import styles from './Banner.module.css';
 
 const Banner = () => {
@@ -30,6 +30,7 @@ const Banner = () => {
                 <Image priority src={bannerShapeOne} alt="banner-shape" className="position-absolute banner-title-shape" />
                 <h2 className="banner-title heading-style1 title-anim">Cloud-Based ERP Software Solutions</h2>
                 <p>Empower your business with Tech Cloud ERP a scalable cloud-based solution that streamlines operations, boosts productivity and fuels growth.</p>
+                <p className='mt-3'>We don’t just sell software — we tailor it to your business.</p>
                 <div className="banner-buttons">
                   <Link href="/demo" className="theme-btn position-relative d-inline-flex align-items-center" style={{ color : "#fff !important"} }>
                    Book a Demo

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import logo2 from '../../../public/images/logo/logo.svg';
 import Image from 'next/image';
 import ScrollProgressButton from '../ScrollProgressButton';
-import WebCounter from '../../containers/home/WebCounter';
+// import WebCounter from '../../containers/home/WebCounter';
 import SocialMediaIcons from './SocialMediaIcons';
 import Certifications from './Certifications';
 
@@ -46,7 +46,7 @@ const Footer = () => {
                             <h4 className="title">Email </h4>
                           </div>
                           <p> <a href="mailto:info@techclouderp.com">info@techclouderp.com</a></p>
-                          <WebCounter />
+                          {/* <WebCounter /> */}
                           {/* <Certifications /> */}
                         </li>
                       </ul>

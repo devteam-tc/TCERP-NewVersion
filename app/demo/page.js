@@ -3,6 +3,7 @@ import Footer from "../../components/layout/footer/Footer"
 import Header from "../../components/layout/header/Header"
 import PageHeader from "../../components/layout/PageHeader"
 import DemoPage from "./DemoPage";
+import FaqSection from "./FaqSection";
 import { FaHome } from 'react-icons/fa';
 
 export async function generateMetadata() {
@@ -39,6 +40,7 @@ const page = () => {
       <Header/>
       <PageHeader title="Demo" breadcrumbs={breadcrumbs} />
       <DemoPage />
+      <FaqSection />
       <Footer/>
       <CustomCursor/>
     </>

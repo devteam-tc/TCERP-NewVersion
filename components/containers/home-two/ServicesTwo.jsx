@@ -45,7 +45,7 @@ const ServicesTwo = () => {
                       </div>
                     </div>
                     <div className="text">
-                      <h4 className="title">
+                      <h4 className="titleheading">
                         <Link href="/features"
                         >{service.title}</Link>
                       </h4>

@@ -26,11 +26,9 @@ import serviceTwoImg2 from '../public/images/services/dynamic.webp';
 import serviceTwoImg3 from '../public/images/services/email.webp';
 import serviceTwoImg4 from '../public/images/services/mobile.webp';
 import serviceTwoImg5 from '../public/images/services/data.webp';
-// import serviceTwoImg6 from '../public/images/services/service-two-img6.png';
 import serviceTwoImg7 from '../public/images/services/pay.webp';
 import serviceTwoImg8 from '../public/images/services/chat.webp';
 import serviceTwoImg9 from '../public/images/services/unlimited.webp';
-//import serviceTwoImg10 from '@/public/images/services/service-two-img10.png';
 
 export const services = [
   {
@@ -96,50 +94,43 @@ export const services = [
     icon: serviceIcon9,
     className: "icon-box-tertiary",
   },
-  // {
-  //   id: 10,
-  //   title: "Plant Maintenance ",
-  //   description: "Schedule preventive and corrective maintenance, track breakdowns, servicing, and spare part requirements to reduce downtime.",
-  //   icon: serviceIcon10,
-  //   className: "icon-box-tertiary",
-  // },
   {
-    id: 11,
+    id: 10,
     title: "HRM ",
     description: "Manage employee attendance, payroll, tax compliance, departments and documents with a dedicated HRM app featuring geo-fencing & tagging.",
     icon: serviceIcon6,
     className: "icon-box-tertiary",
   },
   {
-    id: 12,
+    id: 11,
     title: "Finance & Accounting  ",
     description: "Cover General Ledger, bank transactions, GST, e-way bills, e-invoicing and financial reporting for accurate management.",
     icon: serviceIcon12,
     className: "icon-box-tertiary",
   },
   {
-    id: 13,
+    id: 12,
     title: "Imports and Exports  ",
     description: "Streamline trade with customs documentation, shipment tracking, compliance management, and financial handling.",
     icon: serviceIcon18,
     className: "icon-box-tertiary",
   },
   {
-    id: 14,
+    id: 13,
     title: "Project Management ",
     description: " Plan and execute projects with task tracking, timelines, resource allocation and budget management for efficiency.",
     icon: serviceIcon14,
     className: "icon-box-tertiary",
   },
   {
-    id: 15,
-    title: "Design Management  ",
+    id: 14,
+    title: "Design Management",
     description: "Manage BOM drawings, plans and specifications with revisions and approvals for precise production planning.",
     icon: serviceIcon11,
     className: "icon-box-tertiary",
   },
   {
-    id: 16,
+    id: 15,
     title: "POS ",
     description: " Integrated POS system for seamless billing, inventory sync and real-time transaction tracking in retail businesses.",
     icon: serviceIcon16,
@@ -192,15 +183,9 @@ export const servicesTwo = [
     description:"Automates secure data storage, ensuring continuity and protection against loss.",
 
   },
-  // {
-  //   id: 6,
-  //   title: "Customizable Software",
-  //   icon: serviceTwoIcon4,
-  //   image: serviceTwoImg6,
-  //   className: "icon-box-primary icon-box-text-white",
-  // },
+
   {
-    id: 7,
+    id: 6,
     title: "Pay As You Go",
     icon: serviceTwoIcon4,
     image: serviceTwoImg7,
@@ -209,7 +194,7 @@ export const servicesTwo = [
 
   },
   {
-    id: 8,
+    id: 7,
     title: "Chat Between Users",
     icon: serviceTwoIcon4,
     image: serviceTwoImg8,
@@ -218,7 +203,7 @@ export const servicesTwo = [
 
   },
   {
-    id: 9,
+    id: 8,
     title: "Unlimited Users",
     icon: serviceTwoIcon4,
     image: serviceTwoImg9,
@@ -226,24 +211,4 @@ export const servicesTwo = [
     description:"Accommodates an unlimited number of users, ensuring scalability and accessibility.",
 
   },
-  // {
-  //   id: 10,
-  //   title: "Audit Trail",
-  //   icon: serviceTwoIcon4,
-  //   image: serviceTwoImg10,
-  //   className: "icon-box-primary icon-box-text-white",
-  //   description:"Detailed log of system activities, supporting accountability, compliance and security.",
-
-  // },
-  // {
-  //   id: 11,
-  //   title: "Multiple Inventory Location",
-  //   icon: serviceTwoIcon4,
-  //   image: serviceTwoImg15,
-  //   className: "icon-box-primary icon-box-text-white",
-  //   description:"Detailed log of system activities, supporting accountability, compliance and security.",
-
-  // },
-
-
 ]

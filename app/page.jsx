@@ -16,7 +16,7 @@ import CustomCursor from "../components/layout/CustomCursor";
 import Footer from "../components/layout/footer/Footer";
 // import TrainFactoryScene from "../components/layout/footer/TrainFactoryScene";
 import Header from "../components/layout/header/Header";
-
+import CreativeSection from "../components/layout/footer/CreativeSection";
 export default function Home() {
   return (
     <>
@@ -31,6 +31,7 @@ export default function Home() {
       {/* <Blog/> */}
       {/* <TrainFactoryScene /> */}
       {/* <TextSlider/> */}
+      <CreativeSection />
       <Footer/>
       <CustomCursor/>
     </>
