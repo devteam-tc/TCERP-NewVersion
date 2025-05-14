@@ -13,10 +13,10 @@ const FaqSection = () => {
   return (
     <section className="faqSection">
       <div className="container">
-        <div className="content">
+        <div className="contentt">
           <div className="textContent">
             <h4 className="support">PRICING</h4>
-            <h2 className="title">
+            <h2 className="titlee">
               Frequently<br />Asked Questions
             </h2>
             <p className="subtitle">

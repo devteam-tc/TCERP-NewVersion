@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/garment_banner_img.webp",
-  "title": "Garment Industry Solutions",
+  "title": "Garment Industry",
   "description": "Advanced ERP solutions tailored for garment manufacturers, streamlining production processes from design to delivery while optimizing style management, costing and quality control.",
   "keyPoints": [
     "Style & Sample Management",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/garment-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive garment production management system with style tracking and scheduling.",
+      "title": "Style Control",
+      "description": "Complete style lifecycle management from design to production with detailed specifications tracking.",
       "list": [
-        "Style Management",
-        "Production Tracking",
-        "Efficiency Monitoring"
+        "Style Planning",
+        "Sample Tracking",
+        "Size Management"
       ]
     },
     {
       "image": "/images/industry-icons/garment-quality.png",
-      "title": "Quality Control",
-      "description": "Integrated quality management system for garment manufacturing.",
+      "title": "Quality Check",
+      "description": "End-to-end quality control system for garment manufacturing with defect management.",
       "list": [
-        "Quality Inspection",
-        "Defect Tracking",
-        "Standards Compliance"
+        "Inspection Points",
+        "Defect Analysis",
+        "Quality Metrics"
       ]
     }
   ],

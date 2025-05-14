@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/preengineering_banner_img.webp",
-  "title": "Pre-engineering Industry Solutions",
+  "title": "Pre-engineering Industry",
   "description": "Advanced ERP solutions tailored for pre-engineered building manufacturers, optimizing structural design, fabrication planning and project management while ensuring quality and efficiency in construction.",
   "keyPoints": [
     "Structural Design Management",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/preengineering-design.png",
-      "title": "Design & Planning",
-      "description": "Comprehensive structural design and project planning system.",
+      "title": "Structural Design",
+      "description": "Advanced structural engineering and design management system.",
       "list": [
-        "Design Management",
-        "Project Scheduling",
-        "Resource Planning"
+        "CAD Integration",
+        "Load Analysis",
+        "Drawing Management"
       ]
     },
     {
       "image": "/images/industry-icons/preengineering-fabrication.png",
-      "title": "Fabrication Control",
-      "description": "Advanced fabrication and quality management system.",
+      "title": "Production Control",
+      "description": "End-to-end fabrication and assembly management system.",
       "list": [
-        "Production Control",
-        "Quality Inspection",
-        "Assembly Management"
+        "Shop Floor Control",
+        "Quality Testing",
+        "Assembly Tracking"
       ]
     }
   ],

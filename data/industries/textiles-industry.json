@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/textile_banner_img.webp",
-  "title": "Textile Industry Solutions",
+  "title": "Textile Industry",
   "description": "Advanced ERP solutions tailored for textile manufacturers, optimizing yarn processing, fabric production, dyeing operations and quality control while ensuring efficient material utilization and process consistency.",
   "keyPoints": [
     "Yarn & Fabric Processing",
@@ -12,7 +12,7 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/textile-production.png",
-      "title": "Production Management",
+      "title": "Yarn Processing",
       "description": "Comprehensive textile manufacturing and process control system.",
       "list": [
         "Process Control",
@@ -22,7 +22,7 @@
     },
     {
       "image": "/images/industry-icons/textile-quality.png",
-      "title": "Quality Control",
+      "title": "Fabric Control",
       "description": "Advanced quality management system for textile manufacturing.",
       "list": [
         "Quality Testing",

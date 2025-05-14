@@ -181,8 +181,14 @@
 	.text {
 		padding: 60px 40px 40px 40px;
 
-		.title {
+		.titleheading {
 			// margin-bottom: 30px;
+			font-size: 18px;
+			font-weight: 700;
+			line-height: 40px;
+			color: var(--bs-black-color);
+			transition: var(--bs-transition);
+			cursor: pointer;
 
 			a {
 				color: var( --Dark-Color);

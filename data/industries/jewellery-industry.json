@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/jewellery_banner_img.webp",
-  "title": "Jewellery Industry Solutions",
+  "title": "Jewellery Industry",
   "description": "Advanced ERP solutions tailored for jewellery manufacturers, ensuring precise precious metal tracking, design management and production control while maintaining quality and security standards.",
   "keyPoints": [
     "Precious Metal Inventory",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/jewellery-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive jewellery production system with design and material tracking.",
+      "title": "Metal Control",
+      "description": "Advanced precious metal management with precise tracking and wastage control.",
       "list": [
-        "Design Management",
-        "Material Control",
-        "Process Tracking"
+        "Weight Management",
+        "Purity Tracking",
+        "Wastage Control"
       ]
     },
     {
       "image": "/images/industry-icons/jewellery-quality.png",
-      "title": "Quality Control",
-      "description": "Advanced quality assurance system for precious metals and stones.",
+      "title": "Stone Management",
+      "description": "Comprehensive stone inventory and grading system for all jewellery types.",
       "list": [
-        "Metal Testing",
-        "Stone Grading",
-        "Certification Management"
+        "Stone Inventory",
+        "Grading System",
+        "Setting Control"
       ]
     }
   ],

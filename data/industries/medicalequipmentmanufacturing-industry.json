@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/medical_equipment_banner_img.webp",
-  "title": "Medical Equipment Manufacturing Solutions",
+  "title": "Medical Equipment Manufacturing",
   "description": "Advanced ERP solutions tailored for medical equipment manufacturers, ensuring regulatory compliance, quality control and precision manufacturing while maintaining complete traceability and documentation.",
   "keyPoints": [
     "Regulatory Compliance Management",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/medical-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive medical device manufacturing and validation system.",
+      "title": "Device Manufacturing",
+      "description": "End-to-end medical device production with validation and traceability.",
       "list": [
-        "Clean Room Control",
+        "Clean Room Operations",
         "Process Validation",
-        "Batch Tracking"
+        "Component Tracking"
       ]
     },
     {
       "image": "/images/industry-icons/medical-quality.png",
-      "title": "Quality Assurance",
-      "description": "Advanced quality management system for medical devices.",
+      "title": "Quality Control",
+      "description": "Comprehensive quality management for medical device standards.",
       "list": [
-        "Quality Testing",
-        "Documentation Control",
-        "Compliance Monitoring"
+        "Regulatory Testing",
+        "Documentation System",
+        "Audit Management"
       ]
     }
   ],

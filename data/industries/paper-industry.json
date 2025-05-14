@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/paper_banner_img.webp",
-  "title": "Paper Industry Solutions",
+  "title": "Paper Industry",
   "description": "Advanced ERP solutions tailored for paper manufacturers, optimizing pulp processing, production control and quality management while ensuring environmental compliance and sustainable operations.",
   "keyPoints": [
     "Pulp Processing Control",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/paper-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive paper manufacturing and process control system.",
+      "title": "Pulp Processing",
+      "description": "Advanced pulp processing and paper manufacturing control system.",
       "list": [
-        "Pulp Processing",
-        "Production Control",
-        "Grade Management"
+        "Fiber Management",
+        "Chemical Control",
+        "Process Optimization"
       ]
     },
     {
       "image": "/images/industry-icons/paper-quality.png",
-      "title": "Quality Control",
-      "description": "Advanced quality management system for paper manufacturing.",
+      "title": "Paper Testing",
+      "description": "Comprehensive paper quality and testing management system.",
       "list": [
-        "Quality Testing",
-        "Grade Certification",
-        "Process Monitoring"
+        "Strength Testing",
+        "Brightness Control",
+        "Weight Verification"
       ]
     }
   ],

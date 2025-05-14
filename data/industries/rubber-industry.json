@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/rubber_banner_img.webp",
-  "title": "Rubber Industry Solutions",
+  "title": "Rubber Industry",
   "description": "Advanced ERP solutions tailored for rubber manufacturers, optimizing compound formulation, production processes and quality control while ensuring efficient material utilization and process consistency.",
   "keyPoints": [
     "Compound Formulation Management",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/rubber-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive rubber processing and production control system.",
+      "title": "Mixing Control",
+      "description": "Advanced mixing and compounding control system for rubber manufacturing.",
       "list": [
-        "Mixing Control",
-        "Process Monitoring",
-        "Batch Tracking"
+        "Batch Management",
+        "Recipe Control",
+        "Process Parameters"
       ]
     },
     {
       "image": "/images/industry-icons/rubber-quality.png",
-      "title": "Quality Control",
-      "description": "Advanced quality management system for rubber manufacturing.",
+      "title": "Quality Testing",
+      "description": "Comprehensive quality control and testing system for rubber products.",
       "list": [
-        "Quality Testing",
-        "Property Analysis",
-        "Standards Compliance"
+        "Property Testing",
+        "Compliance Checks",
+        "Quality Reports"
       ]
     }
   ],

@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/chemical_banner_img.webp",
-  "title": "Chemical Industry Solutions",
+  "title": "Chemical Industry",
   "description": "Advanced ERP solutions tailored for chemical manufacturers, ensuring safety compliance, process control and efficient material management while optimizing production workflows.",
   "keyPoints": [
     "Process Safety Management",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/chemical-process.png",
-      "title": "Process Management",
-      "description": "Comprehensive process control and monitoring system for chemical manufacturing operations.",
+      "title": "Batch Control",
+      "description": "Advanced batch processing and control systems for precise chemical manufacturing operations.",
       "list": [
-        "Batch Processing",
-        "Process Automation",
-        "Real-time Monitoring"
+        "Recipe Management",
+        "Quality Control",
+        "Production Tracking"
       ]
     },
     {
       "image": "/images/industry-icons/chemical-safety.png",
-      "title": "Safety & Compliance",
-      "description": "Integrated safety and compliance management system for chemical operations.",
+      "title": "Safety Systems",
+      "description": "Comprehensive safety management and monitoring for chemical manufacturing facilities.",
       "list": [
-        "Safety Protocols",
-        "Regulatory Tracking",
-        "Environmental Monitoring"
+        "Hazard Control",
+        "Risk Assessment",
+        "Emergency Response"
       ]
     }
   ],

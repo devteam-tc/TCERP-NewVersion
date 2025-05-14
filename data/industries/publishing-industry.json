@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/publishing_banner_img.webp",
-  "title": "Publishing Industry Solutions",
+  "title": "Publishing Industry",
   "description": "Advanced ERP solutions tailored for publishing companies, optimizing content management, digital publishing workflows and distribution processes while ensuring efficient rights management and royalty tracking.",
   "keyPoints": [
     "Content Management System",
@@ -12,8 +12,8 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/publishing-content.png",
-      "title": "Content Management",
-      "description": "Comprehensive content and editorial management system.",
+      "title": "Book Production",
+      "description": "Streamlined book production and editorial management system.",
       "list": [
         "Manuscript Tracking",
         "Editorial Workflow",
@@ -22,7 +22,7 @@
     },
     {
       "image": "/images/industry-icons/publishing-digital.png",
-      "title": "Digital Publishing",
+      "title": "Digital Distribution",
       "description": "Advanced digital publishing and distribution system.",
       "list": [
         "Multi-format Publishing",

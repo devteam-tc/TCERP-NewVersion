@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/hydraulic_banner_img.webp",
-  "title": "Hydraulic Cylinders Industry Solutions",
+  "title": "Hydraulic Cylinders Industry",
   "description": "Specialized ERP solutions designed for hydraulic cylinder manufacturers, ensuring precision production, quality control and efficient inventory management while maintaining industry standards and specifications.",
   "keyPoints": [
     "Precision Manufacturing Control",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/hydraulic-production.png",
-      "title": "Production Management",
-      "description": "Advanced production control system for precision hydraulic cylinder manufacturing.",
+      "title": "Cylinder Assembly",
+      "description": "Streamlined assembly line management for hydraulic cylinder manufacturing with precise component tracking.",
       "list": [
-        "Process Control",
-        "Precision Tracking",
-        "Assembly Management"
+        "Rod Assembly",
+        "Tube Processing",
+        "End Cap Fitting"
       ]
     },
     {
       "image": "/images/industry-icons/hydraulic-quality.png",
-      "title": "Quality Assurance",
-      "description": "Comprehensive quality control system for hydraulic components.",
+      "title": "Pressure Testing",
+      "description": "Comprehensive pressure testing and validation system for hydraulic cylinder quality assurance.",
       "list": [
-        "Testing Protocols",
-        "Certification Management",
-        "Performance Validation"
+        "Leak Testing",
+        "Pressure Rating",
+        "Performance Check"
       ]
     }
   ],

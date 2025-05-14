@@ -1,26 +1,10 @@
 {
   "categories": {
-    "agriculture": {
-      "header": "Agriculture to Electronic Industries",
+    "manufacturing": {
+      "header": "Manufacturing Industries",
       "industries": [
         {
           "id": 1,
-          "title": "Agriculture Industry",
-          "description": "Tech Cloud ERP software for Agriculture Industry in India provides a unique ERP online software application.",
-          "icon": "/images/img/agriculture.webp",
-          "linkText": "Explore",
-          "link": "/industries/agriculture-industry"
-        },
-        {
-          "id": 2,
-          "title": "Apparel Industry",
-          "description": "An apparel ERP system aids in analyzing customer preferences, managing inventory and achieving client goals.",
-          "icon": "/images/img/apparel.webp",
-          "linkText": "Explore",
-          "link": "/industries/apparel-industry"
-        },
-        {
-          "id": 3,
           "title": "Automotive Industry",
           "description": "Managing interlinked processes simultaneously is a crucial skill for every automotive industry leader and manager.",
           "icon": "/images/img/automation.webp",
@@ -28,15 +12,15 @@
           "link": "/industries/automotive-industry"
         },
         {
-          "id": 4,
-          "title": "Beverage Industry",
-          "description": "Tech Cloud ERP software for Beverage Industry in India is a solution that helps your company streamline operations.",
-          "icon": "/images/img/beverage.webp",
+          "id": 2,
+          "title": "Casting Industry",
+          "description": "Modern ERP systems for casting industry optimize foundry operations, quality control, and supply chain management.",
+          "icon": "/images/img/casting.webp",
           "linkText": "Explore",
-          "link": "/industries/beverage-industry"
+          "link": "/industries/casting-industry"
         },
         {
-          "id": 5,
+          "id": 3,
           "title": "Chemical Industry",
           "description": "The chemical industry is vital to global economies, contributing significantly to GDP and supporting multiple sectors.",
           "icon": "/images/img/chemical.webp",
@@ -44,44 +28,23 @@
           "link": "/industries/chemical-industry"
         },
         {
-          "id": 6,
-          "title": "Educational Institutes",
-          "description": "As education evolves, there's growing interest in the potential of Enterprise Resource Planning (ERP systems.",
-          "icon": "/images/img/educational.webp",
-          "linkText": "Explore",
-          "link": "/industries/educational-institutes"
-        },
-        {
-          "id": 7,
+          "id": 4,
           "title": "Electrical Solar Industry",
-          "description": "The electrical industry includes manufacturers of generation, transmission and related equipment. ",
+          "description": "The electrical industry includes manufacturers of generation, transmission and related equipment.",
           "icon": "/images/img/electric.webp",
           "linkText": "Explore",
           "link": "/industries/electrical-solar-industry"
         },
         {
-          "id": 8,
+          "id": 5,
           "title": "Electronics Industry",
           "description": "Flexibility is key for success in electronics manufacturing, including semiconductors, capacitors and chips.",
           "icon": "/images/img/electronics.webp",
           "linkText": "Explore",
           "link": "/industries/electronics-industry"
-        }
-      ]
-    },
-    "fmcg": {
-      "header": "FMCG to Metal Fabrication Industry",
-      "industries": [
-        {
-          "id": 1,
-          "title": "FMCG Industry",
-          "description": "In FMCG, timely delivery, accurate stock info and personalized experiences drive loyalty and growth.",
-          "icon": "/images/img/fmcg.webp",
-          "linkText": "Explore",
-          "link": "/industries/fmcg-industry"
         },
         {
-          "id": 2,
+          "id": 6,
           "title": "Food Industry",
           "description": "ERP solutions tailored to food manufacturers streamline operations and ensure compliance in India's market.",
           "icon": "/images/img/food.webp",
@@ -89,7 +52,7 @@
           "link": "/industries/food-industry"
         },
         {
-          "id": 3,
+          "id": 7,
           "title": "Furniture Industry",
           "description": "Furniture manufacturers combine design with function, creating beautiful and practical furniture and fixtures.",
           "icon": "/images/img/furniture.webp",
@@ -97,15 +60,7 @@
           "link": "/industries/furniture-industry"
         },
         {
-          "id": 4,
-          "title": "Garment Industry",
-          "description": "ERP for garment manufacturers standardizes processes, reduces costs and improves operational efficiency.",
-          "icon": "/images/img/garment.webp",
-          "linkText": "Explore",
-          "link": "/industries/garment-industry"
-        },
-        {
-          "id": 5,
+          "id": 8,
           "title": "Hydraulic Cylinders Industry",
           "description": "Advanced ERP analytics help hydraulic cylinder industries optimize workflows and make data-driven decisions.",
           "icon": "/images/img/hydraulic.webp",
@@ -113,36 +68,12 @@
           "link": "/industries/hydraulic-industry"
         },
         {
-          "id": 6,
-          "title": "Jewellery Industry",
-          "description": "Tech Cloud ERP Software Solutions are the rich experienced software development company for the Jewellery Industry.",
-          "icon": "/images/img/jewellery.webp",
-          "linkText": "Explore",
-          "link": "/industries/jewellery-industry"
-        },
-        {
-          "id": 7,
+          "id": 9,
           "title": "Leather Industry",
           "description": "Leather is a perishable product, making it crucial to source the right quantity at the right time.",
           "icon": "/images/img/leather.webp",
           "linkText": "Explore",
           "link": "/industries/leather-industry"
-        },
-        {
-          "id": 8,
-          "title": "Wood Industry",
-          "description": "The wood industry supports diverse sectors, from furniture and toy-making to paper production and crafts. ",
-          "icon": "/images/img/wood.webp",
-          "linkText": "Explore",
-          "link": "/industries/wood-industry"
-        },
-        {
-          "id": 9,
-          "title": "Wholesalers Industry",
-          "description": "Global distributors need new ways to collaborate and streamline operations within networked departments. ",
-          "icon": "/images/img/wholesaler.webp",
-          "linkText": "Explore",
-          "link": "/industries/wholesalers-industry"
         },
         {
           "id": 10,
@@ -154,43 +85,14 @@
         },
         {
           "id": 11,
-          "title": "Micro Finance Industry",
-          "description": "Microfinance bridges the gap between formal financial institutions and rural populations, automating operations.",
-          "icon": "/images/img/micro-learning.webp",
-          "linkText": "Explore",
-          "link": "/industries/microfinance-industry"
-        },
-        {
-          "id": 12,
-          "title": "Medical Equipment Manufacturing Industry",
-          "description": "Choosing ERP software for medical equipment is complex due to the variety of solutions and functional overlap.",
-          "icon": "/images/img/medical-equipment.webp",
-          "linkText": "Explore",
-          "link": "/industries/medicalequipmentmanufacturing-industry"
-        }
-      ]
-    },
-    "oilandgas": {
-      "header": "Oil & Gas Textile Industry",
-      "industries": [
-        {
-          "id": 1,
-          "title": "Oil & Gas Industry",
-          "description": "The oil and gas industry relies on ERP systems for precise workflow management and market analysis.",
-          "icon": "/images/img/oil-gas.webp",
-          "linkText": "Explore",
-          "link": "/industries/oilandgas-industry"
-        },
-        {
-          "id": 2,
           "title": "Packaging Industry",
-          "description": "Packaging must ensure security, protection and marketing, from bottles to pharmaceuticals, across industries. ",
+          "description": "Packaging must ensure security, protection and marketing, from bottles to pharmaceuticals, across industries.",
           "icon": "/images/img/packaging.webp",
           "linkText": "Explore",
           "link": "/industries/packaging-industry"
         },
         {
-          "id": 3,
+          "id": 12,
           "title": "Paper Industry",
           "description": "Paper manufacturing industries are increasingly implementing ERP software systems to enhance their processes.",
           "icon": "/images/img/paper.webp",
@@ -198,7 +100,7 @@
           "link": "/industries/paper-industry"
         },
         {
-          "id": 4,
+          "id": 13,
           "title": "Plastic Industry",
           "description": "ERP systems help manage production, waste and operations, streamlining all departments in one system.",
           "icon": "/images/img/plastic.webp",
@@ -206,20 +108,150 @@
           "link": "/industries/plastic-industry"
         },
         {
+          "id": 14,
+          "title": "Pre Engineering Industry",
+          "description": "ERP modules are tailored to meet the specific needs of the pre-engineering industry for effective project management.",
+          "icon": "/images/img/engineer.webp",
+          "linkText": "Explore",
+          "link": "/industries/preengineering-industry"
+        },
+        {
+          "id": 15,
+          "title": "Rubber Industry",
+          "description": "India is a major producer of rubber products, supplying both domestic and international markets.",
+          "icon": "/images/img/rubber.webp",
+          "linkText": "Explore",
+          "link": "/industries/rubber-industry"
+        },
+        {
+          "id": 16,
+          "title": "Steel Industry",
+          "description": "ERP is essential for managing operations in steel manufacturing, from raw materials to finished goods.",
+          "icon": "/images/img/steel.webp",
+          "linkText": "Explore",
+          "link": "/industries/steel-industry"
+        }
+      ]
+    },
+    "retail": {
+      "header": "Retail Industries",
+      "industries": [
+        {
+          "id": 1,
+          "title": "Apparel Industry",
+          "description": "An apparel ERP system aids in analyzing customer preferences, managing inventory and achieving client goals.",
+          "icon": "/images/img/apparel.webp",
+          "linkText": "Explore",
+          "link": "/industries/apparel-industry"
+        },
+        {
+          "id": 2,
+          "title": "Food & Beverage Industry",
+          "description": "Tech Cloud ERP software for Beverage Industry in India is a solution that helps your company streamline operations.",
+          "icon": "/images/img/beverage.webp",
+          "linkText": "Explore",
+          "link": "/industries/beverage-industry"
+        },
+        {
+          "id": 3,
+          "title": "FMCG Industry",
+          "description": "In FMCG, timely delivery, accurate stock info and personalized experiences drive loyalty and growth.",
+          "icon": "/images/img/fmcg.webp",
+          "linkText": "Explore",
+          "link": "/industries/fmcg-industry"
+        },
+        {
+          "id": 4,
+          "title": "Garment Industry",
+          "description": "ERP for garment manufacturers standardizes processes, reduces costs and improves operational efficiency.",
+          "icon": "/images/img/garment.webp",
+          "linkText": "Explore",
+          "link": "/industries/garment-industry"
+        },
+        {
           "id": 5,
+          "title": "Jewellery Industry",
+          "description": "Tech Cloud ERP Software Solutions are the rich experienced software development company for the Jewellery Industry.",
+          "icon": "/images/img/jewellery.webp",
+          "linkText": "Explore",
+          "link": "/industries/jewellery-industry"
+        },
+        {
+          "id": 6,
+          "title": "Restaurant Industry",
+          "description": "Restaurant Industry - An industry with many demands for its service and it is a start point for many business enthusiasts.",
+          "icon": "/images/img/restaurant.webp",
+          "linkText": "Explore",
+          "link": "/industries/restaurant-industry"
+        },
+        {
+          "id": 7,
+          "title": "Retail Industry",
+          "description": "ERP systems help retail businesses make quick decisions and maintain accurate, end-to-end data across stores.",
+          "icon": "/images/img/retail.webp",
+          "linkText": "Explore",
+          "link": "/industries/retail-industry"
+        },
+        {
+          "id": 8,
+          "title": "Wholesalers Industry",
+          "description": "Global distributors need new ways to collaborate and streamline operations within networked departments.",
+          "icon": "/images/img/wholesaler.webp",
+          "linkText": "Explore",
+          "link": "/industries/wholesalers-industry"
+        }
+      ]
+    },
+    "specialized": {
+      "header": "Specialized Industries",
+      "industries": [
+        {
+          "id": 1,
+          "title": "Agriculture Industry",
+          "description": "Tech Cloud ERP software for Agriculture Industry in India provides a unique ERP online software application.",
+          "icon": "/images/img/agriculture.webp",
+          "linkText": "Explore",
+          "link": "/industries/agriculture-industry"
+        },
+        {
+          "id": 2,
+          "title": "Educational Institutes",
+          "description": "As education evolves, there's growing interest in the potential of Enterprise Resource Planning (ERP systems.",
+          "icon": "/images/img/educational.webp",
+          "linkText": "Explore",
+          "link": "/industries/educational-institutes"
+        },
+        {
+          "id": 3,
+          "title": "Medical Equipment Manufacturing Industry",
+          "description": "Choosing ERP software for medical equipment is complex due to the variety of solutions and functional overlap.",
+          "icon": "/images/img/medical-equipment.webp",
+          "linkText": "Explore",
+          "link": "/industries/medicalequipmentmanufacturing-industry"
+        },
+        {
+          "id": 4,
+          "title": "Micro Finance Industry",
+          "description": "Microfinance bridges the gap between formal financial institutions and rural populations, automating operations.",
+          "icon": "/images/img/micro-learning.webp",
+          "linkText": "Explore",
+          "link": "/industries/microfinance-industry"
+        },
+        {
+          "id": 5,
+          "title": "Oil & Gas Industry",
+          "description": "The oil and gas industry relies on ERP systems for precise workflow management and market analysis.",
+          "icon": "/images/img/oil-gas.webp",
+          "linkText": "Explore",
+          "link": "/industries/oilandgas-industry"
+        },
+        {
+          "id": 6,
           "title": "Pharmaceutical Industry",
           "description": "The Pharmaceutical industry is really doing great with very high global demand and strong export markets.",
           "icon": "/images/img/pharma.webp",
           "linkText": "Explore",
           "link": "/industries/pharma-industry"
-        },
-        {
-          "id": 6,
-          "title": "Publishing Industry",
-          "description": "Publishing involves content creation, design, printing and distribution of magazines, books and more.",
-          "icon": "/images/img/publishing.webp",
-          "linkText": "Explore",
-          "link": "/industries/publishing-industry"
         },
         {
           "id": 7,
@@ -231,46 +263,22 @@
         },
         {
           "id": 8,
-          "title": "Pre Engineering Industry",
-          "description": "ERP modules are tailored to meet the specific needs of the pre-engineering industry for effective project management.",
-          "icon": "/images/img/engineer.webp",
+          "title": "Publishing Industry",
+          "description": "Publishing involves content creation, design, printing and distribution of magazines, books and more.",
+          "icon": "/images/img/publishing.webp",
           "linkText": "Explore",
-          "link": "/industries/preengineering-industry"
+          "link": "/industries/publishing-industry"
         },
         {
           "id": 9,
-          "title": "Rubber Industry",
-          "description": "India is a major producer of rubber products, supplying both domestic and international markets.",
-          "icon": "/images/img/rubber.webp",
+          "title": "Signage Industry",
+          "description": "ERP solutions for signage industry help manage design, production, installation, and maintenance of various signage products.",
+          "icon": "/images/img/signage.webp",
           "linkText": "Explore",
-          "link": "/industries/rubber-industry"
+          "link": "/industries/signage-industry"
         },
         {
           "id": 10,
-          "title": "Restaurant Industry",
-          "description": "Restaurant Industry - An industry with many demands for its service and it is a start point for many business enthusiasts. ",
-          "icon": "/images/img/restaurant.webp",
-          "linkText": "Explore",
-          "link": "/industries/restaurant-industry"
-        },
-        {
-          "id": 11,
-          "title": "Retail Industry",
-          "description": "ERP systems help retail businesses make quick decisions and maintain accurate, end-to-end data across stores. ",
-          "icon": "/images/img/retail.webp",
-          "linkText": "Explore",
-          "link": "/industries/retail-industry"
-        },
-        {
-          "id": 12,
-          "title": "Steel Industry",
-          "description": "ERP is essential for managing operations in steel manufacturing, from raw materials to finished goods.",
-          "icon": "/images/img/steel.webp",
-          "linkText": "Explore",
-          "link": "/industries/steel-industry"
-        },
-        {
-          "id": 13,
           "title": "Telecom Industry",
           "description": "Telecom manufacturers produce a range of products, from large-scale switches to mobile phones.",
           "icon": "/images/img/telecom.webp",
@@ -278,12 +286,20 @@
           "link": "/industries/telecom-industry"
         },
         {
-          "id": 14,
+          "id": 11,
           "title": "Textile Industry",
-          "description": "ERP provides an all-in-one solution for the textile industry, managing everything from raw materials to finished garments. ",
+          "description": "ERP provides an all-in-one solution for the textile industry, managing everything from raw materials to finished garments.",
           "icon": "/images/img/textile.webp",
           "linkText": "Explore",
           "link": "/industries/textiles-industry"
+        },
+        {
+          "id": 12,
+          "title": "Wood Industry",
+          "description": "The wood industry supports diverse sectors, from furniture and toy-making to paper production and crafts.",
+          "icon": "/images/img/wood.webp",
+          "linkText": "Explore",
+          "link": "/industries/wood-industry"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/plastic_banner_img.webp",
-  "title": "Plastic Industry Solutions",
+  "title": "Plastic Industry",
   "description": "Advanced ERP solutions tailored for plastic manufacturers, optimizing polymer processing, production control and quality management while promoting sustainable practices and operational efficiency.",
   "keyPoints": [
     "Polymer Processing Control",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/plastic-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive plastic manufacturing and process control system.",
+      "title": "Mold Control",
+      "description": "Advanced mold management and maintenance system for plastic manufacturing.",
       "list": [
-        "Process Control",
-        "Injection Molding",
-        "Material Planning"
+        "Mold Tracking",
+        "Maintenance Scheduling",
+        "Performance Monitoring"
       ]
     },
     {
       "image": "/images/industry-icons/plastic-quality.png",
-      "title": "Quality Control",
-      "description": "Advanced quality management system for plastic manufacturing.",
+      "title": "Material Management",
+      "description": "Comprehensive material handling and recycling system for plastic production.",
       "list": [
-        "Quality Testing",
-        "Process Monitoring",
-        "Material Certification"
+        "Raw Material Control",
+        "Recycling Management",
+        "Inventory Tracking"
       ]
     }
   ],

@@ -1,6 +1,6 @@
 {
     "banner": "/images/industries/logistics-banner_img.webp",
-    "title": "Logistics Industry Solutions",
+    "title": "Logistics Industry",
     "description": "Advanced ERP solutions designed for logistics and supply chain businesses, optimizing operations from warehousing to last-mile delivery.",
     "keyPoints": [
       "Fleet Management",
@@ -12,22 +12,22 @@
     "infoCards": [
       {
         "image": "/images/industry-icons/logistics-management.png",
-        "title": "Operations Management",
-        "description": "Comprehensive logistics operations management from warehouse to delivery tracking.",
+        "title": "Fleet Control",
+        "description": "Complete fleet management system for vehicle tracking, maintenance, and driver management.",
         "list": [
-          "Fleet Scheduling",
-          "Warehouse Management",
-          "Delivery Planning"
+          "GPS Tracking",
+          "Maintenance Alerts",
+          "Driver Management"
         ]
       },
       {
         "image": "/images/industry-icons/logistics-analytics.png",
-        "title": "Performance Analytics",
-        "description": "Real-time analytics and insights for optimizing logistics operations and resource utilization.",
+        "title": "Smart Routing",
+        "description": "AI-powered route optimization and delivery planning for maximum efficiency.",
         "list": [
-          "Delivery Metrics",
-          "Resource Utilization",
-          "Cost Analysis"
+          "Route Planning",
+          "Traffic Analysis",
+          "Delivery Optimization"
         ]
       }
     ],

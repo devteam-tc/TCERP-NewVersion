@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/microfinance_banner_img.webp",
-  "title": "Micro Finance Industry Solutions",
+  "title": "Micro Finance Industry",
   "description": "Comprehensive ERP solutions designed for microfinance institutions, optimizing loan management, client servicing and financial operations while ensuring regulatory compliance and social impact tracking.",
   "keyPoints": [
     "Loan Portfolio Management",
@@ -12,8 +12,8 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/microfinance-operations.png",
-      "title": "Operations Management",
-      "description": "Advanced loan and portfolio management system for microfinance institutions.",
+      "title": "Loan Management",
+      "description": "Streamlined loan processing and portfolio tracking system for efficient microfinance operations.",
       "list": [
         "Loan Processing",
         "Portfolio Tracking",
@@ -22,8 +22,8 @@
     },
     {
       "image": "/images/industry-icons/microfinance-client.png",
-      "title": "Client Management",
-      "description": "Comprehensive client and field operations management system.",
+      "title": "Field Operations",
+      "description": "Integrated field operations and client management system for microfinance institutions.",
       "list": [
         "Client Profiling",
         "Field Collection",

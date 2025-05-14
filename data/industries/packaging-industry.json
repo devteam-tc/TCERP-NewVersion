@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/packaging_banner_img.webp",
-  "title": "Packaging Industry Solutions",
+  "title": "Packaging Industry",
   "description": "Advanced ERP solutions tailored for packaging manufacturers, optimizing production processes, material management and quality control while promoting sustainable packaging solutions and operational efficiency.",
   "keyPoints": [
     "Production Process Control",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/packaging-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive packaging production and process control system.",
+      "title": "Material Control",
+      "description": "Efficient management of packaging materials and resources.",
       "list": [
-        "Process Automation",
-        "Production Scheduling",
-        "Material Planning"
+        "Raw Material Tracking",
+        "Inventory Management",
+        "Waste Reduction"
       ]
     },
     {
       "image": "/images/industry-icons/packaging-quality.png",
-      "title": "Quality Control",
-      "description": "Advanced quality management system for packaging manufacturing.",
+      "title": "Process Control",
+      "description": "Streamlined packaging production and quality processes.",
       "list": [
-        "Quality Testing",
-        "Specification Control",
-        "Compliance Tracking"
+        "Production Monitoring",
+        "Quality Standards",
+        "Efficiency Metrics"
       ]
     }
   ],

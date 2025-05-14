@@ -1,0 +1,71 @@
+{
+  "banner": "/images/industries/signage_banner_img.webp",
+  "title": "Signage Industry",
+  "description": "Comprehensive ERP solutions designed for signage businesses, optimizing operations from design to installation and maintenance.",
+  "keyPoints": [
+    "Design & Production Management",
+    "Project & Installation Tracking",
+    "Inventory & Material Management",
+    "Client & Order Management",
+    "Quality Control & Maintenance"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/Design_Production.png",
+      "title": "Design & Production",
+      "description": "Streamlined design workflow and production management for efficient signage manufacturing.",
+      "list": [
+        "Design Management",
+        "Production Scheduling",
+        "Quality Control"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/Project_Management.png",
+      "title": "Project Management",
+      "description": "Complete project lifecycle management from client order to installation and maintenance.",
+      "list": [
+        "Installation Tracking",
+        "Client Management",
+        "Service Scheduling"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle design approvals?",
+      "answer": "Our system provides a streamlined design approval workflow with client collaboration tools, version control, and digital proofing capabilities."
+    },
+    {
+      "id": 2,
+      "question": "Can it track installation and maintenance schedules?",
+      "answer": "Yes, the solution includes comprehensive project management tools for tracking installations, maintenance schedules, and service requests."
+    },
+    {
+      "id": 3,
+      "question": "What inventory management features are available?",
+      "answer": "The system offers complete inventory tracking for materials, equipment, and finished products, with automated reordering and stock level alerts."
+    }
+  ],
+  "industry": "Signage",
+  "solution": "Integrated Signage Management System",
+  "modules": [
+    "Design & Production",
+    "Project Management",
+    "Inventory Control",
+    "Client Management"
+  ],
+  "result": [
+    "35% faster project completion",
+    "40% reduction in material waste",
+    "45% improvement in client satisfaction"
+  ],
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Signage Solutions Brochure",
+    "buttonText": "Download Now"
+  }
+} 

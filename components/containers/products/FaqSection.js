@@ -16,7 +16,7 @@ const FaqSection = ({ product, extraClassName = '' }) => {
   }
 
   return (
-    <section className={`ep-faq-section pt-60 pb-120 ${extraClassName}`}>
+    <section className={`ep-faq-section pt-60 pb-60 ${extraClassName}`}>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">

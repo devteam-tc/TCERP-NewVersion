@@ -40,6 +40,9 @@ const industrySlugs = [
   "steel-industry",
   "telecom-industry",
   "textiles-industry",
+  "signage-industry",
+  "casting-industry",
+  "construction-industry",
 ];
 
 // Generate static paths

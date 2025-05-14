@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/restaurant_banner_img.webp",
-  "title": "Restaurant Industry Solutions",
+  "title": "Restaurant Industry",
   "description": "Advanced ERP solutions tailored for restaurants and food service businesses, optimizing kitchen operations, inventory management and customer service while ensuring food safety compliance and efficient order processing.",
   "keyPoints": [
     "Kitchen Management System",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/restaurant-operations.png",
-      "title": "Operations Management",
-      "description": "Comprehensive restaurant operations and kitchen management system.",
+      "title": "Kitchen Control",
+      "description": "Streamlined kitchen operations with real-time order tracking and preparation management.",
       "list": [
-        "Kitchen Display",
-        "Order Management",
-        "Table Service"
+        "Order Routing",
+        "Prep Timing",
+        "Kitchen Display"
       ]
     },
     {
       "image": "/images/industry-icons/restaurant-inventory.png",
-      "title": "Inventory Control",
-      "description": "Advanced inventory and recipe management system.",
+      "title": "Food Management",
+      "description": "Complete food inventory and recipe control system for optimal cost management.",
       "list": [
-        "Stock Management",
+        "Stock Control",
         "Recipe Costing",
-        "Waste Tracking"
+        "Waste Reduction"
       ]
     }
   ],

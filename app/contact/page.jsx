@@ -1,10 +1,11 @@
 import ContactPage from "../../components/containers/contact/ContactPage";
 import CustomCursor from "../../components/layout/CustomCursor";
 import Footer from "../../components/layout/footer/Footer";
-// import TrainFactoryScene from "../../components/layout/footer/TrainFactoryScene";
 import Header from "../../components/layout/header/Header";
 import PageHeader from "../../components/layout/PageHeader";
 import { FaHome } from 'react-icons/fa';
+import MapSection from "../../components/containers/contact/MapSection";
+// import CreativeSection from "../../components/layout/footer/CreativeSection";
 
 const page = () => {
   const breadcrumbs = [
@@ -16,8 +17,9 @@ const page = () => {
       <Header/>
       <PageHeader title="Contact Us" breadcrumbs={breadcrumbs}/>
       <ContactPage/>
+      <MapSection />
+      {/* <CreativeSection />  */}
       <Footer/>
-      {/* <TrainFactoryScene /> */}
 
       <CustomCursor/>
     </>

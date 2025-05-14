@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/solar_banner_img.webp",
-  "title": "Solar Industry Solutions",
+  "title": "Solar Electric Industry",
   "description": "Advanced ERP solutions tailored for solar energy companies, optimizing installation projects, monitoring system performance and managing renewable energy operations.",
   "keyPoints": [
     "Solar Project Management",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/solar-project.png",
-      "title": "Project Management",
-      "description": "Comprehensive solar project lifecycle management from site assessment to installation.",
+      "title": "Solar Design",
+      "description": "Complete solar system design and planning from initial assessment to final installation.",
       "list": [
         "Site Assessment",
-        "Installation Planning",
-        "Resource Scheduling"
+        "System Design",
+        "Equipment Selection"
       ]
     },
     {
       "image": "/images/industry-icons/solar-monitoring.png",
-      "title": "System Monitoring",
-      "description": "Real-time monitoring and analytics for solar power systems.",
+      "title": "Energy Analytics",
+      "description": "Advanced monitoring and analytics for solar power generation and system efficiency.",
       "list": [
-        "Performance Tracking",
-        "Energy Analytics",
-        "Maintenance Alerts"
+        "Power Generation",
+        "Efficiency Metrics",
+        "System Health"
       ]
     }
   ],
