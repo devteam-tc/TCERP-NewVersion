@@ -6,10 +6,8 @@ import AuditPage from '../../components/containers/products/AuditPage';
 import Faq from '../../components/containers/home/Faq';
 import Header from '../../components/layout/header/Header';
 import PageHeader from '../../components/layout/PageHeader';
-// import CardsSection from './CardsSection';
 import BusinessCards from './BusinessCards';
 import { FaHome } from 'react-icons/fa';
-
 
 const breadcrumbs = [
   { label: 'Home', link: '/', icon: FaHome },
@@ -46,7 +44,6 @@ export default function Page() {
       <PageHeader title="Business Intelligence" breadcrumbs={breadcrumbs} />
         <IntroSection />
      <AuditPage />
-     {/* <CardsSection /> */}
      <BusinessCards />
      <Faq />
       </main>

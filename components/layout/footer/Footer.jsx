@@ -76,12 +76,12 @@ const Footer = () => {
                     <ul className="list-unstyled">
                       <li><Link href="/industries">All Industries</Link></li>
                       <li><Link href="/industries/jewellery-industry">Jewellery</Link></li>
+                      <li><Link href="/industries/food-beverage-industry">Food & Beverage</Link></li>
                       <li><Link href="/industries/pharma-industry">Pharma</Link></li>
-                      <li><Link href="/industries/agriculture-industry">Agriculture</Link></li>
-                      <li><Link href="/industries/beverage-industry">Beverage</Link></li>
-                      <li><Link href="/industries/leather-industry">Leather</Link></li>
+                      <li><Link href="/industries/plastic-industry">Plastic</Link></li>
+                      <li><Link href="/industries/signage-industry">Signage</Link></li>
                       <li><Link href="/industries/textiles-industry">Textile</Link></li>
-                      <li><Link href="/industries/food-industry">Food</Link></li>
+                      <li><Link href="/industries/casting-industry">Casting </Link></li>
                     </ul>
                   </div>
                 </div>
@@ -91,12 +91,12 @@ const Footer = () => {
                     <ul className="list-unstyled">
                       <li><Link href="/services">All Services </Link></li>
                       <li><Link href="/services/web-development/">Web Development</Link></li>
-                      <li><Link href="/contact">E-Commerce Website </Link></li>
+                      <li><Link href="/products/Ecommerce-software/">E-Commerce </Link></li>
                       <li><Link href="/services/app-development/">Mobile App Development</Link></li>
                       <li><Link href="/services/digital-marketing/">Digital Marketing</Link></li>
-                      <li><Link href="/contact">Whatsapp Business</Link></li>
+                      <li><Link href="/products/trading-software/">Trading Software</Link></li>
                       <li><Link href="/business-intelligence/">Business Intelligence</Link></li>
-                      <li><Link href="/contact">Web Hosting</Link></li>
+                      <li><Link href="/products/point-of-sale/">POS</Link></li>
                     </ul>
                   </div>
                 </div>

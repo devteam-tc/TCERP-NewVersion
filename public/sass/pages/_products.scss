@@ -414,9 +414,9 @@
   }
 
   &_text {
-    background: url('/images/category_bg.png') no-repeat center center;
+    // background: url('/images/category_bg.png') no-repeat center center;
     background-size: cover;
-    padding: 50px;
+    padding: 20px;
     margin-left: 50px;
     padding-left: 80px;
     position: relative;
@@ -712,38 +712,7 @@
   }
 }
 
-// Audit Section Styles
-.auditSection {
-  background: url('/audit.png') no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 160px 0;
 
-  .section-title {
-    .sub-badge {
-      color: #ff6600;
-    }
-
-    h2 {
-      font-size: 2.5rem;
-    }
-
-    .pra {
-      font-size: 1rem;
-      color: #333;
-    }
-
-    ul {
-      li {
-        font-size: 0.95rem;
-      }
-
-      i {
-        color: #00b894;
-      }
-    }
-  }
-}
 
 // Common Styles
 .section-sub-title {
@@ -782,9 +751,7 @@
     padding-right: 50px;
   }
 
-  .auditSection {
-    background-position: 100%;
-  }
+  
 }
 
 @media only screen and (max-width: 767px) {

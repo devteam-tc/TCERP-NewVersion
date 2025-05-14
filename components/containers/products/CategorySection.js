@@ -11,7 +11,7 @@ const CategorySection = () => {
     { title: "Trading Software", desc: "It helps optimize procurement, inventory and order management with real-time tracking, thus enhancing workflows automatically.", color: "gray" },
     { title: "E-commerce", desc: "Online stores management with product catalogs, payment systems and real-time updates to improve customer experience.", color: "orange" },
     { title: "HRM", desc: "It automates payroll, attendance, recruitment and performance management for an efficient workforce while keeping track of compliance.", color: "red" },
-    { title: "ERP Integrated-With-CRM-Ecommerce-POS", desc: "Sales, inventory and customer data are integrated, enabling automation and improving efficiency.", color: "violet" },
+    { title: "Integrated-With-CRM-Ecommerce-POS", desc: "Sales, inventory and customer data are integrated, enabling automation and improving efficiency.", color: "violet" },
     { title: "Restaurant ERP", desc: "The integration of order management, inventory, HR and accounting automates tasks for efficient restaurant operations and service delivery.", color: "yellow" },
     { title: "Accounting Software", desc: "Automates bookkeeping, invoicing, tax calculations and legal compliance, providing real-time financial insights and streamlined management.", color: "teal" },
   ];

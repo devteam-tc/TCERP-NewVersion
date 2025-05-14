@@ -87,7 +87,7 @@
     color: #fff;
 }
 .box-bg {
-    background: linear-gradient(93deg, #5135FF 10.65%, #FF5455 89.35%);
+    background: linear-gradient(90deg,var(--bs-primary-500),var(--bs-primary-700));
 }
 .box-style {
     position: relative;
@@ -101,7 +101,6 @@
     line-height: 18px;
     font-weight: 600;
     transition: all 0.5s;
-    font-family: "Plus Jakarta Sans", serif;
     font-size: 16px;
 }
 .box-style.cmn-style1::before {
