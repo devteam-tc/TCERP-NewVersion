@@ -15,7 +15,7 @@
     &__card {
       background: #fff;
       border: 1px solid #f1f1f1;
-      border-radius: 0.25rem;
+      border-radius: 10px;
       padding: 2.5rem 2rem 2rem 2rem;
       display: flex;
       flex-direction: column;
@@ -23,7 +23,7 @@
       min-width: 340px;
       max-width: 370px;
       flex: 1 1 340px;
-      box-shadow: 0 10px 20px rgba(173, 216, 230, 0.15), 0 6px 6px rgba(173, 216, 230, 0.18);
+      box-shadow: 0 10px 20px rgba(173, 216, 230, 0.5), 0 6px 6px rgba(173, 216, 230, 0.7);
       transition: box-shadow 0.2s;
       margin-bottom: 2rem;
   

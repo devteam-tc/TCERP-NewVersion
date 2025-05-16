@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/leather_banner_img.webp",
-  "title": "Leather Industry Solutions",
+  "title": "Leather Industry",
   "description": "Comprehensive ERP solutions designed for leather manufacturers, optimizing tannery operations, quality control and production processes while ensuring environmental compliance and material traceability.",
   "keyPoints": [
     "Tannery Process Management",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/leather-production.png",
-      "title": "Production Management",
-      "description": "Advanced leather processing and production management system.",
+      "title": "Tanning Process",
+      "description": "Complete management of leather tanning operations from raw material to finished product.",
       "list": [
-        "Process Control",
-        "Batch Tracking",
-        "Chemical Management"
+        "Chemical Processing",
+        "Batch Management",
+        "Process Scheduling"
       ]
     },
     {
       "image": "/images/industry-icons/leather-quality.png",
-      "title": "Quality Control",
-      "description": "Comprehensive quality management system for leather processing.",
+      "title": "Quality Assurance",
+      "description": "End-to-end quality control system for leather products and materials.",
       "list": [
-        "Quality Grading",
-        "Defect Tracking",
-        "Testing Protocols"
+        "Grade Classification",
+        "Defect Management",
+        "Quality Standards"
       ]
     }
   ],

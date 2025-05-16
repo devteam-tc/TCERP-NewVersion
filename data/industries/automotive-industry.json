@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/automotive_banner_img.webp",
-  "title": "Automotive Industry Solutions",
+  "title": "Automotive Industry",
   "description": "Advanced ERP solutions tailored for automotive manufacturers and suppliers, optimizing production, supply chain and quality control processes.",
   "keyPoints": [
     "Production Line Management",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/automotive-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive production line management with real-time monitoring and optimization tools.",
+      "title": "Assembly Control",
+      "description": "Streamlined assembly line management with real-time monitoring and automated control systems.",
       "list": [
-        "Assembly Line Control",
-        "Production Scheduling",
-        "Resource Optimization"
+        "Line Balancing",
+        "Cycle Time Optimization",
+        "Production Flow Control"
       ]
     },
     {
       "image": "/images/industry-icons/Quality_&_Compliance.png",
-      "title": "Quality & Compliance",
-      "description": "Advanced quality control and regulatory compliance management system.",
+      "title": "Quality Assurance",
+      "description": "End-to-end quality management system ensuring automotive standards and compliance.",
       "list": [
-        "Quality Inspections",
-        "Compliance Tracking",
-        "Defect Analysis"
+        "Inspection Automation",
+        "Defect Prevention",
+        "Quality Metrics"
       ]
     }
   ],

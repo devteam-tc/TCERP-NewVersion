@@ -132,17 +132,17 @@ const HoverCard = ({ service }) => {
         </h3>
         <p
           className="service-text"
-          style={{
+        >
+          {service.description}
+        </p>
+        {/* style={{
             margin: 0,
             textOverflow: 'ellipsis',
             display: '-webkit-box',
             WebkitLineClamp: '4',
             WebkitBoxOrient: 'vertical',
             overflow: 'hidden',
-          }}
-        >
-          {service.description}
-        </p>
+          }} */}
       </div>
     </div>
   );

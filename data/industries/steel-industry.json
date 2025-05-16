@@ -1,51 +1,56 @@
 {
   "banner": "/images/industries/steel_banner_img.webp",
-  "title": "Steel Industry Solutions",
-  "description": "Advanced ERP solutions tailored for steel manufacturers, optimizing production processes, quality control and material management while ensuring efficient operations and regulatory compliance.",
+  "title": "Steel Industry",
+  "description": "Manage your steel business efficiently with a powerful ERP for steel industry that brings production, inventory, procurement, finance and sales into one integrated platform. Whether you're into manufacturing, fabrication, or distribution, our intelligent steel ERP software is designed to meet the unique challenges of steel operations. This scalable solution improves accuracy, reduces waste and boosts profitability across your supply chain.",
   "keyPoints": [
-    "Production Process Control",
-    "Quality Testing & Certification",
-    "Material Grade Management",
-    "Heat Treatment Tracking",
-    "Inventory & Supply Chain"
+    "Production & Process Management",
+    "Inventory & Raw Material Control",
+    "Quality & Compliance Tracking",
+    "Sales, Dispatch & Distribution",
+    "Finance & Costing Automation"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/steel-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive steel production and process control system.",
+      "title": "Production & Inventory Management",
+      "description": "Optimize every stage of production with a specialized ERP software for steel manufacturing",
       "list": [
-        "Process Control",
-        "Heat Treatment",
-        "Production Planning"
+        "Heat Number & Batch Tracking",
+        "Rolling, Casting, & Fabrication Planning",
+        "Raw Material & Scrap Management"
       ]
     },
     {
       "image": "/images/industry-icons/steel-quality.png",
-      "title": "Quality Control",
-      "description": "Advanced quality management system for steel manufacturing.",
+      "title": "Finance & Quality Control",
+      "description": "Improve costing accuracy and meet quality standards with smart automation",
       "list": [
-        "Material Testing",
-        "Grade Certification",
-        "Quality Standards"
+        "Job Costing & Profitability Analysis",
+        "Integrated Financial Reports",
+        "Quality Tests & Certification Tracking"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system manage production processes?",
-      "answer": "Our system provides comprehensive production management including furnace operations, rolling mill control, heat treatment tracking and real-time process monitoring with automated quality checks."
+      "question": "What does an ERP for steel industry manage?",
+      "answer": "A complete steel manufacturing ERP software manages production, inventory, procurement, quality, sales and finance—tailored to steel sector operations."
     },
     {
       "id": 2,
-      "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality testing with material composition analysis, mechanical property testing, grade certification management and complete traceability for each batch."
+      "question": "Can it handle steel fabrication processes?",
+      "answer": "Yes. Our steel fabrication ERP software supports planning and execution of fabrication jobs, including material planning, routing and job tracking."
     },
     {
       "id": 3,
-      "question": "Can it handle material grade management?",
-      "answer": "Yes, our solution manages detailed grade specifications, heat numbers, material certifications and inventory segregation by grade with complete tracking from raw material to finished product."
+      "question": "Is this ERP scalable for growing steel businesses?",
+      "answer": "Absolutely. The solution is modular and scalable—suitable for both mid-sized steel manufacturers and large integrated steel plants."
+    },
+    {
+      "id": 4,
+      "question": "Does it support multi-location operations and warehouses?",
+      "answer": "Yes. Our ERP for steel distributors and manufacturers enables centralized control with support for multiple branches, warehouses and user roles."
     }
   ],
   "industry": "Steel Manufacturing",

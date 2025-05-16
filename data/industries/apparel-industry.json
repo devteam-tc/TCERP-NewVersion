@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/apparel-banner_img.webp",
-  "title": "Apparel Industry Solutions",
+  "title": "Apparel Industry",
   "description": "Comprehensive ERP solutions designed for apparel and fashion businesses, streamlining processes from design to retail distribution.",
   "keyPoints": [
     "Design & Product Development",
@@ -12,22 +12,24 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/apparel_management.png",
-      "title": "Fashion Management",
-      "description": "End-to-end fashion lifecycle management from design conceptualization to retail distribution.",
+      "title": "Fashion Design & Development",
+      "description": "Streamline your design process with tools for pattern making, sample management, and collection planning.",
       "list": [
-        "Design Management",
+        "Pattern Development",
+        "Sample Management",
         "Collection Planning",
-        "Season Tracking"
+        "Material Sourcing"
       ]
     },
     {
       "image": "/images/industry-icons/production_analytics.png",
-      "title": "Production Analytics",
-      "description": "Real-time analytics and insights for optimizing production and inventory management.",
+      "title": "Production & Manufacturing",
+      "description": "Optimize your manufacturing processes with real-time production tracking and quality control systems.",
       "list": [
-        "Production Metrics",
-        "Inventory Analytics",
-        "Cost Analysis"
+        "Cutting & Sewing Management",
+        "Production Scheduling",
+        "Quality Control",
+        "Cost Tracking"
       ]
     }
   ],

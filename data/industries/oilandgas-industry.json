@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/oilandgas_banner_img.webp",
-  "title": "Oil and Gas Industry Solutions",
-  "description": "Advanced ERP solutions tailored for oil and gas companies, optimizing upstream, midstream and downstream operations while ensuring safety compliance, asset management and operational efficiency.",
+  "title": "Oil and Gas Industry",
+  "description": "Comprehensive ERP software tailored for the oil and gas sector. From exploration to distribution, streamline your operations, boost visibility and ensure compliance across the entire value chain.",
   "keyPoints": [
-    "Production Operations Management",
-    "Asset Lifecycle Management",
-    "HSE Compliance & Safety",
-    "Supply Chain Optimization",
-    "Maintenance & Reliability"
+    "Asset & Equipment Management",
+    "Supply Chain & Inventory Control",
+    "Project Planning & Execution",
+    "Financial Management & Compliance",
+    "Energy Management & Auditing"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/oilgas-operations.png",
-      "title": "Operations Management",
-      "description": "Comprehensive oil and gas operations management system.",
+      "title": "Asset & Equipment Management",
+      "description": "Centralized monitoring of rigs, pipelines and machinery with predictive maintenance tools to reduce downtime and extend equipment lifespan.",
       "list": [
-        "Production Tracking",
-        "Well Management",
-        "Equipment Monitoring"
+        "Real-Time Asset Tracking",
+        "Predictive Maintenance",
+        "Centralized Equipment Dashboard"
       ]
     },
     {
       "image": "/images/industry-icons/oilgas-safety.png",
-      "title": "Safety & Compliance",
-      "description": "Advanced safety and regulatory compliance management system.",
+      "title": "Financial Management & Compliance",
+      "description": "Robust financial tools tailored for oil & gas accounting, including joint ventures, royalty tracking and compliance reporting.",
       "list": [
-        "Safety Protocols",
-        "Environmental Monitoring",
-        "Regulatory Reporting"
+        "Joint Venture Billing",
+        "Royalty & Tax Management",
+        "Audit-Ready Financial Reports"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle production operations?",
-      "answer": "Our system provides comprehensive production management including well monitoring, equipment performance tracking, production scheduling and real-time operational analytics across upstream, midstream, and downstream operations."
+      "question": "What does this oil and gas ERP include?",
+      "answer": "It covers asset management, inventory, energy audits, compliance and accounting, all customized for the oil and gas industry."
     },
     {
       "id": 2,
-      "question": "What safety and compliance features are included?",
-      "answer": "The system includes advanced HSE management with incident tracking, safety protocols, permit management, environmental monitoring and automated regulatory reporting compliance."
+      "question": "Can it handle industry-specific accounting?",
+      "answer": "Yes. The ERP supports royalty tracking, joint ventures and complex tax compliance."
     },
     {
       "id": 3,
-      "question": "Can it manage asset maintenance?",
-      "answer": "Yes, our solution provides complete asset lifecycle management with predictive maintenance, equipment reliability tracking, spare parts management and maintenance scheduling optimization."
+      "question": "Is this ERP scalable for growing energy companies?",
+      "answer": "Absolutely. The modular design scales with your business needs and integrates easily with existing platforms."
     }
   ],
   "industry": "Oil and Gas",

@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/pharmaceutical_banner_img.webp",
-  "title": "Pharmaceutical Industry Solutions",
-  "description": "Advanced ERP solutions tailored for pharmaceutical manufacturers, ensuring GMP compliance, quality control and regulatory adherence while optimizing production processes and maintaining complete traceability.",
+  "title": "Pharmaceutical Industry",
+  "description": "Boost operational efficiency, compliance and quality control with Tech Cloud Pharma ERP Software. Designed specifically as an ERP for Pharmaceutical Industry, it simplifies batch processing, inventory tracking and regulatory compliance. Our powerful Pharmaceutical ERP Software ensures complete traceability and real-time data flow across your entire pharma value chain.",
   "keyPoints": [
-    "GMP Compliance Management",
-    "Quality Control & Validation",
-    "Batch Production Control",
-    "Regulatory Documentation",
-    "Research & Development"
+    "Batch Production & Quality Management",
+    "Regulatory Compliance & Documentation",
+    "Inventory & Expiry Management",
+    "Sales, Distribution & GST Accounting",
+    "Purchase & Supplier Control"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/pharma-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive pharmaceutical manufacturing and compliance system.",
+      "title": "Batch Production & Quality Management",
+      "description": "Automate production processes with real-time batch tracking, standard operating procedures and integrated QA checks",
       "list": [
-        "Batch Processing",
-        "Process Validation",
-        "Clean Room Control"
+        "Formula-based Batch Manufacturing",
+        "BMR, BPR and SOP Integration",
+        "Quality Inspection & Lab Analysis"
       ]
     },
     {
       "image": "/images/industry-icons/pharma-quality.png",
-      "title": "Quality Assurance",
-      "description": "Advanced quality management system for pharmaceutical manufacturing.",
+      "title": "Inventory & Expiry Management",
+      "description": "Track raw materials and finished goods with multi-level inventory control and automatic expiry alerts.",
       "list": [
-        "Quality Testing",
-        "Stability Studies",
-        "Documentation Control"
+        "Batch-wise Inventory Control",
+        "Expiry & Reorder Notifications",
+        "Cold Chain & Hazardous Stock Handling"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system ensure GMP compliance?",
-      "answer": "Our system provides comprehensive GMP compliance management including batch record control, validation protocols, clean room monitoring and complete documentation management with audit trails."
+      "question": "What is the purpose of using Pharma ERP software in the pharmaceutical industry?",
+      "answer": "Pharma ERP software helps manage and automate key processes such as production, inventory and compliance to improve accuracy and ensure regulatory alignment."
     },
     {
       "id": 2,
-      "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality control with stability testing, analytical method validation, raw material testing, in-process controls and finished product testing with complete documentation."
+      "question": "Does the ERP support batch-wise manufacturing and traceability?",
+      "answer": "Yes, it includes batch processing capabilities with complete traceability, from raw material sourcing to final product distribution."
     },
     {
       "id": 3,
-      "question": "Can it handle regulatory requirements?",
-      "answer": "Yes, our solution manages regulatory compliance with FDA, EMA, and other global standards, including electronic batch records, validation documentation and regulatory submission support."
+      "question": "Why choose Tech Cloud ERP for pharmaceutical companies?",
+      "answer": "Tech Cloud ERP offers a specialized pharmaceutical ERP solution that ensures efficiency, compliance and scalability tailored to the unique needs of pharma businesses."
     }
   ],
   "industry": "Pharmaceutical Manufacturing",

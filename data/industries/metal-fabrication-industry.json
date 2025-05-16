@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/metal_fabrication_banner_img.webp",
-  "title": "Metal Fabrication Industry Solutions",
+  "title": "Metal Fabrication Industry",
   "description": "Advanced ERP solutions tailored for metal fabrication companies, optimizing manufacturing processes, quality control and project management while ensuring precision and efficiency in custom fabrication.",
   "keyPoints": [
     "Precision Manufacturing Control",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/metal-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive metal fabrication and production control system.",
+      "title": "Shop Floor",
+      "description": "Streamlined shop floor operations and production management system.",
       "list": [
-        "Process Planning",
-        "Machine Scheduling",
-        "Material Optimization"
+        "Work Order Management",
+        "Machine Utilization",
+        "Production Tracking"
       ]
     },
     {
       "image": "/images/industry-icons/metal-quality.png",
       "title": "Quality Control",
-      "description": "Advanced quality assurance system for metal fabrication.",
+      "description": "Comprehensive quality management for metal fabrication processes.",
       "list": [
-        "Quality Testing",
-        "Weld Inspection",
-        "Dimensional Control"
+        "Inspection Management",
+        "Defect Tracking",
+        "Certification Control"
       ]
     }
   ],

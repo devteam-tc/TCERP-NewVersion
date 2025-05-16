@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/fmcg_banner_img.webp",
-  "title": "FMCG Industry Solutions",
+  "title": "FMCG Industry",
   "description": "Comprehensive ERP solutions tailored for Fast-Moving Consumer Goods companies, optimizing production, distribution and inventory management while ensuring rapid market response.",
   "keyPoints": [
     "Demand Forecasting",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/fmcg-production.png",
-      "title": "Production Management",
-      "description": "Advanced production planning and control system for rapid manufacturing cycles.",
+      "title": "Inventory Control",
+      "description": "Real-time inventory tracking and optimization system for perishable and non-perishable goods.",
       "list": [
-        "Batch Processing",
-        "Production Scheduling",
-        "Resource Optimization"
+        "Stock Monitoring",
+        "Expiry Management",
+        "Reorder Automation"
       ]
     },
     {
       "image": "/images/industry-icons/fmcg-distribution.png",
-      "title": "Distribution Control",
-      "description": "Comprehensive distribution and retail channel management system.",
+      "title": "Supply Chain",
+      "description": "End-to-end supply chain visibility and optimization for efficient product movement.",
       "list": [
-        "Logistics Planning",
-        "Retailer Management",
-        "Stock Optimization"
+        "Route Planning",
+        "Vendor Management",
+        "Delivery Tracking"
       ]
     }
   ],

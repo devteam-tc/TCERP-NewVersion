@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/electronics_banner_img.webp",
-  "title": "Electronics Industry Solutions",
+  "title": "Electronics Industry",
   "description": "Advanced ERP solutions designed for electronics manufacturers, optimizing production processes, component management and quality control while ensuring compliance with industry standards.",
   "keyPoints": [
     "PCB Assembly Management",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/electronics-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive electronics manufacturing and assembly management system.",
+      "title": "PCB Assembly",
+      "description": "End-to-end PCB manufacturing and assembly process management with automated workflow control.",
       "list": [
-        "Assembly Line Control",
-        "Process Automation",
-        "Yield Optimization"
+        "SMT Line Control",
+        "Through-Hole Assembly",
+        "Component Placement"
       ]
     },
     {
       "image": "/images/industry-icons/electronics-quality.png",
-      "title": "Quality Control",
-      "description": "Advanced quality assurance and testing management system.",
+      "title": "Component Testing",
+      "description": "Advanced component and board testing system with automated quality verification.",
       "list": [
-        "Automated Testing",
-        "Defect Tracking",
-        "Quality Metrics"
+        "ICT Testing",
+        "AOI Inspection",
+        "Functional Testing"
       ]
     }
   ],

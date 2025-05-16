@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-
+import { FaCheckCircle } from 'react-icons/fa';
 const AuditPage = () => {
   return (
     <section className="auditSection">
@@ -43,13 +43,14 @@ const AuditPage = () => {
                 </Link>
 
                 <ul className="d-flex align-items-center gap-xxl-4 gap-sm-3 gap-2 flex-wrap mt-4 pt-lg-2">
-                  <li className="d-flex align-items-center gap-2 black fs-eight fw_500">
-                    <i className="fas fa-check p3-clr" aria-hidden="true"></i> Quick response
-                  </li>
-                  <li className="d-flex align-items-center gap-2 black fs-eight fw_500">
-                    <i className="fas fa-check p3-clr" aria-hidden="true"></i> Save time and money
-                  </li>
-                </ul>
+                <li className="d-flex align-items-center gap-2 black fs-eight fw_500">
+                  <FaCheckCircle className="list-icon" />Quick response
+                </li>
+                <li className="d-flex align-items-center gap-2 black fs-eight fw_500">
+                  <FaCheckCircle className="list-icon" />Save time and money
+                </li>
+              </ul>
+
               </div>
             </div>
           </div>

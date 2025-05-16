@@ -1,51 +1,56 @@
 {
   "banner": "/images/industries/telecom_banner_img.webp",
-  "title": "Telecom Industry Solutions",
-  "description": "Advanced ERP solutions tailored for telecommunications companies, optimizing network operations, service delivery and customer management while ensuring regulatory compliance and efficient billing processes.",
+  "title": "Telecom Industry",
+  "description": "Manage operations, billing and customer relationships efficiently with a dedicated ERP for telecommunication industry. This all-in-one solution streamlines processes such as network management, finance, service delivery and customer care. With built-in telecom CRM and advanced billing systems, telecom companies can deliver better services, improve customer retention and scale seamlessly.",
   "keyPoints": [
-    "Network Operations Management",
-    "Service Provisioning & Delivery",
-    "Customer Relationship Management",
-    "Billing & Revenue Management",
-    "Regulatory Compliance"
+    "Subscriber & Service Lifecycle Management",
+    "Inventory, Asset & Network Tracking",
+    "Finance & Billing Automation",
+    "Customer Service & CRM Integration",
+    "Regulatory Compliance & Reporting"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/telecom-operations.png",
-      "title": "Network Operations",
-      "description": "Comprehensive network operations and service management system.",
+      "title": "Network & Asset Management",
+      "description": "Track telecom assets, optimize usage and ensure uptime",
       "list": [
-        "Network Monitoring",
-        "Service Provisioning",
-        "Performance Management"
+        "Infrastructure Monitoring & Service Alerts",
+        "Inventory Tracking of SIMs, Devices & Equipment",
+        "Preventive Maintenance Schedules"
       ]
     },
     {
       "image": "/images/industry-icons/telecom-customer.png",
-      "title": "Customer Management",
-      "description": "Advanced customer service and billing management system.",
+      "title": "Telecom Billing System & Finance",
+      "description": "Automate complex billing processes with accurate reporting",
       "list": [
-        "Customer Support",
-        "Billing Operations",
-        "Service Analytics"
+        "Prepaid & Postpaid Billing",
+        "Usage-Based Invoicing & Tariff Management",
+        "GST, Taxation & Financial Compliance"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system manage network operations?",
-      "answer": "Our system provides comprehensive network management including real-time monitoring, service provisioning, fault detection, performance analysis and automated maintenance scheduling."
+      "question": "What is ERP for the telecommunications industry?",
+      "answer": "It is an integrated platform that helps telecom companies manage operations, customer data, billing, inventory and compliance from a centralized system."
     },
     {
       "id": 2,
-      "question": "What billing and revenue features are included?",
-      "answer": "The system includes advanced billing capabilities with usage tracking, tariff management, automated invoicing, revenue assurance and integrated payment processing."
+      "question": "How does CRM in telecom industry improve customer retention?",
+      "answer": "Telecommunications CRM captures customer interactions, automates workflows and offers insights to personalize support and reduce churn."
     },
     {
       "id": 3,
-      "question": "Can it handle customer service management?",
-      "answer": "Yes, our solution manages complete customer lifecycle including service activation, support ticket management, SLA monitoring and customer analytics with integrated CRM features."
+      "question": "Can this ERP handle telecom billing system complexities?",
+      "answer": "Yes. Our telecom billing system supports multiple billing models, recurring charges and automated reconciliation for accuracy and transparency."
+    },
+    {
+      "id": 4,
+      "question": "Is this solution scalable for large telecom operators?",
+      "answer": "Absolutely. The telecommunications industry software is modular, cloud-enabled, and customizable for small ISPs to national telecom carriers."
     }
   ],
   "industry": "Telecommunications",

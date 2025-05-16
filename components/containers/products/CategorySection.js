@@ -9,10 +9,10 @@ const CategorySection = () => {
     { title: "CRM", desc: "Manages customer interactions and data, enhancing sales, service and relationships for stronger customer connections.", color: "blue" },
     { title: "POS", desc: "Ensures secure sales transactions, integrates with inventory and customer data and provides real-time updates for efficiency.", color: "green" },
     { title: "Trading Software", desc: "It helps optimize procurement, inventory and order management with real-time tracking, thus enhancing workflows automatically.", color: "gray" },
-    { title: "E-commerce", desc: "Online stores management with product catalogs, payment systems and real-time updates to improve customer experience.", color: "orange" },
+    { title: "E - commerce", desc: "Online stores management with product catalogs, payment systems and real-time updates to improve customer experience.", color: "orange" },
     { title: "HRM", desc: "It automates payroll, attendance, recruitment and performance management for an efficient workforce while keeping track of compliance.", color: "red" },
-    { title: "ERP Integrated-With-CRM-Ecommerce-POS", desc: "Sales, inventory and customer data are integrated, enabling automation and improving efficiency.", color: "violet" },
-    { title: "Restaurant ERP", desc: "The integration of order management, inventory, HR and accounting automates tasks for efficient restaurant operations and service delivery.", color: "yellow" },
+    { title: "Integrated with CRM, Ecommerce, POS", desc: "Sales, inventory and customer data are integrated, enabling automation and improving efficiency.", color: "violet" },
+    // { title: "Restaurant ERP", desc: "The integration of order management, inventory, HR and accounting automates tasks for efficient restaurant operations.", color: "yellow" },
     { title: "Accounting Software", desc: "Automates bookkeeping, invoicing, tax calculations and legal compliance, providing real-time financial insights and streamlined management.", color: "teal" },
   ];
 
@@ -23,7 +23,7 @@ const CategorySection = () => {
           <div className="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp">
             <div className="tf__heading_area mb_15">
               {/* <h5>OUR COURSE CATEGORIES</h5> */}
-              <h2>We success for categories creative students.</h2>
+              <h2>Explore Our Business Solutions</h2>
             </div>
           </div>
         </div>

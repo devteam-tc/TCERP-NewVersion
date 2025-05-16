@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/wood_banner_img.webp",
-  "title": "Wood Industry Solutions",
+  "title": "Wood Industry",
   "description": "Advanced ERP solutions tailored for wood processing and furniture manufacturers, optimizing timber management, production processes and quality control while ensuring sustainable resource utilization.",
   "keyPoints": [
     "Timber Resource Management",
@@ -12,7 +12,7 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/wood-production.png",
-      "title": "Production Management",
+      "title": "Wood Processing",
       "description": "Comprehensive wood processing and manufacturing control system.",
       "list": [
         "Process Control",
@@ -22,7 +22,7 @@
     },
     {
       "image": "/images/industry-icons/wood-quality.png",
-      "title": "Quality Control",
+      "title": "Timber Quality",
       "description": "Advanced quality management system for wood products.",
       "list": [
         "Grade Classification",

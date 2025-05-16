@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/publishing_banner_img.webp",
-  "title": "Publishing Industry Solutions",
-  "description": "Advanced ERP solutions tailored for publishing companies, optimizing content management, digital publishing workflows and distribution processes while ensuring efficient rights management and royalty tracking.",
+  "title": "Publishing Industry",
+  "description": "Tech Cloud Publishing ERP Software is designed to meet the unique needs of the publication world. Whether you’re a magazine house or a book publishing company, our tailored ERP for book publishers streamlines editorial planning, inventory, royalties and distribution. This scalable ERP for publishers connects your teams from content creation to delivery on a single digital platform.",
   "keyPoints": [
-    "Content Management System",
-    "Digital Publishing Workflow",
-    "Rights & Royalty Management",
-    "Distribution Control",
-    "Editorial Process Management"
+    "Title Management & Editorial Workflow",
+    "Inventory & Print Order Control",
+    "Sales & Royalty Accounting",
+    "Digital & Physical Distribution",
+    "Author & Agent Contract Management"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/publishing-content.png",
-      "title": "Content Management",
-      "description": "Comprehensive content and editorial management system.",
+      "title": "Title Management & Editorial Workflow",
+      "description": "Manage manuscripts, revisions, reviews and approvals with workflow automation",
       "list": [
-        "Manuscript Tracking",
-        "Editorial Workflow",
-        "Version Control"
+        "Editorial Task Scheduling",
+        "Metadata & ISBN Control",
+        "Multi-format Publishing (print, eBook etc.)"
       ]
     },
     {
       "image": "/images/industry-icons/publishing-digital.png",
-      "title": "Digital Publishing",
-      "description": "Advanced digital publishing and distribution system.",
+      "title": "Inventory & Print Order Control",
+      "description": "Optimize print runs, reduce waste and monitor stock across multiple warehouses.",
       "list": [
-        "Multi-format Publishing",
-        "Digital Distribution",
-        "Analytics Tracking"
+        "Print Forecasting & Budgeting",
+        "Real-time Inventory Visibility",
+        "Return & Remainder Handling"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system manage content workflow?",
-      "answer": "Our system provides comprehensive content management with manuscript tracking, editorial workflow automation, version control and collaborative tools for authors, editors, and reviewers."
+      "question": "Can this ERP manage both digital and physical publications?",
+      "answer": "Yes. Our Publishing ERP allows publishers to manage print, eBooks and other digital formats within a single system."
     },
     {
       "id": 2,
-      "question": "What digital publishing features are included?",
-      "answer": "The system includes advanced digital publishing capabilities with multi-format output (print, ebook, web), automated formatting, digital rights management and distribution channel integration."
+      "question": "How does the ERP help with royalty calculations?",
+      "answer": "It automates royalty tracking, author contracts and payments making it ideal ERP for Publishers who deal with multiple revenue streams."
     },
     {
       "id": 3,
-      "question": "Can it handle rights and royalty management?",
-      "answer": "Yes, our solution manages rights contracts, royalty calculations, payment tracking, and reporting with automated statements generation and rights expiration monitoring."
+      "question": "Is it suitable for both small publishers and large publication houses?",
+      "answer": "Absolutely. Tech Cloud ERP for Book Publishers is modular and scalable making it perfect for all sizes of publishing operations."
     }
   ],
   "industry": "Publishing",

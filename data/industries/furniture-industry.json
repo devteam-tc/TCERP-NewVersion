@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/furniture_banner_img.webp",
-  "title": "Furniture Industry Solutions",
+  "title": "Furniture Industry",
   "description": "Comprehensive ERP solutions tailored for furniture manufacturers, optimizing design, production and inventory management while streamlining custom orders and supply chain operations.",
   "keyPoints": [
     "Design & Product Configuration",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/furniture-production.png",
-      "title": "Production Management",
-      "description": "Complete furniture manufacturing management system with custom order tracking.",
+      "title": "Design Studio",
+      "description": "Integrated design and customization platform for furniture manufacturing with 3D visualization.",
       "list": [
-        "Production Planning",
-        "Custom Orders",
-        "Resource Scheduling"
+        "Custom Designs",
+        "3D Modeling",
+        "Material Selection"
       ]
     },
     {
       "image": "/images/industry-icons/furniture-inventory.png",
-      "title": "Inventory Control",
-      "description": "Advanced inventory and material management system for furniture manufacturing.",
+      "title": "Smart Factory",
+      "description": "End-to-end production and quality control system for furniture manufacturing.",
       "list": [
-        "Material Planning",
-        "Stock Management",
-        "Warehouse Control"
+        "Assembly Lines",
+        "Quality Control",
+        "Production Tracking"
       ]
     }
   ],

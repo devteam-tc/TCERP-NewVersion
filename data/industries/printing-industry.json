@@ -1,51 +1,52 @@
 {
   "banner": "/images/industries/printing_banner_img.webp",
-  "title": "Printing Industry Solutions",
-  "description": "Advanced ERP solutions tailored for printing companies, optimizing print production workflows, color management and quality control while ensuring efficient material utilization and timely delivery.",
+  "title": "Printing Industry",
+  "description": "Streamline your press operations with Tech Cloud powerful ERP Software for Printing Industry. From pre-press to post-production, our all-in-one Printing ERP Software enhances job tracking, material usage, costing and customer delivery. Tailored to meet the evolving demands of print businesses, this scalable ERP for Printing Industry helps you achieve operational efficiency and reduce waste.",
   "keyPoints": [
-    "Print Production Management",
-    "Color Management & Control",
-    "Material & Inventory Planning",
+    "Job Estimation & Order Management",
+    "Production Planning & Scheduling",
+    "Inventory & Raw Material Control",
+    "Quality Checks & Compliance",
     "Job Cost Estimation",
-    "Quality Assurance"
+    "Billing, Dispatch & Customer Tracking"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/printing-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive print production and workflow management system.",
+      "title": "Job Estimation",
+      "description": "Generate accurate cost estimates, reduce quotation errors and streamline client orders",
       "list": [
-        "Job Scheduling",
-        "Press Management",
-        "Workflow Automation"
+        "Custom Quotation Generator",
+        "Job Card Creation & Approval Flow",
+        "Customer Order Tracking with Real-Time Updates"
       ]
     },
     {
       "image": "/images/industry-icons/printing-quality.png",
-      "title": "Quality Control",
-      "description": "Advanced quality management system for print production.",
+      "title": "Production Planning",
+      "description": "Automate press scheduling and monitor production across all stages of printing",
       "list": [
-        "Color Control",
-        "Quality Inspection",
-        "Standards Compliance"
+        "Multi-Shift Job Planning",
+        "Machine & Operator Allocation",
+        "Real-Time Production Dashboard"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle print job management?",
-      "answer": "Our system provides comprehensive print job management including estimating, scheduling, material planning, press allocation and real-time production tracking with automated workflow management."
+      "question": "Is this ERP suitable for commercial and offset printers?",
+      "answer": "Yes. Our Print ERP supports various printing processes including offset, digital and flexo printing for all scales of operations."
     },
     {
       "id": 2,
-      "question": "What color management features are included?",
-      "answer": "The system includes advanced color management with color profile handling, calibration tracking, color quality control and compliance with industry color standards."
+      "question": "How does the ERP reduce material wastage?",
+      "answer": "With precise inventory tracking and production planning, this ERP for Printing and Packaging Industry minimizes paper wastage and ensures optimal material use."
     },
     {
       "id": 3,
-      "question": "Can it manage material inventory and costs?",
-      "answer": "Yes, our solution manages material inventory with paper stock management, ink consumption tracking, automated reordering and detailed job costing with waste monitoring."
+      "question": "Can the system integrate with existing printing machinery?",
+      "answer": "Absolutely. Our ERP Software for Printing Industry offers easy integration with legacy systems and supports data exchange from printing machines."
     }
   ],
   "industry": "Printing",

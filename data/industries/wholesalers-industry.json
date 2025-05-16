@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/wholesale_banner_img.webp",
-  "title": "Wholesale Industry Solutions",
+  "title": "Wholesale Industry",
   "description": "Comprehensive ERP solutions designed for wholesale distributors, optimizing inventory management, order processing and supply chain operations while enhancing customer service and operational efficiency.",
   "keyPoints": [
     "Inventory Management",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/wholesale-operations.png",
-      "title": "Operations Management",
+      "title": "Inventory Control",
       "description": "Advanced wholesale distribution and operations management system.",
       "list": [
-        "Order Management",
-        "Inventory Control",
-        "Warehouse Operations"
+        "Stock Management",
+        "Warehouse Control",
+        "Inventory Tracking"
       ]
     },
     {
       "image": "/images/industry-icons/wholesale-logistics.png",
-      "title": "Logistics Control",
-      "description": "Comprehensive logistics and supply chain management system.",
+      "title": "Order Management",
+      "description": "Comprehensive order processing and fulfillment system.",
       "list": [
-        "Route Optimization",
-        "Delivery Tracking",
-        "Fleet Management"
+        "Order Processing",
+        "Fulfillment Tracking",
+        "Customer Orders"
       ]
     }
   ],

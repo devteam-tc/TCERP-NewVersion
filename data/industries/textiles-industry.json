@@ -1,51 +1,56 @@
 {
   "banner": "/images/industries/textile_banner_img.webp",
-  "title": "Textile Industry Solutions",
-  "description": "Advanced ERP solutions tailored for textile manufacturers, optimizing yarn processing, fabric production, dyeing operations and quality control while ensuring efficient material utilization and process consistency.",
+  "title": "Textile Industry",
+  "description": "Streamline your textile operations from yarn to finished fabric with a complete Textile ERP software solution. Designed for manufacturers, exporters and processors, our integrated ERP for textile industry helps manage production, design, inventory and sales. With real-time visibility and automation, this scalable textile management software enables faster delivery, reduced waste and better decision-making.",
   "keyPoints": [
-    "Yarn & Fabric Processing",
-    "Dyeing & Finishing Control",
-    "Quality Assurance Management",
-    "Production Planning & Control",
-    "Material Resource Planning"
+    "Yarn, Fabric & Garment Production Management",
+    "Inventory & Raw Material Control",
+    "Design, Sampling & Order Tracking",
+    "Quality Control & Compliance",
+    "Finance & Costing Automation"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/textile-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive textile manufacturing and process control system.",
+      "title": "Production & Inventory Management",
+      "description": "Manage end-to-end processes with advanced ERP software for textile industry",
       "list": [
-        "Process Control",
-        "Machine Monitoring",
-        "Production Scheduling"
+        "Yarn, Weaving, Knitting & Dyeing Automation",
+        "Stock Tracking for Raw, Semi & Finished Goods",
+        "Wastage Monitoring & Lot Traceability"
       ]
     },
     {
       "image": "/images/industry-icons/textile-quality.png",
-      "title": "Quality Control",
-      "description": "Advanced quality management system for textile manufacturing.",
+      "title": "Design & Order Management",
+      "description": "Centralize your design workflow with smart textile design software",
       "list": [
-        "Quality Testing",
-        "Color Management",
-        "Defect Tracking"
+        "Sampling, Tech-Pack & Style Management",
+        "Order Status, Customer Approvals & Lead Time Control",
+        "Integrated Sales & Dispatch Planning"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system manage textile processing?",
-      "answer": "Our system provides comprehensive process management including yarn processing, weaving/knitting control, dyeing operations, finishing processes and real-time production monitoring with quality checkpoints."
+      "question": "What is Textile ERP?",
+      "answer": "Textile ERP is a comprehensive system that integrates all textile business functions—like production, design, inventory, sales and finance—into one platform for better efficiency and control."
     },
     {
       "id": 2,
-      "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality testing with fabric inspection, color matching, shade variation tracking, defect classification and detailed quality reporting across all production stages."
+      "question": "How does textile ERP software help in production?",
+      "answer": "It automates key processes such as spinning, weaving, dyeing and finishing—reducing delays and improving accuracy throughout the supply chain."
     },
     {
       "id": 3,
-      "question": "Can it handle material planning?",
-      "answer": "Yes, our solution manages complete material planning with yarn inventory, dye requirements, chemical consumption tracking and production scheduling optimization."
+      "question": "Is this software suitable for all types of textile businesses?",
+      "answer": "Yes. Our textile industry software supports manufacturers, exporters, process houses and composite mills."
+    },
+    {
+      "id": 4,
+      "question": "Can it manage textile design and sampling?",
+      "answer": "Absolutely. Our textile software includes robust textile design software capabilities to streamline sampling, approvals and design tracking."
     }
   ],
   "industry": "Textile Manufacturing",
