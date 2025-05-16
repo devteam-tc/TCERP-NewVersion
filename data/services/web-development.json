@@ -88,56 +88,39 @@
     },
     "faq": [
       {
-        "question": "What technologies and frameworks do you use for web development?",
-        "answer": "We use modern tech stack including React.js, Next.js, Node.js, and TypeScript for frontend development. For backend, we utilize Node.js, Python (Django/Flask), and PHP (Laravel). We also work with various databases like MongoDB, PostgreSQL, and MySQL based on project requirements."
+        "question": "What is web development?",
+        "answer": "Web development refers to the process of building and maintaining websites. It includes everything from creating simple static pages to complex web applications."
       },
       {
-        "question": "How do you ensure website performance and speed optimization?",
-        "answer": "We implement various optimization techniques including code splitting, lazy loading, image optimization, CDN integration, caching strategies, and performance monitoring tools like Lighthouse and WebPageTest to ensure optimal website performance."
+        "question": "Will my website be mobile-friendly?",
+        "answer": "Yes. All websites we develop are fully responsive and optimized for mobile, tablet, and desktop devices."
       },
       {
-        "question": "Do you provide responsive design for all devices?",
-        "answer": "Yes, we create fully responsive websites that work seamlessly across all devices - desktops, tablets, and mobile phones. We follow mobile-first design principles and use modern CSS frameworks and techniques to ensure perfect display on all screen sizes."
+        "question": "What technologies do you use for web development?",
+        "answer": "We work with a range of technologies, including HTML, CSS, JavaScript, React, WordPress, PHP, and more—based on your project's needs."
       },
       {
         "question": "What security measures do you implement in web development?",
         "answer": "We implement comprehensive security measures including SSL/TLS encryption, input validation, XSS protection, CSRF tokens, secure authentication, regular security audits, and following OWASP security guidelines to protect your website from vulnerabilities."
-      },
-      {
-        "question": "How do you handle website maintenance and updates?",
-        "answer": "We provide ongoing maintenance services including regular security updates, performance monitoring, bug fixes, content updates, and technical support. We also offer maintenance packages with different service levels to meet your specific needs."
       }
+     
     ],
     "process": [
       {
         "step": 1,
-        "title": "Requirement Analysis & Planning",
-        "description": "We conduct detailed discussions to understand your business goals, target audience, and technical requirements. This includes defining project scope, technology stack, architecture, and creating a comprehensive project roadmap."
+        "title": "Share Your Requirements",
+        "description": "Tell us what you need  from features to design preferences. We’ll plan the perfect structure for your site."
       },
       {
         "step": 2,
-        "title": "UI/UX Design & Prototyping",
-        "description": "Our design team creates wireframes and interactive prototypes focusing on user experience. We ensure the design is responsive, accessible, and aligns with your brand identity while following modern web design principles."
+        "title": "Design & Develop",
+        "description": "We create responsive, user-friendly designs and develop them using modern web technologies for a seamless experience."
       },
       {
         "step": 3,
-        "title": "Development & Integration",
-        "description": "Our developers implement the design using modern frameworks and best practices. We ensure clean code architecture, implement responsive design, integrate necessary APIs, and set up content management systems if required."
-      },
-      {
-        "step": 4,
-        "title": "Testing & Quality Assurance",
-        "description": "We conduct thorough testing including unit testing, integration testing, cross-browser testing, performance testing, and security audits. We ensure the website meets all quality standards and performs optimally across all devices."
-      },
-      {
-        "step": 5,
-        "title": "Deployment & Launch",
-        "description": "We handle the deployment process, including server setup, database configuration, SSL implementation, and final testing in the production environment. We ensure a smooth transition to the live environment with zero downtime."
-      },
-      {
-        "step": 6,
-        "title": "Post-Launch Support",
-        "description": "After launch, we provide ongoing support, monitoring, and maintenance. This includes performance optimization, security updates, bug fixes, and regular backups to ensure your website runs smoothly."
+        "title": "Launch & Maintain",
+        "description": "After testing and approval, we launch your site and provide ongoing support, updates and optimizations."
       }
+     
     ]
   } 

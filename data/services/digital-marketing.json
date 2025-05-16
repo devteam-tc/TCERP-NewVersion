@@ -80,47 +80,40 @@
     },
     "faq": [
       {
-        "question": "What digital marketing channels do you specialize in?",
-        "answer": "We specialize in a comprehensive range of channels including SEO, PPC advertising, social media marketing, content marketing, email marketing, and analytics. Our team creates integrated strategies across these channels to maximize your digital presence and ROI."
+        "question": "What is digital marketing and why is it important for my website?",
+        "answer": "Digital marketing promotes websites online using channels such as SEO, social media and paid advertising, resulting in increased visibility, traffic and conversions."
       },
       {
-        "question": "How long does it take to see results from digital marketing?",
-        "answer": "Results vary by channel - PPC can show immediate results, while SEO typically takes 3-6 months to show significant impact. We provide regular performance reports and adjust strategies based on data-driven insights to optimize results."
+        "question": "What services are included in digital marketing?",
+        "answer": "Web analytics, content marketing, email marketing, social media marketing, SEO and PPC (pay-per-click) are some of the common digital marketing services."
       },
       {
-        "question": "How do you measure the success of digital marketing campaigns?",
-        "answer": "We track key metrics including conversion rates, ROI, traffic growth, engagement rates, and lead quality. Our analytics team provides detailed monthly reports with actionable insights and recommendations for continuous improvement."
+        "question": "Is digital marketing suitable for small businesses?",
+        "answer": "Yes, digital marketing is scalable and can be tailored to fit any budget, making it highly effective for small and local businesses."
       },
       {
         "question": "Do you offer local SEO services?",
         "answer": "Yes, we provide comprehensive local SEO services including Google Business Profile optimization, local citation building, review management, and location-based content strategies to improve your visibility in local search results."
-      },
-      {
-        "question": "What makes your digital marketing approach different?",
-        "answer": "We combine data-driven strategies with creative content, focusing on measurable results and ROI. Our team stays updated with the latest digital trends and algorithm changes to ensure your campaigns remain effective and competitive."
       }
+     
     ],
     "process": [
       {
         "step": 1,
-        "title": "Strategy Development & Analysis",
-        "description": "We conduct comprehensive market research, competitor analysis, and audience insights to develop a tailored digital marketing strategy aligned with your business goals."
+        "title": "Discover Your Audience",
+        "description": "We identify your target market and analyze behavior to craft tailored strategies that drive results."
       },
       {
         "step": 2,
-        "title": "Implementation & Campaign Launch",
-        "description": "Our team executes integrated campaigns across multiple channels including SEO, PPC, social media, and content marketing, ensuring consistent messaging and optimal reach."
+        "title": "Launch Campaigns",
+        "description": "From SEO to social media and paid ads, we implement the right channels to boost your visibility and engagement."
       },
       {
         "step": 3,
-        "title": "Performance Monitoring & Optimization",
-        "description": "We continuously track campaign performance using advanced analytics tools, making data-driven adjustments to improve ROI and achieve your marketing objectives."
-      },
-      {
-        "step": 4,
-        "title": "Reporting & Strategy Refinement",
-        "description": "Regular performance reports and strategy reviews ensure continuous improvement and adaptation to market changes, keeping your digital presence ahead of the competition."
+        "title": "Optimize & Scale",
+        "description": "Monitor performance, optimize continuously and scale campaigns for sustained growth and ROI."
       }
+   
     ],
     "relatedServices": [
       {

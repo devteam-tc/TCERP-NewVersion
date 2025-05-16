@@ -17,6 +17,7 @@ import Footer from "../components/layout/footer/Footer";
 // import TrainFactoryScene from "../components/layout/footer/TrainFactoryScene";
 import Header from "../components/layout/header/Header";
 import CreativeSection from "../components/layout/footer/CreativeSection";
+import WhatsappSection from "../components/containers/home/WhatsappSection";
 export default function Home() {
   return (
     <>
@@ -28,6 +29,7 @@ export default function Home() {
       <ServicesTwo />
       <Testimonial/>
       <Pricing />
+      <WhatsappSection />
       {/* <Blog/> */}
       {/* <TrainFactoryScene /> */}
       {/* <TextSlider/> */}

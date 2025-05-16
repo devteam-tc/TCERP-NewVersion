@@ -78,7 +78,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contactpage-wrapper">
+    <div className="contactpage-wrapper pt-160">
       <ToastContainer />
       <div className="contactpage-info">
   <div className="contactpage-info__button">

@@ -52,20 +52,16 @@
     },
     "faq": [
       {
-        "question": "What development methodologies do you follow?",
-        "answer": "We follow Agile and Scrum methodologies, ensuring regular updates, sprint reviews, and continuous integration. This approach allows for flexibility and quick adaptation to changing requirements."
+        "question": "Why is mobile app development important for my website?",
+        "answer": "Mobile app development helps extend your website’s reach by offering users a seamless, on-the-go experience that boosts engagement and retention."
       },
       {
-        "question": "How do you ensure app security and performance?",
-        "answer": "We implement industry-standard security protocols, regular security audits, and performance optimization techniques. Our apps undergo rigorous testing for vulnerabilities and performance bottlenecks."
+        "question": "What technologies are used in developing an app from a website?",
+        "answer": "Popular technologies include React Native, Flutter, Swift, Kotlin, and backend tools like Node.js or Firebase for developing an app effectively."
       },
       {
-        "question": "What is your post-launch support policy?",
-        "answer": "We provide comprehensive post-launch support including bug fixes, updates, performance monitoring, and feature enhancements. Our support team is available for technical assistance and maintenance."
-      },
-      {
-        "question": "How long does it typically take to develop an app?",
-        "answer": "Development timeline varies based on complexity, features, and platform requirements. A basic app typically takes 2-3 months, while complex enterprise solutions may take 6-12 months."
+        "question": "Is mobile app development secure for e-commerce websites?",
+        "answer": "Absolutely. Secure mobile app development includes encryption, secure APIs, and compliance with industry standards to protect user data and transactions."
       },
       {
         "question": "Do you provide app maintenance services?",
@@ -75,33 +71,18 @@
     "process": [
       {
         "step": 1,
-        "title": "Discovery & Strategy",
-        "description": "We conduct market research, define user personas, establish KPIs, and create a detailed project roadmap with timeline and resource allocation."
+        "title": " App Strategy",
+        "description": "We define your app’s goals, target users and platform to build a strong foundation."
       },
       {
         "step": 2,
-        "title": "Design & Prototyping",
-        "description": "Our team creates wireframes, interactive prototypes, and high-fidelity designs focusing on user experience, accessibility, and brand consistency."
+        "title": "Design & Development",
+        "description": "We craft stunning UI/UX and develop a secure, high-performance app tailored to your needs."
       },
       {
         "step": 3,
-        "title": "Development & Integration",
-        "description": "We implement the app using modern frameworks, integrate APIs, implement security measures, and ensure cross-platform compatibility."
-      },
-      {
-        "step": 4,
-        "title": "Quality Assurance",
-        "description": "Comprehensive testing including functional testing, performance testing, security audits, and user acceptance testing to ensure app reliability."
-      },
-      {
-        "step": 5,
-        "title": "Deployment & Launch",
-        "description": "We handle app store submissions, implement analytics, set up monitoring tools, and ensure smooth deployment across all platforms."
-      },
-      {
-        "step": 6,
-        "title": "Post-Launch Support",
-        "description": "Ongoing maintenance, performance monitoring, user feedback analysis, and regular updates to keep your app optimized and competitive."
+        "title": " Testing & Launch",
+        "description": "After thorough testing, we deploy your app to stores and ensure it runs smoothly with ongoing support."
       }
     ]
   } 

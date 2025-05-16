@@ -3,6 +3,11 @@
     background-position: -100% 0;
   }
 }
+@media (max-width: 992px) {
+  .scrolling-background-container {
+    display: none;
+  }
+}
 
 .scrolling-background-container {
   position: relative;

@@ -15,7 +15,7 @@
           "id": 2,
           "title": "Casting Industry",
           "description": "Modern ERP systems for casting industry optimize foundry operations, quality control, and supply chain management.",
-          "icon": "/images/img/casting.webp",
+          "icon": "/images/img/casting_industry.png",
           "linkText": "Explore",
           "link": "/industries/casting-industry"
         },
@@ -273,7 +273,7 @@
           "id": 9,
           "title": "Signage Industry",
           "description": "ERP solutions for signage industry help manage design, production, installation, and maintenance of various signage products.",
-          "icon": "/images/img/signage.webp",
+          "icon": "/images/img/signange_industry.png",
           "linkText": "Explore",
           "link": "/industries/signage-industry"
         },
