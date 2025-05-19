@@ -11,12 +11,7 @@ import Support from '../../components/containers/locations/Support';
 import LocationsGrid from '../../components/containers/locations/LocationsGrid';
 
 const locations = [
-  {
-    title: 'ERP in Ahmedabad',
-    image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
-    description: 'SourcePro Infotech Pvt. Ltd., with 20 years of expertise, offers top ERP solutions in Ahmedabad...',
-    link: '/locations/ahmedabad',
-  },
+   
   {
     title: 'ERP in Chennai',
     image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
@@ -35,12 +30,7 @@ const locations = [
     description: 'Streamline your manufacturing and textile business with our specialized ERP solutions in Coimbatore...',
     link: '/locations/coimbatore',
   },
-  {
-    title: 'ERP in Indore',
-    image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
-    description: 'Enhance your business efficiency with our comprehensive ERP solutions in Indore, the commercial capital of Madhya Pradesh...',
-    link: '/locations/indore',
-  }
+  
 ];
 
 export default function LocationsPage() {

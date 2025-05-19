@@ -5,34 +5,34 @@ import { FaUserTie, FaUsers, FaLightbulb, FaCheckCircle, FaStar, FaDollarSign } 
 const data = [
   {
     icon: <FaUserTie />,
-    title: 'Expertise and Experience',
-    description: 'Our team comprises seasoned professionals with extensive experience in the industry.',
+    title: 'All-in-One ERP Platform',
+    description: 'Manage crm, scales, purchase, inventory, hrm , accounting from a single, unified system to boost business efficiency.',
   },
   {
     icon: <FaUsers />,
-    title: 'Customer-Centric Approach',
-    description: 'We prioritize understanding our clients needs and delivering tailored solutions.',
+    title: 'Customizable Modules',
+    description: 'Tailor the ERP software to suit your industry-specific needs with flexible and scalable module configurations.',
     
   },
   {
     icon: <FaLightbulb />,
-    title: 'Innovative Solutions',
-    description: 'We leverage cutting-edge technologies and creative strategies to drive results.',
+    title: 'Seamless Integration',
+    description: 'Easily connect with eCommerce platforms, POS systems and third-party applications to ensure smooth data flow across your business.',
   },
   {
     icon: <FaCheckCircle />,
-    title: 'Proven Track Record',
-    description: 'We have a history of successfully delivering projects and exceeding client expectations.',
+    title: 'User-Friendly Interface',
+    description: ' Intuitive dashboards and role-based access simplify operations and reduce the learning curve for your team.',
   },
   {
     icon: <FaStar />,
-    title: 'Commitment to Quality',
-    description: 'We adhere to the highest standards of quality in everything we do, ensuring excellence.',
+    title: 'Data Security & Cloud Access',
+    description: 'Enjoy secure, cloud-based access to your business data with regular backups and advanced encryption standards.',
   },
   {
     icon: <FaDollarSign />,
-    title: 'Affordable Pricing',
-    description: 'We offer competitive pricing without compromising on the quality of our services.',
+    title: 'Dedicated Support & Training',
+    description: ' Get access to expert assistance, onboarding and training to ensure a successful implementation and smooth day-to-day use.',
   },
 ];
 
@@ -42,7 +42,8 @@ export default function WhyChooseUs() {
       <Container>
         <Row>
             <Col>
-            <h2 className="heading">Why Choose Us?</h2>
+            <h2 className="heading">Why Choose Tech Cloud ERP?
+            </h2>
       <div className="grid">
         {data.map((item, index) => (
           <div
