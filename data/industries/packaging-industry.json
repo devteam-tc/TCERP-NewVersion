@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/packaging_banner_img.webp",
   "title": "Packaging Industry",
-  "description": "Advanced ERP solutions tailored for packaging manufacturers, optimizing production processes, material management and quality control while promoting sustainable packaging solutions and operational efficiency.",
+  "description": "Streamline operations with Tech Cloud advanced Packaging Management Software built to meet the needs of modern packaging manufacturers. Our ERP for Packaging Industry enables end-to-end visibility across design, production and supply chain. Empower your business with smart Packaging ERP that enhances accuracy, speed and profitability.",
   "keyPoints": [
-    "Production Process Control",
-    "Material Resource Planning",
-    "Quality Assurance",
-    "Sustainable Packaging",
-    "Inventory Optimization"
+    "Packaging Design & Specification Management",
+    "Inventory & Supply Chain Optimization",
+    "Production Scheduling & Shop Floor Control",
+    "Quality & Compliance Management",
+    "Cost Tracking & Profitability Analysis"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/packaging-production.png",
-      "title": "Material Control",
-      "description": "Efficient management of packaging materials and resources.",
+      "title": "Packaging Design Management",
+      "description": "Manage packaging specifications, materials and version histories with centralized control for faster approvals and consistent outputs.",
       "list": [
-        "Raw Material Tracking",
-        "Inventory Management",
-        "Waste Reduction"
+        "Centralized Packaging Data",
+        "Version Control & Change Tracking",
+        "Automated Approval Workflow"
       ]
     },
     {
       "image": "/images/industry-icons/packaging-quality.png",
-      "title": "Process Control",
-      "description": "Streamlined packaging production and quality processes.",
+      "title": "Quality & Compliance Management",
+      "description": "Ensure packaging quality meets industry standards with automated inspections and compliance tracking tools.",
       "list": [
-        "Production Monitoring",
-        "Quality Standards",
-        "Efficiency Metrics"
+        "Quality Control Automation",
+        "Regulatory Compliance (FDA, ISO etc.)",
+        "Real-Time Non-Conformance Alerts"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle production planning?",
-      "answer": "Our system provides comprehensive production planning with material requirements planning, machine scheduling, capacity optimization and real-time production monitoring for efficient packaging operations."
+      "question": "How does Packaging ERP improve design and development?",
+      "answer": "Our Packaging Software reduces errors by standardizing specification data, automating workflows and ensuring quick approvals for faster go-to-market."
     },
     {
       "id": 2,
-      "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality control features with specification management, testing protocols, compliance tracking and detailed quality reporting for various packaging materials and products."
+      "question": "Can the ERP manage complex multi-format packaging operations?",
+      "answer": "Yes, Tech Cloud ERP for Packaging Industry supports multiple formats and materials with complete traceability from BOM to final output."
     },
     {
       "id": 3,
-      "question": "Can it manage sustainable packaging initiatives?",
-      "answer": "Yes, our solution supports sustainable packaging initiatives with material tracking, recycled content management, waste reduction monitoring and environmental impact assessment tools."
+      "question": "Does the system offer live inventory and vendor tracking?",
+      "answer": "Yes, our Packaging Management Software gives real-time inventory visibility and supplier collaboration for smooth procurement and production planning."
     }
   ],
   "industry": "Packaging",

@@ -1,51 +1,56 @@
 {
   "banner": "/images/industries/rubber_banner_img.webp",
   "title": "Rubber Industry",
-  "description": "Advanced ERP solutions tailored for rubber manufacturers, optimizing compound formulation, production processes and quality control while ensuring efficient material utilization and process consistency.",
+  "description": "Optimize your rubber manufacturing operations with a powerful ERP for rubber industry. From raw material procurement to production and dispatch, our intelligent ERP system connects every process on one platform. This scalable manufacturing ERP improves efficiency, reduces waste and supports regulatory compliance. Whether you produce tyres, industrial rubber components or customized rubber products, our solution is the best ERP software for rubber manufacturing industry.",
   "keyPoints": [
-    "Compound Formulation Management",
-    "Process Control & Monitoring",
-    "Quality Testing & Compliance",
-    "Material Requirements Planning",
-    "Production Optimization"
+    "Procurement & Raw Material Management",
+    "Production Planning & Process Control",
+    "Inventory & Batch Tracking",
+    "Quality Control & Compliance",
+    "Sales, Dispatch & Customer Management"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/rubber-production.png",
-      "title": "Mixing Control",
-      "description": "Advanced mixing and compounding control system for rubber manufacturing.",
+      "title": "Procurement & Raw Material Management",
+      "description": "Control your supply chain and ensure accurate procurement with a centralized ERP software",
       "list": [
-        "Batch Management",
-        "Recipe Control",
-        "Process Parameters"
+        "Vendor Comparison & Approval",
+        "Rubber Compound Formulation Control",
+        "Raw Material Inventory with Reorder Alerts"
       ]
     },
     {
       "image": "/images/industry-icons/rubber-quality.png",
-      "title": "Quality Testing",
-      "description": "Comprehensive quality control and testing system for rubber products.",
+      "title": "Production Planning",
+      "description": "Streamline operations across all stages — from mixing to molding — with real-time updates",
       "list": [
-        "Property Testing",
-        "Compliance Checks",
-        "Quality Reports"
+        "Work Order & Job Scheduling",
+        "Machine Allocation & Operator Assignment",
+        "Process Monitoring via Live Dashboards"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle compound formulation?",
-      "answer": "Our system provides comprehensive compound management including recipe formulation, material specifications, mixing parameters and batch tracking with complete traceability."
+      "question": "What does this ERP system do for rubber manufacturers?",
+      "answer": "Our complete ERP software for rubber industry handles procurement, batch production, curing and delivery — integrating all processes into one robust ERP system."
     },
     {
       "id": 2,
-      "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality testing with physical property analysis, rheology testing, aging studies and detailed quality reporting for various rubber compounds and products."
+      "question": "Can it support traceability for batch production?",
+      "answer": "Yes. This specialized rubber ERP ensures full batch traceability and compliance reducing risks and improving quality."
     },
     {
       "id": 3,
-      "question": "Can it manage process parameters?",
-      "answer": "Yes, our solution manages process parameters with real-time monitoring, temperature control, curing profiles and automated adjustments for optimal production conditions."
+      "question": "Is the ERP flexible for tyre and non-tyre production?",
+      "answer": "Absolutely. From tyres to rubber seals, belts and hoses our software for rubber industry is built to support multiple product types."
+    },
+    {
+      "id": 4,
+      "question": "Will this ERP software scale with business growth?",
+      "answer": "Yes. As a leading manufacturing ERP it is designed to grow with your operations and adapt to your evolving production needs."
     }
   ],
   "industry": "Rubber Manufacturing",

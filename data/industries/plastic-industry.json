@@ -1,51 +1,56 @@
 {
   "banner": "/images/industries/plastic_banner_img.webp",
   "title": "Plastic Industry",
-  "description": "Advanced ERP solutions tailored for plastic manufacturers, optimizing polymer processing, production control and quality management while promoting sustainable practices and operational efficiency.",
+  "description": "Enhance efficiency and control across your plastic production cycle with a purpose-built plastic ERP software. Designed to meet the complex needs of molding, extrusion and blow-molding processes, this advanced ERP for plastic manufacturing integrates production, inventory, sales and compliance into a single intelligent platform. Whether you're a small molding unit or a large-scale plastic product manufacturer, our plastic manufacturing ERP streamlines operations and maximizes profitability.",
   "keyPoints": [
-    "Polymer Processing Control",
-    "Mold Management",
-    "Quality Assurance",
-    "Recycling Operations",
-    "Production Optimization"
+    "Production Planning & Molding Management",
+    "Raw Material & Resin Tracking",
+    "Quality Control & Compliance",
+    "Tooling, Machine & Maintenance Management",
+    "Real-Time Costing & Sales Integration"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/plastic-production.png",
-      "title": "Mold Control",
-      "description": "Advanced mold management and maintenance system for plastic manufacturing.",
+      "title": "Production & Material Management",
+      "description": "Monitor every step of your plastic processing cycle",
       "list": [
-        "Mold Tracking",
-        "Maintenance Scheduling",
-        "Performance Monitoring"
+        "MRP Integration for Raw Material Planning",
+        "Scrap & Regrind Material Handling",
+        "Injection, Blow & Extrusion Process Management"
       ]
     },
     {
       "image": "/images/industry-icons/plastic-quality.png",
-      "title": "Material Management",
-      "description": "Comprehensive material handling and recycling system for plastic production.",
+      "title": "Quality & Compliance Monitoring",
+      "description": "Maintain high product standards and traceability",
       "list": [
-        "Raw Material Control",
-        "Recycling Management",
-        "Inventory Tracking"
+        "Quality Checks at Every Production Stage",
+        "Batch Tracking & Product History",
+        "ISO & Industry Regulatory Reporting"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system manage polymer processing?",
-      "answer": "Our system provides comprehensive polymer processing management including material formulation, temperature control, pressure monitoring and cycle time optimization for various plastic products."
+      "question": "What is Plastic ERP?",
+      "answer": "A plastic ERP is an end-to-end solution tailored for managing production, inventory, quality and finance in the plastic manufacturing industry."
     },
     {
       "id": 2,
-      "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality control with material testing, dimensional verification, visual inspection tracking and detailed quality reporting for different plastic products and processes."
+      "question": "How does this ERP improve plastic production efficiency?",
+      "answer": "By automating production planning and real-time tracking, the ERP for plastic industry reduces waste, shortens cycle times and increases productivity."
     },
     {
       "id": 3,
-      "question": "Can it handle recycling operations?",
-      "answer": "Yes, our solution manages recycling operations with material segregation tracking, regrind management, quality control for recycled materials and sustainability reporting capabilities."
+      "question": "Can it handle different types of plastic manufacturing processes?",
+      "answer": "Yes. Our plastic ERP software supports injection molding, extrusion, blow molding and thermoforming processes with full customization."
+    },
+    {
+      "id": 4,
+      "question": "Is this ERP scalable for growing plastic manufacturers?",
+      "answer": "Absolutely. Our ERP for plastic manufacturing is modular and scalable, adapting easily as your business expands and evolves."
     }
   ],
   "industry": "Plastic Manufacturing",
