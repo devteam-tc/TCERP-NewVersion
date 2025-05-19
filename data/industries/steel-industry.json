@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/steel_banner_img.webp",
-  "title": "Steel Industry Solutions",
+  "title": "Steel Industry",
   "description": "Advanced ERP solutions tailored for steel manufacturers, optimizing production processes, quality control and material management while ensuring efficient operations and regulatory compliance.",
   "keyPoints": [
     "Production Process Control",
@@ -12,7 +12,7 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/steel-production.png",
-      "title": "Production Management",
+      "title": "Steel Processing",
       "description": "Comprehensive steel production and process control system.",
       "list": [
         "Process Control",
@@ -22,7 +22,7 @@
     },
     {
       "image": "/images/industry-icons/steel-quality.png",
-      "title": "Quality Control",
+      "title": "Quality Assurance",
       "description": "Advanced quality management system for steel manufacturing.",
       "list": [
         "Material Testing",

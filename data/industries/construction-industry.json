@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/construction_banner_img.jpg",
+  "title": "Construction Industry",
+  "description": "Comprehensive ERP solutions designed for construction companies, streamlining project management, resource allocation, and cost control while ensuring compliance with industry standards and regulations.",
+  "keyPoints": [
+    "Project Management",
+    "Resource Planning",
+    "Cost Control",
+    "Equipment Tracking",
+    "Safety Compliance"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/construction-project.png",
+      "title": "Project Control",
+      "description": "End-to-end construction project management and monitoring system.",
+      "list": [
+        "Schedule Management",
+        "Resource Allocation",
+        "Progress Tracking"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/construction-safety.png",
+      "title": "Safety Management",
+      "description": "Comprehensive safety and compliance management system.",
+      "list": [
+        "Safety Protocols",
+        "Compliance Tracking",
+        "Incident Management"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system manage construction projects?",
+      "answer": "Our system provides complete project management including scheduling, resource allocation, progress tracking, and cost control. It helps manage multiple projects simultaneously while maintaining visibility across all construction sites."
+    },
+    {
+      "id": 2,
+      "question": "What features are included for equipment management?",
+      "answer": "The system includes comprehensive equipment tracking, maintenance scheduling, utilization monitoring, and cost allocation. It helps optimize equipment usage and reduce downtime."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle safety and compliance requirements?",
+      "answer": "Yes, our solution manages safety protocols, tracks compliance requirements, monitors safety incidents, and provides reporting for regulatory compliance. It helps maintain a safe working environment and meet industry standards."
+    }
+  ],
+  "industry": "Construction",
+  "solution": "Integrated Construction Management System",
+  "modules": [
+    "Project Management",
+    "Resource Planning",
+    "Equipment Management",
+    "Cost Control",
+    "Safety & Compliance"
+  ],
+  "result": [
+    "30% reduction in project delays",
+    "25% improvement in resource utilization",
+    "40% better cost control"
+  ],
+  "customers": "250+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Construction Industry Guide",
+    "buttonText": "Download Now"
+  }
+} 

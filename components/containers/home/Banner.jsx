@@ -11,7 +11,7 @@ const Banner = () => (
       <p className="banner-subtitle">
         Empower your business with Tech Cloud ERP a scalable cloud-based ERP software that streamlines operations, boosts productivity and fuels growth.
       </p>
-      <p className='mb-5' style={{  color: '#ef5226' , fontWeight: '600'}} >We don’t just sell software — we tailor it to your business.</p>
+      <p className='mb-5' style={{  color: '#ef5226' , fontWeight: '600' , textTransform: 'uppercase'}} >We don’t just sell software — we tailor it to your business.</p>
       <Link href="/demo" className="banner-demo-btn">Book a Demo</Link>
       <div className="rocket-visual">
         {/* Chart Cards */}
@@ -29,7 +29,7 @@ const Banner = () => (
         </div>
         {/* Rocket */}
         <div className="rocket-center">
-          <Image src="/images/banner/icons/rocket.png" alt="Rocket" width={480} height={350} />
+          <Image src="/images/banner/icons/rocketfire.webp" alt="Rocket" width={380} height={250} />
         </div>
         {/* Floating Icons */}
         {[1,2,3,4,5,6].map(num => {

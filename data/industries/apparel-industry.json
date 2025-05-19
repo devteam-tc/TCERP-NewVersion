@@ -1,33 +1,33 @@
 {
   "banner": "/images/industries/apparel-banner_img.webp",
-  "title": "Apparel Industry Solutions",
-  "description": "Comprehensive ERP solutions designed for apparel and fashion businesses, streamlining processes from design to retail distribution.",
+  "title": "Apparel Industry",
+  "description": "Comprehensive ERP solutions designed for apparel and fashion businesses, streamlining processes from design to retail distribution. Our apparel ERP software and apparel manufacturing software help manage operations with precision and speed. From production to stock control, our clothing manufacturing software ensures efficiency at every stage.",
   "keyPoints": [
-    "Design & Product Development",
-    "Material & Inventory Management",
-    "Production Planning & Control",
-    "Quality Assurance",
-    "Supply Chain & Distribution"
+    "Design & Production Management",
+    "Material Resource Planning (MRP)",
+    "Inventory & Stock Control",
+    "Order Management & Tracking",
+    "Costing & Profitability Tracking"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/apparel_management.png",
-      "title": "Fashion Management",
-      "description": "End-to-end fashion lifecycle management from design conceptualization to retail distribution.",
+      "title": "Apparel Production ",
+      "description": "End-to-end ERP for apparel businesses from design to delivery with real-time operational control.",
       "list": [
-        "Design Management",
-        "Collection Planning",
-        "Season Tracking"
+        "Design & Product Development",
+        "Inventory & Material Management",
+        "Production & Quality Control"
       ]
     },
     {
       "image": "/images/industry-icons/production_analytics.png",
-      "title": "Production Analytics",
-      "description": "Real-time analytics and insights for optimizing production and inventory management.",
+      "title": "Distribution & Analytics",
+      "description": "Optimize your supply chain and gain insights with advanced reporting tools for faster, smarter decisions.",
       "list": [
-        "Production Metrics",
-        "Inventory Analytics",
-        "Cost Analysis"
+        "Production Planning & Scheduling",
+        "Quality Assurance Metrics",
+        "Retail & Distribution Tracking"
       ]
     }
   ],

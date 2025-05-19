@@ -2,9 +2,7 @@ import Link from 'next/link'
 import logo2 from '../../../public/images/logo/logo.svg';
 import Image from 'next/image';
 import ScrollProgressButton from '../ScrollProgressButton';
-// import WebCounter from '../../containers/home/WebCounter';
 import SocialMediaIcons from './SocialMediaIcons';
-import Certifications from './Certifications';
 
 const Footer = () => {
   return (
@@ -46,8 +44,6 @@ const Footer = () => {
                             <h4 className="title">Email </h4>
                           </div>
                           <p> <a href="mailto:info@techclouderp.com">info@techclouderp.com</a></p>
-                          {/* <WebCounter /> */}
-                          {/* <Certifications /> */}
                         </li>
                       </ul>
                     </div>
@@ -58,12 +54,12 @@ const Footer = () => {
                     <h4 className="footer-title">Useful Links</h4>
                     <ul className="list-unstyled">
                     {/* <i className="fas fa-chevron-right"></i>  */}
-                      <li><Link href="/services">Home</Link></li>
-                      <li><Link href="/services"> About Us</Link></li>
-                      <li><Link href="/services"> Contact Us</Link></li>
-                      <li><Link href="/services"> Our Features</Link></li>
-                      <li><Link href="/services"> Our Blogs</Link></li>
-                      <li><Link href="/locations"> Our Locations</Link></li>
+                      <li><Link href="/">Home</Link></li>
+                      <li><Link href="/about"> About Us</Link></li>
+                      <li><Link href="/contact"> Contact Us</Link></li>
+                      <li><Link href="/features"> Our Features</Link></li>
+                      <li><Link href="/blogs"> Our Blogs</Link></li>
+                      <li><Link href="/our-locations"> Our Locations</Link></li>
                       <li><Link href="/products"> All Products</Link></li>
                       <li><Link href="/careers"> Careers</Link></li>
                       {/* <li><Link href="/pricing"> Pricing</Link></li> */}

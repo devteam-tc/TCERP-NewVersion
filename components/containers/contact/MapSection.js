@@ -34,11 +34,17 @@ const MapSection = () => {
               onKeyDown={e => { if (e.key === "Enter") handleOpenModal(loc.mapUrl); }}
             >
               <div className="mapsection__circle">
-                <FaMapMarkerAlt className="mapsection__icon" />
-                <div className="mapsection__viewmap">View Map</div>
-                <div className="mapsection__arrow">
-                  <span>→</span>
-                </div>
+                <img
+                  src={loc.imageUrl}
+                  alt={`${loc.city} location`}
+                  className="mapsection__circle-image"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    borderRadius: "50%"
+                  }}
+                />
               </div>
             </div>
             <div className="mapsection__city">{loc.city}</div>

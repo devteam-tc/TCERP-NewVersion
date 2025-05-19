@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/food_banner_img.webp",
-  "title": "Food Industry Solutions",
+  "title": "Food Industry",
   "description": "Advanced ERP solutions designed for food manufacturers, ensuring food safety compliance, quality control and efficient production while optimizing supply chain and inventory management.",
   "keyPoints": [
     "Food Safety & Compliance",
@@ -12,8 +12,8 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/food-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive food production management system with recipe control and batch tracking.",
+      "title": "Batch Control",
+      "description": "Advanced batch processing and recipe management system for precise food manufacturing.",
       "list": [
         "Recipe Management",
         "Batch Processing",
@@ -22,8 +22,8 @@
     },
     {
       "image": "/images/industry-icons/food-quality.png",
-      "title": "Quality & Safety",
-      "description": "Integrated quality control and food safety management system.",
+      "title": "Safety Control",
+      "description": "Comprehensive food safety and quality management system with compliance tracking.",
       "list": [
         "Quality Testing",
         "Safety Compliance",

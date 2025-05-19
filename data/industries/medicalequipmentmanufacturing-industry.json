@@ -1,51 +1,53 @@
 {
   "banner": "/images/industries/medical_equipment_banner_img.webp",
-  "title": "Medical Equipment Manufacturing Solutions",
-  "description": "Advanced ERP solutions tailored for medical equipment manufacturers, ensuring regulatory compliance, quality control and precision manufacturing while maintaining complete traceability and documentation.",
+  "title": "Medical Equipment Manufacturing",
+  "description": "Advanced ERP solutions tailored for medical equipment manufacturers, ensuring regulatory compliance, quality control, and precision manufacturing while maintaining complete traceability and documentation. Our ERP software for Medical Device Manufacturers has been created to simplify intricate manufacturing operations while maintaining industry standards.",
   "keyPoints": [
-    "Regulatory Compliance Management",
-    "Quality Control & Validation",
-    "Product Lifecycle Management",
-    "Clean Room Manufacturing",
-    "Device Traceability"
+    "BOM & Engineering Change Management",
+    " FDA, ISO & GMP Regulatory Compliance",
+    "Product Serialization & Lot Tracking",
+    "Document Control & Audit Trail",
+    "CAPA & Non-Conformance Management"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/medical-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive medical device manufacturing and validation system.",
+      "title": "ERP for Medical Devices",
+      "description": "We provides a powerful ERP solution tailored for medical device makers, streamlining compliance-heavy production and accelerating time-to-market.",
       "list": [
-        "Clean Room Control",
-        "Process Validation",
-        "Batch Tracking"
+        " From Design to Production",
+        " UDI Tracking & Traceability",
+        " Real-Time Compliance Reports",
+        "Supplier Risk & Qualification"
       ]
     },
     {
       "image": "/images/industry-icons/medical-quality.png",
-      "title": "Quality Assurance",
-      "description": "Advanced quality management system for medical devices.",
+      "title": "End-to-End Healthcare ERP",
+      "description": "Our ERP offers full lifecycle visibility from sourcing to service supporting quality and operational excellence in medical manufacturing.",
       "list": [
-        "Quality Testing",
-        "Documentation Control",
-        "Compliance Monitoring"
+        "Inventory & Procurement Control",
+        " QA & Testing Modules",
+        "Equipment Maintenance",
+        "Multi-site, Multi-currency, GST-Ready"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system ensure regulatory compliance?",
-      "answer": "Our system provides comprehensive compliance management for FDA, CE, ISO 13485, and other medical device regulations, including documentation control, validation protocols and audit trail maintenance."
+      "question": "Why is Medical ERP critical for medical equipment manufacturers?",
+      "answer": "It ensures regulatory compliance, real-time quality tracking and documentation, which are mandatory in the medical manufacturing space."
     },
     {
       "id": 2,
-      "question": "What quality control features are included?",
-      "answer": "The system includes advanced quality control with validation protocols, clean room monitoring, sterilization process control and complete device history records with detailed testing documentation."
+      "question": "Can ERP in Medical manufacturing manage design and change controls?",
+      "answer": "Yes. Our Medical Device ERP includes engineering change order (ECO) management, design version control and document traceability."
     },
     {
       "id": 3,
-      "question": "Can it handle device traceability requirements?",
-      "answer": "Yes, our solution provides end-to-end traceability from raw materials to finished devices, including UDI compliance, component tracking and complete device history records."
+      "question": "How does the ERP help with FDA compliance?",
+      "answer": "The system supports full audit trails, e-signatures, validation protocols and traceability features required for FDA and other global regulations."
     }
   ],
   "industry": "Medical Equipment Manufacturing",

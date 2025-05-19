@@ -5,7 +5,6 @@ import Header from "../../components/layout/header/Header";
 import PageHeader from "../../components/layout/PageHeader";
 import { FaHome } from 'react-icons/fa';
 import MapSection from "../../components/containers/contact/MapSection";
-// import CreativeSection from "../../components/layout/footer/CreativeSection";
 
 const page = () => {
   const breadcrumbs = [
@@ -18,7 +17,6 @@ const page = () => {
       <PageHeader title="Contact Us" breadcrumbs={breadcrumbs}/>
       <ContactPage/>
       <MapSection />
-      {/* <CreativeSection />  */}
       <Footer/>
 
       <CustomCursor/>

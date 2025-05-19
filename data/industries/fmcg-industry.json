@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/fmcg_banner_img.webp",
-  "title": "FMCG Industry Solutions",
-  "description": "Comprehensive ERP solutions tailored for Fast-Moving Consumer Goods companies, optimizing production, distribution and inventory management while ensuring rapid market response.",
+  "title": "FMCG Industry",
+  "description": "Our comprehensive FMCG ERP software is designed to meet the fast-paced demands of Fast-Moving Consumer Goods companies. From production to distribution, our system streamlines operations and improves efficiency, enabling rapid responses to market changes. Whether you're a manufacturer or a distributor, our billing software for FMCG distributor and FMCG accounting software help manage inventory, finances and sales with ease.",
   "keyPoints": [
-    "Demand Forecasting",
-    "Supply Chain Optimization",
-    "Batch Production Control",
-    "Distribution Management",
-    "Retail Channel Integration"
+    " Inventory & Order Management",
+    " Billing Software for FMCG Distributor",
+    "Real-Time Stock & Warehouse Control",
+    "Route Planning & Distribution",
+    " Batch & Expiry Tracking"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/fmcg-production.png",
-      "title": "Production Management",
-      "description": "Advanced production planning and control system for rapid manufacturing cycles.",
+      "title": "Inventory & Distribution Management",
+      "description": "Ensure uninterrupted supply with powerful tools to track stock, monitor expiry, and optimize delivery channels.",
       "list": [
-        "Batch Processing",
-        "Production Scheduling",
-        "Resource Optimization"
+        " Stock Level Alerts & Auto Reordering",
+        "Multi-Location Warehouse Management",
+        "Expiry Date & Batch Tracking"
       ]
     },
     {
       "image": "/images/industry-icons/fmcg-distribution.png",
-      "title": "Distribution Control",
-      "description": "Comprehensive distribution and retail channel management system.",
+      "title": "Finance & Billing Automation",
+      "description": "Simplify transactions and accounting with intelligent billing software for FMCG distributor operations.",
       "list": [
-        "Logistics Planning",
-        "Retailer Management",
-        "Stock Optimization"
+        "Fast & Error-Free Invoicing",
+        "Integrated FMCG Accounting Software",
+        "GST-Ready Billing Reports"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle demand forecasting?",
-      "answer": "Our system uses advanced analytics and machine learning for accurate demand forecasting, considering seasonal trends, market dynamics and historical data."
+      "question": "What is FMCG ERP software?",
+      "answer": "FMCG ERP software is an end to end enterprise solution it can be manage production, sales, inventory, distribution, expenditure and income of fast-moving consumer goods business."
     },
     {
       "id": 2,
-      "question": "What distribution features are included?",
-      "answer": "The system includes comprehensive distribution management with route optimization, retailer relationship management and real-time stock tracking across the supply chain."
+      "question": "Can your software support billing for distributors?",
+      "answer": "Yes, our billing software for FMCG distributor offers fast invoicing, payment tracking and real-time stock updates for smooth operations."
     },
     {
       "id": 3,
-      "question": "Can it manage multiple product variants?",
-      "answer": "Yes, our solution handles multiple product variants, packaging options and SKUs with automated batch tracking and expiry date management."
+      "question": "Does the system handle multi-location warehouses?",
+      "answer": "Absolutely. Our best software for FMCG distributor ensures centralized control over inventory across multiple warehouses with real-time visibility."
     }
   ],
   "industry": "FMCG",

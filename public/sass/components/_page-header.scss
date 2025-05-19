@@ -42,6 +42,12 @@
     li+li {
       margin-left: 19px;
     }
+    @media (max-width: 992px) {
+       li + li {
+        margin-left: 5px !important;
+      }
+    }
+    
   }
 }
 

@@ -19,10 +19,10 @@ export default function IndustryList({ industryList, index }) {
         <Col>
           <h2 className="header">
             {index === 0
-              ? "Agriculture to Electronic Industries"
+              ? "Manufacturing Industries"
               : index === 1
-              ? "FMCG to Metal Fabrication Industry"
-              : "Oil and Gas Industry"}
+              ? "Retail Industries"
+              : "Specialized Industries"}
           </h2>
         </Col>
       </Row>

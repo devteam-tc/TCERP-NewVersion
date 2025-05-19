@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/hydraulic_banner_img.webp",
-  "title": "Hydraulic Cylinders Industry Solutions",
-  "description": "Specialized ERP solutions designed for hydraulic cylinder manufacturers, ensuring precision production, quality control and efficient inventory management while maintaining industry standards and specifications.",
+  "title": "Hydraulic Cylinders Industry",
+  "description": "Specialized ERP solutions designed for hydraulic cylinder manufacturers.Our intelligent solution covers every step from precision engineering to dispatch, ensuring quality, traceability, and compliance.With ERP software for the hydraulic industry, manage materials, track components, and maintain customer specs with confidence.",
   "keyPoints": [
-    "Precision Manufacturing Control",
-    "Technical Specifications Management",
-    "Quality Testing & Certification",
-    "Component Inventory Control",
-    "Custom Design Management"
+    "Cylinder Design & BOM Control",
+    " CNC Production & Process Scheduling",
+    "Quality Testing & Pressure Certification",
+    "Inventory & Spares Management",
+    "Compliance with Hydraulic Standards"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/hydraulic-production.png",
-      "title": "Production Management",
-      "description": "Advanced production control system for precision hydraulic cylinder manufacturing.",
+      "title": "Engineering & Product Configuration",
+      "description": "Support for complex hydraulic cylinder design with custom specifications and part-level configuration.",
       "list": [
-        "Process Control",
-        "Precision Tracking",
-        "Assembly Management"
+        "CAD/BOM Integration",
+        "Custom Stroke & Bore Size Management",
+        "Part Traceability & Revision Control"
       ]
     },
     {
       "image": "/images/industry-icons/hydraulic-quality.png",
-      "title": "Quality Assurance",
-      "description": "Comprehensive quality control system for hydraulic components.",
+      "title": "Quality & Compliance Control",
+      "description": "Ensure high performance and safety through automated testing workflows and industry-compliant documentation.",
       "list": [
-        "Testing Protocols",
-        "Certification Management",
-        "Performance Validation"
+        "Hydraulic Pressure Test Management",
+        "Real-Time QC & Failure Analysis",
+        "Certification Management (ISO, DIN)"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle technical specifications?",
-      "answer": "Our system manages detailed technical specifications including pressure ratings, stroke lengths, bore sizes and material specifications with version control and engineering change management."
+      "question": " How does your ERP help a hydraulic cylinder manufacturer?",
+      "answer": "Our hydraulic ERP system ensures complete control over design, machining, testing and logistics while maintaining precision and compliance."
     },
     {
       "id": 2,
-      "question": "What quality control features are included?",
-      "answer": "The system includes comprehensive testing protocols, pressure testing documentation, material certification tracking and quality inspection workflows with detailed reporting."
+      "question": "Can the ERP track cylinder components and variations?",
+      "answer": "Yes, the hydraulic cylinder manufacturer software allows tracking of each cylinder by type, configuration and customer-specific requirements."
     },
     {
       "id": 3,
-      "question": "Can it manage custom cylinder designs?",
-      "answer": "Yes, our solution handles custom cylinder designs with specification management, BOM generation, cost calculation and production planning for specialized requirements."
+      "question": " Is the system suitable for job-based and volume-based manufacturing?",
+      "answer": "Absolutely. Whether you're a custom hydraulic cylinder manufacturer or producing in batches, our ERP adapts to your process seamlessly."
     }
   ],
   "industry": "Hydraulic Cylinders",

@@ -1,5 +1,5 @@
-import './CreativeSection.scss';
 import Image from 'next/image';
+import './CreativeSection.scss';
 
 const CreativeSection = () => {
   return (
@@ -7,10 +7,10 @@ const CreativeSection = () => {
       <div className="scrolling-bg"></div>
       <div className="staticImages">
         <Image 
-          src="/footer/cargif.gif" 
-          alt="Animated Car"
+          src="/footer/cargif.png" 
+          alt="Creative Section"
           width={300}
-          height={120}
+          height={300}
           className="staticImage"
           priority
         />

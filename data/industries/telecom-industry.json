@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/telecom_banner_img.webp",
-  "title": "Telecom Industry Solutions",
+  "title": "Telecom Industry",
   "description": "Advanced ERP solutions tailored for telecommunications companies, optimizing network operations, service delivery and customer management while ensuring regulatory compliance and efficient billing processes.",
   "keyPoints": [
     "Network Operations Management",
@@ -12,7 +12,7 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/telecom-operations.png",
-      "title": "Network Operations",
+      "title": "Network Control",
       "description": "Comprehensive network operations and service management system.",
       "list": [
         "Network Monitoring",
@@ -22,7 +22,7 @@
     },
     {
       "image": "/images/industry-icons/telecom-customer.png",
-      "title": "Customer Management",
+      "title": "Service Analytics",
       "description": "Advanced customer service and billing management system.",
       "list": [
         "Customer Support",

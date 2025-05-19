@@ -7,7 +7,7 @@ const BusinessSection = () => {
     <section className="businessSection fix">
       <div className="container">
         <div className="sectionTitle mb-lg-4 mb-0 pb-lg-2">
-          <h2 className="wow fadeInUp black fw-bold" data-wow-delay=".3s">
+          <h2 className="section-title title-anim undefined" data-wow-delay=".3s">
             {introSection.heading}
           </h2>
         </div>

@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Button, Form as BootstrapForm } from "react-bootstrap";
 import { FaEnvelope, FaPhoneAlt ,FaMapMarkerAlt  } from "react-icons/fa";
-import { db } from '../../../firebase'; 
+import { db } from '../../../firebaseConfig'; 
 import { collection, addDoc, doc, getDoc } from "firebase/firestore";
 import emailjs from '@emailjs/browser';
 import './ContactPage.scss';
@@ -78,7 +78,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contactpage-wrapper pt-160">
+    <div className="contactpage-wrapper pt-120">
       <ToastContainer />
       <div className="contactpage-info">
   <div className="contactpage-info__button">

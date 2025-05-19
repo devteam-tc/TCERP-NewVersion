@@ -417,14 +417,19 @@
     // background: url('/images/category_bg.png') no-repeat center center;
     background-size: cover;
     padding: 20px;
+    padding: 25px;
     margin-left: 50px;
     padding-left: 80px;
     position: relative;
     border-radius: 5px;
     border-left: 3px solid var(--colorBlue);
     overflow: hidden;
-    transform: skewX(-10deg);
+    height: 300px;
+    // transform: skewX(-10deg);
     transition: all 0.3s linear;
+    @media screen and (max-width: 992px) {
+      height: 300px;
+    }
 
     &::after {
       content: "";
@@ -441,7 +446,7 @@
     h3, p {
       position: relative;
       z-index: 1;
-      transform: skewX(10deg);
+      // transform: skewX(10deg);
       transition: all 0.3s linear;
     }
 
@@ -465,9 +470,9 @@
     .tf__single_category_text::after {
       opacity: 0.85;
     }
-
     .tf__single_category_icon {
       background: #fff !important;
+      
     }
 
     h3, p {

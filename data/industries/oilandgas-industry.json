@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/oilandgas_banner_img.webp",
-  "title": "Oil and Gas Industry Solutions",
+  "title": "Oil and Gas Industry",
   "description": "Advanced ERP solutions tailored for oil and gas companies, optimizing upstream, midstream and downstream operations while ensuring safety compliance, asset management and operational efficiency.",
   "keyPoints": [
     "Production Operations Management",
@@ -12,7 +12,7 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/oilgas-operations.png",
-      "title": "Operations Management",
+      "title": "Well Management",
       "description": "Comprehensive oil and gas operations management system.",
       "list": [
         "Production Tracking",
@@ -22,7 +22,7 @@
     },
     {
       "image": "/images/industry-icons/oilgas-safety.png",
-      "title": "Safety & Compliance",
+      "title": "Safety Control",
       "description": "Advanced safety and regulatory compliance management system.",
       "list": [
         "Safety Protocols",

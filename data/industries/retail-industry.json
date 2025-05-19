@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/retail_banner_img.webp",
-  "title": "Retail Industry Solutions",
+  "title": "Retail Industry",
   "description": "Advanced ERP solutions tailored for retail businesses, optimizing inventory management, point of sale operations and customer engagement while ensuring seamless omnichannel experience and efficient supply chain operations.",
   "keyPoints": [
     "Inventory Management",
@@ -12,22 +12,22 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/retail-operations.png",
-      "title": "Store Operations",
-      "description": "Comprehensive retail operations and POS management system.",
+      "title": "Sales Management",
+      "description": "Streamlined sales processing and store operations management.",
       "list": [
-        "Sales Processing",
-        "Inventory Control",
-        "Store Management"
+        "POS Integration",
+        "Payment Processing",
+        "Store Analytics"
       ]
     },
     {
       "image": "/images/industry-icons/retail-customer.png",
-      "title": "Customer Management",
-      "description": "Advanced customer relationship and loyalty management system.",
+      "title": "Inventory Control",
+      "description": "Real-time inventory tracking and stock management system.",
       "list": [
-        "Loyalty Programs",
-        "Customer Analytics",
-        "Marketing Tools"
+        "Stock Tracking",
+        "Order Management",
+        "Warehouse Control"
       ]
     }
   ],

@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/printing_banner_img.webp",
-  "title": "Printing Industry Solutions",
+  "title": "Printing Industry",
   "description": "Advanced ERP solutions tailored for printing companies, optimizing print production workflows, color management and quality control while ensuring efficient material utilization and timely delivery.",
   "keyPoints": [
     "Print Production Management",
@@ -12,8 +12,8 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/printing-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive print production and workflow management system.",
+      "title": "Print Jobs",
+      "description": "Streamlined management of print jobs from estimation to delivery.",
       "list": [
         "Job Scheduling",
         "Press Management",
@@ -22,11 +22,11 @@
     },
     {
       "image": "/images/industry-icons/printing-quality.png",
-      "title": "Quality Control",
-      "description": "Advanced quality management system for print production.",
+      "title": "Color Control",
+      "description": "Precise color management and quality assurance system.",
       "list": [
-        "Color Control",
-        "Quality Inspection",
+        "Color Calibration",
+        "Quality Checks",
         "Standards Compliance"
       ]
     }

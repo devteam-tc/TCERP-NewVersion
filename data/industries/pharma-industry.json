@@ -1,6 +1,6 @@
 {
   "banner": "/images/industries/pharmaceutical_banner_img.webp",
-  "title": "Pharmaceutical Industry Solutions",
+  "title": "Pharmaceutical Industry",
   "description": "Advanced ERP solutions tailored for pharmaceutical manufacturers, ensuring GMP compliance, quality control and regulatory adherence while optimizing production processes and maintaining complete traceability.",
   "keyPoints": [
     "GMP Compliance Management",
@@ -12,8 +12,8 @@
   "infoCards": [
     {
       "image": "/images/industry-icons/pharma-production.png",
-      "title": "Production Management",
-      "description": "Comprehensive pharmaceutical manufacturing and compliance system.",
+      "title": "Batch Control",
+      "description": "End-to-end batch manufacturing and tracking system for pharmaceutical production.",
       "list": [
         "Batch Processing",
         "Process Validation",
@@ -22,8 +22,8 @@
     },
     {
       "image": "/images/industry-icons/pharma-quality.png",
-      "title": "Quality Assurance",
-      "description": "Advanced quality management system for pharmaceutical manufacturing.",
+      "title": "Quality Control",
+      "description": "Comprehensive quality management and compliance system for pharmaceutical manufacturing.",
       "list": [
         "Quality Testing",
         "Stability Studies",

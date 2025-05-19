@@ -1,51 +1,56 @@
 {
   "banner": "/images/banner/agriculture_banner_img.webp",
-  "title": "Agriculture Industry Solutions",
-  "description": "Comprehensive ERP solutions tailored for modern agricultural businesses, helping streamline operations from field to market.",
+  "title": "Agriculture Industry",
+  "description": "We offer full featured farm ERP that is tailor made for the modern agriculture enterprise to ease your operations from the field to the market. Our farm software also assists with crop planning and tracking, all while eliminating hassle and increasing productivity and profits. Whether you're managing a single farm, managing a large operation our farm management system and agriculture software provide the tools needed for smarter farming decisions.",
   "keyPoints": [
-    "Farm Management & Planning",
-    "Crop Monitoring & Tracking",
-    "Inventory & Supply Chain Management",
-    "Financial Management & Reporting",
-    "Weather Integration & Forecasting"
+    "Efficient crop planning, tracking, and yield forecasting",
+    "Centralized resource and labor management",
+    "Inventory and equipment tracking",
+    "Integrated farm accounting software for financial control",
+    "End-to-end visibility with real-time farm management system"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/Farm_Management.png",
-      "title": "Farm Management",
-      "description": "Complete farm operations management including planning, scheduling and resource allocation.",
+      "title": " Agriculture Management",
+      "description": "Comprehensive ERP for managing farming operations, inventory and workforce across locations.",
       "list": [
-        "Resource Planning",
-        "Crop Management",
-        "Yield Tracking"
+        "Multi-location Management",
+        "Farm Equipment Tracking",
+        "Inventory & Labour Management"
       ]
     },
     {
       "image": "/images/industry-icons/Analytics_&_Reporting.png",
-      "title": "Analytics & Reporting",
-      "description": "Advanced analytics and reporting tools for data-driven decision making.",
+      "title": " Smart Analytics & Monitoring",
+      "description": "Track every stage of the agricultural lifecycle with real-time reports and insights.",
       "list": [
-        "Performance Analytics",
-        "Financial Reports",
-        "Yield Analysis"
+        "Seasonal Yield Forecasting",
+        "Expense & Profitability Reports",
+        "Sensor-Based Monitoring"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle crop planning?",
-      "answer": "Our system provides comprehensive crop planning tools including seasonal scheduling, resource allocation and yield forecasting."
+      "question": "What is Tech Cloud ERP for the agriculture industry?",
+      "answer": "It’s a cloud-based ERP solution designed to streamline agriculture operations including farm activities, inventory, labor and production analytics."
     },
     {
       "id": 2,
-      "question": "Can it integrate with existing farm equipment?",
-      "answer": "Yes, our solution supports integration with most modern farm equipment and IoT devices through standard protocols."
+      "question": "How does Tech Cloud ERP improve agricultural productivity?",
+      "answer": "By automating workflows, providing real-time data and managing resources efficiently, it helps maximize yield and minimize wastage."
     },
     {
       "id": 3,
-      "question": "What kind of reporting features are available?",
-      "answer": "The system offers extensive reporting capabilities including financial reports, yield analysis, resource utilization and custom report generation."
+      "question": "Is the ERP system customizable for different crops or seasons?",
+      "answer": "Yes, Tech Cloud ERP is fully customizable to support varied crops, seasonal planning and regional agricultural needs."
+    },
+    {
+      "id": 4,
+      "question": "Can I track agricultural operations remotely?",
+      "answer": "Absolutely. Our cloud-based system allows farm owners and managers to monitor operations and data from anywhere, in real time."
     }
   ],
   "industry": "Agriculture",

@@ -2,17 +2,17 @@
     "tech-cloud-erp": {
       "image": "/images/about-us/product-erp.png",
       "subTitle": "About Tech Cloud ERP",
-      "titleLine1": "Smart ERP Solutions to",
-      "titleLine2": "Transform Your",
-      "highlight": "Business.",
-      "description": "Tech Cloud ERP is a cloud-based enterprise solution that streamlines your business operations end-to-end.",
+      "titleLine1": "Smart ERP Software Solutions ",
+      "titleLine2": "to Transform Your ",
+      "highlight": "Business",
+      "description": "Tech Cloud ERP is a powerful cloud-based ERP software designed to enhance your operations from start to finish. With robust ERP tools, manage every aspect of your business in one place.",
       "features": [
         { "icon": "/images/about-us/about4.png", "title": "End-to-End Integration" },
         { "icon": "/images/about-us/about4.png", "title": "Custom Modules" }
       ],
       "list": [
-        "Manage your finance, HR and sales from one dashboard",
-        "Track real-time performance with Business Intelligence tools"
+        "Manage finance, HR and sales seamlessly from a single, unified ERP software dashboard.",
+        "Monitor real-time performance with powerful Business Intelligence tools in your ERP system."
       ],
       "link": "/products/tech-cloud-erp",
       "linkText": "EXPLORE ERP"
@@ -20,17 +20,17 @@
     "customer-relationship-management": {
       "image": "/images/about-us/product-crm.png",
       "subTitle": "About Tech Cloud CRM",
-      "titleLine1": "Customer Relationship ",
-      "titleLine2": "",   
-      "highlight": "Management",
-      "description": "Tech Cloud CRM helps businesses improve customer service, streamline sales and manage leads.",
+      "titleLine1": "Smarter CRM Software  ",
+      "titleLine2": "for Stronger Customer ",   
+      "highlight": "Connections",
+      "description": "Tech Cloud CRM software empowers businesses to boost customer service, simplify sales processes and manage leads efficiently across all touchpoints in one unified platform.",
       "features": [
         { "icon": "/images/about-us/about4.png", "title": "Lead Management" },
         { "icon": "/images/about-us/about4.png", "title": "Sales Pipeline" }
       ],
       "list": [
-        "Capture and nurture leads across multiple channels",
-        "Monitor sales activities and opportunities in real-time "
+        "Capture and nurture leads across multiple channels with intelligent CRM software tools",
+        "Monitor sales activities and track opportunities in real-time with a powerful, user-friendly CRM system. "
       ],
       "link": "/products/customer-relationship-management",
       "linkText": "EXPLORE CRM"
@@ -56,17 +56,17 @@
     "trading-software": {
       "image": "/images/about-us/product-treding.png",
       "subTitle": "About Tech Cloud Trading",
-      "titleLine1": "Real-time data for  ",
-      "titleLine2": "better",
-      "highlight": "decisions.",
-      "description": "Tech Cloud Trading Software is a complete ERP solution tailored for wholesale, retail and distribution businesses. It helps you manage the entire trading lifecycle from inquiries to delivery with real-time data, smart automation and seamless integration across departments.",
+      "titleLine1": "Real-time Data That ",
+      "titleLine2": "Drives Smarter ",
+      "highlight": "Decisions.",
+      "description": "Tech Cloud Trading is a smart ERP for trading business that simplifies wholesale, retail and distribution with real-time data, smooth team coordination and efficient operations.",
       "features": [
         { "icon": "/images/about-us/about4.png", "title": "Centralized Trading " },
         { "icon": "/images/about-us/about4.png", "title": "Real-Time Stock &  Insights" }
       ],
       "list": [
-        "Track sales, purchases, inventory and customer data in one unified platform for greater control and visibility.",
-        "Get live updates on stock movement, pricing, orders and customer activity to make quicker, more informed decisions."
+        "Manage sales, purchases, inventory and customer data in one unified platform to gain complete control and visibility across your operations.",
+        "Access instant updates on stock levels, pricing, orders and customer activity to make fast, informed decisions that boost efficiency and profitability."
       ],
       "link": "/products/customer-relationship-management",
       "linkText": "EXPLORE Trading"
@@ -74,17 +74,17 @@
     "Ecommerce-software": {
       "image": "/images/about-us/product-ecommerce.png",
       "subTitle": "About Tech Cloud Ecommerce",
-      "titleLine1": "Tech Cloud Ecommerce",
-      "titleLine2": "Software ",
-      "highlight": "Overview",
-      "description": "Tech Cloud Ecommerce Software is a powerful ERP-integrated ecommerce solution designed to streamline online sales, operations and customer experiences. Whether you're running B2B or B2C, our platform ensures end-to-end connectivity between your online store and back-end ERP system reducing errors, automating processes and boosting productivity.",
+      "titleLine1": "Maximize Operational Efficiency  with One",
+      "titleLine2": " Ecommerce ",
+      "highlight": "ERP Platform ",
+      "description": "Tech Cloud Ecommerce ERP connects your online store with ERP systems to simplify sales, automate workflows, reduce errors and boost efficiency for both B2B and B2C businesses.",
       "features": [
         { "icon": "/images/about-us/about4.png", "title": "Unified Ecommerce" },
         { "icon": "/images/about-us/about4.png", "title": "Real-Time Ecommerce " }
       ],
       "list": [
-        "Synchronise product catalogues, pricing, inventory and orders between your ERP and e-commerce platform for a consistent and accurate digital experience.",
-        "Access live data on online orders, stock availability, customer behaviour and shipping updates all from a single dashboard."
+        "Easily sync products, pricing, inventory and orders between your ERP and ecommerce for a smooth, accurate digital commerce experience.",
+        "With the best ecommerce ERP, you can see orders, inventory, customer behaviour and shipping in real time from a single dashboard."
       ],
       "link": "/products/customer-relationship-management",
       "linkText": "EXPLORE Ecommerce"

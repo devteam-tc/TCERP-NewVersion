@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/chemical_banner_img.webp",
-  "title": "Chemical Industry Solutions",
-  "description": "Advanced ERP solutions tailored for chemical manufacturers, ensuring safety compliance, process control and efficient material management while optimizing production workflows.",
+  "title": "Chemical Industry",
+  "description": "Advanced ERP solutions tailored for chemical manufacturers, ensuring safety compliance, process control and efficient material management while optimizing production workflows. Our chemical manufacturing ERP and chemical ERP support every stage of production with precision. From compliance to inventory, our chemical inventory management software and chemical manufacturing software streamline operations.",
   "keyPoints": [
-    "Process Safety Management",
-    "Hazardous Material Handling",
-    "Batch Process Control",
-    "Regulatory Compliance",
-    "Laboratory Information Management"
+    "Formula & Batch Management",
+    "Chemical Inventory Tracking & Replenishment",
+    "Quality Assurance & Regulatory Compliance",
+    "Hazardous Material Safety Controls",
+    "Costing & Yield Analysis"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/chemical-process.png",
-      "title": "Process Management",
-      "description": "Comprehensive process control and monitoring system for chemical manufacturing operations.",
+      "title": "Formula & Batch Management",
+      "description": "Control chemical formulations and batch operations with accuracy to meet quality and safety benchmarks.",
       "list": [
-        "Batch Processing",
-        "Process Automation",
-        "Real-time Monitoring"
+        "Formula-Based BOMs & Versioning",
+        "Batch Traceability & Audit Logs",
+        " Custom Batch Size Calculations"
       ]
     },
     {
       "image": "/images/industry-icons/chemical-safety.png",
-      "title": "Safety & Compliance",
-      "description": "Integrated safety and compliance management system for chemical operations.",
+      "title": "Compliance & Safety Control",
+      "description": "Meet strict industry regulations while safely managing hazardous materials and real-time inventory flow.",
       "list": [
-        "Safety Protocols",
-        "Regulatory Tracking",
-        "Environmental Monitoring"
+        "Integrated MSDS, REACH, GHS Compliance",
+        "Real-Time Hazard Alerts",
+        "Chemical Storage & Handling Monitoring"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle hazardous material management?",
-      "answer": "Our system provides comprehensive hazardous material tracking, including SDS management, storage conditions monitoring and automated safety protocol enforcement."
+      "question": "What is chemical manufacturing ERP and how does it help?",
+      "answer": "Chemical manufacturing ERP is a specialized solution that manages formulation, inventory, quality and compliance, helping streamline chemical production operations."
     },
     {
       "id": 2,
-      "question": "What regulatory compliance features are included?",
-      "answer": "The system includes features for EPA, OSHA and international chemical regulations compliance, with automated documentation, reporting and audit trail capabilities."
+      "question": " Can this ERP manage hazardous materials and safety regulations?",
+      "answer": "Yes, our chemical software includes tools for MSDS, GHS labeling, REACH tracking and hazardous inventory management to meet global safety standards."
     },
     {
       "id": 3,
-      "question": "Can it integrate with laboratory equipment?",
-      "answer": "Yes, our solution integrates with various laboratory instruments and LIMS systems, providing seamless data flow between quality control labs and production."
+      "question": "How does chemical inventory management software improve accuracy?",
+      "answer": "Our chemical inventory management software provides real-time stock levels, expiry tracking and auto-replenishment to minimize waste and stockouts."
     }
   ],
   "industry": "Chemical",
