@@ -28,7 +28,17 @@ const BusinessSection = () => {
                 {introSection.features.map((item, index) => (
                   <div key={index} className="col-sm-6">
                     <div className="businessItems">
-                      <Image src={item.icon} alt="icon" width={50} height={50} />
+                      <Image 
+                        src={item.img} 
+                        alt="image" 
+                        width={60} 
+                        height={60} 
+                        style={{
+                          width: '60px',
+                          height: '60px',
+                          objectFit: 'contain'
+                        }}
+                      />
                       <h5>
                         <Link href="/" className="black">
                           {item.title}

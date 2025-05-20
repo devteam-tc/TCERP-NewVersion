@@ -1,10 +1,10 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 
 const CategorySection = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const categories = [
-<<<<<<< HEAD
     {
       title: "ERP",
       desc: "Integrates finance, HR and inventory into one system, automating processes and boosting efficiency for better decision-making.",
@@ -54,17 +54,6 @@ const CategorySection = () => {
       icon: "/images/products/white/Finance_white.png",
       orangeicon: "/images/products/Finance.png",
     },
-=======
-    { title: "ERP", desc: "Integrates finance, HR and inventory into one system, automating processes and boosting efficiency for better decision-making.", color: "light_blue" },
-    { title: "CRM", desc: "Manages customer interactions and data, enhancing sales, service and relationships for stronger customer connections.", color: "blue" },
-    { title: "POS", desc: "Ensures secure sales transactions, integrates with inventory and customer data and provides real-time updates for efficiency.", color: "green" },
-    { title: "Trading Software", desc: "It helps optimize procurement, inventory and order management with real-time tracking, thus enhancing workflows automatically.", color: "gray" },
-    { title: "E - commerce", desc: "Online stores management with product catalogs, payment systems and real-time updates to improve customer experience.", color: "orange" },
-    { title: "HRM", desc: "It automates payroll, attendance, recruitment and performance management for an efficient workforce while keeping track of compliance.", color: "red" },
-    { title: "Integrated with CRM, Ecommerce, POS", desc: "Sales, inventory and customer data are integrated, enabling automation and improving efficiency.", color: "violet" },
-    // { title: "Restaurant ERP", desc: "The integration of order management, inventory, HR and accounting automates tasks for efficient restaurant operations.", color: "yellow" },
-    { title: "Accounting Software", desc: "Automates bookkeeping, invoicing, tax calculations and legal compliance, providing real-time financial insights and streamlined management.", color: "teal" },
->>>>>>> origin/sowmya
   ];
   
 
@@ -88,7 +77,7 @@ const CategorySection = () => {
             >
               <div className={`tf__single_category ${item.color}`}>
                 <div className="tf__single_category_icon">
-                  <img
+                  <Image
                     className="icon-default"
                     src={hoveredIndex === index ? item.orangeicon : item.icon}
                     alt={`${item.title} icon`}

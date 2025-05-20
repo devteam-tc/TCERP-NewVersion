@@ -11,7 +11,7 @@
   ],
   "infoCards": [
     {
-      "image": "/images/industry-icons/Production_Control.png",
+      "image": "/images/industry-icons/foundry_control.png",
       "title": "Foundry Control",
       "description": "Complete foundry operations management with real-time monitoring of casting processes and quality parameters.",
       "list": [
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "image": "/images/industry-icons/Resource_Management.png",
+      "image": "/images/industry-icons/material_flow.png",
       "title": "Material Flow",
       "description": "Streamlined management of casting materials, alloys, and consumables with automated tracking and optimization.",
       "list": [

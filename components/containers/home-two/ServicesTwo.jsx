@@ -68,7 +68,14 @@ const ServicesTwo = () => {
                             <Image 
                               src={service.image} 
                               alt="service-img" 
+                              width={400}
+                              height={250}
                               className="img-fluid w-100" 
+                              style={{
+                                width: '100%',
+                                height: '250px',
+                                objectFit: 'cover'
+                              }}
                             />
                           </Link>
                         </div>

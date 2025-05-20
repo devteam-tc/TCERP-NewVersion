@@ -55,8 +55,8 @@ const Footer = () => {
                     <ul className="list-unstyled">
                     {/* <i className="fas fa-chevron-right"></i>  */}
                       <li><Link href="/">Home</Link></li>
-                      <li><Link href="/about"> About Us</Link></li>
-                      <li><Link href="/contact"> Contact Us</Link></li>
+                      <li><Link href="/about-us"> About Us</Link></li>
+                      <li><Link href="/contact-us"> Contact Us</Link></li>
                       <li><Link href="/features"> Our Features</Link></li>
                       <li><Link href="/blogs"> Our Blogs</Link></li>
                       <li><Link href="/our-locations"> Our Locations</Link></li>

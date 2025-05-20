@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import locations from "../../../data/contact/locations.json";
 import "./MapSection.scss";
+import Image from "next/image";
 
 const MapSection = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -34,10 +35,12 @@ const MapSection = () => {
               onKeyDown={e => { if (e.key === "Enter") handleOpenModal(loc.mapUrl); }}
             >
               <div className="mapsection__circle">
-                <img
+                <Image
                   src={loc.imageUrl}
                   alt={`${loc.city} location`}
                   className="mapsection__circle-image"
+                  width={200}
+                  height={200}
                   style={{
                     width: "100%",
                     height: "100%",

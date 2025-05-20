@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import { Table, Container, Row, Col } from 'react-bootstrap';
 import comparisonData from '../../../data/pricing/comparison.json';
 
 const Checkmark = () => (
@@ -19,46 +20,59 @@ const ComparePlans = () => {
   };
 
   return (
-    <section className="comparePlans">
-      <h2>
-        <span>{title.main}</span>
-        {title.sub}
-      </h2>
-      <p>{title.description}</p>
+    <Container fluid className="comparePlans">
+      <Row className="justify-content-center">
+        <Col xs={12} className="text-center">
+          <h2>
+            <span>{title.main}</span>
+            {title.sub}
+          </h2>
+          <p>{title.description}</p>
+        </Col>
+      </Row>
 
-      <div className="table" role="table" aria-label="Pricing comparison table">
-        <div className="row header" role="row">
-          <div className="cell" style={{justifyContent: 'center !important;'}} role="columnheader">
-            <strong >Features and Services</strong>
+      <Row className="justify-content-center">
+        <Col xs={12}>
+          <div className="table-responsive">
+            <Table className="comparison-table" hover>
+              <thead>
+                <tr>
+                  <th className="feature-column">Features and Services</th>
+                  {plans.map((plan, i) => (
+                    <th key={i} className="text-center">
+                      <h3>{plan.name}</h3>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {features.map((feature, idx) => (
+                  <tr 
+                    key={idx}
+                    onMouseEnter={() => setHoveredFeature(feature.key)}
+                    onMouseLeave={() => setHoveredFeature(null)}
+                  >
+                    <td className="feature-column">
+                      {feature.label}
+                      {feature.description && hoveredFeature === feature.key && (
+                        <div className="feature-tooltip">
+                          {feature.description}
+                        </div>
+                      )}
+                    </td>
+                    {plans.map((plan, i) => (
+                      <td key={i} className="text-center">
+                        {renderFeatureCell(plan, feature.key)}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </Table>
           </div>
-          {plans.map((plan, i) => (
-            <div key={i} className="cell" role="columnheader">
-              <strong>{plan.name}</strong>
-            </div>))}
-        </div>
-
-        {features.map((feature, idx) => (
-          <div className="row" key={idx} role="row"
-            onMouseEnter={() => setHoveredFeature(feature.key)}
-            onMouseLeave={() => setHoveredFeature(null)}
-          >
-            <div className="cell" role="cell">
-              {feature.label}
-              {feature.description && hoveredFeature === feature.key && (
-                <div className="feature-tooltip">
-                  {feature.description}
-                </div>
-              )}
-            </div>
-            {plans.map((plan, i) => (
-              <div key={i} className="cell" role="cell">
-                {renderFeatureCell(plan, feature.key)}
-              </div>
-            ))}
-          </div>
-        ))}
-      </div>
-    </section>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

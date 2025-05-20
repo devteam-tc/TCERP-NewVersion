@@ -69,7 +69,7 @@ export const menus = [
   {
     id: 2,
     title: "About",
-    link: "/about",
+    link: "/about-us",
   },
   industriesMenu,
   {
@@ -150,7 +150,7 @@ export const menus = [
   {
     id: 7,
     title: "Contact",
-    link: "/contact",
+    link: "/contact-us",
   },
   {
     id: 8,

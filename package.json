@@ -44,12 +44,7 @@
     "@types/react": "19.0.10",
     "eslint": "^9",
     "eslint-config-next": "15.2.2",
-<<<<<<< HEAD
     "firebase-tools": "^14.3.1"
-=======
-    "webpack": "^5.99.7",
-    "webpack-cli": "^6.0.1"
->>>>>>> origin/sowmya
   },
   "homepage": "https://github.com/devteam-tc/TCERP-NewVersion#readme",
   "bugs": {

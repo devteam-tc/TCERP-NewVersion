@@ -11,7 +11,7 @@
   ],
   "infoCards": [
     {
-      "image": "/images/industry-icons/furniture-production.png",
+      "image": "/images/industry-icons/furniture-design.png",
       "title": "Design & Order Configuration",
       "description": "Manage diverse furniture models and custom orders with ease using centralized configuration tools.",
       "list": [
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "image": "/images/industry-icons/furniture-inventory.png",
+      "image": "/images/industry-icons/fur-Inventory.png",
       "title": "Inventory & Material Consumption",
       "description": "Gain control over raw materials, finished goods and warehouse processes across locations.",
       "list": [

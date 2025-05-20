@@ -7,7 +7,7 @@ const CreativeSection = () => {
       <div className="scrolling-bg"></div>
       <div className="staticImages">
         <Image 
-          src="/footer/cargif.png" 
+          src="/footer/car.webp" 
           alt="Creative Section"
           width={300}
           height={300}
