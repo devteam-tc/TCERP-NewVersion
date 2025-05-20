@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/pharmaceutical_banner_img.webp",
+  "title": "Pharmaceutical Industry",
+  "description": "Boost operational efficiency, compliance and quality control with Tech Cloud Pharma ERP Software. Designed specifically as an ERP for Pharmaceutical Industry, it simplifies batch processing, inventory tracking and regulatory compliance. Our powerful Pharmaceutical ERP Software ensures complete traceability and real-time data flow across your entire pharma value chain.",
+  "keyPoints": [
+    "Batch Production & Quality Management",
+    "Regulatory Compliance & Documentation",
+    "Inventory & Expiry Management",
+    "Sales, Distribution & GST Accounting",
+    "Purchase & Supplier Control"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/pharma-production.png",
+      "title": "Batch Production & Quality Management",
+      "description": "Automate production processes with real-time batch tracking, standard operating procedures and integrated QA checks",
+      "list": [
+        "Formula-based Batch Manufacturing",
+        "BMR, BPR and SOP Integration",
+        "Quality Inspection & Lab Analysis"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/pharma-quality.png",
+      "title": "Inventory & Expiry Management",
+      "description": "Track raw materials and finished goods with multi-level inventory control and automatic expiry alerts.",
+      "list": [
+        "Batch-wise Inventory Control",
+        "Expiry & Reorder Notifications",
+        "Cold Chain & Hazardous Stock Handling"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "What is the purpose of using Pharma ERP software in the pharmaceutical industry?",
+      "answer": "Pharma ERP software helps manage and automate key processes such as production, inventory and compliance to improve accuracy and ensure regulatory alignment."
+    },
+    {
+      "id": 2,
+      "question": "Does the ERP support batch-wise manufacturing and traceability?",
+      "answer": "Yes, it includes batch processing capabilities with complete traceability, from raw material sourcing to final product distribution."
+    },
+    {
+      "id": 3,
+      "question": "Why choose Tech Cloud ERP for pharmaceutical companies?",
+      "answer": "Tech Cloud ERP offers a specialized pharmaceutical ERP solution that ensures efficiency, compliance and scalability tailored to the unique needs of pharma businesses."
+    }
+  ],
+  "industry": "Pharmaceutical Manufacturing",
+  "solution": "Integrated Pharmaceutical Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Document Control",
+    "Regulatory Compliance",
+    "R&D Management"
+  ],
+  "result": [
+    "45% faster batch release time",
+    "40% reduction in compliance costs",
+    "35% improvement in quality metrics"
+  ],
+  "customers": "200+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Pharmaceutical Manufacturing Guide",
+    "buttonText": "Download Now"
+  }
+}

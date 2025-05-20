@@ -1,0 +1,75 @@
+{
+  "banner": "/images/industries/medical_equipment_banner_img.webp",
+  "title": "Medical Equipment Manufacturing",
+  "description": "Advanced ERP solutions tailored for medical equipment manufacturers, ensuring regulatory compliance, quality control, and precision manufacturing while maintaining complete traceability and documentation. Our ERP software for Medical Device Manufacturers has been created to simplify intricate manufacturing operations while maintaining industry standards.",
+  "keyPoints": [
+    "BOM & Engineering Change Management",
+    " FDA, ISO & GMP Regulatory Compliance",
+    "Product Serialization & Lot Tracking",
+    "Document Control & Audit Trail",
+    "CAPA & Non-Conformance Management"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/medical-production.png",
+      "title": "ERP for Medical Devices",
+      "description": "We provides a powerful ERP solution tailored for medical device makers, streamlining compliance-heavy production and accelerating time-to-market.",
+      "list": [
+        " From Design to Production",
+        " UDI Tracking & Traceability",
+        " Real-Time Compliance Reports",
+        "Supplier Risk & Qualification"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/medical-quality.png",
+      "title": "End-to-End Healthcare ERP",
+      "description": "Our ERP offers full lifecycle visibility from sourcing to service supporting quality and operational excellence in medical manufacturing.",
+      "list": [
+        "Inventory & Procurement Control",
+        " QA & Testing Modules",
+        "Equipment Maintenance",
+        "Multi-site, Multi-currency, GST-Ready"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "Why is Medical ERP critical for medical equipment manufacturers?",
+      "answer": "It ensures regulatory compliance, real-time quality tracking and documentation, which are mandatory in the medical manufacturing space."
+    },
+    {
+      "id": 2,
+      "question": "Can ERP in Medical manufacturing manage design and change controls?",
+      "answer": "Yes. Our Medical Device ERP includes engineering change order (ECO) management, design version control and document traceability."
+    },
+    {
+      "id": 3,
+      "question": "How does the ERP help with FDA compliance?",
+      "answer": "The system supports full audit trails, e-signatures, validation protocols and traceability features required for FDA and other global regulations."
+    }
+  ],
+  "industry": "Medical Equipment Manufacturing",
+  "solution": "Integrated Medical Device Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Compliance Tracking",
+    "Document Control",
+    "Device History Records"
+  ],
+  "result": [
+    "45% faster validation process",
+    "40% reduction in compliance costs",
+    "35% improvement in quality metrics"
+  ],
+  "customers": "200+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Medical Device Manufacturing Guide",
+    "buttonText": "Download Now"
+  }
+}

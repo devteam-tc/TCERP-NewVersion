@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/electronics_banner_img.webp",
+  "title": "Electronics Industry",
+  "description": "Our advanced Electronics ERP solutions are specially designed for electronics manufacturers to streamline production, manage electronic components efficiently and ensure top-notch quality control. With our ERP for electronics manufacturing, businesses can optimize every stage of the production process while staying compliant with industry regulations.",
+  "keyPoints": [
+    " BOM & Product Lifecycle Management",
+    "Electronic Components Inventory Software",
+    " Assembly Line Monitoring",
+    " Procurement & Supplier Integration",
+    "Quality Control & Compliance"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/electronics-production.png",
+      "title": "Production & Inventory Control",
+      "description": "Manage complex assemblies and electronic parts with real-time tracking and accurate inventory forecasting.",
+      "list": [
+        "Multi-Level BOM Handling",
+        "Individual Inventory & Batch Tracking",
+        "Electronic Components Inventory Software"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/electronics-quality.png",
+      "title": "Compliance & Quality Assurance",
+      "description": "Ensure consistent quality and meet global industry standards with streamlined QA and documentation tools.",
+      "list": [
+        "Real-Time Quality Checks",
+        "Regulatory Compliance Reports",
+        " Fault & Rejection Analysis"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "What is ERP for electronics manufacturing?",
+      "answer": "A single solution that to control and manage components, production workflows, quality control and compliance for manufacturers of electronic goods."
+    },
+    {
+      "id": 2,
+      "question": "How does your ERP handle inventory for electronic parts?",
+      "answer": "Our electronic components inventory software provides real-time tracking, stock level alerts and multi-location visibility for all parts and materials."
+    },
+    {
+      "id": 3,
+      "question": "Can your ERP support both electrical and electronics manufacturing?",
+      "answer": "Yes, our ERP for electrical and electronics manufacturing is built to support a wide range of operations, from basic assembly to advanced PCB manufacturing."
+    }
+  ],
+  "industry": "Electronics",
+  "solution": "Integrated Electronics Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Inventory Management",
+    "Quality Assurance",
+    "BOM Management",
+    "Process Automation"
+  ],
+  "result": [
+    "40% increase in production efficiency",
+    "45% reduction in component stockouts",
+    "35% improvement in quality yield"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Electronics Manufacturing Guide",
+    "buttonText": "Download Now"
+  }
+}

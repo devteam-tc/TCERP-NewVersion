@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/food_banner_img.webp",
+  "title": "Food Industry",
+  "description": "Advanced ERP solutions designed for food manufacturers, ensuring food safety compliance, quality control and efficient production while optimizing supply chain and inventory management.",
+  "keyPoints": [
+    "Food Safety & Compliance",
+    "Recipe & Batch Management",
+    "Quality Control & Testing",
+    "Supply Chain Traceability",
+    "Inventory & Shelf Life Control"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/batch_control.png",
+      "title": "Batch Control",
+      "description": "Advanced batch processing and recipe management system for precise food manufacturing.",
+      "list": [
+        "Recipe Management",
+        "Batch Processing",
+        "Production Scheduling"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/safety_control.png",
+      "title": "Safety Control",
+      "description": "Comprehensive food safety and quality management system with compliance tracking.",
+      "list": [
+        "Quality Testing",
+        "Safety Compliance",
+        "Allergen Control"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system ensure food safety compliance?",
+      "answer": "Our system provides comprehensive food safety management including HACCP compliance, allergen control, quality testing workflows and complete traceability from raw materials to finished products."
+    },
+    {
+      "id": 2,
+      "question": "What traceability features are included?",
+      "answer": "The system offers end-to-end traceability with lot tracking, supplier management and recall capabilities, ensuring compliance with food safety regulations and quick response to quality issues."
+    },
+    {
+      "id": 3,
+      "question": "Can it handle recipe and nutritional management?",
+      "answer": "Yes, our solution includes detailed recipe management with version control, nutritional analysis, allergen tracking and scaling capabilities while protecting proprietary formulations."
+    }
+  ],
+  "industry": "Food",
+  "solution": "Integrated Food Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Recipe Management",
+    "Inventory Control",
+    "Compliance Tracking"
+  ],
+  "result": [
+    "45% improvement in production efficiency",
+    "50% reduction in quality incidents",
+    "40% better inventory accuracy"
+  ],
+  "customers": "400+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Food Industry Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}

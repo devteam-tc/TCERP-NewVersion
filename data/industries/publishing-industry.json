@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/publishing_banner_img.webp",
+  "title": "Publishing Industry",
+  "description": "Tech Cloud Publishing ERP Software is designed to meet the unique needs of the publication world. Whether you’re a magazine house or a book publishing company, our tailored ERP for book publishers streamlines editorial planning, inventory, royalties and distribution. This scalable ERP for publishers connects your teams from content creation to delivery on a single digital platform.",
+  "keyPoints": [
+    "Title Management & Editorial Workflow",
+    "Inventory & Print Order Control",
+    "Sales & Royalty Accounting",
+    "Digital & Physical Distribution",
+    "Author & Agent Contract Management"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/publishing-content.png",
+      "title": "Title Management & Editorial Workflow",
+      "description": "Manage manuscripts, revisions, reviews and approvals with workflow automation",
+      "list": [
+        "Editorial Task Scheduling",
+        "Metadata & ISBN Control",
+        "Multi-format Publishing (print, eBook etc.)"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/publishing-digital.png",
+      "title": "Inventory & Print Order Control",
+      "description": "Optimize print runs, reduce waste and monitor stock across multiple warehouses.",
+      "list": [
+        "Print Forecasting & Budgeting",
+        "Real-time Inventory Visibility",
+        "Return & Remainder Handling"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "Can this ERP manage both digital and physical publications?",
+      "answer": "Yes. Our Publishing ERP allows publishers to manage print, eBooks and other digital formats within a single system."
+    },
+    {
+      "id": 2,
+      "question": "How does the ERP help with royalty calculations?",
+      "answer": "It automates royalty tracking, author contracts and payments making it ideal ERP for Publishers who deal with multiple revenue streams."
+    },
+    {
+      "id": 3,
+      "question": "Is it suitable for both small publishers and large publication houses?",
+      "answer": "Absolutely. Tech Cloud ERP for Book Publishers is modular and scalable making it perfect for all sizes of publishing operations."
+    }
+  ],
+  "industry": "Publishing",
+  "solution": "Integrated Publishing Management System",
+  "modules": [
+    "Content Management",
+    "Digital Publishing",
+    "Rights Management",
+    "Distribution Control",
+    "Analytics Dashboard"
+  ],
+  "result": [
+    "45% faster publishing cycle",
+    "40% improvement in workflow efficiency",
+    "35% better royalty management"
+  ],
+  "customers": "250+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Publishing Industry Guide",
+    "buttonText": "Download Now"
+  }
+}

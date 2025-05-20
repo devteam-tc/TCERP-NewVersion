@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/garment_banner_img.webp",
+  "title": "Garment Industry",
+  "description": "Tech Cloud's ERP software for garment industry streamlines production from design to delivery. Our Garment ERP software simplifies style tracking, costing, and quality checks for efficient operations. Whether for bulk or custom orders, our software for garment manufacturing helps you stay agile and competitive.",
+  "keyPoints": [
+    "Style, Size & Color Matrix Management",
+    "BOM & Cost Sheet Generation",
+    "Cutting, Stitching & Finishing Workflow",
+    "Order Management (Bulk & Custom)",
+    " Quality, Compliance & Shipment Tracking"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/garment-production.png",
+      "title": "Design & Style Management",
+      "description": "Streamline design approvals and style-wise tracking across multiple product lines and variants.",
+      "list": [
+        "Centralized Design Repository",
+        " Style-Size-Color Configuration",
+        "Version Control & Design Revisions"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/garment-quality.png",
+      "title": "Production & Workflow Automation",
+      "description": "Automate key processes to improve output, manage resources, and ensure on-time delivery.",
+      "list": [
+        "Production Planning & Line Allocation",
+        "Stitching & Finishing Workflow",
+        " WIP Monitoring & Line Balancing"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "What does Garment ERP software do for apparel businesses?",
+      "answer": "Garment ERP software manages everything from design, sourcing, production, to dispatch while improving operational efficiency and cost control."
+    },
+    {
+      "id": 2,
+      "question": "Can the ERP system handle both bulk and custom garment orders?",
+      "answer": "Yes, our ERP for garment manufacturing supports made-to-order and mass production with customizable workflows and real-time tracking."
+    },
+    {
+      "id": 3,
+      "question": "How does the software help manage variants like size and color?",
+      "answer": "Our software for garment manufacturing includes a robust matrix management system that tracks SKUs by size, color, and style."
+    }
+  ],
+  "industry": "Garment",
+  "solution": "Integrated Garment Manufacturing System",
+  "modules": [
+    "Style Management",
+    "Production Control",
+    "Quality Assurance",
+    "Material Planning",
+    "Cost Management"
+  ],
+  "result": [
+    "40% improvement in production efficiency",
+    "35% reduction in material wastage",
+    "45% better quality compliance"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Garment Industry Guide",
+    "buttonText": "Download Now"
+  }
+}

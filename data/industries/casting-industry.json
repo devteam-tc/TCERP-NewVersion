@@ -1,0 +1,71 @@
+{
+  "banner": "/images/industries/casting-banner-img.jpeg",
+  "title": "Casting Industry",
+  "description": "Specialized ERP solutions for foundries and casting operations, optimizing production from pattern making to finished product delivery.",
+  "keyPoints": [
+    "Pattern & Mold Management",
+    "Production & Quality Control",
+    "Material & Inventory Management",
+    "Equipment & Maintenance",
+    "Process Optimization"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/foundry_control.png",
+      "title": "Foundry Control",
+      "description": "Complete foundry operations management with real-time monitoring of casting processes and quality parameters.",
+      "list": [
+        "Mold Management",
+        "Casting Process Control",
+        "Quality Assurance"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/material_flow.png",
+      "title": "Material Flow",
+      "description": "Streamlined management of casting materials, alloys, and consumables with automated tracking and optimization.",
+      "list": [
+        "Alloy Management",
+        "Raw Material Control",
+        "Inventory Optimization"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle quality control?",
+      "answer": "Our system provides comprehensive quality control tools including process monitoring, inspection checkpoints, and quality metrics tracking throughout the casting process."
+    },
+    {
+      "id": 2,
+      "question": "Can it manage different casting processes?",
+      "answer": "Yes, the solution supports various casting processes including sand casting, investment casting, die casting, and can be customized for specific process requirements."
+    },
+    {
+      "id": 3,
+      "question": "What kind of material management features are available?",
+      "answer": "The system offers complete material tracking, including raw materials, alloys, consumables, and finished products, with automated inventory alerts and material usage optimization."
+    }
+  ],
+  "industry": "Casting",
+  "solution": "Integrated Casting Management System",
+  "modules": [
+    "Production Management",
+    "Quality Control",
+    "Resource Management",
+    "Process Optimization"
+  ],
+  "result": [
+    "30% reduction in production defects",
+    "25% improvement in material efficiency",
+    "35% increase in production throughput"
+  ],
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Casting Solutions Brochure",
+    "buttonText": "Download Now"
+  }
+} 

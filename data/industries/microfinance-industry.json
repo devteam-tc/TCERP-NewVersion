@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/microfinance_banner_img.webp",
+  "title": "Micro Finance Industry",
+  "description": "Comprehensive ERP solutions designed for microfinance institutions, streamlining operations and ensuring financial transparency. Our microfinance software helps manage loans, clients and collections with ease. With microfinance ERP and microfinance management software, institutions can enhance efficiency and compliance. Ideal software for microfinance companies aiming for growth and impact.",
+  "keyPoints": [
+    "Loan Portfolio Management",
+    "Client Onboarding & KYC Compliance",
+    "Collection & Recovery",
+    " Financial Reporting & Audit Trails",
+    "Risk Assessment & Credit Scoring"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/microfinance-operations.png",
+      "title": "Loan & Client Management",
+      "description": "Manage borrower data, loan applications, repayment schedules and collections through a centralized system.",
+      "list": [
+        "Easy Client Onboarding",
+        "Loan Processing & Approval",
+        "EMI Scheduling & Alerts"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/microfinance-client.png",
+      "title": "Compliance & Finance",
+      "description": "Ensure regulatory compliance with built-in audit trails and reporting mechanisms tailored for microfinance operations.",
+      "list": [
+        "Audit-Ready Financial Records",
+        "Policy-Driven Workflow Automation",
+        "Multi-Branch Monitoring"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": " How does your microfinance software improve operational efficiency?",
+      "answer": "Our system automates loan tracking, client communication and payment collections, minimizing manual intervention and errors."
+    },
+    {
+      "id": 2,
+      "question": "Can the software support multi-branch operations and compliance needs?",
+      "answer": "Yes, the microfinance ERP supports multi-branch monitoring, policy enforcement and generates audit-ready reports for compliance."
+    },
+    {
+      "id": 3,
+      "question": "Is the platform customizable for different microfinance models?",
+      "answer": "Absolutely, our microfinance management software is flexible to support SHG, JLG, individual lending and other microfinance models."
+    }
+  ],
+  "industry": "Micro Finance",
+  "solution": "Integrated Microfinance Management System",
+  "modules": [
+    "Loan Management",
+    "Client Management",
+    "Collection Control",
+    "Risk Management",
+    "Impact Assessment"
+  ],
+  "result": [
+    "45% faster loan processing",
+    "40% improvement in collection efficiency",
+    "35% reduction in operational costs"
+  ],
+  "customers": "250+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Microfinance Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}

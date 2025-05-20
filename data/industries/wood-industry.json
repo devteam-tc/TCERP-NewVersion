@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/wood_banner_img.webp",
+  "title": "Wood Industry",
+  "description": "Optimize operations, reduce material waste and enhance order delivery with a specialized ERP for wood industry. Whether you're in timber processing, furniture manufacturing or custom carpentry, this powerful ERP software for wood manufacturing streamlines everything—from raw material procurement to final delivery. Manage production, inventory and finances in one centralized platform to boost efficiency and productivity.",
+  "keyPoints": [
+    "Procurement & Raw Material Management",
+    "Job Work & Production Planning",
+    " Machine Scheduling & Optimization",
+    " Inventory & Warehouse Management",
+    "Billing, Dispatch & Financials"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/wood-production.png",
+      "title": "Production & Job Work Management",
+      "description": "Plan and execute timber and furniture production efficiently",
+      "list": [
+        "Job Card Generation",
+        "Real-Time Production Tracking",
+        " Machine & Manpower Allocation"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/wood-quality.png",
+      "title": "Inventory & Material Usage",
+      "description": "Accurate stock control for wood, laminates, hardware and fittings",
+      "list": [
+        "Automated Stock Movement Logs",
+        " Waste & Scrap Management",
+        "Vendor Reorder Alerts & Supplier Integration"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": " What is wood industry ERP?",
+      "answer": "A dedicated wood industry ERP helps manufacturers manage raw timber, furniture components and custom-made designs while tracking production, inventory and finances seamlessly."
+    },
+    {
+      "id": 2,
+      "question": "How does ERP software help in wood manufacturing?",
+      "answer": " It automates procurement, optimizes cutting plans, schedules production and tracks inventory to minimize waste and improve efficiency."
+    },
+    {
+      "id": 3,
+      "question": "Can this ERP handle custom furniture orders?",
+      "answer": " Yes. Our custom furniture ERP allows you to manage detailed specifications, customer preferences and finish options in one place."
+    }
+  ],
+  "industry": "Wood Processing",
+  "solution": "Integrated Wood Manufacturing System",
+  "modules": [
+    "Resource Management",
+    "Production Control",
+    "Quality Assurance",
+    "Inventory Management",
+    "Sustainability Tracking"
+  ],
+  "result": [
+    "40% improvement in material yield",
+    "35% reduction in waste",
+    "45% better inventory accuracy"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Wood Industry Guide",
+    "buttonText": "Download Now"
+  }
+}

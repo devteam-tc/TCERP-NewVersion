@@ -1,0 +1,88 @@
+{
+    "services": [
+      {
+      "title": "Ideation & Planning",
+      "img": "/images/servicescards/Ideation&Planning.png",
+      "hoverImg": "/images/servicescards/white/Ideation&Planning-white.png",
+      "link": "/services/android-development",
+      "description": "Lay the foundation with clear goals, target audience and feature planning. Define your app's purpose and create a strategic roadmap for development.",
+      "icon": "/images/icons/android-icon.png",
+      "thumb": "/images/thumbs/android-thumb.png"
+      },
+      {
+      "title": "UI/UX Design",
+      "img": "/images/servicescards/UXDesign.png",
+      "hoverImg": "/images/servicescards/white/UXDesign-white.png",
+      "link": "/services/UXDesign",
+      "description": "Design intuitive, user-centric interfaces that ensure seamless navigation and a satisfying user experience, setting the stage for long-term engagement.",
+      "icon": "/images/icons/cross-platform-icon.png",
+      "thumb": "/images/thumbs/cross-platform-thumb.png"
+      },
+      {
+      "title": "Development & Integration",
+      "img": "/images/servicescards/Development&Integration.png",
+      "hoverImg": "/images/servicescards/white/Development&Integration-white.png",
+      "link": "/services/enterprise-mobile",
+      "description": "Build the app using cross-platform technologies for iOS and Android.Incorporate essential features like offline access and system integrations.",
+      "icon": "/images/icons/enterprise-icon.png",
+      "thumb": "/images/thumbs/enterprise-thumb.png"
+      },
+      {
+      "title": "Launch & Engagement",
+      "img": "/images/servicescards/LaunchEngagement.png",
+      "hoverImg": "/images/servicescards/white/LaunchEngagement-white.png",
+      "link": "/services/mobile-ui",
+      "description": "Deploy your app and boost user retention with push notifications, real-time updates and continuous improvements based on user feedback.",
+      "icon": "/images/icons/ui-icon.png",
+      "thumb": "/images/thumbs/ui-thumb.png"
+      }
+      
+    ],
+    "about": {
+      "subtitle": "KNOW ABOUT OUR APP DEV",
+      "heading": "Innovative App Development That Drives Results",
+      "paragraph": "Our team creates tailored mobile and desktop apps that solve real business challenges. Whether it's cross-platform or native, we build with performance, security and growth in mind.",
+      "features": [
+        "Agile Development Approach",
+        "Enterprise-grade Security Standards",
+        "Optimized for Speed, UX & Market Fit"
+      ],
+      "imageMain": "/images/servicescards/app-development.png",
+      "imageDecor": "/images/servicescards/dot-grp1.png"
+    },
+    "faq": [
+      {
+        "question": "Why is mobile app development important for my website?",
+        "answer": "Mobile app development helps extend your website’s reach by offering users a seamless, on-the-go experience that boosts engagement and retention."
+      },
+      {
+        "question": "What technologies are used in developing an app from a website?",
+        "answer": "Popular technologies include React Native, Flutter, Swift, Kotlin, and backend tools like Node.js or Firebase for developing an app effectively."
+      },
+      {
+        "question": "Is mobile app development secure for e-commerce websites?",
+        "answer": "Absolutely. Secure mobile app development includes encryption, secure APIs, and compliance with industry standards to protect user data and transactions."
+      },
+      {
+        "question": "Do you provide app maintenance services?",
+        "answer": "Yes, we offer ongoing maintenance services including regular updates, security patches, performance optimization, and feature enhancements to keep your app current and competitive."
+      }
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": " App Strategy",
+        "description": "We define your app’s goals, target users and platform to build a strong foundation."
+      },
+      {
+        "step": 2,
+        "title": "Design & Development",
+        "description": "We craft stunning UI/UX and develop a secure, high-performance app tailored to your needs."
+      },
+      {
+        "step": 3,
+        "title": " Testing & Launch",
+        "description": "After thorough testing, we deploy your app to stores and ensure it runs smoothly with ongoing support."
+      }
+    ]
+  } 

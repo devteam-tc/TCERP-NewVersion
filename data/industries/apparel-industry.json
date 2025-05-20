@@ -1,0 +1,72 @@
+{
+  "banner": "/images/industries/apparel-banner_img.webp",
+  "title": "Apparel Industry",
+  "description": "Comprehensive ERP solutions designed for apparel and fashion businesses, streamlining processes from design to retail distribution. Our apparel ERP software and apparel manufacturing software help manage operations with precision and speed. From production to stock control, our clothing manufacturing software ensures efficiency at every stage.",
+  "keyPoints": [
+    "Design & Production Management",
+    "Material Resource Planning (MRP)",
+    "Inventory & Stock Control",
+    "Order Management & Tracking",
+    "Costing & Profitability Tracking"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/apparel_management.png",
+      "title": "Apparel Production ",
+      "description": "End-to-end ERP for apparel businesses from design to delivery with real-time operational control.",
+      "list": [
+        "Design & Product Development",
+        "Inventory & Material Management",
+        "Production & Quality Control"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/production_analytics.png",
+      "title": "Distribution & Analytics",
+      "description": "Optimize your supply chain and gain insights with advanced reporting tools for faster, smarter decisions.",
+      "list": [
+        "Production Planning & Scheduling",
+        "Quality Assurance Metrics",
+        "Retail & Distribution Tracking"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle seasonal collections?",
+      "answer": "Our system provides comprehensive collection planning tools including design management, material requirements planning and production scheduling for seasonal collections."
+    },
+    {
+      "id": 2,
+      "question": "Can it manage multiple size and color variations?",
+      "answer": "Yes, the system supports matrix management for size, color and style variations with advanced inventory tracking and production planning features."
+    },
+    {
+      "id": 3,
+      "question": "What kind of quality control features are included?",
+      "answer": "The system includes detailed quality control modules with inspection planning, defect tracking and quality metrics reporting across the production process."
+    }
+  ],
+  "industry": "Apparel & Fashion",
+  "solution": "Integrated Fashion Management System",
+  "modules": [
+    "Design Management",
+    "Production Planning",
+    "Inventory Control",
+    "Quality Management",
+    "Distribution"
+  ],
+  "result": [
+    "40% reduction in design-to-production time",
+    "35% improvement in inventory accuracy",
+    "25% decrease in production costs"
+  ],
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Fashion Industry Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}

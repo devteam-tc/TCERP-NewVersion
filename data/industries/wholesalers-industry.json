@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/wholesale_banner_img.webp",
+  "title": "Wholesale Industry",
+  "description": "Comprehensive wholesale ERP solutions designed for distributors, streamlining inventory management, order fulfillment and supply chain. Our powerful food distribution system optimizes customer service, multi-location management and operational efficiency. ",
+  "keyPoints": [
+    "Centralized Inventory Management",
+    "Automated Order Processing",
+    "Real-Time Supply Chain Visibility",
+    "Integrated Financial Controls",
+    "Multi-Location Warehouse Management"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/wholesale-operations.png",
+      "title": "Inventory & Order Management",
+      "description": "Efficiently manage stock movements and automate replenishments to prevent stockouts or overstock scenarios.",
+      "list": [
+        " Centralized Inventory Control",
+        "Barcode & Batch Tracking",
+        " Order Status & Delivery Scheduling"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/wholesale-billing.png",
+      "title": "Billing & Financial Control",
+      "description": "Accelerate billing cycles and ensure precise financial records with integrated billing software for distributors.",
+      "list": [
+        "Automated Invoice Generation",
+        "Payment Tracking & Credit Management",
+        "Financial Reporting & Compliance"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does Tech Cloud’s Wholesale ERP improve inventory management?",
+      "answer": "Our wholesale business ERP offers real-time inventory management, automatic replenishment alerts and centralized governance, which minimize stock variance and improve order accuracy."
+    },
+    {
+      "id": 2,
+      "question": "Can the software handle multi-location operations?",
+      "answer": "Yes, our distributor software handles multiple warehouses and locations with ease ensuring synchronized data and efficient operations across all sites."
+    },
+    {
+      "id": 3,
+      "question": "Is the billing system integrated with financial reporting?",
+      "answer": "Absolutely. The integrated billing software for distributors ensures accurate invoicing, payment tracking and comprehensive financial reporting, facilitating compliance and strategic decision-making."
+    }
+  ],
+  "industry": "Wholesale Distribution",
+  "solution": "Integrated Wholesale Management System",
+  "modules": [
+    "Order Management",
+    "Inventory Control",
+    "Logistics Management",
+    "Customer Management",
+    "Financial Control"
+  ],
+  "result": [
+    "45% faster order processing",
+    "40% improvement in inventory turnover",
+    "35% reduction in logistics costs"
+  ],
+  "customers": "400+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Wholesale Distribution Guide",
+    "buttonText": "Download Now"
+  }
+}

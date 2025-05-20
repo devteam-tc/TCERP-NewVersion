@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/metal_fabrication_banner_img.webp",
+  "title": "Metal Fabrication Industry",
+  "description": "Advanced ERP solutions tailored for metal fabrication companies, optimizing manufacturing, quality control and project management. Our metal fabrication ERP software addresses the complex needs of fabrication and engineering operations. Designed as an ERP for engineering industry, it enhances precision and efficiency. ",
+  "keyPoints": [
+    "Integrated Production Planning",
+    "Real-Time Inventory Management",
+    "Quality Assurance & Compliance Tracking",
+    "Project Lifecycle Management",
+    "Financial Oversight & Cost Analysis"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/metal-production.png",
+      "title": "Production & Project Management",
+      "description": "Manage complex fabrication projects with tools that track progress, costs and resource utilization from start to finish.",
+      "list": [
+        "Detailed Project Planning",
+        "Real-Time Job Status Updates",
+        "Cost & Resource Optimization"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/metal-quality.png",
+      "title": "Quality & Compliance Control",
+      "description": "Ensure all fabrication outputs meet industry standards with automated inspections and compliance tracking features.",
+      "list": [
+        "Defect Tracking & Reporting",
+        "Regulatory Compliance Management",
+        "Automated Quality Alerts"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does metal fabrication ERP software improve production efficiency?",
+      "answer": "Our ERP system enables you to manage schedules, inventory and quality control, which eliminates downtime and improves overall accuracy."
+    },
+    {
+      "id": 2,
+      "question": " Is this ERP suitable for engineering and fabrication companies?",
+      "answer": " Yes, it is specifically designed as an ERP for engineering industry and ERP for fabrication industry to address their unique challenges."
+    },
+    {
+      "id": 3,
+      "question": "Can the software track project costs and resource usage?",
+      "answer": " Absolutely, it provides detailed job costing and resource tracking to help manage budgets and improve profitability."
+    }
+  ],
+  "industry": "Metal Fabrication",
+  "solution": "Integrated Metal Fabrication System",
+  "modules": [
+    "Production Planning",
+    "Quality Management",
+    "Machine Control",
+    "Project Management",
+    "Material Planning"
+  ],
+  "result": [
+    "40% improvement in production efficiency",
+    "45% reduction in material waste",
+    "35% better project completion time"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Metal Fabrication Guide",
+    "buttonText": "Download Now"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/beverage_banner_img.webp",
+  "title": "Beverage Industry",
+  "description": "Comprehensive ERP solutions designed for beverage manufacturers, optimizing production, quality control and distribution while ensuring compliance with food safety standards.",
+  "keyPoints": [
+    "Recipe & Formula Management",
+    "Batch Production Control",
+    "Quality & Safety Compliance",
+    "Cold Chain Management",
+    "Distribution & Logistics"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/beverage-production.png",
+      "title": "Brewing Control",
+      "description": "Advanced brewing and beverage production management with precise process control and batch optimization.",
+      "list": [
+        "Process Automation",
+        "Batch Optimization",
+        "Equipment Monitoring"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/beverage-quality.png",
+      "title": "Quality Control",
+      "description": "End-to-end quality assurance system for beverage manufacturing with real-time monitoring and compliance tracking.",
+      "list": [
+        "Taste Testing",
+        "Microbial Analysis",
+        "Quality Metrics"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does the system handle recipe management?",
+      "answer": "Our system provides complete recipe management with version control, scaling capabilities and ingredient tracking while protecting proprietary formulations."
+    },
+    {
+      "id": 2,
+      "question": "What food safety compliance features are included?",
+      "answer": "The system includes comprehensive food safety compliance tools including HACCP monitoring, quality testing workflows and regulatory documentation management."
+    },
+    {
+      "id": 3,
+      "question": "Can it manage cold chain logistics?",
+      "answer": "Yes, our solution includes temperature-controlled logistics management, real-time monitoring and automated alerts for cold chain integrity maintenance."
+    }
+  ],
+  "industry": "Beverage",
+  "solution": "Integrated Beverage Manufacturing System",
+  "modules": [
+    "Recipe Management",
+    "Production Control",
+    "Quality Assurance",
+    "Inventory Management",
+    "Distribution Control"
+  ],
+  "result": [
+    "35% increase in production efficiency",
+    "40% reduction in quality incidents",
+    "45% improvement in inventory accuracy"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Beverage Solutions Brochure",
+    "buttonText": "Download Now"
+  }
+}

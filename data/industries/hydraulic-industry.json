@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/hydraulic_banner_img.webp",
+  "title": "Hydraulic Cylinders Industry",
+  "description": "Specialized ERP solutions designed for hydraulic cylinder manufacturers.Our intelligent solution covers every step from precision engineering to dispatch, ensuring quality, traceability, and compliance.With ERP software for the hydraulic industry, manage materials, track components, and maintain customer specs with confidence.",
+  "keyPoints": [
+    "Cylinder Design & BOM Control",
+    " CNC Production & Process Scheduling",
+    "Quality Testing & Pressure Certification",
+    "Inventory & Spares Management",
+    "Compliance with Hydraulic Standards"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/hydraulic-production.png",
+      "title": "Engineering & Product Configuration",
+      "description": "Support for complex hydraulic cylinder design with custom specifications and part-level configuration.",
+      "list": [
+        "CAD/BOM Integration",
+        "Custom Stroke & Bore Size Management",
+        "Part Traceability & Revision Control"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/hydraulic-quality.png",
+      "title": "Quality & Compliance Control",
+      "description": "Ensure high performance and safety through automated testing workflows and industry-compliant documentation.",
+      "list": [
+        "Hydraulic Pressure Test Management",
+        "Real-Time QC & Failure Analysis",
+        "Certification Management (ISO, DIN)"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": " How does your ERP help a hydraulic cylinder manufacturer?",
+      "answer": "Our hydraulic ERP system ensures complete control over design, machining, testing and logistics while maintaining precision and compliance."
+    },
+    {
+      "id": 2,
+      "question": "Can the ERP track cylinder components and variations?",
+      "answer": "Yes, the hydraulic cylinder manufacturer software allows tracking of each cylinder by type, configuration and customer-specific requirements."
+    },
+    {
+      "id": 3,
+      "question": " Is the system suitable for job-based and volume-based manufacturing?",
+      "answer": "Absolutely. Whether you're a custom hydraulic cylinder manufacturer or producing in batches, our ERP adapts to your process seamlessly."
+    }
+  ],
+  "industry": "Hydraulic Cylinders",
+  "solution": "Integrated Hydraulic Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Technical Documentation",
+    "Inventory Control",
+    "Engineering Change Management"
+  ],
+  "result": [
+    "45% improvement in production accuracy",
+    "40% reduction in quality issues",
+    "35% faster design-to-production time"
+  ],
+  "customers": "200+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Hydraulic Manufacturing Guide",
+    "buttonText": "Download Now"
+  }
+}

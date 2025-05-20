@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/paper_banner_img.webp",
+  "title": "Paper Industry",
+  "description": "Digitize your operations with Tech Cloud scalable ERP for Paper Industry tailored for paper mills and packaging converters. Our ERP Software for Paper Industry streamlines everything from raw material procurement to reel cutting and dispatch. Empower your plant with a powerful ERP for Paper Manufacturing that improves quality, productivity and profitability.",
+  "keyPoints": [
+    "Raw Material & Procurement Management",
+    "Paper Manufacturing & Reel Operations",
+    "Stock & Storage Management",
+    "Quality Assurance & Batch Traceability",
+    "Sales, Distribution & Financial Accounting"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/paper-production.png",
+      "title": "Paper Manufacturing & Reel Operations",
+      "description": "Streamline the production process with optimized planning, machine scheduling and reel-wise conversion tracking",
+      "list": [
+        "Machine-wise Production Scheduling",
+        "Reel Slitting & Cutting Automation",
+        "Waste Control & Efficiency Monitoring"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/paper-quality.png",
+      "title": "Stock & Storage Management",
+      "description": "Manage paper reels, pulp and chemical inventories in real time with intelligent stock alerts and automated warehouse movement",
+      "list": [
+        "Real-time Stock Visibility",
+        "Warehouse Bin Management",
+        "Batch & Lot Tracking"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does ERP help reduce paper wastage in manufacturing?",
+      "answer": "Our ERP for Paper Manufacturing offers detailed waste analysis, production monitoring and yield optimization tools to minimize losses."
+    },
+    {
+      "id": 2,
+      "question": "Can it handle multiple paper grades and GSM tracking?",
+      "answer": "Yes. Our ERP Software for Paper Industry manages multi-GSM multi-grade products with accurate specifications, batch processing and conversion tracking."
+    },
+    {
+      "id": 3,
+      "question": "Does the system support financial integration and GST compliance?",
+      "answer": "Absolutely. Tech Cloud ERP for Paper Industry offers complete finance tax and regulatory compliance including real-time GST reporting and audit trails."
+    }
+  ],
+  "industry": "Paper Manufacturing",
+  "solution": "Integrated Paper Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Environmental Control",
+    "Energy Management",
+    "Grade Management"
+  ],
+  "result": [
+    "40% improvement in production efficiency",
+    "45% reduction in quality variations",
+    "35% better environmental compliance"
+  ],
+  "customers": "250+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Paper Industry Guide",
+    "buttonText": "Download Now"
+  }
+}

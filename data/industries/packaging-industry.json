@@ -1,0 +1,73 @@
+{
+  "banner": "/images/industries/packaging_banner_img.webp",
+  "title": "Packaging Industry",
+  "description": "Streamline operations with Tech Cloud advanced Packaging Management Software built to meet the needs of modern packaging manufacturers. Our ERP for Packaging Industry enables end-to-end visibility across design, production and supply chain. Empower your business with smart Packaging ERP that enhances accuracy, speed and profitability.",
+  "keyPoints": [
+    "Packaging Design & Specification Management",
+    "Inventory & Supply Chain Optimization",
+    "Production Scheduling & Shop Floor Control",
+    "Quality & Compliance Management",
+    "Cost Tracking & Profitability Analysis"
+  ],
+  "infoCards": [
+    {
+      "image": "/images/industry-icons/packaging-production.png",
+      "title": "Packaging Design Management",
+      "description": "Manage packaging specifications, materials and version histories with centralized control for faster approvals and consistent outputs.",
+      "list": [
+        "Centralized Packaging Data",
+        "Version Control & Change Tracking",
+        "Automated Approval Workflow"
+      ]
+    },
+    {
+      "image": "/images/industry-icons/packaging-quality.png",
+      "title": "Quality & Compliance Management",
+      "description": "Ensure packaging quality meets industry standards with automated inspections and compliance tracking tools.",
+      "list": [
+        "Quality Control Automation",
+        "Regulatory Compliance (FDA, ISO etc.)",
+        "Real-Time Non-Conformance Alerts"
+      ]
+    }
+  ],
+  "faqData": [
+    {
+      "id": 1,
+      "question": "How does Packaging ERP improve design and development?",
+      "answer": "Our Packaging Software reduces errors by standardizing specification data, automating workflows and ensuring quick approvals for faster go-to-market."
+    },
+    {
+      "id": 2,
+      "question": "Can the ERP manage complex multi-format packaging operations?",
+      "answer": "Yes, Tech Cloud ERP for Packaging Industry supports multiple formats and materials with complete traceability from BOM to final output."
+    },
+    {
+      "id": 3,
+      "question": "Does the system offer live inventory and vendor tracking?",
+      "answer": "Yes, our Packaging Management Software gives real-time inventory visibility and supplier collaboration for smooth procurement and production planning."
+    }
+  ],
+  "industry": "Packaging",
+  "solution": "Integrated Packaging Manufacturing System",
+  "modules": [
+    "Production Control",
+    "Quality Management",
+    "Material Planning",
+    "Inventory Control",
+    "Sustainability Tracking"
+  ],
+  "result": [
+    "40% improvement in production efficiency",
+    "45% reduction in material waste",
+    "35% better quality compliance"
+  ],
+  "customers": "300+",
+  "downloadWidget": {
+    "bgShape": "/images/shapes/widget-bg.png",
+    "image": "/images/industry-icons/book-3.png",
+    "title": "Download Our",
+    "spanTitle": "Packaging Solutions Guide",
+    "buttonText": "Download Now"
+  }
+}
