@@ -6,6 +6,7 @@ import "swiper/swiper-bundle.css";
 import SectionTitle from "../SectionTitle";
 import { testimonials } from "../../../data/testmonial";
 import Image from "next/image";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Testimonial = () => {
   return (
@@ -28,11 +29,10 @@ const Testimonial = () => {
                   className="call-us-btn style2 d-flex align-items-center gap-3"
                 >
                   <span className="icon d-flex justify-content-center align-items-center">
-                    <i className="fa-solid fa-phone"></i>
+                    <FaPhoneAlt size={20} color="white" />
                   </span>
                   <div className="info">
                     <span className="title ">Call Us Anytime</span>
-                    {/* <h4 className="number">(704) 555-0127</h4> */}
                     <h4 className="number">+91 8919439603, +91 7032803200</h4>
                   </div>
                 </a>

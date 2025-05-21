@@ -3,6 +3,7 @@ import logo2 from '../../../public/images/logo/logo.svg';
 import Image from 'next/image';
 import ScrollProgressButton from '../ScrollProgressButton';
 import SocialMediaIcons from './SocialMediaIcons';
+import { FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -30,7 +31,7 @@ const Footer = () => {
                         <li>
                           <div className="d-flex align-items-center gap-2">
                             <div className="icon">
-                              <i className="fas fa-map-marker-alt"></i>
+                              <FaMapMarkerAlt size={20} />
                             </div>
                             <h4 className="title">Address </h4>
                           </div>
@@ -39,7 +40,7 @@ const Footer = () => {
                         <li>
                           <div className="d-flex align-items-center gap-2">
                             <div className="icon">
-                              <i className="fas fa-envelope"></i>
+                              <FaEnvelope size={20} />
                             </div>
                             <h4 className="title">Email </h4>
                           </div>

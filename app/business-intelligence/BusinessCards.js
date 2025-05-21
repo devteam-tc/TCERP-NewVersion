@@ -1,6 +1,8 @@
 import React from "react";
 import serviceData from "../../data/bi/cards-section.json"; // Adjust the alias if needed
 import SectionTitle from '../../components/containers/SectionTitle';
+import CardIcon from '../../components/containers/bi/CardIcon';
+import { FaArrowRight } from 'react-icons/fa';
 
 const BusinessCards = () => {
   return (
@@ -20,12 +22,12 @@ const BusinessCards = () => {
             <div className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" key={index}>
               <div className="tf__single_services">
                 <span>
-                  <i className={service.icon}></i>
+                  <CardIcon iconName={service.icon} />
                 </span>
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
                 <a href="#">
-                  <i className="fa fa-long-arrow-right"></i>
+                  <FaArrowRight size={20} />
                 </a>
               </div>
             </div>

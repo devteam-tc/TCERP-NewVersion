@@ -1,4 +1,3 @@
- 
 /* CSS Index
 ============================
 
@@ -38,14 +37,14 @@
 /*=============================
 	1. Google Fonts
 ===============================*/
-// @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 /*=============================
 	01. Variable CSS start
 ===============================*/
 
 :root {
-  --bs-font-primary: "Inter", sans-serif !important;
+  --bs-font-primary: "Inter", sans-serif;
   --bs-font-secondary: "Space Grotesk", sans-serif;
   --bs-Text-Dark-Color:#0B0A0A;
   --bs-primary-50:#fdeee9;
@@ -340,6 +339,9 @@ p {
 .pt-60 {
   padding-top: 60px;
 }
+.pt-20{
+  padding-top: 20px;
+}
 
 .pb-120 {
   padding-bottom: 120px;
@@ -500,6 +502,7 @@ p {
   .icon {
     width: 55px;
     height: 55px;
+    color: var(--bs-secondary-500);
     background: none;
     // background-color:var(--bs-secondary-color);
     border-radius: 50%;

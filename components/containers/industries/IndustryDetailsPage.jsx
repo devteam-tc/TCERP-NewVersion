@@ -96,7 +96,7 @@ const ProjectDetailsPage = ({ industrySlug }) => {
   }
 
   return (
-    <section className="ep-project-details-section pt-120">
+    <section className="ep-project-details-section pt-20">
       <div className="container">
         <div className="row align-items-start g-4">
           {/* Left column */}

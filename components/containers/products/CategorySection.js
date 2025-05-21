@@ -81,9 +81,10 @@ const CategorySection = () => {
                     className="icon-default"
                     src={hoveredIndex === index ? item.orangeicon : item.icon}
                     alt={`${item.title} icon`}
+                    width={40}
+                    height={40}
                     style={{ width: "40px", height: "40px" }}
-                    width={100}
-                    height={100}
+                    
                   />
                 </div>
 

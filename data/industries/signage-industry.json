@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/signage_banner_img.webp",
   "title": "Signage Industry",
-  "description": "Comprehensive ERP solutions designed for signage businesses, optimizing operations from design to installation and maintenance.",
+  "description": "Simplify and streamline your operations with powerful sign manufacturing ERP designed specifically for the signage industry. From project estimation and design to production and installation, a dedicated ERP software for sign companies helps manage jobs, materials and deadlines while improving customer satisfaction. With automation and real-time tracking, our custom signage ERP solution boosts visibility, reduces errors and maximizes profitability. We have a mobile application to help you manage operations on the go.",
   "keyPoints": [
-    "Design & Production Management",
-    "Project & Installation Tracking",
-    "Inventory & Material Management",
-    "Client & Order Management",
-    "Quality Control & Maintenance"
+    "Job Estimation & Quotation Management",
+    " Artwork & Proof Approval Workflow",
+    "Material Procurement & Inventory Control",
+    "Shop Floor Production Scheduling",
+    "Installation Management & Billing"
   ],
   "infoCards": [
     {
-      "image": "/images/industry-icons/Design_Production.png",
-      "title": "Design & Production",
-      "description": "Streamlined design workflow and production management for efficient signage manufacturing.",
+      "image": "/images/industry-icons/signage-production.png",
+      "title": "Job Management & Order Tracking",
+      "description": "Centralize all your signage projects from design to delivery.",
       "list": [
-        "Design Management",
-        "Production Scheduling",
-        "Quality Control"
+        "Digital Proof & Approval History",
+        " Task-Based Scheduling",
+        " Milestone Tracking & Client Communication"
       ]
     },
     {
-      "image": "/images/industry-icons/Project_Management.png",
-      "title": "Project Management",
-      "description": "Complete project lifecycle management from client order to installation and maintenance.",
+      "image": "/images/industry-icons/signage-project.png",
+      "title": "Inventory & Material Planning",
+      "description": "Control raw materials and reduce overstock or shortages.",
       "list": [
-        "Installation Tracking",
-        "Client Management",
-        "Service Scheduling"
+        "Material Requirements Planning",
+        " Vendor Pricing & PO Management",
+        "Scrap & Reuse Tracking"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle design approvals?",
-      "answer": "Our system provides a streamlined design approval workflow with client collaboration tools, version control, and digital proofing capabilities."
+      "question": " What is sign manufacturing ERP?",
+      "answer": " It’s a specialized solution tailored for sign-making companies to manage design, production, materials and customer delivery from a centralized system."
     },
     {
       "id": 2,
-      "question": "Can it track installation and maintenance schedules?",
-      "answer": "Yes, the solution includes comprehensive project management tools for tracking installations, maintenance schedules, and service requests."
+      "question": "Can this ERP handle both standard and custom signage jobs?",
+      "answer": " Yes. The sign business management software is built to manage complex custom orders, including varied materials, sizes and approval workflows."
     },
     {
       "id": 3,
-      "question": "What inventory management features are available?",
-      "answer": "The system offers complete inventory tracking for materials, equipment, and finished products, with automated reordering and stock level alerts."
+      "question": " How does the ERP help with artwork and approvals?",
+      "answer": " The system allows clients to review digital proofs, provide feedback and approve designs online—speeding up production."
     }
   ],
   "industry": "Signage",

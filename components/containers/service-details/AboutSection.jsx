@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import { FaCheck } from 'react-icons/fa';
 
 const AboutSection = ({ slug }) => {
   const [content, setContent] = useState(null);
@@ -50,7 +51,7 @@ const AboutSection = ({ slug }) => {
                 {about.features.map((item, index) => (
                   <li key={index} className="d-flex align-items-center gap-2">
                     <span className="icon d-center">
-                      <i className="fa-solid fa-check p1-clr fs-eight"></i>
+                      <FaCheck className="p1-clr" size={16} />
                     </span>
                     <p className="fw-semibold black">{item}</p>
                   </li>

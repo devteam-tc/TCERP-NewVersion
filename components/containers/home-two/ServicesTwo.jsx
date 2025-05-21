@@ -7,6 +7,7 @@ import Link from "next/link";
 import { servicesTwo } from "../../../data/services";
 import Image from "next/image";
 import { useRef } from 'react';
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const ServicesTwo = () => {
   const swiperRef = useRef(null);
@@ -32,7 +33,7 @@ const ServicesTwo = () => {
                 onClick={() => swiperRef.current?.slidePrev()}
                 aria-label="Previous slide"
               >
-                <i className="fa-solid fa-arrow-left"></i>
+                <FaArrowLeft size={20} />
               </button>
             </div>
 
@@ -99,7 +100,7 @@ const ServicesTwo = () => {
                 onClick={() => swiperRef.current?.slideNext()}
                 aria-label="Next slide"
               >
-                <i className="fa-solid fa-arrow-right"></i>
+                <FaArrowRight size={20} />
               </button>
             </div>
             

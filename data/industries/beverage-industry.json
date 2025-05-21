@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/beverage_banner_img.webp",
-  "title": "Beverage Industry",
-  "description": "Comprehensive ERP solutions designed for beverage manufacturers, optimizing production, quality control and distribution while ensuring compliance with food safety standards.",
+  "title": "Food & Beverage Industry Solutions",
+  "description": "Comprehensive ERP solutions tailored for the food and beverage industry that streamline your production, inventory, compliance, and distribution processes  helping you manage everything from raw ingredients to packaged products efficiently.",
   "keyPoints": [
-    "Recipe & Formula Management",
-    "Batch Production Control",
-    "Quality & Safety Compliance",
-    "Cold Chain Management",
-    "Distribution & Logistics"
+    "Recipe & Batch Management",
+    "Inventory & Supply Chain Management",
+    " Quality Control & Compliance",
+    "Financial Management & Cost Tracking",
+    "Expiry & Traceability"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/beverage-production.png",
-      "title": "Brewing Control",
-      "description": "Advanced brewing and beverage production management with precise process control and batch optimization.",
+      "title": "Production Management",
+      "description": "Complete production and process management system that includes recipe standardization, production scheduling, quality checks, and waste reduction.",
       "list": [
-        "Process Automation",
-        "Batch Optimization",
-        "Equipment Monitoring"
+        "Recipe Version Control",
+        "Batch Production",
+        "Yield Optimization"
       ]
     },
     {
       "image": "/images/industry-icons/beverage-quality.png",
-      "title": "Quality Control",
-      "description": "End-to-end quality assurance system for beverage manufacturing with real-time monitoring and compliance tracking.",
+      "title": "Analytics & Reporting",
+      "description": "Advanced analytics and reporting tools for actionable insights and better decision-making.",
       "list": [
-        "Taste Testing",
-        "Microbial Analysis",
-        "Quality Metrics"
+        "Sales & Inventory Dashboards",
+        "Costing & Profitability Reports",
+        "Quality and Compliance Reports"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle recipe management?",
-      "answer": "Our system provides complete recipe management with version control, scaling capabilities and ingredient tracking while protecting proprietary formulations."
+      "question": "What is Food and beverage ERP software?",
+      "answer": " Food and Beverage ERP software is a specialized solution designed to manage production, quality control, inventory, compliance and supply chain operations in food and beverage manufacturing businesses."
     },
     {
       "id": 2,
-      "question": "What food safety compliance features are included?",
-      "answer": "The system includes comprehensive food safety compliance tools including HACCP monitoring, quality testing workflows and regulatory documentation management."
+      "question": " How does ERP help the food and beverage industry?",
+      "answer": " ERP software helps streamline batch production, track perishable inventory, maintain compliance with food safety regulations and improve efficiency in procurement, distribution and reporting."
     },
     {
       "id": 3,
-      "question": "Can it manage cold chain logistics?",
-      "answer": "Yes, our solution includes temperature-controlled logistics management, real-time monitoring and automated alerts for cold chain integrity maintenance."
+      "question": "Can ERP software help with food traceability and recalls?",
+      "answer": " Yes, modern food ERP systems offer full traceability from raw material to finished goods and support quick targeted product recalls with detailed audit trails."
     }
   ],
   "industry": "Beverage",

@@ -1,13 +1,13 @@
 {
   "banner": "/images/industries/casting-banner-img.jpeg",
   "title": "Casting Industry",
-  "description": "Specialized ERP solutions for foundries and casting operations, optimizing production from pattern making to finished product delivery.",
+  "description": "Boost production efficiency, cost control and product quality with a dedicated ERP for casting and foundry businesses. From managing raw materials to tracking melt shop operations and dispatching final products, our specialized foundry ERP software provides end-to-end automation and real-time insights. Designed for jobbing, batch, and continuous foundries, this intelligent casting industry ERP solution helps streamline operations and reduce downtime across the board.",
   "keyPoints": [
-    "Pattern & Mold Management",
-    "Production & Quality Control",
-    "Material & Inventory Management",
-    "Equipment & Maintenance",
-    "Process Optimization"
+    "Melting & Molding Process Control",
+    "Core, Pattern & Tool Management",
+    "Production Tracking System",
+    " Inventory Management for Foundries",
+    " Quality Control in Casting ERP"
   ],
   "infoCards": [
     {
@@ -22,30 +22,30 @@
     },
     {
       "image": "/images/industry-icons/material_flow.png",
-      "title": "Material Flow",
-      "description": "Streamlined management of casting materials, alloys, and consumables with automated tracking and optimization.",
+      "title": "Inventory & Material Management",
+      "description": "Improve resource planning and reduce material wastage",
       "list": [
-        "Alloy Management",
-        "Raw Material Control",
-        "Inventory Optimization"
+        "Raw Material & Scrap Inventory",
+        " Bin Location & Foundry-Specific Stock Tracking",
+        " Supplier Integration & Reorder Alerts"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle quality control?",
-      "answer": "Our system provides comprehensive quality control tools including process monitoring, inspection checkpoints, and quality metrics tracking throughout the casting process."
+      "question": "What is foundry ERP software?",
+      "answer": "A complete ERP for casting & foundry industry helps manage everything from melting and molding to quality inspection and order dispatch, all within a unified system."
     },
     {
       "id": 2,
-      "question": "Can it manage different casting processes?",
-      "answer": "Yes, the solution supports various casting processes including sand casting, investment casting, die casting, and can be customized for specific process requirements."
+      "question": "How does ERP improve inventory management for foundries?",
+      "answer": "It tracks raw material usage, finished goods, scrap, and reusables in real-time—ensuring accurate stock levels and optimizing purchases."
     },
     {
       "id": 3,
-      "question": "What kind of material management features are available?",
-      "answer": "The system offers complete material tracking, including raw materials, alloys, consumables, and finished products, with automated inventory alerts and material usage optimization."
+      "question": "Can this ERP help with batch-wise production tracking?",
+      "answer": "  Yes, we do integrated production tracking system enables stage-wise monitoring, including heat-wise and lot-wise traceability."
     }
   ],
   "industry": "Casting",

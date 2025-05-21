@@ -6,6 +6,7 @@ import { menus } from "../../../data/menuData";
 import MobileMenuHeader from "./mobile-menu/MobileMenuHeader";
 import MenuItem from "./mobile-menu/MenuItem";
 import CallToAction from "./mobile-menu/CallToAction";
+import { FaXmark } from "react-icons/fa6";
 
 const MobileMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -57,7 +58,7 @@ const MobileMenu = () => {
             </Link>
           </div>
           <div className="close-mobile-menu" onClick={closeMenu}>
-            <i className="fa-solid fa-xmark"></i>
+            <FaXmark size={24} />
           </div>
           <style jsx>{`
             .close-mobile-menu {
@@ -78,8 +79,7 @@ const MobileMenu = () => {
               background: rgba(0, 0, 0, 0.1);
               transform: rotate(90deg);
             }
-            .close-mobile-menu i {
-              font-size: 24px;
+            .close-mobile-menu svg {
               color: #333;
             }
           `}</style>

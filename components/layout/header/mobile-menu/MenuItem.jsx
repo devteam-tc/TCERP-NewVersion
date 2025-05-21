@@ -1,4 +1,6 @@
+"use client";
 import Link from "next/link";
+import { FaChevronDown, FaChevronUp, FaChevronRight } from "react-icons/fa";
 
 const MenuItem = ({ 
   menu, 
@@ -13,11 +15,9 @@ const MenuItem = ({
       <li className="sub-mobile-menu">
         <Link href="#" onClick={() => toggleSubmenu(menu.id)}>
           {menu.title}{" "}
-          <i
-            className={`fas float-end ${
-              openSubmenuId === menu.id ? "fa-chevron-up" : "fa-chevron-down"
-            }`}
-          ></i>
+          <span className="float-end">
+            {openSubmenuId === menu.id ? <FaChevronUp /> : <FaChevronDown />}
+          </span>
         </Link>
         <ul className={`submenu ${openSubmenuId === menu.id ? "open" : ""}`}>
           {menu.submenu.map((submenu) => (
@@ -37,24 +37,22 @@ const MenuItem = ({
       <li className="sub-mobile-menu">
         <Link href="#" onClick={() => toggleSubmenu(menu.id)}>
           {menu.title}{" "}
-          <i
-            className={`fas float-end ${
-              openSubmenuId === menu.id ? "fa-chevron-up" : "fa-chevron-down"
-            }`}
-          ></i>
+          <span className="float-end">
+            {openSubmenuId === menu.id ? <FaChevronUp /> : <FaChevronDown />}
+          </span>
         </Link>
         <ul className={`submenu ${openSubmenuId === menu.id ? "open" : ""}`}>
           {menu.children.map((section, index) => (
             <li key={index}>
               <Link href="#" onClick={(e) => toggleIndustrySection(e, section.heading)}>
                 {section.heading}{" "}
-                <i
-                  className={`fas ${
-                    openIndustrySection === section.heading
-                      ? "fa-chevron-up"
-                      : "fa-chevron-right"
-                  }`}
-                ></i>
+                <span className="float-end">
+                  {openIndustrySection === section.heading ? (
+                    <FaChevronUp />
+                  ) : (
+                    <FaChevronRight />
+                  )}
+                </span>
               </Link>
               <ul
                 className={`nested-submenu ${

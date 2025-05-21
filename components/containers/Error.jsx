@@ -1,13 +1,20 @@
 import Link from 'next/link'
-import errorImg from '../../public/images/img/error.gif';
+import errorImg from '../../public/images/img/404_error.jpg';
 import Image from 'next/image';
 const Error = () => {
   return (
-    <section className="ep-error404-section pt-120">
+    <section className="ep-error404-section">
         <div className="container">
           <div className="info d-flex flex-column align-items-center justify-center text-center">
             <div className="img mb-5">
-              <Image src={errorImg} alt="error-img" className="img-fluid w-100" />
+              <Image 
+                src={errorImg} 
+                alt="error-img" 
+                width={600}
+                height={400}
+                className="img-fluid w-100"
+                priority
+              />
             </div>
             <div className="text">
               <Link href="/" className="theme-btn theme-btn-primary position-relative d-inline-flex align-items-center">
