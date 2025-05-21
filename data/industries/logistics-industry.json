@@ -1,51 +1,53 @@
 {
     "banner": "/images/industries/logistics-banner_img.webp",
     "title": "Logistics Industry",
-    "description": "Advanced ERP solutions designed for logistics and supply chain businesses, optimizing operations from warehousing to last-mile delivery.",
+    "description": "Advanced ERP solutions for logistics and supply chain businesses, optimizing operations from warehousing to last-mile delivery. Our Logistics ERP Software optimizes operations with ease to use features like Freight Management Software, Logistics Management Software and ERP Logistics System, boosting operations and customer satisfaction.",
     "keyPoints": [
-      "Fleet Management",
-      "Warehouse Operations",
-      "Route Optimization",
-      "Shipment Tracking",
-      "Supply Chain Visibility"
+      "Multi-Warehouse Inventory Management",
+      "Fleet and Route Optimization",
+      " Real-Time Shipment Tracking",
+      "Integrated Freight Management Software",
+      "Customizable Workflows and Reporting"
     ],
     "infoCards": [
       {
         "image": "/images/industry-icons/logistics-management.png",
-        "title": "Fleet Control",
-        "description": "Complete fleet management system for vehicle tracking, maintenance, and driver management.",
+        "title": "Logistics Management",
+        "description": "Gain complete control over your logistics processes with our robust Logistics ERP Software, tailored to meet the dynamic needs of the logistics sector.",
         "list": [
-          "GPS Tracking",
-          "Maintenance Alerts",
-          "Driver Management"
+          "Order & Fulfillment Hub",
+          "Automated Billing and Invoicing",
+          "Vendor Management",
+          "Regulatory Compliance"
         ]
       },
       {
         "image": "/images/industry-icons/logistics-analytics.png",
-        "title": "Smart Routing",
-        "description": "AI-powered route optimization and delivery planning for maximum efficiency.",
+        "title": "Logistics Handling",
+        "description": "Optimize your freight operations with our integrated Freight Management Software, designed to enhance efficiency and reduce costs.",
         "list": [
-          "Route Planning",
-          "Traffic Analysis",
-          "Delivery Optimization"
+          "Carrier Rate Management",
+          "Delivery Performance Monitoring",
+          "Real-Time Freight Tracking",
+          "Docs & Compliance"
         ]
       }
     ],
     "faqData": [
       {
         "id": 1,
-        "question": "How does the system handle route optimization?",
-        "answer": "Our system uses advanced algorithms for real-time route optimization, considering factors like traffic, delivery windows, and vehicle capacity."
+        "question": "How does Logistics ERP improve warehouse operations?",
+        "answer": "Our software enables accuracy in inventory, speed in order fulfillment, efficient tracking throughout multiple warehouses."
       },
       {
         "id": 2,
-        "question": "Can it manage multiple warehouse operations?",
-        "answer": "Yes, the system supports multi-warehouse management with real-time inventory tracking, pick-pack operations, and cross-docking capabilities."
+        "question": "Can the software integrate with third-party freight carriers?",
+        "answer": "Yes. Our Logistics ERP Software allows seamless integration with third-party logistics providers, enabling automated freight quotes, tracking and invoicing."
       },
       {
         "id": 3,
-        "question": "What tracking features are included?",
-        "answer": "The system includes end-to-end shipment tracking, real-time GPS fleet monitoring, and automated delivery status updates."
+        "question": " Is the ERP scalable for large fleets and multiple locations?",
+        "answer": "Absolutely. Our ERP System Logistics is built to handle complex operations, from single-location setups to global logistics networks with extensive fleet management."
       }
     ],
     "industry": "Logistics & Supply Chain",

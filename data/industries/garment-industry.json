@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/garment_banner_img.webp",
   "title": "Garment Industry",
-  "description": "Advanced ERP solutions tailored for garment manufacturers, streamlining production processes from design to delivery while optimizing style management, costing and quality control.",
+  "description": "Tech Cloud's ERP software for garment industry streamlines production from design to delivery. Our Garment ERP software simplifies style tracking, costing, and quality checks for efficient operations. Whether for bulk or custom orders, our software for garment manufacturing helps you stay agile and competitive.",
   "keyPoints": [
-    "Style & Sample Management",
-    "Production Planning & Control",
-    "Material Resource Planning",
-    "Quality Assurance",
-    "Cost & Efficiency Tracking"
+    "Style, Size & Color Matrix Management",
+    "BOM & Cost Sheet Generation",
+    "Cutting, Stitching & Finishing Workflow",
+    "Order Management (Bulk & Custom)",
+    " Quality, Compliance & Shipment Tracking"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/garment-production.png",
-      "title": "Style Control",
-      "description": "Complete style lifecycle management from design to production with detailed specifications tracking.",
+      "title": "Design & Style Management",
+      "description": "Streamline design approvals and style-wise tracking across multiple product lines and variants.",
       "list": [
-        "Style Planning",
-        "Sample Tracking",
-        "Size Management"
+        "Centralized Design Repository",
+        " Style-Size-Color Configuration",
+        "Version Control & Design Revisions"
       ]
     },
     {
       "image": "/images/industry-icons/garment-quality.png",
-      "title": "Quality Check",
-      "description": "End-to-end quality control system for garment manufacturing with defect management.",
+      "title": "Production & Workflow Automation",
+      "description": "Automate key processes to improve output, manage resources, and ensure on-time delivery.",
       "list": [
-        "Inspection Points",
-        "Defect Analysis",
-        "Quality Metrics"
+        "Production Planning & Line Allocation",
+        "Stitching & Finishing Workflow",
+        " WIP Monitoring & Line Balancing"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system manage different styles and sizes?",
-      "answer": "Our system provides comprehensive style management with size-wise planning, color variations, sample tracking and detailed specifications management for each style variant."
+      "question": "What does Garment ERP software do for apparel businesses?",
+      "answer": "Garment ERP software manages everything from design, sourcing, production, to dispatch while improving operational efficiency and cost control."
     },
     {
       "id": 2,
-      "question": "What production tracking features are included?",
-      "answer": "The system includes real-time production tracking with line efficiency monitoring, worker productivity analysis and detailed cost tracking for each production stage."
+      "question": "Can the ERP system handle both bulk and custom garment orders?",
+      "answer": "Yes, our ERP for garment manufacturing supports made-to-order and mass production with customizable workflows and real-time tracking."
     },
     {
       "id": 3,
-      "question": "Can it handle material planning and costing?",
-      "answer": "Yes, our solution manages detailed material requirements planning, consumption analysis, cost calculations and wastage tracking for optimal resource utilization."
+      "question": "How does the software help manage variants like size and color?",
+      "answer": "Our software for garment manufacturing includes a robust matrix management system that tracks SKUs by size, color, and style."
     }
   ],
   "industry": "Garment",

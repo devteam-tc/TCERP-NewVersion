@@ -423,8 +423,12 @@
     border-radius: 5px;
     border-left: 3px solid var(--colorBlue);
     overflow: hidden;
+    height: 300px;
     // transform: skewX(-10deg);
     transition: all 0.3s linear;
+    @media screen and (max-width: 992px) {
+      height: 300px;
+    }
 
     &::after {
       content: "";
@@ -465,9 +469,9 @@
     .tf__single_category_text::after {
       opacity: 0.85;
     }
-
     .tf__single_category_icon {
       background: #fff !important;
+      
     }
 
     h3, p {

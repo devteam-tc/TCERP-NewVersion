@@ -17,10 +17,6 @@ import serviceIcon15 from '../public/images/icons/multiple.png';
 import serviceIcon16 from '../public/images/icons/pos.png';
 import serviceIcon18 from '../public/images/icons/import_and_export.png';
 // services two image icons
-import serviceTwoIcon1 from '../public/images/icons/service-icon-1.svg';
-import serviceTwoIcon2 from '../public/images/icons/service-icon-2.svg';
-import serviceTwoIcon3 from '../public/images/icons/service-icon-3.svg';
-import serviceTwoIcon4 from '../public/images/icons/service-icon-4.svg';
 import serviceTwoImg1 from '../public/images/services/cloud.webp';
 import serviceTwoImg2 from '../public/images/services/dynamic.webp';
 import serviceTwoImg3 from '../public/images/services/email.webp';
@@ -142,7 +138,6 @@ export const servicesTwo = [
   {
     id: 1,
     title: "Web Based & Cloud Computing",
-    icon: serviceTwoIcon1,
     image: serviceTwoImg1,
     className: "icon-box-primary icon-box-text-white",
     description:"Web-based and cloud computing provide scalable, flexible access to apps and data online.",
@@ -150,7 +145,6 @@ export const servicesTwo = [
   {
     id: 2,
     title: "Dynamic Dashboards",
-    icon: serviceTwoIcon2,
     image: serviceTwoImg2,
     className: "icon-box-secondary icon-box-text-white",
     description:"Dynamic dashboards offer real-time, interactive data visualization for better decision-making.",
@@ -159,7 +153,6 @@ export const servicesTwo = [
   {
     id: 3,
     title: "Email & WhatsApp Integration",
-    icon: serviceTwoIcon3,
     image: serviceTwoImg3,
     className: "icon-box-tertiary",
     description:"Email and SMS integration enables seamless, efficient communication across both channels.",
@@ -167,7 +160,6 @@ export const servicesTwo = [
   {
     id: 4,
     title: "Mobile & Tab Compatibility",
-    icon: serviceTwoIcon4,
     image: serviceTwoImg4,
     className: "icon-box-primary icon-box-text-white",
     description:"Ensures a seamless user experience across devices, enhancing accessibility and usability.",
@@ -177,7 +169,6 @@ export const servicesTwo = [
   {
     id: 5,
     title: "Data Auto Backup",
-    icon: serviceTwoIcon4,
     image: serviceTwoImg5,
     className: "icon-box-primary icon-box-text-white",
     description:"Automates secure data storage, ensuring continuity and protection against loss.",
@@ -187,7 +178,6 @@ export const servicesTwo = [
   {
     id: 6,
     title: "Pay As You Go",
-    icon: serviceTwoIcon4,
     image: serviceTwoImg7,
     className: "icon-box-primary icon-box-text-white",
     description:"Enables users to pay for services based on actual usage, promoting flexibility and cost-efficiency.",
@@ -196,7 +186,6 @@ export const servicesTwo = [
   {
     id: 7,
     title: "Chat Between Users",
-    icon: serviceTwoIcon4,
     image: serviceTwoImg8,
     className: "icon-box-primary icon-box-text-white",
     description:"Facilitates real-time communication and collaboration, enhancing interaction and connectivity.",
@@ -205,7 +194,6 @@ export const servicesTwo = [
   {
     id: 8,
     title: "Unlimited Users",
-    icon: serviceTwoIcon4,
     image: serviceTwoImg9,
     className: "icon-box-primary icon-box-text-white",
     description:"Accommodates an unlimited number of users, ensuring scalability and accessibility.",

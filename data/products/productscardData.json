@@ -7,32 +7,32 @@
       {
         "image": "/products/tcerp/sale.png",
         "title": "Sales & Marketing",
-        "text": "Boost your business growth with our integrated sales tools, making it easy to manage marketing and customer engagement."
+        "text": "Grow your business with integrated sales tools for easy marketing, lead tracking and customer engagement."
       },
       {
         "image": "/products/tcerp/purchase.png",
         "title": "Purchase Management",
-        "text": "Streamline your procurement process with our purchase module, making it easy to manage orders and track expenses."
+        "text": "Simplify procurement by managing orders, vendors and expenses with our smart purchase management module."
       },
       {
         "image": "/products/tcerp/stores.png",
         "title": "Stores & Inventory",
-        "text": "Manage multiple store inventories with our tracking system, making it easy to control stock and optimize supplies."
+        "text": "Control stock, manage multiple stores and optimize supply chains with advanced inventory tracking tools."
       },
       {
         "image": "/products/tcerp/production.png",
         "title": "Production",
-        "text": "Optimize your production workflow with our management tools, making it easy to track resources and improve efficiency."
+        "text": "Improve efficiency by managing production resources, workflows and tracking progress in real time."
       },
       {
         "image": "/products/tcerp/quality.png",
         "title": "Quality Check",
-        "text": "Maintain high product standards with our quality tools, making it easy to ensure compliance and customer satisfaction."
+        "text": "Ensure high standards with quality tools that simplify compliance, inspections and customer satisfaction."
       },
       {
         "image": "/products/tcerp/plantmain.png",
         "title": "Plant Maintenance",
-        "text": "Keep your facility running smoothly with our maintenance tools, making it easy to schedule and track repairs."
+        "text": "Schedule, monitor and track equipment repairs easily to keep your facility running smoothly and efficiently."
       }
     ]
   },
@@ -43,32 +43,32 @@
       {
         "image": "/products/CRM/contact.png",
         "title": "Contact Management",
-        "text": "Organize your contacts efficiently with our CRM system, making it easy to manage leads and improve communication."
+        "text": "Efficiently organize contacts with our CRM software to improve lead tracking and communication."
       },
       {
         "image": "/products/CRM/target customers.png",
         "title": "Target Customers",
-        "text": "Identify and reach your ideal customers with our targeting tools, making it easy to create effective marketing campaigns."
+        "text": " Reach ideal customers using targeting tools in our CRM software to run effective campaigns."
       },
       {
         "image": "/products/CRM/organise.png",
         "title": "Organise Meetings",
-        "text": "Schedule and manage meetings effortlessly with our CRM tools, making it easy to coordinate with team and clients."
+        "text": "Schedule and manage meetings with CRM tools to improve coordination with clients and teams."
       },
       {
         "image": "/products/CRM/manage.png",
         "title": "Manage Opportunities",
-        "text": "Track and convert sales opportunities with our CRM system, making it easy to monitor and grow your revenue."
+        "text": "Track and convert sales opportunities with CRM software for better monitoring and revenue growth."
       },
       {
         "image": "/products/CRM/Streamline workflow.png",
         "title": "Streamline Workflow",
-        "text": "Automate your sales processes with our workflow tools, making it easy to assign tasks and close deals faster."
+        "text": "Automate sales processes with CRM workflows—easily assign tasks and close deals faster."
       },
       {
         "image": "/products/CRM/Invoicing & Order Management.png",
         "title": "Invoicing & Order Management",
-        "text": "Handle orders and invoices seamlessly with our CRM system, making it easy to manage your sales transactions."
+        "text": " Manage orders and invoices in one CRM system to simplify your sales transactions efficiently."
       },
       {
         "image": "/products/CRM/Case Management.png",
@@ -94,38 +94,43 @@
     "cards": [
       {
         "image": "/products/POS/webdevelopment.png",
-        "title": "Web Based CRM",
-        "text": "Unlock real-time insights into customer behavior and sales trends with Tech Cloud CRM's web-based analytics."
+        "title": "Fast Billing",
+        "text": "Quick and accurate sales processing with support for multiple payment methods including cards and mobile wallets."
+      },
+      {
+        "image": "/products/POS/webdevelopment.png",
+        "title": "Inventory Tracking",
+        "text": "Automatically update and monitor stock levels in real time, with alerts for low inventory and out-of-stock items."
       },
       {
         "image": "/products/POS/customerunderstanding.png",
-        "title": "Customer Understanding",
-        "text": "Enhance customer engagement and satisfaction by deeply analyzing preferences and feedback with Tech Cloud CRM."
+        "title": "Customer Management",
+        "text": "Store customer data, purchase history and enable loyalty programs to boost repeat business and engagement."
       },
       {
         "image": "/products/POS/discount.png",
-        "title": "Discounts",
-        "text": "Boost sales and foster customer loyalty by implementing effective discount strategies with Tech Cloud CRM."
+        "title": "Sales Reports",
+        "text": "Create in-depth reports on sales, profits and product trends to support smarter, data-driven business decisions."
       },
       {
         "image": "/products/POS/inventory.png",
-        "title": "Inventory Optimization",
-        "text": "Optimize inventory management with Tech Cloud CRM to track stock levels and forecast demand."
+        "title": "Multi-Payment Support",
+        "text": "Accept payments via cash, cards, UPI and digital wallets with seamless integration for smooth and fast transactions."
       },
       {
         "image": "/products/POS/cashmanage.png",
-        "title": "Cash Management",
-        "text": "Ensure financial stability and smooth operations with effective cash management using Tech Cloud CRM."
+        "title": "Return & Refund Handling",
+        "text": "Easily handle returns and refunds while keeping transaction records updated and maintaining accurate inventory levels."
       },
       {
         "image": "/products/POS/customreceipts.png",
-        "title": "Custom Receipts",
-        "text": "Enhance the customer experience with personalized receipts using Tech Cloud CRM."
+        "title": "Offline Mode",
+        "text": "Keep selling without the internet; all sales and data automatically sync once the connection is back online for seamless operation."
       },
       {
         "image": "/products/POS/fasttraining.png",
-        "title": "Fast Staff Training",
-        "text": "Ensure rapid staff onboarding and operational efficiency with Tech Cloud CRM."
+        "title": "Multi-Store Management",
+        "text": "Manage multiple store locations with a single dashboard offering centralized control, data sync and unified reporting."
       },
       {
         "image": "/products/POS/useraccount.png",
@@ -146,32 +151,32 @@
       {
         "image": "/products/trading/newcustomer.png",
         "title": "New Customers",
-        "text": "We help you generate leads with valuable content that encourages potential customers to share their contact details."
+        "text": "Attract leads with valuable content that motivates prospects to share their contact info and engage with your business."
       },
       {
         "image": "/products/trading/customermanage.png",
         "title": "Customer Management",
-        "text": "We provide solutions to simplify customer management by tracking interactions, resolving issues quickly and building strong relationships to boost satisfaction and loyalty."
+        "text": "Track interactions, solve issues fast and build strong customer relationships for loyalty and satisfaction."
       },
       {
         "image": "/products/trading/purchase.png",
         "title": "Purchase Management",
-        "text": "We offer solutions to streamline purchase management, ensuring efficient sourcing, procurement and inventory tracking for cost-effective operations."
+        "text": "Streamline sourcing, procurement and inventory tracking for efficient and cost-effective operations."
       },
       {
         "image": "/products/trading/streamline.png",
         "title": "Streamline Warehouse Management",
-        "text": "We provide efficient warehouse management solutions with optimized inventory control, streamlined workflows and advanced technology."
+        "text": "Optimize inventory and workflows with smart warehouse solutions and advanced control systems."
       },
       {
         "image": "/products/trading/shipping.png",
         "title": "Reduced Shipping Costs",
-        "text": "We help reduce shipping costs by optimizing logistics routes, negotiating with carriers and improving packaging efficiency."
+        "text": "Cut shipping costs by optimizing routes, negotiating better rates and improving packaging efficiency."
       },
       {
         "image": "/products/trading/accounts.png",
         "title": "Accounts Maintenance",
-        "text": "We ensure smooth account maintenance by updating details, tracking transactions and addressing inquiries to build trust and satisfaction."
+        "text": "Maintain accurate accounts by updating info, tracking transactions and resolving inquiries quickly."
       }
     ]
   },
@@ -182,32 +187,32 @@
       {
         "image": "/products/ecommerce/automation.png",
         "title": "Automation",
-        "text": "Streamline your business with Tech Cloud ERP's smart automation, making every transaction smooth and efficient from start to finish."
+        "text": "Ensure smooth, efficient transactions from start to finish using Tech Cloud ERP’s intelligent automation tools."
       },
       {
         "image": "/products/ecommerce/website-builder.png",
         "title": "Website Builder",
-        "text": "Create your perfect website the easy way, with Tech Cloud ERP's website builder that's perfect for everyone."
+        "text": "Build your ideal website effortlessly using Tech Cloud ERP’s easy-to-use website builder designed for all skill levels."
       },
       {
         "image": "/products/ecommerce/database.png",
         "title": "Central Database",
-        "text": "Access all your business data in one secure place with our centralized database, making information management simple and efficient."
+        "text": "Store all your business data securely and organized in one place with our centralized, efficient database system."
       },
       {
         "image": "/products/ecommerce/search.png",
         "title": "Search Function",
-        "text": "Find exactly what you need instantly with our powerful search tools, making information access quick and effortless for everyone."
+        "text": "Easily find what you need with powerful search tools that make accessing information fast, simple and effortless."
       },
       {
         "image": "/products/ecommerce/integration.png",
         "title": "Integration",
-        "text": "Connect all your business tools seamlessly with our integration platform, making your operations smoother and more efficient."
+        "text": "Seamlessly connect all your business tools for smoother, more efficient operations with our integration platform."
       },
       {
         "image": "/products/ecommerce/data-visualization.png",
         "title": "Marketing data visualization",
-        "text": "Transform your marketing data into clear insights with our visualization tools, helping you make better business decisions."
+        "text": "Turn marketing data into clear insights with visualization tools to help you make smarter business decisions."
       }
     ]
   },
@@ -218,47 +223,47 @@
       {
         "image": "/products/Hr/recruitment.png",
         "title": "Recruitment",
-        "text": "Streamline your hiring process with our recruitment module, making it easy to find and onboard the best talent for your team."
+        "text": "Our Recruitment module streamlines hiring by managing job positions, screening candidates and optimizing workflows to secure top talent efficiently."
       },
       {
         "image": "/products/Hr/onboarding.png",
         "title": "On-boarding",
-        "text": "Simplify new hire integration with our onboarding module, ensuring a smooth transition and quick productivity for your team."
+        "text": "Our onboarding module simplifies integrating new hires, ensuring engagement, productivity and business success from day one."
       },
       {
         "image": "/products/Hr/welfare.png",
         "title": "Welfare Management",
-        "text": "Enhance employee satisfaction with our welfare management tools, making it easy to track and improve workplace benefits."
+        "text": "Our module empowers employees to manage profiles, access business updates and enhance engagement and satisfaction."
       },
       {
         "image": "/products/Hr/training.png",
         "title": "Training and Development",
-        "text": "Boost team performance with our training module, providing easy access to learning resources and skill development tools."
+        "text": "Boost employee performance with focused training and skill development to support continuous learning and growth."
       },
       {
         "image": "/products/Hr/leave.png",
         "title": "Leave and Time Management",
-        "text": "Simplify leave tracking and time management with our intuitive system, making it easy to monitor employee attendance."
+        "text": "Efficiently track and manage employee leave and working hours with our seamless time management system."
       },
       {
         "image": "/products/Hr/payroll.png",
         "title": "Payroll Management",
-        "text": "Streamline salary processing with our payroll system, ensuring accurate payments and efficient handling of all deductions."
+        "text": "Ensure accurate payroll with timely payments, precise salary calculations, and smooth handling of bonuses and deductions."
       },
       {
         "image": "/products/Hr/dashboard.png",
         "title": "Dynamic Dashboard",
-        "text": "Get instant insights with our dynamic HR dashboard, making it easy to monitor and manage all HR activities in one place."
+        "text": "Gain real-time insights through our dynamic HR dashboard to make faster, smarter, and data-driven HR decisions with ease."
       },
       {
         "image": "/products/Hr/versatility.png",
         "title": "Versatile Calendar",
-        "text": "Manage all important dates with our versatile calendar, making it easy to track holidays, events and team schedules."
+        "text": "Effortlessly manage events, holidays, and key dates using our flexible ERP HRMS calendar designed for seamless scheduling."
       },
       {
         "image": "/products/Hr/real-time.png",
         "title": "Real-time Collaboration",
-        "text": "Enhance team communication with our real-time collaboration tools, making it easy to share updates and work together."
+        "text": "Tech Cloud Performance Management automate evaluations and feedback cycles for efficient performance appraisals."
       }
     ]
   },
@@ -309,42 +314,7 @@
       }
     ]
   },
-  "erp-for-restaraunt": {
-    "mainTitle": "Streamlined Restaurant Management Solutions",
-    "heading": "ERP For Restaraunt",
-    "cards": [
-      {
-        "image": "/products/restaurant/point-of-service.png",
-        "title": "POS",
-        "text": "Simplify restaurant operations with our user-friendly POS system, making it easy to manage orders and track sales."
-      },
-      {
-        "image": "/products/restaurant/purchase.png",
-        "title": "Purchase Management",
-        "text": "Streamline your procurement process with our purchase management system, making it easy to track inventory and orders."
-      },
-      {
-        "image": "/products/restaurant/inventory-management.png",
-        "title": "Inventory Management",
-        "text": "Optimize your restaurant inventory with our management system, making it easy to track stock and reduce waste."
-      },
-      {
-        "image": "/products/restaurant/receipe.png",
-        "title": "Recipe Preparation",
-        "text": "Standardize your menu items with our recipe management system, making it easy to maintain consistency and quality."
-      },
-      {
-        "image": "/products/restaurant/time-management.png",
-        "title": "Reservation Management",
-        "text": "Streamline your booking process with our reservation system, making it easy to manage tables and customer requests."
-      },
-      {
-        "image": "/products/restaurant/payroll.png",
-        "title": "HR & Payroll Management",
-        "text": "Simplify staff management with our HR system, making it easy to handle schedules, payroll, and employee records."
-      }
-    ]
-  },
+
   "erp-for-accounting-software": {
     "mainTitle": "Reliable, Efficient Delivery",
     "heading": "ERP for Accounting Software",

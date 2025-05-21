@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/microfinance_banner_img.webp",
   "title": "Micro Finance Industry",
-  "description": "Comprehensive ERP solutions designed for microfinance institutions, optimizing loan management, client servicing and financial operations while ensuring regulatory compliance and social impact tracking.",
+  "description": "Comprehensive ERP solutions designed for microfinance institutions, streamlining operations and ensuring financial transparency. Our microfinance software helps manage loans, clients and collections with ease. With microfinance ERP and microfinance management software, institutions can enhance efficiency and compliance. Ideal software for microfinance companies aiming for growth and impact.",
   "keyPoints": [
     "Loan Portfolio Management",
-    "Client Relationship Management",
+    "Client Onboarding & KYC Compliance",
     "Collection & Recovery",
-    "Risk Assessment",
-    "Social Impact Tracking"
+    " Financial Reporting & Audit Trails",
+    "Risk Assessment & Credit Scoring"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/microfinance-operations.png",
-      "title": "Loan Management",
-      "description": "Streamlined loan processing and portfolio tracking system for efficient microfinance operations.",
+      "title": "Loan & Client Management",
+      "description": "Manage borrower data, loan applications, repayment schedules and collections through a centralized system.",
       "list": [
-        "Loan Processing",
-        "Portfolio Tracking",
-        "Group Management"
+        "Easy Client Onboarding",
+        "Loan Processing & Approval",
+        "EMI Scheduling & Alerts"
       ]
     },
     {
       "image": "/images/industry-icons/microfinance-client.png",
-      "title": "Field Operations",
-      "description": "Integrated field operations and client management system for microfinance institutions.",
+      "title": "Compliance & Finance",
+      "description": "Ensure regulatory compliance with built-in audit trails and reporting mechanisms tailored for microfinance operations.",
       "list": [
-        "Client Profiling",
-        "Field Collection",
-        "Performance Monitoring"
+        "Audit-Ready Financial Records",
+        "Policy-Driven Workflow Automation",
+        "Multi-Branch Monitoring"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle loan management?",
-      "answer": "Our system provides end-to-end loan management including application processing, disbursement tracking, repayment scheduling, collection management and portfolio monitoring with detailed analytics."
+      "question": " How does your microfinance software improve operational efficiency?",
+      "answer": "Our system automates loan tracking, client communication and payment collections, minimizing manual intervention and errors."
     },
     {
       "id": 2,
-      "question": "What client management features are included?",
-      "answer": "The system includes comprehensive client management with KYC verification, credit history tracking, group management, social impact assessment and mobile-based field operations support."
+      "question": "Can the software support multi-branch operations and compliance needs?",
+      "answer": "Yes, the microfinance ERP supports multi-branch monitoring, policy enforcement and generates audit-ready reports for compliance."
     },
     {
       "id": 3,
-      "question": "Can it handle regulatory compliance?",
-      "answer": "Yes, our solution ensures compliance with microfinance regulations including reporting requirements, interest rate calculations, documentation management and audit trail maintenance."
+      "question": "Is the platform customizable for different microfinance models?",
+      "answer": "Absolutely, our microfinance management software is flexible to support SHG, JLG, individual lending and other microfinance models."
     }
   ],
   "industry": "Micro Finance",

@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/solar_banner_img.webp",
   "title": "Solar Electric Industry",
-  "description": "Advanced ERP solutions tailored for solar energy companies, optimizing installation projects, monitoring system performance and managing renewable energy operations.",
+  "description": "Our advanced Solar ERP Software is designed specifically for solar energy companies, helping manage end-to-end operations from project planning to performance monitoring. With robust tools for installation, analytics, and maintenance, our ERP Solar solution ensures efficient workflows and better decision-making. Whether you’re managing small residential setups or large commercial installations.",
   "keyPoints": [
-    "Solar Project Management",
-    "Installation Tracking",
-    "Performance Monitoring",
-    "Maintenance Planning",
-    "Energy Production Analytics"
+    " Project Planning & Cost Estimation",
+    "Installation Scheduling & Monitoring",
+    " Solar PV System Design Tools",
+    "Inventory & Procurement Management",
+    " Warranty & AMC Tracking"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/solar-project.png",
-      "title": "Solar Design",
-      "description": "Complete solar system design and planning from initial assessment to final installation.",
+      "title": "Project & Installation Management",
+      "description": "Handle solar installations efficiently with tools for planning, workforce management, and post-installation service.",
       "list": [
-        "Site Assessment",
-        "System Design",
-        "Equipment Selection"
+        "Site Surveys & Installation Workflow",
+        "Task Allocation & Field Staff Monitoring",
+        "Post-Installation Maintenance Logs"
       ]
     },
     {
       "image": "/images/industry-icons/solar-monitoring.png",
-      "title": "Energy Analytics",
-      "description": "Advanced monitoring and analytics for solar power generation and system efficiency.",
+      "title": "CRM & Design Integration",
+      "description": "Close deals faster and deliver better solutions with solar-specific CRM and design capabilities.",
       "list": [
-        "Power Generation",
-        "Efficiency Metrics",
-        "System Health"
+        "Lead Management & Quotation Builder",
+        "Integrated CRM for Solar Companies",
+        "Solar PV Design Software with Custom Configurations"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle project planning?",
-      "answer": "Our system provides end-to-end project management including site surveys, design planning, installation scheduling and resource allocation with real-time progress tracking."
+      "question": "What is Solar ERP Software and how does it benefit solar companies?",
+      "answer": "Solar ERP Software centralizes project planning, CRM, inventory and maintenance, helping solar businesses improve operational efficiency and customer satisfaction."
     },
     {
       "id": 2,
-      "question": "What monitoring capabilities are included?",
-      "answer": "The system includes comprehensive monitoring features with real-time performance tracking, energy production analytics and predictive maintenance alerts."
+      "question": "Can the system support large commercial solar installations?",
+      "answer": "Yes, our ERP Solar solution is scalable to handle everything from small rooftop systems to utility-scale commercial installations."
     },
     {
       "id": 3,
-      "question": "Can it manage multiple installation teams?",
-      "answer": "Yes, the system supports multiple installation teams with resource scheduling, skill tracking and mobile app support for field operations."
+      "question": "Does it include design tools for PV systems?",
+      "answer": "Absolutely. The software integrates with advanced solar PV design software, allowing accurate system sizing, layout planning and cost estimation."
     }
   ],
   "industry": "Solar Energy",

@@ -4,36 +4,44 @@ export const indiaPricingPlans = [
     id: 1,
     title: "Basic",
     description: "Per Member, Per Month.",
-    price: " ₹2000",
+    price: " ₹1500",
     features: [
-      " Access to 1–5 Core Modules",
-      " Limited to 1–5 Users",
-      "Ideal for early-stage businesses or freelancers",
-      " Quick and simple onboarding",
+     
+      "1–5 Essential Modules",
+      "Up to 5 Users",
+      "Freelancers & Small Teams",
+      "Quick Setup with Guidance",
+      "Basic Reporting & Analytics",
+      "Limited"
     ],
   },
   {
     id: 2,
     title: "Enterprise",
     description: "Per Member, Per Month.",
-    price: " ₹1500",
+    price: " ₹2000",
     features: [
-      "Access to 1–15 Business Modules",
-      "Supports 1–25 Users",
-      "Perfect for growing teams and expanding startups",
-      "Scalable features with priority onboarding",
+       
+      "1–15 Business Modules",
+      "Up to 25 Users",
+      "SMEs & Scaling Teams",
+      "Priority Onboarding Support",
+      "Reports & Dashboards",
+      "Moderate"
     ],
   },
   {
     id: 3,
     title: "Ultimate",
     description: "Per Member, Per Month.",
-    price: "₹0",
-    features: [
-      "Unlimited Modules Access",
+    price: "Talk to us",
+    features: [ 
+      "Industries Specific Modules",
       "Unlimited Users",
-      "Full customization capabilities",
-      " Designed for enterprise-grade solutions and complete scalability",
+      "Enterprises & High-Growth Businesses",
+      "Dedicated Business Analyst",
+      "Customized Dashboards",
+      "Full Customization Options"
     ],
   },
 ];
@@ -43,36 +51,44 @@ export const usPricingPlans = [
     id: 1,
     title: "Basic",
     description: "Per Member, Per Month",
-    price: " $25",
+    price: "$18",
     features: [
-      " Access to 1–5 Core Modules",
-      " Limited to 1–5 Users",
-      "Ideal for early-stage businesses or freelancers",
-      " Quick and simple onboarding",
+     
+      "1–5 Essential Modules",
+      "Up to 5 Users",
+      "Freelancers & Small Teams",
+      "Quick Setup with Guidance",
+      "Basic Reporting & Analytics",
+      "Limited"
     ],
   },
   {
     id: 2,
     title: "Enterprise",
     description: "Per Member, Per Month",
-    price: " $18",
+    price: "$24",
     features: [
-      "Access to 1–15 Business Modules",
-      "Supports 1–25 Users",
-      "Perfect for growing teams and expanding startups",
-      "Scalable features with priority onboarding",
+       
+      "1–15 Business Modules",
+      "Up to 25 Users",
+      "SMEs & Scaling Teams",
+      "Priority Onboarding Support",
+      "Reports & Dashboards",
+      "Moderate"
     ],
   },
   {
     id: 3,
     title: "Ultimate",
     description: "Per Member, Per Month",
-    price: "$0",
+    price: "Talk to us",
     features: [
-      "Unlimited Modules Access",
+     "Industries Specific Modules",
       "Unlimited Users",
-      "Full customization capabilities",
-      " Designed for enterprise-grade solutions and complete scalability",
+      "Enterprises & High-Growth Businesses",
+      "Dedicated Business Analyst",
+      "Customized Dashboards",
+      "Full Customization Options"
     ],
   },
 ];

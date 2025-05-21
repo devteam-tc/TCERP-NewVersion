@@ -22,7 +22,7 @@ const TellAboutUs = () => {
                   everything we do. We use technology.
                 </p>
                 <Link
-                  href="/contact"
+                  href="/contact-us"
                   className="common-btn box-style cmn-style1 box-bg white d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 overflow-hidden rounded-5"
                 >
                   Tell Us How We Can Help

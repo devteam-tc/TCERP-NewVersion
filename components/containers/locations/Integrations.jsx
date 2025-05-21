@@ -1,8 +1,7 @@
 'use client';
 
 const locations = [
-  { name: 'Ahmedabad', x: 35, y: 45 },
-  { name: 'Kerala', x: 45, y: 75 },
+   
   { name: 'Hyderabad', x: 50, y: 50 },
   { name: 'Chennai', x: 53, y: 65 },
   { name: 'Indore', x: 40, y: 50 },
@@ -13,7 +12,7 @@ export default function Integration() {
     <section className="integration-section">
       <div className="map-container">
         <div className="india-map">
-          <img src="/images/india-map2.jpg" alt="India Map" className="map-image" />
+          <img src="/images/india-map2.png" alt="India Map" className="map-image" />
           {locations.map((location, index) => (
             <div
               key={index}
@@ -32,8 +31,7 @@ export default function Integration() {
       <div className="text-area">
         <h2>Our Presence Across India</h2>
         <p>
-          We have established our presence in key cities across India, bringing our services closer to you.
-          From Ahmedabad to Chennai, our network spans the length and breadth of the country.
+        Tech Cloud ERP serves key business hubs like Ahmedabad, Chennai, Hyderabad, Coimbatore and Indore through our dedicated ERP partner branches. Recognized as the best ERP software in India, we deliver reliable cloud-based ERP software in India tailored to the needs of manufacturers, traders and service providers. Whether you're looking for ERP solutions near you or advanced manufacturing ERP software in India, Tech Cloud ERP is your trusted partner in business transformation.
         </p>
         <a href="#" className="button">Learn More</a>
       </div>

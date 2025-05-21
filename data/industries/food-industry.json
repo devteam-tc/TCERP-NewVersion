@@ -11,7 +11,7 @@
   ],
   "infoCards": [
     {
-      "image": "/images/industry-icons/food-production.png",
+      "image": "/images/industry-icons/batch_control.png",
       "title": "Batch Control",
       "description": "Advanced batch processing and recipe management system for precise food manufacturing.",
       "list": [
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "image": "/images/industry-icons/food-quality.png",
+      "image": "/images/industry-icons/safety_control.png",
       "title": "Safety Control",
       "description": "Comprehensive food safety and quality management system with compliance tracking.",
       "list": [

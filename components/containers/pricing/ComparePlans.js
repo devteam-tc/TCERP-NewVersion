@@ -1,53 +1,78 @@
 'use client';
+import { useState } from 'react';
+import { Table, Container, Row, Col } from 'react-bootstrap';
 import comparisonData from '../../../data/pricing/comparison.json';
 
 const Checkmark = () => (
-  <span className="checkmark">✔</span>
+  <span className="checkmark" aria-label="Included">✔</span>
 );
 
 const ComparePlans = () => {
   const { title, plans, features } = comparisonData;
+  const [hoveredFeature, setHoveredFeature] = useState(null);
 
   const renderFeatureCell = (plan, featureKey) => {
     const value = plan.features[featureKey];
     
     if (value === true) return <Checkmark />;
-    if (value === false) return '';
-    return value;
+    if (value === false) return <span aria-label="Not included">—</span>;
+    return <span>{value}</span>;
   };
 
   return (
-    <section className="comparePlans">
-      <h2>
-        <span>{title.main}</span> {title.sub}
-      </h2>
-      <p>{title.description}</p>
+    <Container fluid className="comparePlans">
+      <Row className="justify-content-center">
+        <Col xs={12} className="text-center">
+          <h2>
+            <span>{title.main}</span>
+            {title.sub}
+          </h2>
+          <p>{title.description}</p>
+        </Col>
+      </Row>
 
-      <div className="table">
-        <div className="row header">
-          <div className="cell">Features and Services</div>
-          {plans.map((plan, i) => (
-            <div key={i} className="cell">
-              <strong>{plan.name}</strong>
-              <button className={plan.isHighlighted ? 'activeBtn' : ''}>
-                {plan.buttonText}
-              </button>
-            </div>
-          ))}
-        </div>
-
-        {features.map((feature, idx) => (
-          <div className="row" key={idx}>
-            <div className="cell">{feature.label}</div>
-            {plans.map((plan, i) => (
-              <div key={i} className="cell">
-                {renderFeatureCell(plan, feature.key)}
-              </div>
-            ))}
+      <Row className="justify-content-center">
+        <Col xs={12}>
+          <div className="table-responsive">
+            <Table className="comparison-table" hover>
+              <thead>
+                <tr>
+                  <th className="feature-column">Features and Services</th>
+                  {plans.map((plan, i) => (
+                    <th key={i} className="text-center">
+                      <h3>{plan.name}</h3>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {features.map((feature, idx) => (
+                  <tr 
+                    key={idx}
+                    onMouseEnter={() => setHoveredFeature(feature.key)}
+                    onMouseLeave={() => setHoveredFeature(null)}
+                  >
+                    <td className="feature-column">
+                      {feature.label}
+                      {feature.description && hoveredFeature === feature.key && (
+                        <div className="feature-tooltip">
+                          {feature.description}
+                        </div>
+                      )}
+                    </td>
+                    {plans.map((plan, i) => (
+                      <td key={i} className="text-center">
+                        {renderFeatureCell(plan, feature.key)}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </Table>
           </div>
-        ))}
-      </div>
-    </section>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

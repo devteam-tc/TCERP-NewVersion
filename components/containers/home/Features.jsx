@@ -1,9 +1,7 @@
 import React from 'react';
 import featureImg1 from '../../../public/images/features/feature-img-1.webp';
 import featureImg2 from '../../../public/images/features/feature-img-2.webp';
-// import featureIcon1 from '@/public/images/icons/feature-icon-1.svg';
-// import featureIcon2 from '@/public/images/icons/feature-icon-2.svg';
-// import featureIcon3 from '@/public/images/icons/feature-icon-3.svg';
+
 import SectionTitle from '../SectionTitle';
 import Image from 'next/image';
 

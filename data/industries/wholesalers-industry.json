@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/wholesale_banner_img.webp",
   "title": "Wholesale Industry",
-  "description": "Comprehensive ERP solutions designed for wholesale distributors, optimizing inventory management, order processing and supply chain operations while enhancing customer service and operational efficiency.",
+  "description": "Comprehensive wholesale ERP solutions designed for distributors, streamlining inventory management, order fulfillment and supply chain. Our powerful food distribution system optimizes customer service, multi-location management and operational efficiency. ",
   "keyPoints": [
-    "Inventory Management",
-    "Order Processing & Fulfillment",
-    "Supply Chain Optimization",
-    "Customer Relationship Management",
-    "Multi-Location Operations"
+    "Centralized Inventory Management",
+    "Automated Order Processing",
+    "Real-Time Supply Chain Visibility",
+    "Integrated Financial Controls",
+    "Multi-Location Warehouse Management"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/wholesale-operations.png",
-      "title": "Inventory Control",
-      "description": "Advanced wholesale distribution and operations management system.",
+      "title": "Inventory & Order Management",
+      "description": "Efficiently manage stock movements and automate replenishments to prevent stockouts or overstock scenarios.",
       "list": [
-        "Stock Management",
-        "Warehouse Control",
-        "Inventory Tracking"
+        " Centralized Inventory Control",
+        "Barcode & Batch Tracking",
+        " Order Status & Delivery Scheduling"
       ]
     },
     {
-      "image": "/images/industry-icons/wholesale-logistics.png",
-      "title": "Order Management",
-      "description": "Comprehensive order processing and fulfillment system.",
+      "image": "/images/industry-icons/wholesale-billing.png",
+      "title": "Billing & Financial Control",
+      "description": "Accelerate billing cycles and ensure precise financial records with integrated billing software for distributors.",
       "list": [
-        "Order Processing",
-        "Fulfillment Tracking",
-        "Customer Orders"
+        "Automated Invoice Generation",
+        "Payment Tracking & Credit Management",
+        "Financial Reporting & Compliance"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system handle multi-location inventory?",
-      "answer": "Our system provides real-time inventory tracking across multiple locations with automated replenishment, transfer management and optimized stock levels based on demand patterns."
+      "question": "How does Tech Cloud’s Wholesale ERP improve inventory management?",
+      "answer": "Our wholesale business ERP offers real-time inventory management, automatic replenishment alerts and centralized governance, which minimize stock variance and improve order accuracy."
     },
     {
       "id": 2,
-      "question": "What order processing features are included?",
-      "answer": "The system includes comprehensive order management with bulk processing, automated fulfillment, pricing management and real-time status tracking across the supply chain."
+      "question": "Can the software handle multi-location operations?",
+      "answer": "Yes, our distributor software handles multiple warehouses and locations with ease ensuring synchronized data and efficient operations across all sites."
     },
     {
       "id": 3,
-      "question": "Can it manage customer relationships?",
-      "answer": "Yes, our solution includes advanced CRM features with customer segmentation, pricing tiers, credit management and detailed transaction history tracking."
+      "question": "Is the billing system integrated with financial reporting?",
+      "answer": "Absolutely. The integrated billing software for distributors ensures accurate invoicing, payment tracking and comprehensive financial reporting, facilitating compliance and strategic decision-making."
     }
   ],
   "industry": "Wholesale Distribution",

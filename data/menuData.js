@@ -69,7 +69,7 @@ export const menus = [
   {
     id: 2,
     title: "About",
-    link: "/about",
+    link: "/about-us",
   },
   industriesMenu,
   {
@@ -112,11 +112,11 @@ export const menus = [
         title: "Finance & Accounting",
         link: "/products/financial-management-systems",
       },
-      {
-        id: 48,
-        title: "Integrated with CRM, Ecommerce, POS",
-        link: "/products/integrated-erp-software",
-      }
+      // {
+      //   id: 48,
+      //   title: "Integrated with CRM, Ecommerce, POS",
+      //   link: "/products/integrated-erp-software",
+      // }
     ],
   },
   {
@@ -150,7 +150,7 @@ export const menus = [
   {
     id: 7,
     title: "Contact",
-    link: "/contact",
+    link: "/contact-us",
   },
   {
     id: 8,

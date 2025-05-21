@@ -1,51 +1,51 @@
 {
   "banner": "/images/industries/electronics_banner_img.webp",
   "title": "Electronics Industry",
-  "description": "Advanced ERP solutions designed for electronics manufacturers, optimizing production processes, component management and quality control while ensuring compliance with industry standards.",
+  "description": "Our advanced Electronics ERP solutions are specially designed for electronics manufacturers to streamline production, manage electronic components efficiently and ensure top-notch quality control. With our ERP for electronics manufacturing, businesses can optimize every stage of the production process while staying compliant with industry regulations.",
   "keyPoints": [
-    "PCB Assembly Management",
-    "Component Inventory Control",
-    "Quality Testing & Inspection",
-    "BOM Management",
-    "Production Line Automation"
+    " BOM & Product Lifecycle Management",
+    "Electronic Components Inventory Software",
+    " Assembly Line Monitoring",
+    " Procurement & Supplier Integration",
+    "Quality Control & Compliance"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/electronics-production.png",
-      "title": "PCB Assembly",
-      "description": "End-to-end PCB manufacturing and assembly process management with automated workflow control.",
+      "title": "Production & Inventory Control",
+      "description": "Manage complex assemblies and electronic parts with real-time tracking and accurate inventory forecasting.",
       "list": [
-        "SMT Line Control",
-        "Through-Hole Assembly",
-        "Component Placement"
+        "Multi-Level BOM Handling",
+        "Individual Inventory & Batch Tracking",
+        "Electronic Components Inventory Software"
       ]
     },
     {
       "image": "/images/industry-icons/electronics-quality.png",
-      "title": "Component Testing",
-      "description": "Advanced component and board testing system with automated quality verification.",
+      "title": "Compliance & Quality Assurance",
+      "description": "Ensure consistent quality and meet global industry standards with streamlined QA and documentation tools.",
       "list": [
-        "ICT Testing",
-        "AOI Inspection",
-        "Functional Testing"
+        "Real-Time Quality Checks",
+        "Regulatory Compliance Reports",
+        " Fault & Rejection Analysis"
       ]
     }
   ],
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system manage component inventory?",
-      "answer": "Our system provides real-time component tracking, automated reordering, supplier management and detailed inventory analytics with minimum stock level alerts."
+      "question": "What is ERP for electronics manufacturing?",
+      "answer": "A single solution that to control and manage components, production workflows, quality control and compliance for manufacturers of electronic goods."
     },
     {
       "id": 2,
-      "question": "What quality control features are included?",
-      "answer": "The system includes comprehensive quality control features with automated testing integration, defect tracking, root cause analysis and statistical process control."
+      "question": "How does your ERP handle inventory for electronic parts?",
+      "answer": "Our electronic components inventory software provides real-time tracking, stock level alerts and multi-location visibility for all parts and materials."
     },
     {
       "id": 3,
-      "question": "Can it handle complex BOMs?",
-      "answer": "Yes, our solution manages multi-level Bills of Materials with version control, component substitution and cost tracking capabilities."
+      "question": "Can your ERP support both electrical and electronics manufacturing?",
+      "answer": "Yes, our ERP for electrical and electronics manufacturing is built to support a wide range of operations, from basic assembly to advanced PCB manufacturing."
     }
   ],
   "industry": "Electronics",

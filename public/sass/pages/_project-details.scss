@@ -19,8 +19,9 @@
       font-size: 24px;
       line-height: 30px;
       padding: 14px 20px;
-      border: 1px solid var(--bs-secondary-color);
-      background-color: var(--bs-light);
+      // border: 1px solid var(--bs-secondary-color);
+      background-color: var(--bs-primary-500);
+      color: #fff;
     }
   
     .options {
@@ -32,8 +33,10 @@
         gap: 10px;
         align-items: center;
         padding: 14px 20px;
-        background-color: var(--bs-light);
-        border-radius: 14px;
+        background-color: var(--bs-secondary-20);
+        border-radius: 10px;
+        border: 1px solid var(--bs-secondary-100);
+
   
         h5.label {
           font-weight: 600;
@@ -131,7 +134,7 @@
       position: relative;
       display: block;
       font-size: 20px;
-      line-height: 30px;
+      line-height: 22px;
       margin-bottom: 25px;
     }
   }

@@ -187,11 +187,12 @@
                 padding: 20px 25px;
                 font-size: 16px;
                 font-weight: 600;
-                color: #333;
+                color: #333 !important;
                 background: transparent;
 
                 &:not(.collapsed) {
                     color: var(--bs-primary);
+                    color: var(--bs-primary-500) !important;
                 }
 
                 &::after {
@@ -245,9 +246,7 @@
 .pb_30 {
     padding-bottom: 30px;
 }   
-// .content_block_three .content-box .accordion-box .accordion .acc-btn.active .icon-box {
-//     transform: rotate(180deg);
-// }
+ 
 .content_block_two .content-box .inner-box .single-item:before {
     position: absolute;
     content: "";
@@ -363,7 +362,7 @@
 // }
 [class*=" icon-"], [class^=icon-] {
     font-family: icomoon !important;
-    speak: never;
+    
     font-style: normal;
     font-weight: 400;
     font-feature-settings: normal;

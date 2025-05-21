@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/construction_banner_img.jpg",
   "title": "Construction Industry",
-  "description": "Comprehensive ERP solutions designed for construction companies, streamlining project management, resource allocation, and cost control while ensuring compliance with industry standards and regulations.",
+  "description": "Comprehensive ERP solutions designed for construction companies, streamlining project management, resource allocation and cost control while ensuring compliance with industry standards and regulations.",
   "keyPoints": [
     "Project Management",
     "Resource Planning",
@@ -11,7 +11,7 @@
   ],
   "infoCards": [
     {
-      "image": "/images/industry-icons/construction-project.png",
+      "image": "/images/industry-icons/project_control.png",
       "title": "Project Control",
       "description": "End-to-end construction project management and monitoring system.",
       "list": [
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "image": "/images/industry-icons/construction-safety.png",
+      "image": "/images/industry-icons/safety_management.png",
       "title": "Safety Management",
       "description": "Comprehensive safety and compliance management system.",
       "list": [

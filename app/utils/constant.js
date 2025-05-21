@@ -58,7 +58,7 @@
       link: '/products/erp-for-restaraunt', 
     },
     {
-      title: "Accounting Software",
+      title: "Finance & Accounting Software",
       description: "Automates bookkeeping, invoicing, tax calculations and legal compliance, providing real-time financial insights and streamlined management.",
       image: "/products/accounting-pdt.webp",
       linkText: 'Explore',

@@ -47,8 +47,8 @@ const Header = () => {
                   <i className="fa-solid fa-phone"></i>
                 </span>
                 <div className="info">
-                  <span className="title">Need ERP?</span>
-                  <h5 className="number">+91 8919439603</h5>
+                  <h5 className="number mb-3">+91 70328 03200</h5>
+                  <h5 className="number">+91 89194 39604</h5>
                 </div>
               </a>
             </div>

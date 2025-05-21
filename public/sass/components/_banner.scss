@@ -86,6 +86,15 @@
 	transform: translate(-50%, -50%);
 	z-index: 3;
 	animation: bounce-rocket 4.5s infinite ease-in-out;
+
+	img {
+		filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.15));
+		transition: filter 0.3s ease;
+
+		&:hover {
+			filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.2));
+		}
+	}
 }
 
 .banner-center-content {
@@ -103,18 +112,26 @@
 	position: absolute;
 	width: 250px;
 	height: 180px;
-	// background: #fff;
 	border-radius: 14px;
-	// box-shadow: 0 4px 20px rgba(0,0,0,0.10);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	z-index: 2;
+
+	img {
+		box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+		border-radius: 10px;
+		transition: box-shadow 0.3s ease;
+
+		// &:hover {
+		// 	box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+		// }
+	}
 }
 .chart-top-left {
     border-radius: 10px;
     top: 3px;
-    left: -450px;
+    left: -400px;
     animation: bounce-chart 2.2s infinite ease-in-out;
     animation-delay: 0s;
 }
@@ -122,7 +139,7 @@
     animation-delay: 2;}
 .chart-bottom-left { bottom: 10px; left: -350px;  animation: bounce-chart 2.2s infinite ease-in-out;
     animation-delay: 4s; }
-.chart-bottom-right { bottom: 40px; right: -320px;  animation: bounce-chart 2.2s infinite ease-in-out;
+.chart-bottom-right { bottom: 40px; right: -360px;  animation: bounce-chart 2.2s infinite ease-in-out;
     animation-delay: 6s; }
 
 /* Floating Icons */
@@ -134,7 +151,7 @@
 }
 .icon-pos-1 { top: 30px; left: -20px;  }
 .icon-pos-2 { top: 40px; right: -30px; }
-.icon-pos-3 { top: 165px; left: -80px; }
+.icon-pos-3 { top: 152px; left: -80px; }
 .icon-pos-4 { bottom: 75px; right: -30px; }
 .icon-pos-5 { bottom: 75px; left: -30px;  }
 .icon-pos-6 { top: 160px; right: -70px; }
@@ -153,22 +170,18 @@
   50% { transform: translate(-50%, -50%) translateY(-30px); }
 }
 
-@media (max-width: 991px) {
-	.banner-hero { padding: 30px 0 20px 0; }
-	.rocket-visual { width: 320px; height: 320px; }
-	.chart-card { width: 120px; height: 80px; }
-}
-
-@media (max-width: 767px) {
-	.banner-hero { flex-direction: column; }
-	.banner-title { font-size: 2rem; }
-	.rocket-visual { width: 220px; height: 220px; }
-	.chart-card { width: 80px; height: 50px; }
+@media (max-width: 992px) {
+	.banner-hero { padding: 120px 0 20px 0; }
 	.rocket-visual,
 	.rocket-icon,
 	.chart-card {
 		display: none !important;
 	}
+}
+
+@media (max-width: 767px) {
+	.banner-hero { flex-direction: column; }
+	.banner-title { font-size: 2rem; }
 	.banner-center-content {
 		align-items: center;
 		justify-content: center;

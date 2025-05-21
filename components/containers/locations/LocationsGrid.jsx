@@ -5,36 +5,25 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 const locations = [
-  {
-    title: 'ERP in Ahmedabad',
-    image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
-    description: 'SourcePro Infotech Pvt. Ltd., with 20 years of expertise, offers top ERP solutions in Ahmedabad...',
-    link: '/locations/ahmedabad',
-  },
+           
   {
     title: 'ERP in Chennai',
     image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
-    description: 'ERP software in Chennai acts as the backbone for modern business management...',
+    description: 'Our ERP in Chennai supports high-volume manufacturing and trading businesses with real-time visibility. Experience the best ERP software in India powered by advanced cloud-based ERP software in India.',
     link: '/locations/chennai',
   },
   {
     title: 'ERP in Hyderabad',
     image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
-    description: 'Transform your business operations with our cutting-edge ERP solutions in Hyderabad, the tech hub of India...',
+    description: 'Hyderabad businesses benefit from seamless integration across finance, inventory and CRM. As a provider of manufacturing ERP India, we offer scalable tools through our ERP partner branches.',
     link: '/locations/hyderabad',
   },
   {
     title: 'ERP in Coimbatore',
     image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
-    description: 'Streamline your manufacturing and textile business with our specialized ERP solutions in Coimbatore...',
+    description: 'We support Coimbatore’s textile and engineering firms with flexible ERP systems. Discover reliable manufacturing ERP software in India designed to boost compliance and efficiency.',
     link: '/locations/coimbatore',
-  },
-  {
-    title: 'ERP in Indore',
-    image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
-    description: 'Enhance your business efficiency with our comprehensive ERP solutions in Indore, the commercial capital of Madhya Pradesh...',
-    link: '/locations/indore',
-  }
+  } 
 ];
 
 export default function LocationsGrid() {

@@ -13,15 +13,31 @@ const DownloadWidget = ({ bgShape, image, title, spanTitle, buttonText }) => (
         <Image
           src={image || ""}
           alt={`${title} ${spanTitle} preview`}
-          width={200}
+          width={300}
           height={300}
         />
       </figure>
-      <h4>
+      <h4 style={{
+        textAlign: "left"
+      }}>
         {title}
-        <span>{spanTitle}</span>
+        <span style={{color: "var(--bs-primary-500)", fontSize: "16px", fontWeight: "600"}}>{spanTitle}</span>
       </h4>
-      <button type="button" className="theme-btn btn-one">
+      <button 
+        type="button"
+        style={{
+          background: "linear-gradient(45deg, var(--bs-primary-500), var(--bs-primary-700))",
+          color: "white",
+          border: "none",
+          padding: "10px 40px",
+          borderRadius: "50px",
+          cursor: "pointer",
+          transition: "all 0.3s ease",
+          fontWeight: "500"
+        }}
+        onMouseOver={(e) => e.target.style.opacity = "0.9"}
+        onMouseOut={(e) => e.target.style.opacity = "1"}
+      >
         {buttonText}
       </button>
     </div>

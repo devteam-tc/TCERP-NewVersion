@@ -1,35 +1,33 @@
 {
   "banner": "/images/industries/apparel-banner_img.webp",
   "title": "Apparel Industry",
-  "description": "Comprehensive ERP solutions designed for apparel and fashion businesses, streamlining processes from design to retail distribution.",
+  "description": "Comprehensive ERP solutions designed for apparel and fashion businesses, streamlining processes from design to retail distribution. Our apparel ERP software and apparel manufacturing software help manage operations with precision and speed. From production to stock control, our clothing manufacturing software ensures efficiency at every stage.",
   "keyPoints": [
-    "Design & Product Development",
-    "Material & Inventory Management",
-    "Production Planning & Control",
-    "Quality Assurance",
-    "Supply Chain & Distribution"
+    "Design & Production Management",
+    "Material Resource Planning (MRP)",
+    "Inventory & Stock Control",
+    "Order Management & Tracking",
+    "Costing & Profitability Tracking"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/apparel_management.png",
-      "title": "Fashion Design & Development",
-      "description": "Streamline your design process with tools for pattern making, sample management, and collection planning.",
+      "title": "Apparel Production ",
+      "description": "End-to-end ERP for apparel businesses from design to delivery with real-time operational control.",
       "list": [
-        "Pattern Development",
-        "Sample Management",
-        "Collection Planning",
-        "Material Sourcing"
+        "Design & Product Development",
+        "Inventory & Material Management",
+        "Production & Quality Control"
       ]
     },
     {
       "image": "/images/industry-icons/production_analytics.png",
-      "title": "Production & Manufacturing",
-      "description": "Optimize your manufacturing processes with real-time production tracking and quality control systems.",
+      "title": "Distribution & Analytics",
+      "description": "Optimize your supply chain and gain insights with advanced reporting tools for faster, smarter decisions.",
       "list": [
-        "Cutting & Sewing Management",
-        "Production Scheduling",
-        "Quality Control",
-        "Cost Tracking"
+        "Production Planning & Scheduling",
+        "Quality Assurance Metrics",
+        "Retail & Distribution Tracking"
       ]
     }
   ],

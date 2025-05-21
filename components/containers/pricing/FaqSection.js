@@ -1,52 +1,43 @@
 'use client';
 
-import { useState } from 'react';
-import faqData from '../../../data/pricing/faqsection.json'; 
+import React, { useState } from "react";
+import faqData from "../../../data/pricing/faqSection.json";
+import SectionTitle from "../../../components/containers/SectionTitle";
 
-const FaqSection = () => {
+const FaqSection = ({ extraClassName = '' }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const toggleAccordion = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
+  if (!faqData || faqData.length === 0) {
+    return <p>No FAQ data available.</p>;
+  }
 
   return (
-    <section className="faqSection">
+    <section className={`ep-faq-section pt-60 pb-60 ${extraClassName}`}>
       <div className="container">
-        <div className="contentt">
-          <div className="textContent">
-            <h4 className="support">PRICING</h4>
-            <h2 className="titlee">
-              Frequently<br />Asked Questions
-            </h2>
-            <p className="subtitle">
-              Get answers to common questions about TCERP pricing, plans, and payment options.
-            </p>
-            <button className="getInTouch">Get In Touch</button>
-          </div>
-
-          <div className="faqList">
-            {faqData.map((faq, index) => (
-              <div
-                key={index}
-                className={`faqItem ${activeIndex === index ? 'active' : ''}`}
-              >
-                <button
-                  className="questionButton"
-                  onClick={() => toggleAccordion(index)}
-                >
-                  {faq.question}
-                  <span className="icon">
-                    {activeIndex === index ? '-' : '+'}
-                  </span>
-                </button>
-                {activeIndex === index && (
-                  <div className="answer">
-                    {faq.answer}
+        <div className="row">
+          <div className="col-lg-12">
+            <SectionTitle subTitle="Ask Question" title="Empowering Progress Through Technology" extraClass="mb-30" />
+            <div className="faq-body">
+              <div className="accordion">
+                {faqData.map((item, index) => (
+                  <div className="accordion-item" key={index}>
+                    <div className="accordion-header">
+                      <button
+                        className={`accordion-button ${activeIndex === index ? "" : "collapsed"}`}
+                        onClick={() => setActiveIndex(activeIndex === index ? null : index)}
+                      >
+                        {index + 1}. {item.question}
+                      </button>
+                    </div>
+                    <div className={`accordion-collapse collapse ${activeIndex === index ? "show" : ""}`}>
+                      <div className="accordion-body">
+                        <p>{item.answer}</p>
+                      </div>
+                    </div>
                   </div>
-                )}
+                ))}
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>
