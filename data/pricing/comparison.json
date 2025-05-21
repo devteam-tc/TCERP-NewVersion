@@ -6,7 +6,7 @@
     },
     "plans": [
       {
-        "name": "BASIC PLAN",
+        "name": "Basic Plan",
         "buttonText": "Get Basic",
         "features": {
           "versionHistory": "₹2,000",
@@ -19,7 +19,7 @@
         }
       },
       {
-        "name": "GROWTH PLAN",
+        "name": "Growth Plan",
         "buttonText": "Get Growth",
         "isHighlighted": true,
         "features": {
@@ -33,7 +33,7 @@
         }
       },
       {
-        "name": "PREMIUM PLAN",
+        "name": "Premium Plan",
         "buttonText": "Get Premium",
         "features": {
           "versionHistory": "₹0",

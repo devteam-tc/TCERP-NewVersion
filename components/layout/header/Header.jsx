@@ -48,8 +48,8 @@ const Header = () => {
                   <FaPhoneAlt size={28} />
                 </span>
                 <div className="info">
-                  <span className="title">Need ERP?</span>
-                  <h5 className="number">+91 8919439603</h5>
+                  <span className="title">+91 8919439603</span>
+                  <h5 className="number">+91 7032803200</h5>
                 </div>
               </a>
             </div>

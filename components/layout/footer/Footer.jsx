@@ -31,7 +31,7 @@ const Footer = () => {
                         <li>
                           <div className="d-flex align-items-center gap-2">
                             <div className="icon">
-                              <FaMapMarkerAlt size={20} />
+                              <FaMapMarkerAlt size={20} style={{ color: 'var(--bs-primary-500)' }} />
                             </div>
                             <h4 className="title">Address </h4>
                           </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                         <li>
                           <div className="d-flex align-items-center gap-2">
                             <div className="icon">
-                              <FaEnvelope size={20} />
+                              <FaEnvelope size={20} style={{ color: 'var(--bs-primary-500)' }} />
                             </div>
                             <h4 className="title">Email </h4>
                           </div>

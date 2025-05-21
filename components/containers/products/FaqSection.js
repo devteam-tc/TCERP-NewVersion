@@ -1,7 +1,7 @@
 import { useState } from "react";
 import groupIcon from "../../../public/images/icons/group-person-icon.svg";
 import groupIcon2 from "../../../public/images/icons/group-person-icon-2.svg";
-import faqData from "../../../data/products/FaqData.json"; // ✅ Default import
+import faqData from "../../../data/products/FaqData.json"; 
 import Image from "next/image";
 import SectionTitle from "../SectionTitle";
 

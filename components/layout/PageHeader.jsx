@@ -27,7 +27,7 @@ const PageHeader = ({ title = '', breadcrumbs = [] }) => {
                       </span>
                     )}
                     {index < breadcrumbs.length - 1 && (
-                      <FaChevronRight className="ms-2 me-2" />
+                      <FaChevronRight className="ms-2 me-2" style={{ color: 'var(--bs-primary-500)' }} />
                     )}
                   </li>
                 ))}
