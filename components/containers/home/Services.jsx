@@ -7,6 +7,7 @@ import SectionTitle from '../SectionTitle';
 import { services } from '../../../data/services';
 import Link from 'next/link';
 import Image from 'next/image';
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Services = ({ isSlider = true, showTitle = true, extraClassName='' }) => {
   const swiperRef = useRef(null);
@@ -34,10 +35,10 @@ const Services = ({ isSlider = true, showTitle = true, extraClassName='' }) => {
                 <div className="col-xl-6 col-md-3 align-self-end">
                   <div className="services-arrow d-flex gap-4 align-items-center justify-content-center justify-content-sm-start justify-content-md-end">
                     <div className="arrow arrow-prev">
-                      <i className="fa-solid fa-arrow-left"></i>
+                      <FaArrowLeft size={20} />
                     </div>
                     <div className="arrow arrow-next">
-                      <i className="fa-solid fa-arrow-right"></i>
+                      <FaArrowRight size={20} />
                     </div>
                   </div>
                 </div>

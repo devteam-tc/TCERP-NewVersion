@@ -19,7 +19,7 @@ const features = [
     alt: "customisation icon"
   },
   {
-    icon: "/images/about-us/opensource.png",
+    icon: "/images/about-us/Accessibility.png",
     title: "Accessibility",
     alt: "accessibility icon"
   },

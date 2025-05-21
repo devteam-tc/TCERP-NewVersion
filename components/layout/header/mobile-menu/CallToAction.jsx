@@ -1,3 +1,5 @@
+import {  FaPhoneAlt } from 'react-icons/fa';
+
 const CallToAction = () => {
   return (
     <div className="call-us p-4">
@@ -6,7 +8,7 @@ const CallToAction = () => {
         className="call-us-btn d-flex align-items-center gap-1"
       >
         <span className="icon d-flex justify-content-center align-items-center">
-          <i className="fa-solid fa-phone"></i>
+          <FaPhoneAlt size={20} />
         </span>
         <div className="info">
           <span className="title">Need ERP?</span>

@@ -1,33 +1,33 @@
 {
   "banner": "/images/industries/construction_banner_img.jpg",
   "title": "Construction Industry",
-  "description": "Comprehensive ERP solutions designed for construction companies, streamlining project management, resource allocation and cost control while ensuring compliance with industry standards and regulations.",
+  "description": "Streamline your entire project lifecycle with intelligent construction ERP software built specifically for the construction and infrastructure industry. From tendering and budgeting to site execution and billing, a fully integrated ERP software for builders helps you centralize operations, track real-time costs, and boost collaboration across teams and contractors. Designed for agility and accuracy, the ERP system in construction empowers you to deliver projects on time and within budget.",
   "keyPoints": [
-    "Project Management",
-    "Resource Planning",
-    "Cost Control",
-    "Equipment Tracking",
-    "Safety Compliance"
+    "Project Estimation & Tender Management",
+    "Material Procurement & Vendor Tracking",
+    "Labor & Subcontractor Management",
+    "Site Progress Monitoring",
+    "Billing, Costing & Financial Reporting"
   ],
   "infoCards": [
     {
       "image": "/images/industry-icons/project_control.png",
-      "title": "Project Control",
-      "description": "End-to-end construction project management and monitoring system.",
+      "title": "Project Planning & Costing",
+      "description": "Plan and manage resources efficiently from start to finish",
       "list": [
-        "Schedule Management",
-        "Resource Allocation",
-        "Progress Tracking"
+        "BOQ-Based Cost Estimation",
+        "Resource Scheduling & Task Assignment",
+        "Project-Wise Budgeting & Profit Tracking"
       ]
     },
     {
       "image": "/images/industry-icons/safety_management.png",
-      "title": "Safety Management",
-      "description": "Comprehensive safety and compliance management system.",
+      "title": "Procurement & Inventory",
+      "description": "Optimize material usage and control wastage",
       "list": [
-        "Safety Protocols",
-        "Compliance Tracking",
-        "Incident Management"
+        "Vendor & Subcontractor Portal",
+        "Stock Level Monitoring & Reorder Alerts",
+        "Purchase Requisition to GRN Automation"
       ]
     }
   ],

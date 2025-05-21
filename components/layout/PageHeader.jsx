@@ -1,5 +1,5 @@
-
 import Link from 'next/link';
+import { FaChevronRight } from 'react-icons/fa';
 
 const PageHeader = ({ title = '', breadcrumbs = [] }) => {
   return (
@@ -27,7 +27,7 @@ const PageHeader = ({ title = '', breadcrumbs = [] }) => {
                       </span>
                     )}
                     {index < breadcrumbs.length - 1 && (
-                      <i className="fa-solid fa-chevron-right ms-2 me-2"></i>
+                      <FaChevronRight className="ms-2 me-2" />
                     )}
                   </li>
                 ))}

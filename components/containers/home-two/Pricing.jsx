@@ -5,6 +5,7 @@ import { indiaPricingPlans ,usPricingPlans  } from "../../../data/pricing";
 import SectionTitle from "../SectionTitle";
 import Link from "next/link";
 import Image from "next/image";
+import { FaAnglesRight } from "react-icons/fa6";
 
 const Pricing = ({ extraClassName = '' }) => {
   const [selectedCountry, setSelectedCountry] = useState("india");
@@ -56,7 +57,7 @@ const Pricing = ({ extraClassName = '' }) => {
                 <ul className="list-unstyled mt-40 options flex-grow-1">
                   {plan.features.map((feature, i) => (
                     <li key={`${plan.id}-${i}`} className="d-flex">
-                      <i className="fa-solid fa-angles-right"></i>
+                      <FaAnglesRight className="me-2 mt-1" />
                       <span>{feature}</span>
                     </li>
                   ))}

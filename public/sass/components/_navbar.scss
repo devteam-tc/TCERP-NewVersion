@@ -291,21 +291,19 @@
 	.call-us-btn {
 		.icon {
 			// background-color: var(--bs-secondary-color);
-				color: var(--bs-white-color) !important;
+				color: var(--bs-secondary-500) !important;
 
-			&:hover {
-				// background-color: var(--bs-secondary-color);
-				color: var(--bs-white-color) !important;
-			}
+			// &:hover {
+			// 	color: var(--bs-white-color) !important;
+			// }
 		}
 
-		&:hover {
-			.icon {
-				// background-color: var(--bs-secondary-color) !important;
-				color: var(--bs-white-color) !important;
+		// &:hover {
+		// 	.icon {
+		// 		color: var(--bs-white-color) !important;
 
-			}
-		}
+		// 	}
+		// }
 	}
 }
 .nested-submenu {
@@ -501,12 +499,11 @@
 					background-color: var(--bs-background-color);
 				}
 
-				&:hover {
-					.icon {
-						// background-color: var(--bs-secondary-color);
-						color: var(--bs-white-color) !important;
-					}
-				}
+				// &:hover {
+				// 	.icon {
+				// 		color: var(--bs-white-color) !important;
+				// 	}
+				// }
 			}
 		}
 	}

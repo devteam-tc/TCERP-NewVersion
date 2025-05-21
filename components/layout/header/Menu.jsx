@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { menus } from "../../../data/menuData";
+import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 
 const Menu = () => {
   return (
@@ -9,7 +10,7 @@ const Menu = () => {
         <li key={index} className="nav-item">
           <Link className="nav-link" href={item.link}>
             {item.title}
-            {(item.submenu || item.children) && <i className="fas fa-chevron-down"></i>}
+            {(item.submenu || item.children) && <FaChevronDown className="ms-1" />}
           </Link>
 
           {/* Handle Industries Menu */}
@@ -18,7 +19,7 @@ const Menu = () => {
               {item.children.map((category, catIndex) => (
                 <li key={catIndex}>
                   <Link href="#">
-                    {category.heading} <i className="fas fa-chevron-right"></i>
+                    {category.heading} <FaChevronRight className="ms-1" />
                   </Link>
                   <ul className="nested-submenu list-unstyled">
                     {category.submenu.map((subItem, subIdx) => (

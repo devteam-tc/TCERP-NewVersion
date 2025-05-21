@@ -5,6 +5,7 @@ import Menu from "./Menu";
 import logo from "../../../public/images/logo/logo.svg";
 import Image from "next/image";
 import MobileMenu from "./MobileMenu";
+import { FaPhoneAlt } from 'react-icons/fa';
 
 const Header = () => {
   useEffect(() => {
@@ -44,7 +45,7 @@ const Header = () => {
             <div className="call-us">
               <a href="tel:+91 8919439603" className="call-us-btn d-flex align-items-center gap-1">
                 <span className="icon d-flex justify-content-center align-items-center">
-                  <i className="fa-solid fa-phone"></i>
+                  <FaPhoneAlt size={28} />
                 </span>
                 <div className="info">
                   <span className="title">Need ERP?</span>
