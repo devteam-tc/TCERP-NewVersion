@@ -36,6 +36,12 @@
     border-radius: 0;
     box-shadow: none;
     margin-bottom: 56px;
+
+    @media (max-width: 992px) {
+      grid-template-columns: none;
+      gap: 30px;
+      padding: 6px 12px;
+    }
   }
 
   &__card {
