@@ -5,9 +5,24 @@ import { FaHome } from 'react-icons/fa';
 import WhyChooseUs from '../../../components/containers/locations/WhyChooseUs';
 import ContactForm from '../../../components/containers/locations/ContactForm';
 import Footer from '../../../components/layout/footer/Footer';
+
+// URL to data mapping
+const urlToDataMap = {
+  // Hyderabad URLs
+  'techcloud-erp-software-in-hyderabad': 'hyderabad',
+  'hyderabad': 'hyderabad',
+  
+  // Chennai URLs
+  'techcloud-erp-software-in-chennai': 'chennai',
+  'chennai': 'chennai',
+  
+  // Coimbatore URLs
+  'techcloud-erp-software-in-coimbatore': 'coimbatore',
+  'coimbatore': 'coimbatore'
+};
+
 // Location data - you might want to move this to a separate data file
 const locationData = {
-  
   chennai: {
     title: 'Best ERP Software In Chennai',
     image: 'https://dummyimage.com/800x400/cccccc/000000&text=Chennai',
@@ -43,20 +58,20 @@ const locationData = {
       'Real-Time Analytics',
       'Cloud-Based Deployment'
     ]
-  },
-   
+  }
 };
 
 // This function tells Next.js which dynamic routes to pre-render
 export async function generateStaticParams() {
-  return Object.keys(locationData).map((slug) => ({
+  return Object.keys(urlToDataMap).map((slug) => ({
     slug,
   }));
 }
 
 export default function LocationPage({ params }) {
   const { slug } = params;
-  const location = locationData[slug];
+  const dataKey = urlToDataMap[slug];
+  const location = locationData[dataKey];
 
   if (!location) {
     return <div>Location not found</div>;

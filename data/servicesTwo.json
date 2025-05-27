@@ -1,0 +1,69 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Web Based & Cloud Computing",
+        "alt": "Cloud-based ERP software with web access and data backup features",
+        "image": "/images/services/cloud.webp",
+        "className": "icon-box-primary icon-box-text-white",
+        "description": "Web-based and cloud computing provide scalable, flexible access to apps and data online."
+      },
+      {
+        "id": 2,
+        "title": "Dynamic Dashboards",
+        "alt": "Real-time ERP dashboards with interactive data visualization",
+        "image": "/images/services/dynamic.webp",
+        "className": "icon-box-secondary icon-box-text-white",
+        "description": "Dynamic dashboards offer real-time, interactive data visualization for better decision-making."
+      },
+      {
+        "id": 3,
+        "title": "Email & WhatsApp Integration",
+        "alt": "Phone with WhatsApp & email icons for cross-channel communication",
+        "image": "/images/services/email.webp",
+        "className": "icon-box-tertiary",
+        "description": "Email and SMS integration enables seamless, efficient communication across both channels."
+      },
+      {
+        "id": 4,
+        "title": "Mobile & Tab Compatibility",
+        "alt": "Tablet & smartphone displaying apps for responsive design & compatibility",
+        "image": "/images/services/mobile.webp",
+        "className": "icon-box-primary icon-box-text-white",
+        "description": "Ensures a seamless user experience across devices, enhancing accessibility and usability."
+      },
+      {
+        "id": 5,
+        "title": "Data Auto Backup",
+        "alt": "Laptop with cloud backup icons for automated data storage & protection",
+        "image": "/images/services/data.webp",
+        "className": "icon-box-primary icon-box-text-white",
+        "description": "Automates secure data storage, ensuring continuity and protection against loss."
+      },
+      {
+        "id": 6,
+        "title": "Pay As You Go",
+        "alt": "Pay As You Go paper with charts & calculator for flexible billing",
+        "image": "/images/services/pay.webp",
+        "className": "icon-box-primary icon-box-text-white",
+        "description": "Enables users to pay for services based on actual usage, promoting flexibility and cost-efficiency."
+      },
+      {
+        "id": 7,
+        "title": "Chat Between Users",
+        "alt": "Businessman with tablet and chat icons for real-time collaboration",
+        "image": "/images/services/chat.webp",
+        "className": "icon-box-primary icon-box-text-white",
+        "description": "Facilitates real-time communication and collaboration, enhancing interaction and connectivity."
+      },
+      {
+        "id": 8,
+        "title": "Unlimited Users",
+        "alt": "Laptop with user icons representing unlimited access & scalability",
+        "image": "/images/services/unlimited.webp",
+        "className": "icon-box-primary icon-box-text-white",
+        "description": "Accommodates an unlimited number of users, ensuring scalability and accessibility."
+      }
+    ]
+  }
+  

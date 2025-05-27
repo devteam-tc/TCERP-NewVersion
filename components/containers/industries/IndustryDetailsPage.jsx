@@ -35,25 +35,37 @@ const ProjectDetailsPage = ({ industrySlug }) => {
         if (!industrySlug) {
           throw new Error('Industry slug is required');
         }
+
+        console.log('Loading data for industry:', industrySlug);
         
         // Check if data is in cache
         if (industryDataCache.has(industrySlug)) {
+          console.log('Using cached data for:', industrySlug);
           setCurrentProject(industryDataCache.get(industrySlug));
           setLoading(false);
           return;
         }
 
         // Dynamically import the specific industry data
-        const industryData = await import(`../../../data/industries/${industrySlug}.json`)
-          .then(module => module.default)
-          .catch(error => {
-            console.error('Failed to load industry data:', error);
-            throw new Error(`Failed to load data for ${industrySlug}`);
-          });
+        console.log('Attempting to load JSON file:', `../../../data/industries/${industrySlug}.json`);
         
-        // Cache the data
-        industryDataCache.set(industrySlug, industryData);
-        setCurrentProject(industryData);
+        try {
+          const module = await import(`../../../data/industries/${industrySlug}.json`);
+          const industryData = module.default;
+          
+          if (!industryData) {
+            throw new Error('Loaded data is empty or undefined');
+          }
+          
+          console.log('Successfully loaded data for:', industrySlug);
+          
+          // Cache the data
+          industryDataCache.set(industrySlug, industryData);
+          setCurrentProject(industryData);
+        } catch (importError) {
+          console.error('Import error details:', importError);
+          throw new Error(`Failed to import data for ${industrySlug}: ${importError.message}`);
+        }
       } catch (error) {
         console.error('Error loading industry data:', error);
         setError(error.message || `Failed to load data for ${industrySlug}`);
@@ -71,11 +83,28 @@ const ProjectDetailsPage = ({ industrySlug }) => {
 
   if (loading) {
     return (
-      <div className="loading-spinner d-flex justify-content-center align-items-center" style={{ minHeight: '200px' }}>
-        <div className="spinner-border text-primary" role="status">
-          <span className="visually-hidden">Loading...</span>
+      <section className="ep-project-details-section pt-60">
+        <div className="container">
+          <div className="row align-items-start g-4">
+            <div className="col-lg-8">
+              <div className="shimmer-effect rounded-20 mb-4" style={{ height: '400px' }} />
+              <div className="shimmer-effect rounded-20 mb-4" style={{ height: '200px' }} />
+              <div className="row g-4">
+                <div className="col-lg-6">
+                  <div className="shimmer-effect rounded-20" style={{ height: '300px' }} />
+                </div>
+                <div className="col-lg-6">
+                  <div className="shimmer-effect rounded-20" style={{ height: '300px' }} />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="shimmer-effect rounded-20 mb-4" style={{ height: '200px' }} />
+              <div className="shimmer-effect rounded-20 mb-4" style={{ height: '150px' }} />
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     );
   }
 
@@ -96,7 +125,7 @@ const ProjectDetailsPage = ({ industrySlug }) => {
   }
 
   return (
-    <section className="ep-project-details-section pt-120">
+    <section className="ep-project-details-section pt-60">
       <div className="container">
         <div className="row align-items-start g-4">
           {/* Left column */}

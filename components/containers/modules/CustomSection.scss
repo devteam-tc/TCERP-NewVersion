@@ -1,0 +1,263 @@
+.single-section-title {
+  color: var(--title);
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+@media (max-width: 1199px) {
+  .single-section-title {
+    font-size: 35px;
+  }
+}
+
+.section-title {
+  .subtitle {
+    display: inline-flex;
+    padding: 4px 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: rgba(116, 68, 253, 0.15);
+    color: var(--theme);
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+    margin-bottom: 15px;
+
+    &.bg2 {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    img {
+      margin-left: 3px;
+    }
+  }
+
+  .title {
+    color: var(--title);
+    font-family: "Urbanist", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    margin-bottom: 25px;
+  }
+
+  .text1 {
+    color: var(--text);
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .section-title .title {
+    font-size: 35px;
+  }
+}
+
+.wcu-section {
+  .wcu-container-wrapper {
+    &.style2 {
+      border-radius: 50px;
+      background-color: var(--theme3);
+    }
+  }
+
+  .wcu-wrapper {
+    &.style2 {
+      .wcu-thumb {
+        position: relative;
+        margin-right: 58px;
+
+        .main-thumb {
+          position: relative;
+          z-index: 1;
+
+          img {
+            max-width: 100%;
+            border-radius: 20px;
+            box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.15);
+          }
+        }
+
+        .thumb2 {
+          position: absolute;
+          bottom: -30px;
+          left: -30px;
+          z-index: 2;
+
+          img {
+            max-width: 100%;
+          }
+        }
+
+        .thumb3 {
+          position: absolute;
+          top: 30px;
+          right: -30px;
+          z-index: 2;
+
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+
+      .wcu-content {
+        .section-title {
+          .subtitle {
+            display: inline-flex;
+            padding: 4px 10px;
+            align-items: center;
+            gap: 10px;
+            border-radius: 100px;
+            background: rgba(116, 68, 253, 0.15);
+            color: var(--theme);
+            font-family: "Urbanist", sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.32px;
+            margin-bottom: 15px;
+
+            img {
+              margin-left: 3px;
+            }
+          }
+
+          .title {
+            color: var(--title);
+            font-family: "Urbanist", sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.96px;
+            margin-bottom: 25px;
+          }
+
+          .text1 {
+            color: var(--text);
+            font-family: "Urbanist", sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.32px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.fancy-box {
+  &.style3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+
+    .icon {
+      flex-shrink: 0;
+    }
+
+    .content {
+      h4 {
+        color: var(--title);
+        font-family: "Urbanist", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      .text {
+        color: var(--text);
+        font-family: "Urbanist", sans-serif;
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+  }
+}
+
+.float-bob-y {
+  animation: float-bob-y 2s ease-in-out infinite;
+}
+
+.float-bob-x {
+  animation: float-bob-x 2s ease-in-out infinite;
+}
+
+@keyframes float-bob-y {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes float-bob-x {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 1199px) {
+  .wcu-section {
+    .wcu-wrapper.style2 {
+      .wcu-content {
+        .section-title {
+          .title {
+            font-size: 35px;
+          }
+        }
+      }
+
+      .wcu-thumb {
+        .thumb2 {
+          left: 0;
+          bottom: 0;
+        }
+
+        .thumb3 {
+          right: 0;
+          top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .wcu-section {
+    .wcu-wrapper.style2 {
+      .wcu-content {
+        margin-top: 30px;
+      }
+    }
+  }
+}

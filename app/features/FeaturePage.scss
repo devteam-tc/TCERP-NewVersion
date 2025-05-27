@@ -59,16 +59,39 @@
   }
 }
 
-.cardImage {
-  height: 200px;
+.image-wrapper {
   width: 100%;
-  object-fit: cover;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.feature-image {
+  width: 100% !important;
+  height: 200px !important;
+  object-fit: contain !important;
+  display: block;
 }
 
 .cardBody {
   padding: 10px;
-  // flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  h5 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+    color: #6c757d;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
 }

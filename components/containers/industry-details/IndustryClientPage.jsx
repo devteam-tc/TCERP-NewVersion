@@ -26,7 +26,6 @@ const IndustryClientPage = () => {
         ).join(' '));
       }
     };
-
     loadIndustryData();
   }, [slug]);
 

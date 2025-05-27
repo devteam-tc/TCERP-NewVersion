@@ -5,7 +5,8 @@
 export const VALID_SERVICE_SLUGS = [
   'web-development',
   'app-development',
-  'digital-marketing'
+  'digital-marketing',
+  'e-commerce-development'
 ];
 
 /**

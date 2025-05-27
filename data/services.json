@@ -49,6 +49,13 @@
       "title": "App Development",
       "description": "We build smooth, user-friendly apps that bring your ideas to life and keep users coming back for more.",
       "thumb": "/images/services/mobile-app.webp"
+    },
+    "e-commerce-development": {
+      "id": 4,
+      "icon": "/images/services/ser-icon4.png",
+      "title": "E-Commerce Development",
+      "description": "We build smooth, user-friendly apps that bring your ideas to life and keep users coming back for more.",
+      "thumb": "/images/services/mobile-app.webp"
     }
   }
 } 

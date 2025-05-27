@@ -1,6 +1,6 @@
 // import Pricing from "@/components/containers/home-two/Pricing";
 import Pricing from "../components/containers/home-two/Pricing"
-import ServicesTwo from "../components/containers/home-two/ServicesTwo";
+import ServicesTwo from "../components/containers/home/ServicesTwo";
 import Banner from "../components/containers/home/Banner";
 // import Blog from "@/components/containers/home/Blog";
 import Counter from "../components/containers/home/Counter";

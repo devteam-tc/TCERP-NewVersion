@@ -1,0 +1,56 @@
+.cta-section {
+  padding: 80px 0;
+//   background: linear-gradient(to right, #e0f7fa, #e1bee7);
+background-image: url("/images/modules/cta-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-card {
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 15px;
+  padding: 40px;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px); 
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #333;
+    line-height: 1.4;
+  }
+
+  p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background-color: #2196f3; // Blue color similar to the image
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #1976d2; // Darker blue on hover
+    }
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; // Standard container width
+  padding: 0 15px;
+}

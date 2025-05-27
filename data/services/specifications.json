@@ -73,5 +73,40 @@
         "img": "/images/services/marketing/analytics.png"
       }
     ]
+  },
+  "e-commerce-development": {
+    "title": "E-Commerce Development",
+    "features": [
+      {
+        "title": "Automation",
+        "description": "Ensure smooth, efficient transactions from start to finish using Tech Cloud ERP’s intelligent automation tools.",
+        "img": "/images/services/ecommerce/responsive.png"
+      },
+      {
+        "title": "Website Builder",
+        "description": "Build your ideal website effortlessly using Tech Cloud ERP’s easy-to-use website builder designed for all skill levels.",
+        "img": "/images/services/ecommerce/performance.png" 
+      },
+      {
+        "title": "Central Database",
+        "description": "Store all your business data securely and organized in one place with our centralized, efficient database system.",
+        "img": "/images/services/ecommerce/performance.png" 
+      },
+      {
+        "title": "Search Function",
+        "description": "Easily find what you need with powerful search tools that make accessing information fast, simple and effortless.",
+        "img": "/images/services/ecommerce/performance.png" 
+      },
+      {
+        "title": "Integration",
+        "description": "Seamlessly connect all your business tools for smoother, more efficient operations with our integration platform.",
+        "img": "/images/services/ecommerce/performance.png" 
+      },
+      {
+        "title": "Marketing data visualization",
+        "description": "Turn marketing data into clear insights with visualization tools to help you make smarter business decisions.",
+        "img": "/images/services/ecommerce/performance.png" 
+      }
+    ]
   }
 }

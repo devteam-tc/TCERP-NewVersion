@@ -1,6 +1,6 @@
 const IndustryInformation = ({ data }) => (
     <div className="project-information rounded-20">
-      <h4 className="title rounded-20 text-center mb-30">Industry Information</h4>
+      <h4 className="title rounded-10 text-center mb-30">Industry Information</h4>
       <ul className="list-unstyled options">
         <li className="d-flex align-items-center rounded-20 gap-4 section-bg">
           <h5 className="flex-shrink-0 label">Industry:</h5>

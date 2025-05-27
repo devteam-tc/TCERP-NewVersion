@@ -104,7 +104,7 @@ const ContactForm = () => {
     <div className="contactpage-info__icon"><FaEnvelope /></div>
     <div>
       <div className="contactpage-info__sub">Send us Mail</div>
-      <div className="contactpage-info__text">info@techclouderp.com</div>
+      <div className="contactpage-info__text">sales@techclouderp.com</div>
     </div>
   </div>
 

@@ -16,19 +16,19 @@ const locations = [
     title: 'ERP in Chennai',
     image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
     description: 'ERP software in Chennai acts as the backbone for modern business management...',
-    link: '/locations/chennai',
+    link: '/locations/techcloud-erp-software-in-chennai',
   },
   {
     title: 'ERP in Hyderabad',
     image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
     description: 'Transform your business operations with our cutting-edge ERP solutions in Hyderabad, the tech hub of India...',
-    link: '/locations/hyderabad',
+    link: '/locations/techcloud-erp-software-in-hyderabad',
   },
   {
     title: 'ERP in Coimbatore',
     image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
     description: 'Streamline your manufacturing and textile business with our specialized ERP solutions in Coimbatore...',
-    link: '/locations/coimbatore',
+    link: '/locations/techcloud-erp-software-in-coimbatore',
   },
   
 ];

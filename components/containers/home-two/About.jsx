@@ -17,7 +17,7 @@ const About = ({extraClassName = ''}) => {
             data-aos="fade-left"
             className="col-xl-6 col-lg-7 col-md-10 mx-auto">
             <div className="about-image position-relative">
-              <Image src={aboutImg} alt="about-img" className="img-fluid w-100" />
+              <Image src={aboutImg} alt="Business handshake showing trust & partnership in skyline view" className="img-fluid w-100" />
               <Image src={aboutShape} alt="about-shape" className="about-shape position-absolute" />
               <div className="clients rounded-20 position-absolute d-flex align-items-center">
                 <div className="icon-box icon-box-tertiary d-flex align-items-center justify-content-center rounded-pill">

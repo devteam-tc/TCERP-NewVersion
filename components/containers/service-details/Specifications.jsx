@@ -5,6 +5,7 @@ import { useState } from 'react';
 import appDevelopmentData from '../../../data/services/app-development.json';
 import webDevelopmentData from '../../../data/services/web-development.json';
 import digitalMarketingData from '../../../data/services/digital-marketing.json';
+import eCommerceDevelopmentData from '../../../data/services/e-commerce-development.json';
 
 const Specifications = ({ slug }) => {
   const getDataBySlug = () => {
@@ -15,15 +16,18 @@ const Specifications = ({ slug }) => {
         return webDevelopmentData;
       case 'digital-marketing':
         return digitalMarketingData;
+      case 'e-commerce-development':
+        return eCommerceDevelopmentData;
       default:
-        return { services: [] };
+        return { services: [], features: [] };
     }
   };
 
   const data = getDataBySlug();
-  const services = data.services;
+  // Handle both data structures (services and features)
+  const items = data.features || data.services || [];
 
-  if (!services || services.length === 0) {
+  if (!items || items.length === 0) {
     return null;
   }
 
@@ -33,12 +37,14 @@ const Specifications = ({ slug }) => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-12">
-              <div className="section-title text-center"></div>
+              {/* <div className="section-title text-center">
+                <h2>Key Features</h2>
+              </div> */}
             </div>
 
-            {services.map((service, index) => (
+            {items.map((item, index) => (
               <div key={index} className="col-xl-3 col-lg-4 col-md-6">
-                <HoverCard service={service} />
+                <HoverCard service={item} />
               </div>
             ))}
 
@@ -75,7 +81,7 @@ const HoverCard = ({ service }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       style={{
-        height: '360px',
+        height: '380px',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
@@ -98,8 +104,8 @@ const HoverCard = ({ service }) => {
       >
         <Image
           src={
-            isHovered
-              ? service.hoverImg || service.img
+            isHovered && service.hoverImg
+              ? service.hoverImg
               : service.img || '/images/industries/default-card-image.png'
           }
           alt={service.title}
@@ -135,14 +141,6 @@ const HoverCard = ({ service }) => {
         >
           {service.description}
         </p>
-        {/* style={{
-            margin: 0,
-            textOverflow: 'ellipsis',
-            display: '-webkit-box',
-            WebkitLineClamp: '4',
-            WebkitBoxOrient: 'vertical',
-            overflow: 'hidden',
-          }} */}
       </div>
     </div>
   );

@@ -1,17 +1,17 @@
 
 {
     "industries": {
-      "apparel-industry": {
+      "apparel-erp-software": {
         "title": "#1 Smart ERP Solutions for Apparel Industry",
         "description": "Grow your apparel business with our advanced ERP software. Streamline design, production, inventory, and sales for improved efficiency and growth.",
         "keywords": "Apparel ERP Software, ERP System, Apparel Inventory Management Software, Apparel Manufacturing Software, Clothing Manufacturing Software, Apparel Management Software, Apparel Inventory Software"
       },
-      "automotive-industry": {
+      "automotive-erp-software": {
         "title": "#1 Best ERP software for the Automotive Industry",
         "description": "Explore automotive software designed for the automotive industry. Simplify processes, enhance efficiency, and drive growth with Tech Cloud ERP",
         "keywords": "automotive it solutions, automotive industry solutions, automotive crm software,automotive industry software"
       },
-      "beverage-industry": {
+      "food-and-beverage-erp": {
         "title": "#1 Best ERP Software for Beverage Industry",
         "description": "Streamline beverage manufacturing with ERP software. Manage production, inventory, and supply chain seamlessly using Tech Cloud ERP solutions.",
         "keywords": "food and beverage erp,beverage erp,beverage industry software,beverage manufacturing erp software"
@@ -21,27 +21,27 @@
         "description": "Discover ERP software for the agriculture industry. Streamline operations, enhance productivity, and grow your agribusiness with Tech Cloud ERP.",
         "keywords": "farm management software,agro industry,agriculture software,farm technology,farm software"
       },
-      "chemical-industry": {
+      "chemical-erp-software": {
         "title": "#1 Best ERP for Chemical Industry | Tech Cloud ERP",
         "description": "Enhance chemical manufacturing with ERP for the chemical industry. Track processes, ensure quality, and boost productivity with Tech Cloud ERP.",
         "keywords": "chemical manufacturing erp, chemical software, chemical erp, chemical industry erp, ERP for Chemical Industry"
       },
-      "educational-institutes": {
+      "school-management-system": {
         "title": "#1 Best ERP Software for Educational Industry",
         "description": "Discover Education ERP software to optimize academic and administrative processes. Simplify management and improve efficiency with Tech Cloud ERP.",
         "keywords": "Education ERP software,school erp, erp for school management,school management system software, erp for education institutes,erp software for schools & college, school erp software"
       },
-      "electrical-solar-industry": {
+      "solar-erp-software": {
         "title": "#1 Best ERP for Electrical & Solar Industry | Tech Cloud ERP",
         "description": "Discover how ERP for the electrical goods and solar industries boosts efficiency, reduces costs, and improves workflows. Get the best solution for your business today!",
         "keywords": "Solar ERP, Solar ERP Software, ERP Solution for Solar Businesses, ERP for Renewable Energy"
       },
-      "electronics-industry": {
+      "electronics-manufacturing-erp": {
         "title": "#1 Best ERP for Electronics Industry | Tech Cloud ERP",
         "description": "Tech Cloud ERP offers tailored ERP solutions for the electronics industry to boost efficiency, reduce costs, and streamline production processes.",
         "keywords": "Electronics industry,Best ERP Software for Electronics Manufacturing Industry,Electronics Manufacturing Software,ERP for Electronics"
       },
-      "fmcg-industry": {
+      "fmcg-erp-software": {
         "title": "#1 Best ERP for FMCG Industry | Tech Cloud ERP ",
         "description": "Tech Cloud ERP provides top FMCG software with advanced inventory, accounting, and billing features to streamline operations and drive business growth.",
         "keywords": "ERP software for FMCG industry, FMCG ERP Software, ERP for FMCG Business"
@@ -51,32 +51,32 @@
         "description": "Tech Cloud ERP Food Manufacturing Software streamlines operations with an advanced solution that efficiently manages every aspect of food manufacturing.",
         "keywords": "Food ERP Software, ERP for Food and Beverage Industry, FOOD Manufacturing Software, Beverage Manufacturing ERP Software"
       },
-      "furniture-industry": {
+      "furniture-manufacturing-erp": {
         "title": "#1 Furniture Manufacturing with Smart ERP",
         "description": "Tech Cloud ERP Furniture Manufacturing Software helps furniture manufacturers cut inventory and raw material costs while enhancing efficiency.",
         "keywords": "Best ERP for the Furniture Industry, ERP for Furniture Industry, Furniture ERP Software, Furniture Manufacturing Software"
       },
-      "garment-industry": {
+      "garment-erp-software": {
         "title": "#1 Best ERP for Garment Production & Retail",
         "description": "Discover ERP software for the garment industry. Manage inventory, optimize production, and streamline operations with Tech Cloud ERP",
         "keywords": "erp software for garment industry, erp software for garment manufacturing company, erp for garment manufacturing, garment manufacturing erp, garment manufacturing erp"
       },
-      "hydraulic-industry": {
+      "hydraulic-erp-software": {
         "title": "#1 Best ERP for Hydraulic Industry",
         "description": "ERP software for hydraulic industries streamlines part sales, inventory, and order management, boosting efficiency for growing small businesses.",
         "keywords": "ERP Software for the Hydraulic Industry, hydraulic cylinder manufacturers, Hydraulic Industry"
       },
-      "jewellery-industry": {
+      "jewellery-erp-software": {
         "title": "#1 Best ERP for Jewellery Business",
         "description": "Transform your jewellery business with ERP software. Improve inventory tracking, automate tasks, and simplify management processes seamlessly.",
         "keywords": "jewellery erp software, ERP Software for Jewellery, ERP for Jewellery Industry"
       },
-      "leather-industry": {
+      "leather-erp-software": {
         "title": "#1 Best ERP for Efficient Leather Production & Waste Reduction",
         "description": "Optimize your leather business workflow with ERP software. Enhance productivity, control inventory, and simplify operations like never before.",
         "keywords": "ERP Software for Leather Manufacturing Industry, Leather Manufacturing ERP Software, erp software for Leather industry, erp software for learher tannery, Merchandise Management System, manufacturing and production system"
       },
-      "logistics-industry": {
+      "logistics-erp-software": {
         "title": "Best Smart ERP for Logistics & Supply Chain | Tech Cloud ERP",
         "description": "Optimize logistics & supply chain with Tech Cloud ERP. Streamline operations, reduce costs, and gain real-time insights for seamless management.",
         "keywords": "logistics erp, logistics erp software, ERP for Logistics Movement, Logistics ERP module, Logistics Management Software, software for Logistics Movement, ERP system for distribution business"
@@ -86,22 +86,22 @@
         "description": "Enhance your medical equipment business with ERP software. Track production, maintain regulatory compliance, and improve workflow easily.",
         "keywords": "Medical ERP System, erp medical, medical erp, Medical Device ERP Software System"
       },
-      "wood-industry": {
+      "wood-manufacturing-erp": {
         "title": "#1 Smart Wood Manufacturing ERP | Tech Cloud ERP",
         "description": "Revolutionize wood manufacturing with ERP tools. Streamline inventory, manage supply chains, and improve daily operations with precision.",
         "keywords": "ERP Software for Wood Manufacturing Industry, erp wood industry, wood industry erp, ERP Software for Wood Manufacturing Industry"
       },
-      "wholesalers-industry": {
+      "wholesale-distribution-software": {
         "title": "#1 Best ERP for Wholesale Distribution | Tech Cloud ERP",
         "description": "Transform your wholesale business with ERP solutions. Simplify inventory management, automate tasks, and enhance customer satisfaction.",
         "keywords": "wholesale erp, erp software for distributors, erp software for wholesale distributors, wholesale distribution erp software, ERP Software For Wholesale, erp software for distribution, wholesale business erp, wholesale business software"
       },
-      "metal-fabrication-industry": {
+      "metal-fabrication-erp": {
         "title": "#1 Best ERP Software for the Metal Fabrication Industry",
         "description": "Enhance your metal fabrication processes with ERP solutions. Automate workflows, monitor resources, and deliver top-notch results every time",
         "keywords": "Metal Fabrication ERP for Manufacturing, erp software for metal fabrication, Metal Fabrication ERP, ERP For Metal Fabricators"
       },
-      "microfinance-industry": {
+      "microfinance-software": {
         "title": "#1 Smart Solutions for Microfinance Growth",
         "description": "Transform microfinance with ERP software. Manage loans, track repayments, and enhance service delivery for better efficiency and growth.",
         "keywords": "Microfinance ERP System, Microfinance Software"
@@ -111,7 +111,7 @@
         "description": "Improve oil and gas operations with advanced ERP software. Manage production, automate tasks, and reduce costs for optimized performance.",
         "keywords": "software oil and gas, oil and gas asset management, erp oil and gas, oil and gas erp, oil and gas erp, oil and gas asset management software, oil and gas erp software, oil software, oil and gas software solutions, erp software for oil and gas, ERP Software for the Oil and Gas Industry"
       },
-      "packaging-industry": {
+      "packaging-management-software": {
         "title": "#1 Best ERP Software for Packaging Industry",
         "description": "Tech Cloud ERP software for the packaging industry manages lot and serial traceability, UPC labeling, flexible units of measure, and much more.",
         "keywords": "ERP Software for Printing and Packaging Industry, ERP for Packaging"
@@ -121,32 +121,32 @@
         "description": "Tech Cloud ERP Cloud-based software for the paper industry. Manage production, materials, quality, inventory, and finance for optimized operations.",
         "keywords": "Best ERP Software for Paper Manufacturing Industry,erp for paper industry, ERP for Paper Manufacturing"
       },
-      "plastic-industry": {
+      "plastic-erp-software": {
         "title": "#1 Best Advanced ERP for Plastic Manufacturing ",
         "description": "Unlock the potential of your plastic manufacturing business. Tech Cloud ERP offers advanced tools to improve operations, boost productivity, and grow faster.",
         "keywords": "Plastics ERP, Plastics Manufacturing ERP Software, ERP Software for Plastics Manufacturing Industry"
       },
-      "pharma-industry": {
+      "pharma-erp-software": {
         "title": "#1 Best ERP Software for Pharmaceutical Industry",
         "description": "Discover the benefits of pharma ERP systems. Learn how ERP software enhances efficiency, compliance, and growth in the pharmaceutical industry.",
         "keywords": "Pharma ERP Software, erp software for pharma industry, ERP for Pharmaceutical Industry, erp pharma software"
       },
-      "publishing-industry": {
+      "publishing-erp-software": {
         "title": "#1 Best ERP for Publishing Industry ",
         "description": "ERP for the Publishing Industry is a software solution designed to streamline operations, improve efficiency, and enhance collaboration, leading to greater productivity and profitability.",
         "keywords": "erp for publishing industry, publishing erp software, erp for publishers, publishing erp"
       },
-      "printing-industry": {
+      "printing-erp-software": {
         "title": "#1 Best ERP Software for the Printing Industry",
         "description": "Enhance your printing business with ERP for the printing industry. Streamline production, manage inventory, and improve efficiency with Tech Cloud ERP.",
         "keywords": "Best ERP Software for Printing Industry, ERP Systems for the Printing Industry,erp for printing industry, erp software for printing industry, printing erp software, print erp, printing business solutions"
       },
-      "preengineering-industry": {
+      "pre-engineering-erp": {
         "title": "#1 Best All in one Pre Engineering Software ",
         "description": "Revolutionize your pre-engineering business with ERP solutions. Streamline project management, inventory, and production with Tech Cloud ERP.",
         "keywords": "ERP Software for Engineering, engineering erp, erp engineering, best ERP system for engineering."
       },
-      "rubber-industry": {
+      "rubber-manufacturing-erp": {
         "title": "#1 Best ERP for Rubber Industry | Tech Cloud ERP",
         "description": "Tech Cloud ERP Rubber ERP Manufacturing Software streamlines your operations by advancing manufacturing technologies, tools, and processes.",
         "keywords": "Best ERP Software for Rubber Manufacturing Industry, Software for Rubber Industry, ERP Software for Rubber Industry, ERP for Rubber Industry"
@@ -156,22 +156,22 @@
         "description": "Our restaurant ERP solution enables managers to streamline and automate key aspects of inventory management, monitor purchase orders, and more.",
         "keywords": "ERP for restaurants, Restaurant ERP, Restaurant ERP software, Restaurant ERP Systems"
       },
-      "retail-industry": {
+      "retail-erp-software": {
         "title": "#1 Complete ERP for Retail Management & Growth",
         "description": "Upgrade your retail business with ERP software. Streamline operations, boost analytics, and enhance efficiency for improved performance and growth.",
         "keywords": "ERP for retail, ERP for retail industry, retail erp"
       },
-      "steel-industry": {
+      "steel-manufacturing-erp": {
         "title": "#1 Best Advanced ERP for Steel Industry",
         "description": "Tech cloud ERP software for the steel industry offers complete control, ensuring error-free and efficient operations with a highly customized approach.",
         "keywords": "ERP for Steel Industry, ERP for Steel manufaturing, ERP Software For Steel Manufacturing"
       },
-      "telecom-industry": {
+      "telecom-erp-software": {
         "title": "#1 Best ERP Solutions for Telecom Sector",
         "description": "Telecom software delivers seamless communication and efficient management. Discover solutions tailored for your telecom business today.",
         "keywords": "ERP for telecoms, telecom software, telecom industry software, telecommunication software, telecom cloud solutions, telecom CRM, cloud-based telecom software"
       },
-      "textiles-industry": {
+      "textile-erp-software": {
         "title": "#1 Best Advanced ERP for the Modern Textiles Industry",
         "description": "Optimize textile manufacturing with ERP. Streamline operations, reduce waste, and increase efficiency with the right ERP solution for your business.",
         "keywords": "Textile erp, Textile industry software, erp for textile industry, textile erp software, Textile industry erp"
@@ -179,50 +179,40 @@
 
   },
   "products": {
-    "tech-cloud-erp": {
-      "title": "#1 Best Enterprise ERP Software | Smarter Business Management",
-      "description": "Explore Tech Cloud ERP solutions to streamline operations, boost efficiency, and drive business growth.",
+    "customer-relationship-management": {
+      "title": "Best ERP Software to Simplify Your Business Processes",
+      "description": "Discover the best ERP software to optimize your business operations, boost efficiency and drive growth. Unlock smarter management solutions today.",
       "keywords": "Tech cloud erp, Tech Cloud, best cloud based erp software,"
     },
-    "customer-relationship-management": {
-      "title": "#1 Best CRM Software | for Customer Engagement",
-      "description": "CRM software empowers businesses to strengthen relationships, improve communication, and increase revenue. Start your transformation today!",
+    "sales-management": {
+      "title": "Optimize Sales and Boost Customer Relations with CRM Software",
+      "description": "Boost customer relationships and drive sales with CRM software to optimize communication, track leads and enhance customer satisfaction in one platform.",
       "keywords": "What is Customer Relationship Management, What is CRM, Customer Relationship Management, crm software, crm management software, best crm software, crm system"
     },
-    "point-of-sale": {
-      "title": "#1 Best POS Software for Retail Operations | Tech Cloud ERP",
-      "description": "Get free POS software for retail stores in India. Simplify operations, improve inventory management, and enhance customer experience effortlessly.",
+    "purchase-management": {
+      "title": "Smart POS System for Retail and Restaurants | Fast and Reliable",
+      "description": "Optimize sales, manage inventory and enhance customer experience with a smart Point of Sale (POS) system tailored for retail and restaurant businesses.",
       "keywords": "POS Software, Point of Sale Software, pos billing software, retail pos software india, best pos software in india, download pos software, best pos billing software in india, best retail pos software in india, pos software india, point of sale software india, free pos software india, pos software for retail stores in india"
     },
-    "trading-software": {
-      "title": "#1 Best Trading Software for Enhanced Business Efficiency",
-      "description": "Manage your trading seamlessly with the best futures trading platform. Enhance efficiency, accuracy, and profitability with top-notch software.",
+    "inventory-management": {
+      "title": "Smarter Trading Software for Fast, Informed Decisions",
+      "description": "Discover the best ERP for trading businesses to optimize inventory, sales and accounting with real-time insights and automation to boost your efficiency.",
       "keywords": "Trading Software, best futures trading platform"
     },
-    "Ecommerce-software": {
-      "title": "#1 Best Ecommerce-software| Tech Cloud ERP",
-      "description": "Build an online store for your business with powerful e-commerce software. Simplify operations with inventory management and ERP integration.",
+    "production-management": {
+      "title": "All-in-One E-commerce ERP Solution for Smarter Operations",
+      "description": "Accelerate your e-commerce growth with ERP software that integrates inventory, orders and finances | perfect for scaling your online store.",
       "keywords": "Build an online store for your ecommerce business, E-commerce software, erp system ecommerce, best ecommerce platform for small business, e commerce platforms, ecommerce inventory management software, ecommerce inventory software"
     },
-    "hr-managament-software": {
-      "title": "#1 Best All in One HR Management Software| Tech Cloud ERP",
-      "description": "Techcloud HRMS solutions provide data security, automation, and scalability to enhance HR effectiveness and employee experience.",
+    "job-work-management": {
+      "title": "Smart HRMS for Efficient Employee Management Systems",
+      "description": "Elevate HR processes with our HRMS solution. Simplify payroll, recruitment, employee management and more for a dynamic workforce experience.",
       "keywords": "human resources management system, HCM, hr management, erp software, best hr software, best hr systems"
     },
-    "financial-management-systems": {
-      "title": "#1 Best Financial Management Solutions for Business Growth",
-      "description": "Learn how TechCloud ERP’s Financial Management System automates processes, improves cash flow, and enhances financial reporting for your business.",
+    "quality-control": {
+      "title": "Efficient Financial Management System for Better Business Control",
+      "description": "Optimize your business with our Finance Software. Manage budgets, expenses and financial reporting efficiently for improved decision-making.",
       "keywords": "Financial Management System, financial management software, personal finance management software, personal money management software, finance, accounting, erp financial management tools, cloud financial management"
-    },
-    "integrated-erp-software": {
-      "title": "#1 Best All-in-One ERP | Automate & Grow Your Business",
-      "description": "Explore the power of integrated ERP systems that unify business processes, boost collaboration, and provide real-time insights for smarter decisions.",
-      "keywords": "ERP Integration, What is an ERP Integration"
-    },
-    "erp-for-restaraunt": {
-      "title": "#1 ERP for Restaurant Management | Tech Cloud ERP",
-      "description": "Our restaurant ERP solution enables managers to streamline and automate key aspects of inventory management, monitor purchase orders, and more.",
-      "keywords": "ERP for restaurants, Restaurant ERP, Restaurant ERP software, Restaurant ERP Systems"
     },
     "erp-for-accounting-software": {
       "title": "#1 Best Tech Cloud ERP | Simplify Accounting & Compliance",

@@ -93,11 +93,11 @@
       },
       {
         "question": "Will my website be mobile-friendly?",
-        "answer": "Yes. All websites we develop are fully responsive and optimized for mobile, tablet, and desktop devices."
+        "answer": "Yes. All websites we develop are fully responsive and optimized for mobile, tablet and desktop devices."
       },
       {
         "question": "What technologies do you use for web development?",
-        "answer": "We work with a range of technologies, including HTML, CSS, JavaScript, React, WordPress, PHP, and more—based on your project's needs."
+        "answer": "We work with a range of technologies, including HTML, CSS, JavaScript, Wordpress, React, Nextjs, PHP and more—based on your project's needs."
       },
       {
         "question": "What security measures do you implement in web development?",

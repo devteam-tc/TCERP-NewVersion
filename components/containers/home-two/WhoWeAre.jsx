@@ -43,7 +43,7 @@ const WhoWeAre = () => {
                 <h5 className="title">Support we provide</h5>
               </div>
               <div className="img overflow-hidden reveal left">
-                <Image src={WhoImg} alt="who-we-are" className="img-fluid w-100" />
+                <Image src={WhoImg} alt="Customized ERP with 24/7 support for industry workflows" className="img-fluid w-100" />
               </div>
             </div>
           </div>

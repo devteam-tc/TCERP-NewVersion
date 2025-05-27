@@ -60,7 +60,7 @@ const features = [
   },
   {
     icon: "/images/about-us/speed.png",
-    title: "Language versatility",
+    title: "Language Versatility",
     alt: "Language versatility icon"
   },
   
@@ -72,10 +72,6 @@ const UniqueFeatures = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
-            {/* <div className="section-heading text-center mb-5">
-              <h6 className="text-primary mb-3">Quiety Featured</h6>
-              <h2>Enjoy some exclusive features</h2>
-            </div> */}
              <div className="text-center">
                <SectionTitle subTitle="Quiety Featured" title="Enjoy some exclusive features" extraClass="mb-30" />
              </div>

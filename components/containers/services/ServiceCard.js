@@ -79,14 +79,6 @@ const ServiceCard = () => {
       <div className="container">
         <div className="row mb-xl-5 mb-4 text-center justify-content-center">
           <div className="col-lg-7">
-            {/* <div className="section-title">
-              <span className="sub-badge p1-clr fw-semibold fs-seven text-uppercase d-block mb-3">
-                OUR FEATURED PROJECTS
-              </span>
-              <h2 className="wow fadeInUp black fw-bold visible-slowly-right" data-wow-delay=".3s">
-                Selected case studies
-              </h2>
-            </div> */}
              <div className="feature-text">
               <SectionTitle subTitle=" OUR FEATURED PROJECTS" title="Selected case studies" />
                

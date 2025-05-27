@@ -13,11 +13,11 @@ const Features = () => {
           <div className="col-lg-6 order-2 order-md-1">
             <div className="feature-image position-relative">
               <div className="img-one overflow-hidden rounded-20 reveal left position-relative">
-                <Image src={featureImg1} alt="about-img"
+                <Image src={featureImg1} alt="25 years of ERP software excellence with mobile and desktop dashboard"
                   className="img-fluid w-100 rounded-20" />
               </div>
               <div className="img-two overflow-hidden position-absolute">
-                <Image src={featureImg2} alt="about-img"
+                <Image src={featureImg2} alt="25+ years ERP expertise with 2000+ clients and 10000+ software users"
                   className="img-fluid w-100 rounded-20" />
               </div>
             </div>

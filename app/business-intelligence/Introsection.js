@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import introSection from "../../data/bi/intro-section.json"; // Adjust alias if needed
+import introSection from "../../data/bi/intro-section.json"; 
 
 const BusinessSection = () => {
   return (
@@ -11,7 +11,6 @@ const BusinessSection = () => {
             {introSection.heading}
           </h2>
         </div>
-
         <div className="row g-4 justify-content-between">
           <div className="col-lg-5 order-lg-0 order-1">
             <div className="businessThumbnail">
@@ -23,14 +22,13 @@ const BusinessSection = () => {
           <div className="col-lg-6">
             <div className="businessContent">
               <p className="pra">{introSection.description}</p>
-
               <div className="row g-4">
                 {introSection.features.map((item, index) => (
                   <div key={index} className="col-sm-6">
                     <div className="businessItems">
                       <Image 
                         src={item.img} 
-                        alt="image" 
+                        alt="image"
                         width={60} 
                         height={60} 
                         style={{

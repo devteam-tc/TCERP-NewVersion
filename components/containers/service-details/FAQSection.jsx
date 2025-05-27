@@ -3,7 +3,8 @@ import { useState } from 'react';
 import webDevelopmentData from '../../../data/services/web-development.json';
 import appDevelopmentData from '../../../data/services/app-development.json';
 import digitalMarketingData from '../../../data/services/digital-marketing.json';
-import { CiCircleMinus, CiCirclePlus } from 'react-icons/ci';
+import eCommerceDevelopmentData from '../../../data/services/e-commerce-development.json'
+import { CiCircleMinus, CiCirclePlus } from 'react-icons/ci'
 
 const FAQSection = ({ service = 'web-development' }) => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -16,8 +17,9 @@ const FAQSection = ({ service = 'web-development' }) => {
       case 'digital-marketing':
         return digitalMarketingData;
       case 'web-development':
-      default:
-        return webDevelopmentData;
+        return webDevelopmentData ;
+      case 'e-commerce-development':
+        return eCommerceDevelopmentData;
     }
   };
 
@@ -36,7 +38,7 @@ const FAQSection = ({ service = 'web-development' }) => {
           <div className="col-lg-6 col-md-12 col-sm-12 process-column mb-lg-0 mb-5">
             <div className="content_block_two">
               <div className="content-box mr_100">
-                <div className="sec-title pb_35">
+                <div className="sec-title pb-30">
                   <span className="sub-title mb_10 mb-2">The Process</span>
                   <h2 className='section-title title-anim undefined'>How it Works</h2>
                 </div>
@@ -56,7 +58,7 @@ const FAQSection = ({ service = 'web-development' }) => {
           {/* FAQ Column */}
           <div className="col-lg-6 col-md-12 col-sm-12 faq-column">
             <div className="ep-faq-section">
-              <div className="sec-title pb_35 ">
+              <div className="sec-title pb-30">
                 <span className="sub-title mb_10 mb-2">FAQ</span>
                 <h2  className='section-title title-anim undefined'>Frequently Asked Questions</h2>
               </div>

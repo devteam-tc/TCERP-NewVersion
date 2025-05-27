@@ -17,14 +17,6 @@ import serviceIcon15 from '../public/images/icons/multiple.png';
 import serviceIcon16 from '../public/images/icons/pos.png';
 import serviceIcon18 from '../public/images/icons/import_and_export.png';
 // services two image icons
-import serviceTwoImg1 from '../public/images/services/cloud.webp';
-import serviceTwoImg2 from '../public/images/services/dynamic.webp';
-import serviceTwoImg3 from '../public/images/services/email.webp';
-import serviceTwoImg4 from '../public/images/services/mobile.webp';
-import serviceTwoImg5 from '../public/images/services/data.webp';
-import serviceTwoImg7 from '../public/images/services/pay.webp';
-import serviceTwoImg8 from '../public/images/services/chat.webp';
-import serviceTwoImg9 from '../public/images/services/unlimited.webp';
 
 export const services = [
   {
@@ -134,69 +126,3 @@ export const services = [
   },
 ];
 
-export const servicesTwo = [
-  {
-    id: 1,
-    title: "Web Based & Cloud Computing",
-    image: serviceTwoImg1,
-    className: "icon-box-primary icon-box-text-white",
-    description:"Web-based and cloud computing provide scalable, flexible access to apps and data online.",
-  },
-  {
-    id: 2,
-    title: "Dynamic Dashboards",
-    image: serviceTwoImg2,
-    className: "icon-box-secondary icon-box-text-white",
-    description:"Dynamic dashboards offer real-time, interactive data visualization for better decision-making.",
-
-  },
-  {
-    id: 3,
-    title: "Email & WhatsApp Integration",
-    image: serviceTwoImg3,
-    className: "icon-box-tertiary",
-    description:"Email and SMS integration enables seamless, efficient communication across both channels.",
-  },
-  {
-    id: 4,
-    title: "Mobile & Tab Compatibility",
-    image: serviceTwoImg4,
-    className: "icon-box-primary icon-box-text-white",
-    description:"Ensures a seamless user experience across devices, enhancing accessibility and usability.",
-
-
-  },
-  {
-    id: 5,
-    title: "Data Auto Backup",
-    image: serviceTwoImg5,
-    className: "icon-box-primary icon-box-text-white",
-    description:"Automates secure data storage, ensuring continuity and protection against loss.",
-
-  },
-
-  {
-    id: 6,
-    title: "Pay As You Go",
-    image: serviceTwoImg7,
-    className: "icon-box-primary icon-box-text-white",
-    description:"Enables users to pay for services based on actual usage, promoting flexibility and cost-efficiency.",
-
-  },
-  {
-    id: 7,
-    title: "Chat Between Users",
-    image: serviceTwoImg8,
-    className: "icon-box-primary icon-box-text-white",
-    description:"Facilitates real-time communication and collaboration, enhancing interaction and connectivity.",
-
-  },
-  {
-    id: 8,
-    title: "Unlimited Users",
-    image: serviceTwoImg9,
-    className: "icon-box-primary icon-box-text-white",
-    description:"Accommodates an unlimited number of users, ensuring scalability and accessibility.",
-
-  },
-]

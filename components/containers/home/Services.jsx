@@ -70,7 +70,7 @@ const Services = ({ isSlider = true, showTitle = true, extraClassName='' }) => {
             <SwiperSlide key={service.id}>
             <div className="service-item rounded-20">
               <Link 
-                href="/modules"
+                href="/our-modules"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="d-block w-100"

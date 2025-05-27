@@ -5,25 +5,25 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 const locations = [
-           
-  {
-    title: 'ERP in Chennai',
-    image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
-    description: 'Our ERP in Chennai supports high-volume manufacturing and trading businesses with real-time visibility. Experience the best ERP software in India powered by advanced cloud-based ERP software in India.',
-    link: '/locations/chennai',
-  },
   {
     title: 'ERP in Hyderabad',
     image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
     description: 'Hyderabad businesses benefit from seamless integration across finance, inventory and CRM. As a provider of manufacturing ERP India, we offer scalable tools through our ERP partner branches.',
-    link: '/locations/hyderabad',
-  },
+    link: '/locations/techcloud-erp-software-in-hyderabad',
+  },  
   {
     title: 'ERP in Coimbatore',
     image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
     description: 'We support Coimbatore’s textile and engineering firms with flexible ERP systems. Discover reliable manufacturing ERP software in India designed to boost compliance and efficiency.',
-    link: '/locations/coimbatore',
-  } 
+    link: '/locations/techcloud-erp-software-in-coimbatore',
+  },    
+  {
+    title: 'ERP in Chennai',
+    image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
+    description: 'Our ERP in Chennai supports high-volume manufacturing and trading businesses with real-time visibility. Experience the best ERP software in India powered by advanced cloud-based ERP software in India.',
+    link: '/locations/techcloud-erp-software-in-chennai',
+  }
+  
 ];
 
 export default function LocationsGrid() {

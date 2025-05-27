@@ -3,7 +3,7 @@ import logo2 from '../../../public/images/logo/logo.svg';
 import Image from 'next/image';
 import ScrollProgressButton from '../ScrollProgressButton';
 import SocialMediaIcons from './SocialMediaIcons';
-import { FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
+import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -35,7 +35,7 @@ const Footer = () => {
                             </div>
                             <h4 className="title">Address </h4>
                           </div>
-                          <p>Plot No. 241, 3rd Floor, VVG Elite Developers, Kavuri Hills, Madhapur, Hyderabad, Telangana - 500081</p>
+                          <p>Plot No. 241, 3rd Floor, VVG Elite Developers, Kavuri Hills, Madhapur, Hyderabad, Telangana - 500081.</p>
                         </li>
                         <li>
                           <div className="d-flex align-items-center gap-2">
@@ -44,7 +44,18 @@ const Footer = () => {
                             </div>
                             <h4 className="title">Email </h4>
                           </div>
-                          <p> <a href="mailto:info@techclouderp.com">info@techclouderp.com</a></p>
+                          <p> <a href="mailto:sales@techclouderp.com">sales@techclouderp.com</a></p>
+                        </li>
+                        <li>
+                          <div className="d-flex align-items-center gap-2">
+                            <div className="icon">
+                              <FaPhoneAlt size={20} style={{ color: 'var(--bs-primary-500)' }} />
+                            </div>
+                            <h4 className="title">Phone</h4>
+                          </div>
+                          <p>
+                            <a href="tel:+918919439603">+91 8919439603</a>, <a href="tel:+917032803200">+91 7032803200</a>
+                          </p>
                         </li>
                       </ul>
                     </div>
@@ -60,10 +71,9 @@ const Footer = () => {
                       <li><Link href="/contact-us"> Contact Us</Link></li>
                       <li><Link href="/features"> Our Features</Link></li>
                       <li><Link href="/blogs"> Our Blogs</Link></li>
-                      <li><Link href="/our-locations"> Our Locations</Link></li>
-                      <li><Link href="/products"> All Products</Link></li>
+                      <li><Link href="/locations"> Our Locations</Link></li>
+                      <li><Link href="/all-modules"> All Products</Link></li>
                       <li><Link href="/careers"> Careers</Link></li>
-                      {/* <li><Link href="/pricing"> Pricing</Link></li> */}
                     </ul>
                   </div>
                 </div>
@@ -72,13 +82,13 @@ const Footer = () => {
                     <h4 className="footer-title">Industries</h4>
                     <ul className="list-unstyled">
                       <li><Link href="/industries">All Industries</Link></li>
-                      <li><Link href="/industries/jewellery-industry">Jewellery</Link></li>
-                      <li><Link href="/industries/food-beverage-industry">Food & Beverage</Link></li>
-                      <li><Link href="/industries/pharma-industry">Pharma</Link></li>
-                      <li><Link href="/industries/plastic-industry">Plastic</Link></li>
-                      <li><Link href="/industries/signage-industry">Signage</Link></li>
-                      <li><Link href="/industries/textiles-industry">Textile</Link></li>
-                      <li><Link href="/industries/casting-industry">Casting </Link></li>
+                      <li><Link href="/industries/jewellery-erp-software">Jewellery</Link></li>
+                      <li><Link href="/industries/food-and-beverage-erp">Food & Beverage</Link></li>
+                      <li><Link href="/industries/pharma-erp-software">Pharma</Link></li>
+                      <li><Link href="/industries/plastic-erp-software">Plastic</Link></li>
+                      <li><Link href="/industries/sign-manufacturing-erp">Signage</Link></li>
+                      <li><Link href="/industries/textile-erp-software">Textile</Link></li>
+                      <li><Link href="/industries/foundry-erp-solution">Casting </Link></li>
                     </ul>
                   </div>
                 </div>
@@ -88,12 +98,12 @@ const Footer = () => {
                     <ul className="list-unstyled">
                       <li><Link href="/services">All Services </Link></li>
                       <li><Link href="/services/web-development/">Web Development</Link></li>
-                      <li><Link href="/products/Ecommerce-software/">E-Commerce </Link></li>
+                      <li><Link href="/all-modules/production-management/">E-Commerce </Link></li>
                       <li><Link href="/services/app-development/">Mobile App Development</Link></li>
                       <li><Link href="/services/digital-marketing/">Digital Marketing</Link></li>
-                      <li><Link href="/products/trading-software/">Trading Software</Link></li>
+                      <li><Link href="/all-modules/inventory-management/">Trading Software</Link></li>
                       <li><Link href="/business-intelligence/">Business Intelligence</Link></li>
-                      <li><Link href="/products/point-of-sale/">POS</Link></li>
+                      <li><Link href="/all-modules/purchase-management/">POS</Link></li>
                     </ul>
                   </div>
                 </div>

@@ -11,7 +11,6 @@ const AboutSection = ({ slug }) => {
   useEffect(() => {
     const loadContent = async () => {
       try {
-        // Remove -services suffix for file lookup
         const baseSlug = slug.replace('-services', '');
         const data = await import(`../../../data/services/${baseSlug}.json`);
         setContent(data.default);
