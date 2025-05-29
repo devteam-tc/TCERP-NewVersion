@@ -15,7 +15,7 @@
     width: 100%;
   
     .title {
-      font-weight: 700;
+      font-weight: 500;
       font-size: 24px;
       line-height: 30px;
       padding: 14px 20px;
@@ -63,6 +63,7 @@
     .title {
       margin-bottom: 20px;
       margin-top: 20px;
+      font-weight: 700;
     }
 
     p+p {
@@ -74,7 +75,7 @@
 
       ul {
         li {
-          font-weight: 700;
+          font-weight: 500;
           font-size: 18px;
           line-height: 30px;
 
@@ -129,6 +130,7 @@
       transition-timing-function: ease-in-out;
       transition-duration: .7s;
       transition-property: all;
+      padding-top: 1px;
   }
     h4 {
       position: relative;
@@ -183,11 +185,12 @@
     .faq-title {
       font-size: 26px;
       font-weight: 700;
-      margin-bottom: 30px;
+      // margin-bottom: 30px;
+      color: var(--bs-primary-500);
   
       @media (max-width: 576px) {
         font-size: 20px;
-        margin-bottom: 20px;
+        // margin-bottom: 20px;
       }
     }
     .faq-body {
@@ -200,7 +203,10 @@
         margin: 10px 0;
         background-color: var(--bs-white-color) !important;
         border-radius: 30px;
+        transition: all 0.3s ease;
       }
+
+      
   
       .accordion-item+.accordion-item {
         margin-top: 30px;
@@ -217,7 +223,11 @@
         font-weight: 700;
         line-height: 30px;
         border-radius: 120px !important;
-        // padding: 23px 30px;
+
+        @media (max-width: 767.98px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
       }
   
       .accordion-body {
@@ -280,7 +290,7 @@
 
 @media (max-width:575.98px) {
   .ep-project-details-section .project-description .inner-options ul li {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
   }
 }
@@ -314,9 +324,13 @@
     margin-bottom: 15px;
   }
 
+  .card-point{
+    font-style: italic;
+    font-weight: normal;
+  }
   p {
     color: var(--text-color);
-    line-height: 1.75;
+    // line-height: 1.75;
     margin-bottom: 20px;
   }
 
