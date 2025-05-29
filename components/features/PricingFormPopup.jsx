@@ -235,7 +235,8 @@ const PricingFormPopup = ({
     if (showThankYou) {
       timer = setTimeout(() => {
         setShowThankYou(false);
-      }, 5000); // Close after 5 seconds
+        localStorage.removeItem('formSubmitted');
+      }, 5000); // Show thank you for 5 seconds
     }
     return () => {
       if (timer) {
@@ -243,6 +244,13 @@ const PricingFormPopup = ({
       }
     };
   }, [showThankYou]);
+
+  // Add effect to prevent thank you popup from showing when form is shown
+  useEffect(() => {
+    if (show) {
+      setShowThankYou(false);
+    }
+  }, [show]);
 
   const handleGoogleSignIn = async () => {
     try {
@@ -330,8 +338,13 @@ const PricingFormPopup = ({
       localStorage.removeItem('isAuthenticated');
       localStorage.removeItem('showDetailsForm');
       
-      setShowThankYou(true);
+      // Close the main form first
       onHide();
+      
+      // Then show thank you popup after a short delay
+      setTimeout(() => {
+        setShowThankYou(true);
+      }, 300);
     } catch (error) {
       console.error('Error submitting quotation:', error);
       toast.error('Error submitting form: ' + error.message);
