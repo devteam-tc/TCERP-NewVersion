@@ -86,7 +86,7 @@ const ContactForm = () => {
   </div>
   <h2 className="contactpage-info__title">Contact Us for Expert Legal Guidance</h2>
   <p className="contactpage-info__desc">
-    Provide professional advice and guidance on legal matters, helping clients understand their rights, obligations, and potential courses.
+    Provide professional advice and guidance on legal matters, helping clients understand their rights, obligations and potential courses.
   </p>
 
   <div className="contactpage-info__card">

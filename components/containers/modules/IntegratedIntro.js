@@ -19,7 +19,7 @@ const IntegratedIntro = () => {
           <p className="integrated-intro__description">Objectively strategize e-business e-tailers after an expanded array of communities.
 Conveniently aggregate integrated best practices whereas resource sucking results.
 Appropriately network collaborative portals without progressive channels.</p>
-          <p className="integrated-intro__description">Bring in quality leads, nurture them, and turn them into happy, paying customers. Get a
+          <p className="integrated-intro__description">Bring in quality leads, nurture them and turn them into happy, paying customers. Get a
 complete view of all customer data—personal details, all communication you've had with
 them, and more—all in a single place.</p>
         </div>

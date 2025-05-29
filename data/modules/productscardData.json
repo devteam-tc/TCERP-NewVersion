@@ -1,4 +1,3 @@
-
 {
   "customer-relationship-management": {
     "mainTitle": "Our ERP Overview",
@@ -187,12 +186,12 @@
       {
         "image": "/products/ecommerce/automation.png",
         "title": "Automation",
-        "text": "Ensure smooth, efficient transactions from start to finish using Tech Cloud ERP’s intelligent automation tools."
+        "text": "Ensure smooth, efficient transactions from start to finish using Tech Cloud ERP's intelligent automation tools."
       },
       {
         "image": "/products/ecommerce/website-builder.png",
         "title": "Website Builder",
-        "text": "Build your ideal website effortlessly using Tech Cloud ERP’s easy-to-use website builder designed for all skill levels."
+        "text": "Build your ideal website effortlessly using Tech Cloud ERP's easy-to-use website builder designed for all skill levels."
       },
       {
         "image": "/products/ecommerce/database.png",
@@ -293,6 +292,293 @@
         "text": "Handle global transactions with ease using our multi-currency support, making it simple to manage international business."
       }
     ]
+  },
+  "fixed-assets": {
+    "mainTitle": "Fixed Assets Management",
+    "heading": "Fixed Assets",
+    "cards": [
+      {
+        "image": "/products/tcerp/asset-tracking.png",
+        "title": "Asset Tracking",
+        "text": "Track and manage all your fixed assets efficiently with real-time monitoring and status updates."
+      },
+      {
+        "image": "/products/tcerp/depreciation.png",
+        "title": "Depreciation Management",
+        "text": "Automatically calculate and track asset depreciation using various methods for accurate financial reporting."
+      },
+      {
+        "image": "/products/tcerp/maintenance.png",
+        "title": "Maintenance Scheduling",
+        "text": "Schedule and track maintenance activities to ensure optimal asset performance and longevity."
+      },
+      {
+        "image": "/products/tcerp/valuation.png",
+        "title": "Asset Valuation",
+        "text": "Maintain accurate asset values with comprehensive valuation tools and reporting capabilities."
+      },
+      {
+        "image": "/products/tcerp/compliance.png",
+        "title": "Compliance Management",
+        "text": "Ensure regulatory compliance with built-in tools for asset documentation and reporting."
+      },
+      {
+        "image": "/products/tcerp/audit.png",
+        "title": "Audit Trail",
+        "text": "Maintain detailed records of all asset-related transactions and changes for accountability."
+      }
+    ]
+  },
+  "plant-maintenance": {
+    "mainTitle": "Plant Maintenance Management",
+    "heading": "Plant Maintenance",
+    "cards": [
+      {
+        "image": "/products/tcerp/plantmain.png",
+        "title": "Equipment Tracking",
+        "text": "Track and monitor all plant equipment with real-time status updates and maintenance history."
+      },
+      {
+        "image": "/products/tcerp/maintenance.png",
+        "title": "Preventive Maintenance",
+        "text": "Schedule and manage preventive maintenance tasks to minimize equipment downtime."
+      },
+      {
+        "image": "/products/tcerp/repair.png",
+        "title": "Repair Management",
+        "text": "Efficiently manage repair requests, track progress, and maintain repair history."
+      },
+      {
+        "image": "/products/tcerp/inventory.png",
+        "title": "Spare Parts Inventory",
+        "text": "Manage spare parts inventory and ensure availability for maintenance tasks."
+      },
+      {
+        "image": "/products/tcerp/report.png",
+        "title": "Maintenance Reports",
+        "text": "Generate comprehensive reports on maintenance activities and equipment performance."
+      },
+      {
+        "image": "/products/tcerp/compliance.png",
+        "title": "Compliance Tracking",
+        "text": "Ensure compliance with maintenance schedules and regulatory requirements."
+      }
+    ]
+  },
+  "human-resource-management":{
+    "mainTitle": "Plant Maintenance Management",
+    "heading": "Plant Maintenance",
+    "cards": [
+      {
+        "image": "/products/tcerp/plantmain.png",
+        "title": "Equipment Tracking",
+        "text": "Track and monitor all plant equipment with real-time status updates and maintenance history."
+      },
+      {
+        "image": "/products/tcerp/maintenance.png",
+        "title": "Preventive Maintenance",
+        "text": "Schedule and manage preventive maintenance tasks to minimize equipment downtime."
+      },
+      {
+        "image": "/products/tcerp/repair.png",
+        "title": "Repair Management",
+        "text": "Efficiently manage repair requests, track progress, and maintain repair history."
+      },
+      {
+        "image": "/products/tcerp/inventory.png",
+        "title": "Spare Parts Inventory",
+        "text": "Manage spare parts inventory and ensure availability for maintenance tasks."
+      },
+      {
+        "image": "/products/tcerp/report.png",
+        "title": "Maintenance Reports",
+        "text": "Generate comprehensive reports on maintenance activities and equipment performance."
+      },
+      {
+        "image": "/products/tcerp/compliance.png",
+        "title": "Compliance Tracking",
+        "text": "Ensure compliance with maintenance schedules and regulatory requirements."
+      }
+    ]
+  },
+  "finance-accounting":{
+    "mainTitle": "Plant Maintenance Management",
+    "heading": "Plant Maintenance",
+    "cards": [
+      {
+        "image": "/products/tcerp/plantmain.png",
+        "title": "Equipment Tracking",
+        "text": "Track and monitor all plant equipment with real-time status updates and maintenance history."
+      },
+      {
+        "image": "/products/tcerp/maintenance.png",
+        "title": "Preventive Maintenance",
+        "text": "Schedule and manage preventive maintenance tasks to minimize equipment downtime."
+      },
+      {
+        "image": "/products/tcerp/repair.png",
+        "title": "Repair Management",
+        "text": "Efficiently manage repair requests, track progress, and maintain repair history."
+      },
+      {
+        "image": "/products/tcerp/inventory.png",
+        "title": "Spare Parts Inventory",
+        "text": "Manage spare parts inventory and ensure availability for maintenance tasks."
+      },
+      {
+        "image": "/products/tcerp/report.png",
+        "title": "Maintenance Reports",
+        "text": "Generate comprehensive reports on maintenance activities and equipment performance."
+      },
+      {
+        "image": "/products/tcerp/compliance.png",
+        "title": "Compliance Tracking",
+        "text": "Ensure compliance with maintenance schedules and regulatory requirements."
+      }
+    ]
+  },
+  "imports-exports":{
+    "mainTitle": "Plant Maintenance Management",
+    "heading": "Plant Maintenance",
+    "cards": [
+      {
+        "image": "/products/tcerp/plantmain.png",
+        "title": "Equipment Tracking",
+        "text": "Track and monitor all plant equipment with real-time status updates and maintenance history."
+      },
+      {
+        "image": "/products/tcerp/maintenance.png",
+        "title": "Preventive Maintenance",
+        "text": "Schedule and manage preventive maintenance tasks to minimize equipment downtime."
+      },
+      {
+        "image": "/products/tcerp/repair.png",
+        "title": "Repair Management",
+        "text": "Efficiently manage repair requests, track progress, and maintain repair history."
+      },
+      {
+        "image": "/products/tcerp/inventory.png",
+        "title": "Spare Parts Inventory",
+        "text": "Manage spare parts inventory and ensure availability for maintenance tasks."
+      },
+      {
+        "image": "/products/tcerp/report.png",
+        "title": "Maintenance Reports",
+        "text": "Generate comprehensive reports on maintenance activities and equipment performance."
+      },
+      {
+        "image": "/products/tcerp/compliance.png",
+        "title": "Compliance Tracking",
+        "text": "Ensure compliance with maintenance schedules and regulatory requirements."
+      }
+    ]
+  },
+  "project-management":{
+    "mainTitle": "Plant Maintenance Management",
+    "heading": "Plant Maintenance",
+    "cards": [
+      {
+        "image": "/products/tcerp/plantmain.png",
+        "title": "Equipment Tracking",
+        "text": "Track and monitor all plant equipment with real-time status updates and maintenance history."
+      },
+      {
+        "image": "/products/tcerp/maintenance.png",
+        "title": "Preventive Maintenance",
+        "text": "Schedule and manage preventive maintenance tasks to minimize equipment downtime."
+      },
+      {
+        "image": "/products/tcerp/repair.png",
+        "title": "Repair Management",
+        "text": "Efficiently manage repair requests, track progress, and maintain repair history."
+      },
+      {
+        "image": "/products/tcerp/inventory.png",
+        "title": "Spare Parts Inventory",
+        "text": "Manage spare parts inventory and ensure availability for maintenance tasks."
+      },
+      {
+        "image": "/products/tcerp/report.png",
+        "title": "Maintenance Reports",
+        "text": "Generate comprehensive reports on maintenance activities and equipment performance."
+      },
+      {
+        "image": "/products/tcerp/compliance.png",
+        "title": "Compliance Tracking",
+        "text": "Ensure compliance with maintenance schedules and regulatory requirements."
+      }
+    ]
+  },
+  "design-management":{
+    "mainTitle": "Plant Maintenance Management",
+    "heading": "Plant Maintenance",
+    "cards": [
+      {
+        "image": "/products/tcerp/plantmain.png",
+        "title": "Equipment Tracking",
+        "text": "Track and monitor all plant equipment with real-time status updates and maintenance history."
+      },
+      {
+        "image": "/products/tcerp/maintenance.png",
+        "title": "Preventive Maintenance",
+        "text": "Schedule and manage preventive maintenance tasks to minimize equipment downtime."
+      },
+      {
+        "image": "/products/tcerp/repair.png",
+        "title": "Repair Management",
+        "text": "Efficiently manage repair requests, track progress, and maintain repair history."
+      },
+      {
+        "image": "/products/tcerp/inventory.png",
+        "title": "Spare Parts Inventory",
+        "text": "Manage spare parts inventory and ensure availability for maintenance tasks."
+      },
+      {
+        "image": "/products/tcerp/report.png",
+        "title": "Maintenance Reports",
+        "text": "Generate comprehensive reports on maintenance activities and equipment performance."
+      },
+      {
+        "image": "/products/tcerp/compliance.png",
+        "title": "Compliance Tracking",
+        "text": "Ensure compliance with maintenance schedules and regulatory requirements."
+      }
+    ]
+  },
+  "point-of-sale-management":{
+    "mainTitle": "Plant Maintenance Management",
+    "heading": "Plant Maintenance",
+    "cards": [
+      {
+        "image": "/products/tcerp/plantmain.png",
+        "title": "Equipment Tracking",
+        "text": "Track and monitor all plant equipment with real-time status updates and maintenance history."
+      },
+      {
+        "image": "/products/tcerp/maintenance.png",
+        "title": "Preventive Maintenance",
+        "text": "Schedule and manage preventive maintenance tasks to minimize equipment downtime."
+      },
+      {
+        "image": "/products/tcerp/repair.png",
+        "title": "Repair Management",
+        "text": "Efficiently manage repair requests, track progress, and maintain repair history."
+      },
+      {
+        "image": "/products/tcerp/inventory.png",
+        "title": "Spare Parts Inventory",
+        "text": "Manage spare parts inventory and ensure availability for maintenance tasks."
+      },
+      {
+        "image": "/products/tcerp/report.png",
+        "title": "Maintenance Reports",
+        "text": "Generate comprehensive reports on maintenance activities and equipment performance."
+      },
+      {
+        "image": "/products/tcerp/compliance.png",
+        "title": "Compliance Tracking",
+        "text": "Ensure compliance with maintenance schedules and regulatory requirements."
+      }
+    ]
   }
-  
-}
+  }

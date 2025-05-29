@@ -4,9 +4,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #eef6ff 0%, #fafdff 100%);
+  background: var(--bs-secondary-50);
   padding: 40px 20px 80px 20px;
 
+  @media screen and (max-width:992px) {
+    min-height: auto;
+    padding: 6px 12px;
+  }
   &__container {
     width: 100%;
     max-width: 1400px;
@@ -27,6 +31,10 @@
     font-weight: 700;
     color: #232323;
     margin-bottom: 16px;
+    @media screen and (max-width:992px) {
+      font-size: 3rem;
+      line-height: 1.2;
+    }
   }
 
   &__desc {
@@ -70,15 +78,15 @@
       transform: translate(40px, 40px);
     }
 
-    &:hover {
-      transform: translateY(-5px);
-      &::before {
-        transform: translate(18px, 18px);
-      }
-      &::after {
-        transform: translate(36px, 36px);
-      }
-    }
+    // &:hover {
+    //   transform: translateY(-5px);
+    //   &::before {
+    //     transform: translate(18px, 18px);
+    //   }
+    //   &::after {
+    //     transform: translate(36px, 36px);
+    //   }
+    // }
   }
 
   &__video-thumb {

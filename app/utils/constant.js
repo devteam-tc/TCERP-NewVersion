@@ -163,7 +163,7 @@ export const modulesdata = [
   {
     image: "/images/modules/export.webp",
     title: "Imports and Exports",
-    description: "Streamline trade with customs documentation, shipment tracking, compliance management, and financial handling.",
+    description: "Streamline trade with customs documentation, shipment tracking, compliance management and financial handling.",
 },
 {
   image: "/images/modules/projectmanage.webp",
@@ -230,14 +230,24 @@ export const uniquefeaturesdata = [
       title: "Unlimited Users",
       description: "No per-user licensing fees—add unlimited users with role-based permissions for secure access control.",
   },
-  // {
-  //     image: "/features/Audit_trail.webp",
-  //     title: "Audit Trail",
-  //     description: "Every action is logged for accountability, ensuring transparency and preventing unauthorized changes.",
-  // },
-  // {
-  //     image: "/features/Inventory.webp",
-  //     title: "Multiple Inventory Location",
-  //     description: "Track stock movement across multiple warehouses, ensuring proper inventory management and availability.",
-  // }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

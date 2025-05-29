@@ -1,21 +1,5 @@
 {
-    "customer-relationship-management": [
-      {
-        "id": 1,
-        "question": "What is ERP software?",
-        "answer": "ERP (Enterprise Resource Planning) software enhances operations and data flow throughout a company by integrating key business functions, including finance, HR, inventories, procurement, sales and more, into a single system."
-      },
-      {
-        "id": 2,
-        "question": "Who needs ERP software?",
-        "answer": "Businesses of all sizes and industries can benefit from ERP software, especially those struggling with disconnected systems, manual processes, or growing operational complexity."
-      },
-      {
-        "id": 3,
-        "question": "Can ERP integrate with other systems?",
-        "answer": "Yes. Modern ERP systems offer APIs and connectors to integrate with CRMs, Ecommerce platforms, payroll systems and more."
-      }
-    ],
+   
     "sales-management": [
       {
         "id": 1,

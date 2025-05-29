@@ -99,7 +99,7 @@ export const services = [
   {
     id: 12,
     title: "Imports and Exports  ",
-    description: "Streamline trade with customs documentation, shipment tracking, compliance management, and financial handling.",
+    description: "Streamline trade with customs documentation, shipment tracking, compliance management and financial handling.",
     icon: serviceIcon18,
     className: "icon-box-tertiary",
   },

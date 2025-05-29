@@ -1,128 +1,122 @@
-import Image from "next/image";
-import './CustomSection.scss';
+'use client';
+import { FiDownload } from 'react-icons/fi';
+import {FaArrowRight } from 'react-icons/fa'
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import '../../../public/sass/components/_custom-section.scss';
 
-const CustomSection = ({
-    subtitle = "Customizations & Analysis",
-    title = "Manage your Team's Easily Communication.",
-    content = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even",
-    boximg1 = "/assets/images/icon/wcuIcon2_1.svg",
-    boxtitle1 = "Easy Collaboration",
-    boxcontent1 = "There are many variations of passages of Lorem Ipsum available, but the majority have",
-    boximg2 = "/assets/images/icon/wcuIcon2_2.svg",
-    boxtitle2 = "Innovative Solutions",
-    boxcontent2 = "There are many variations of passages of Lorem Ipsum available, but the majority have",
-    img1 = "/assets/images/wcu/wcuThumb2_1.png",
-    img2 = "/assets/images/wcu/wcuThumb2_2.png",
-    img3 = "/assets/images/wcu/wcuThumb2_3.png"
-}) => {
-    return (
-        <section className="wcu-section">
-            <div className="wcu-container-wrapper style2">
-                <div className="container">
-                    <div className="wcu-wrapper style2 section-padding fix">
-                        <div className="row gy-5 gx-60 d-flex align-items-center">
-                            {/* Left Image Section */}
-                            <div className="col-xl-6">
-                                <div className="wcu-thumb">
-                                    <div className="main-thumb img-custom-anim-right wow fadeInUp" data-wow-delay=".4s">
-                                        <Image 
-                                            src={img1} 
-                                            alt="main image" 
-                                            width={500} 
-                                            height={365}
-                                            priority
-                                        />
-                                    </div>
-                                    <div className="thumb2 float-bob-y">
-                                        <Image 
-                                            src={img2} 
-                                            alt="floating image 1" 
-                                            width={215} 
-                                            height={206}
-                                        />
-                                    </div>
-                                    <div className="thumb3 float-bob-x">
-                                        <Image 
-                                            src={img3} 
-                                            alt="floating image 2" 
-                                            width={208} 
-                                            height={206}
-                                        />
-                                    </div>
-                                </div>
-                            </div>
+const CustomSection = ({ slug }) => {
+  const [data, setData] = useState(null);
 
-                            {/* Right Content Section */}
-                            <div className="col-xl-6">
-                                <div className="wcu-content">
-                                    <div className="section-title">
-                                        <div className="subtitle wow fadeInUp" data-wow-delay=".2s">
-                                            {subtitle}
-                                            <Image 
-                                                src="/assets/images/icon/fireIcon.svg" 
-                                                alt="fire icon" 
-                                                width={16} 
-                                                height={17}
-                                            />
-                                        </div>
-                                        <h2 className="title wow fadeInUp" data-wow-delay=".4s">
-                                            {title}
-                                        </h2>
-                                        <p className="text1 wow fadeInUp" data-wow-delay=".6s">
-                                            {content}
-                                        </p>
-                                    </div>
-                                    <div className="fancy-box style3 mb-20 wow fadeInUp" data-wow-delay=".4s">
-                                        <div className="icon">
-                                            <Image 
-                                                src={boximg1} 
-                                                alt={boxtitle1} 
-                                                width={70} 
-                                                height={70}
-                                            />
-                                        </div>
-                                        <div className="content">
-                                            <h4>{boxtitle1}</h4>
-                                            <p className="text">{boxcontent1}</p>
-                                        </div>
-                                    </div>
-                                    <div className="fancy-box style3 wow fadeInUp" data-wow-delay=".6s">
-                                        <div className="icon">
-                                            <Image 
-                                                src={boximg2} 
-                                                alt={boxtitle2} 
-                                                width={70} 
-                                                height={70}
-                                            />
-                                        </div>
-                                        <div className="content">
-                                            <h4>{boxtitle2}</h4>
-                                            <p className="text">{boxcontent2}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  useEffect(() => {
+    if (slug) {
+      import(`../../../data/modules/${slug}.json`)
+        .then((moduleData) => {
+          setData(moduleData.default);
+        })
+        .catch((err) => {
+          console.error('Failed to load module data:', err);
+        });
+    }
+  }, [slug]);
+
+  if (!data) return null;
+
+  const renderTextWithLineBreaks = (text) => {
+    if (!text) return null;
+    const textString = String(text);
+    return textString.split('\n').map((line, i) => (
+      <span key={i}>
+        {line}
+        {i < textString.split('\n').length - 1 && <br />}
+      </span>
+    ));
+  };
+
+  const sectionsToRender = data.featureSections && Array.isArray(data.featureSections) && data.featureSections.length > 0
+    ? data.featureSections
+    : (data.mainHeaderSection ? [data.mainHeaderSection] : []);
+
+  if (sectionsToRender.length === 0) return null;
+
+  const mainHeaderSectionComponent = data?.mainHeaderSection && data.featureSections ? (
+    <section className="headerSection">
+      <div className="subTitle">{renderTextWithLineBreaks(data.mainHeaderSection.subtitle)}</div>
+      <h1 className="mainTitles">{renderTextWithLineBreaks(data.mainHeaderSection.maintitle)}</h1>
+      <p className="description">{renderTextWithLineBreaks(data.mainHeaderSection.description)}</p>
+    </section>
+  ) : null;
+
+  return (
+    <div className="containers">
+      {mainHeaderSectionComponent}
+
+      {sectionsToRender.map((sectionData, index) => {
+        if (!sectionData || !sectionData.featuretitle || !sectionData.featuredesc || !sectionData.dashboardImage) {
+          console.warn(`Skipping section at index ${index} due to missing data.`, sectionData);
+          return null;
+        }
+
+        const content = (
+          <div className="featureText">
+            <div className="iconBox">
+              <FiDownload color="#fff" size={20} />
             </div>
-        </section>
-    );
+            <h2 className="featureTitle">
+              {renderTextWithLineBreaks(sectionData.featuretitle)}
+            </h2>
+            <p className="featureDesc">{sectionData.featuredesc}</p>
+            {sectionData.featurelink && (
+              <a className="featureLink" href="#">
+                {sectionData.featurelink} <FaArrowRight  size={16} />
+              </a>
+            )}
+          </div>
+        );
+
+        const image = (
+          <div className="imageCard">
+            <Image
+              src={sectionData.dashboardImage}
+              alt={sectionData.imageAlt || "Section Image"}
+              layout="responsive"
+              width={600}
+              height={400}
+              priority
+            />
+          </div>
+        );
+
+        // First row: image left, text right
+        if (index === 0) {
+          return (
+            <section key={index} className="featuresSection featuresSection--first">
+              {image}
+              {content}
+            </section>
+          );
+        }
+        
+        // Second row: text left, image right
+        if (index === 1) {
+          return (
+            <section key={index} className="featuresSection featuresSection--second">
+              {content}
+              {image}
+            </section>
+          );
+        }
+
+        // Third row: image left, text right
+        return (
+          <section key={index} className="featuresSection featuresSection--third">
+            {image}
+            {content}
+          </section>
+        );
+      })}
+    </div>
+  );
 };
 
 export default CustomSection;
-
-
-
-            <CustomSection
-          
-            subtitle="Customizations & Analysis" 
-            title="Manage your Team's Easily Communication." 
-            content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even" 
-            boximg1="/assets/images/icon/wcuIcon2_1.svg" 
-            boxtitle1="Easy Collaboration" 
-            boxcontent1="There are many variations of passages of Lorem Ipsum available, but the majority have" 
-            boximg2="/assets/images/icon/wcuIcon2_2.svg" 
-            boxtitle2="Innovative Solutions" 
-            boxcontent2="There are many variations of passages of Lorem Ipsum available, but the majority have" 
-            ></CustomSection> 

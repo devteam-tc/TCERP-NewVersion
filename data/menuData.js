@@ -106,49 +106,49 @@ export const menus = [
       },
       {
         id: 47,
-        title: "QC & QA",
+        title: "QA & QC" ,
         link: "/all-modules/quality-control",
       },
 
    {
       id: 48,
       title: "Fixed Assets",
-      link: "/modules/fixed-assets",
+      link: "/all-modules/fixed-assets",
     },
     {
       id: 49,
       title: "Plant Maintenance",
-      link: "/modules/plant-maintenance",
+      link: "/all-modules/plant-maintenance",
     },
     {
       id: 50,
       title: "HRMS",
-      link: "/modules/human-resource-management",
+      link: "/all-modules/human-resource-management",
     },
     {
       id: 51,
       title: "Finance & Accounting",
-      link: "/modules/finance-accounting",
+      link: "/all-modules/finance-accounting",
     },
     {
       id: 52,
       title: "Imports & Exports",
-      link: "/modules/imports-exports",
+      link: "/all-modules/imports-exports",
     },
     {
       id: 53,
       title: "Project ",
-      link: "/modules/project-management",
+      link: "/all-modules/project-management",
     },
     {
       id: 54,
       title: "Design",
-      link: "/modules/design",
+      link: "/all-modules/design-management",
     },
     {
       id: 55,
       title: "POS",
-      link: "/modules/point-of-sale",
+      link: "/all-modules/point-of-sale-management",
     }
     ],
   },

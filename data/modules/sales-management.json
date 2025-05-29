@@ -1,0 +1,83 @@
+{
+  "mainHeaderSection": {
+    "subtitle": "Our Module",
+    "maintitle": "Customer Relationship Management",
+    "description": "Manage leads, track sales, and boost engagement with a unified CRM platform."
+  },
+  "featureSections": [
+    {
+      "featuretitle": "Ensuring timely delivery and maximum efficiency",
+      "featuredesc": "We offers advanced project management features such as Gantt charts, task dependencies, and resource allocation",
+      "featurelink": "Explore Lead Management",
+      "dashboardImage": "/images/modules/home-four-feature-01.png",
+      "imageAlt": "Lead Management Dashboard"
+    },
+    {
+      "featuretitle": "No more digging endless reports and spreadsheets",
+      "featuredesc": "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
+      "featurelink": "Discover Sales Tools",
+      "dashboardImage": "/images/modules/home-four-feature-02.png",
+      "imageAlt": "Sales Automation Dashboard"
+    },
+    {
+      "featuretitle": "Share files, and communicate with your team in real-time",
+      "featuredesc": "You can easily assign tasks, share files, and communicate with your team in real-time, no matter where they are located.",
+      "featurelink": "Discover Sales Tools",
+      "dashboardImage": "/images/modules/home-four-feature-03.png",
+      "imageAlt": "Sales Automation Dashboard"
+    }
+  ],
+    "videosection": {
+      "title": "Transform Your Customer Relationships",
+      "description": "Discover how our CRM solution helps you build stronger customer relationships, streamline your sales process, and drive business growth. Watch how our platform enables you to manage contacts, track leads, and deliver exceptional customer experiences.",
+      "thumbnail": "/images/modules/video-thumbnail.png",
+      "videoUrl": "https://www.youtube.com/embed/x4cxxrDdzWo",
+      "module": "customer-relationship-management"
+    },
+    "cards": {
+    "headline": "Powerful CRM Features for Modern Business Needs",
+    "buttonText": "Explore Features",
+    "cards": [
+      {
+        "icon": "Layers",
+        "title": "Contact Management",
+        "description": "Centralize all customer information in one place with our comprehensive contact management system. Track interactions, manage relationships, and stay organized."
+      },
+      {
+        "icon": "Lock",
+        "title": "Secure Data Storage",
+        "description": "Keep your customer data safe with enterprise-grade security features. Our platform ensures data protection and compliance with industry standards."
+      },
+      {
+        "icon": "Link",
+        "title": "Integration Capabilities",
+        "description": "Seamlessly connect with your existing tools and platforms. Our CRM integrates with popular business applications for a unified experience."
+      },
+      {
+        "icon": "Database",
+        "title": "Advanced Analytics",
+        "description": "Gain valuable insights with powerful analytics tools. Track performance, monitor trends, and make data-driven decisions to grow your business."
+      }
+    ]
+  },
+  "faqs": {
+    "subTitle": "Frequently Asked Questions",
+    "title": "Everything You Need to Know About Our CRM Solution",
+    "items": [
+      {
+        "question": "Who needs CRM software?",
+        "answer": "Businesses of all sizes, from start-ups to large corporations, can benefit from CRM software to manage leads and sales, automate processes, organise customer data, and enhance customer engagement."
+      },
+      {
+        "question": "Is CRM software cloud-based or on-premise?",
+        "answer": "Modern CRM systems are primarily cloud-based, which allows access from any device with an internet connection. However, some providers offer on-premise solutions for businesses with specific data control requirements."
+      },
+      {
+        "question": "Is CRM software easy to use?",
+        "answer": "Most CRM platforms are designed with user-friendly interfaces. Some even offer training, tutorials, and customer support to help users get started quickly."
+      }
+    
+    ]
+  }
+  }
+  

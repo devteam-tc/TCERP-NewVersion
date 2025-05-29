@@ -9,6 +9,15 @@ const productSlugs = [
   'production-management',
   'job-work-management',
   'quality-control',
+  'fixed-assets',
+  'plant-maintenance',
+  'human-resource-management',
+  'finance-accounting',
+  'imports-exports',
+  'project-management',
+  'design-management',
+  'point-of-sale-management',
+
   
 ];
 

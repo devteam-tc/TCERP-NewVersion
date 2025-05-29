@@ -3,84 +3,40 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { useMediaQuery } from 'react-responsive';
-import  productscardData  from '../../../data/modules/productscardData.json';
 import PageHeader from '../../layout/PageHeader';
 import Footer from '../../layout/footer/Footer';
 import Header from '../../layout/header/Header';
 import CustomCursor from '../../layout/CustomCursor';
-// import ProductCards from '../ProductCards';
-import AboutSection from '../modules/AboutSection';
-import NewProduct from '../modules/NewProduct';
 import FaqSection from '../modules/FaqSection';
-import DownloadWidget from '../modules/DownloadWidget';
 import { FaHome } from 'react-icons/fa';
-import TabsSection from '../modules/TabsSection';
 import VideoSection from '../modules/VideoSection';
-import MultipleCardsSection from '../modules/MultipleCardsSection';
+// import MultipleCardsSection from '../modules/MultipleCardsSection';
 import CtaSection from '../modules/CtaSection';
 import CustomSection from '../../containers/modules/CustomSection';
 
-const ProductPage = ({ slug }) => {
-
-  const [product, setProduct] = useState(null);
-  const [activeTab, setActiveTab] = useState('');
-  const [visiblePlans, setVisiblePlans] = useState(3);
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const isMobile = useMediaQuery({ maxWidth: 991 });
-
-  // Load product data based on slug
-    useEffect(() => {
-    if (slug) {
-      const selectedProduct = productscardData?.[slug] ?? {
-        heading: 'Product Not Found',
-        description: 'The product you are looking for does not exist.',
-        tabsHeadings: {},
-        tabData: {},
-        faqs: [],
-      };
-
-      setProduct(selectedProduct);
-
-      const firstTab =
-        selectedProduct.tabsHeadings &&
-        typeof selectedProduct.tabsHeadings === 'object'
-          ? Object.keys(selectedProduct.tabsHeadings)[0] || ''
-          : '';
-
-      setActiveTab(firstTab);
-    }
-  }, [slug]);
-
-  const currentData = productscardData[slug];
-  if (!currentData) return <div>Product Not Found</div>;
-
-  const productName = product?.heading || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+const ModulePage = ({ params, slug }) => {
+  const moduleSlug = params?.slug || slug;
+  const moduleName = moduleSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 
   const breadcrumbs = [
     { label: 'Home', link: '/', icon: FaHome },
     { label: 'All Modules', link: '/modules' },
-    { label: product?.heading, link: null },
+    { label: moduleName, link: null },
   ];
   
   return (
     <>
       <Header />
-      <PageHeader title={productName} breadcrumbs={breadcrumbs} />
-      {/* <AboutSection slug={slug} /> */}
-      {/* <NewProduct slug ={slug}  /> */}
-      <CustomSection />
-      <TabsSection />
-      <VideoSection />
-      <MultipleCardsSection />
-      <FaqSection product={slug} />
+      <PageHeader title={moduleName} breadcrumbs={breadcrumbs} />
+      <CustomSection slug={moduleSlug} />
+      <VideoSection slug={moduleSlug} />
+      {/* <MultipleCardsSection slug={moduleSlug} /> */}
+      <FaqSection slug={moduleSlug} />
       <CtaSection />
-     
-      {/* <DownloadWidget /> */}
       <Footer />
       <CustomCursor />
     </>
   );
 };
 
-export default ProductPage;
+export default ModulePage;

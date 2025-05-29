@@ -1,29 +1,44 @@
-import React, { useState } from 'react';
-import './VideoSection.scss';
+import React, { useState, useEffect } from 'react';
 
-const VideoSection = () => {
+const VideoSection = ({ slug }) => {
   const [showVideo, setShowVideo] = useState(false);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    if (slug) {
+      import(`../../../data/modules/${slug}.json`)
+        .then((moduleData) => {
+          setData(moduleData.default);
+        })
+        .catch((err) => {
+          console.error('Failed to load video data:', err);
+        });
+    }
+  }, [slug]);
 
   const handlePlayClick = () => {
     setShowVideo(true);
   };
 
+  if (!data?.videosection) {
+    return null;
+  }
+
+  const { title, description, thumbnail, videoUrl } = data.videosection;
+
   return (
     <section className="video-section">
       <div className="video-section__container">
         <div className="video-section__header">
-          <h2 className="video-section__title">Get The Fastest Time To Hire</h2>
-          <p className="video-section__desc">
-            suitable full-time and temporary candidates. Publish job vacancies all major sites to broaden your reach – and access a global
-            candidate warehouse that offers thousands of pre-vetted technical, professional, and scientific candidates.
-          </p>
+          <h2 className="video-section__title">{title}</h2>
+          <p className="video-section__desc">{description}</p>
         </div>
         <div className="video-section__video-wrapper">
           {!showVideo ? (
             <>
               <img
-                src="/images/modules/banner-shot.png"
-                alt="Two people looking at a laptop"
+                src={thumbnail}
+                alt={`${title} video thumbnail`}
                 className="video-section__video-thumb"
                 draggable="false"
               />
@@ -40,8 +55,8 @@ const VideoSection = () => {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/x4cxxrDdzWo?autoplay=1"
-              title="YouTube video player"
+              src={`${videoUrl}?autoplay=1`}
+              title={`${title} video player`}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

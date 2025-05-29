@@ -3,10 +3,10 @@
 import dynamic from "next/dynamic";
 import React from "react";
 
-const ProductPage = dynamic(() => import("./ModulePage"));
+const ModulePage = dynamic(() => import("./ModulePage"));
 
 const ModulePageClientWrapper = ({ slug }) => {
-  return <ProductPage slug={slug} />;
+  return <ModulePage slug={slug} />;
 };
 
 export default ModulePageClientWrapper;

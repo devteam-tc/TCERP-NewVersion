@@ -1,96 +1,82 @@
 {
-    "mainTitle": "Our CRM Solutions Overview",
+  "mainHeaderSection": {
+    "subtitle": "Our Module",
+    "maintitle": "Best CRM Solution for Efficient Business Management",
+    "description": "Tech Cloud ERP’s CRM is an all-in-one solution that helps you attract more leads, close deals faster and build lasting customer relationships by automating sales tasks, tracking every interaction and streamlining the entire sales process from lead generation to order fulfilment."
+  },
+  "featureSections": [
+    {
+      "featuretitle": "Lead Management",
+      "featuredesc": " You can enter new leads quickly, set follow-up reminders and track each lead’s progress. This helps your team stay updated and never miss a sales opportunity. You can also change the status of a lead as it moves through different stages such as new, in-progress, or converted.",
+      "featurelink": "Explore Lead Management",
+      "dashboardImage": "/images/modules/home-four-feature-01.png",
+      "imageAlt": "Lead Management Dashboard"
+    },
+    {
+      "featuretitle": "Opportunity Management",
+      "featuredesc": " Here, you can create proposals, track conversations and manage the negotiation process. This makes it simple to know where each deal stands and what actions to take next to close it successfully.",
+      "featurelink": "Discover Sales Tools",
+      "dashboardImage": "/images/modules/home-four-feature-02.png",
+      "imageAlt": "Sales Automation Dashboard"
+    },
+    {
+      "featuretitle": "Sales Order Processing",
+      "featuredesc": "Once a quotation is approved, you can instantly turn it into a sales order. Check inventory to make sure the product is in stock and track the delivery process from start to finish. This ensures faster service and keeps your customers happy.",
+      "featurelink": "Discover Sales Tools",
+      "dashboardImage": "/images/modules/home-four-feature-03.png",
+      "imageAlt": "Sales Automation Dashboard"
+    }
+  ],
+  
+  "videosection": {
+    "title": "Transform Your Customer Relationships",
+    "description": "Our CRM helps you manage leads, automate follow-ups and close deals faster.Watch how our platform simplifies your entire sales process in just a few clicks.",
+    "thumbnail": "/images/modules/video-thumbnail.png",
+    "videoUrl": "https://www.youtube.com/embed/x4cxxrDdzWo",
+    "module": "customer-relationship-management"
+  },
+  "cards": {
+    "headline": "Powerful CRM Features for Modern Business Needs",
+    "buttonText": "Explore Features",
     "cards": [
       {
-        "image": "/products/CRM/contact.png",
+        "icon": "Layers",
         "title": "Contact Management",
-        "text": "Streamline contact organization, lead creation and imports for effective client communication and marketing campaigns, improving efficiency by reducing duplication.",
-        "items": [
-          "Organize and import contacts for smooth communication.",
-          "Create and manage leads to enhance marketing.",
-          "Duplicate contact details to save time and boost efficiency."
-        ]
+        "description": "Centralize all customer information in one place with our comprehensive contact management system. Track interactions, manage relationships, and stay organized."
       },
       {
-        "image": "/products/CRM/target customers.png",
-        "title": "Target Customers",
-        "text": "Segment customers using contact database info to craft targeted marketing campaigns, enhancing product/service appeal to your ideal audience.",
-        "items": [
-          "Segment customers for personalized marketing campaigns.",
-          "Enhance product and service appeal to your target audience.",
-          "Leverage contact database insights to drive engagement."
-        ]
+        "icon": "Lock",
+        "title": "Secure Data Storage",
+        "description": "Keep your customer data safe with enterprise-grade security features. Our platform ensures data protection and compliance with industry standards."
       },
       {
-        "image": "/products/CRM/organise.png",
-        "title": "Organise Meetings",
-        "text": "Streamline meeting scheduling and management to enhance productivity and communication with your team and clients.",
-        "items": [
-          "Schedule meetings and send invites effortlessly.",
-          "Track meeting notes for efficient follow-up.",
-          "Set meeting durations and reminders for better organization."
-        ]
+        "icon": "Link",
+        "title": "Integration Capabilities",
+        "description": "Seamlessly connect with your existing tools and platforms. Our CRM integrates with popular business applications for a unified experience."
       },
       {
-        "image": "/products/CRM/manage.png",
-        "title": "Manage Opportunities",
-        "text": "Track potential sales and boost your bottom line by managing opportunities, recording expected revenue and close dates to generate precise sales pipeline reports.",
-        "items": [
-          "Track opportunities by expected revenue and close dates.",
-          "Generate accurate sales pipeline reports for better forecasting.",
-          "Combine emails, calls, tasks and documents to drive action."
-        ]
+        "icon": "Database",
+        "title": "Advanced Analytics",
+        "description": "Gain valuable insights with powerful analytics tools. Track performance, monitor trends, and make data-driven decisions to grow your business."
+      }
+    ]
+  },
+  "faqs": {
+    "subTitle": "Frequently Asked Questions",
+    "title": "Everything You Need to Know About Our CRM Solution",
+    "items": [
+      {
+        "question": "What is CRM and why is it essential for my business?",
+        "answer": "CRM stands for Customer Relationship Management. It’s a system that helps you organize, track and manage interactions with leads and customers. A CRM improves customer communication enhances sales performance and ensures you never miss a follow-up leading to stronger relationships and higher conversions."
       },
       {
-        "image": "/products/CRM/Streamline workflow.png",
-        "title": "Streamline Workflow",
-        "text": "Generate leads from referrals, emails and webinars. Assign tasks, quotes and calls to sales teams for quick follow-up and faster deal closures.",
-        "items": [
-          "Capture leads through referrals, email and webinars.",
-          "Assign tasks and quotes to sales for efficient follow-up.",
-          "Streamline workflow to close deals faster."
-        ]
+        "question": " Is Tech Cloud ERP’s CRM suitable for small businesses?",
+        "answer": "Yes absolutely. Our CRM is built with small and growing businesses in mind. It’s easy to implement, user-friendly and packed with features like lead tracking quotation management and sales automation—helping small teams work efficiently without the complexity."
       },
       {
-        "image": "/products/CRM/Invoicing & Order Management.png",
-        "title": "Invoicing & Order Management",
-        "text": "Quickly create quotes from won opportunities and convert them into orders with our CRM, streamlining sales for a competitive edge.",
-        "items": [
-          "Generate quotes from won opportunities with ease.",
-          "Convert quotes into orders upon client confirmation.",
-          "Streamline sales processes for better efficiency."
-        ]
-      },
-      {
-        "image": "/products/CRM/Case Management.png",
-        "title": "Case Management",
-        "text": "Efficiently manage and resolve customer issues with our CRM to improve satisfaction and loyalty. Prioritize tasks for timely resolution.",
-        "items": [
-          "Track and resolve customer issues to improve satisfaction.",
-          "Prioritize and delegate tasks for quick issue resolution.",
-          "Enhance service efficiency with streamlined case management."
-        ]
-      },
-      {
-        "image": "/products/CRM/projectmanage.png",
-        "title": "Project Management",
-        "text": "Easily manage projects with our CRM by creating tasks and integrating documents. Optimize timelines with effective allocation of hours and days.",
-        "items": [
-          "Create tasks and integrate documents for smooth management.",
-          "Optimize timelines by allocating hours and days efficiently.",
-          "Streamline workflows for better project execution."
-        ]
-      },
-      {
-        "image": "/products/CRM/email marketing.png",
-        "title": "Email Marketing",
-        "text": "Leverage our CRM for targeted campaigns to promote new products and services, engaging customers with personalized content.",
-        "items": [
-          "Launch targeted campaigns for new products and services.",
-          "Engage customers with relevant, personalized content.",
-          "Prioritize high-value customers to boost sales."
-        ]
+        "question": "Can I integrate Tech Cloud ERP’s CRM with other tools?",
+        "answer": "Yes. Our CRM integrates seamlessly with your existing tools including email platforms, marketing automation apps and accounting software. This ensures smooth data flow and consistent communication across all your business systems."
       }
     ]
   }
-  
+}
