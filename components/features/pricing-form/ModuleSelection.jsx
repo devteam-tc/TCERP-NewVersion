@@ -23,52 +23,57 @@ const ModuleSelection = ({
     <div className="module-selection mb-4">
       <div className="text-center mb-4">
         <h5 className="mb-3">Select Modules and Users</h5>
-        <p className="text-muted" style={{ maxWidth: '800px', margin: '0 auto' }}>
+        <h6 style={{ maxWidth: '800px', margin: '0 auto', fontWeight: '500' }}>
           Choose the features that align perfectly with your business goals and experience the flexibility of a customizable ERP system. Whether you're scaling operations or streamlining workflows, our ERP adapts to your unique needs.
-        </p>
+        </h6>
       </div>
 
       <div className="mb-4">
-        <div className="text-center mb-4">
-          <Form.Label className="d-block mb-2">Billing Cycle</Form.Label>
-          <div className="d-flex justify-content-center align-items-center gap-3">
-            <span className={formData.billingCycle === 'monthly' ? 'text-primary' : 'text-muted'}>Monthly</span>
-            <Form.Check
-              type="switch"
-              id="billingCycle"
-              name="billingCycle"
-              checked={formData.billingCycle === 'yearly'}
-              onChange={(e) => handleChange({
-                target: {
-                  name: 'billingCycle',
-                  value: e.target.checked ? 'yearly' : 'monthly'
-                }
-              })}
-              className="custom-switch"
-            />
-            <span className={formData.billingCycle === 'yearly' ? 'text-primary' : 'text-muted'}>Yearly</span>
-          </div>
-        </div>
-
-        <div className="text-center">
-          <Form.Label className="d-block mb-2">Currency</Form.Label>
-          <div className="d-flex justify-content-center gap-3">
-            {Object.entries(CURRENCY_SYMBOLS).map(([code, symbol]) => (
-              <Form.Check
-                key={code}
-                type="radio"
-                id={`currency-${code}`}
-                name="currency"
-                label={`${code} (${symbol})`}
-                value={code}
-                checked={formData.currency === code}
-                onChange={handleChange}
-                className="custom-radio"
-                disabled={loadingRates}
-              />
-            ))}
-          </div>
-        </div>
+        <Row className="justify-content-center">
+          <Col md={6} className="mb-3 mb-md-0">
+            <div className="text-center">
+              <Form.Label className="d-block mb-2">Billing Cycle</Form.Label>
+              <div className="d-flex justify-content-center align-items-center gap-3">
+                <span className={formData.billingCycle === 'monthly' ? 'text-primary' : ''}>Monthly</span>
+                <Form.Check
+                  type="switch"
+                  id="billingCycle"
+                  name="billingCycle"
+                  checked={formData.billingCycle === 'yearly'}
+                  onChange={(e) => handleChange({
+                    target: {
+                      name: 'billingCycle',
+                      value: e.target.checked ? 'yearly' : 'monthly'
+                    }
+                  })}
+                  className="custom-switch"
+                />
+                <span className={formData.billingCycle === 'yearly' ? 'text-primary' : ''}>Yearly</span>
+              </div>
+            </div>
+          </Col>
+          <Col md={6}>
+            <div className="text-center">
+              <Form.Label className="d-block mb-2">Currency</Form.Label>
+              <div className="d-flex justify-content-center gap-3">
+                {Object.entries(CURRENCY_SYMBOLS).map(([code, symbol]) => (
+                  <Form.Check
+                    key={code}
+                    type="radio"
+                    id={`currency-${code}`}
+                    name="currency"
+                    label={`${code} (${symbol})`}
+                    value={code}
+                    checked={formData.currency === code}
+                    onChange={handleChange}
+                    className="custom-radio"
+                    disabled={loadingRates}
+                  />
+                ))}
+              </div>
+            </div>
+          </Col>
+        </Row>
       </div>
 
       <div className="table-responsive">
@@ -171,8 +176,8 @@ const ModuleSelection = ({
                 <strong>Total Price:</strong>
                 <strong>{formatPrice(totalPrice.total * 0.8, formData.currency)}</strong>
               </div>
-              <small className="text-muted d-block">
-                {formData.billingCycle === 'yearly' ? 'per year' : 'per month'}
+              <small className="d-block">
+                {formData.billingCycle === 'yearly' ? 'Per Year' : 'Per Month'}
               </small>
               {formData.currency !== 'INR' && (
                 <small className="text-muted d-block">
@@ -180,7 +185,7 @@ const ModuleSelection = ({
                 </small>
               )}
               <div className="mt-2">
-                <small className="text-muted">
+                <small>
                   * Taxes and other applicable charges will be added as per your local regulations
                 </small>
               </div>
@@ -202,31 +207,96 @@ const ModuleSelection = ({
                 ))}
               </Form.Select>
               <div className="customization-info">
-                <p className="mb-2 text-muted">
+                {(formData.customizationLevel === 1 || formData.customizationLevel === '1') && (
+                  <div className="level-description mb-3">
+                    <p className="mb-2"><strong>Level 1 - Basic Customization</strong></p>
+                    <p className="mb-0">
+                      <small>
+                        • Standard configuration with basic workflow adjustments<br />
+                        • Email support during business hours<br />
+                        • Basic training and documentation<br />
+                        • Monthly updates and maintenance
+                      </small>
+                    </p>
+                  </div>
+                )}
+                {(formData.customizationLevel === 2 || formData.customizationLevel === '2') && (
+                  <div className="level-description mb-3">
+                    <p className="mb-2"><strong>Level 2 - Standard Customization</strong></p>
+                    <p className="mb-0">
+                      <small>
+                        • Moderate workflow customization and integration options<br />
+                        • Priority email and phone support<br />
+                        • Comprehensive training sessions<br />
+                        • Bi-weekly updates and maintenance<br />
+                        • Custom report generation
+                      </small>
+                    </p>
+                  </div>
+                )}
+                {(formData.customizationLevel === 3 || formData.customizationLevel === '3') && (
+                  <div className="level-description mb-3">
+                    <p className="mb-2"><strong>Level 3 - Advanced Customization</strong></p>
+                    <p className="mb-0">
+                      <small>
+                        • Advanced workflow customization and API access<br />
+                        • 24/7 dedicated support with SLA guarantees<br />
+                        • On-site training and implementation support<br />
+                        • Weekly updates and maintenance<br />
+                        • Custom module development options<br />
+                        • Dedicated account manager
+                      </small>
+                    </p>
+                  </div>
+                )}
+                {(formData.customizationLevel === 4 || formData.customizationLevel === '4') && (
+                  <div className="level-description mb-3">
+                    <p className="mb-2"><strong>Level 4 - Premium Customization</strong></p>
+                    <p className="mb-0">
+                      <small>
+                        • Enterprise-level workflow customization<br />
+                        • 24/7 premium support with guaranteed response time<br />
+                        • Comprehensive on-site training and implementation<br />
+                        • Real-time updates and maintenance<br />
+                        • Full API access and custom development<br />
+                        • Dedicated account manager and technical team
+                      </small>
+                    </p>
+                  </div>
+                )}
+                {(formData.customizationLevel === 5 || formData.customizationLevel === '5') && (
+                  <div className="level-description mb-3">
+                    <p className="mb-2"><strong>Level 5 - Enterprise Customization</strong></p>
+                    <p className="mb-0">
+                      <small>
+                        • Complete system customization and integration<br />
+                        • 24/7 enterprise support with dedicated team<br />
+                        • Full-scale implementation and training program<br />
+                        • Continuous updates and optimization<br />
+                        • Custom module development and API integration<br />
+                        • Dedicated project manager and support team
+                      </small>
+                    </p>
+                  </div>
+                )}
+                <p className="mb-2">
                   <small>
                     <i className="bi bi-info-circle me-1"></i>
-                    Selected customization will add {totalPrice.percentage}% to the base price
+                    {(formData.customizationLevel === 1 || formData.customizationLevel === '1') && 'Level 1 customization adds 10% to the base price'}
+                    {(formData.customizationLevel === 2 || formData.customizationLevel === '2') && 'Level 2 customization adds 20% to the base price'}
+                    {(formData.customizationLevel === 3 || formData.customizationLevel === '3') && 'Level 3 customization adds 30% to the base price'}
+                    {(formData.customizationLevel === 4 || formData.customizationLevel === '4') && 'Level 4 customization adds 40% to the base price'}
+                    {(formData.customizationLevel === 5 || formData.customizationLevel === '5') && 'Level 5 customization adds 50% to the base price'}
                   </small>
                 </p>
-                <p className="mb-0 text-muted">
-                  <small>
-                    <i className="bi bi-lightning me-1"></i>
-                    Higher levels include more advanced features and dedicated support
-                  </small>
-                </p>
+                
               </div>
             </div>
           </Col>
         </Row>
       </div>
 
-      <div className="d-flex justify-content-between mt-4">
-        <Button 
-          variant="outline-secondary" 
-          onClick={onPrev}
-        >
-          Previous Step
-        </Button>
+      <div className="d-flex justify-content-center mt-4">
         <Button 
           variant="primary" 
           onClick={onSubmit}
@@ -241,6 +311,8 @@ const ModuleSelection = ({
           margin: 0 -15px;
           overflow-x: auto;
           -webkit-overflow-scrolling: touch;
+          border: 1px solid var(--techcloud-Secondary-secondary-100, #B2E4EF);
+;
         }
         
         @media (min-width: 992px) {
@@ -308,12 +380,21 @@ const ModuleSelection = ({
         
         .table th {
           white-space: nowrap;
-          background-color: #f8f9fa;
+          background: linear-gradient(180deg, #F5F4F4 5.77%, #FFF 50.48%, #DFDDDD 100%);
           border-bottom: 2px solid #dee2e6;
+          
+          color: var(--Primary-Primary1000, #5B1907);
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 140%; /* 28px */
         }
 
         .table td {
           vertical-align: middle;
+          border: 2px solid green;
+          border: 1px solid var(--techcloud-Secondary-secondary-100, #B2E4EF);
+          background: #F6FDFF;
         }
 
         .text-break {
@@ -368,7 +449,7 @@ const ModuleSelection = ({
         }
 
         .text-primary {
-          color: #0d6efd !important;
+          color: #ef5226 !important;
           font-weight: 500;
         }
 
