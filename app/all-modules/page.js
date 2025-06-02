@@ -12,6 +12,7 @@ import Image from "next/image";
 import CategorySection from "../../components/containers/modules/CategorySection";
 import IntegratedIntro from "../../components/containers/modules/IntegratedIntro";
 import FeaturesSection from "../../components/containers/modules/FeaturesSection";
+import ModulePage from "./ModulePage";
 
 const AllProductsSection = () => {
   const scrollToTop = () => {
@@ -25,6 +26,7 @@ const AllProductsSection = () => {
     <>
       <Header />
       <PageHeader title="All Modules" breadcrumbs={breadcrumbs} />
+      <ModulePage />
       <FeaturesSection />                                                
     <IntegratedIntro />  
     <CategorySection />  

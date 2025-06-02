@@ -22,7 +22,7 @@ const Services = ({ isSlider = true, showTitle = true, extraClassName='' }) => {
   }, [isSlider]);
 
   return (
-    <section className={`ep-services-section ${extraClassName}`}>
+    <section className={`ep-services-section pt-120 pb-60 ${extraClassName}`}>
       <div className="container">
         <div className="position-relative">
           {/* Conditionally render the SectionTitle only when showTitle is true */}
@@ -70,7 +70,7 @@ const Services = ({ isSlider = true, showTitle = true, extraClassName='' }) => {
             <SwiperSlide key={service.id}>
             <div className="service-item rounded-20">
               <Link 
-                href="/our-modules"
+                href="/all-modules"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="d-block w-100"

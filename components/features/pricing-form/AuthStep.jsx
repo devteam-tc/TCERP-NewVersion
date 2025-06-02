@@ -109,8 +109,6 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
   return (
     <div className="auth-step">
       <div className="text-center mb-4">
-        <h4 className="mb-4">Complete Your Details</h4>
-        <p className="mb-4">Please fill in your details and sign in with Google to access our pricing plans</p>
         <Button 
           variant="light" 
           onClick={handleGoogleSignIn}
@@ -126,15 +124,15 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
           />
           {isGoogleSignedIn ? 'Signed in with Google ✓' : 'Sign in with Google'}
         </Button>
+        <h6 className="mb-4">Please fill in your details and sign in with Google to access our pricing plans</h6>
       </div>
 
       <div className="basic-details">
-        <h5 className="mb-3">Basic Details</h5>
         <Form>
-          <Row>
+          <Row className="g-2">
             <Col md={6}>
-              <Form.Group className="mb-3">
-                <Form.Label>First Name <span className="text-danger">*</span></Form.Label>
+              <Form.Group className="mb-0">
+                <Form.Label style={{ fontSize: '14px', marginBottom: '0' }}>First Name <span className="text-danger">*</span></Form.Label>
                 <Form.Control
                   type="text"
                   name="firstName"
@@ -147,8 +145,8 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
               </Form.Group>
             </Col>
             <Col md={6}>
-              <Form.Group className="mb-3">
-                <Form.Label>Email</Form.Label>
+              <Form.Group className="mb-0">
+                <Form.Label style={{ fontSize: '14px', marginBottom: '0' }}>Email</Form.Label>
                 <Form.Control
                   type="email"
                   value={formData.email}
@@ -158,10 +156,10 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
             </Col>
           </Row>
 
-          <Row>
+          <Row className="g-2">
             <Col md={6}>
-              <Form.Group className="mb-3">
-                <Form.Label>Company Name <span className="text-danger">*</span></Form.Label>
+              <Form.Group className="mb-0">
+                <Form.Label style={{ fontSize: '14px', marginBottom: '0' }}>Company Name <span className="text-danger">*</span></Form.Label>
                 <Form.Control
                   type="text"
                   name="companyName"
@@ -174,8 +172,8 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
               </Form.Group>
             </Col>
             <Col md={6}>
-              <Form.Group className="mb-3">
-                <Form.Label>Industry <span className="text-danger">*</span></Form.Label>
+              <Form.Group className="mb-0">
+                <Form.Label style={{ fontSize: '14px', marginBottom: '0' }}>Industry <span className="text-danger">*</span></Form.Label>
                 <Form.Select
                   name="industry"
                   value={formData.industry}
@@ -196,7 +194,7 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
                     onChange={handleChange}
                     required
                     placeholder="Please specify your industry"
-                    className="mt-2"
+                    className="mt-1"
                     disabled={storingLead}
                   />
                 )}
@@ -204,10 +202,10 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
             </Col>
           </Row>
 
-          <Row>
+          <Row className="g-2">
             <Col md={6}>
-              <Form.Group className="mb-3">
-                <Form.Label>Phone Number <span className="text-danger">*</span></Form.Label>
+              <Form.Group className="mb-0">
+                <Form.Label style={{ fontSize: '14px', marginBottom: '0' }}>Phone Number <span className="text-danger">*</span></Form.Label>
                 <PhoneInput
                   country={'in'}
                   value={formData.phoneNumber}
@@ -231,8 +229,8 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
             </Col>
           </Row>
 
-          <Form.Group className="mb-3">
-            <Form.Label>Message</Form.Label>
+          <Form.Group className="mb-0">
+            <Form.Label style={{ fontSize: '14px', marginBottom: '0' }}>Message</Form.Label>
             <Form.Control
               as="textarea"
               name="message"
@@ -246,7 +244,7 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
         </Form>
       </div>
 
-      <div className="text-center mt-4">
+      <div className="text-center">
         <Button
           variant="primary"
           onClick={handleLeadStorage}
@@ -283,7 +281,7 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
           cursor: not-allowed;
         }
         .basic-details {
-          background-color: #f8f9fa;
+          // background-color: #f8f9fa;
           padding: 20px;
           border-radius: 8px;
           margin-top: 20px;
@@ -298,6 +296,19 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
         .proceed-btn {
           min-width: 200px;
           padding: 10px 30px;
+        }
+        .basic-details .form-label {
+          font-size: 14px !important;
+          margin-bottom: 0 !important;
+        }
+        .basic-details .form-group {
+          margin-bottom: 0 !important;
+        }
+        .basic-details .mb-1 {
+          margin-bottom: 0 !important;
+        }
+        .basic-details label {
+          margin-bottom: 0 !important;
         }
       `}</style>
     </div>

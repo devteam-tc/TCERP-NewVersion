@@ -68,7 +68,7 @@ const PricingContent = ({ extraClassName = '' }) => {
                   ))}
                 </ul>
                 <Link
-                  href="#"
+                  href="/pricing"
                   className="theme-btn mt-40 w-100 theme-btn-border position-relative d-inline-flex justify-content-center align-items-center"
                 >
                   Get Now

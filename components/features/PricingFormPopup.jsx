@@ -12,11 +12,12 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
+import emailjs from '@emailjs/browser';
 
 // Import sub-components
 import AuthStep from './pricing-form/AuthStep';
 import ModuleSelection from './pricing-form/ModuleSelection';
-import ThankYouModal from './pricing-form/ThankYouModal';
+import ThankYouPage from './pricing-form/ThankYouPage';
 import { MODULES, CUSTOMIZATION_LEVELS } from './pricing-form/constants';
 
 const PricingFormPopup = ({ 
@@ -271,6 +272,90 @@ const PricingFormPopup = ({
     }
   };
 
+  const sendEmail = async (quotationData) => {
+    try {
+      // Get currency symbol
+      const currencySymbols = {
+        'INR': '₹',
+        'USD': '$',
+        'EUR': '€',
+        'GBP': '£'
+      };
+      const currencySymbol = currencySymbols[formData.currency] || '₹';
+
+      // Create complete HTML table for modules
+      const moduleTable = `
+        <table class="module-table" style="width: 100%; border-collapse: collapse; margin-top: 10px; background: #fff; border: 1px solid #ddd;">
+          <thead>
+            <tr style="background-color: #f1f5f9;">
+              <th style="padding: 12px 15px; text-align: left; border-bottom: 1px solid #eee; font-weight: 600;">Module</th>
+              <th style="padding: 12px 15px; text-align: right; border-bottom: 1px solid #eee; font-weight: 600;">Users</th>
+              <th style="padding: 12px 15px; text-align: right; border-bottom: 1px solid #eee; font-weight: 600;">Price per User</th>
+              <th style="padding: 12px 15px; text-align: right; border-bottom: 1px solid #eee; font-weight: 600;">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${Object.entries(formData.selectedModules)
+              .filter(([_, count]) => count > 0)
+              .map(([moduleId, count]) => {
+                const module = MODULES[moduleId];
+                const perUser = `${currencySymbol}${module.basePrice.toFixed(2)}`;
+                const total = `${currencySymbol}${(module.basePrice * count).toFixed(2)}`;
+                return `
+                  <tr>
+                    <td style="padding: 12px 15px; text-align: left; border-bottom: 1px solid #eee;">${module.name}</td>
+                    <td style="padding: 12px 15px; text-align: right; border-bottom: 1px solid #eee;">${count}</td>
+                    <td style="padding: 12px 15px; text-align: right; border-bottom: 1px solid #eee;">${perUser}</td>
+                    <td style="padding: 12px 15px; text-align: right; border-bottom: 1px solid #eee;">${total}</td>
+                  </tr>
+                `;
+              })
+              .join('')}
+            <tr style="font-weight: bold; background-color: #f8f9fa;">
+              <td colspan="3" style="padding: 12px 15px; text-align: left; border-bottom: 1px solid #eee;">Base Price</td>
+              <td style="padding: 12px 15px; text-align: right; border-bottom: 1px solid #eee;">${currencySymbol}${totalPrice.base.toFixed(2)}</td>
+            </tr>
+          </tbody>
+        </table>
+      `;
+
+      const templateParams = {
+        company_name: formData.companyName || 'N/A',
+        industry: formData.industry || 'N/A',
+        billing_cycle: formData.billingCycle || 'N/A',
+        customization_level: CUSTOMIZATION_LEVELS.find(level => level.level === parseInt(formData.customizationLevel))?.name || 'Standard',
+        first_name: formData.firstName || 'N/A',
+        phone_number: formData.phoneNumber || 'N/A',
+        email: formData.email || 'N/A',
+        submitted_at: new Date().toLocaleString(),
+        status: 'pending',
+        modules_table: moduleTable,
+        base_price: `${currencySymbol}${totalPrice.base.toFixed(2)}`,
+        customization_price: `${currencySymbol}${totalPrice.customization.toFixed(2)}`,
+        discount_percentage: totalPrice.percentage.toString(),
+        discount_amount: `${currencySymbol}${(totalPrice.total * 0.2).toFixed(2)}`,
+        total_price: `${currencySymbol}${(totalPrice.total * 0.8).toFixed(2)}`,
+        currency: formData.currency
+      };
+
+      // Log the template parameters
+      console.log('EmailJS Template Parameters:', JSON.stringify(templateParams, null, 2));
+
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        templateParams,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      );
+
+      toast.success('Quotation email sent successfully!');
+    } catch (error) {
+      console.error('Error sending email:', error);
+      console.error('Error details:', error.message);
+      toast.error('Failed to send quotation email');
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!user) {
@@ -329,6 +414,9 @@ const PricingFormPopup = ({
         leadId: leadId
       });
 
+      // Send email with quotation details
+      await sendEmail(quotationData);
+
       // Set form submitted flag in localStorage
       localStorage.setItem('formSubmitted', 'true');
 
@@ -338,13 +426,10 @@ const PricingFormPopup = ({
       localStorage.removeItem('isAuthenticated');
       localStorage.removeItem('showDetailsForm');
       
-      // Close the main form first
+      // Close the main form
       onHide();
-      
-      // Then show thank you popup after a short delay
-      setTimeout(() => {
-        setShowThankYou(true);
-      }, 300);
+      // Redirect to thank you page
+      router.push('/thank-you');
     } catch (error) {
       console.error('Error submitting quotation:', error);
       toast.error('Error submitting form: ' + error.message);
@@ -397,8 +482,8 @@ const PricingFormPopup = ({
         size="xl"
       >
         <Modal.Header>
-          <Modal.Title>
-            {!isAuthenticated ? 'Sign In & Basic Details Required' : 'Select Modules & Customization'}
+          <Modal.Title className="w-100 text-center">
+            {!isAuthenticated ? 'Sign In & Details Required' : 'Select Modules & Customization'}
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -425,13 +510,7 @@ const PricingFormPopup = ({
           )}
         </Modal.Body>
       </Modal>
-      <ThankYouModal 
-        show={showThankYou} 
-        onHide={() => {
-          setShowThankYou(false);
-          localStorage.removeItem('formSubmitted');
-        }} 
-      />
+      {showThankYou && <ThankYouPage />}
     </>
   );
 };
