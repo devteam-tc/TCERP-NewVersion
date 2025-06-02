@@ -21,22 +21,22 @@ const InfoCards = ({ infoCards }) => (
               }}
             />
           </div>
-          <h4 className="title mb-3">{card.title}</h4>
+          <h4 className="mb-2">{card.title}</h4>
           {card.description && (
-            <p className="mb-4">{card.description}</p>
+            <p>{card.description}</p>
           )}
           {card.list && (
             <ul className="list-unstyled">
               {card.list.map((item, idx) => (
                 <li key={idx} className="d-flex align-items-center mb-3">
                   <Image
-                    src="/images/industry-icons/checkmark-icon.png"
+                    src="/images/industry-icons/checkmark-icon.svg"
                     alt={`${item} feature checkmark`}
                     width={20}
                     height={20}
                     style={{ flexShrink: 0 }}
                   />
-                  <strong>{item}</strong>
+                  <h5 className="card-point">{item}</h5>
                 </li>
               ))}
             </ul>

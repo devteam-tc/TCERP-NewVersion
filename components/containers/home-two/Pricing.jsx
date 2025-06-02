@@ -1,21 +1,26 @@
 "use client";
 
 import { useState } from "react";
-import { indiaPricingPlans ,usPricingPlans  } from "../../../data/pricing";
+import { indiaPricingPlans, usPricingPlans } from "../../../data/pricing";
 import SectionTitle from "../SectionTitle";
 import Link from "next/link";
 import Image from "next/image";
 import { FaAnglesRight } from "react-icons/fa6";
+import { PricingFormProvider, usePricingForm } from "../../features/PricingFormContext";
 
-const Pricing = ({ extraClassName = '' }) => {
+const PricingContent = ({ extraClassName = '' }) => {
   const [selectedCountry, setSelectedCountry] = useState("india");
+  const { showPopup } = usePricingForm();
   const pricingPlans = selectedCountry === "india" ? indiaPricingPlans : usPricingPlans;
 
-  return (
-    <><section className={`ep-pricing-section pt-120 pb-60 ${extraClassName}`}>
-      <div className="container">
-        {/* Country Toggle */}
+  // If the popup is showing, don't render the pricing content
+  if (showPopup) {
+    return null;
+  }
 
+  return (
+    <section className={`ep-pricing-section pt-120 pb-60 ${extraClassName}`}>
+      <div className="container">
         <div className="row">
           <div className="col-lg-6 mx-auto">
             <SectionTitle
@@ -85,14 +90,19 @@ const Pricing = ({ extraClassName = '' }) => {
             </div>
           ))}
         </div>
-
       </div>
       <p className="text-center mt-4" style={{ fontSize: '12px' }}>
         Taxes (GST/VAT) may apply based on region
       </p>
     </section>
-    
-      </>
+  );
+};
+
+const Pricing = (props) => {
+  return (
+    <PricingFormProvider>
+      <PricingContent {...props} />
+    </PricingFormProvider>
   );
 };
 

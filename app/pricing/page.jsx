@@ -1,3 +1,6 @@
+"use client";
+import React from 'react';
+import { Container } from 'react-bootstrap';
 import Pricing from "../../components/containers/home-two/Pricing";
 import CustomCursor from "../../components/layout/CustomCursor";
 import Footer from "../../components/layout/footer/Footer";
@@ -8,7 +11,7 @@ import StepWise from '../../components/containers/pricing/StepWise';
 import ComparePlans from '../../components/containers/pricing/ComparePlans';
 import FaqSection from '../../components/containers/pricing/FaqSection';  
 
-const page = () => {
+const PricingPage = () => {
   const breadcrumbs = [
     { label: 'Home', link: '/', icon: FaHome },
     { label: 'Pricing', link: null }
@@ -17,10 +20,13 @@ const page = () => {
     <>
       <Header/>
       <PageHeader title="Pricing" breadcrumbs={breadcrumbs}/>
-      <Pricing />
+      <Container className="py-5">
+        <h1 className="text-center mb-4">Pricing Plans</h1>
+        <Pricing />
         <StepWise />
         <ComparePlans />
         <FaqSection />
+      </Container>
       <Footer/>
 
       <CustomCursor/>
@@ -28,4 +34,4 @@ const page = () => {
   )
 }
 
-export default page;
+export default PricingPage;

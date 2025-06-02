@@ -1,5 +1,6 @@
 // This is a SERVER component
 import dynamic from 'next/dynamic';
+import { notFound } from 'next/navigation';
 
 const IndustryClientPage = dynamic(() => import('../../../components/containers/industry-details/IndustryClientPage'));
 
@@ -33,7 +34,7 @@ const industrySlugs = [
   "pharma-erp-software",
   "publishing-erp-software",
   "printing-erp-software",
-  "pre-engineering-erp",
+  "pre-engineering-industry",
   "rubber-manufacturing-erp",
   "restaurant-industry",
   "retail-erp-software",
@@ -50,8 +51,28 @@ export async function generateStaticParams() {
   return industrySlugs.map((slug) => ({ slug }));
 }
 
+// Add metadata generation
+export async function generateMetadata({ params }) {
+  try {
+    const data = await import(`../../../data/industries/${params.slug}.json`);
+    return {
+      title: `${data.default.title} - Tech Cloud ERP`,
+      description: data.default.description,
+    };
+  } catch (error) {
+    return {
+      title: 'Industry Not Found - Tech Cloud ERP',
+      description: 'The requested industry page could not be found.',
+    };
+  }
+}
+
 const IndustryPage = ({ params }) => {
-  return <IndustryClientPage slug={params.slug} />;
+  try {
+    return <IndustryClientPage slug={params.slug} />;
+  } catch (error) {
+    notFound();
+  }
 };
 
 export default IndustryPage;

@@ -20,7 +20,7 @@ export const industriesMenu = {
         { label: "Packaging ", href: "/industries/packaging-management-software" },
         { label: "Paper ", href: "/industries/paper-industry" },
         { label: "Plastic ", href: "/industries/plastic-erp-software" },
-        { label: "Pre Engineering ", href: "/industries/pre-engineering-erp" },
+        { label: "Pre Engineering ", href: "/industries/pre-engineering-industry" },
         { label: "Rubber ", href: "/industries/rubber-manufacturing-erp" },
         { label: "Steel ", href: "/industries/steel-manufacturing-erp" }
       ],

@@ -9,21 +9,21 @@
       "featuretitle": "Lead Management",
       "featuredesc": " You can enter new leads quickly, set follow-up reminders and track each lead’s progress. This helps your team stay updated and never miss a sales opportunity. You can also change the status of a lead as it moves through different stages such as new, in-progress, or converted.",
       "featurelink": "Explore Lead Management",
-      "dashboardImage": "/images/modules/home-four-feature-01.png",
+      "dashboardImage": "/images/modules/crm/module-1.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Opportunity Management",
       "featuredesc": " Here, you can create proposals, track conversations and manage the negotiation process. This makes it simple to know where each deal stands and what actions to take next to close it successfully.",
       "featurelink": "Discover Sales Tools",
-      "dashboardImage": "/images/modules/home-four-feature-02.png",
+      "dashboardImage": "/images/modules/crm/module-2.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Sales Order Processing",
       "featuredesc": "Once a quotation is approved, you can instantly turn it into a sales order. Check inventory to make sure the product is in stock and track the delivery process from start to finish. This ensures faster service and keeps your customers happy.",
       "featurelink": "Discover Sales Tools",
-      "dashboardImage": "/images/modules/home-four-feature-03.png",
+      "dashboardImage": "/images/modules/crm/module-3.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],

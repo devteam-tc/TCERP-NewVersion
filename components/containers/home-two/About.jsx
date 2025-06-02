@@ -36,12 +36,12 @@ const About = ({extraClassName = ''}) => {
             data-aos-duration="600"
             data-aos="fade-left"
             data-aos-delay="300"
-            className="col-xl-6 col-lg-9 mx-auto">
+            className="col-xl-6 col-lg-9 m-auto">
             <div className="about-text">
               <SectionTitle subTitle="about us" className="section-title-custom" />
-              <h3 className="mb-20">{aboutContent.vision.title}</h3>
+              <h3>{aboutContent.vision.title}</h3>
               <p>{aboutContent.vision.description}</p>
-              <h3 className="mb-20 mt-20">{aboutContent.mission.title}</h3>
+              <h3 className="mt-20">{aboutContent.mission.title}</h3>
               <p>{aboutContent.mission.description}</p>
             </div>
           </div>

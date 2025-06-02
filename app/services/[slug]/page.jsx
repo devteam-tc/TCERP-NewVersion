@@ -7,7 +7,7 @@ import AboutSection from '../../../components/containers/service-details/AboutSe
 import FAQSection from '../../../components/containers/service-details/FAQSection';
 import Specifications from '../../../components/containers/service-details/Specifications';
 import { getServiceData, getServiceBreadcrumbs } from '../../utils/serviceUtils';
-import { VALID_SERVICE_SLUGS, COMPANY_NAME } from '../../config/services';
+import { VALID_SERVICE_SLUGS, COMPANY_NAME, DEFAULT_META } from '../../config/services';
 
 export function generateStaticParams() {
   return VALID_SERVICE_SLUGS.map(slug => ({
@@ -16,38 +16,49 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const service = getServiceData(params.slug);
-  
-  if (!service) {
-    return notFound();
+  try {
+    const service = getServiceData(params.slug);
+    
+    if (!service) {
+      return {
+        title: 'Service Not Found - ' + COMPANY_NAME,
+        description: 'The requested service page could not be found.',
+      };
+    }
+    
+    return {
+      title: `${service.title} - ${COMPANY_NAME}`,
+      description: service.description || DEFAULT_META.description,
+    };
+  } catch (error) {
+    return DEFAULT_META;
   }
-  
-  return {
-    title: `${service.title} - ${COMPANY_NAME}`,
-    description: service.description,
-  };
 }
 
 export default function ServicePage({ params }) {
-  const service = getServiceData(params.slug);
-  
-  if (!service) {
-    return notFound();
-  }
-  
-  const breadcrumbs = getServiceBreadcrumbs(params.slug, service.title);
+  try {
+    const service = getServiceData(params.slug);
+    
+    if (!service) {
+      notFound();
+    }
+    
+    const breadcrumbs = getServiceBreadcrumbs(params.slug, service.title);
 
-  return (
-    <main className="service-page">
-      <Header />
-      <PageHeader title={service.title} breadcrumbs={breadcrumbs} />
-      <div className="container">
-        <AboutSection slug={params.slug} />
-      </div>
-      <Specifications slug={params.slug} />
-      <FAQSection service={params.slug} />
-      <Footer />
-      <CustomCursor />
-    </main>
-  );
+    return (
+      <main className="service-page">
+        <Header />
+        <PageHeader title={service.title} breadcrumbs={breadcrumbs} />
+        <div className="container">
+          <AboutSection slug={params.slug} />
+        </div>
+        <Specifications slug={params.slug} />
+        <FAQSection service={params.slug} />
+        <Footer />
+        <CustomCursor />
+      </main>
+    );
+  } catch (error) {
+    notFound();
+  }
 } 

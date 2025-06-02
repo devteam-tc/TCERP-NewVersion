@@ -1,6 +1,6 @@
 import React from 'react';
 import featureImg1 from '../../../public/images/features/feature-img-1.webp';
-import featureImg2 from '../../../public/images/features/feature-img-2.webp';
+import featureImg2 from '../../../public/images/features/feature-img-2.png';
 
 import SectionTitle from '../SectionTitle';
 import Image from 'next/image';

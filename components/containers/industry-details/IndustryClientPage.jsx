@@ -10,20 +10,24 @@ import { FaHome } from 'react-icons/fa';
 
 const IndustryClientPage = () => {
   const { slug } = useParams();
-  const [industryTitle, setIndustryTitle] = useState("");
+  const [industryTitle, setIndustryTitle] = useState(
+    // Initialize with a formatted version of the slug
+    slug.split('-').map(word => 
+      word.charAt(0).toUpperCase() + word.slice(1)
+    ).join(' ')
+  );
 
   useEffect(() => {
     const loadIndustryData = async () => {
       try {
         const industryData = await import(`../../../data/industries/${slug}.json`)
           .then(module => module.default);
-        setIndustryTitle(industryData.title);
+        if (industryData?.title) {
+          setIndustryTitle(industryData.title);
+        }
       } catch (error) {
         console.error('Failed to load industry data:', error);
-        // Fallback to slug-based title if data loading fails
-        setIndustryTitle(slug.split('-').map(word => 
-          word.charAt(0).toUpperCase() + word.slice(1)
-        ).join(' '));
+        // Title is already set from the initial state, so no need to update
       }
     };
     loadIndustryData();
@@ -40,7 +44,6 @@ const IndustryClientPage = () => {
       <Header />
       <PageHeader title={industryTitle} breadcrumbs={breadcrumbs} />
       <main>
-        {/* Pass slug to ProjectDetailsPage */}
         <ProjectDetailsPage industrySlug={slug} />
       </main>
       <Footer />
