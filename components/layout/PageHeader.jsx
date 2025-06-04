@@ -1,9 +1,35 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { FaChevronRight } from 'react-icons/fa';
 
 const PageHeader = ({ title = '', breadcrumbs = [] }) => {
   return (
-    <section className="ep-page-header-section">
+    <section className="ep-page-header-section position-relative">
+      {/* ✅ Hero Background Image with fetchPriority */}
+      <Image
+        src="/images/Banner_bg.webp"
+        alt="Hero background"
+        fill
+        priority
+        fetchPriority="high"
+        quality={85}
+        sizes="100vw"
+        style={{
+          objectFit: '100% 100%',        // Ensures no repetition or distortion
+          objectPosition: 'center',  // Same as background-position: center;
+          zIndex: -1,
+          
+
+              // padding-top: 228px;
+      
+      // // background: var(--bg-page-header-bg);
+      // // background: var(--bs-secondary-50);
+      // background-image: url("/images/Banner_bg.webp");
+      // background-size: 100% 100%;
+      // background-repeat: no-repeat;
+      // background-position: center;
+        }}
+      />
       <div className="container">
         <div className="row">
           <div className="col-md-12 ms-auto">

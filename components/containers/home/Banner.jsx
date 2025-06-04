@@ -5,7 +5,21 @@ import Link from 'next/link';
 
 const Banner = () => (
   <section className="banner-hero">
-    <div className="banner-bg-clouds"></div>
+    <div className="banner-bg-clouds">
+    <Image
+  src="/images/Banner_bg.webp"
+  alt="Hero background"
+  fill
+  priority
+  fetchPriority="high"
+  quality={85}
+  sizes="100vw"
+  style={{
+    objectFit: 'cover',
+    zIndex: -1,
+  }}
+/>
+    </div>
     <div className="banner-center-content">
       <h1 className="banner-title">Cloud - Based<br />ERP Software Solutions</h1>
       <p className="banner-subtitle">
