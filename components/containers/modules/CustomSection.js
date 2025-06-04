@@ -42,10 +42,17 @@ const CustomSection = ({ slug }) => {
   const mainHeaderSectionComponent = data?.mainHeaderSection && data.featureSections ? (
     <section className="headerSection">
       <div className="subTitle">{renderTextWithLineBreaks(data.mainHeaderSection.subtitle)}</div>
-      <h1 className="mainTitles">{renderTextWithLineBreaks(data.mainHeaderSection.maintitle)}</h1>
+      <h3 className="mainTitles">{renderTextWithLineBreaks(data.mainHeaderSection.maintitle)}</h3>
       <p className="description">{renderTextWithLineBreaks(data.mainHeaderSection.description)}</p>
     </section>
   ) : null;
+
+  // Standard image dimensions for square images
+  const imageDimensions = {
+    width: 800,
+    height: 600,
+    aspectRatio: '4/3'
+  };
 
   return (
     <div className="containers">
@@ -65,10 +72,19 @@ const CustomSection = ({ slug }) => {
             <h2 className="featureTitle">
               {renderTextWithLineBreaks(sectionData.featuretitle)}
             </h2>
-            <p className="featureDesc">{sectionData.featuredesc}</p>
+            <p className="featureDesc">
+              {Array.isArray(sectionData.featuredesc) 
+                ? sectionData.featuredesc.map((desc, i) => (
+                    <span key={i}>
+                      {desc}
+                      {i < sectionData.featuredesc.length - 1 && <br />}
+                    </span>
+                  ))
+                : sectionData.featuredesc}
+            </p>
             {sectionData.featurelink && (
               <a className="featureLink" href="#">
-                {sectionData.featurelink} <FaArrowRight  size={16} />
+                {sectionData.featurelink} <FaArrowRight size={16} />
               </a>
             )}
           </div>
@@ -76,14 +92,22 @@ const CustomSection = ({ slug }) => {
 
         const image = (
           <div className="imageCard">
-            <Image
-              src={sectionData.dashboardImage}
-              alt={sectionData.imageAlt || "Section Image"}
-              layout="responsive"
-              width={600}
-              height={400}
-              priority
-            />
+            <div className="imageWrapper">
+              <Image
+                src={sectionData.dashboardImage}
+                alt={sectionData.imageAlt || "Section Image"}
+                width={imageDimensions.width}
+                height={imageDimensions.height}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'contain',
+                  aspectRatio: imageDimensions.aspectRatio
+                }}
+                quality={100}
+                priority={index === 0}
+              />
+            </div>
           </div>
         );
 

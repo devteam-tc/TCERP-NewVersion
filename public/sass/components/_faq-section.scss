@@ -42,7 +42,11 @@
   line-height: 1.6;
   margin-bottom: 32px;
 }
-
+.faq-title{
+  font-size: 26px;
+    font-weight: 700;
+    color: var(--bs-primary-500);
+}
 .getInTouch {
   background-color: #05afcc;
   color: white;

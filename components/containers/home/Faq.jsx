@@ -28,7 +28,20 @@ const Faq = ({ extraClassName = '' }) => {
             <div className="faq-body">
               <div className="accordion">
                 {faq.map((item, index) => (
-                  <div className="accordion-item" key={item.id}>
+                  <div className="accordion-item" key={item.id} 
+                  style={{
+                    border: activeIndex === index ? '2px solid var(--bs-primary-color)' : '1px solid #dee2e6',
+                    boxShadow: activeIndex === index ? '0 0 10px rgba(0, 123, 255, 0.2)' : 'none',
+                    borderRadius: '8px',
+                    marginBottom: '10px',
+                    transition: 'all 0.3s ease',
+                    cursor: 'pointer',
+                    ':hover': {
+                      border: '2px solid var(--bs-primary-color)',
+                      boxShadow: '0 0 10px rgba(0, 123, 255, 0.2)'
+                    }
+                  }}
+                  >
                     <div className="accordion-header">
                       <button
                         className={`accordion-button ${activeIndex === index ? "" : "collapsed"}`}

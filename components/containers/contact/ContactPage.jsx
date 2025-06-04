@@ -84,9 +84,9 @@ const ContactForm = () => {
   <div className="contactpage-info__button">
     <Button variant="light" className="contactpage-info__button-inner">Contact Us</Button>
   </div>
-  <h2 className="contactpage-info__title">Contact Us for Expert Legal Guidance</h2>
+  <h2 className="contactpage-info__title">Get in Touch With Us</h2>
   <p className="contactpage-info__desc">
-    Provide professional advice and guidance on legal matters, helping clients understand their rights, obligations and potential courses.
+  Have questions or need assistance? Our team is here to help reach out to us anytime!
   </p>
 
   <div className="contactpage-info__card">

@@ -32,8 +32,8 @@
   &__description {
     h2 {
       font-size: 2rem;
-      margin-bottom: 1.5rem;
-      color: #333;
+      // margin-bottom: 1.5rem;
+      color: var(--bs-primary-500);
     }
 
     p {

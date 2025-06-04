@@ -26,7 +26,7 @@ const Features = () => {
             <div className="feature-text">
               <SectionTitle subTitle="About Tech Cloud ERP" title="Effective Solution for Business Growth" />
               <p className='mt-3 mb-3 ' style={{ textAlign: 'justify' }}> Tech Cloud ERP is an excellent cloud ERP platform that optimizes your business processes. 
-                It simplifies activities, reduces manual processes, and gives you real-time knowledge to help improve efficiency, all while using a finely tuned system
+                It simplifies activities, reduces manual processes and gives you real-time knowledge to help improve efficiency, all while using a finely tuned system
                  for better outcomes by merging data and optimizing work processes. More data in one place means more accuracy, less chance of 
                 manual mistakes and better productivity.
               </p>

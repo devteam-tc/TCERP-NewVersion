@@ -2,37 +2,45 @@
   "mainHeaderSection": {
     "subtitle": "Our Module",
     "maintitle": "Best CRM Solution for Efficient Business Management",
-    "description": "Tech Cloud ERP’s CRM is an all-in-one solution that helps you attract more leads, close deals faster and build lasting customer relationships by automating sales tasks, tracking every interaction and streamlining the entire sales process from lead generation to order fulfilment."
+    "description": "Tech Cloud ERP's CRM is an all-in-one solution that helps you attract more leads, close deals faster and build lasting customer relationships by automating sales tasks, tracking every interaction and streamlining the entire sales process from lead generation to order fulfilment."
   },
   "featureSections": [
     {
-      "featuretitle": "Lead Management",
-      "featuredesc": " You can enter new leads quickly, set follow-up reminders and track each lead’s progress. This helps your team stay updated and never miss a sales opportunity. You can also change the status of a lead as it moves through different stages such as new, in-progress, or converted.",
-      "featurelink": "Explore Lead Management",
+      "featuretitle": "Lead Management",   
+"featuredesc": [
+  " You can enter new leads quickly, set follow-up reminders and track each lead’s progress. This helps your team stay updated and never miss a sales opportunity.",
+  "You can also change the status of a lead as it moves through different stages such as new, in-progress, or converted."
+],
+      "featurelink": "Explore More",
       "dashboardImage": "/images/modules/crm/module-1.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Opportunity Management",
-      "featuredesc": " Here, you can create proposals, track conversations and manage the negotiation process. This makes it simple to know where each deal stands and what actions to take next to close it successfully.",
-      "featurelink": "Discover Sales Tools",
+"featuredesc": [
+  "Tech Cloud ERP’s CRM combines opportunity tracking and quotation management into one seamless process. Create personalized proposals, manage conversations and handle negotiations with ease. ",
+  "Instantly respond to enquiries with professional quotes, all of which are saved and organized for quick access. This streamlined workflow helps your team stay in control of every deal and take the right steps to close faster."
+      ],
+      "featurelink": "Explore More",
       "dashboardImage": "/images/modules/crm/module-2.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Sales Order Processing",
-      "featuredesc": "Once a quotation is approved, you can instantly turn it into a sales order. Check inventory to make sure the product is in stock and track the delivery process from start to finish. This ensures faster service and keeps your customers happy.",
-      "featurelink": "Discover Sales Tools",
-      "dashboardImage": "/images/modules/crm/module-3.png",
+"featuredesc": [
+  " Once a quotation is approved, you can instantly turn it into a sales order. Check inventory to make sure the product is in stock and track the delivery process from start to finish. ",
+  "This ensures faster service and keeps your customers happy."
+      ],
+      "featurelink": "Explore More",    
+       "dashboardImage": "/images/modules/crm/module-3.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],
   
   "videosection": {
-    "title": "Transform Your Customer Relationships",
-    "description": "Our CRM helps you manage leads, automate follow-ups and close deals faster.Watch how our platform simplifies your entire sales process in just a few clicks.",
-    "thumbnail": "/images/modules/video-thumbnail.png",
-    "videoUrl": "https://www.youtube.com/embed/x4cxxrDdzWo",
+    "title": "Customer Relationship Management",
+    "description": "Our CRM helps you manage leads, automate follow-ups and close deals faster. Watch how our platform simplifies your entire sales process in just a few clicks.",
+    "videoUrl": "https://res.cloudinary.com/techclouderp/video/upload/v1748869958/WhatsApp_Video_2025-06-02_at_6.30.15_PM_1_bg5pna.mp4",
     "module": "customer-relationship-management"
   },
   "cards": {
@@ -67,14 +75,14 @@
     "items": [
       {
         "question": "What is CRM and why is it essential for my business?",
-        "answer": "CRM stands for Customer Relationship Management. It’s a system that helps you organize, track and manage interactions with leads and customers. A CRM improves customer communication enhances sales performance and ensures you never miss a follow-up leading to stronger relationships and higher conversions."
+        "answer": "CRM stands for Customer Relationship Management. It's a system that helps you organize, track and manage interactions with leads and customers. A CRM improves customer communication enhances sales performance and ensures you never miss a follow-up leading to stronger relationships and higher conversions."
       },
       {
-        "question": " Is Tech Cloud ERP’s CRM suitable for small businesses?",
-        "answer": "Yes absolutely. Our CRM is built with small and growing businesses in mind. It’s easy to implement, user-friendly and packed with features like lead tracking quotation management and sales automation—helping small teams work efficiently without the complexity."
+        "question": " Is Tech Cloud ERP's CRM suitable for small businesses?",
+        "answer": "Yes absolutely. Our CRM is built with small and growing businesses in mind. It's easy to implement, user-friendly and packed with features like lead tracking quotation management and sales automation—helping small teams work efficiently without the complexity."
       },
       {
-        "question": "Can I integrate Tech Cloud ERP’s CRM with other tools?",
+        "question": "Can I integrate Tech Cloud ERP's CRM with other tools?",
         "answer": "Yes. Our CRM integrates seamlessly with your existing tools including email platforms, marketing automation apps and accounting software. This ensures smooth data flow and consistent communication across all your business systems."
       }
     ]

@@ -5,8 +5,7 @@ import "../public/sass/main.scss";
 import 'animate.css';
 import InitAnimations from '../components/containers/InitAnimations';
 import LayoutWrapper from './LayoutWrapper';
-import Script from 'next/script';
-import Head from 'next/head'; // ✅ Import Head
+import Head from 'next/head';
 
 export const metadata = {
   keywords: [
@@ -40,7 +39,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        {/* ✅ Add external Font Awesome link */}
+        {/* ✅ External Font Awesome */}
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -54,11 +53,6 @@ export default function RootLayout({ children }) {
           <InitAnimations />
           {children}
         </LayoutWrapper>
-        <Script
-          id="ze-snippet"
-          strategy="lazyOnload"
-          src="https://static.zdassets.com/ekr/snippet.js?key=e3ca5133-37b8-460b-bdc3-25e8d82513ff"
-        />
       </body>
     </html>
   );

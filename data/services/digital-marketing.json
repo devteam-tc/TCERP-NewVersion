@@ -5,7 +5,7 @@
           "img": "/images/servicescards/SocialMediaMarketing.png",
           "hoverImg": "/images/servicescards/white/SocialMediaMarketing-white.png",
           "link": "/services/social-media-marketing",
-          "description": "Grow your brand and engage your audience across platforms like Instagram, Facebook, LinkedIn and Twitter has to change as platforms like Instagram, Facebook, LinkedIn and many more",
+          "description": "Grow your brand and engage your audience across platforms like Instagram, Facebook, LinkedIn,Twitter and many more.",
           "thumb": "/images/services/ser-thumb-social.png"
         },
         {
@@ -13,7 +13,7 @@
           "img": "/images/servicescards/SearchEngineOptimization.png",
           "hoverImg": "/images/servicescards/white/SearchEngineOptimization-white.png",
           "link": "/services/seo",
-          "description": "Get your business  found on Google with tailored SEO strategies that drive organic traffic has to change as found on Google with advanced SEO strategies that drive organic traffic.",
+          "description": "Get your business found on Google with advanced SEO strategies that drive organic traffic.",
           "thumb": "/images/services/ser-thumb-seo.png"
         },
         {
@@ -67,7 +67,7 @@
          
       ],
     "about": {
-      "subtitle": "KNOW ABOUT OUR MARKETING",
+      "subtitle": "ABOUT OUR DIGITAL MARKETING",
       "heading": "Digital Strategies That Drive Results",
       "paragraph": "We craft tailored strategies to put your brand in front of the right audience, at the right time across the right platforms.",
       "features": [
@@ -81,7 +81,7 @@
     "faq": [
       {
         "question": "What is digital marketing and why is it important for my website?",
-        "answer": "Digital marketing promotes websites online using channels such as SEO, social media and paid advertising, resulting in increased visibility, traffic and conversions."
+        "answer": "Digital marketing helps promote your website using SEO, social media and paid ads. This increases your online visibility, attracts more visitors and boosts conversions."
       },
       {
         "question": "What services are included in digital marketing?",
@@ -93,7 +93,7 @@
       },
       {
         "question": "Do you offer local SEO services?",
-        "answer": "Yes, we provide comprehensive local SEO services including Google Business Profile optimization, local citation building, review management, and location-based content strategies to improve your visibility in local search results."
+        "answer": "Yes, we provide comprehensive local SEO services including Google Business Profile optimization, local citation building, review management and location-based content strategies to improve your visibility in local search results."
       }
      
     ],

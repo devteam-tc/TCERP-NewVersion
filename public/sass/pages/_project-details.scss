@@ -325,7 +325,7 @@
   }
 
   .card-point{
-    font-style: italic;
+    // font-style: italic;
     font-weight: normal;
   }
   p {
@@ -336,12 +336,12 @@
 
   ul {
     li {
-      margin-bottom: 12px;
+      margin-bottom: 10px;
       color: var(--text-color);
       
       img {
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
         margin-right: 10px;
       }
     }

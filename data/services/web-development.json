@@ -23,7 +23,7 @@
         "img": "/images/servicescards/Development&Integration1.png",
         "hoverImg": "/images/servicescards/white/Development&Integration1-white.png",
         "link": "/services/progressive-web-apps",
-        "description": "We transform designs into a fully functional website using modern, scalable code. We ensure mobile responsiveness and seamless integration with tools or APIs.",
+        "description": "We transform designs into a fully functional website using modern, scalable code. We ensure mobile responsive and seamless integration with tools or APIs.",
         "icon": "/images/services/pwa-icon.png",
         "thumb": "/images/services/pwa-thumb.webp"
       },
@@ -41,7 +41,7 @@
         "img": "/images/servicescards/CMSDevelopment.png",
         "hoverImg": "/images/servicescards/white/CMSDevelopment-white.png",
         "link": "/services/api-development",
-        "description": "Custom content management systems for easy website updates and management.",
+        "description": "Custom CMS development to manage your website content easily with full control, flexibility and scalability.",
         "icon": "/images/services/api-icon.png",
         "thumb": "/images/services/api-thumb.webp"
       },
@@ -59,7 +59,7 @@
         "img": "/images/servicescards/CloudIntegration.png",
         "hoverImg": "/images/servicescards/white/CloudIntegration-white.png",
         "link": "/services/frontend-development",
-        "description": "Seamless cloud service integration and deployment solutions.",
+        "description": "Smooth cloud integration to connect systems, improve efficiency and access real-time data anytime, anywhere.",
         "icon": "/images/services/frontend-icon.png",
         "thumb": "/images/services/frontend-thumb.webp"
       },
@@ -75,7 +75,7 @@
       
     ],
     "about": {
-      "subtitle": "KNOW ABOUT OUR WEB DEV",
+      "subtitle": "ABOUT OUR WEB DEVELOPMENT",
       "heading": "Custom Web Solutions for Your Business",
       "paragraph": "Need a website that's fast, functional and future-ready? We blend design and development with digital marketing strategy to give you the competitive edge online.",
       "features": [
@@ -101,7 +101,7 @@
       },
       {
         "question": "What security measures do you implement in web development?",
-        "answer": "We implement comprehensive security measures including SSL/TLS encryption, input validation, XSS protection, CSRF tokens, secure authentication, regular security audits, and following OWASP security guidelines to protect your website from vulnerabilities."
+        "answer": "We implement comprehensive security measures including SSL/TLS encryption, input validation, XSS protection, CSRF tokens, secure authentication, regular security audits and following OWASP security guidelines to protect your website from vulnerabilities."
       }
      
     ],
