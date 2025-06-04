@@ -14,7 +14,7 @@
         "img": "/images/servicescards/Design&Prototyping.png",
         "hoverImg": "/images/servicescards/white/Design&Prototyping-white.png",
         "link": "/services/ecommerce-development",
-        "description": " Build your ideal website effortlessly using Tech Cloud ERP’s easy-to-use website builder designed for all skill levels.",
+        "description": "Easy-to-use tools, customizable templates and smooth integration to make website building quick and hassle-free.",
         "icon": "/images/services/ecom-icon.png",
         "thumb": "/images/services/ecom-thumb.webp"
       },
@@ -57,13 +57,13 @@
       
     ],
     "about": {
-      "subtitle": "KNOW ABOUT OUR WEB DEV",
-      "heading": "Maximize Operational Efficiency with One Ecommerce ERP Platform",
-      "paragraph": "Tech Cloud Ecommerce ERP connects your online store with ERP systems to simplify sales, automate workflows, reduce errors and boost efficiency for both B2B and B2C businesses.",
+      "subtitle": "ABOUT OUR E-COMMERCE DEVELOPMENT",
+      "heading": "Accelerate Growth With Ecommerce Solutions",
+      "paragraph": "Tech Cloud E-Commerce connects your online store with ERP systems to simplify sales, automate workflows, reduce errors and boost efficiency for both B2B and B2C businesses.",
       "features": [
         "Custom storefront design and branding",
         "Scalable architecture for growth",
-        "Seamless payment gateway integration"
+        "Secure payment gateway integration"
       ],
       "imageMain": "/images/servicescards/ecommerce-development.jpg",
       "imageDecor": "/images/servicescards/dot-grp1.png"
@@ -80,6 +80,10 @@
       {
         "question": "Can I integrate third-party tools like CRM or email marketing?",
         "answer": "Yes. We can integrate tools like Mailchimp, HubSpot and others based on your business needs."
+      },
+      {
+        "question": "Will my e-commerce site be mobile-friendly?",
+        "answer": "Yes, all the websites we build are fully responsive and optimized for mobile devices to provide a seamless shopping experience."
       }
      
     ],

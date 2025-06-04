@@ -3,8 +3,9 @@
   max-width: 1200px;
   margin: 0 auto;
   font-family: 'Inter', sans-serif;
-  @media screen and (max-width:992px) {
-    padding: 0rem;
+  
+  @media screen and (max-width: 992px) {
+    padding: 2rem 1rem;
   }
 }
 
@@ -22,19 +23,20 @@
   }
 
   .mainTitles {
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 700;
     color: var(--bs-black-color);
     line-height: 1.2;
     margin-bottom: 10px;
 
     @media (max-width: 992px) {
-      font-size: 36px;
+      font-size: 24px;
+      margin-bottom: 20px;
     }
   }
 
   .description {
-    font-size: 18px;
+    font-size: 16px;
     color: #64748b;
     line-height: 1.6;
     max-width: 1200px;
@@ -56,169 +58,139 @@
   @media (max-width: 992px) {
     flex-direction: column-reverse;
     gap: 40px;
+    margin-bottom: 60px;
   }
 
-  &--first {
-    // First row: image left, text right
+  &--first,
+  &--second,
+  &--third {
     .imageCard {
       flex: 1;
-      max-width: 50%;
+      max-width: 45%;
+      border-radius: 12px;
+      overflow: hidden;
+      // box-shadow: 0 10px 20px rgba(173,216,230,.5), 0 6px 6px rgba(173,216,230,.7);
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px);
+      }
+      .imageWrapper {
+        position: relative;
+        width: 100%;
+        padding-top: 85%;
+        overflow: hidden;
+        background-color: #f8f9fa;
+        border-radius: 12px;
+        
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          box-shadow: var(--bs-secondary-50) 0px 30px 60px -12px inset, var(--bs-secondary-100) 0px 18px 36px -18px inset;
+          object-fit: contain;
+          transition: transform 0.3s ease;
+          background-color: #f8f9fa;
+        }
+      }
     }
+
     .featureText {
-      flex: 1;
+      flex: 1.2; // Give slightly more space to text
       text-align: left;
     }
   }
 
   &--second {
-    // Second row: text left, image right
     flex-direction: row;
     
     @media (max-width: 992px) {
       flex-direction: column;
     }
-
-    .imageCard {
-      flex: 1;
-      max-width: 50%;
-    }
-    .featureText {
-      flex: 1;
-      text-align: left;
-    }
   }
-
-  &--third {
-    // Third row: image left, text right
-    .imageCard {
-      flex: 1;
-      max-width: 50%;
-    }
-    .featureText {
-      flex: 1;
-      text-align: left;
-    }
-  }
-
-  .imageCard {
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-  }
-
-  .featureText {
-    .iconBox {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 40px;
-      height: 40px;
-      background-color: var(--bs-primary-500);
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
-
-    .featureTitle {
-      font-size: 32px;
-      font-weight: 700;
-      color: var(--bs-black-color);
-      line-height: 1.3;
-      margin-bottom: 16px;
-      letter-spacing: 0px;
-
-      @media (max-width: 992px) {
-        font-size: 24px;
-      }
-    }
-
-    .featureDesc {
-      font-size: 16px;
-      color: #64748b;
-      line-height: 1.6;
-      margin-bottom: 24px;
-    }
-
-    .featureLink {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 16px;
-      font-weight: 600;
-      color: var(--bs-primary-500);
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-}
-
-.imageCard img {
-  border-radius: 10px;
-  width: 100%;
-  height: auto;
 }
 
 .featureText {
-  flex: 1;
+  .iconBox {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--bs-primary-500);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .featureTitle {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--bs-black-color);
+    line-height: 1.3;
+    margin-bottom: 16px;
+    letter-spacing: 0px;
+
+    @media (max-width: 992px) {
+      font-size: 24px;
+    }
+  }
+
+  .featureDesc {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+
+  .featureLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--bs-primary-500);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
-.iconBox {
-  width: 44px;
-  height: 44px;
-  background-color: var(--bs-primary-500);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-}
-
-.featureTitle {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #111;
-  margin-bottom: 1rem;
-}
-
-.featureDesc {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 1rem;
-}
-
-.featureLink {
-  display: inline-flex;
-  align-items: center;
-  color: #0a8264;
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.featureLink svg {
-  margin-left: 0.5rem;
-}
-
+// Responsive styles
 @media (max-width: 992px) {
   .featuresSection {
-    margin-bottom: 40px;
-    
     &--first,
     &--second,
     &--third {
       .imageCard {
-        max-width: 100%;
+        max-width: 100%; 
+        width: 100%;
+        margin: 0 auto;
       }
     }
   }
+}
 
-  .mainTitle {
-    font-size: 2rem;
+@media (max-width: 992px) {
+  .featuresSection {
+    padding: 0 10px;
+    margin-bottom: 0px !important;
+    gap: 0px !important;
   }
 
-  .featureTitle {
-    font-size: 1.5rem;
+  .featureText {
+    .featureTitle {
+      font-size: 22px;
+    }
+
+    .featureDesc {
+      font-size: 15px;
+    }
+    .imageWrapper{
+      margin-top: 0px !important;
+    }
   }
 }

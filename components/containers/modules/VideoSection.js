@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import '../../../public/sass/components/_video-section.scss';
 
 const VideoSection = ({ slug }) => {
-  const [showVideo, setShowVideo] = useState(false);
   const [data, setData] = useState(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const videoRef = useRef(null);
 
   useEffect(() => {
     if (slug) {
@@ -17,14 +19,28 @@ const VideoSection = ({ slug }) => {
   }, [slug]);
 
   const handlePlayClick = () => {
-    setShowVideo(true);
+    if (videoRef.current) {
+      videoRef.current.play();
+      setIsPlaying(true);
+    }
+  };
+
+  const handleVideoPlay = () => {
+    setIsPlaying(true);
+  };
+
+  const handleVideoPause = () => {
+    setIsPlaying(false);
   };
 
   if (!data?.videosection) {
     return null;
   }
 
-  const { title, description, thumbnail, videoUrl } = data.videosection;
+  const { title, description, videoUrl } = data.videosection;
+  
+  // Add Cloudinary transformations for optimal playback
+  const cloudinaryUrl = `${videoUrl}?f_auto,q_auto,w_1280,c_scale`;
 
   return (
     <section className="video-section">
@@ -34,34 +50,27 @@ const VideoSection = ({ slug }) => {
           <p className="video-section__desc">{description}</p>
         </div>
         <div className="video-section__video-wrapper">
-          {!showVideo ? (
-            <>
-              <img
-                src={thumbnail}
-                alt={`${title} video thumbnail`}
-                className="video-section__video-thumb"
-                draggable="false"
-              />
-              <button 
-                className="video-section__play-btn" 
-                aria-label="Play video" 
-                tabIndex={0}
-                onClick={handlePlayClick}
-              >
-                <span className="play-icon"></span>
-              </button>
-            </>
-          ) : (
-            <iframe
-              width="100%"
-              height="100%"
-              src={`${videoUrl}?autoplay=1`}
-              title={`${title} video player`}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          )}
+          <video
+            ref={videoRef}
+            width="100%"
+            height="100%"
+            muted
+            loop
+            playsInline
+            controls
+            preload="auto"
+            className="video-section__video"
+            onPlay={handleVideoPlay}
+            onPause={handleVideoPause}
+          >
+            <source src={cloudinaryUrl} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <button 
+            className={`video-section__play-button ${isPlaying ? 'hidden' : ''}`}
+            onClick={handlePlayClick}
+            aria-label="Play video"
+          />
         </div>
       </div>
     </section>

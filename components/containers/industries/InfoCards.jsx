@@ -28,7 +28,7 @@ const InfoCards = ({ infoCards }) => (
           {card.list && (
             <ul className="list-unstyled">
               {card.list.map((item, idx) => (
-                <li key={idx} className="d-flex align-items-center mb-3">
+                <li key={idx} className="d-flex align-items-center">
                   <Image
                     src="/images/industry-icons/checkmark-icon.svg"
                     alt={`${item} feature checkmark`}

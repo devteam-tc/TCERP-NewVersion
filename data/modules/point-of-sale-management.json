@@ -15,15 +15,13 @@
     {
       "featuretitle": "No more digging endless reports and spreadsheets",
       "featuredesc": "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
-      "featurelink": "Discover Sales Tools",
-      "dashboardImage": "/images/modules/home-four-feature-02.png",
+     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-02.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Share files, and communicate with your team in real-time",
       "featuredesc": "You can easily assign tasks, share files, and communicate with your team in real-time, no matter where they are located.",
-      "featurelink": "Discover Sales Tools",
-      "dashboardImage": "/images/modules/home-four-feature-03.png",
+     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-03.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],

@@ -25,7 +25,7 @@ const urlToDataMap = {
 const locationData = {
   chennai: {
     title: 'Best ERP Software In Chennai',
-    image: 'https://dummyimage.com/800x400/cccccc/000000&text=Chennai',
+    image: '/images/contact/chennai.png',
     description: 'Tech Cloud ERP, a trusted name in ERP software development, now proudly provides its industry-leading solutions in Chennai. As a leading ERP company in Chennai, we empower businesses across manufacturing, retail, trading and other sectors with smart, scalable ERP software. With our feature-rich and customizable ERP platform, organizations in Chennai can now optimize operations, reduce costs and accelerate growth—all from one centralized system. Whether you are a small business or a large enterprise, our ERP software in Chennai is tailored to your unique operational needs.',
     features: [
       'Centralized Dashboard',
@@ -37,7 +37,7 @@ const locationData = {
   },
   hyderabad: {
     title: 'Best ERP Software In Hyderabad',
-    image: 'https://dummyimage.com/800x400/cccccc/000000&text=Hyderabad',
+    image: '/images/contact/hyderabad.jpg',
     description: 'Tech Cloud ERP is the best Cloud-based ERP Software in India which provides a perfect ERP Software for Manufacturing and trading business. Being the finest in ERP software companies in Hyderabad, we enable you to simplify the operations, enhance productivity, and lower the capital expenditures through a fully centralized system. Our scalable ERP Hyderabad applications are made to fit start-ups and big corporates to offer you real-time insights and more control. Select Tech Cloud ERP for the top ERP software in Hyderabad to power your growth.',
     features: [
       'Centralized Dashboard',
@@ -49,7 +49,7 @@ const locationData = {
   },
   coimbatore: {
     title: 'Best ERP Software In Coimbatore',
-    image: 'https://dummyimage.com/800x400/cccccc/000000&text=Coimbatore',
+    image: '/images/contact/coimbatore.png',
     description: 'Tech Cloud ERP offers advanced and customizable ERP software in Coimbatore, designed to streamline operations across manufacturing, trading, retail  and service sectors. As a leading ERP software company in Coimbatore, we provide scalable solutions that help businesses enhance productivity, reduce costs and gain real-time insights. Our ERP Coimbatore solutions are tailored to meet the unique needs of both startups and large enterprises, ensuring seamless integration and efficient workflow management. Choose Tech Cloud ERP, a trusted ERP company in Coimbatore, to empower your business with innovative ERP solutions and drive sustainable growth.',
     features: [
       'Centralized Dashboard',

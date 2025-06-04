@@ -91,10 +91,12 @@ const DownloadFormPopup = ({ show, industryTitle, onHide }) => {
   useEffect(() => {
     if (show) {
       document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
     }
-    return () => { document.body.style.overflow = 'unset'; };
+    return () => {
+      if (show) {
+        document.body.style.overflow = 'auto';
+      }
+    };
   }, [show]);
 
   // Load saved user data if available

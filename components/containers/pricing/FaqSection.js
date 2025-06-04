@@ -16,11 +16,25 @@ const FaqSection = ({ extraClassName = '' }) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <SectionTitle subTitle="Ask Question" title="Empowering Progress Through Technology" extraClass="mb-30" />
+            <SectionTitle subTitle="Frequently Asked Questions" extraClass="mb-30" />
             <div className="faq-body">
               <div className="accordion">
                 {faqData.map((item, index) => (
-                  <div className="accordion-item" key={index}>
+                  <div className="accordion-item" key={index} 
+                  style={{
+                    border: activeIndex === index ? '2px solid var(--bs-primary-color)' : '1px solid #dee2e6',
+                    boxShadow: activeIndex === index ? '0 0 10px rgba(0, 123, 255, 0.2)' : 'none',
+                    borderRadius: '8px',
+                    marginBottom: '10px',
+                    transition: 'all 0.3s ease',
+                    cursor: 'pointer',
+                    ':hover': {
+                      border: '2px solid var(--bs-primary-color)',
+                      boxShadow: '0 0 10px rgba(0, 123, 255, 0.2)'
+                    }
+                  }}
+                  
+                  >
                     <div className="accordion-header">
                       <button
                         className={`accordion-button ${activeIndex === index ? "" : "collapsed"}`}

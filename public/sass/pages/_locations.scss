@@ -54,11 +54,11 @@
   
     &__card {
       background: #fff;
-      border: 1px solid #eee;
+      border: 1px solid #f1f1f1;
       padding: 1rem;
       border-radius: 10px;
       text-align: center;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 10px 20px rgba(173, 216, 230, 0.5), 0 6px 6px rgba(173, 216, 230, 0.7);
   
       h3 {
         font-size: 1.1rem;
@@ -81,7 +81,7 @@
         display: inline-block;
         margin-top: 1rem;
         padding: 0.5rem 1rem;
-        background: #0070f3;
+        background: var(--bs-primary-500);
         color: #fff;
         border-radius: 4px;
         text-decoration: none;
@@ -89,7 +89,7 @@
         transition: background 0.3s;
   
         &:hover {
-          background: #005bb5;
+          background: var(--bs-primary-600);
         }
       }
     }

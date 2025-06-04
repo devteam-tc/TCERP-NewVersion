@@ -15,15 +15,13 @@
     {
       "featuretitle": "Sales Order Processing & Delivery",
       "featuredesc": "Process sales orders with real-time inventory checks, automated approval workflows and backorder management. Keep full visibility of order status and delivery schedules to ensure timely fulfillment. Automate billing and invoice generation linked directly to deliveries, integrating with accounting and payment systems to improve operational efficiency and cash flow.",
-      "featurelink": "Discover Sales Tools",
-      "dashboardImage": "/images/modules/home-four-feature-02.png",
+     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-02.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Customer Data & Insights",
       "featuredesc": "Maintain a centralized customer database including contacts, purchase history, credit terms and communication logs. Use this data to personalize service, automate credit checks, and build targeted sales strategies. Detailed analytics and transaction history provide insights to improve sales performance and customer satisfaction.",
-      "featurelink": "Discover Sales Tools",
-      "dashboardImage": "/images/modules/home-four-feature-03.png",
+     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-03.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],
