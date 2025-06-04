@@ -20,7 +20,6 @@
 		}
 
 		.img-one {
-			transform: none !important;
 			max-width: 482px;
 			z-index: 9;
 
@@ -95,8 +94,7 @@
 	}
 
 	.ep-features-section {
-		padding-bottom: 50px;
-		padding-top: 0px;
+		padding-bottom: 100px;
 	}
 }
 
@@ -115,8 +113,6 @@
 	}
 
 	.ep-features-section .feature-text {
-		// margin-top: 40px;
-		margin-top: 0px;
+		margin-top: 40px;
 	}
 }
-
