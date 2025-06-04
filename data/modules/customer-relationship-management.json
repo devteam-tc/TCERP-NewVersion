@@ -7,30 +7,21 @@
   "featureSections": [
     {
       "featuretitle": "Lead Management",   
-"featuredesc": [
-  " You can enter new leads quickly, set follow-up reminders and track each lead’s progress. This helps your team stay updated and never miss a sales opportunity.",
-  "You can also change the status of a lead as it moves through different stages such as new, in-progress, or converted."
-],
+    "featuredesc": "You can enter new leads quickly, set follow-up reminders and track each lead’s progress. This helps your team stay updated and never miss a sales opportunity. You can also change the status of a lead as it moves through different stages such as new, in-progress, or converted.",
       "featurelink": "Explore More",
       "dashboardImage": "/images/modules/crm/module-1.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Opportunity Management",
-"featuredesc": [
-  "Tech Cloud ERP’s CRM combines opportunity tracking and quotation management into one seamless process. Create personalized proposals, manage conversations and handle negotiations with ease. ",
-  "Instantly respond to enquiries with professional quotes, all of which are saved and organized for quick access. This streamlined workflow helps your team stay in control of every deal and take the right steps to close faster."
-      ],
+  "featuredesc": "Tech Cloud ERP’s CRM combines opportunity tracking and quotation management into one seamless process. Create personalized proposals, manage conversations and handle negotiations with ease.  Instantly respond to enquiries with professional quotes, all of which are saved and organized for quick access. This streamlined workflow helps your team stay in control of every deal and take the right steps to close faster.",      
       "featurelink": "Explore More",
       "dashboardImage": "/images/modules/crm/module-2.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Sales Order Processing",
-"featuredesc": [
-  " Once a quotation is approved, you can instantly turn it into a sales order. Check inventory to make sure the product is in stock and track the delivery process from start to finish. ",
-  "This ensures faster service and keeps your customers happy."
-      ],
+      "featuredesc": " Once a quotation is approved, you can instantly turn it into a sales order. Check inventory to make sure the product is in stock and track the delivery process from start to finish. This ensures faster service and keeps your customers happy.",
       "featurelink": "Explore More",    
        "dashboardImage": "/images/modules/crm/module-3.png",
       "imageAlt": "Sales Automation Dashboard"
