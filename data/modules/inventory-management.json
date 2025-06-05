@@ -1,27 +1,29 @@
 {
   "mainHeaderSection": {
     "subtitle": "Our Module",
-    "maintitle": "Customer Relationship Management",
-    "description": "Manage leads, track sales, and boost engagement with a unified CRM platform."
+    "maintitle": "Inventory Management",
+    "description": "Tech Cloud ERP helps you to improve the stock management, control warehouse activities and ensure accuracy across your inventory with real-time visibility. From receiving materials to issuing and adjusting stock, everything is managed in one smart system."
   },
   "featureSections": [
     {
-      "featuretitle": "Ensuring timely delivery and maximum efficiency",
-      "featuredesc": "We offers advanced project management features such as Gantt charts, task dependencies, and resource allocation",
+      "featuretitle": " Goods Receipt & Material Issue Note",
+      "featuredesc": "Record incoming stock with ease using Goods Receipt, capturing quantities and supplier details automatically. When materials are needed for production or operations, use Material Issue Notes to deduct stock accurately. This ensures real-time updates and prevents stock mismatches across locations or departments.",
       "featurelink": "Explore Lead Management",
       "dashboardImage": "/images/modules/home-four-feature-01.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
-      "featuretitle": "No more digging endless reports and spreadsheets",
-      "featuredesc": "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-02.png",
+      "featuretitle": "Stock Adjustment",
+      "featuredesc": "Maintain accurate inventory through periodic stock counts and adjustments. Whether it’s correcting discrepancies from physical audits or handling damaged goods, Tech Cloud ERP allows for real-time reconciliation of stock levels. Periodic verification and adjustment fosters optimized inventory management.",
+     "featurelink": "Explore More",   
+        "dashboardImage": "/images/modules/home-four-feature-02.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
-      "featuretitle": "Share files, and communicate with your team in real-time",
-      "featuredesc": "You can easily assign tasks, share files, and communicate with your team in real-time, no matter where they are located.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-03.png",
+      "featuretitle": "Material Master Management",
+      "featuredesc": "Manage all essential item data centrally  including specifications, pricing, reorder levels and categorization. With Tech Cloud ERP, Material Master Management simplifies procurement and tracking by providing a single source of truth for every material in your inventory system.",
+     "featurelink": "Explore More",    
+       "dashboardImage": "/images/modules/home-four-feature-03.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],
@@ -63,16 +65,20 @@
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
       {
-        "question": "What is POS software?",
-        "answer": "POS (Point of Sale) software is a system that allows businesses to process sales transactions, manage inventory, track customer data and generate reports. It is used at the point where a customer makes a purchase."
+        "question": "What is inventory management software?",
+        "answer": "Inventory management software assists companies in tracking and handling their stock levels, overseeing warehouse activities and making sure the correctness of stock data. It aids in automating duties like goods receipt, stock transfers between diverse locations and modifications."
       },
       {
-        "question": "Does the software support multiple locations?",
-        "answer": "Yes, you can manage multiple store locations from a single POS dashboard with centralized control over inventory, staff and sales data."
+        "question": "How does reorder level management work?",
+        "answer": " Reorder levels allow you to set minimum stock thresholds. When stock levels fall below this threshold, the system automatically triggers a reorder process to avoid stockouts."
       },
       {
-        "question": "Is it possible to track real-time sales and inventory?",
-        "answer": "Yes, with our cloud-based POS, you can monitor sales, stock levels and employee activity in real-time from any device."
+        "question": " Can I manage multiple warehouses with Tech Cloud ERP?",
+        "answer": "Indeed, Tech Cloud ERP's robust Warehouse Management System facilitates oversight of stock across various venues. Inventories in diverse depots can be transferred or rectified smoothly."
+      },
+      {
+        "question": "  Is the system customizable?",
+        "answer": "Yes. Tech Cloud ERP can be tailored to your specific needs, including customizing material master data fields, inventory workflows and stock transfer rules."
       }
     
     ]

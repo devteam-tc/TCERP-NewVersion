@@ -65,8 +65,8 @@
   "downloadWidget": {
     "bgShape": "/images/shapes/widget-bg.png",
     "image": "/images/industry-icons/book-3.png",
-    "title": "Download Our",
-    "spanTitle": "Fashion Industry Solutions Guide",
+    "title": "",
+    "spanTitle": "Fashion Industry Solutions",
     "buttonText": "Download Now"
   }
 }

@@ -20,7 +20,7 @@ const ModulePage = ({ params, slug }) => {
 
   const breadcrumbs = [
     { label: 'Home', link: '/', icon: FaHome },
-    { label: 'All Modules', link: '/modules' },
+    { label: 'All Modules', link: '/all-modules' },
     { label: moduleName, link: null },
   ];
   

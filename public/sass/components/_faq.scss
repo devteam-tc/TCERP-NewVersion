@@ -2,90 +2,74 @@
 	17. FAQ CSS Start
 ===============================*/
 
-.ep-faq-section {
-	.faq-body {
-		.accordion-button:focus {
-			box-shadow: none;
-		}
+.faq-section{
+    margin-top: 60px;
+    .faq-title {
+      font-size: 26px;
+      font-weight: 700;
+      // margin-bottom: 30px;
+      color: var(--bs-primary-500);
+  
+      @media (max-width: 576px) {
+        font-size: 20px;
+        // margin-bottom: 20px;
+      }
+    }
+    .faq-body {
+      .accordion-button:focus {
+        box-shadow: none;
+      }
+  
+      .accordion-item {
+        border: 0;
+        margin: 10px 0;
+        background-color: var(--bs-white-color) !important;
+        border-radius: 30px;
+        transition: all 0.3s ease;
+      }
 
-		.accordion-item {
-			border: 0;
-			margin: 10px 0;
-			background-color: var(--bs-white-color);
-			border-radius: 30px;
-		}
+      
+  
+      .accordion-item+.accordion-item {
+        margin-top: 30px;
+      }
+  
+      .accordion-button:not(.collapsed) {
+        background-color: transparent;
+        box-shadow: none;
+      }
+  
+      .accordion-button {
+        color: var(--bs-black-color);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 30px;
+        border-radius: 120px !important;
 
-		.accordion-item+.accordion-item {
-			margin-top: 30px;
-		}
-
-		.accordion-button:not(.collapsed) {
-			background-color: transparent;
-			box-shadow: none;
-		}
-
-		.accordion-button {
-			color: var(--bs-black-color);
-			font-size: 18px;
-			font-weight: 700;
-			padding: 6px 12px !important;
-			line-height: 30px;
-			border-radius: 120px !important;
-			// padding: 23px 30px;
-		}
-
-		.accordion-body {
-			// padding: 0 30px 30px 30px;
-			padding: 6px 12px;
-
-		}
-
-		.accordion-button::after {
-			background-image: url(../../images/icons/plus-solid.svg);
-			transition: none;
-			background-position: 0 0;
-			
-		}
-
-		.accordion-button:not(.collapsed)::after {
-			background-image: url(../../images/icons/dash-lg.svg);
-			background-position: 0 8px;
-		}
-
-	}
-
-	.faq-images {
-		padding-left: 50px;
-
-		.clients {
-			height: 100%;
-			background-color: var(--bs-tertiary-color);
-			padding: 20px;
-
-			.client-number {
-				color: var(--bs-black-color);
-				font-family: var(--bs-font-secondary);
-				font-size: 60px;
-				font-weight: 700;
-				line-height: 68px;
-				letter-spacing: -1.48px;
-
-				.odometer {
-					font-weight: 700;
-				}
-			}
-
-			.trust {
-				color: var(--bs-black-color);
-				font-family: var(--bs-font-secondary);
-				font-size: 18px;
-				font-weight: 300;
-				line-height: 30px;
-				margin-top: 5px;
-			}
-		}
-	}
-}
+        @media (max-width: 767.98px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+  
+      .accordion-body {
+        padding: 0 30px 30px 30px;
+      }
+  
+      .accordion-button::after {
+        background-image: url(../../images/icons/plus-solid.svg);
+        transition: none;
+        background-position: 0 0;
+      }
+  
+      .accordion-button:not(.collapsed)::after {
+        background-image: url(../../images/icons/dash-lg.svg);
+        background-position: 0 8px;
+      }
+  
+    }
+  }
+  
 
 .ep-faq-section.style2 {
 	.accordion-item {

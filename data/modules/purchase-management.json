@@ -1,27 +1,29 @@
 {
   "mainHeaderSection": {
     "subtitle": "Our Module",
-    "maintitle": "Customer Relationship Management",
-    "description": "Manage leads, track sales, and boost engagement with a unified CRM platform."
+    "maintitle": "Purchase Order Management ",
+    "description": "Simplify and manage your procurement process easily with Tech Cloud ERP. From request to payment, handle each step in one place saving time, reducing manual work and helping you make better decisions with clear and simple data."
   },
   "featureSections": [
     {
-      "featuretitle": "Ensuring timely delivery and maximum efficiency",
-      "featuredesc": "We offers advanced project management features such as Gantt charts, task dependencies, and resource allocation",
-      "featurelink": "Explore Lead Management",
+      "featuretitle": "Purchase Requisition & Quotation Handling",
+      "featuredesc": " Begin the procurement process by creating a Purchase Requisition (PR), where you specify the materials or services needed, required quantities and delivery dates. Once the PR is approved, send Requests for Quotation (RFQs) to suppliers, receive their offers and evaluate quotations based on price, quality and delivery terms.",
+      "featurelink": "Explore More",
       "dashboardImage": "/images/modules/home-four-feature-01.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
-      "featuretitle": "No more digging endless reports and spreadsheets",
-      "featuredesc": "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-02.png",
+      "featuretitle": "Purchase Order Creation & Goods Receipt",
+      "featuredesc": " Convert approved quotations into formal Purchase Orders (POs) that define quantities, pricing, terms and delivery schedules. After the supplier delivers the goods or services, record the receipt against the PO. Match the supplier invoice with both the PO and Goods Receipt Note (GRN) to ensure accuracy before posting for payment.",
+     "featurelink": "Explore More",    
+       "dashboardImage": "/images/modules/home-four-feature-02.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
-      "featuretitle": "Share files, and communicate with your team in real-time",
-      "featuredesc": "You can easily assign tasks, share files, and communicate with your team in real-time, no matter where they are located.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-03.png",
+      "featuretitle": "Vendor Data Management",
+      "featuredesc": " Maintain a centralized vendor database with key information such as contact details, payment terms, tax IDs and compliance documents. This ensures smooth communication, faster procurement cycles and better vendor evaluation over time.",
+     "featurelink": "Explore More",   
+        "dashboardImage": "/images/modules/home-four-feature-03.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],
@@ -63,16 +65,20 @@
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
       {
-        "question": "What is POS software?",
-        "answer": "POS (Point of Sale) software is a system that allows businesses to process sales transactions, manage inventory, track customer data and generate reports. It is used at the point where a customer makes a purchase."
+        "question": " What is a purchase order?",
+        "answer": " A purchase order is a formal document sent by a buyer to a supplier outlining the products or services requested along with pricing and delivery terms."
       },
       {
-        "question": "Does the software support multiple locations?",
-        "answer": "Yes, you can manage multiple store locations from a single POS dashboard with centralized control over inventory, staff and sales data."
+        "question": "How is a purchase requisition different from a purchase order?",
+        "answer": " A purchase requisition is an internal request to buy something. Once approved, it is converted into a purchase order that’s sent to the supplier."
       },
       {
-        "question": "Is it possible to track real-time sales and inventory?",
-        "answer": "Yes, with our cloud-based POS, you can monitor sales, stock levels and employee activity in real-time from any device."
+        "question": " Why do businesses use purchase order software?",
+        "answer": "  It helps streamline procurement, avoid manual errors, maintain records and improve transparency across departments and vendors."
+      },
+      {
+        "question":"Can I customize the purchase order format?",
+        "answer":" Yes. Most systems allow you to tailor the layout and fields to match your company's documentation and compliance needs."
       }
     
     ]

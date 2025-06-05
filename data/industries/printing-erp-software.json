@@ -67,7 +67,7 @@
   "downloadWidget": {
     "bgShape": "/images/shapes/widget-bg.png",
     "image": "/images/industry-icons/book-3.png",
-    "title": "Download Our",
+   "title": " ",
     "spanTitle": "Printing Industry Guide",
     "buttonText": "Download Now"
   }

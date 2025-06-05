@@ -1,5 +1,5 @@
 import Image from "next/image";
-import cloudIcon from '../../../public/images/servicescards/cloud-rocket.svg';
+import cloudIcon from '../../../public/images/industry-icons/checkmark-icon.svg';
 const ProjectDescription = ({ title, description, keyPoints }) => (
   <div>
     <h3 className="title split-text right">{title}</h3>
@@ -12,8 +12,8 @@ const ProjectDescription = ({ title, description, keyPoints }) => (
           <Image 
           src={cloudIcon} 
           alt={`Bullet point arrow for ${point}`}
-          width={40}
-          height={40}
+          width={30}
+          height={30}
         />
           </div>
           <li key={index}>

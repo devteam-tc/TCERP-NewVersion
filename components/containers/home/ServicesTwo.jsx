@@ -14,7 +14,7 @@ const ServicesTwo = () => {
   const servicesTwo = servicesData.services;
 
   return (
-    <section className="ep-services-section-two pt-120">
+    <section className="ep-services-section-two pt-60 pb-60">
       <div className="service-main rounded-30">
         <div className="container">
           <div className="row">
@@ -22,7 +22,7 @@ const ServicesTwo = () => {
               <SectionTitle 
                 subTitle="Unique Features" 
                 title="Your All-in-One Business Management Solution" 
-                extraClass="text-center" 
+                extraClass="text-center pb-30" 
               />
             </div>
           </div>

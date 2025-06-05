@@ -26,11 +26,22 @@ const CustomSection = ({ slug }) => {
     if (!text) return null;
     const textString = String(text);
     return textString.split('\n').map((line, i) => (
-      <span key={i}>
+      <span key={i} style={{ display: 'block', marginBottom: '8px' }}>
         {line}
-        {i < textString.split('\n').length - 1 && <br />}
       </span>
     ));
+  };
+
+  const renderFeatureDesc = (desc) => {
+    if (!desc) return null;
+    if (Array.isArray(desc)) {
+      return desc.map((item, i) => (
+        <span key={i} style={{ display: 'block', marginBottom: '8px' }}>
+          {item}
+        </span>
+      ));
+    }
+    return <span>{desc}</span>;
   };
 
   const sectionsToRender = data.featureSections && Array.isArray(data.featureSections) && data.featureSections.length > 0
@@ -67,15 +78,13 @@ const CustomSection = ({ slug }) => {
             <h2 className="featureTitle">
               {renderTextWithLineBreaks(sectionData.featuretitle)}
             </h2>
-            <p className="featureDesc">
-              {Array.isArray(sectionData.featuredesc) 
-                ? sectionData.featuredesc.map((desc, i) => (
-                    <span key={i}>
-                      {desc}
-                      {i < sectionData.featuredesc.length - 1 && <br />}
-                    </span>
-                  ))
-                : sectionData.featuredesc}
+            <p className="featureDesc" style={{ 
+              fontSize: '16px', 
+              lineHeight: '1.6',
+              color: '#495057',
+              marginBottom: '20px'
+            }}>
+              {renderFeatureDesc(sectionData.featuredesc)}
             </p>
             {sectionData.featurelink && (
               <a className="featureLink" href="#">

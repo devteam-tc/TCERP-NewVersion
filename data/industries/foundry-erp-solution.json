@@ -64,7 +64,7 @@
   "downloadWidget": {
     "bgShape": "/images/shapes/widget-bg.png",
     "image": "/images/industry-icons/book-3.png",
-    "title": "Download Our",
+   "title": " ",
     "spanTitle": "Casting Solutions Brochure",
     "buttonText": "Download Now"
   }

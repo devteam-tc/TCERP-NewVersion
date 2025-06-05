@@ -2,19 +2,19 @@
   "mainHeaderSection": {
     "subtitle": "Our Module",
     "maintitle": "Best CRM Solution for Efficient Business Management",
-    "description": "Tech Cloud ERP's CRM is an all-in-one solution that helps you attract more leads, close deals faster and build lasting customer relationships by automating sales tasks, tracking every interaction and streamlining the entire sales process from lead generation to order fulfilment."
+    "description": "Tech Cloud ERP’s CRM is an all-in-one solution designed to help you capture more prospects, close deals faster and build lasting customer relationships. By automating sales tasks, tracking every customer interaction and streamlining the entire sales process from prospect engagement to order fulfilment, our CRM empowers your team to work smarter and sell more effectively."
   },
   "featureSections": [
     {
       "featuretitle": "Lead Management",   
-    "featuredesc": "You can enter new leads quickly, set follow-up reminders and track each lead’s progress. This helps your team stay updated and never miss a sales opportunity. You can also change the status of a lead as it moves through different stages such as new, in-progress, or converted.",
+    "featuredesc": " You can enter new leads quickly, set follow-up reminders and track each lead’s progress. This helps your team stay updated and never miss a sales opportunity. You can also change the status of a lead as it moves through different stages such as new, in-progress or converted.",
       "featurelink": "Explore More",
       "dashboardImage": "/images/modules/crm/module-1.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Opportunity Management",
-  "featuredesc": "Tech Cloud ERP’s CRM combines opportunity tracking and quotation management into one seamless process. Create personalized proposals, manage conversations and handle negotiations with ease.  Instantly respond to enquiries with professional quotes, all of which are saved and organized for quick access. This streamlined workflow helps your team stay in control of every deal and take the right steps to close faster.",      
+  "featuredesc": "Tech Cloud ERP’s CRM combines opportunity tracking and quotation management into one seamless process. Create personalized proposals, manage conversations and handle negotiations with ease. Instantly respond to enquiries with professional quotes, all of which are saved and organized for quick access. This streamlined workflow helps your team stay in control of every deal and take the right steps to close faster.",      
       "featurelink": "Explore More",
       "dashboardImage": "/images/modules/crm/module-2.png",
       "imageAlt": "Sales Automation Dashboard"

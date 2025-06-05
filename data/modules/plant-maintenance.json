@@ -1,26 +1,26 @@
 {
   "mainHeaderSection": {
     "subtitle": "Our Module",
-    "maintitle": "Customer Relationship Management",
-    "description": "Manage leads, track sales, and boost engagement with a unified CRM platform."
+    "maintitle": "Plant Maintenance",
+    "description": "Tech Cloud ERP’s Plant Maintenance module helps you keep your equipment in good condition. You can plan, track and complete maintenance tasks on time. This reduces breakdowns and keeps your operations running smoothly."
   },
   "featureSections": [
     {
-      "featuretitle": "Ensuring timely delivery and maximum efficiency",
-      "featuredesc": "We offers advanced project management features such as Gantt charts, task dependencies, and resource allocation",
+      "featuretitle": "Plan & Execute Maintenance with Ease",
+      "featuredesc": "Stay on top of your maintenance work by creating schedules, assigning technicians and tracking real-time progress. Automated reminders and clear task assignments allow your team to fix issues before they become expensive problems.",
       "featurelink": "Explore Lead Management",
       "dashboardImage": "/images/modules/home-four-feature-01.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
-      "featuretitle": "No more digging endless reports and spreadsheets",
-      "featuredesc": "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
+      "featuretitle": "Track Performance & Improve",
+      "featuredesc": "Track maintenance history and equipment health with informative reports and dashboards. Using this data you'll make better decisions, reduce inefficiencies and remain compliant with safety regulations.",
      "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-02.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
-      "featuretitle": "Share files, and communicate with your team in real-time",
-      "featuredesc": "You can easily assign tasks, share files, and communicate with your team in real-time, no matter where they are located.",
+      "featuretitle": "Master Data Setup",
+      "featuredesc": " Our system allows you to create and maintain comprehensive records for all your equipment including specification, maintenance history and associated documents. Having reliable and accurate data in one place will lead to consistency and support efficient maintenance planning and implementation.",
      "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-03.png",
       "imageAlt": "Sales Automation Dashboard"
     }
@@ -63,16 +63,20 @@
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
       {
-        "question": "What is POS software?",
-        "answer": "POS (Point of Sale) software is a system that allows businesses to process sales transactions, manage inventory, track customer data and generate reports. It is used at the point where a customer makes a purchase."
+        "question": "How can I schedule preventive maintenance for my equipment?",
+        "answer": " You can set up maintenance schedules based on time intervals, usage metrics or specific conditions. The system will automatically generate work orders to ensure timely maintenance."
       },
       {
-        "question": "Does the software support multiple locations?",
-        "answer": "Yes, you can manage multiple store locations from a single POS dashboard with centralized control over inventory, staff and sales data."
+        "question": " Can I track the maintenance history of each machine?",
+        "answer": " Yes, Tech Cloud ERP maintains a detailed log of all maintenance activities, allowing you to review past services, repairs and inspections for each piece of equipment."
       },
       {
-        "question": "Is it possible to track real-time sales and inventory?",
-        "answer": "Yes, with our cloud-based POS, you can monitor sales, stock levels and employee activity in real-time from any device."
+        "question": "How does the system help in reducing equipment downtime?",
+        "answer": " By proactively scheduling maintenance tasks and providing real-time alerts, the system helps prevent unexpected failures and ensures that issues are addressed promptly."
+      },
+      {
+        "question": "Is it possible to manage spare parts inventory within the maintenance module?",
+        "answer": " Yes, the system integrates with inventory management, allowing you to track spare parts usage, manage stock levels and automate reordering processes."
       }
     
     ]

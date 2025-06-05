@@ -36,14 +36,10 @@ const Specifications = ({ slug }) => {
       <div className="sservice-area pt_120 pb_120">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-12">
-              {/* <div className="section-title text-center">
-                <h2>Key Features</h2>
-              </div> */}
-            </div>
+           
 
             {items.map((item, index) => (
-              <div key={index} className="col-xl-3 col-lg-4 col-md-6">
+              <div key={index} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6">
                 <HoverCard service={item} />
               </div>
             ))}
@@ -81,7 +77,7 @@ const HoverCard = ({ service }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       style={{
-        height: '380px',
+        height: '350px',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',

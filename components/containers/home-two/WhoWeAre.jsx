@@ -10,7 +10,7 @@ import OdometerCounter from '../Odometer';
 const WhoWeAre = () => {
 
   return (
-    <section className="ep-who-we-area-section pt-120 py-120">
+    <section className="ep-who-we-area-section pt-60 pb-60">
       <div className="container">
         <div className="row">
           <div

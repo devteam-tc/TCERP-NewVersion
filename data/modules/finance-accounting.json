@@ -1,27 +1,29 @@
 {
   "mainHeaderSection": {
     "subtitle": "Our Module",
-    "maintitle": "Customer Relationship Management",
-    "description": "Manage leads, track sales, and boost engagement with a unified CRM platform."
+    "maintitle": "Smart Finance and Accounting Software for Smarter Business",
+    "description": "Tech Cloud ERP’s Finance & Accounting Software helps you manage invoices, payments, budgets and reports from one simple dashboard. Get real-time insights, stay compliant and reduce errors with easy-to-use, automated tools."
   },
   "featureSections": [
     {
-      "featuretitle": "Ensuring timely delivery and maximum efficiency",
-      "featuredesc": "We offers advanced project management features such as Gantt charts, task dependencies, and resource allocation",
+      "featuretitle": "Payment and Transaction Management",
+      "featuredesc": " Record and manage all customer and supplier payments, credit notes, deposits and transfers with full transparency. Easily allocate payments to invoices, make journal entries, reconcile bank accounts and handle costs and revenue accruals all in one place.",
       "featurelink": "Explore Lead Management",
       "dashboardImage": "/images/modules/home-four-feature-01.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
-      "featuretitle": "No more digging endless reports and spreadsheets",
-      "featuredesc": "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-02.png",
+      "featuretitle": "Inquiries and Financial Reporting",
+      "featuredesc": " Access all key reports such as trial balances, tax reports, profit & loss drilldowns and general ledger summaries. Use insights from bank transactions, supplier & customer payments and deposits to make smart, data-backed decisions.",
+     "featurelink": "Explore More",    
+       "dashboardImage": "/images/modules/home-four-feature-02.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
-      "featuretitle": "Share files, and communicate with your team in real-time",
-      "featuredesc": "You can easily assign tasks, share files, and communicate with your team in real-time, no matter where they are located.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-03.png",
+      "featuretitle": "Account and Currency Master Setup",
+      "featuredesc": " Maintain and configure all financial master data including GL accounts, currencies, exchange rates, account classes, tags and revaluation rules. Easily manage your bank accounts, set up closing transactions and build a strong accounting foundation.",
+     "featurelink": "Explore More",    
+       "dashboardImage": "/images/modules/home-four-feature-03.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],
@@ -64,16 +66,20 @@
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
       {
-        "question": "What is POS software?",
-        "answer": "POS (Point of Sale) software is a system that allows businesses to process sales transactions, manage inventory, track customer data and generate reports. It is used at the point where a customer makes a purchase."
+        "question": " What is finance and accounting software used for?",
+        "answer": " It helps businesses manage their financial activities like payments, invoices, budgeting and reporting from one place with accuracy and control."
       },
       {
-        "question": "Does the software support multiple locations?",
-        "answer": "Yes, you can manage multiple store locations from a single POS dashboard with centralized control over inventory, staff and sales data."
+        "question": "Can I generate financial reports like profit and loss or balance sheets?",
+        "answer": "Yes. Tech Cloud ERP offers detailed financial reports including profit & loss, trial balance, balance sheet and general ledger to support informed decision-making."
       },
       {
-        "question": "Is it possible to track real-time sales and inventory?",
-        "answer": "Yes, with our cloud-based POS, you can monitor sales, stock levels and employee activity in real-time from any device."
+        "question": " Does the system support multiple currencies and bank accounts",
+        "answer": " Yes. You can manage transactions in different currencies and link multiple bank accounts for a smooth and flexible financial process."
+      },
+      {
+        "question": "Is tax calculation handled by the software?",
+        "answer": " Yes. The system automates tax calculations and helps generate tax reports, making it easier to stay compliant with local tax regulations."
       }
     
     ]
