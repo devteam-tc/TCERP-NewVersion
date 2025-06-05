@@ -37,7 +37,6 @@ const PageHeader = ({ title = '', breadcrumbs = [] }) => {
             <h1 className="page-title">
               {title ? title.replace(/\b\w/g, (char) => char.toUpperCase()) : ''}
             </h1>
-
               <ul className="list-unstyled d-flex flex-wrap align-items-center justify-content-center mt-30">
                 {breadcrumbs.length > 0 && breadcrumbs.map((item, index) => (
                   <li key={index} className="d-flex align-items-center">

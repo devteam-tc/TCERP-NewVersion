@@ -79,10 +79,10 @@ const UniqueFeatures = () => {
         </div>
         <div className="row g-4">
           {features.map((feature, index) => (
-            <div key={index} className="col-lg-3 col-md-4 col-sm-6">
+            <div key={index} className="col-lg-3 col-md-4 col-6">
               <div className="feature-card bg-white rounded-3 p-4 h-100">
-                <div className="d-flex align-items-center gap-3">
-                  <div className="feature-icon flex-shrink-0">
+                <div className="d-flex flex-column flex-md-row align-items-center gap-3">
+                  <div className="feature-icon flex-shrink-0 text-center">
                     <Image
                       src={feature.icon}
                       alt={feature.alt}
@@ -91,7 +91,7 @@ const UniqueFeatures = () => {
                       className="img-fluid"
                     />
                   </div>
-                  <h5 className="mb-0">{feature.title}</h5>
+                  <h5 className="mb-0 text-center text-md-start">{feature.title}</h5>
                 </div>
               </div>
             </div>

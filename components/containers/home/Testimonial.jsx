@@ -32,8 +32,11 @@ const Testimonial = () => {
                     <FaPhoneAlt size={20} color="white" />
                   </span>
                   <div className="info">
-                    <span className="title ">Call Us Anytime</span>
-                    <h4 className="number">+91 8919439603, +91 7032803200</h4>
+                    <span className="title">Call Us Anytime</span>
+                    <div className="numbers d-flex flex-column flex-sm-row">
+                      <h4 className="number mb-1 mb-sm-0 me-sm-2">+91 8919439603</h4>
+                      <h4 className="number">+91 7032803200</h4>
+                    </div>
                   </div>
                 </a>
               </div>
