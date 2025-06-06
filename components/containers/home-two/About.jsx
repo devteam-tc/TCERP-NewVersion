@@ -9,7 +9,7 @@ import aboutContent from "../../../data/about/aboutContent.json";
 
 const About = ({extraClassName = ''}) => {
   return (
-    <section className={`ep-about-section pt-120 ${extraClassName}`}>
+    <section className={`ep-about-section pt-30 pb-30 ${extraClassName}`}>
       <div className="container">
         <div className="row">
           <div

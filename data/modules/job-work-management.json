@@ -1,27 +1,29 @@
 {
   "mainHeaderSection": {
     "subtitle": "Our Module",
-    "maintitle": "Customer Relationship Management",
-    "description": "Manage leads, track sales, and boost engagement with a unified CRM platform."
+    "maintitle": "Job Work Management ",
+    "description": "Tech Cloud ERP’s Job Work Management module streamlines subcontracting operations by providing complete control over material movement, job tracking and vendor coordination. It helps businesses efficiently manage the entire job work process from PO creation to payment. The system ensures real-time inventory updates, accurate records and faster vendor settlements."
   },
   "featureSections": [
     {
-      "featuretitle": "Ensuring timely delivery and maximum efficiency",
-      "featuredesc": "We offers advanced project management features such as Gantt charts, task dependencies, and resource allocation",
-      "featurelink": "Explore Lead Management",
+      "featuretitle": "JBW Orders Entry ",
+      "featuredesc": "Begin your job work cycle by entering job work orders. This captures key details like items to be processed, job type, vendor details, and expected return dates laying the groundwork for tracking and execution.",
+      "featurelink": "Explore More",
       "dashboardImage": "/images/modules/home-four-feature-01.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
-      "featuretitle": "No more digging endless reports and spreadsheets",
-      "featuredesc": "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-02.png",
+      "featuretitle": "JBW Outstanding GRN",
+      "featuredesc": "Keep track of materials sent to subcontractors but not yet returned. This helps monitor pending GRNs (Goods Receipt Notes), ensuring accurate material tracking and timely follow-up with vendors.",
+     "featurelink": "Explore More",  
+         "dashboardImage": "/images/modules/home-four-feature-02.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
-      "featuretitle": "Share files, and communicate with your team in real-time",
-      "featuredesc": "You can easily assign tasks, share files, and communicate with your team in real-time, no matter where they are located.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-03.png",
+      "featuretitle": "JBW Supplier Invoice",
+      "featuredesc": "Record and validate supplier invoices for completed job work. This ensures accurate financial posting, cost tracking, and smooth vendor settlement—directly linked to the job work order.",
+     "featurelink": "Explore More",   
+        "dashboardImage": "/images/modules/home-four-feature-03.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],
@@ -63,16 +65,20 @@
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
       {
-        "question": "What is POS software?",
-        "answer": "POS (Point of Sale) software is a system that allows businesses to process sales transactions, manage inventory, track customer data and generate reports. It is used at the point where a customer makes a purchase."
+        "question": "What is job work in ERP?",
+        "answer": " Job work involves outsourcing part of your production to an external vendor. Tech Cloud ERP helps manage the entire workflow from issuing materials to processing payments."
       },
       {
-        "question": "Does the software support multiple locations?",
-        "answer": "Yes, you can manage multiple store locations from a single POS dashboard with centralized control over inventory, staff and sales data."
+        "question": "Can I track materials sent to vendors?",
+        "answer": " Yes. The system logs all issued materials as vendor-held stock, ensuring full traceability until they’re returned."
       },
       {
-        "question": "Is it possible to track real-time sales and inventory?",
-        "answer": "Yes, with our cloud-based POS, you can monitor sales, stock levels and employee activity in real-time from any device."
+        "question": "How does Tech Cloud ERP support payment to job workers?",
+        "answer": " It verifies service invoices, updates vendor liabilities and enables secure, timely payments directly through the platform."
+      },
+      {
+        "question": "Is the module suitable for different industries?",
+        "answer": "  Absolutely. Whether you're in engineering, textiles, electronics or any other sector, Tech Cloud ERP’s job work module can be tailored to suit your subcontracting needs."
       }
     
     ]

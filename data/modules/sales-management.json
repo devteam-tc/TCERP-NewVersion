@@ -7,21 +7,23 @@
   "featureSections": [
     {
       "featuretitle": "Lead & Quotation Management",
-      "featuredesc": "Capture customer inquiries from multiple channels and manage them efficiently. Quickly create and customize professional sales quotations with dynamic pricing, discount management and approval workflows. Track inquiries and quotations in real time, and convert approved quotes instantly into sales orders—ensuring no opportunity is lost and every deal is accurately managed.",
+      "featuredesc": "Capture customer inquiries from multiple channels and manage them efficiently. Quickly create and customize professional sales quotations with dynamic pricing, discount management and approval workflows. Track inquiries and quotations in real time and convert approved quotes instantly into sales orders ensuring no opportunity is lost and every deal is accurately managed.",
       "featurelink": "Explore Lead Management",
       "dashboardImage": "/images/modules/home-four-feature-01.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Sales Order Processing & Delivery",
-      "featuredesc": "Process sales orders with real-time inventory checks, automated approval workflows and backorder management. Keep full visibility of order status and delivery schedules to ensure timely fulfillment. Automate billing and invoice generation linked directly to deliveries, integrating with accounting and payment systems to improve operational efficiency and cash flow.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-02.png",
+      "featuredesc": "Process sales orders with real-time inventory checks, automated approval workflows and backorder management. Keep full visibility of order status and delivery schedules to ensure timely fulfilment. Automate billing and invoice generation linked directly to deliveries, integrating with accounting and payment systems to improve operational efficiency and cash flow.",
+     "featurelink": "Explore More",     
+      "dashboardImage": "/images/modules/home-four-feature-02.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Customer Data & Insights",
-      "featuredesc": "Maintain a centralized customer database including contacts, purchase history, credit terms and communication logs. Use this data to personalize service, automate credit checks, and build targeted sales strategies. Detailed analytics and transaction history provide insights to improve sales performance and customer satisfaction.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-03.png",
+      "featuredesc": "Maintain a centralized customer database including contacts, purchase history, credit terms and communication logs. Use this data to personalize service, automate credit checks and build targeted sales strategies. Detailed analytics and transaction history provide insights to improve sales performance and customer satisfaction.",
+     "featurelink": "Explore More",   
+        "dashboardImage": "/images/modules/home-four-feature-03.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],
@@ -73,6 +75,10 @@
       {
         "question": "Is this sales tracking software suitable for small and large businesses?",
         "answer": " Yes Tech Cloud ERP’s sales module is scalable and configurable for businesses of all sizes—whether you have a small sales team or a complex multi-location operation."
+      },
+      {
+        "question":"Can the sales module integrate with CRM and financial systems?",
+        "answer":"Absolutely. It seamlessly integrates with our CRM inventory management and accounting modules to provide a unified business management platform."
       }
     
     ]

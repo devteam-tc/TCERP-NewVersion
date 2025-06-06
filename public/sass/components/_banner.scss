@@ -186,6 +186,47 @@
   }
 }
 
+.circular-icons {
+	position: absolute;
+	left: 50%;
+	top: 67%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 400px;
+	z-index: 2;
+	pointer-events: none;
+}
+
+.circular-icon {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	opacity: 0;
+	animation: emerge-icon 6s infinite cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes emerge-icon {
+	0%, 25% {
+		transform: translate(-50%, -50%) scale(0);
+		opacity: 0;
+	}
+	35% {
+		transform: translate(-50%, -50%) scale(1);
+		opacity: 1;
+	}
+	65% {
+		transform: translate(-50%, -50%) scale(1);
+		opacity: 1;
+	}
+	75%, 100% {
+		transform: translate(-50%, -50%) scale(0);
+		opacity: 0;
+	}
+}
+
 @media (max-width: 992px) {
 	.banner-hero { padding: 120px 0 20px 0; }
 	.rocket-visual,

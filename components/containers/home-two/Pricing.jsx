@@ -19,7 +19,7 @@ const PricingContent = ({ extraClassName = '' }) => {
   }
 
   return (
-    <section className={`ep-pricing-section pt-120 pb-60 ${extraClassName}`}>
+    <section className={`ep-pricing-section pt-60 pb-60 ${extraClassName}`}>
       <div className="container">
         <div className="row">
           <div className="col-lg-6 mx-auto">
@@ -29,7 +29,7 @@ const PricingContent = ({ extraClassName = '' }) => {
               extraClass="text-center" />
           </div>
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center pt-30">
           <div className="toggle-switch">
             <span className="me-2">₹ INR</span>
             <label className="switch">
@@ -56,10 +56,10 @@ const PricingContent = ({ extraClassName = '' }) => {
                   <div className="price-box">
                     <h5 className="title">{plan.title}</h5>
                     <h3 className="price">{plan.price}</h3>
-                    <p className="price-desc">{plan.description}</p>
+                    <p className="price-desc mt-2">{plan.description}</p>
                   </div>
                 </div>
-                <ul className="list-unstyled mt-40 options flex-grow-1">
+                <ul className="list-unstyled mt-30 options flex-grow-1">
                   {plan.features.map((feature, i) => (
                     <li key={`${plan.id}-${i}`} className="d-flex">
                       <FaAnglesRight className="me-2 mt-1" />
@@ -69,7 +69,7 @@ const PricingContent = ({ extraClassName = '' }) => {
                 </ul>
                 <Link
                   href="/pricing"
-                  className="theme-btn mt-40 w-100 theme-btn-border position-relative d-inline-flex justify-content-center align-items-center"
+                  className="theme-btn mt-30 w-100 theme-btn-border position-relative d-inline-flex justify-content-center align-items-center"
                 >
                   Get Now
                   <span className="arrow">

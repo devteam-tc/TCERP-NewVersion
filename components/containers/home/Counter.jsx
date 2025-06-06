@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Counter = () => {
   return (
-    <section className="ep-counter-section pt-120">
+    <section className="ep-counter-section pt-60 pb-60">
       <div className="container">
         <div className="row g-4">
           <div className="col-lg-6">

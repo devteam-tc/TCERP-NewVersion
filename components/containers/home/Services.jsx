@@ -22,7 +22,7 @@ const Services = ({ isSlider = true, showTitle = true, extraClassName='' }) => {
   }, [isSlider]);
 
   return (
-    <section className={`ep-services-section pt-120 pb-60 ${extraClassName}`}>
+    <section className={`ep-services-section pt-60 pb-60 ${extraClassName}`}>
       <div className="container">
         <div className="position-relative">
           {/* Conditionally render the SectionTitle only when showTitle is true */}
@@ -63,7 +63,8 @@ const Services = ({ isSlider = true, showTitle = true, extraClassName='' }) => {
               320: { slidesPerView: 1, spaceBetween: 10 },
               576: { slidesPerView: 2, spaceBetween: 20 },
               768: { slidesPerView: 2, spaceBetween: 25 },
-              1024: { slidesPerView: 3, spaceBetween: 30 },
+              1024: { slidesPerView: 2, spaceBetween: 30 },
+              1200: { slidesPerView: 3, spaceBetween: 30 },
             }}
           >
             {services.map((service) => (

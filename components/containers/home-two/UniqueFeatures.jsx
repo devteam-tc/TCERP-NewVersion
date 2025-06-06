@@ -68,7 +68,7 @@ const features = [
 
 const UniqueFeatures = () => {
   return (
-    <section className="quiety-features py-120 pt-120">
+    <section className="quiety-features pb-60 pt-60">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">

@@ -33,13 +33,7 @@
     border-radius: 12px;
     overflow: hidden;
     aspect-ratio: 16/9;
-    background-color: #000;
-
-    // &:hover {
-    //   .video-section__play-button {
-    //     transform: scale(1.1);
-    //   }
-    // }
+    // background-color: #000;
   }
 
   &__video {
@@ -95,9 +89,9 @@
       width: 60px;
       height: 60px;
 
-      &::after {
-        border-width: 12px 0 12px 20px;
-      }
+      // &::after {
+      //   border-width: 12px 0 12px 20px;
+      // }
     }
   }
 }

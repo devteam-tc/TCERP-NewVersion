@@ -1,27 +1,29 @@
 {
   "mainHeaderSection": {
     "subtitle": "Our Module",
-    "maintitle": "Customer Relationship Management",
-    "description": "Manage leads, track sales, and boost engagement with a unified CRM platform."
+    "maintitle": " Human Resource Management ",
+    "description": "Tech Cloud ERP's HRMS module streamlines and automates all your HR and payroll functions. Our HRMS module manages employee data, assists with tracking attendance and payroll processing, which increases accuracy and efficiency in your HR activities."
   },
   "featureSections": [
     {
-      "featuretitle": "Ensuring timely delivery and maximum efficiency",
-      "featuredesc": "We offers advanced project management features such as Gantt charts, task dependencies, and resource allocation",
+      "featuretitle": "Centralized Employee Records & Attendance Tracking",
+      "featuredesc": " Keep employee information accurate and accessible by storing all records personal details, job roles and history in one centralized system. Monitor check-ins, check-outs, leaves and working hours with ease. Our system connects with biometric devices to deliver real-time attendance data, improving visibility and control over workforce productivity.",
       "featurelink": "Explore Lead Management",
       "dashboardImage": "/images/modules/home-four-feature-01.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
-      "featuretitle": "No more digging endless reports and spreadsheets",
-      "featuredesc": "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-02.png",
+      "featuretitle": "Effortless Payroll Management",
+      "featuredesc": " Streamline your payroll process from salary calculation to tax deductions and payslip production. With our system, you will be able to minimize manual administration and meet statutory obligations leaving you with a correct and timely payroll every month.",
+     "featurelink": "Explore More",     
+      "dashboardImage": "/images/modules/home-four-feature-02.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
-      "featuretitle": "Share files, and communicate with your team in real-time",
-      "featuredesc": "You can easily assign tasks, share files, and communicate with your team in real-time, no matter where they are located.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-03.png",
+      "featuretitle": "Performance Tracking Made Simple",
+      "featuredesc": "Simple goal setting, reviews and templated structured feedback encourages progress from employees, celebrating success and encouraging development. Our performance tracking tools enable you to keep your team developing",
+     "featurelink": "Explore More",  
+         "dashboardImage": "/images/modules/home-four-feature-03.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],
@@ -63,16 +65,20 @@
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
       {
-        "question": "What is POS software?",
-        "answer": "POS (Point of Sale) software is a system that allows businesses to process sales transactions, manage inventory, track customer data and generate reports. It is used at the point where a customer makes a purchase."
+        "question": "Can I customize the HRMS to fit my company's needs?",
+        "answer": " Yes. Tech Cloud ERP's HRMS is flexible and can be customized to suit your specific business processes and policies."
       },
       {
-        "question": "Does the software support multiple locations?",
-        "answer": "Yes, you can manage multiple store locations from a single POS dashboard with centralized control over inventory, staff and sales data."
+        "question": " Does the system support Jio tracking for field staff?",
+        "answer": "Yes. Tech Cloud ERP supports Jio tracking, allowing you to monitor the live location and activity of employees working in the field."
       },
       {
-        "question": "Is it possible to track real-time sales and inventory?",
-        "answer": "Yes, with our cloud-based POS, you can monitor sales, stock levels and employee activity in real-time from any device."
+        "question": " Can employees access their own information?",
+        "answer": " Yes. Employees can view and update personal details, apply for leaves and download payslips through the self-service portal."
+      },
+      {
+        "question": " Does the HRMS support multiple locations and departments?",
+        "answer": "  Yes. Tech Cloud ERP's HRMS can manage employee data across multiple branches or departments, ensuring consistent processes and reporting throughout the organization."
       }
     
     ]

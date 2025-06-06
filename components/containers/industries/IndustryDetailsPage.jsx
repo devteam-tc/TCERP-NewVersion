@@ -95,12 +95,13 @@ const ProjectDetailsPage = ({ industrySlug }) => {
                 keyPoints={currentProject.keyPoints}
               />
               <InfoCards infoCards={currentProject.infoCards} />
-              <FAQSection
+             
+            </div>
+            <FAQSection
                 faqData={currentProject.faqData}
                 activeIndex={activeIndex}
                 toggleAccordion={toggleAccordion}
               />
-            </div>
           </div>
           {/* Right column */}
           <div className="col-lg-4">

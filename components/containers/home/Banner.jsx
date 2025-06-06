@@ -44,7 +44,7 @@ const Banner = () => (
         {/* Rocket */}
         <div className="rocket-center">
           <Image 
-            src="/images/banner/icons/rocketfire.webp" 
+            src="/images/banner/icons/rocket_ignite.gif" 
             alt="Rocket" 
             width={380} 
             height={250}

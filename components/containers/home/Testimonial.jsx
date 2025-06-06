@@ -10,7 +10,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Testimonial = () => {
   return (
-    <section className="ep-testimonial-section pt-120 ">
+    <section className="ep-testimonial-section pt-60 pb-60">
       <div className="container">
         <div className="row g-4">
           <div className="col-lg-6">

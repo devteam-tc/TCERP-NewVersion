@@ -1,6 +1,6 @@
 'use client';
 import { FiDownload } from 'react-icons/fi';
-import {FaArrowRight } from 'react-icons/fa'
+import { FaArrowRight } from 'react-icons/fa';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import '../../../public/sass/components/_custom-section.scss';
@@ -26,11 +26,22 @@ const CustomSection = ({ slug }) => {
     if (!text) return null;
     const textString = String(text);
     return textString.split('\n').map((line, i) => (
-      <span key={i}>
+      <span key={i} style={{ display: 'block', marginBottom: '8px' }}>
         {line}
-        {i < textString.split('\n').length - 1 && <br />}
       </span>
     ));
+  };
+
+  const renderFeatureDesc = (desc) => {
+    if (!desc) return null;
+    if (Array.isArray(desc)) {
+      return desc.map((item, i) => (
+        <span key={i} style={{ display: 'block', marginBottom: '8px' }}>
+          {item}
+        </span>
+      ));
+    }
+    return <span>{desc}</span>;
   };
 
   const sectionsToRender = data.featureSections && Array.isArray(data.featureSections) && data.featureSections.length > 0
@@ -47,12 +58,7 @@ const CustomSection = ({ slug }) => {
     </section>
   ) : null;
 
-  // Standard image dimensions for square images
-  const imageDimensions = {
-    width: 800,
-    height: 600,
-    aspectRatio: '4/3'
-  };
+ 
 
   return (
     <div className="containers">
@@ -72,15 +78,13 @@ const CustomSection = ({ slug }) => {
             <h2 className="featureTitle">
               {renderTextWithLineBreaks(sectionData.featuretitle)}
             </h2>
-            <p className="featureDesc">
-              {Array.isArray(sectionData.featuredesc) 
-                ? sectionData.featuredesc.map((desc, i) => (
-                    <span key={i}>
-                      {desc}
-                      {i < sectionData.featuredesc.length - 1 && <br />}
-                    </span>
-                  ))
-                : sectionData.featuredesc}
+            <p className="featureDesc" style={{ 
+              fontSize: '16px', 
+              lineHeight: '1.6',
+              color: '#495057',
+              marginBottom: '20px'
+            }}>
+              {renderFeatureDesc(sectionData.featuredesc)}
             </p>
             {sectionData.featurelink && (
               <a className="featureLink" href="#">
@@ -93,49 +97,27 @@ const CustomSection = ({ slug }) => {
         const image = (
           <div className="imageCard">
             <div className="imageWrapper">
-              <Image
+              <img
                 src={sectionData.dashboardImage}
                 alt={sectionData.imageAlt || "Section Image"}
-                width={imageDimensions.width}
-                height={imageDimensions.height}
                 style={{
                   width: '100%',
                   height: '100%',
-                  objectFit: 'contain',
-                  aspectRatio: imageDimensions.aspectRatio
+                  objectFit: 'cover',
+                  backgroundColor: '#f8f9fa',
                 }}
-                quality={100}
-                priority={index === 0}
               />
             </div>
           </div>
         );
 
-        // First row: image left, text right
-        if (index === 0) {
-          return (
-            <section key={index} className="featuresSection featuresSection--first">
-              {image}
-              {content}
-            </section>
-          );
-        }
-        
-        // Second row: text left, image right
-        if (index === 1) {
-          return (
-            <section key={index} className="featuresSection featuresSection--second">
-              {content}
-              {image}
-            </section>
-          );
-        }
-
-        // Third row: image left, text right
         return (
-          <section key={index} className="featuresSection featuresSection--third">
-            {image}
-            {content}
+          <section
+            key={index}
+            className={`featuresSection featuresSection--${index === 0 ? 'first' : index === 1 ? 'second' : 'third'}`}
+          >
+            {(index === 1) ? content : image}
+            {(index === 1) ? image : content}
           </section>
         );
       })}

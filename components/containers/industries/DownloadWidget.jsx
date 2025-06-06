@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useEffect } from "react";
 import Image from "next/image";
 import dynamic from 'next/dynamic';
+import { IoMdDownload } from "react-icons/io";
 
 // Dynamically import the popup to avoid SSR issues
 const DownloadFormPopup = dynamic(() => import('./DownloadFormPopup'), {
@@ -104,12 +105,12 @@ const DownloadWidget = ({ bgShape, image, title, spanTitle, buttonText }) => {
             height={300}
           />
         </figure>
-        <h4 style={{
+        {/* <h4 style={{
           textAlign: "left"
         }}>
           {title}
           <span style={{color: "var(--bs-primary-500)", fontSize: "16px", fontWeight: "600"}}>{spanTitle}</span>
-        </h4>
+        </h4> */}
         {downloadError && (
           <div className="alert alert-danger mb-3" role="alert" style={{ fontSize: '0.9rem' }}>
             {downloadError}
@@ -121,19 +122,22 @@ const DownloadWidget = ({ bgShape, image, title, spanTitle, buttonText }) => {
           style={{
             background: "linear-gradient(45deg, var(--bs-primary-500), var(--bs-primary-700))",
             color: "white",
-            border: "none",
-            padding: "10px 40px",
-            borderRadius: "50px",
+            border: "2px solid var(--bs-primary-50)",
+            padding: "10px 20px",
+            borderRadius: "5px",
             cursor: "pointer",
             transition: "all 0.3s ease",
             fontWeight: "500",
             position: "relative",
-            zIndex: 1
+            zIndex: 1,
+            width :"-webkit-fill-available",
+            
           }}
           onMouseOver={(e) => e.target.style.opacity = "0.9"}
           onMouseOut={(e) => e.target.style.opacity = "1"}
         >
-          {buttonText}
+          <IoMdDownload style={{ marginRight: 8, verticalAlign: 'middle' }} />
+          {spanTitle}
         </button>
       </div>
 

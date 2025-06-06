@@ -104,7 +104,7 @@
     overflow: hidden;
     box-shadow: 0 10px 20px #add8e680, 0 6px 6px #add8e6b3;
     text-align: center;
-    padding: 40px;
+    padding: 10px;
 
     .shape {
       position: absolute;
@@ -124,8 +124,10 @@
     }
     img {
       display: inline-block;
-      max-width: 100%;
+      // max-width: 100%;
       height: auto;
+      width: 100%;
+      border-radius: 10px;
       transition-delay: .1s;
       transition-timing-function: ease-in-out;
       transition-duration: .7s;

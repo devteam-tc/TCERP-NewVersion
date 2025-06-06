@@ -40,7 +40,7 @@ const VideoSection = ({ slug }) => {
   const { title, description, videoUrl } = data.videosection;
   
   // Add Cloudinary transformations for optimal playback
-  const cloudinaryUrl = `${videoUrl}?f_auto,q_auto,w_1280,c_scale`;
+  const cloudinaryUrl = `${videoUrl}?f_auto,q_auto,w_800,c_scale`;
 
   return (
     <section className="video-section">
@@ -49,17 +49,18 @@ const VideoSection = ({ slug }) => {
           <h2 className="video-section__title">{title}</h2>
           <p className="video-section__desc">{description}</p>
         </div>
-        <div className="video-section__video-wrapper">
+        <div className="video-section__video-wrapper" style={{ maxWidth: '800px', margin: '0 auto' }}>
           <video
             ref={videoRef}
             width="100%"
-            height="100%"
+            height="auto"
             muted
             loop
             playsInline
             controls
             preload="auto"
             className="video-section__video"
+            style={{ maxHeight: '450px', objectFit: 'contain' }}
             onPlay={handleVideoPlay}
             onPause={handleVideoPause}
           >
