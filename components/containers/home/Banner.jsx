@@ -44,10 +44,10 @@ const Banner = () => (
         {/* Rocket */}
         <div className="rocket-center">
           <Image 
-            src="/images/banner/icons/rocketfire.webp" 
+            src="/images/banner/icons/rocket.png" 
             alt="Rocket" 
-            width={380} 
-            height={250}
+            width={180} 
+            height={180}
             priority={true}
             quality={85}
             placeholder="blur"

@@ -8,22 +8,22 @@
     {
       "featuretitle": " Goods Receipt & Material Issue Note",
       "featuredesc": "Record incoming stock with ease using Goods Receipt, capturing quantities and supplier details automatically. When materials are needed for production or operations, use Material Issue Notes to deduct stock accurately. This ensures real-time updates and prevents stock mismatches across locations or departments.",
-      "featurelink": "Explore Lead Management",
-      "dashboardImage": "/images/modules/home-four-feature-01.png",
+      "featurelink": "Explore More",
+      "dashboardImage": "/images/modules/inventory/module-1.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Stock Adjustment",
       "featuredesc": "Maintain accurate inventory through periodic stock counts and adjustments. Whether it’s correcting discrepancies from physical audits or handling damaged goods, Tech Cloud ERP allows for real-time reconciliation of stock levels. Periodic verification and adjustment fosters optimized inventory management.",
      "featurelink": "Explore More",   
-        "dashboardImage": "/images/modules/home-four-feature-02.png",
+        "dashboardImage": "/images/modules/inventory/module-2.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Material Master Management",
       "featuredesc": "Manage all essential item data centrally  including specifications, pricing, reorder levels and categorization. With Tech Cloud ERP, Material Master Management simplifies procurement and tracking by providing a single source of truth for every material in your inventory system.",
      "featurelink": "Explore More",    
-       "dashboardImage": "/images/modules/home-four-feature-03.png",
+       "dashboardImage": "/images/modules/inventory/module-3.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],

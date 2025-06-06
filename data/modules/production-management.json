@@ -9,21 +9,21 @@
       "featuretitle": "Production Planning & Order Creation",
       "featuredesc": "Start your production process with a Planned Order based on demand forecasts or actual sales orders. Tech Cloud ERP converts these into actionable plans, helping you schedule resources and estimate material needs in advance. From there, create a detailed production order by defining the bill of materials (BOM), routing and operations. Once released, tasks are distributed to work centres for smooth executions",
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/home-four-feature-01.png",
+      "dashboardImage": "/images/modules/production/module-1.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Stage-Wise Operation Tracking",
       "featuredesc": "Monitor every phase of the production process with operation-level execution. As your products move through various stages like cutting, assembling or testing, the system records machine usage, labor hours and progress. This improves transparency and helps maintain high product quality while reducing wastage.",
      "featurelink": "Explore More", 
-          "dashboardImage": "/images/modules/home-four-feature-02.png",
+          "dashboardImage": "/images/modules/production/module-2.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": " Material Issue & Traceability",
       "featuredesc": "Easily issue raw materials or semi-finished goods to the shop floor using Goods Issue to Production. Every issue is logged against the respective production order to ensure material accuracy and full traceability supporting better inventory control and audit readiness.",
      "featurelink": "Explore More",     
-      "dashboardImage": "/images/modules/home-four-feature-03.png",
+      "dashboardImage": "/images/modules/production/module-3.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],

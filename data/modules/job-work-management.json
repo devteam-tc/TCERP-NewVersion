@@ -9,21 +9,21 @@
       "featuretitle": "JBW Orders Entry ",
       "featuredesc": "Begin your job work cycle by entering job work orders. This captures key details like items to be processed, job type, vendor details, and expected return dates laying the groundwork for tracking and execution.",
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/home-four-feature-01.png",
+      "dashboardImage": "/images/modules/jobwork/module-1.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "JBW Outstanding GRN",
       "featuredesc": "Keep track of materials sent to subcontractors but not yet returned. This helps monitor pending GRNs (Goods Receipt Notes), ensuring accurate material tracking and timely follow-up with vendors.",
      "featurelink": "Explore More",  
-         "dashboardImage": "/images/modules/home-four-feature-02.png",
+         "dashboardImage": "/images/modules/jobwork/module-2.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "JBW Supplier Invoice",
       "featuredesc": "Record and validate supplier invoices for completed job work. This ensures accurate financial posting, cost tracking, and smooth vendor settlement—directly linked to the job work order.",
      "featurelink": "Explore More",   
-        "dashboardImage": "/images/modules/home-four-feature-03.png",
+        "dashboardImage": "/images/modules/jobwork/module-3.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],

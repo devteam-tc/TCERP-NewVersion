@@ -9,21 +9,21 @@
       "featuretitle": "Purchase Requisition & Quotation Handling",
       "featuredesc": " Begin the procurement process by creating a Purchase Requisition (PR), where you specify the materials or services needed, required quantities and delivery dates. Once the PR is approved, send Requests for Quotation (RFQs) to suppliers, receive their offers and evaluate quotations based on price, quality and delivery terms.",
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/home-four-feature-01.png",
+      "dashboardImage": "/images/modules/purchase/module-1.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Purchase Order Creation & Goods Receipt",
       "featuredesc": " Convert approved quotations into formal Purchase Orders (POs) that define quantities, pricing, terms and delivery schedules. After the supplier delivers the goods or services, record the receipt against the PO. Match the supplier invoice with both the PO and Goods Receipt Note (GRN) to ensure accuracy before posting for payment.",
      "featurelink": "Explore More",    
-       "dashboardImage": "/images/modules/home-four-feature-02.png",
+       "dashboardImage": "/images/modules/purchase/module-2.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Vendor Data Management",
       "featuredesc": " Maintain a centralized vendor database with key information such as contact details, payment terms, tax IDs and compliance documents. This ensures smooth communication, faster procurement cycles and better vendor evaluation over time.",
      "featurelink": "Explore More",   
-        "dashboardImage": "/images/modules/home-four-feature-03.png",
+        "dashboardImage": "/images/modules/purchase/module-3.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],

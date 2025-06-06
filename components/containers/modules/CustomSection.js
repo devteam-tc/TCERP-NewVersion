@@ -96,15 +96,17 @@ const CustomSection = ({ slug }) => {
 
         const image = (
           <div className="imageCard">
-            <div className="imageWrapper">
+            <div className="imageWrappers">
               <img
                 src={sectionData.dashboardImage}
                 alt={sectionData.imageAlt || "Section Image"}
+                width={682}
+                height={450}
+                quality={100}
                 style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                  backgroundColor: '#f8f9fa',
+                  width: '682px',
+                  height: '450px',
+                  objectFit: 'contain',
                 }}
               />
             </div>

@@ -24,7 +24,7 @@ const Faq = ({ extraClassName = '' }) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <SectionTitle subTitle="Ask Question" title="Empowering Progress Through Technology" extraClass="mb-30" />
+            <SectionTitle subTitle="Frequently asked questions"  extraClass="mb-30" />
             <div className="faq-body">
               <div className="accordion">
                 {faq.map((item, index) => (

@@ -4,9 +4,9 @@ import introSection from "../../data/bi/intro-section.json";
 
 const BusinessSection = () => {
   return (
-    <section className="businessSection fix">
+    <section className="businessSection fix pt-60 pb-60">
       <div className="container">
-        <div className="sectionTitle mb-lg-4 mb-0 pb-lg-2">
+        <div className="section-title-block undefined mb-lg-4 mb-0 pb-lg-2 text-center mb-3">
           <h2 className="section-title title-anim undefined" data-wow-delay=".3s">
             {introSection.heading}
           </h2>
