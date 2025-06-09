@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Header from '../../../components/layout/header/Header';
 import PageHeader from '../../../components/layout/PageHeader';
 import { FaHome } from 'react-icons/fa';
+import { BsCheckCircle } from 'react-icons/bs';
 import WhyChooseUs from '../../../components/containers/locations/WhyChooseUs';
 import ContactForm from '../../../components/containers/locations/ContactForm';
 import Footer from '../../../components/layout/footer/Footer';
@@ -109,7 +110,10 @@ export default function LocationPage({ params }) {
             <h3>Key Features</h3>
             <ul>
               {location.features.map((feature, index) => (
-                <li key={index}>{feature}</li>
+                <li key={index}>
+                  <BsCheckCircle style={{ marginRight: '8px', color: '#ef5226' }} />
+                  {feature}
+                </li>
               ))}
             </ul>
           </div>

@@ -3,8 +3,8 @@ export const indiaPricingPlans = [
   {
     id: 1,
     title: "Basic",
-    description: "Per Member, Per Month.",
-    price: " ₹1500",
+    description: "Per User, Per Month.",
+    price: " ₹500",
     features: [
      
       "1–5 Essential Modules",
@@ -18,8 +18,8 @@ export const indiaPricingPlans = [
   {
     id: 2,
     title: "Enterprise",
-    description: "Per Member, Per Month.",
-    price: " ₹2000",
+    description: "Per User, Per Month.",
+    price: " ₹1500",
     features: [
        
       "1–15 Business Modules",
@@ -33,7 +33,7 @@ export const indiaPricingPlans = [
   {
     id: 3,
     title: "Ultimate",
-    description: "Per Member, Per Month.",
+    description: "Per User, Per Month.",
     price: "Talk to us",
     features: [ 
       "Industries Specific Modules",

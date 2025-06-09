@@ -22,14 +22,13 @@
 @use '../components/locations' as *;
 @use '../components/step-wise' as *;
 @use '../components/compare-plans' as *;
-@use '../components/faq-section' as *;
+// @use '../components/faq-section' as *;
+@use '../components/faq.scss' as *;
 @use '../components/business_card' as *;
 @use '../components/bi' as *;
 @use '../components/audit-section' as *;
 @use '../components/module' as * ;
 @use '../components/custom-section' as *;
 @use '../components/video-section' as * ;
-
-
 
 

@@ -137,7 +137,7 @@ const DownloadWidget = ({ bgShape, image, title, spanTitle, buttonText }) => {
           onMouseOut={(e) => e.target.style.opacity = "1"}
         >
           <IoMdDownload style={{ marginRight: 8, verticalAlign: 'middle' }} />
-          {spanTitle}
+          {buttonText}
         </button>
       </div>
 

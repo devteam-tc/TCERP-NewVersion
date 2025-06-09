@@ -75,6 +75,17 @@ const FAQSection = ({ service = 'web-development' }) => {
                         boxShadow: '0 0 10px rgba(0, 123, 255, 0.2)'
                       }
                     }}
+                    onMouseEnter={(e) => {
+                      if (activeIndex !== index) {
+                        e.currentTarget.style.border = '2px solid var(--bs-primary-color)';
+                      }
+                    }}
+                    onMouseLeave={(e) => {
+                      if (activeIndex !== index) {
+                        e.currentTarget.style.border = 'none';
+                        e.currentTarget.style.boxShadow = 'none';
+                      }
+                    }}
                     >
                       <div className="accordion-header">
                         <button

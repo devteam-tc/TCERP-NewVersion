@@ -9,14 +9,15 @@
   .project-information {
     background-color: var(--bs-white-color);
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 0 10px 20px #add8e680, 0 6px 6px #add8e6b3;
     max-width: 100%; // Fixes layout issues inside col-4
     width: 100%;
   
     .title {
-      font-weight: 500;
+      font-weight: 600;
       font-size: 24px;
+      border-radius: 5px;
       line-height: 30px;
       padding: 14px 20px;
       // border: 1px solid var(--bs-secondary-color);
@@ -31,10 +32,10 @@
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-        align-items: center;
+        align-items: start !important;
         padding: 14px 20px;
         background-color: var(--bs-secondary-20);
-        border-radius: 10px;
+        border-radius: 5px;
         border: 1px solid var(--bs-secondary-100);
 
   
@@ -61,13 +62,15 @@
 
   .project-description {
     .title {
-      margin-bottom: 20px;
-      margin-top: 20px;
+      margin-bottom: 10px;
+      margin-top: 10px;
       font-weight: 700;
     }
 
-    p+p {
-      margin-top: 20px;
+    p {
+      // margin-top: 10px;
+      font-size: 16px;
+      line-height: 26px;
     }
 
     .inner-options {
@@ -75,8 +78,8 @@
 
       ul {
         li {
-          font-weight: 500;
-          font-size: 18px;
+          font-size: 16px;
+          color: #000 !important;
           line-height: 30px;
 
           img {
@@ -100,7 +103,7 @@
     position: relative;
     display: block;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 10px 20px #add8e680, 0 6px 6px #add8e6b3;
     text-align: center;
@@ -120,14 +123,15 @@
     .image-box {
       position: relative;
       display: block;
-      margin-bottom: 21px;
+      margin-bottom: 10px;
     }
     img {
       display: inline-block;
       // max-width: 100%;
       height: auto;
       width: 100%;
-      border-radius: 10px;
+      border-radius: 5px;
+      border: 2px solid var(--bs-primary-50);
       transition-delay: .1s;
       transition-timing-function: ease-in-out;
       transition-duration: .7s;
@@ -148,7 +152,7 @@
   
     .demo-banner-link {
       display: inline-block;
-      border-radius: 15px;
+      border-radius: 5px;
       overflow: hidden;
       transition: transform 0.3s ease-in-out;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -182,74 +186,7 @@
     }
   }
 
-  .faq-section{
-    margin-top: 60px;
-    .faq-title {
-      font-size: 26px;
-      font-weight: 700;
-      // margin-bottom: 30px;
-      color: var(--bs-primary-500);
-  
-      @media (max-width: 576px) {
-        font-size: 20px;
-        // margin-bottom: 20px;
-      }
-    }
-    .faq-body {
-      .accordion-button:focus {
-        box-shadow: none;
-      }
-  
-      .accordion-item {
-        border: 0;
-        margin: 10px 0;
-        background-color: var(--bs-white-color) !important;
-        border-radius: 30px;
-        transition: all 0.3s ease;
-      }
-
-      
-  
-      .accordion-item+.accordion-item {
-        margin-top: 30px;
-      }
-  
-      .accordion-button:not(.collapsed) {
-        background-color: transparent;
-        box-shadow: none;
-      }
-  
-      .accordion-button {
-        color: var(--bs-black-color);
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 30px;
-        border-radius: 120px !important;
-
-        @media (max-width: 767.98px) {
-          font-size: 16px;
-          line-height: 24px;
-        }
-      }
-  
-      .accordion-body {
-        padding: 0 30px 30px 30px;
-      }
-  
-      .accordion-button::after {
-        background-image: url(../../images/icons/plus-solid.svg);
-        transition: none;
-        background-position: 0 0;
-      }
-  
-      .accordion-button:not(.collapsed)::after {
-        background-image: url(../../images/icons/dash-lg.svg);
-        background-position: 0 8px;
-      }
-  
-    }
-  }
-  
+ 
 }
 
 @media (max-width:1199.98px) {
@@ -267,7 +204,7 @@
 }
 .custom-banner-img {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 @media (max-width:991.98px) {
@@ -299,7 +236,7 @@
 
 .info-card {
   background: #fff;
-  border-radius: 14px;
+  border-radius: 5px;
   padding: 30px;
   box-shadow: 0 10px 20px rgba(173, 216, 230, 0.5019607843), 0 6px 6px rgba(173, 216, 230, 0.7019607843);
   transition: all 0.3s ease-in-out;
@@ -328,7 +265,9 @@
 
   .card-point{
     // font-style: italic;
-    font-weight: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000 !important;
   }
   p {
     color: var(--text-color);
@@ -342,9 +281,11 @@
       color: var(--text-color);
       
       img {
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         margin-right: 10px;
+        margin-top: 2px;
+
       }
     }
   }

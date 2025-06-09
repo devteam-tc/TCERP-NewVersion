@@ -484,7 +484,9 @@ const PricingFormPopup = ({
         <Modal.Header>
           <Modal.Title className="w-100 text-center">
             {!isAuthenticated ? 'Sign In & Details Required' : 'Select Modules & Customization'}
+            <h6 className="mb-4 text-center" style={{ fontWeight: '500', color: '#2c3e50' }}>Please fill in your details and sign in with Google to access our pricing plans</h6>
           </Modal.Title>
+          
         </Modal.Header>
         <Modal.Body>
           {!isAuthenticated ? (

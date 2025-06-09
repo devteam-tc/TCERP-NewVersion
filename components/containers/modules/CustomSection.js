@@ -100,12 +100,12 @@ const CustomSection = ({ slug }) => {
               <img
                 src={sectionData.dashboardImage}
                 alt={sectionData.imageAlt || "Section Image"}
-                width={682}
-                height={450}
+                width={600}
+                height={400}
                 quality={100}
                 style={{
-                  width: '682px',
-                  height: '450px',
+                  width: '100%',
+                  height: '100%',
                   objectFit: 'contain',
                 }}
               />

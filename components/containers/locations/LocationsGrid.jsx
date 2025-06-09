@@ -14,7 +14,7 @@ const locations = [
   {
     title: 'ERP in Coimbatore',
     image: '/images/contact/coimbatore.png',
-    description: 'We support Coimbatore’s textile and engineering firms with flexible ERP systems. Discover reliable manufacturing ERP software in India designed to boost compliance and efficiency.',
+    description: 'We support Coimbatore\'s textile and engineering firms with flexible ERP systems. Discover reliable manufacturing ERP software in India designed to boost compliance and efficiency.',
     link: '/locations/techcloud-erp-software-in-coimbatore',
   },    
   {
@@ -22,7 +22,7 @@ const locations = [
     image: '/images/contact/chennai.png',
     description: 'Our ERP in Chennai supports high-volume manufacturing and trading businesses with real-time visibility. Experience the best ERP software in India powered by advanced cloud-based ERP software in India.',
     link: '/locations/techcloud-erp-software-in-chennai',
-  }
+  } 
   
 ];
 
@@ -61,6 +61,7 @@ export default function LocationsGrid() {
               width={300}
               height={200}
               className="locations-page__card-image"
+              style={{ objectFit: 'cover' }}
             />
             <h3>{loc.title}</h3>
             <p>{loc.description}</p>

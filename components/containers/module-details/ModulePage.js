@@ -13,7 +13,7 @@ import VideoSection from '../modules/VideoSection';
 // import MultipleCardsSection from '../modules/MultipleCardsSection';
 import CtaSection from '../modules/CtaSection';
 import CustomSection from '../../containers/modules/CustomSection';
-
+import WorkProcessSection from '../../containers/modules/WorkProcessSection'
 const ModulePage = ({ params, slug }) => {
   const moduleSlug = params?.slug || slug;
   const moduleName = moduleSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
@@ -29,6 +29,7 @@ const ModulePage = ({ params, slug }) => {
       <Header />
       <PageHeader title={moduleName} breadcrumbs={breadcrumbs} />
       <CustomSection slug={moduleSlug} />
+      <WorkProcessSection slug={moduleSlug} />
       <VideoSection slug={moduleSlug} />
       {/* <MultipleCardsSection slug={moduleSlug} /> */}
       <FaqSection slug={moduleSlug} />
