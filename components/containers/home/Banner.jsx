@@ -29,7 +29,7 @@ const Banner = () => (
       <Link href="/demo" className="banner-demo-btn">Book a Demo</Link>
       <div className="rocket-visual">
         {/* Chart Cards */}
-        <div className="chart-card chart-top-left">
+        {/* <div className="chart-card chart-top-left">
           <Image src="/images/banner/Chart1.webp" alt="Chart 1" width={200} height={100} />
         </div>
         <div className="chart-card chart-top-right">
@@ -40,7 +40,7 @@ const Banner = () => (
         </div>
         <div className="chart-card chart-bottom-right">
           <Image src="/images/banner/Chart4.webp" alt="Chart 4" width={200} height={100} />
-        </div>
+        </div> */}
         {/* Rocket */}
         <div className="rocket-center">
           <Image 
@@ -61,7 +61,7 @@ const Banner = () => (
           />
         </div>
         {/* Floating Icons */}
-        {[1,2,3,4,5,6].map(num => {
+        {/* {[1,2,3,4,5,6].map(num => {
           let posClass = `icon-pos-${num}`;
           if (num === 2) posClass = 'icon-pos-5';
           else if (num === 5) posClass = 'icon-pos-2';
@@ -70,7 +70,7 @@ const Banner = () => (
               <Image src={`/images/banner/icons/icon${num}.png`} alt={`Icon ${num}`} width={70} height={70} />
             </div>
           );
-        })}
+        })} */}
       </div>
     </div>
   </section>
