@@ -566,6 +566,10 @@ p {
     font-size: 18px !important;
     font-weight: 600 !important;
     line-height: 36px !important;
+    @media screen and (max-width:992px) {
+      font-size: 16px !important;
+      line-height: 24px !important;
+    }
   }
 
   &:hover {
@@ -844,8 +848,8 @@ p {
 }
 @media (max-width:557.98px) {
   .section-title-block .section-title {
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 24px;
+    line-height: 35px;
   }
 
   .heading-style1 {

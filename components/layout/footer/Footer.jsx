@@ -35,7 +35,7 @@ const Footer = () => {
                             </div>
                             <h4 className="title">Address </h4>
                           </div>
-                          <p>Plot No. 241, 3rd Floor, VVG Elite Developers, Kavuri Hills, Madhapur, Hyderabad, Telangana - 500081.</p>
+                          <p>Plot No. 241, 3rd Floor, VVG Elite, Kavuri Hills, Madhapur, Hyderabad, Telangana - 500081.</p>
                         </li>
                         <li>
                           <div className="d-flex align-items-center gap-2">
@@ -94,7 +94,7 @@ const Footer = () => {
                 </div>
                 <div className="col-xl-3 col-lg-3 col-md-6">
                   <div className="footer-widget footer-links links-widget">
-                    <h4 className="footer-title">Services </h4>
+                    <h4 className="footer-title">Others</h4>
                     <ul className="list-unstyled">
                       <li><Link href="/services">All Services </Link></li>
                       <li><Link href="/services/web-development/">Web Development</Link></li>
@@ -123,7 +123,8 @@ const Footer = () => {
                   <div className="col-lg-4">
                     <div className="footer-menu text-center text-lg-end">
                       <ul className="list-unstyled">
-                        <li className="d-inline-block"><Link href="/terms-and-conditions">Terms & Conditions</Link></li>
+                        <li className="d-inline-block"><Link href="/terms-and-conditions">Terms & Conditions </Link></li>
+                        <li className="d-inline-block"><Link href="/terms-and-conditions">|</Link></li>
                         <li className="d-inline-block"><Link href="/privacypolicy">Privacy Policy</Link></li>
                       </ul>
                     </div>

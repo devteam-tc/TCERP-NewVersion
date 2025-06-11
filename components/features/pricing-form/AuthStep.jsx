@@ -124,14 +124,13 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
           />
           {isGoogleSignedIn ? 'Signed in with Google ✓' : 'Sign in with Google'}
         </Button>
-        <h6 className="mb-4">Please fill in your details and sign in with Google to access our pricing plans</h6>
       </div>
 
       <div className="basic-details">
         <Form>
           <Row className="g-2">
             <Col md={6}>
-              <Form.Group className="mb-0">
+              <Form.Group className="mb-3">
                 <Form.Label style={{ fontSize: '14px', marginBottom: '0' }}>First Name <span className="text-danger">*</span></Form.Label>
                 <Form.Control
                   type="text"
@@ -145,7 +144,7 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
               </Form.Group>
             </Col>
             <Col md={6}>
-              <Form.Group className="mb-0">
+              <Form.Group className="mb-3">
                 <Form.Label style={{ fontSize: '14px', marginBottom: '0' }}>Email</Form.Label>
                 <Form.Control
                   type="email"
@@ -158,7 +157,7 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
 
           <Row className="g-2">
             <Col md={6}>
-              <Form.Group className="mb-0">
+              <Form.Group className="mb-3">
                 <Form.Label style={{ fontSize: '14px', marginBottom: '0' }}>Company Name <span className="text-danger">*</span></Form.Label>
                 <Form.Control
                   type="text"
@@ -172,7 +171,7 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
               </Form.Group>
             </Col>
             <Col md={6}>
-              <Form.Group className="mb-0">
+              <Form.Group className="mb-3">
                 <Form.Label style={{ fontSize: '14px', marginBottom: '0' }}>Industry <span className="text-danger">*</span></Form.Label>
                 <Form.Select
                   name="industry"
@@ -204,7 +203,7 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
 
           <Row className="g-2">
             <Col md={6}>
-              <Form.Group className="mb-0">
+              <Form.Group className="mb-3">
                 <Form.Label style={{ fontSize: '14px', marginBottom: '0' }}>Phone Number <span className="text-danger">*</span></Form.Label>
                 <PhoneInput
                   country={'in'}
@@ -229,7 +228,7 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
             </Col>
           </Row>
 
-          <Form.Group className="mb-0">
+          <Form.Group className="mb-3">
             <Form.Label style={{ fontSize: '14px', marginBottom: '0' }}>Message</Form.Label>
             <Form.Control
               as="textarea"
@@ -254,14 +253,14 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
           {storingLead ? 'Saving Details...' : 'Proceed to Module Selection'}
         </Button>
         {(!isFormComplete || !isGoogleSignedIn) && (
-          <p className="text-muted mt-2">
-            {!isGoogleSignedIn ? 'Please sign in with Google first' : 
+          <p className="text-danger mt-2">
+            {!isGoogleSignedIn ? 'Please sign in with Google first!' : 
              !isFormComplete ? 'Please complete all required fields' : ''}
           </p>
         )}
       </div>
 
-      <style jsx>{`
+      <style jsx global>{`
         .auth-step {
           max-width: 800px;
           margin: 0 auto;
@@ -281,7 +280,6 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
           cursor: not-allowed;
         }
         .basic-details {
-          // background-color: #f8f9fa;
           padding: 20px;
           border-radius: 8px;
           margin-top: 20px;
@@ -309,6 +307,36 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
         }
         .basic-details label {
           margin-bottom: 0 !important;
+        }
+        .form-control::placeholder {
+          color: #919191 !important;
+        }
+        .form-control::-webkit-input-placeholder {
+          color: #919191 !important;
+        }
+        .form-control:-moz-placeholder {
+          color: #919191 !important;
+        }
+        .form-control::-moz-placeholder {
+          color: #919191 !important;
+        }
+        .form-control:-ms-input-placeholder {
+          color: #919191 !important;
+        }
+        .form-select::placeholder {
+          color: #919191 !important;
+        }
+        .form-select::-webkit-input-placeholder {
+          color: #919191 !important;
+        }
+        .form-select:-moz-placeholder {
+          color: #919191 !important;
+        }
+        .form-select::-moz-placeholder {
+          color: #919191 !important;
+        }
+        .form-select:-ms-input-placeholder {
+          color: #919191 !important;
         }
       `}</style>
     </div>

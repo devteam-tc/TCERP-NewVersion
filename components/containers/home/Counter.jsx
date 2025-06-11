@@ -1,3 +1,5 @@
+"use client"
+
 import counterImg from '../../../public/images/img/counter-img.webp';
 import OdometerCounter from '../Odometer';
 import Image from 'next/image';
@@ -17,32 +19,32 @@ const Counter = () => {
               </p>
               <div className="counter-wrapper">
                 <div className="row g-4">
-                  <div data-aos-duration="800" data-aos="fade-up" className="col-sm-6">
-                    <div className="counter-item text-center rounded-20">
+                  <div data-aos-duration="800" data-aos="fade-up" className="col-6">
+                    <div className="counter-item text-center rounded-20 h-100">
                       <div className="number">
                         <OdometerCounter value={25} /> +
                       </div>
                       <span className="short-info">Experience</span>
                     </div>
                   </div>
-                  <div data-aos-duration="800" data-aos="fade-up" data-aos-delay="200" className="col-sm-6">
-                    <div className="counter-item text-center rounded-20">
+                  <div data-aos-duration="800" data-aos="fade-up" data-aos-delay="200" className="col-6">
+                    <div className="counter-item text-center rounded-20 h-100">
                       <div className="number">
                         <OdometerCounter value={2000} /> +
                       </div>
                       <span className="short-info">Happy Clients</span>
                     </div>
                   </div>
-                  <div data-aos-duration="800" data-aos="fade-up" data-aos-delay="300" className="col-sm-6">
-                    <div className="counter-item text-center rounded-20">
+                  <div data-aos-duration="800" data-aos="fade-up" data-aos-delay="300" className="col-6">
+                    <div className="counter-item text-center rounded-20 h-100">
                       <div className="number">
                         <OdometerCounter value={10000} /> +
                       </div>
                       <span className="short-info">Users</span>
                     </div>
                   </div>
-                  <div data-aos-duration="800" data-aos="fade-up" data-aos-delay="500" className="col-sm-6">
-                    <div className="counter-item text-center rounded-20">
+                  <div data-aos-duration="800" data-aos="fade-up" data-aos-delay="500" className="col-6">
+                    <div className="counter-item text-center rounded-20 h-100">
                       <div className="number">
                         <OdometerCounter value={38000} /> +
                       </div>
@@ -75,5 +77,6 @@ const Counter = () => {
     </section>
   );
 };
+
 
 export default Counter;

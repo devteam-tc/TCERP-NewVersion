@@ -1,5 +1,5 @@
 {
-  "banner": "/images/industries/construction_banner_img.jpg",
+  "banner": "/images/industries/construction_banner_img.webp",
   "title": "Construction Industry",
   "description": "Streamline your entire project lifecycle with intelligent construction ERP software built specifically for the construction and infrastructure industry. From tendering and budgeting to site execution and billing, a fully integrated ERP software for builders helps you centralize operations, track real-time costs, and boost collaboration across teams and contractors. Designed for agility and accuracy, the ERP system in construction empowers you to deliver projects on time and within budget.",
   "keyPoints": [
@@ -68,6 +68,6 @@
     "image": "/images/industry-icons/book-3.png",
    "title": " ",
     "spanTitle": "Construction Industry Guide",
-    "buttonText": "Download Now"
+    "buttonText": "Download Brochure"
   }
 } 

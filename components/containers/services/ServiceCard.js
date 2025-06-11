@@ -81,7 +81,6 @@ const ServiceCard = () => {
           <div className="col-lg-7">
              <div className="feature-text">
               <SectionTitle subTitle=" OUR FEATURED PROJECTS" title="Selected case studies" />
-               
             </div>
            </div>
         </div>

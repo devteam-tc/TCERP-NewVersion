@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 const ProjectBanner = ({ banner }) => (
-  <div className="project-banner-image position-relative mb-4 mb-lg-0">
-    <div className="reveal zoom-out overflow-hidden rounded-20">
+  <div className="project-banner-image position-relative mb-4 mb-lg-0 mt-4">
+    <div className="reveal zoom-out overflow-hidden">
       <Image
         priority
         src={banner}

@@ -36,7 +36,7 @@
 .download-form-popup .modal-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #020842;
+  color: var(--bs-primary-500);
   margin: 0;
 }
 
@@ -67,9 +67,15 @@
 }
 
 .proceed-btn {
-  min-width: 200px;
-  padding: 10px 30px;
-  border-radius: 50px;
+  background: linear-gradient(100.25deg, #EF5226 -9.47%, #892F16 113.92%);
+  border-color: #ef5226;
+  padding: 8px 12px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  display: block;
+  margin: auto;
 }
 
 .proceed-btn:disabled {
@@ -144,3 +150,6 @@
 .badge.bg-success {
   background-color: #28a745 !important;
 } 
+.form-control::placeholder {
+  color: #919191 !important;
+}

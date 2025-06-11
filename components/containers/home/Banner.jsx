@@ -25,11 +25,11 @@ const Banner = () => (
       <p className="banner-subtitle">
         Empower your business with Tech Cloud ERP, a scalable cloud-based ERP software that streamlines operations, boosts productivity and fuels growth.
       </p>
-      <p className='mb-5' style={{  color: '#ef5226' , fontWeight: '600' }} >We don’t just sell software, we power your business at rocket speed.</p>
+      <p className='mb-5' style={{  color: '#ef5226' , fontWeight: '600' }} >WE DON'T JUST SELL SOFTWARE, WE POWER YOUR BUSINESS AT ROCKET SPEED.</p>
       <Link href="/demo" className="banner-demo-btn">Book a Demo</Link>
       <div className="rocket-visual">
         {/* Chart Cards */}
-        {/* <div className="chart-card chart-top-left">
+        <div className="chart-card chart-top-left">
           <Image src="/images/banner/Chart1.webp" alt="Chart 1" width={200} height={100} />
         </div>
         <div className="chart-card chart-top-right">
@@ -40,14 +40,14 @@ const Banner = () => (
         </div>
         <div className="chart-card chart-bottom-right">
           <Image src="/images/banner/Chart4.webp" alt="Chart 4" width={200} height={100} />
-        </div> */}
+        </div>
         {/* Rocket */}
         <div className="rocket-center">
           <Image 
             src="/images/banner/icons/rocket_ignite.gif" 
             alt="Rocket" 
-            width={380} 
-            height={250}
+            width={180} 
+            height={180}
             priority={true}
             quality={85}
             placeholder="blur"
@@ -61,7 +61,7 @@ const Banner = () => (
           />
         </div>
         {/* Floating Icons */}
-        {/* {[1,2,3,4,5,6].map(num => {
+        {[1,2,3,4,5,6].map(num => {
           let posClass = `icon-pos-${num}`;
           if (num === 2) posClass = 'icon-pos-5';
           else if (num === 5) posClass = 'icon-pos-2';
@@ -70,7 +70,7 @@ const Banner = () => (
               <Image src={`/images/banner/icons/icon${num}.png`} alt={`Icon ${num}`} width={70} height={70} />
             </div>
           );
-        })} */}
+        })}
       </div>
     </div>
   </section>

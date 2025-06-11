@@ -21,7 +21,7 @@ const InfoCards = ({ infoCards }) => (
               }}
             />
           </div>
-          <h4 className="mb-2">{card.title}</h4>
+          <h4 >{card.title}</h4>
           {card.description && (
             <p>{card.description}</p>
           )}

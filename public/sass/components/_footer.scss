@@ -5,7 +5,7 @@
 .ep-footer-section {
   .footer-bg {
     // padding: 120px 0 30px 0;
-    padding: 10px 0 30px 0;
+    // padding: 10px 0 30px 0;
     // background-color: var(--bs-black-color);
     background-color: var(--bs-secondary-20);
     // background-image: url('../../images/bg/footer-bg-1.svg');
@@ -76,6 +76,7 @@
             // color: var(--bs-white-color);
             color: var(--bs-Text-Dark-Color);
             // opacity: 0.8;
+            font-size: 15px;
             padding-right: 20px;
           }
         }
@@ -101,6 +102,7 @@
 
               p {
                 text-align: left !important;
+                font-size: 15px;
                 color: var(--bs-Text-Dark-Color);
               }
 
@@ -207,11 +209,12 @@
     .footer-bottom {
       // border-top: 1px solid rgba(255, 255, 255, 0.3);
       border-top: 1px solid #ccc;
-      margin-top: 80px;
-      padding-top: 30px;
+      margin-top: 30px;
+      // padding-top: 30px;
       .footer-copyright {
         p {
           color: var(--bs-Text-Dark-Color);
+          font-size: 15px;
           // opacity: 0.8;
         }
       }

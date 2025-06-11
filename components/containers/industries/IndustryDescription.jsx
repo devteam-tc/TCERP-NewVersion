@@ -12,8 +12,8 @@ const ProjectDescription = ({ title, description, keyPoints }) => (
           <Image 
           src={cloudIcon} 
           alt={`Bullet point arrow for ${point}`}
-          width={30}
-          height={30}
+          width={20}
+          height={20}
         />
           </div>
           <li key={index}>

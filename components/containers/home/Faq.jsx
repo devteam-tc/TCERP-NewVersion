@@ -20,11 +20,11 @@ const Faq = ({ extraClassName = '' }) => {
   const currentIcon = extraClassName.includes('style2') ? groupIcon2 : groupIcon;
 
   return (
-    <section className={`ep-faq-section pt-120 ${extraClassName}`}>
+    <section className="faq-section">
       <div className="container">
-        <div className="row">
+        <div className="row align-items-center">
           <div className="col-lg-6">
-            <SectionTitle subTitle="Ask Question" title="Empowering Progress Through Technology" extraClass="mb-30" />
+          <h2 className="faq-title">Frequently Asked Questions</h2>
             <div className="faq-body">
               <div className="accordion">
                 {faq.map((item, index) => (
@@ -39,6 +39,17 @@ const Faq = ({ extraClassName = '' }) => {
                     ':hover': {
                       border: '2px solid var(--bs-primary-color)',
                       boxShadow: '0 0 10px rgba(0, 123, 255, 0.2)'
+                    }
+                  }}
+                  onMouseEnter={(e) => {
+                    if (activeIndex !== index) {
+                      e.currentTarget.style.border = '2px solid var(--bs-primary-color)';
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (activeIndex !== index) {
+                      e.currentTarget.style.border = 'none';
+                      e.currentTarget.style.boxShadow = 'none';
                     }
                   }}
                   >

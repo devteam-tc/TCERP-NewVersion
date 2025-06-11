@@ -1,5 +1,5 @@
 {
-  "banner": "/images/banner/agriculture_banner_img.webp",
+  "banner": "/images/industries/agriculture_banner_img.webp",
   "title": "Agriculture Industry",
   "description": "We offer full featured farm ERP that is tailor made for the modern agriculture enterprise to ease your operations from the field to the market. Our farm software also assists with crop planning and tracking, all while eliminating hassle and increasing productivity and profits. Whether you're managing a single farm, managing a large operation our farm management system and agriculture software provide the tools needed for smarter farming decisions.",
   "keyPoints": [
@@ -32,23 +32,19 @@
     }
   ],
   "faqData": [
+    
     {
       "id": 1,
-      "question": "What is Tech Cloud ERP for the agriculture industry?",
-      "answer": "It’s a cloud-based ERP solution designed to streamline agriculture operations including farm activities, inventory, labor and production analytics."
-    },
-    {
-      "id": 2,
       "question": "How does Tech Cloud ERP improve agricultural productivity?",
       "answer": "By automating workflows, providing real-time data and managing resources efficiently, it helps maximize yield and minimize wastage."
     },
     {
-      "id": 3,
+      "id": 2,
       "question": "Is the ERP system customizable for different crops or seasons?",
       "answer": "Yes, Tech Cloud ERP is fully customizable to support varied crops, seasonal planning and regional agricultural needs."
     },
     {
-      "id": 4,
+      "id": 3,
       "question": "Can I track agricultural operations remotely?",
       "answer": "Absolutely. Our cloud-based system allows farm owners and managers to monitor operations and data from anywhere, in real time."
     }
@@ -71,7 +67,7 @@
     "image": "/images/industry-icons/book-3.png",
     "title": "",
     "spanTitle": "Agriculture Solutions Brochure",
-    "buttonText": "Download Now"
+    "buttonText": "Download Brochure"
 
   }
 } 

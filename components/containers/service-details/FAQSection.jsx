@@ -40,7 +40,7 @@ const FAQSection = ({ service = 'web-development' }) => {
               <div className="content-box mr_100">
                 <div className="sec-title pb-30">
                   {/* <span className="sub-title mb_10 mb-2">The Process</span> */}
-                  <h2 className='section-title title-anim undefined'>How it Works</h2>
+                  <h2 className='section-title title-anim undefined'>How it Works?</h2>
                 </div>
                 <div className="inner-box">
                   {process.map((item) => (
@@ -73,6 +73,17 @@ const FAQSection = ({ service = 'web-development' }) => {
                       ':hover': {
                         border: '2px solid var(--bs-primary-color)',
                         boxShadow: '0 0 10px rgba(0, 123, 255, 0.2)'
+                      }
+                    }}
+                    onMouseEnter={(e) => {
+                      if (activeIndex !== index) {
+                        e.currentTarget.style.border = '2px solid var(--bs-primary-color)';
+                      }
+                    }}
+                    onMouseLeave={(e) => {
+                      if (activeIndex !== index) {
+                        e.currentTarget.style.border = 'none';
+                        e.currentTarget.style.boxShadow = 'none';
                       }
                     }}
                     >

@@ -73,7 +73,7 @@ const UniqueFeatures = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6">
              <div className="text-center">
-               <SectionTitle subTitle="Quiety Featured" title="Enjoy some exclusive features" extraClass="mb-30" />
+               <SectionTitle subTitle="Our Features" title="Essential Features Designed for Real Needs" extraClass="mb-30" />
              </div>
           </div>
         </div>

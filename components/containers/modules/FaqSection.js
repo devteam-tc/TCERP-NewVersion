@@ -27,15 +27,10 @@ const FaqSection = ({ slug, extraClassName = '' }) => {
   }
 
   return (
-    <section className={`ep-faq-section pt-60 pb-60 ${extraClassName}`}>
+    <section className="faq-section">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            {/* <SectionTitle 
-              subTitle={data.faqs.subTitle || "Ask Question"} 
-              title={data.faqs.title || "Empowering Progress Through Technology"} 
-              extraClass="mb-30" 
-            /> */}
                   <h2 className="faq-title">Frequently Asked Questions</h2>
             <div className="faq-body">
               <div className="accordion">
@@ -51,6 +46,17 @@ const FaqSection = ({ slug, extraClassName = '' }) => {
                     ':hover': {
                       border: '2px solid var(--bs-primary-color)',
                       boxShadow: '0 0 10px rgba(0, 123, 255, 0.2)'
+                    }
+                  }}
+                  onMouseEnter={(e) => {
+                    if (activeIndex !== index) {
+                      e.currentTarget.style.border = '2px solid var(--bs-primary-color)';
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (activeIndex !== index) {
+                      e.currentTarget.style.border = 'none';
+                      e.currentTarget.style.boxShadow = 'none';
                     }
                   }}
                   >

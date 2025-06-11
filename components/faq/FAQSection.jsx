@@ -46,7 +46,7 @@ const FAQSection = ({ customData }) => {
   }, []);
 
   return (
-    <section className="faq-section pt-120 pb-120">
+    <section className="faq-section ">
       <div className="container">
         <div className="row justify-content-center">
           <SectionHeader title={data.title} subtitle={data.subtitle} />

@@ -224,6 +224,8 @@
     border-radius: var(--sds-size-radius-200);
     border: var(--sds-size-stroke-border) solid var(--sds-color-border-default-default);
     background: linear-gradient(194deg, #F7FCFE 2.06%, #FDF5F2 102.74%);
+
+    
   }
 
   .modal-header {
@@ -355,12 +357,13 @@
   }
 
   .btn-primary {
-    background-color: #ef5226;
+    background: linear-gradient(100.25deg, #EF5226 -9.47%, #892F16 113.92%);
     border-color: #ef5226;
-    padding: 0.75rem 1.5rem;
+    padding: 8px 12px;
     font-weight: 500;
     border-radius: 8px;
     transition: all 0.3s ease;
+    font-size: 20px;
 
     &:hover {
       background-color: darken(#ef5226, 10%);

@@ -25,7 +25,7 @@ const Testimonial = () => {
               </div>
               <div className="call-us">
                 <a
-                  href="tel:(704)555-0127"
+                  href="tel:+918919439603"
                   className="call-us-btn style2 d-flex align-items-center gap-3"
                 >
                   <span className="icon d-flex justify-content-center align-items-center">
@@ -71,13 +71,7 @@ const Testimonial = () => {
                       </div>
                       <div className="user-info d-flex align-items-center justify-content-between gap-4">
                         <div className="user d-flex align-items-center">
-                          <div className="img overflow-hidden rounded-pill flex-shrink-0">
-                            {/* <Image
-                              src={testimonial.img}
-                              alt={testimonial.name}
-                              className="w-100 h-100 object-fit-cover"
-                            /> */}
-                          </div>
+                          
                           <div className="text">
                             <h4 className="name">{testimonial.name}</h4>
                             <p className="designation">{testimonial.designation}</p>

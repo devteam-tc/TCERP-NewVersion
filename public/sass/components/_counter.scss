@@ -31,9 +31,9 @@
           color: var(--bs-paragraph-color);
         }
 
-        &:hover {
-          border-color: var(--bs-primary-color);
-        }
+        // &:hover {
+        //   border-color: var(--bs-primary-color);
+        // }
       }
     }
   }
@@ -99,6 +99,11 @@
   .ep-counter-section .counter-image {
     max-width: 100%;
   }
+  .ep-counter-section .counter-text .counter-wrapper .counter-item .number {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
 }
 
 @media (max-width: 767.98px) {
@@ -109,8 +114,8 @@
 
 @media (max-width: 575.98px) {
   .ep-counter-section .heading-style1 {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 25px;
+    line-height: 35px;
   }
 
   .ep-counter-section .section-title-block {
