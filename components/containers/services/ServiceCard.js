@@ -80,7 +80,7 @@ const ServiceCard = () => {
         <div className="row mb-xl-5 mb-4 text-center justify-content-center">
           <div className="col-lg-7">
              <div className="feature-text">
-              <SectionTitle subTitle=" OUR FEATURED PROJECTS" title="Selected case studies" />
+              <SectionTitle subTitle=" OUR FEATURED PROJECTS" title="Services We Provide" />
             </div>
            </div>
         </div>
@@ -108,11 +108,11 @@ const ServiceCard = () => {
                     <div className="box">
                       <div className="serialInner">
                         <span className="serial">{service.serial}</span>
-                        <h4 className="black">
-                          <Link href={service.link} className="black">{service.title}</Link>
+                        <h4 className="serialblack">
+                          <Link href={service.link} className="serialblack">{service.title}</Link>
                         </h4>
                       </div>
-                      <p className="pra fs-seven mb-xxl-4 mb-xl-3 mb-2 pb-xxl-1">
+                      <p className="pra fs-seven ">
                         {service.description}
                       </p>
                       <Link href={service.link} className="fs-seven fw-semibold p1-clr">Explore More</Link>

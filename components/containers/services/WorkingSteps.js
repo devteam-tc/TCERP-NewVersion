@@ -11,20 +11,20 @@ const WorkingSteps = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="feature-text section-title text-center">
-              <SectionTitle subTitle="work process" title="WORKS IN 4 EASY STEPS" />
-               
-            </div>
+                <SectionTitle subTitle="work process" title="WORKS IN 4 EASY STEPS" />
+              </div>
             </div>
           </div>
           <div className="row">
-          <div className="col-lg-3 col-md-6 col-sm-6">
-              <div className="working-process-box  card-1 after-transprent">
+            <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="working-process-box card-1 after-transprent">
                 <div className="process-thumb">
                   <Image
                     src="/images/services/process-1.png"
                     alt="Process 1"
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
+                    style={{ width: '100%', height: '100%', objectFit: 'contain' }}
                     layout="responsive"
                   />
                   <div className="process-number">
@@ -32,7 +32,7 @@ const WorkingSteps = () => {
                   </div>
                 </div>
                 <div className="process-content">
-                  <h4>Discussion & Planning</h4>
+                  <h4 className='mt-2'>Discussion & Planning</h4>
                   <p>We start with in-depth discussions to understand your goals, target audience and market needs, then develop a plan that is unique to your business vision.</p>
                 </div>
               </div>
@@ -43,8 +43,9 @@ const WorkingSteps = () => {
                   <Image
                     src="/images/services/process-2.png"
                     alt="Process 2"
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
+                    style={{ width: '100%', height: '100%', objectFit: 'contain' }}
                     layout="responsive"
                   />
                   <div className="process-number">
@@ -52,7 +53,7 @@ const WorkingSteps = () => {
                   </div>
                 </div>
                 <div className="process-content">
-                  <h4>Strategy & Design </h4>
+                  <h4 className='mt-2'>Strategy & Design</h4>
                   <p>Based on research, we create a strategy and create intuitive designs that match your brand while providing a smooth user experience.</p>
                 </div>
               </div>
@@ -62,9 +63,10 @@ const WorkingSteps = () => {
                 <div className="process-thumb">
                   <Image
                     src="/images/services/process-3.png"
-                    alt="Process 2"
-                    width={100}
-                    height={100}
+                    alt="Process 3"
+                    width={200}
+                    height={200}
+                    style={{ width: '100%', height: '100%', objectFit: 'contain' }}
                     layout="responsive"
                   />
                   <div className="process-number">
@@ -72,10 +74,8 @@ const WorkingSteps = () => {
                   </div>
                 </div>
                 <div className="process-content">
-                  <h4>Build & Optimize
-                  </h4>
-                  <p>Our team of experts use the latest technologies to create your solution, which is constantly optimised for speed, SEO and performance.
-                  </p>
+                  <h4 className='mt-2'>Build & Optimize</h4>
+                  <p>Our team of experts use the latest technologies to create your solution, which is constantly optimised for speed, SEO and performance.</p>
                 </div>
               </div>
             </div>
@@ -84,9 +84,10 @@ const WorkingSteps = () => {
                 <div className="process-thumb">
                   <Image
                     src="/images/services/process-4.jpg"
-                    alt="Process 2"
-                    width={100}
-                    height={100}
+                    alt="Process 4"
+                    width={200}
+                    height={200}
+                    style={{ width: '100%', height: '100%', objectFit: 'contain' }}
                     layout="responsive"
                   />
                   <div className="process-number">
@@ -94,15 +95,12 @@ const WorkingSteps = () => {
                   </div>
                 </div>
                 <div className="process-content">
-                  <h4>Launch & Support
-                  </h4>
-                  <p>We implement the final solution, monitor performance and offer post-launch support to ensure that your platform runs properly.
-                  </p>
+                  <h4 className='mt-2'>Launch & Support</h4>
+                  <p>We implement the final solution, monitor performance and offer post-launch support to ensure that your platform runs properly.</p>
                 </div>
               </div>
             </div>
           </div>
-           
         </div>
       </div>
     </section>

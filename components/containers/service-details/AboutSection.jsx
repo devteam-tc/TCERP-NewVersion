@@ -34,15 +34,14 @@ const AboutSection = ({ slug }) => {
           {/* Content Column */}
           <div className="col-xl-5 col-lg-7">
             <div className="about-content">
-              {/* Section Title */}
               <div className="section-title text-lg-start text-center mb-4">
-                <span className="sub-badge p1-clr fw-semibold fs-seven text-uppercase d-block mb-3">
+                <span className="sub-badge p1-clr fw-semibold fs-seven text-uppercase d-block">
                   {about.subtitle}
                 </span>
-                <h2 className="mb-xxl-4 mb-3 wow fadeInUp black fw-bold visible-slowly-right" data-wow-delay=".3s">
+                <h2 className="wow fadeInUp black fw-bold visible-slowly-right" data-wow-delay=".3s">
                   {about.heading}
                 </h2>
-                <p className="pra fs-seven">{about.paragraph}</p>
+                <p className="pra fs-seven" style={{ fontSize: '20px !important' }}>{about.paragraph}</p>
               </div>
 
               {/* Features List */}
@@ -52,7 +51,7 @@ const AboutSection = ({ slug }) => {
                     <span className="icon d-center">
                       <FaCheck className="p1-clr" size={16} />
                     </span>
-                    <p className="fw-semibold black">{item}</p>
+                    <p className="fw-semibold black" style={{ fontSize: '20px !important' }}>{item}</p>
                   </li>
                 ))}
               </ul>
@@ -65,17 +64,27 @@ const AboutSection = ({ slug }) => {
               <Image 
                 src={about.imageMain}
                 alt="about"
-                width={600}
+                width={500}
                 height={500}
                 className="w-100"
                 priority
+                style={{
+                  width: '500px',
+                  height: '500px',
+                  objectFit: 'contain'
+                }}
               />
               <Image 
                 src={about.imageDecor}
                 alt="dots"
-                width={150}
-                height={150}
+                width={500}
+                height={500}
                 className="about-ele"
+                style={{
+                  width: '500px',
+                  height: '500px',
+                  objectFit: 'contain'
+                }}
               />
             </div>
           </div>

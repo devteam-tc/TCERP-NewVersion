@@ -29,11 +29,11 @@ const BusinessSection = () => {
                       <Image 
                         src={item.img} 
                         alt="image"
-                        width={60} 
-                        height={60} 
+                        width={40} 
+                        height={40} 
                         style={{
-                          width: '60px',
-                          height: '60px',
+                          width: '40px',
+                          height: '40px',
                           objectFit: 'contain'
                         }}
                       />

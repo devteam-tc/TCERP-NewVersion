@@ -481,12 +481,16 @@ const PricingFormPopup = ({
         className="pricing-form-popup"
         size="xl"
       >
-        <Modal.Header>
+        <Modal.Header className='mt-5'>
           <Modal.Title className="w-100 text-center">
-            {!isAuthenticated ? 'Sign In & Details Required' : 'Select Modules & Customization'}
-            <h6 className="mb-4 text-center" style={{ fontWeight: '500', color: '#2c3e50' }}>Please fill in your details and sign in with Google to access our pricing plans</h6>
+            {!isAuthenticated ? 'Sign In & Details Required' : 'Select Modules & Users'}
+            <h6 className="mb-2 text-center" style={{ fontWeight: '500', color: '#2c3e50' }}>
+              {!isAuthenticated 
+                ? 'Please sign in with Google to access our pricing plans and get started with your ERP journey'
+                : ''
+              }
+            </h6>
           </Modal.Title>
-          
         </Modal.Header>
         <Modal.Body>
           {!isAuthenticated ? (

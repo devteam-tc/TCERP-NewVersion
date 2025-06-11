@@ -22,13 +22,13 @@ export const CUSTOMIZATION_LEVELS = [
   { level: 1, name: 'Level 1 - Basic Customization', percentage: 10 },
   { level: 2, name: 'Level 2 - Standard Customization', percentage: 20 },
   { level: 3, name: 'Level 3 - Advanced Customization', percentage: 30 },
-  { level: 4, name: 'Level 4 - Premium Customization', percentage: 40 },
-  { level: 5, name: 'Level 5 - Enterprise Customization', percentage: 50 }
+
 ];
 
 export const CURRENCY_SYMBOLS = {
-  USD: '$',
-  INR: '₹'
+   INR: '₹',
+  USD: '$'
+ 
 };
 
 export const INDUSTRIES = [
