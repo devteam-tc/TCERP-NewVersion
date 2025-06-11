@@ -429,7 +429,7 @@
 
 // download
 .download-section.alternat-2 {
-    background: #EFF2E6;
+    background: var(--bs-secondary-50);
 }
 .download-section {
     position: relative;
@@ -660,9 +660,9 @@ img {
       .service-content {
         .service-title {
           font-size: 22px;
-          color: $s-text-color;
-          font-weight: 600;
-          font-family: $s-heading-font;
+          // color: #000 !important;
+          font-weight: 500;
+          // font-family: $s-heading-font;
           line-height: 30px;
           margin: 0;
           transition: 0.5s;

@@ -240,7 +240,7 @@ p {
 
   .section-sub-title {
     color: var(--bs-primary-color);
-    margin-bottom: 10px;
+    // margin-bottom: 10px;
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
@@ -1241,9 +1241,11 @@ p {
 }
 .auto-container {
   position: static;
-  max-width: 1320px;
-  padding: 0 15px;
+  max-width: 1020px;
+  // padding: 0 15px;
   margin: 0 auto;
+  border-radius: 10px;
+  border: 2px solid var(--bs-primary-100);
 }
 
 .page-title {

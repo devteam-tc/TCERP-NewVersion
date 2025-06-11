@@ -112,7 +112,7 @@ const AuthStep = ({ onGoogleSignIn, formData, handleChange, handlePhoneChange, o
         <Button 
           variant="light" 
           onClick={handleGoogleSignIn}
-          className="google-signin-btn w-100 mb-4"
+          className="google-signin-btn w-100"
           disabled={storingLead}
         >
           <img 

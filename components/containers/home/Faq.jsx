@@ -73,7 +73,7 @@ const Faq = ({ extraClassName = '' }) => {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="faq-images">
+            <div className="faq-images pt-120 pb-120">
               <div className="row g-4">
                 <div
                   data-aos-duration="800"

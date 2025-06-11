@@ -1,7 +1,8 @@
 import React from 'react';
-import { FaHandshake, FaEnvelope, FaPhone, FaHome } from 'react-icons/fa';
+import {  FaEnvelope, FaHome, FaPhoneAlt } from 'react-icons/fa';
 import { useRouter } from 'next/navigation';
 import './ThankYouPage.scss';
+import { FaRegCircleCheck } from "react-icons/fa6";
 
 const ThankYouPage = () => {
   const router = useRouter();
@@ -10,7 +11,7 @@ const ThankYouPage = () => {
     <div className="thank-you-page">
       <div className="thank-you-content">
         <div className="icon-container">
-          <FaHandshake className="thank-you-icon" />
+          <FaRegCircleCheck   className="thank-you-icon" />
         </div>
         
         <h1>Thank You for Choosing Tech Cloud ERP!</h1>
@@ -25,11 +26,11 @@ const ThankYouPage = () => {
             </a>
             <div className="phone-numbers">
               <a href="tel:+918919439603" className="contact-link">
-                <FaPhone className="contact-icon" />
+                <FaPhoneAlt className="contact-icon" />
                 +91 8919439603
               </a>
               <a href="tel:+917032803200" className="contact-link">
-                <FaPhone className="contact-icon" />
+                <FaPhoneAlt className="contact-icon" />
                 +91 7032803200
               </a>
             </div>
@@ -41,7 +42,7 @@ const ThankYouPage = () => {
           onClick={() => router.push('/')}
         >
           <FaHome className="home-icon" />
-          Return to Home Page
+          Go to Home Page
         </button>
       </div>
     </div>

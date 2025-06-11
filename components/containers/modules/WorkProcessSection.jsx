@@ -5,9 +5,9 @@ import Image from 'next/image';
 import { FaChevronRight } from 'react-icons/fa';
 import styles from './WorkProcessSection.module.scss';
 
-const Subtitle = ({ children, className }) => (
-  <h6 className={`${styles.subtitle} ${className}`}>{children}</h6>
-);
+// const Subtitle = ({ children, className }) => (
+//   <h6 className={`${styles.subtitle} ${className}`}>{children}</h6>
+// );
 
 const Title = ({ children, className }) => (
   <h2 className={`${styles.title} ${className}`}>{children}</h2>
@@ -75,8 +75,11 @@ const WorkProcessSection = ({ slug }) => {
     <section className={styles.section}>
       <Container className="mt-md-5">
         <div className={styles.header}>
-          <Subtitle className="text-center">{mainHeaderSection.subtitle}</Subtitle>
+          {/* <Subtitle className="text-center">{mainHeaderSection.subtitle}</Subtitle> */}
           <Title>{renderTextWithLineBreaks(mainHeaderSection.maintitle)}</Title>
+          <div className={styles.description}>
+            {renderTextWithLineBreaks(mainHeaderSection.description)}
+          </div>
         </div>
 
         {featureSections.map((sectionData, index) => (

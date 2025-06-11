@@ -9,7 +9,9 @@ import downloadGuideData from '../../../data/services/downloadGuide.json';
 const FeatureList = ({ features }) => (
   <ul className="list-item mb_30">
     {features.map((feature, index) => (
-      <li key={index}>{feature}</li>
+      <li key={index}>
+        <p className="fw-semibold black" style={{ fontSize: '20px !important' }}>{feature}</p>
+      </li>
     ))}
   </ul>
 );
@@ -30,6 +32,7 @@ const ContentBox = ({ title, subtitle, features, buttonText, onDownload }) => (
       className="theme-btn btn-one" 
       onClick={onDownload}
       disabled={!onDownload}
+      style={{ color: '#fff !important' }}
     >
       {buttonText}
     </button>
@@ -54,6 +57,11 @@ const ImageBox = ({ src, alt, width, height }) => (
         width={width}
         height={height}
         priority
+        style={{
+          boxShadow: 'rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset',
+          borderRadius: '10px',
+          overflow: 'hidden'
+        }}
       />
     </figure>
   </div>
@@ -77,7 +85,7 @@ const DownloadSection = ({ onDownload }) => {
             style={{ backgroundImage: `url('${downloadGuideData.backgroundImage}')` }} 
           />
           <div className="row align-items-center">
-            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+            <div className="col-lg-6 col-md-12 col-sm-12 content-column" style={{ paddingLeft: '30px', paddingRight: '30px' }}>
               <ContentBox
                 title={downloadGuideData.title}
                 subtitle={downloadGuideData.subtitle}
@@ -86,7 +94,7 @@ const DownloadSection = ({ onDownload }) => {
                 onDownload={onDownload}
               />
             </div>
-            <div className="col-lg-4 col-md-12 col-sm-12 image-column">
+            <div className="col-lg-6 col-md-12 col-sm-12 image-column" style={{ paddingLeft: '30px', paddingRight: '30px' }}>
               <ImageBox
                 src={downloadGuideData.image.src}
                 alt={downloadGuideData.image.alt}

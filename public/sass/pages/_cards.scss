@@ -38,7 +38,8 @@
           width: 40px;
           height: 40px;
           min-width: 40px;
-          background: linear-gradient(135deg, #5135ff 0%, #ff5455 100%);
+          margin: 10px 0px 5px 17px !important;
+          background: var(--bs-primary-600);
           border-radius: 6px;
           color: #fff;
           display: flex;
@@ -64,7 +65,11 @@
         cursor: pointer;
       }
     }
-
+.serialblack{
+  margin: 5px 0px 0px 12px ;
+  color: #000;
+  
+}
     // Responsive: max-width 1600px
     @media screen and (max-width: 1600px) {
       gap: 20px;
@@ -428,7 +433,7 @@ padding: 60px 0;
 
     img {
       position: relative;
-      width: 180px;
+      width: 230px !important;
       height: auto;
       z-index: 1;
     }
@@ -437,7 +442,7 @@ padding: 60px 0;
       span {
         position: absolute;
         left: 50%;
-        top: 50%;
+        // top: 50%;
         transform: translate(-50%, -50%);
         z-index: 2;
         width: 48px;
@@ -547,7 +552,7 @@ padding: 60px 0;
 }
 // download
 .download-section.alternat-2 {
-background: #EFF2E6;
+  background: var(--bs-secondary-50);
 }
 .download-section {
 position: relative;
@@ -579,7 +584,8 @@ display: block;
 background: #eff2e6;
 border-radius: 10px;
 overflow: hidden;
-padding: 80px 40px 80px 100px;
+padding: 50px;
+
 @media only screen and (max-width: 991px) {
     padding-left: 50px;
     padding-right: 50px;

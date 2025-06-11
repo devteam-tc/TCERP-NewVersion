@@ -8,7 +8,7 @@ const CreativeSection = () => {
       <div className="staticImages">
         <Image 
           src="/footer/car.webp" 
-          alt="Creative Section"
+          alt="Creative Section Car"
           width={300}
           height={300}
           className="staticImage"
