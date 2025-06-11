@@ -44,12 +44,12 @@ const Banner = () => (
         {/* Rocket */}
         <div className="rocket-center">
           <Image 
-            src="/images/banner/icons/rocket.png" 
+            src="/images/banner/icons/Rocketimg.gif" 
             alt="Rocket" 
-            width={180} 
-            height={180}
+            width={480} 
+            height={480}
             priority={true}
-            quality={85}
+            quality={100}
             placeholder="blur"
             blurDataURL="data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQABAABUB8JZwAAp1K3W4AA/v6yAAAA"
             sizes="(max-width: 768px) 100vw, 380px"
