@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/telecom_banner_img.webp",
   "title": "Telecom Industry",
-  "description": "Manage operations, billing and customer relationships efficiently with a dedicated ERP for telecommunication industry. This all-in-one solution streamlines processes such as network management, finance, service delivery and customer care. With built-in telecom CRM and advanced billing systems, telecom companies can deliver better services, improve customer retention and scale seamlessly.",
+  "description": "Managing a telecom business in today’s digital world comes with complex challenges and rising customer expectations. A dedicated ERP solution helps bring everything together — billing, operations and customer care in one easy-to-manage system. It gives you better control, real-time visibility and the flexibility to adapt and grow without hassle.",
   "keyPoints": [
     "Subscriber & Service Lifecycle Management",
     "Inventory, Asset & Network Tracking",
@@ -34,23 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What is ERP for the telecommunications industry?",
-      "answer": "It is an integrated platform that helps telecom companies manage operations, customer data, billing, inventory and compliance from a centralized system."
+      "question": "How does ERP help improve customer service in telecom?",
+      "answer": "ERP solutions provide a centralized view of customer data, tickets and service history. This helps support teams to respond faster, resolve issues efficiently and maintain stronger relationships with customers."
     },
     {
       "id": 2,
-      "question": "How does CRM in telecom industry improve customer retention?",
-      "answer": "Telecommunications CRM captures customer interactions, automates workflows and offers insights to personalize support and reduce churn."
+      "question": "Can an ERP handle telecom-specific billing and subscriptions?",
+      "answer": "Yes. Modern ERP systems are designed to manage multiple billing models including prepaid, postpaid and hybrid plans. They offer precise control over rates, discounts and invoicing, ensuring accurate revenue tracking."
     },
     {
       "id": 3,
-      "question": "Can this ERP handle telecom billing system complexities?",
-      "answer": "Yes. Our telecom billing system supports multiple billing models, recurring charges and automated reconciliation for accuracy and transparency."
-    },
-    {
-      "id": 4,
-      "question": "Is this solution scalable for large telecom operators?",
-      "answer": "Absolutely. The telecommunications industry software is modular, cloud-enabled, and customizable for small ISPs to national telecom carriers."
+      "question": "Is it possible to integrate existing telecom tools with an ERP system?",
+      "answer": "Most telecom-focused ERP offer integration capabilities through APIs and connectors. This allows easy communication between your existing CRM, OSS/BSS systems and financial tools without disrupting operations."
     }
   ],
   "industry": "Telecommunications",

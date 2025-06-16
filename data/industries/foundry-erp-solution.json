@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/casting-banner-img.jpeg",
   "title": "Casting Industry",
-  "description": "Boost production efficiency, cost control and product quality with a dedicated ERP for casting and foundry businesses. From managing raw materials to tracking melt shop operations and dispatching final products, our specialized foundry ERP software provides end-to-end automation and real-time insights. Designed for jobbing, batch, and continuous foundries, this intelligent casting industry ERP solution helps streamline operations and reduce downtime across the board.",
+  "description": "The casting and foundry industry faces challenges like complex production, precise material use and strict quality demands. An ERP for casting and foundry industry optimizes processes, enhances traceability and boosts productivity across functions like procurement, pattern making, molding, melting, machining and dispatch for all casting types.",
   "keyPoints": [
     "Melting & Molding Process Control",
     "Core, Pattern & Tool Management",
@@ -34,18 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What is foundry ERP software?",
-      "answer": "A complete ERP for casting & foundry industry helps manage everything from melting and molding to quality inspection and order dispatch, all within a unified system."
+      "question": "Can ERP manage casting defects and quality control?",
+      "answer": "Yes, the ERP system includes quality control modules that help monitor casting defects, implement corrective actions and maintain test certificates and inspection reports."
     },
     {
       "id": 2,
-      "question": "How does ERP improve inventory management for foundries?",
-      "answer": "It tracks raw material usage, finished goods, scrap, and reusables in real-time ensuring accurate stock levels and optimizing purchases."
+      "question": "Can I track raw material usage and scrap generation?",
+      "answer": "Yes, ERP provides detailed reports on raw material consumption, yield and scrap generation at each stage, helping you optimize usage and reduce losses."
     },
     {
       "id": 3,
-      "question": "Can this ERP help with batch-wise production tracking?",
-      "answer": "  Yes, we do integrated production tracking system enables stage-wise monitoring, including heat-wise and lot-wise traceability."
+      "question": "Is cloud-based ERP suitable for casting and foundry businesses?",
+      "answer": "Yes, cloud-based ERP provides scalability, lower upfront costs, remote access and automated upgrades, making it suitable for modern foundries hoping to transform their operations. "
     }
   ],
   "industry": "Casting",

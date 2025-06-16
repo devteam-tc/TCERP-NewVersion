@@ -1,8 +1,6 @@
 // This is a SERVER component
-import dynamic from 'next/dynamic';
 import { notFound } from 'next/navigation';
-
-const IndustryClientPage = dynamic(() => import('../../../components/containers/industry-details/IndustryClientPage'));
+import IndustryPageClient from './IndustryPageClient';
 
 // Static list of industry slugs
 const industrySlugs = [
@@ -67,12 +65,22 @@ export async function generateMetadata({ params }) {
   }
 }
 
-const IndustryPage = ({ params }) => {
+// Force static rendering
+export const dynamic = 'force-static';
+export const revalidate = false;
+
+export default async function IndustryPage({ params }) {
   try {
-    return <IndustryClientPage slug={params.slug} />;
+    const data = await import(`../../../data/industries/${params.slug}.json`);
+    const industryData = data.default;
+
+    if (!industryData) {
+      throw new Error('No data found');
+    }
+
+    return <IndustryPageClient industryData={industryData} />;
   } catch (error) {
+    console.error('Error loading industry data:', error);
     notFound();
   }
-};
-
-export default IndustryPage;
+}

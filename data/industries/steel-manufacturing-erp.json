@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/steel_banner_img.webp",
   "title": "Steel Industry",
-  "description": "Manage your steel business efficiently with a powerful ERP for steel industry that brings production, inventory, procurement, finance and sales into one integrated platform. Whether you're into manufacturing, fabrication, or distribution, our intelligent steel ERP software is designed to meet the unique challenges of steel operations. This scalable solution improves accuracy, reduces waste and boosts profitability across your supply chain.",
+  "description": "Steel manufacturing demands precise coordination from raw materials to finished products. An ERP system built for steel plants supports complex operations and strengthens production control. It offers real-time visibility into inventory and supply chain activities, leading to greater efficiency, reduced costs, and improved product quality.",
   "keyPoints": [
     "Production & Process Management",
     "Inventory & Raw Material Control",
@@ -34,13 +34,13 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What does an ERP for steel industry manage?",
-      "answer": "A complete steel manufacturing ERP software manages production, inventory, procurement, quality, sales and finance—tailored to steel sector operations."
+      "question": "What key benefits does steel manufacturing ERP offer?",
+      "answer": "It enhances production planning, improves resource management, and ensures quality control throughout the manufacturing process—resulting in increased productivity and lower operational costs."
     },
     {
       "id": 2,
-      "question": "Can it handle steel fabrication processes?",
-      "answer": "Yes. Our steel fabrication ERP software supports planning and execution of fabrication jobs, including material planning, routing and job tracking."
+      "question": "How does the ERP support inventory and supply chain operations in steel plants?",
+      "answer": "The system tracks raw materials, work-in-progress, and finished goods in real time, helping you to maintain optimal stock levels and manage deliveries with greater accuracy."
     },
     {
       "id": 3,

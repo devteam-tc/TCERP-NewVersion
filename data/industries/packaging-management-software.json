@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/packaging_banner_img.webp",
   "title": "Packaging Industry",
-  "description": "Streamline operations with Tech Cloud advanced Packaging Management Software built to meet the needs of modern packaging manufacturers. Our ERP for Packaging Industry enables end-to-end visibility across design, production and supply chain. Empower your business with smart Packaging ERP that enhances accuracy, speed and profitability.",
+  "description": "Running a metal fabrication business means handling custom jobs, changing schedules and tight delivery timelines. Our ERP system helps you bring everything together  from quotes to production to delivery  so you can work faster, reduce errors and stay in control.",
   "keyPoints": [
     "Packaging Design & Specification Management",
     "Inventory & Supply Chain Optimization",
@@ -34,18 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "How does Packaging ERP improve design and development?",
-      "answer": "Our Packaging Software reduces errors by standardizing specification data, automating workflows and ensuring quick approvals for faster go-to-market."
+      "question": "How can ERP help my metal fabrication business?",
+      "answer": "ERP brings all your key processes into one system. It helps manage quotes, inventory, production and delivery — making your work faster, more accurate and easier to track."
     },
     {
       "id": 2,
-      "question": "Can the ERP manage complex multi-format packaging operations?",
-      "answer": "Yes, Tech Cloud ERP for Packaging Industry supports multiple formats and materials with complete traceability from BOM to final output."
+      "question": "Can ERP handle custom jobs and one-off orders?",
+      "answer": "Yes, a well-designed ERP system can handle custom BOMs, organize job-specific tasks, and schedule production efficiently—tailored to each unique order."
     },
     {
       "id": 3,
-      "question": "Does the system offer live inventory and vendor tracking?",
-      "answer": "Yes, our Packaging Management Software gives real-time inventory visibility and supplier collaboration for smooth procurement and production planning."
+      "question": "Will ERP work with my CAD or CAM software?",
+      "answer": "Most modern ERP systems offer integrations with CAD/CAM tools. This helps your designs flow directly into production without manual work."
     }
   ],
   "industry": "Packaging",

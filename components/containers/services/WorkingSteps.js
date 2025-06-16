@@ -11,7 +11,7 @@ const WorkingSteps = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="feature-text section-title text-center">
-                <SectionTitle subTitle="work process" title="WORKS IN 4 EASY STEPS" />
+                <SectionTitle subTitle="OUR APPROACH TO BUILDING SUCCESS" title="From Idea to Execution" />
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/solar_banner_img.webp",
   "title": "Solar Electric Industry",
-  "description": "Our advanced Solar ERP Software is designed specifically for solar energy companies, helping manage end-to-end operations from project planning to performance monitoring. With robust tools for installation, analytics, and maintenance, our ERP Solar solution ensures efficient workflows and better decision-making. Whether you’re managing small residential setups or large commercial installations.",
+  "description": "Solar ERP software is a specialised solution that allows solar industries to handle projects, inventories, finances, and compliance in a single system. It optimises processes, increases efficiency, and promotes business growth, making it suitable for solar EPCs, manufacturers, and distributors looking to scale and improve workflows.",
   "keyPoints": [
     " Project Planning & Cost Estimation",
     "Installation Scheduling & Monitoring",
@@ -34,18 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What is Solar ERP Software and how does it benefit solar companies?",
-      "answer": "Solar ERP Software centralizes project planning, CRM, inventory and maintenance, helping solar businesses improve operational efficiency and customer satisfaction."
+      "question": "Is solar ERP software suitable for small solar businesses?",
+      "answer": "Definitely. Many solar ERP providers offer scalable plans with modular features, making them affordable and practical for small to mid-sized solar companies and startups."
     },
     {
       "id": 2,
-      "question": "Can the system support large commercial solar installations?",
-      "answer": "Yes, our ERP Solar solution is scalable to handle everything from small rooftop systems to utility-scale commercial installations."
+      "question": "Does the ERP support multi-location operations?",
+      "answer": "Yes. Solar ERP software can handle multi-location inventory, projects and teams, providing centralized control and visibility across all branches or project sites."
     },
     {
       "id": 3,
-      "question": "Does it include design tools for PV systems?",
-      "answer": "Absolutely. The software integrates with advanced solar PV design software, allowing accurate system sizing, layout planning and cost estimation."
+      "question": "Can solar ERP software handle inventory management?",
+      "answer": "Yes. Solar ERP software allows you to track components like panels, inverters and batteries, automate reordering and manage stock across warehouses and sites."
     }
   ],
   "industry": "Solar Energy",

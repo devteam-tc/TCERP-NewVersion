@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/restaurant_banner_img.webp",
   "title": "Restaurant Industry",
-  "description": "Run your restaurant smarter with an all-in-one restaurant management system that handles everything from orders and billing to inventory and customer engagement. Our intelligent restaurant ERP software is designed to streamline daily operations, reduce wastage and increase profitability. Whether you're managing a single outlet or a chain, this is the best restaurant software for optimizing workflows and elevating the dining experience.",
+  "description": "Our Restaurant Management System gives you complete control over every aspect of your restaurant operations. From billing and inventory to staff management and customer service, it handles all your needs with ease. Whether you operate a single outlet or multiple locations, the ERP software provides real-time insights to reduce waste, improve efficiency, and increase profitability.",
   "keyPoints": [
     "Order Management & Billing",
     "POS Integration",
@@ -34,8 +34,8 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What does a restaurant ERP software include?",
-      "answer": "A complete restaurant management software includes POS, billing, inventory, CRM and reporting—helping restaurant owners automate and manage all business functions in one place."
+      "question": "What is restaurant ERP software, and how can it help my business?",
+      "answer": "Restaurant ERP software is a single platform that brings together all essential restaurant operations like billing, inventory, purchasing, menu management, order handling and financial tracking. It simplifies day-to-day activities, minimizes errors and provides valuable insights so you can focus on improving service and growing your business."
     },
     {
       "id": 2,

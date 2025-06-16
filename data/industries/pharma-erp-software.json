@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/pharmaceutical_banner_img.webp",
   "title": "Pharmaceutical Industry",
-  "description": "Boost operational efficiency, compliance and quality control with Tech Cloud Pharma ERP Software. Designed specifically as an ERP for Pharmaceutical Industry, it simplifies batch processing, inventory tracking and regulatory compliance. Our powerful Pharmaceutical ERP Software ensures complete traceability and real-time data flow across your entire pharma value chain.",
+  "description": "Pharma ERP software is designed to meet the specific needs of pharmaceutical manufacturers and distributors. It helps in managing key areas like formulation, production, batch tracking, quality checks and regulatory compliance. With features like expiry date tracking, audit logs and easy reporting, it reduces manual work and improves accuracy. It also gives better visibility across departments, so teams can make faster and smarter decisions.",
   "keyPoints": [
     "Batch Production & Quality Management",
     "Regulatory Compliance & Documentation",
@@ -44,8 +44,8 @@
     },
     {
       "id": 3,
-      "question": "Why choose Tech Cloud ERP for pharmaceutical companies?",
-      "answer": "Tech Cloud ERP offers a specialized pharmaceutical ERP solution that ensures efficiency, compliance and scalability tailored to the unique needs of pharma businesses."
+      "question": "Does the system support compliance and reporting for audits?",
+      "answer": "Yes. It enforces formula versioning with approvals and audit logs, provides electronic batch and weigh tickets, sample testing plans, non‑conformance logging, CAPA workflows, COA/MBR/BMR creation and electronic signatures compliant with FDA 21 CFR Part 11 and similar regulations"
     }
   ],
   "industry": "Pharmaceutical Manufacturing",

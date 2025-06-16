@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/rubber_banner_img.webp",
   "title": "Rubber Industry",
-  "description": "Optimize your rubber manufacturing operations with a powerful ERP for rubber industry. From raw material procurement to production and dispatch, our intelligent ERP system connects every process on one platform. This scalable manufacturing ERP improves efficiency, reduces waste and supports regulatory compliance. Whether you produce tyres, industrial rubber components or customized rubber products, our solution is the best ERP software for rubber manufacturing industry.",
+  "description": "The rubber industry faces unique challenges like fluctuating raw material prices, maintaining consistent quality and meeting tight deadlines. Rubber industry ERP is designed to manage these needs, giving you full control over production, inventory, quality and delivery. Whether you manufacture tyres, moulded components or industrial rubber goods, this solution improves coordination, reduces waste, ensures compliance and boosts profitability.",
   "keyPoints": [
     "Procurement & Raw Material Management",
     "Production Planning & Process Control",
@@ -39,18 +39,13 @@
     },
     {
       "id": 2,
-      "question": "Can it support traceability for batch production?",
-      "answer": "Yes. This specialized rubber ERP ensures full batch traceability and compliance reducing risks and improving quality."
+      "question": "Does the ERP support quality control and compliance in rubber manufacturing?",
+      "answer": "Yes, the ERP includes built-in quality checks at every stage of production and helps ensure compliance with industry standards. It also maintains complete traceability of batches, test results and approvals."
     },
     {
       "id": 3,
       "question": "Is the ERP flexible for tyre and non-tyre production?",
       "answer": "Absolutely. From tyres to rubber seals, belts and hoses our software for rubber industry is built to support multiple product types."
-    },
-    {
-      "id": 4,
-      "question": "Will this ERP software scale with business growth?",
-      "answer": "Yes. As a leading manufacturing ERP it is designed to grow with your operations and adapt to your evolving production needs."
     }
   ],
   "industry": "Rubber Manufacturing",

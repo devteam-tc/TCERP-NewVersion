@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/beverage_banner_img.webp",
   "title": "Food & Beverage Industry Solutions",
-  "description": "Comprehensive ERP solutions tailored for the food and beverage industry that streamline your production, inventory, compliance, and distribution processes  helping you manage everything from raw ingredients to packaged products efficiently.",
+  "description": "Running a food and beverage business means dealing with strict quality standards, fast-moving inventory and evolving customer demands. ERP for the food and beverage industry helps you manage everything from sourcing and production to packaging and delivery. It ensures traceability, improves efficiency and keeps you compliant. With the right tools, you can stay agile and focus on delivering fresh, safe products.",
   "keyPoints": [
     "Recipe & Batch Management",
     "Inventory & Supply Chain Management",
@@ -34,18 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What is Food and beverage ERP software?",
-      "answer": " Food and Beverage ERP software is a specialized solution designed to manage production, quality control, inventory, compliance and supply chain operations in food and beverage manufacturing businesses."
+      "question": "How does an ERP system benefit food and beverage manufacturers?",
+      "answer": "An ERP system integrates various processes like inventory management, production planning, and quality control into a unified platform. This integration enhances operational efficiency, ensures compliance with food safety standards and provides better visibility across the supply chain."
     },
     {
       "id": 2,
-      "question": " How does ERP help the food and beverage industry?",
-      "answer": " ERP software helps streamline batch production, track perishable inventory, maintain compliance with food safety regulations and improve efficiency in procurement, distribution and reporting."
+      "question": "How does ERP help the food and beverage industry?",
+      "answer": "ERP software helps streamline batch production, track perishable inventory, maintain compliance with food safety regulations and improve efficiency in procurement, distribution and reporting."
     },
     {
       "id": 3,
-      "question": "Can ERP software help with food traceability and recalls?",
-      "answer": " Yes, modern food ERP systems offer full traceability from raw material to finished goods and support quick targeted product recalls with detailed audit trails."
+      "question": "Can ERP software help with regulatory compliance in the food industry?",
+      "answer": "Yes, ERP software designed for the food sector includes features that assist in adhering to regulations by tracking batch information, managing recalls efficiently and maintaining detailed records required for audits."
     }
   ],
   "industry": "Beverage",

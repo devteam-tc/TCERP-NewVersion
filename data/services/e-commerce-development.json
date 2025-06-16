@@ -91,17 +91,17 @@
       {
         "step": 1,
         "title": "Plan & Design",
-        "description": "We talk with you to understand what you need, then design an easy-to-use online store that looks great on phones and computers."
+        "description": "We start by understanding your business, audience and goals. Then, we create a custom design that matches your brand and ensures a smooth shopping experience across all devices."
       },
       {
         "step": 2,
-        "title": "Build & Connect",
-        "description": "We build your store and connect it with payment options, delivery partners, stock management, and other useful tools."
+        "title": "Build & Integrate",
+        "description": "Our developers bring your store to life by building a powerful backend and connecting key systems like payment gateways, ERP, CRM and analytics."
       },
       {
         "step": 3,
         "title": "Launch & Support",
-        "description": "Once everything is ready, we test your store and launch it. After that, we stay with you to offer help, updates and improvements whenever needed."
+        "description": "After thorough testing, we launch your store and provide continuous support to keep it running smoothly and ready for growth."
       }
      
     ]

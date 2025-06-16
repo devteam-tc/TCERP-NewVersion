@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/plastic_banner_img.webp",
   "title": "Plastic Industry",
-  "description": "Enhance efficiency and control across your plastic production cycle with a purpose-built plastic ERP software. Designed to meet the complex needs of molding, extrusion and blow-molding processes, this advanced ERP for plastic manufacturing integrates production, inventory, sales and compliance into a single intelligent platform. Whether you're a small molding unit or a large-scale plastic product manufacturer, our plastic manufacturing ERP streamlines operations and maximizes profitability.",
+  "description": "In today’s competitive plastic industry, managing costs, maintaining quality and meeting delivery deadlines are key to success. Tech Cloud’s Plastic ERP is built to give manufacturers complete control over procurement, production, quality and dispatch. Whether you're in injection moulding, profile forming or blow moulding, it enhances processes, ensures compliance and boosts efficiency.",
   "keyPoints": [
     "Production Planning & Molding Management",
     "Raw Material & Resin Tracking",
@@ -34,21 +34,16 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What is Plastic ERP?",
-      "answer": "A plastic ERP is an end-to-end solution tailored for managing production, inventory, quality and finance in the plastic manufacturing industry."
-    },
-    {
-      "id": 2,
       "question": "How does this ERP improve plastic production efficiency?",
       "answer": "By automating production planning and real-time tracking, the ERP for plastic industry reduces waste, shortens cycle times and increases productivity."
     },
     {
-      "id": 3,
+      "id": 2,
       "question": "Can it handle different types of plastic manufacturing processes?",
       "answer": "Yes. Our plastic ERP software supports injection molding, extrusion, blow molding and thermoforming processes with full customization."
     },
     {
-      "id": 4,
+      "id": 3,
       "question": "Is this ERP scalable for growing plastic manufacturers?",
       "answer": "Absolutely. Our ERP for plastic manufacturing is modular and scalable, adapting easily as your business expands and evolves."
     }

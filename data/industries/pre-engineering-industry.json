@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/preengineering_banner_img.webp",
   "title": "Pre-engineering Industry",
-  "description": "Enhance your project precision and production efficiency with our advanced ERP for pre engineering businesses. Built for companies engaged in structural fabrication, modular construction and heavy engineering, this scalable engineering ERP software streamlines every step—from design to dispatch. With real-time control over materials, budgets, planning and workflows, our solution empowers engineering firms to reduce costs, ensure timely delivery and stay competitive in a demanding market.",
+  "description": "Pre-engineered building (PEB) projects require precise planning, material control and smooth coordination across teams. ERP software helps manage the entire workflow efficiently from design and procurement to fabrication and delivery keeping projects on track and within budget. It also improves visibility, reduces manual errors and supports better decision-making throughout the project lifecycle.",
   "keyPoints": [
     "Project Estimation & BOM Management",
     "Design Approval & Workflow Automation",
@@ -44,11 +44,6 @@
     },
     {
       "id": 3,
-      "question": "Does it integrate with CAD or design software?",
-      "answer": " Absolutely. Our ERP engineering solution integrates with popular CAD tools to import designs and automate BOM generation."
-    },
-    {
-      "id": 4,
       "question": "Is the ERP scalable for growing engineering firms?",
       "answer": "Yes. Whether you're scaling up fabrication units or expanding project capacity, the engineering ERP grows with your business through modular upgrades."
     }

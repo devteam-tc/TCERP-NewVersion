@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/publishing_banner_img.webp",
   "title": "Publishing Industry",
-  "description": "Tech Cloud Publishing ERP Software is designed to meet the unique needs of the publication world. Whether you’re a magazine house or a book publishing company, our tailored ERP for book publishers streamlines editorial planning, inventory, royalties and distribution. This scalable ERP for publishers connects your teams from content creation to delivery on a single digital platform.",
+  "description": "Publishing ERP software is built specifically for the needs of publishers and content distributors. It supports title setup, editorial and production workflows, subscription services, royalties, rights management and returns—all in one platform. With tools for finance, inventory and digital delivery, you can manage both print and online channels efficiently. From contract tracking to order fulfillment, the system keeps your operations clear and connected.",
   "keyPoints": [
     "Title Management & Editorial Workflow",
     "Inventory & Print Order Control",
@@ -34,13 +34,13 @@
   "faqData": [
     {
       "id": 1,
-      "question": "Can this ERP manage both digital and physical publications?",
-      "answer": "Yes. Our Publishing ERP allows publishers to manage print, eBooks and other digital formats within a single system."
+      "question": "What makes publishing ERP different from general ERP systems?",
+      "answer": "Publishing ERP includes specialized tools for editorial planning, title versioning, royalties, rights & permissions, subscription billing and return logistics, in addition to core features like accounting and inventory. It helps publishers to track author contracts, manage digital and physical distribution and control print-on-demand operations in a unified system."
     },
     {
       "id": 2,
-      "question": "How does the ERP help with royalty calculations?",
-      "answer": "It automates royalty tracking, author contracts and payments making it ideal ERP for Publishers who deal with multiple revenue streams."
+      "question": "How does it manage royalties, rights and permissions?",
+      "answer": "The ERP system is built to automate royalty calculations based on sales and contracts, track permissions for translations or reprints and link payments to authors, agents or licensors. This ensures accurate payouts, audit trails and transparent reporting—all without manual spreadsheets or guesswork."
     },
     {
       "id": 3,

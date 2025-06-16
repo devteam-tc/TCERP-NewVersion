@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/furniture_banner_img.webp",
   "title": "Furniture Industry",
-  "description": "Our complete ERP software for furniture industry is designed to fit the needs and requirements furniture manufacturers in terms they can better implement design, production, inventory and custom order management. With our powerful furniture ERP software, businesses are able to keep track of production planning, material consumption and warehouse activities. Whether you're producing modular furniture or custom pieces.",
+  "description": "Furniture manufacturing requires precise coordination of design, materials and production to meet customer demands. Tech Cloud ERP simplifies the processes by integrating inventory, production planning and order management into one system. This helps reduce costs, improve product quality and speed up delivery times. With real-time insights and automation, manufacturers can stay competitive and responsive in a dynamic market.",
   "keyPoints": [
     "Modular & Custom Design Management",
     "Inventory & Material Tracking",
@@ -34,18 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What is furniture ERP software and how does it help?",
-      "answer": "Furniture ERP software helps manufacturers manage design, inventory, production and delivery while reducing manual tasks and errors."
+      "question": "How can ERP help manage complex furniture production processes?",
+      "answer": "ERP systems provide tools to handle multiple product variants, bill of materials (BOM) and assembly instructions. This helps in optimizing production, track materials and reduce errors in manufacturing."
     },
     {
       "id": 2,
-      "question": "Can the ERP handle both modular and custom furniture production?",
-      "answer": "Yes, our furniture manufacturing ERP supports both mass production and made-to-order workflows with configurable BOM and real-time updates."
+      "question": "Does the ERP support inventory management specific to furniture manufacturing?",
+      "answer": "Yes, ERP software tracks raw materials, work-in-progress and finished goods in real time. It helps in optimizing stock levels, reduces wastage and improves order fulfilment accuracy."
     },
     {
       "id": 3,
-      "question": " Is this ERP suitable for mid-sized furniture companies?",
-      "answer": "Absolutely. Our ERP for furniture manufacturers is scalable and flexible, making it ideal for small to large businesses across the furniture industry ERP solution landscape."
+      "question": "Can the ERP handle custom orders and design changes?",
+      "answer": "Modern ERP solutions are flexible enough to manage custom orders by capturing specific customer requirements and updating production schedules accordingly, ensuring on-time delivery."
     }
   ],
   "industry": "Furniture",

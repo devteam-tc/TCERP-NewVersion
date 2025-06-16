@@ -105,12 +105,6 @@ const DownloadWidget = ({ bgShape, image, title, spanTitle, buttonText }) => {
             height={300}
           />
         </figure>
-        {/* <h4 style={{
-          textAlign: "left"
-        }}>
-          {title}
-          <span style={{color: "var(--bs-primary-500)", fontSize: "16px", fontWeight: "600"}}>{spanTitle}</span>
-        </h4> */}
         {downloadError && (
           <div className="alert alert-danger mb-3" role="alert" style={{ fontSize: '0.9rem' }}>
             {downloadError}
@@ -130,8 +124,7 @@ const DownloadWidget = ({ bgShape, image, title, spanTitle, buttonText }) => {
             fontWeight: "500",
             position: "relative",
             zIndex: 1,
-            width :"-webkit-fill-available",
-            
+            width: "-webkit-fill-available",
           }}
           onMouseOver={(e) => e.target.style.opacity = "0.9"}
           onMouseOut={(e) => e.target.style.opacity = "1"}
@@ -152,5 +145,4 @@ const DownloadWidget = ({ bgShape, image, title, spanTitle, buttonText }) => {
   );
 };
 
-export default DownloadWidget;
-  
+export default DownloadWidget; 

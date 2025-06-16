@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/paper_banner_img.webp",
   "title": "Paper Industry",
-  "description": "Digitize your operations with Tech Cloud scalable ERP for Paper Industry tailored for paper mills and packaging converters. Our ERP Software for Paper Industry streamlines everything from raw material procurement to reel cutting and dispatch. Empower your plant with a powerful ERP for Paper Manufacturing that improves quality, productivity and profitability.",
+  "description": "The paper and pulp industry deals with rising material costs, strict regulations and the need for real-time control. Tech Cloud ERP helps you cut down waste, improve planning and reduce risks. It gives you clear visibility and control across your supply chain—whether you're working with pulp, paper conversion or packaging so you can maintain quality, increase output and work more efficiently.",
   "keyPoints": [
     "Raw Material & Procurement Management",
     "Paper Manufacturing & Reel Operations",
@@ -34,18 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "How does ERP help reduce paper wastage in manufacturing?",
-      "answer": "Our ERP for Paper Manufacturing offers detailed waste analysis, production monitoring and yield optimization tools to minimize losses."
+      "question": "How can ERP software help paper manufacturing companies?",
+      "answer": "Our ERP software for paper manufacturers will manage everything from sourcing raw materials to production and delivery. It improves planning, minimizes downtime and provides substantially better quality control at every level of the process."
     },
     {
       "id": 2,
-      "question": "Can it handle multiple paper grades and GSM tracking?",
-      "answer": "Yes. Our ERP Software for Paper Industry manages multi-GSM multi-grade products with accurate specifications, batch processing and conversion tracking."
+      "question": "Can Tech Cloud ERP support both pulp and paper production?",
+      "answer": "Yes. Our solution is flexible and can handle the full scope of operations—whether you focus on pulp, paper sheets, packaging materials or all three. You can monitor inventory, track processes and manage orders in real time."
     },
     {
       "id": 3,
-      "question": "Does the system support financial integration and GST compliance?",
-      "answer": "Absolutely. Tech Cloud ERP for Paper Industry offers complete finance tax and regulatory compliance including real-time GST reporting and audit trails."
+      "question": "Does your ERP support sustainability goals in the paper industry?",
+      "answer": "Absolutely. Tech Cloud ERP helps track resource usage, minimize waste and improve energy efficiency. It also supports compliance with environmental standards and reporting."
     }
   ],
   "industry": "Paper Manufacturing",

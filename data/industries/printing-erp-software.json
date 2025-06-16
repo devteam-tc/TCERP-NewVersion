@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/printing_banner_img.webp",
   "title": "Printing Industry",
-  "description": "Streamline your press operations with Tech Cloud powerful ERP Software for Printing Industry. From pre-press to post-production, our all-in-one Printing ERP Software enhances job tracking, material usage, costing and customer delivery. Tailored to meet the evolving demands of print businesses, this scalable ERP for Printing Industry helps you achieve operational efficiency and reduce waste.",
+  "description": "Printing ERP software is made to help print shops and commercial printers manage everything from estimating and job scheduling to inventory, finance and customer care—all within a single system. It supports features like web-to-print storefront integration, artwork proofing, order tracking and analytics. By bringing these processes together, it reduces paperwork, improves accuracy and gives a clearer overview of your business at every stage.",
   "keyPoints": [
     "Job Estimation & Order Management",
     "Production Planning & Scheduling",
@@ -35,18 +35,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "Is this ERP suitable for commercial and offset printers?",
-      "answer": "Yes. Our Print ERP supports various printing processes including offset, digital and flexo printing for all scales of operations."
+      "question": "What exactly is printing ERP software?",
+      "answer": "Printing ERP is a tailored business system that combines core ERP functions like finance, inventory and shop-floor control with print‑specific tools estimating, proofing and production planning. It helps in managing jobs from quote to delivery while keeping data in sync."
     },
     {
       "id": 2,
-      "question": "How does the ERP reduce material wastage?",
-      "answer": "With precise inventory tracking and production planning, this ERP for Printing and Packaging Industry minimizes paper wastage and ensures optimal material use."
+      "question": "How does it help with artwork proofing and job scheduling?",
+      "answer": "It offers built-in proofing workflows that allow teams to review, catch errors and approve artwork before printing. Job scheduling features make it easy to assign tasks, track progress and adjust timelines as needed all from a single dashboard."
     },
     {
       "id": 3,
-      "question": "Can the system integrate with existing printing machinery?",
-      "answer": "Absolutely. Our ERP Software for Printing Industry offers easy integration with legacy systems and supports data exchange from printing machines."
+      "question": "Can it integrate with web-to-print and e‑commerce platforms?",
+      "answer": "Yes. Many printing ERPs connect directly with web-to-print stores, allowing customers to customize designs online. Orders flow straight into planning and production without manual entry, saving time and reducing mistakes"
     }
   ],
   "industry": "Printing",

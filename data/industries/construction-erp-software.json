@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/construction_banner_img.webp",
   "title": "Construction Industry",
-  "description": "Streamline your entire project lifecycle with intelligent construction ERP software built specifically for the construction and infrastructure industry. From tendering and budgeting to site execution and billing, a fully integrated ERP software for builders helps you centralize operations, track real-time costs, and boost collaboration across teams and contractors. Designed for agility and accuracy, the ERP system in construction empowers you to deliver projects on time and within budget.",
+  "description": "Construction ERP software simplifies project management by centralizing operations like planning, budgeting, procurement and compliance. It offers real-time insights, enhances collaboration and ensures timely project delivery. Whether you're a small contractor or a large construction firm, this industry-specific ERP solution improves efficiency, control and decision-making across your entire business.",
   "keyPoints": [
     "Project Estimation & Tender Management",
     "Material Procurement & Vendor Tracking",
@@ -34,18 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "How does the system manage construction projects?",
-      "answer": "Our system provides complete project management including scheduling, resource allocation, progress tracking, and cost control. It helps manage multiple projects simultaneously while maintaining visibility across all construction sites."
+      "question": "Why do construction companies need ERP software?",
+      "answer": "Construction projects involve complex processes and multiple stakeholders. ERP software helps reduce manual errors, improve coordination, manage resources efficiently and deliver projects on time and within budget."
     },
     {
       "id": 2,
-      "question": "What features are included for equipment management?",
-      "answer": "The system includes comprehensive equipment tracking, maintenance scheduling, utilization monitoring, and cost allocation. It helps optimize equipment usage and reduce downtime."
+      "question": "Can small and mid-sized construction companies use ERP software?",
+      "answer": "Yes. Many construction ERP solutions are scalable and can be tailored to fit the needs of small contractors, mid-sized firms and large enterprises."
     },
     {
       "id": 3,
-      "question": "Can it handle safety and compliance requirements?",
-      "answer": "Yes, our solution manages safety protocols, tracks compliance requirements, monitors safety incidents, and provides reporting for regulatory compliance. It helps maintain a safe working environment and meet industry standards."
+      "question": "Does it support multi-project management?",
+      "answer": "Yes. Construction ERP software enables you to manage multiple projects simultaneously, with visibility into each project’s status, resources and profitability."
     }
   ],
   "industry": "Construction",
