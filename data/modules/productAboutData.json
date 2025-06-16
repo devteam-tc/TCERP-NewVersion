@@ -1,5 +1,5 @@
 {
-    "customer-relationship-management": {
+    "crm": {
       "image": "/images/about-us/product-erp.png",
       "subTitle": "About Tech Cloud ERP",
       "titleLine1": "Smart ERP Software Solutions ",
@@ -17,7 +17,7 @@
       "link": "/all-products/customer-relationship-management",
       "linkText": "EXPLORE ERP"
     },
-    "sales-management": {
+    "sales": {
       "image": "/images/about-us/product-crm.png",
       "subTitle": "About Tech Cloud CRM",
       "titleLine1": "Smarter CRM Software  ",
@@ -32,7 +32,7 @@
         "Capture and nurture leads across multiple channels with intelligent CRM software tools",
         "Monitor sales activities and track opportunities in real-time with a powerful, user-friendly CRM system. "
       ],
-      "link": "/all-products/sales-management",
+      "link": "/all-products/sales",
       "linkText": "EXPLORE CRM"
     },
     "purchase-management": {
@@ -53,7 +53,7 @@
       "link": "/all-products/purchase-management",
       "linkText": "EXPLORE POS"
     },
-    "inventory-management": {
+    "inventory": {
       "image": "/images/about-us/product-treding.png",
       "subTitle": "About Tech Cloud Trading",
       "titleLine1": "Real-time Data That ",
@@ -68,10 +68,10 @@
         "Manage sales, purchases, inventory and customer data in one unified platform to gain complete control and visibility across your operations.",
         "Access instant updates on stock levels, pricing, orders and customer activity to make fast, informed decisions that boost efficiency and profitability."
       ],
-      "link": "/all-products/inventory-management",
+      "link": "/all-products/inventory",
       "linkText": "EXPLORE Trading"
     },
-    "production-management": {
+    "production": {
       "image": "/images/about-us/product-ecommerce.png",
       "subTitle": "About Tech Cloud Ecommerce",
       "titleLine1": "Maximize Operational Efficiency  with One",
@@ -86,10 +86,10 @@
         "Easily sync products, pricing, inventory and orders between your ERP and ecommerce for a smooth, accurate digital commerce experience.",
         "With the best ecommerce ERP, you can see orders, inventory, customer behaviour and shipping in real time from a single dashboard."
       ],
-      "link": "/all-modules/production-management",
+      "link": "/all-modules/production",
       "linkText": "EXPLORE Ecommerce"
     },
-    "job-work-management": {
+    "job-work": {
       "image": "/images/about-us/product-hrm.png",
       "subTitle": "About Tech Cloud HRM",
       "titleLine1": "Tech Cloud HRMS",
@@ -104,10 +104,10 @@
         "Unify core HR functions payroll, attendance, leave, recruitment and more in a single, integrated platform.",
         "Access live dashboards and reports on workforce performance, engagement and operations to support data-driven HR decisions."
       ],
-      "link": "/all-modules/job-work-management",
+      "link": "/all-modules/job-work",
       "linkText": "EXPLORE HRM"
     },
-    "quality-control": {
+    "qa-qc": {
       "image": "/images/about-us/product-finance.png",
       "subTitle": "About Tech Cloud financial management",
       "titleLine1": "Tech Cloud Financial Management",

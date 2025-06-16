@@ -1,6 +1,6 @@
-import home_work_process_1 from "/public/images/modules/crm/module-3.png";
-import home_work_process_2 from "/public/images/modules/crm/module-3.png";
-import home_work_process_3 from "/public/images/modules/crm/module-3.png";
+import home_work_process_1 from "/public/images/modules/crm/module-1.webp";
+import home_work_process_2 from "/public/images/modules/crm/module-2.webp";
+import home_work_process_3 from "/public/images/modules/crm/module-3.webp";
 
 export const modulesData = [
   {
@@ -8,42 +8,42 @@ export const modulesData = [
     description: "Integrates finance, HR and inventory into one system, automating processes and boosting efficiency for better decision-making.",
     image: "/products/products_main_img.webp",
     linkText: 'Explore',
-    link: '/modules/customer-relationship-management',
+    link: '/modules/crm',
   },
   {
     title: "CRM",
     description: "Manages customer interactions and data, enhancing sales, service and relationships for stronger customer connections.",
     image: "/products/crm-pdt.webp",
     linkText: 'Explore',
-    link: '/products/sales-management', 
+    link: '/products/sales', 
   },
   {
     title: "POS",
     description: "Ensures secure sales transactions, integrates with inventory and customer data and provides real-time updates for efficiency.",
     image: "/products/pos-pdt.webp",
     linkText: 'Explore',
-    link: '/products/purchase-management', 
+    link: '/products/purchase', 
   },
   {
     title: "Trading Software",
     description: "It helps optimize procurement, inventory and order management with real-time tracking, thus enhancing workflows automatically.",
     image: "/products/trading-pdt.webp",
     linkText: 'Explore',
-    link: '/all-modules/inventory-management', 
+    link: '/all-modules/inventory', 
   },
   {
     title: "E-commerce",
     description: "Online stores management with product catalogs, payment systems and real-time updates to improve customer experience.",
     image: "/products/ecommerce-pdt.webp",
     linkText: 'Explore',
-    link: '/all-modules/production-management', 
+    link: '/all-modules/production', 
   },
   {
     title: "HRM",
     description: "It automates payroll, attendance, recruitment and performance management for an efficient workforce while keeping track of compliance.",
     image: "/products/hrms-pdt.webp",
     linkText: 'Explore',
-    link: '/all-modules/job-work-management', 
+    link: '/all-modules/job-work', 
   },
   {
     title: "ERP Integrated-With-CRM-Ecommerce-POS",

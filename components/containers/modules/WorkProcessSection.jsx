@@ -47,7 +47,7 @@ const WorkProcessSection = ({ slug }) => {
   const { featureSections, mainHeaderSection } = data;
 
   const renderStep = (sectionData, reverse = false, index) => (
-    <Row className="align-items-center mb-5" key={index}>
+    <Row className="align-items-center mb-2" key={index}>
       <Col md={6} className={reverse ? 'order-md-2' : ''}>
         <Image
           src={sectionData.dashboardImage}
@@ -70,13 +70,11 @@ const WorkProcessSection = ({ slug }) => {
       </Col>
     </Row>
   );
-
   return (
     <section className={styles.section}>
       <Container className="mt-md-5">
         <div className={styles.header}>
-          {/* <Subtitle className="text-center">{mainHeaderSection.subtitle}</Subtitle> */}
-          <Title>{renderTextWithLineBreaks(mainHeaderSection.maintitle)}</Title>
+          <Title className= {styles.title}>{renderTextWithLineBreaks(mainHeaderSection.maintitle)}</Title>
           <div className={styles.description}>
             {renderTextWithLineBreaks(mainHeaderSection.description)}
           </div>

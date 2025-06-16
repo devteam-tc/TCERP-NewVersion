@@ -1,16 +1,18 @@
-
-
 .ctaSection-container {
-  background-color: var(--bs-secondary-50);
+  background-image: url('/images/cta/cta-bg.webp'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 60px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px; 
-  max-width: 800px; 
+  max-width: 1400px; 
   margin: 40px auto; 
+
   @media screen and (max-width:992px) {
-    max-width: 400px;
+    max-width: 350px;
   }
 }
 
@@ -24,6 +26,7 @@
   font-weight: 700;
   color: var(--bs-black-color);
   margin-bottom: 10px;
+  
   @media screen and (max-width:992px) {
     font-size: 30px; 
   }
@@ -31,7 +34,7 @@
 
 .ctaSection-subtitle {
   font-size: 18px;
-  color: #64748b;
+  color: var(--bs-black-color);
   margin-bottom: 30px;
 }
 
@@ -68,7 +71,7 @@
   }
 
   &--outline {
-    background-color: transparent;
+    background-color: #fdfdfd42;
     color: #1e293b; 
     border: 1px solid #d1d5db;
 

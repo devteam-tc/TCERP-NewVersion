@@ -27,12 +27,12 @@ const ThankYouPage = () => {
             <div className="phone-numbers">
               <a href="tel:+918919439603" className="contact-link">
                 <FaPhoneAlt className="contact-icon" />
-                +91 8919439603
+                +91 8919439603 , +91 7032803200
               </a>
-              <a href="tel:+917032803200" className="contact-link">
+              {/* <a href="tel:+917032803200" className="contact-link">
                 <FaPhoneAlt className="contact-icon" />
                 +91 7032803200
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

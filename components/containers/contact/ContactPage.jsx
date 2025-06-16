@@ -21,18 +21,6 @@ const ContactForm = () => {
     companyName: Yup.string().nullable(),
   });
 
- 
-  const fetchEmailKeys = async () => {
-    const docRef = doc(db, "emailConfig", "emailKeys");
-    const docSnap = await getDoc(docRef);
-    if (docSnap.exists()) {
-      const { service_id, template_id, public_key } = docSnap.data();
-      return { service_id, template_id, public_key };
-    } else {
-      throw new Error("No email configuration found!");
-    }
-  };
-
   const handleSubmit = async (
     values,
     { setSubmitting, resetForm }
@@ -43,12 +31,19 @@ const ContactForm = () => {
         selectedTags,
         timestamp: new Date(),
       });
-      const { service_id, template_id, public_key } = await fetchEmailKeys();
+      
       const templateParams = {
         ...values,
         selectedTags: selectedTags.join(', '),
       };
-      await emailjs.send(service_id, template_id, templateParams, public_key);
+      
+      await emailjs.send(
+        "service_qj3f93o",
+        "template_as8x5t6",
+        templateParams,
+        "-CuhfwvgeA0D1IAeZ"
+      );
+      
       toast.success('Message sent successfully!', {
         position: "top-right",
         autoClose: 5000,
@@ -118,7 +113,7 @@ const ContactForm = () => {
 </div>
       <div className="contactpage-form-section">
         <h3 className="contactpage-form-section__title">Send us a Message</h3>
-        <p className="contactpage-form-section__desc">As a fellow small business owner, we know the fulfillment that an a comes from running your own business contact to Financy.</p>
+        <p className="contactpage-form-section__desc">Let's connect! Just drop us a message below we're happy to assist with anything you need.</p>
         <Formik
           initialValues={{ name: '', email: '', phone: '', message: '', companyName: '' }}
           validationSchema={validationSchema}
@@ -134,7 +129,7 @@ const ContactForm = () => {
                 <Field as={BootstrapForm.Control} className="contactpage-form__input" type="email" name="email" placeholder="Email" />
                 <Field as={BootstrapForm.Control} className="contactpage-form__input" type="tel" name="phone" placeholder="Phone" />
               </div>
-              <Field as={BootstrapForm.Control} className="contactpage-form__input" type="text" name="subject" placeholder="Subject" />
+              <Field as={BootstrapForm.Control} className="contactpage-form__input" type="text" name="subject" placeholder="Company Name" />
               <Field as={BootstrapForm.Control} className="contactpage-form__textarea" name="message" rows="4" placeholder="Message" />
               <Button type="submit" className="contactpage-form__submit" disabled={isSubmitting}>
                 {isSubmitting ? 'Submitting...' : 'Submit Now →'}

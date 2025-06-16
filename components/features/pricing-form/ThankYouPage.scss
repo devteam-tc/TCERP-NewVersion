@@ -10,7 +10,6 @@
     max-width: 800px;
     width: 100%;
     text-align: center;
-    
     background: linear-gradient(100.25deg, #EF5226 -9.47%, #892F16 113.92%);
     padding: 3rem;
     border-radius: 15px;
@@ -22,13 +21,13 @@
       .thank-you-icon {
         font-size: 5rem;
         color: #fff;
-        animation: bounce 1s ease infinite;
+        // animation: bounce 1s ease infinite;
       }
     }
 
     h1 {
       color: #fff;
-      margin-bottom: 1rem;
+      // margin-bottom: 1rem;
       font-weight: 700;
       font-size: 32px;
       line-height: 140%;
@@ -42,8 +41,11 @@
       margin-bottom: 1.5rem;
       letter-spacing: 1px;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 140%;
+    width: 90%;
+    display: block;
+    margin: auto;
     text-align: center;
 
     }
@@ -53,9 +55,9 @@
       
       p {
         color: #fff;
-        margin-bottom: 1rem;
+        // margin-bottom: 1rem;
       font-weight: 600;
-      font-size: 32px;
+      font-size: 24px;
       line-height: 140%;
       letter-spacing: 0%;
       text-align: center;
@@ -65,7 +67,7 @@
       .contact-links {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        // gap: 1rem;
         align-items: center;
 
         .contact-link {

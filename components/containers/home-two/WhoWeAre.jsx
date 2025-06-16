@@ -10,7 +10,7 @@ import OdometerCounter from '../Odometer';
 const WhoWeAre = () => {
 
   return (
-    <section className="ep-who-we-area-section pt-60 pb-60">
+    <section className="ep-who-we-area-section pt-30 pb-30">
       <div className="container">
         <div className="row">
           <div
@@ -19,7 +19,7 @@ const WhoWeAre = () => {
             className="col-xl-5 align-self-center">
             <div className="short-info text-center text-md-start">
               <SectionTitle title="What Sets Us Apart" extraClass=" text-center text-md-start" />
-              <p style={{ textAlign: 'justify' }} >Our company focusses on providing customised ERP software features at an affordable cost. We simplify the ERP process for manufacturers and provide personalised and developed software to meet specific company requirements across all segments. We have been using the latest technologies to provide the best ERP solutions to our customers for over 25 years.
+              <p style={{ textAlign: 'justify' }} className='pt-3 pb-3'>Our company focusses on providing customised ERP software features at an affordable cost. We simplify the ERP process for manufacturers and provide personalised and developed software to meet specific company requirements across all segments. We have been using the latest technologies to provide the best ERP solutions to our customers for over 25 years.
               </p>
               <p style={{ textAlign: 'justify' }}> There are other ERP software providers on the market, but none of them sell exclusively for your specific industry. Tech Cloud ERP provides customised design and pricing, as well as the use of the latest technologies to understand your industry's unique requirements.</p>
             </div>

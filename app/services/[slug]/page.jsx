@@ -6,7 +6,7 @@ import CustomCursor from "../../../components/layout/CustomCursor";
 import AboutSection from '../../../components/containers/service-details/AboutSection';
 import FAQSection from '../../../components/containers/service-details/FAQSection';
 import Specifications from '../../../components/containers/service-details/Specifications';
-import { getServiceData, getServiceBreadcrumbs } from '../../utils/serviceUtils';
+import { getServiceData, getServiceBreadcrumbs, getServiceContent } from '../../utils/serviceUtils';
 import { VALID_SERVICE_SLUGS, COMPANY_NAME, DEFAULT_META } from '../../config/services';
 
 export function generateStaticParams() {
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }) {
   }
 }
 
-export default function ServicePage({ params }) {
+export default async function ServicePage({ params }) {
   try {
     const service = getServiceData(params.slug);
     
@@ -44,13 +44,18 @@ export default function ServicePage({ params }) {
     }
     
     const breadcrumbs = getServiceBreadcrumbs(params.slug, service.title);
+    const content = await getServiceContent(params.slug);
+
+    if (!content) {
+      notFound();
+    }
 
     return (
       <main className="service-page">
         <Header />
         <PageHeader title={service.title} breadcrumbs={breadcrumbs} />
         <div className="container">
-          <AboutSection slug={params.slug} />
+          <AboutSection slug={params.slug} content={content} />
         </div>
         <Specifications slug={params.slug} />
         <FAQSection service={params.slug} />

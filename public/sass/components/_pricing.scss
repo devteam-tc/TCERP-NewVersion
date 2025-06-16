@@ -10,10 +10,10 @@
     box-shadow: 0 10px 20px rgba(173,216,230,.5),0 6px 6px rgba(173,216,230,.7);
     height: 100%;
 
-    &:hover {
-      border-color: var(--bs-primary-color);
+    // &:hover {
+    //   border-color: var(--bs-primary-color);
      
-    }
+    // }
 
     .price-header {
       gap: 28px;
@@ -219,7 +219,7 @@
   .modal-content {
     max-width: 1000px;
     margin: 5px auto;
-    background: linear-gradient(194deg, rgba(231, 246, 250, 0.85) 2.06%, rgba(255, 255, 255, 0.85) 35.46%, rgba(253, 251, 251, 0.85) 67.41%, rgba(247, 240, 238, 0.85) 102.74%);
+    background: linear-gradient( 201deg , rgb(192 241 253 / 85%) 2.28%, hsla(0, 0%, 100%, .85) 13.07%, hsla(13, 36%, 95%, .85) 89.43%, rgb(255 192 175 / 85%) 100.24%);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(14.7px);

@@ -114,18 +114,16 @@
 
 // Industry Section Styles
 .industry-section {
-  padding: 20px;
-  background: #ffffff;
-  box-shadow: rgba(173, 216, 230, 0.5) 0px 10px 20px,
-              rgba(173, 216, 230, 0.7) 0px 6px 6px;
-  border-radius: 16px;
 
   .header {
     font-size: 28px;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
 
+    @media (max-width: 768px) {
+      margin-bottom: 10px;
+    }
     @media (max-width: 992px) {
       font-size: 22px;
     }
@@ -148,6 +146,122 @@
     }
   }
 
+  .industry-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    position: relative;
+    padding: 8px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      padding: 0px;
+      gap: 0px !important;
+      margin: 0 10px 15px;
+      justify-content: space-between;
+    }
+
+    .industry-tab {
+      position: relative;
+      padding: 12px 28px;
+      border: none;
+      background: transparent;
+      color: #666;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border-radius: 12px;
+      overflow: hidden;
+      z-index: 1;
+      white-space: nowrap;
+      flex-shrink: 0;
+
+      .full-name {
+        display: inline;
+      }
+
+      .short-name {
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        padding: 8px 12px;
+        font-size: 13px;
+        margin: 0;
+        flex: 1;
+        text-align: center;
+        min-width: 0;
+
+        .full-name {
+          display: none;
+        }
+
+        .short-name {
+          display: inline;
+        }
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        // background: linear-gradient(45deg, #e85600, #ff7e33);
+        background: linear-gradient(45deg, var(--bs-primary-500), var(--bs-primary-700));
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: -1;
+        border-radius: 12px;
+      }
+
+      &:hover {
+        color: #e85600;
+        background: rgba(232, 86, 0, 0.05);
+      }
+
+      &.active {
+        color: #fff;
+        font-weight: 600;
+
+        &::before {
+          opacity: 1;
+        }
+
+        &:hover {
+          background: transparent;
+        }
+      }
+    }
+  }
+
+  // Add a subtle animation for tab switching
+  @keyframes tabSwitch {
+    0% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .industry-card {
+    animation: tabSwitch 0.3s ease-out;
+  }
+
   .industry-card {
     display: flex;
     align-items: center;
@@ -156,20 +270,62 @@
     margin-bottom: 24px;
     background: #f9f9f9;
     box-shadow: 0 10px 20px #add8e680, 0 6px 6px #add8e6b3;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     animation: fadeInUp 0.6s ease both;
     position: relative;
     overflow: hidden;
+    height: 160px;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 
-    &:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    @media (max-width: 768px) {
+      height: 200px;
+      padding: 15px;
+      margin-bottom: 15px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      display: flex;
     }
 
-    @media (max-width: 992px) {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 16px;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        transparent,
+        rgba(255, 255, 255, 0.3),
+        transparent
+      );
+      transform: skewX(-25deg);
+      transition: 0.5s;
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 15px 30px rgba(173, 216, 230, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+
+      &::before {
+        left: 150%;
+      }
+
+      .icon-wrapper {
+        transform: scale(1.1);
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 8px 20px rgba(232, 86, 0, 0.15);
+      }
+
+      .title {
+        color: #e85600;
+      }
     }
 
     .icon-wrapper {
@@ -183,10 +339,13 @@
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
       margin-right: 20px;
       flex-shrink: 0;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
-      @media (max-width: 992px) {
+      @media (max-width: 768px) {
+        width: 65px;
+        height: 65px;
         margin-right: 0;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
       }
 
       .icon {
@@ -194,23 +353,39 @@
         height: 40px;
         color: #e85600;
         border-radius: 0px !important;
+
+        @media (max-width: 768px) {
+          width: 32px;
+          height: 32px;
+        }
       }
     }
 
     .card-content {
       flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
 
-      @media (max-width: 992px) {
-        text-align: left;
+      @media (max-width: 768px) {
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
       }
 
       .title {
         font-size: 20px;
         font-weight: 600;
         margin-bottom: 5px;
+        line-height: 1.2;
+        color: var(--bs-primary-500);
+        transition: color 0.3s ease;
 
-        @media (max-width: 992px) {
-          font-size: 18px;
+        @media (max-width: 768px) {
+          font-size: 15px;
+          margin-bottom: 8px;
+          line-height: 1.3;
         }
       }
 
@@ -219,23 +394,20 @@
         margin: 0;
         text-align: left;
         font-size: 15px;
-      }
-    }
+        line-height: 1.4;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
 
-    .arrow {
-      font-size: 20px;
-      color: #ef5226;
-      margin-left: auto;
-      cursor: pointer;
-      transition: transform 0.3s ease;
-
-      &:hover {
-        transform: translateX(4px);
-      }
-
-      @media (max-width: 992px) {
-        margin-left: 0;
-        margin-top: 10px;
+        @media (max-width: 768px) {
+          font-size: 13px;
+          text-align: center;
+          -webkit-line-clamp: 2;
+          line-height: 1.3;
+          margin-top: 5px;
+          height: 34px; // Ensures consistent height for 2 lines
+        }
       }
     }
   }

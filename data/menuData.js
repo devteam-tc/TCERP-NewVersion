@@ -82,37 +82,37 @@ export const menus = [
       {
         id: 41,
         title: "CRM",
-        link: "/all-modules/customer-relationship-management",
+        link: "/all-modules/crm",
       },
       {
         id: 42,
         title: "Sales",
-        link: "/all-modules/sales-management",
+        link: "/all-modules/sales",
       },
       {
         id: 43,
         title: "Purchase",
-        link: "/all-modules/purchase-management",
+        link: "/all-modules/purchase",
       },
       {
         id: 44,
         title: "Inventory",
-        link: "/all-modules/inventory-management",
+        link: "/all-modules/inventory",
       },
       {
         id: 45,
         title: "Production",
-        link: "/all-modules/production-management",
+        link: "/all-modules/production",
       },
       {
         id: 46,
         title: "Job Work",
-        link: "/all-modules/job-work-management",
+        link: "/all-modules/job-work",
       },
       {
         id: 47,
         title: "QA & QC" ,
-        link: "/all-modules/quality-control",
+        link: "/all-modules/qa-qc",
       },
 
    {
@@ -128,7 +128,7 @@ export const menus = [
     {
       id: 50,
       title: "HRMS",
-      link: "/all-modules/human-resource-management",
+      link: "/all-modules/hrms",
     },
     {
       id: 51,
@@ -143,17 +143,17 @@ export const menus = [
     {
       id: 53,
       title: "Project ",
-      link: "/all-modules/project-management",
+      link: "/all-modules/project",
     },
     {
       id: 54,
       title: "Design",
-      link: "/all-modules/design-management",
+      link: "/all-modules/design",
     },
     {
       id: 55,
       title: "POS",
-      link: "/all-modules/point-of-sale-management",
+      link: "/all-modules/pos",
     }
     ],
   },

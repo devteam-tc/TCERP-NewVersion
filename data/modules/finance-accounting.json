@@ -1,7 +1,7 @@
 {
   "mainHeaderSection": {
-    "subtitle": "Our Module",
-    "maintitle": "Smart Finance and Accounting Software for Smarter Business",
+    "heading": "Finance Management",
+    "maintitle": "Best Financial Management System for Real-Time Control",
     "description": "Tech Cloud ERP’s Finance & Accounting Software helps you manage invoices, payments, budgets and reports from one simple dashboard. Get real-time insights, stay compliant and reduce errors with easy-to-use, automated tools."
   },
   "featureSections": [
@@ -9,21 +9,21 @@
       "featuretitle": "Payment and Transaction Management",
       "featuredesc": " Record and manage all customer and supplier payments, credit notes, deposits and transfers with full transparency. Easily allocate payments to invoices, make journal entries, reconcile bank accounts and handle costs and revenue accruals all in one place.",
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/home-four-feature-01.png",
+      "dashboardImage": "/images/modules/finance&accounting/module-1.webp",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Inquiries and Financial Reporting",
       "featuredesc": " Access all key reports such as trial balances, tax reports, profit & loss drilldowns and general ledger summaries. Use insights from bank transactions, supplier & customer payments and deposits to make smart, data-backed decisions.",
      "featurelink": "Explore More",    
-       "dashboardImage": "/images/modules/home-four-feature-02.png",
+       "dashboardImage": "/images/modules/finance&accounting/module-2.webp",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Account and Currency Master Setup",
       "featuredesc": " Maintain and configure all financial master data including GL accounts, currencies, exchange rates, account classes, tags and revaluation rules. Easily manage your bank accounts, set up closing transactions and build a strong accounting foundation.",
      "featurelink": "Explore More",    
-       "dashboardImage": "/images/modules/home-four-feature-03.png",
+       "dashboardImage": "/images/modules/finance&accounting/module-3.webp",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],
@@ -32,7 +32,7 @@
       "title": "Transform Your Customer Relationships",
       "description": "Discover how our CRM solution helps you build stronger customer relationships, streamline your sales process, and drive business growth. Watch how our platform enables you to manage contacts, track leads, and deliver exceptional customer experiences.",
       "thumbnail": "/images/modules/video-thumbnail.png",
-      "videoUrl": "https://www.youtube.com/embed/x4cxxrDdzWo",
+      "videoUrl": "https://res.cloudinary.com/techclouderp/video/upload/v1749719811/crm-module_htem2g.webm",
       "module": "customer-relationship-management"
     },
     "cards": {

@@ -39,16 +39,13 @@
       
     ],
     "about": {
-      "subtitle": "ABOUT OUR APP DEVELOPMENT",
       "heading": "Innovative App Development That Drives Results",
-      "paragraph": "Our team creates tailored mobile and desktop apps that solve real business challenges. Whether it's cross-platform or native, we build with performance, security and growth in mind.",
+      "paragraph": "At Tech Cloud ERP, we bring your app ideas to life with tailored development that prioritizes users and performance. From design to deployment and beyond we build secure, feature-rich iOS and Android applications that align with your vision and business goals. Whether you're launching a new product or enhancing an existing one, our team ensures a smooth, scalable digital experience.",
       "features": [
-        "Agile development approach",
-        "Enterprise-grade security standards",
-        "Optimized for speed, UX & market demand"
+        "End-to-End App Development",
+        "Continuous Support & Optimization"
       ],
-      "imageMain": "/images/servicescards/app-development.png",
-      "imageDecor": "/images/servicescards/dot-grp1.png"
+      "imageMain": "/images/servicescards/about1.png"
     },
     "faq": [
       {

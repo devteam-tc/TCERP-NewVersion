@@ -25,15 +25,18 @@ const Testimonial = () => {
               </div>
               <div className="call-us">
                 <a
-                  href="tel:(704)555-0127"
+                  href="tel:+918919439603"
                   className="call-us-btn style2 d-flex align-items-center gap-3"
                 >
                   <span className="icon d-flex justify-content-center align-items-center">
                     <FaPhoneAlt size={20} color="white" />
                   </span>
                   <div className="info">
-                    <span className="title ">Call Us Anytime</span>
-                    <h4 className="number">+91 8919439603, +91 7032803200</h4>
+                    <span className="title">Call Us Anytime</span>
+                    <div className="numbers d-flex flex-column flex-sm-row">
+                      <h4 className="number mb-1 mb-sm-0 me-sm-2">+91 8919439603</h4>
+                      <h4 className="number">+91 7032803200</h4>
+                    </div>
                   </div>
                 </a>
               </div>
@@ -68,13 +71,7 @@ const Testimonial = () => {
                       </div>
                       <div className="user-info d-flex align-items-center justify-content-between gap-4">
                         <div className="user d-flex align-items-center">
-                          <div className="img overflow-hidden rounded-pill flex-shrink-0">
-                            {/* <Image
-                              src={testimonial.img}
-                              alt={testimonial.name}
-                              className="w-100 h-100 object-fit-cover"
-                            /> */}
-                          </div>
+                          
                           <div className="text">
                             <h4 className="name">{testimonial.name}</h4>
                             <p className="designation">{testimonial.designation}</p>

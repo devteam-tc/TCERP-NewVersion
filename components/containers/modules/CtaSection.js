@@ -21,8 +21,8 @@ const CtaSection = () => {
   return (
     <div className="ctaSection-container">
       <div className="ctaSection-content">
-        <h2 className="ctaSection-title">Want a Sneak Peek ?</h2>
-        <p className="ctaSection-subtitle">Discover how our platform can simplify your workflow and drive business growth.</p>
+        <h2 className="ctaSection-title">Curious to Know More?</h2>
+        <p className="ctaSection-subtitle">Let’s show you how we make complex business processes simple and seamless.</p>
         <div className="ctaSection-buttons">
           <button 
             className="ctaSection-button ctaSection-button--outline"

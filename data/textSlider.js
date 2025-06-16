@@ -29,10 +29,10 @@
 //   },
 // ];
 export const partnerData = [
-  { link: '/products/quality-control', imgSrc: "/partner/finance.png", alt: 'Finance' },
-  { link: '/products/job-work-management', imgSrc: "/partner/HRM.png", alt: 'HRMS' },
-  { link: '/products/production-management', imgSrc: "/partner/ecomm.png", alt: 'Ecommerce' },
-  { link: '/products/inventory-management', imgSrc: "/partner/trading.png", alt: 'Trading' },
+  { link: '/products/qa-qc', imgSrc: "/partner/finance.png", alt: 'Finance' },
+  { link: '/products/job-work', imgSrc: "/partner/HRM.png", alt: 'HRMS' },
+  { link: '/products/production', imgSrc: "/partner/ecomm.png", alt: 'Ecommerce' },
+  { link: '/products/inventory', imgSrc: "/partner/trading.png", alt: 'Trading' },
   { link: '/products/purchase-management', imgSrc: "/partner/POS.png", alt: 'POS' },
-  { link: '/products/sales-management', imgSrc: "/partner/CRMD.png", alt: 'CRM' },
+  { link: '/products/sales', imgSrc: "/partner/CRMD.png", alt: 'CRM' },
   ];

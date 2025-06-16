@@ -35,7 +35,7 @@
       }
     ]
   },
-  "sales-management": {
+  "sales": {
     "mainTitle": "Our CRM Solutions Overview",
     "heading": " Sales Management",
     "cards": [
@@ -143,7 +143,7 @@
       }
     ]
   },
-  "inventory-management": {
+  "inventory": {
     "mainTitle": "Why Choose Tech Cloud ERP",
     "heading": "Inventory Management",
     "cards": [
@@ -179,7 +179,7 @@
       }
     ]
   },
-  "production-management": {
+  "production": {
     "mainTitle": "Our E-Commerce Overview",
     "heading": "Production Management",
     "cards": [
@@ -215,7 +215,7 @@
       }
     ]
   },
-  "job-work-management": {
+  "job-work": {
     "mainTitle": "Our HR Management Solutions",
     "heading": "  Job Work Management",
     "cards": [
@@ -267,7 +267,7 @@
       }
     ]
   },
-  "quality-control": {
+  "qa-qc": {
     "mainTitle": "Finance Provide You Best Services",
     "heading": "Quality Control",
     "cards": [
@@ -365,7 +365,7 @@
       }
     ]
   },
-  "human-resource-management":{
+  "hrms":{
     "mainTitle": "Plant Maintenance Management",
     "heading": "Plant Maintenance",
     "cards": [
@@ -473,7 +473,7 @@
       }
     ]
   },
-  "project-management":{
+  "project":{
     "mainTitle": "Plant Maintenance Management",
     "heading": "Plant Maintenance",
     "cards": [
@@ -509,7 +509,7 @@
       }
     ]
   },
-  "design-management":{
+  "design":{
     "mainTitle": "Plant Maintenance Management",
     "heading": "Plant Maintenance",
     "cards": [
@@ -545,7 +545,7 @@
       }
     ]
   },
-  "point-of-sale-management":{
+  "pos":{
     "mainTitle": "Plant Maintenance Management",
     "heading": "Plant Maintenance",
     "cards": [

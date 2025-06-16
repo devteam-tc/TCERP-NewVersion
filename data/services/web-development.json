@@ -75,16 +75,13 @@
       
     ],
     "about": {
-      "subtitle": "ABOUT OUR WEB DEVELOPMENT",
-      "heading": "Custom Web Solutions for Your Business",
-      "paragraph": "Need a website that's fast, functional and future-ready? We blend design and development with digital marketing strategy to give you the competitive edge online.",
+      "heading": "Custom Web Development That Delivers Results",
+      "paragraph": "At Tech Cloud ERP, we bring your vision to life with thoughtful web development built for real impact. We begin with a clear understanding of your audience and goals, then architect both stunning user interfaces and resilient backend systems to deliver a seamless experience. Our team handles everything—from responsive design and clean UI/UX to performance optimization and ongoing technical support—so your site stays fast, secure, and ready to scale.",
       "features": [
-        "Responsive & modern designs",
-        "SEO-friendly architecture",
-        "Fast loading and mobile-friendly"
+        "Goal-Focused Design",
+        "Smooth Development & Support"
       ],
-      "imageMain": "/images/servicescards/web-development.png",
-      "imageDecor": "/images/servicescards/dot-grp1.png"
+      "imageMain": "/images/servicescards/about1.png"
     },
     "faq": [
       {

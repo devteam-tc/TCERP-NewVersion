@@ -1,8 +1,6 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { Container } from 'react-bootstrap';
-import { useMediaQuery } from 'react-responsive';
 import PageHeader from '../../layout/PageHeader';
 import Footer from '../../layout/footer/Footer';
 import Header from '../../layout/header/Header';
@@ -10,26 +8,41 @@ import CustomCursor from '../../layout/CustomCursor';
 import FaqSection from '../modules/FaqSection';
 import { FaHome } from 'react-icons/fa';
 import VideoSection from '../modules/VideoSection';
-// import MultipleCardsSection from '../modules/MultipleCardsSection';
 import CtaSection from '../modules/CtaSection';
 import WorkProcessSection from '../../containers/modules/WorkProcessSection'
+
 const ModulePage = ({ params, slug }) => {
+  const [moduleData, setModuleData] = useState(null);
   const moduleSlug = params?.slug || slug;
-  const moduleName = moduleSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+  useEffect(() => {
+    const loadModuleData = async () => {
+      try {
+        const data = await import(`../../../data/modules/${moduleSlug}.json`);
+        setModuleData(data.default);
+      } catch (err) {
+        console.error(`Failed to load module data:`, err);
+      }
+    };
+
+    loadModuleData();
+  }, [moduleSlug]);
 
   const breadcrumbs = [
     { label: 'Home', link: '/', icon: FaHome },
     { label: 'All Modules', link: '/all-modules' },
-    { label: moduleName, link: null },
+    { label: moduleData?.mainHeaderSection?.heading || moduleSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()), link: null },
   ];
   
   return (
     <>
       <Header />
-      <PageHeader title={moduleName} breadcrumbs={breadcrumbs} />
+      <PageHeader 
+        title={moduleData?.mainHeaderSection?.heading || moduleSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} 
+        breadcrumbs={breadcrumbs} 
+      />
       <WorkProcessSection slug={moduleSlug} />
       <VideoSection slug={moduleSlug} />
-      {/* <MultipleCardsSection slug={moduleSlug} /> */}
       <FaqSection slug={moduleSlug} />
       <CtaSection />
       <Footer />

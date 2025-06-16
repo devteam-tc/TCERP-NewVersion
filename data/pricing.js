@@ -9,39 +9,42 @@ export const indiaPricingPlans = [
      
       "1–5 Essential Modules",
       "Up to 5 Users",
-      "Freelancers & Small Teams",
-      "Quick Setup with Guidance",
-      "Basic Reporting & Analytics",
-      "Limited"
+      "Best for Small Businesses",
+      "Standard Backup & Data Security",
+      "Basic Reports & Insights",
+      "Limited Customization",
+      "Quick Setup"
     ],
   },
   {
     id: 2,
-    title: "Enterprise",
+    title: "Growth",
     description: "Per User, Per Month.",
     price: " ₹1500",
     features: [
        
-      "1–15 Business Modules",
+      "1–15 Integrated Modules",
       "Up to 25 Users",
-      "SMEs & Scaling Teams",
-      "Priority Onboarding Support",
-      "Reports & Dashboards",
-      "Moderate"
+      "Ideal for Growing Companies",
+      "Enhanced Security & Scheduled Backups",
+      "Advanced Reporting & Dashboards",
+      "Moderate Customization",
+      "Scalable Module Expansion"
     ],
   },
   {
     id: 3,
-    title: "Ultimate",
+    title: "Pro+ (Custom)",
     description: "Per User, Per Month.",
     price: "Talk to us",
     features: [ 
       "Industries Specific Modules",
       "Unlimited Users",
       "Enterprises & High-Growth Businesses",
-      "Dedicated Business Analyst",
-      "Customized Dashboards",
-      "Full Customization Options"
+      "Enterprise-Grade Security & Full Backups",
+      "Custom Dashboards & Reports",
+      "Full Customization Options",
+      "Workflow Automation & Role-Based Access"
     ],
   },
 ];

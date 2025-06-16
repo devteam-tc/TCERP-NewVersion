@@ -2,33 +2,33 @@
 {
     "industries": {
       "apparel-erp-software": {
-        "title": "#1 Smart ERP Solutions for Apparel Industry",
-        "description": "Grow your apparel business with our advanced ERP software. Streamline design, production, inventory, and sales for improved efficiency and growth.",
+        "title": "ERP Software for Apparel Industry | Increase Efficiency",
+        "description": "Apparel ERP software helps clothing brands automate operations, from design to delivery. Boost productivity and gain full control of your supply chain.",
         "keywords": "Apparel ERP Software, ERP System, Apparel Inventory Management Software, Apparel Manufacturing Software, Clothing Manufacturing Software, Apparel Management Software, Apparel Inventory Software"
       },
       "automotive-erp-software": {
-        "title": "#1 Best ERP software for the Automotive Industry",
-        "description": "Explore automotive software designed for the automotive industry. Simplify processes, enhance efficiency, and drive growth with Tech Cloud ERP",
+        "title": "Cloud ERP for Automotive Industry | Scalable and Secure",
+        "description": "Best ERP for automotive industry helps manufacturers optimize workflows, ensure compliance and drive profitability through smarter, integrated solutions.",
         "keywords": "automotive it solutions, automotive industry solutions, automotive crm software,automotive industry software"
       },
       "food-and-beverage-erp": {
-        "title": "#1 Best ERP Software for Beverage Industry",
-        "description": "Streamline beverage manufacturing with ERP software. Manage production, inventory, and supply chain seamlessly using Tech Cloud ERP solutions.",
+        "title": "ERP Software for Food & Beverage Industry | Tech Cloud ERP",
+        "description": "Explore ERP solutions for the furniture industry to optimize manufacturing, inventory and sales operations for improved efficiency and business growth.",
         "keywords": "food and beverage erp,beverage erp,beverage industry software,beverage manufacturing erp software"
       },
       "agriculture-industry": {
-        "title": "#1 Best ERP Solution for the Agriculture Industry",
-        "description": "Discover ERP software for the agriculture industry. Streamline operations, enhance productivity, and grow your agribusiness with Tech Cloud ERP.",
+        "title": "All-in-One Farm ERP for Modern Agro-Industry Needs",
+        "description": "Boost your farm’s efficiency and productivity with our advanced farm ERP system. Manage crops, inventory and finances seamlessly in one platform.",
         "keywords": "farm management software,agro industry,agriculture software,farm technology,farm software"
       },
       "chemical-erp-software": {
-        "title": "#1 Best ERP for Chemical Industry | Tech Cloud ERP",
-        "description": "Enhance chemical manufacturing with ERP for the chemical industry. Track processes, ensure quality, and boost productivity with Tech Cloud ERP.",
+        "title": "Best ERP Software for Chemical Industry | Improve Efficiency",
+        "description": "Optimize your processes with our chemical manufacturing ERP. Enhance production, ensure compliance and improve efficiency with tailored industry solutions.",
         "keywords": "chemical manufacturing erp, chemical software, chemical erp, chemical industry erp, ERP for Chemical Industry"
       },
       "school-management-system": {
-        "title": "#1 Best ERP Software for Educational Industry",
-        "description": "Discover Education ERP software to optimize academic and administrative processes. Simplify management and improve efficiency with Tech Cloud ERP.",
+        "title": "Education ERP Software for Efficient Academic Management",
+        "description": "Transform your institution with education ERP software that automates processes, enhances communication and supports academic and administrative tasks.",
         "keywords": "Education ERP software,school erp, erp for school management,school management system software, erp for education institutes,erp software for schools & college, school erp software"
       },
       "solar-erp-software": {
@@ -184,7 +184,7 @@
       "description": "Discover the best ERP software to optimize your business operations, boost efficiency and drive growth. Unlock smarter management solutions today.",
       "keywords": "Tech cloud erp, Tech Cloud, best cloud based erp software,"
     },
-    "sales-management": {
+    "sales": {
       "title": "Optimize Sales and Boost Customer Relations with CRM Software",
       "description": "Boost customer relationships and drive sales with CRM software to optimize communication, track leads and enhance customer satisfaction in one platform.",
       "keywords": "What is Customer Relationship Management, What is CRM, Customer Relationship Management, crm software, crm management software, best crm software, crm system"
@@ -194,22 +194,22 @@
       "description": "Optimize sales, manage inventory and enhance customer experience with a smart Point of Sale (POS) system tailored for retail and restaurant businesses.",
       "keywords": "POS Software, Point of Sale Software, pos billing software, retail pos software india, best pos software in india, download pos software, best pos billing software in india, best retail pos software in india, pos software india, point of sale software india, free pos software india, pos software for retail stores in india"
     },
-    "inventory-management": {
+    "inventory": {
       "title": "Smarter Trading Software for Fast, Informed Decisions",
       "description": "Discover the best ERP for trading businesses to optimize inventory, sales and accounting with real-time insights and automation to boost your efficiency.",
       "keywords": "Trading Software, best futures trading platform"
     },
-    "production-management": {
+    "production": {
       "title": "All-in-One E-commerce ERP Solution for Smarter Operations",
       "description": "Accelerate your e-commerce growth with ERP software that integrates inventory, orders and finances | perfect for scaling your online store.",
       "keywords": "Build an online store for your ecommerce business, E-commerce software, erp system ecommerce, best ecommerce platform for small business, e commerce platforms, ecommerce inventory management software, ecommerce inventory software"
     },
-    "job-work-management": {
+    "job-work": {
       "title": "Smart HRMS for Efficient Employee Management Systems",
       "description": "Elevate HR processes with our HRMS solution. Simplify payroll, recruitment, employee management and more for a dynamic workforce experience.",
       "keywords": "human resources management system, HCM, hr management, erp software, best hr software, best hr systems"
     },
-    "quality-control": {
+    "qa-qc": {
       "title": "Efficient Financial Management System for Better Business Control",
       "description": "Optimize your business with our Finance Software. Manage budgets, expenses and financial reporting efficiently for improved decision-making.",
       "keywords": "Financial Management System, financial management software, personal finance management software, personal money management software, finance, accounting, erp financial management tools, cloud financial management"

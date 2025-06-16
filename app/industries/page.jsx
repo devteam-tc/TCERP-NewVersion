@@ -41,9 +41,7 @@ export default async function IndustriesPage() {
     <>
       <Header/>
       <PageHeader title="Industries" breadcrumbs={breadcrumbs}/>
-      {Object.values(data.categories).map((category, index) => (
-        <Industries key={index} industryList={category.industries} index={index} />
-      ))}
+      <Industries categories={data.categories} />
       <Footer/>
       <CustomCursor/>
     </>

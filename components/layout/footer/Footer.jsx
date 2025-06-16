@@ -98,12 +98,12 @@ const Footer = () => {
                     <ul className="list-unstyled">
                       <li><Link href="/services">All Services </Link></li>
                       <li><Link href="/services/web-development/">Web Development</Link></li>
-                      <li><Link href="/all-modules/production-management/">E-Commerce </Link></li>
+                      <li><Link href="/all-modules/production/">E-Commerce </Link></li>
                       <li><Link href="/services/app-development/">Mobile App Development</Link></li>
                       <li><Link href="/services/digital-marketing/">Digital Marketing</Link></li>
-                      <li><Link href="/all-modules/inventory-management/">Trading Software</Link></li>
+                      <li><Link href="/all-modules/inventory/">Trading Software</Link></li>
                       <li><Link href="/business-intelligence/">Business Intelligence</Link></li>
-                      <li><Link href="/all-modules/purchase-management/">POS</Link></li>
+                      <li><Link href="/all-modules/purchase/">POS</Link></li>
                     </ul>
                   </div>
                 </div>

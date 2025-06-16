@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 const InfoCards = ({ infoCards }) => (
   <div className="row g-4 two-info-cards">
     {infoCards?.map((card, index) => (

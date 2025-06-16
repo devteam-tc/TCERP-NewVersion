@@ -1,6 +1,6 @@
 {
    
-    "sales-management": [
+    "sales": [
       {
         "id": 1,
         "question": "Who needs CRM software?",
@@ -34,7 +34,7 @@
         "answer": "Yes, with our cloud-based POS, you can monitor sales, stock levels and employee activity in real-time from any device."
       }
     ],
-    "inventory-management": [
+    "inventory": [
       {
         "id": 1,
         "question": "Is the software customizable to my business needs?",
@@ -51,7 +51,7 @@
         "answer": "Yes, the Trading Software is designed to be scalable, making it ideal for startups, SMEs, and growing businesses looking to automate and grow efficiently."
       }
     ],
-    "production-management": [
+    "production": [
       {
         "id": 1,
         "question": "Can I manage inventory with Ecommerce software?",
@@ -68,7 +68,7 @@
         "answer": "Tech Cloud ERP's E-Commerce Software is designed to be flexible and customizable, allowing businesses to tailor the solution to their specific requirements."
       }
     ],
-    "job-work-management": [
+    "job-work": [
       {
         "id": 1,
         "question": "Is an HRMS suitable for small businesses?",
@@ -85,7 +85,7 @@
         "answer": "We use enterprise-grade encryption, secure cloud hosting and role-based access controls to ensure your data is fully protected."
       }
     ],
-    "quality-control": [
+    "qa-qc": [
       {
         "id": 1,
         "question": "What is financial and accounting ERP software?",

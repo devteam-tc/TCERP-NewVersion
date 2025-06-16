@@ -44,6 +44,24 @@ export function getServiceData(slug) {
 }
 
 /**
+ * Get service content data for a given slug
+ * @param {string} slug - The service slug
+ * @returns {Object|null} The service content data or null if not found
+ */
+export async function getServiceContent(slug) {
+  const normalizedSlug = normalizeSlug(slug);
+  const baseSlug = normalizedSlug.replace('-services', '');
+  
+  try {
+    const content = await import(`../../data/services/${baseSlug}.json`);
+    return content.default;
+  } catch (error) {
+    console.error(`Failed to load content for slug: ${slug}`, error);
+    return null;
+  }
+}
+
+/**
  * Generate breadcrumbs for service pages
  * @param {string} slug - The service slug
  * @param {string} serviceTitle - The service title

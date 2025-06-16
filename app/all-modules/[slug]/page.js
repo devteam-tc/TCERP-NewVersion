@@ -1,38 +1,39 @@
 import { notFound } from 'next/navigation';
-import ProductPage from '../../../components/containers/module-details/ModulePage';
+import ModulePage from '../../../components/containers/module-details/ModulePage';
 
-const productSlugs = [
-  'customer-relationship-management',
-  'sales-management',
-  'purchase-management',
-  'inventory-management',
-  'production-management',
-  'job-work-management',
-  'quality-control',
+
+const moduleSlugs = [
+  'crm',
+  'sales',
+  'purchase',
+  'inventory',
+  'production',
+  'job-work',
+  'qa-qc',
   'fixed-assets',
   'plant-maintenance',
-  'human-resource-management',
+  'hrms',
   'finance-accounting',
   'imports-exports',
-  'project-management',
-  'design-management',
-  'point-of-sale-management',
+  'project',
+  'design',
+  'pos',
 
   
 ];
 
 export function generateStaticParams() {
-  return productSlugs.map((slug) => ({ slug }));
+  return moduleSlugs.map((slug) => ({ slug }));
 }
 
-export default function ProductPageWrapper({ params }) {
+export default function ModulePageClientWrapper({ params }) {
   const { slug } = params;
 
   // ✅ Use .includes() for array
-  if (!productSlugs.includes(slug)) {
+  if (!moduleSlugs.includes(slug)) {
     notFound(); // Shows 404 page
     return null;
   }
 
-  return <ProductPage slug={slug} />;
+  return <ModulePage slug={slug} />;
 }

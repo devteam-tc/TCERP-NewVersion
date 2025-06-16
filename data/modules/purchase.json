@@ -1,0 +1,87 @@
+{
+  "mainHeaderSection": {
+    "heading": "Purchase Management",
+    "maintitle": "Purchase Order System to Manage Your Procurements",
+    "description": "Simplify and manage your procurement process easily with Tech Cloud ERP. From request to payment, handle each step in one place saving time, reducing manual work and helping you make better decisions with clear and simple data."
+  },
+  "featureSections": [
+    {
+      "featuretitle": "Purchase Requisition & Quotation Handling",
+      "featuredesc": " Begin the procurement process by creating a Purchase Requisition (PR), where you specify the materials or services needed, required quantities and delivery dates. Once the PR is approved, send Requests for Quotation (RFQs) to suppliers, receive their offers and evaluate quotations based on price, quality and delivery terms.",
+      "featurelink": "Explore More",
+      "dashboardImage": "/images/modules/purchase/module-1.webp",
+      "imageAlt": "Lead Management Dashboard"
+    },
+    {
+      "featuretitle": "Purchase Order Creation & Goods Receipt",
+      "featuredesc": " Convert approved quotations into formal Purchase Orders (POs) that define quantities, pricing, terms and delivery schedules. After the supplier delivers the goods or services, record the receipt against the PO. Match the supplier invoice with both the PO and Goods Receipt Note (GRN) to ensure accuracy before posting for payment.",
+     "featurelink": "Explore More",    
+       "dashboardImage": "/images/modules/purchase/module-2.webp",
+      "imageAlt": "Sales Automation Dashboard"
+    },
+    {
+      "featuretitle": "Vendor Data Management",
+      "featuredesc": " Maintain a centralized vendor database with key information such as contact details, payment terms, tax IDs and compliance documents. This ensures smooth communication, faster procurement cycles and better vendor evaluation over time.",
+     "featurelink": "Explore More",   
+        "dashboardImage": "/images/modules/purchase/module-3.webp",
+      "imageAlt": "Sales Automation Dashboard"
+    }
+  ],
+    "videosection": {
+      "title": "Transform Your Customer Relationships",
+      "description": "Discover how our CRM solution helps you build stronger customer relationships, streamline your sales process, and drive business growth. Watch how our platform enables you to manage contacts, track leads, and deliver exceptional customer experiences.",
+      "thumbnail": "/images/modules/video-thumbnail.png",
+      "videoUrl": "https://res.cloudinary.com/techclouderp/video/upload/v1749719811/crm-module_htem2g.webm",
+      "module": "customer-relationship-management"
+    },
+    "cards": {
+    "headline": "Powerful CRM Features for Modern Business Needs",
+    "buttonText": "Explore Features",
+    "cards": [
+      {
+        "icon": "Layers",
+        "title": "Contact Management",
+        "description": "Centralize all customer information in one place with our comprehensive contact management system. Track interactions, manage relationships, and stay organized."
+      },
+      {
+        "icon": "Lock",
+        "title": "Secure Data Storage",
+        "description": "Keep your customer data safe with enterprise-grade security features. Our platform ensures data protection and compliance with industry standards."
+      },
+      {
+        "icon": "Link",
+        "title": "Integration Capabilities",
+        "description": "Seamlessly connect with your existing tools and platforms. Our CRM integrates with popular business applications for a unified experience."
+      },
+      {
+        "icon": "Database",
+        "title": "Advanced Analytics",
+        "description": "Gain valuable insights with powerful analytics tools. Track performance, monitor trends, and make data-driven decisions to grow your business."
+      }
+    ]
+  },
+  "faqs": {
+    "subTitle": "Frequently Asked Questions",
+    "title": "Everything You Need to Know About Our CRM Solution",
+    "items": [
+      {
+        "question": " What is a purchase order?",
+        "answer": " A purchase order is a formal document sent by a buyer to a supplier outlining the products or services requested along with pricing and delivery terms."
+      },
+      {
+        "question": "How is a purchase requisition different from a purchase order?",
+        "answer": " A purchase requisition is an internal request to buy something. Once approved, it is converted into a purchase order that’s sent to the supplier."
+      },
+      {
+        "question": " Why do businesses use purchase order software?",
+        "answer": "  It helps streamline procurement, avoid manual errors, maintain records and improve transparency across departments and vendors."
+      },
+      {
+        "question":"Can I customize the purchase order format?",
+        "answer":" Yes. Most systems allow you to tailor the layout and fields to match your company's documentation and compliance needs."
+      }
+    
+    ]
+  }
+  }
+  

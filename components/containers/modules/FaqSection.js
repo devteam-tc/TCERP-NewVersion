@@ -27,10 +27,10 @@ const FaqSection = ({ slug, extraClassName = '' }) => {
   }
 
   return (
-    <section className="faq-section">
+    <section className="faq-section pt-60 pb-60">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
+        <div className="row justify-content-center">
+          <div className="col-lg-8">
                   <h2 className="faq-title">Frequently Asked Questions</h2>
             <div className="faq-body">
               <div className="accordion">
