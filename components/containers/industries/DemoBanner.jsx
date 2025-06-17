@@ -12,7 +12,7 @@ const DemoBanner = () => (
       `}</style>
       <Link href="/demo" className="demo-banner-link">
         <Image
-          src="/images/industry-icons/book-a-demo-img.jpg"
+          src="/images/industry-icons/book-a-demo-img.webp"
           alt="Book a personalized demo of our industry solutions"
           width={1200}
           height={300}

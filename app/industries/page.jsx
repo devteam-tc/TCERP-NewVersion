@@ -1,4 +1,3 @@
-// app/industries/page.js
 export const dynamic = "force-static"; // Ensures this page is statically generated
 import Industries from "../../components/containers/industries/industries";
 import CustomCursor from "../../components/layout/CustomCursor";
