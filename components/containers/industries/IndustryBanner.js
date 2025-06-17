@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function IndustryBanner({ banner, title }) {
   return (
     <div className="project-banner-image position-relative mb-4 mb-lg-0 mt-4">
-      <div className="reveal zoom-out overflow-hidden" style={{ width: '100%', aspectRatio: '2/1' }}>
+      <div className="zoom-out overflow-hidden" style={{ width: '100%', aspectRatio: '2/1' }}>
         <Image
           priority
           src={banner}
@@ -14,7 +14,7 @@ export default function IndustryBanner({ banner, title }) {
           style={{
             width: '100%',
             height: '100%',
-            objectFit: 'cover',
+            // objectFit: 'cover',
             objectPosition: 'center'
           }}
         />

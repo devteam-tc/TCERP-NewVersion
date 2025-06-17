@@ -1,3 +1,7 @@
+
+'use client';
+
+
 import React, { useState, useEffect, useRef } from 'react';
 import { FaMinus, FaTimes } from 'react-icons/fa';
 import '../../../public/sass/components/_video-section.scss';

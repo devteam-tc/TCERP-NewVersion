@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import PageHeader from '../../layout/PageHeader';
 import Footer from '../../layout/footer/Footer';
 import Header from '../../layout/header/Header';
@@ -11,39 +11,25 @@ import VideoSection from '../modules/VideoSection';
 import CtaSection from '../modules/CtaSection';
 import WorkProcessSection from '../../containers/modules/WorkProcessSection'
 
-const ModulePage = ({ params, slug }) => {
-  const [moduleData, setModuleData] = useState(null);
-  const moduleSlug = params?.slug || slug;
-
-  useEffect(() => {
-    const loadModuleData = async () => {
-      try {
-        const data = await import(`../../../data/modules/${moduleSlug}.json`);
-        setModuleData(data.default);
-      } catch (err) {
-        console.error(`Failed to load module data:`, err);
-      }
-    };
-
-    loadModuleData();
-  }, [moduleSlug]);
+const ModulePage = ({ slug, initialData }) => {
+  const moduleData = initialData;
 
   const breadcrumbs = [
     { label: 'Home', link: '/', icon: FaHome },
     { label: 'All Modules', link: '/all-modules' },
-    { label: moduleData?.mainHeaderSection?.heading || moduleSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()), link: null },
+    { label: moduleData?.mainHeaderSection?.heading || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()), link: null },
   ];
   
   return (
     <>
       <Header />
       <PageHeader 
-        title={moduleData?.mainHeaderSection?.heading || moduleSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} 
+        title={moduleData?.mainHeaderSection?.heading || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} 
         breadcrumbs={breadcrumbs} 
       />
-      <WorkProcessSection slug={moduleSlug} />
-      <VideoSection slug={moduleSlug} />
-      <FaqSection slug={moduleSlug} />
+      <WorkProcessSection slug={slug} />
+      <VideoSection slug={slug} />
+      <FaqSection slug={slug} />
       <CtaSection />
       <Footer />
       <CustomCursor />
