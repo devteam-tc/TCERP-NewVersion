@@ -66,18 +66,15 @@
         }
          
       ],
-    "about": {
-      "subtitle": "ABOUT OUR DIGITAL MARKETING",
-      "heading": "Digital Strategies That Drive Results",
-      "paragraph": "We craft tailored strategies to put your brand in front of the right audience, at the right time across the right platforms.",
-      "features": [
-        "ROI-focused campaigns",
-        "Expert SEO & PPC services",
-        "Social media optimization"
-      ],
-      "imageMain": "/images/servicescards/digital-marketing.png",
-      "imageDecor": "/images/servicescards/dot-grp1.png"
-    },
+      "about": {
+        "heading": "Transform Your Online Presence with Expert Digital Marketing",
+        "paragraph": "At Tech Cloud ERP, we offer tailored digital marketing solutions to help your business grow online. From improving search rankings to running high-converting ad campaigns, we combine strategy and creativity to bring your brand closer to the people who matter. Whether you're looking for SEO, PPC, or social media marketing we’re here to make it work for you.",
+        "features": [
+          "End-to-End Digital Marketing Strategy",
+          "Data-Driven Execution & Continuous Optimization"
+        ],
+        "imageMain": "/images/servicescards/about1.png"
+      },
     "faq": [
       {
         "question": "What is digital marketing and why is it important for my website?",

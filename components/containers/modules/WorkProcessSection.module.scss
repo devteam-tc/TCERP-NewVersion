@@ -16,13 +16,14 @@
   }
   
   .title {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
     color: var(--bs-black-color);
-    margin-bottom: 10px;
+    margin-bottom: 0;
   
     @media (max-width: 992px) {
-      font-size: 26px;
+      font-size: 24px;
+      line-height: 35px;
     }
   }
   
@@ -37,32 +38,38 @@
   }
   
   .stepTitle {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28.8px;
+    font-size: 32px;
+    font-weight: 600;
+    // margin-bottom: 1rem;
     color: var(--bs-primary-500);
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
     display: flex;
-    align-items: center;
-    gap: 15px;
+    align-items: start;
+    gap: 0.5rem;
+    @media screen and (max-width :992px) {
+      font-size: 20px;
+    }
   }
   
   .stepNumber {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 28.8px;
     letter-spacing: -0.02em;
     color: #b2e4ef;
-    margin-top: -5px;
+    margin-top: 5px;
+    @media screen and (max-width :992px) {
+      font-size: 20px;
+    }
   }
   
   .stepDescription {
-    font-size: 16px;
-    color: #6c757d;
+    font-size: 18px;
+    color: #000;
     margin-bottom: 20px;
-    padding-left: 12px;
+    padding-left: 45px;
+    @media screen and (max-width:992px) {
+      padding-left: 2px;
+    }
   }
   
   .iconWrapper {

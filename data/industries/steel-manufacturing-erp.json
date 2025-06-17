@@ -70,8 +70,8 @@
   "customers": "200+",
   "downloadWidget": {
     "bgShape": "/images/shapes/widget-bg.png",
-    "image": "/images/industry-icons/book-3.png",
-   "title": " ",
+    "image": "/images/industry-icons/book-3.webp",
+    "title": " ",
     "spanTitle": "Steel Manufacturing Guide",
     "buttonText": "Download Brochure"
   }

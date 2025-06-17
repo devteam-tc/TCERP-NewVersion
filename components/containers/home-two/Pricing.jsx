@@ -92,7 +92,7 @@ const PricingContent = ({ extraClassName = '' }) => {
         </div>
       </div>
       <p className="text-center mt-4" style={{ fontSize: '12px' }}>
-        Taxes (GST/VAT) may apply based on region
+       *Taxes (GST/VAT) may apply based on region
       </p>
     </section>
   );

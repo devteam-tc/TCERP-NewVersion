@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/plastic_banner_img.webp",
   "title": "Plastic Industry",
-  "description": "In today’s competitive plastic industry, managing costs, maintaining quality and meeting delivery deadlines are key to success. Tech Cloud’s Plastic ERP is built to give manufacturers complete control over procurement, production, quality and dispatch. Whether you're in injection moulding, profile forming or blow moulding, it enhances processes, ensures compliance and boosts efficiency.",
+  "description": "In today's competitive plastic industry, managing costs, maintaining quality and meeting delivery deadlines are key to success. Tech Cloud's Plastic ERP is built to give manufacturers complete control over procurement, production, quality and dispatch. Whether you're in injection moulding, profile forming or blow moulding, it enhances processes, ensures compliance and boosts efficiency.",
   "keyPoints": [
     "Production Planning & Molding Management",
     "Raw Material & Resin Tracking",
@@ -65,8 +65,8 @@
   "customers": "350+",
   "downloadWidget": {
     "bgShape": "/images/shapes/widget-bg.png",
-    "image": "/images/industry-icons/book-3.png",
-   "title": " ",
+    "image": "/images/industry-icons/book-3.webp",
+    "title": " ",
     "spanTitle": "Plastic Manufacturing Guide",
     "buttonText": "Download Brochure"
   }

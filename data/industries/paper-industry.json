@@ -65,8 +65,8 @@
   "customers": "250+",
   "downloadWidget": {
     "bgShape": "/images/shapes/widget-bg.png",
-    "image": "/images/industry-icons/book-3.png",
-   "title": " ",
+    "image": "/images/industry-icons/book-3.webp",
+    "title": " ",
     "spanTitle": "Paper Industry Guide",
     "buttonText": "Download Brochure"
   }

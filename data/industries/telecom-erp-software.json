@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/telecom_banner_img.webp",
   "title": "Telecom Industry",
-  "description": "Managing a telecom business in today’s digital world comes with complex challenges and rising customer expectations. A dedicated ERP solution helps bring everything together — billing, operations and customer care in one easy-to-manage system. It gives you better control, real-time visibility and the flexibility to adapt and grow without hassle.",
+  "description": "Managing a telecom business in today's digital world comes with complex challenges and rising customer expectations. A dedicated ERP solution helps bring everything together — billing, operations and customer care in one easy-to-manage system. It gives you better control, real-time visibility and the flexibility to adapt and grow without hassle.",
   "keyPoints": [
     "Subscriber & Service Lifecycle Management",
     "Inventory, Asset & Network Tracking",
@@ -65,8 +65,8 @@
   "customers": "150+",
   "downloadWidget": {
     "bgShape": "/images/shapes/widget-bg.png",
-    "image": "/images/industry-icons/book-3.png",
-   "title": " ",
+    "image": "/images/industry-icons/book-3.webp",
+    "title": " ",
     "spanTitle": "Telecom Solutions Guide",
     "buttonText": "Download Brochure"
   }

@@ -45,7 +45,7 @@
     {
       "id": 3,
       "question": "Does the system support compliance and reporting for audits?",
-      "answer": "Yes. It enforces formula versioning with approvals and audit logs, provides electronic batch and weigh tickets, sample testing plans, non‑conformance logging, CAPA workflows, COA/MBR/BMR creation and electronic signatures compliant with FDA 21 CFR Part 11 and similar regulations"
+      "answer": "Yes. It enforces formula versioning with approvals and audit logs, provides electronic batch and weigh tickets, sample testing plans, non‑conformance logging, CAPA workflows, COA/MBR/BMR creation and electronic signatures compliant with FDA 21 CFR Part 11 and similar regulations"
     }
   ],
   "industry": "Pharmaceutical Manufacturing",
@@ -65,8 +65,8 @@
   "customers": "200+",
   "downloadWidget": {
     "bgShape": "/images/shapes/widget-bg.png",
-    "image": "/images/industry-icons/book-3.png",
-   "title": " ",
+    "image": "/images/industry-icons/book-3.webp",
+    "title": " ",
     "spanTitle": "Pharmaceutical Manufacturing Guide",
     "buttonText": "Download Brochure"
   }

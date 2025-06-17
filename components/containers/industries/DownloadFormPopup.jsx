@@ -268,7 +268,7 @@ const DownloadFormPopup = ({ show, industryTitle, onHide }) => {
                     Processing...
                   </>
                 ) : (
-                  'Submit & Download'
+                  'Download'
                 )}
               </Button>
             </div>

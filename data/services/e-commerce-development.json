@@ -57,16 +57,13 @@
       
     ],
     "about": {
-      "subtitle": "ABOUT OUR E-COMMERCE DEVELOPMENT",
       "heading": "Accelerate Growth With Ecommerce Solutions",
-      "paragraph": "Tech Cloud E-Commerce connects your online store with ERP systems to simplify sales, automate workflows, reduce errors and boost efficiency for both B2B and B2C businesses.",
+      "paragraph": "At Tech Cloud ERP, we connect your online store with a powerful ERP system that brings together inventory, orders, finance, and fulfillment in one place. With real-time visibility and automated workflows, you can reduce errors, save time, and deliver a better customer experience while confidently growing your business every step of the way.",
       "features": [
-        "Custom storefront design and branding",
-        "Scalable architecture for growth",
-        "Secure payment gateway integration"
+        "Unified Ecommerce Operations",
+        "Automation for Smarter Growth"
       ],
-      "imageMain": "/images/servicescards/ecommerce-development.jpg",
-      "imageDecor": "/images/servicescards/dot-grp1.png"
+      "imageMain": "/images/servicescards/about1.png"
     },
     "faq": [
       {

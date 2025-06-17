@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { FaMinus, FaTimes } from 'react-icons/fa';
 import '../../../public/sass/components/_video-section.scss';
+import { FaRegSquare } from "react-icons/fa6";
 
 const VideoSection = ({ slug }) => {
   const [data, setData] = useState(null);
@@ -49,29 +51,34 @@ const VideoSection = ({ slug }) => {
           <h2 className="video-section__title">{title}</h2>
           <p className="video-section__desc">{description}</p>
         </div>
-        <div className="video-section__video-wrapper" style={{ maxWidth: '800px', margin: '0 auto' }}>
-          <video
-            ref={videoRef}
-            width="100%"
-            height="auto"
-            muted
-            loop
-            playsInline
-            controls
-            preload="auto"
-            className="video-section__video"
-            style={{ maxHeight: '450px', objectFit: 'contain' }}
-            onPlay={handleVideoPlay}
-            onPause={handleVideoPause}
-          >
-            <source src={cloudinaryUrl} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <button 
-            className={`video-section__play-button ${isPlaying ? 'hidden' : ''}`}
-            onClick={handlePlayClick}
-            aria-label="Play video"
-          />
+        <div className="video-section__browser-window">
+          <div className="video-section__browser-topbar">
+            <div className="video-section__browser-dots">
+              <span className="video-section__browser-dot"><FaMinus /></span>
+              <span className="video-section__browser-dot"><FaRegSquare  /></span>
+              <span className="video-section__browser-dot"><FaTimes /></span>
+
+            </div>
+          </div>
+          <div className="video-section__browser-content">
+            <video
+              ref={videoRef}
+              width="100%"
+              height="auto"
+              muted
+              loop
+              playsInline
+              autoPlay
+              preload="auto"
+              className="video-section__video"
+              style={{ backgroundColor: 'transparent !important', boxShadow: 'none !important' }}
+              onPlay={handleVideoPlay}
+              onPause={handleVideoPause}
+            >
+              <source src={cloudinaryUrl} type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
     </section>

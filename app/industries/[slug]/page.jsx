@@ -52,12 +52,33 @@ export async function generateStaticParams() {
 // Add metadata generation
 export async function generateMetadata({ params }) {
   try {
+    // Get industry data
     const data = await import(`../../../data/industries/${params.slug}.json`);
+    
+    // Get meta info for the industry
+    const industryMeta = metaInfo.industries[params.slug];
+    
+    if (!industryMeta) {
+      throw new Error('Meta information not found for industry');
+    }
+
     return {
-      title: `${data.default.title} - Tech Cloud ERP`,
-      description: data.default.description,
+      title: industryMeta.title,
+      description: industryMeta.description,
+      keywords: industryMeta.keywords,
+      openGraph: {
+        title: industryMeta.title,
+        description: industryMeta.description,
+        type: 'website',
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: industryMeta.title,
+        description: industryMeta.description,
+      }
     };
   } catch (error) {
+    console.error('Error generating metadata:', error);
     return {
       title: 'Industry Not Found - Tech Cloud ERP',
       description: 'The requested industry page could not be found.',

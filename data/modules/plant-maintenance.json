@@ -1,7 +1,7 @@
 {
   "mainHeaderSection": {
-    "subtitle": "Our Module",
-    "maintitle": "Plant Maintenance",
+    "heading": "Plant Maintenance",
+    "maintitle": "Top Plant Maintenance Software for Every Operation",
     "description": "Tech Cloud ERP’s Plant Maintenance module helps you keep your equipment in good condition. You can plan, track and complete maintenance tasks on time. This reduces breakdowns and keeps your operations running smoothly."
   },
   "featureSections": [
@@ -29,7 +29,7 @@
       "title": "Transform Your Customer Relationships",
       "description": "Discover how our CRM solution helps you build stronger customer relationships, streamline your sales process, and drive business growth. Watch how our platform enables you to manage contacts, track leads, and deliver exceptional customer experiences.",
       "thumbnail": "/images/modules/video-thumbnail.png",
-      "videoUrl": "https://www.youtube.com/embed/x4cxxrDdzWo",
+      "videoUrl": "https://res.cloudinary.com/techclouderp/video/upload/v1749719811/crm-module_htem2g.webm",
       "module": "customer-relationship-management"
     },
     "cards": {

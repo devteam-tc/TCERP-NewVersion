@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { FaMapMarkerAlt } from "react-icons/fa";
 import locations from "../../../data/contact/locations.json";
 import "./MapSection.scss";
 import Image from "next/image";
@@ -21,7 +20,7 @@ const MapSection = () => {
 
   return (
     <div className="mapsection">
-      <h2 className="mapsection__heading">Locations</h2>
+      <h2 className="mapsection__heading">Our Branches</h2>
       <div className="mapsection__container">
         {locations.map((loc, idx) => (
           <div className="mapsection__card" key={idx}>

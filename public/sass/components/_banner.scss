@@ -91,7 +91,7 @@
 .rocket-center {
 	position: absolute;
 	left: 50%;
-	width: 180px;
+	width: 350px;
     top: 60%;
 	transform: translate(-50%, -50%);
 	z-index: 3;
@@ -132,10 +132,6 @@
 		box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
 		border-radius: 10px;
 		transition: box-shadow 0.3s ease;
-
-		// &:hover {
-		// 	box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
-		// }
 	}
 }
 .chart-top-left {
@@ -170,21 +166,21 @@
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-20px); }
 }
-// @keyframes bounce-icon {
-//   0%, 100% { transform: translateY(0); }
-//   50% { transform: translateY(-20px); }
-// }
-
-@keyframes float-rocket {
-  0% {
-    transform: translate(-50%, -50%) translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translate(-50%, -50%) translateY(-100px);
-    opacity: 0;
-  }
+@keyframes bounce-icon {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
 }
+
+// @keyframes float-rocket {
+//   0% {
+//     transform: translate(-50%, -50%) translateY(0);
+//     opacity: 1;
+//   }
+//   100% {
+//     transform: translate(-50%, -50%) translateY(-100px);
+//     opacity: 0;
+//   }
+// }
 
 .circular-icons {
 	position: absolute;

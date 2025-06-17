@@ -45,7 +45,7 @@
     {
       "id": 3,
       "question": "Does it support multi-project management?",
-      "answer": "Yes. Construction ERP software enables you to manage multiple projects simultaneously, with visibility into each project’s status, resources and profitability."
+      "answer": "Yes. Construction ERP software enables you to manage multiple projects simultaneously, with visibility into each project's status, resources and profitability."
     }
   ],
   "industry": "Construction",
@@ -65,8 +65,8 @@
   "customers": "250+",
   "downloadWidget": {
     "bgShape": "/images/shapes/widget-bg.png",
-    "image": "/images/industry-icons/book-3.png",
-   "title": " ",
+    "image": "/images/industry-icons/book-3.webp",
+    "title": " ",
     "spanTitle": "Construction Industry Guide",
     "buttonText": "Download Brochure"
   }
