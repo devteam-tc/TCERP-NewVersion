@@ -29,16 +29,14 @@
 
   &__video-wrapper {
     position: relative;
-    // border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    
   }
 
   &__video {
     display: block;
     width: 100%;
-    // border-radius: 12px;
-    // background: #000;
+    
   }
 
 }
@@ -90,7 +88,6 @@ video:playing {
     opacity: 0;
   }
 }
-
 .video-section__browser-window {
   background: #fff;
   border-radius: 20px;
@@ -150,10 +147,7 @@ video:playing {
 }
 
 .video-section__browser-content {
-  // background: #222;
   padding: 0;
-  // border-bottom-left-radius: 18px;
-  // border-bottom-right-radius: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,8 +157,8 @@ video:playing {
   display: block;
   width: 100%;
   max-width: 900px;
-  // border-radius: 0 0 18px 18px;
-  background: #000;
+  background: transparent !important;
+  box-shadow: none !important;
   object-fit: contain;
   max-height: 520px;
 }

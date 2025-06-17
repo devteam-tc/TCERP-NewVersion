@@ -1,28 +1,25 @@
 {
   "mainHeaderSection": {
     "heading": "QC Management",
-    "maintitle": "Top Quality Control Built to Match Your Industry Needs",
-    "description": "At Tech Cloud ERP, we understand that quality is not just a final checkpoint but a continuous process that runs through every stage of your operations. Our integrated Quality Control and Quality Assurance system helps businesses maintain product consistency, meet compliance standards and reduce rework. From defining quality standards to inspecting raw materials, monitoring production and ensuring final product quality, the system enables your teams to build and deliver better with complete confidence."
+    "maintitle": "Quality That Runs Through Every Step",
+    "description": "At Tech Cloud ERP, quality isn't just a final step — it's part of every stage. Our built-in Quality Control and Assurance tools help you maintain consistency, meet compliance standards and reduce rework. From setting clear guidelines to inspecting raw materials, checking production and reviewing final output, your team can deliver with confidence."
   },
   "featureSections": [
     {
-      "featuretitle": "Quality Control – Inspect and Correct",
-      "featuredesc": "Quality Control (QC) is a reactive process that ensures products meet set standards after production. With Tech Cloud ERP, you can perform incoming inspections on raw materials, in-process checks during production and final quality tests before shipment. The system allows detailed recording of test results, defect tracking and rejection analysis. If any issue is detected, corrective actions can be initiated immediately to avoid downstream problems.",
-      "featurelink": "Explore More",
+      "featuretitle": "Quality Control – Catch Issues Before They Spread",
+      "featuredesc": "Quality Control ensures your products meet standards after production. With Tech Cloud ERP, inspect raw materials, monitor production stages and check finished goods. Record test results, track defects and take immediate action to avoid further problems.",
       "dashboardImage": "/images/modules/qa&qc/module-1.webp",
       "imageAlt": "Lead Management Dashboard"
     },
     {
-      "featuretitle": "Quality Assurance – Build Quality from the Start",
-      "featuredesc": "Quality Assurance (QA) is a proactive process that focuses on preventing defects before they occur. Tech Cloud ERP enables your team to define quality policies, set up control plans and ensure that processes are followed throughout production. QA tools in the system include documentation of standard operating procedures (SOPs), routine audits and training compliance. With these in place, your organization creates a culture where quality is built into every task rather than just inspected at the end.",
-     "featurelink": "Explore More",   
+      "featuretitle": " Quality Assurance – Build It Right From the Start",
+      "featuredesc": "Quality Assurance focuses on preventing problems before they begin. Create policies, set control plans and ensure teams follow proper procedures. Use tools like SOP documentation, regular audits and training checks to build quality into every task.",
         "dashboardImage": "/images/modules/qa&qc/module-2.webp",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
-      "featuretitle": "Real-Time Monitoring and Reporting",
+      "featuretitle": "Live Quality Tracking and Reports",
       "featuredesc": "Tech Cloud ERP provides real-time dashboards and reports, so you can track quality performance across suppliers, departments and product lines. From deviation reports to inspection logs and audit trails, everything is available in one place for easy review and regulatory compliance.",
-     "featurelink": "Explore More",   
         "dashboardImage": "/images/modules/qa&qc/module-3.webp",
       "imageAlt": "Sales Automation Dashboard"
     }

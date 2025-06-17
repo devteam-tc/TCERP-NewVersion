@@ -49,20 +49,20 @@
     },
     "faq": [
       {
-        "question": "Will my app work on all devices?",
-        "answer": "We test apps on a range of devices and screen sizes to ensure compatibility and a smooth user experience."
+        "question": " What types of apps do you build and for which platforms?",
+        "answer": " We develop native apps for iOS and Android, as well as cross-platform solutions using frameworks like Flutter and React Native—helping you reach users across devices "
       },
       {
-        "question": "Can you help with app design as well as development?",
-        "answer": "Yes! We offer UI/UX design services to create an intuitive and attractive app interface."
+        "question": " What does the app development process involve?",
+        "answer": "Our process includes idea refinement, prototyping, design, development, testing, launch and ongoing support. We follow agile practices to keep you informed at each key milestone ."
       },
       {
-        "question": "Can you integrate third-party APIs or services into my app?",
-        "answer": "Absolutely. We can integrate payment gateways, social media, maps, analytics and many more."
+        "question": "How long does it take to build an app?",
+        "answer": " Timelines depend on complexity and features, but most projects are completed within 3–6 months. Simple MVPs can be ready in under 90 days ."
       },
       {
-        "question": "Do you provide app maintenance services?",
-        "answer": "Yes, we offer ongoing maintenance services including regular updates, security patches, performance optimization and feature enhancements to keep your app current and competitive."
+        "question": " What support is provided after the app is launched?",
+        "answer": "We offer ongoing maintenance, updates, app store optimization, monitoring and help with new feature releases often under monthly support agreements. "
       }
     ],
     "process": [

@@ -64,20 +64,20 @@
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
       {
-        "question": "What is production management software?",
-        "answer": " Production management software helps manufacturers plan, execute and track production processes, improving efficiency, quality and traceability across the shop floor."
+        "question": "How does production management software improve manufacturing operations?",
+        "answer": "  It helps to manage the entire production cycle by tracking jobs, resources and timelines. This reduces manual work and improves output quality and efficiency."
       },
       {
-        "question": "Can I create and customize production orders?",
-        "answer": " Yes. Tech Cloud ERP allows full customisation of production orders, including operations, routing steps and bill of materials."
+        "question": "Can I control production workflows and monitor progress in real time?",
+        "answer": " Yes, you can plan tasks, assign resources and track production status live to avoid delays and improve coordination across teams."
       },
       {
-        "question": " How does production planning software help?",
-        "answer": "It helps forecast demand accurately, allocate resources efficiently and schedule tasks effectively. This minimizes downtime, improves workflow, and ensures products are delivered on time."
+        "question": "How does production planning software help?",
+        "answer": " It supports accurate demand forecasting, resource allocation and scheduling so you can reduce waste and meet delivery timelines."
       },
       {
-        "question": "Is the system suitable for different types of manufacturing?",
-        "answer": " Absolutely. Tech Cloud ERP supports both make-to-stock and make-to-order manufacturing environments, making it flexible for a wide range of industries."
+        "question": "Is the software flexible for make-to-order and batch manufacturing?",
+        "answer": "  Yes, it supports various manufacturing types like make-to-order, make-to-stock and batch production with configurable workflows and settings."
       }
     
     ]

@@ -71,7 +71,6 @@ const VideoSection = ({ slug }) => {
               autoPlay
               preload="auto"
               className="video-section__video"
-              style={{ backgroundColor: 'transparent !important', boxShadow: 'none !important' }}
               onPlay={handleVideoPlay}
               onPause={handleVideoPause}
             >

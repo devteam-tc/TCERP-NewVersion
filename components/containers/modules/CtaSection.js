@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { FiPlay } from 'react-icons/fi'; // Assuming you might need a play icon for "View demo"
+// import { FiPlay } from 'react-icons/fi'; 
 import './CtaSection.scss';
 import { useRouter } from 'next/navigation';
 
@@ -28,7 +28,8 @@ const CtaSection = () => {
             className="ctaSection-button ctaSection-button--outline"
             onClick={handleViewDemoClick}
           >
-            <FiPlay size={18} /> View Demo
+            {/* <FiPlay size={18} /> */}
+             Book a  Demo
           </button>
           <button 
             className="ctaSection-button ctaSection-button--primary"

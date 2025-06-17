@@ -64,21 +64,22 @@
     "subTitle": "Frequently Asked Questions",
     "title": "Everything You Need to Know About Our POS Solution",
     "items": [
+
       {
-        "question": "Can Tech Cloud ERP's POS allow multiple store use?",
-        "answer": "Yes, it's in fact designed to be multi-locational, which means you can manage all locations from the same screen!"
+        "question": "How does the POS module handle sales and inventory?",
+        "answer": "The POS module records customer purchases, updates stock levels instantly and helps in preventing overselling. It combines checkout operations with real-time inventory tracking—so you can always know what you've sold and what's left."
       },
       {
-        "question": "Is the POS compatible across various platforms and devices?",
-        "answer": "Absolutely! It works smoothly on desktops, tablets, and dedicated POS terminals—giving you flexibility based on your setup."
+        "question": "What kind of hardware and payment methods are supported?",
+        "answer": "It supports a variety of devices—touchscreen terminals, barcode scanners, receipt printers—as well as multiple payment options like card, cash and contactless."
       },
       {
-        "question": "Can I manage employee access?",
-        "answer": "Yes! You can set permissions based on role, so you can manage what all of your employees can see and do."
+        "question": "Can I view sales analytics and customer data?",
+        "answer": "Yes, the module offers built-in reports on daily sales, best-selling items and customer purchase patterns. It often includes customer profiles and loyalty tracking to help you understand and retain your buyers."
       },
       {
-        "question": "Does the POS module sync with accounting and inventory?",
-        "answer": "Yes! It quite simply integrates with Tech Cloud ERP's similar modules, so your books and stock will automatically be as accurate as they can be!"
+        "question": "Will it keep working without internet access?",
+        "answer": "Many modern POS systems include offline functionality. Sales are stored locally and synced once back online—so your business doesn't slow down if the connection drops."
       }
     ]
   }

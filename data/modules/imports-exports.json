@@ -62,20 +62,24 @@
     "subTitle": "Frequently Asked Questions",
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
-      {
-        "question": "What is POS software?",
-        "answer": "POS (Point of Sale) software is a system that allows businesses to process sales transactions, manage inventory, track customer data and generate reports. It is used at the point where a customer makes a purchase."
-      },
-      {
-        "question": "Does the software support multiple locations?",
-        "answer": "Yes, you can manage multiple store locations from a single POS dashboard with centralized control over inventory, staff and sales data."
-      },
-      {
-        "question": "Is it possible to track real-time sales and inventory?",
-        "answer": "Yes, with our cloud-based POS, you can monitor sales, stock levels and employee activity in real-time from any device."
-      }
     
+      {
+        "question": "What is the purpose of the import and export module in ERP?",
+        "answer": "The import and export module helps in managing international trade activities by tracking shipments, managing documentation, handling duties and taxes and ensuring compliance with global trade regulations."
+      },
+      {
+        "question": "Can I track the status of international shipments in real time?",
+        "answer": "Yes, the system allows you to monitor shipment progress, check delivery timelines and stay updated on customs clearance—giving you better visibility throughout the process."
+      },
+      {
+        "question": "Does the module support import and export documentation?",
+        "answer": "Absolutely. It helps to generate and store key documents such as commercial invoices, packing lists, bills of lading and certificates of origin—reducing manual effort and paperwork errors."
+      },
+      {
+        "question": "Is it suitable for business dealing with multiple countries and regulations?",
+        "answer": "Yes, the module is built to handle diverse international trade requirements, including multi-currency support, regional tax rules and regulatory compliance across borders."
+      }
     ]
   }
-  }
+}
   

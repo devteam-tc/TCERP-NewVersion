@@ -9,21 +9,21 @@
       "featuretitle": "Lead Management",   
     "featuredesc": " You can enter new leads quickly, set follow-up reminders and track each lead’s progress. This helps your team stay updated and never miss a sales opportunity. You can also change the status of a lead as it moves through different stages such as new, in-progress or converted.",
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/crm/module-1.webp",
+      "dashboardImage": "/images/modules/crm/m1.png",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Opportunity Management",
   "featuredesc": "Tech Cloud ERP’s CRM combines opportunity tracking and quotation management into one seamless process. Create personalized proposals, manage conversations and handle negotiations with ease. Instantly respond to enquiries with professional quotes, all of which are saved and organized for quick access. This streamlined workflow helps your team stay in control of every deal and take the right steps to close faster.",      
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/crm/module-2.webp",
+      "dashboardImage": "/images/modules/crm/m2.png",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Sales Order Processing",
       "featuredesc": " Once a quotation is approved, you can instantly turn it into a sales order. Check inventory to make sure the product is in stock and track the delivery process from start to finish. This ensures faster service and keeps your customers happy.",
       "featurelink": "Explore More",    
-       "dashboardImage": "/images/modules/crm/module-3.webp",
+       "dashboardImage": "/images/modules/crm/m3.png",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],
@@ -69,12 +69,12 @@
         "answer": "CRM stands for Customer Relationship Management. It's a system that helps you organize, track and manage interactions with leads and customers. A CRM improves customer communication enhances sales performance and ensures you never miss a follow-up leading to stronger relationships and higher conversions."
       },
       {
-        "question": " Is Tech Cloud ERP's CRM suitable for small businesses?",
-        "answer": "Yes absolutely. Our CRM is built with small and growing businesses in mind. It's easy to implement, user-friendly and packed with features like lead tracking quotation management and sales automation—helping small teams work efficiently without the complexity."
+        "question": " Is a CRM solution suitable for small businesses?",
+        "answer": " Yes, the system is scalable and user-friendly, making it well-suited for small businesses that need a reliable way to manage customer data, track communications and support business growth."
       },
       {
-        "question": "Can I integrate Tech Cloud ERP's CRM with other tools?",
-        "answer": "Yes. Our CRM integrates seamlessly with your existing tools including email platforms, marketing automation apps and accounting software. This ensures smooth data flow and consistent communication across all your business systems."
+        "question": "Can CRM integrate with other business tools?",
+        "answer": " Absolutely. It supports integration with commonly used platforms such as email, finance and marketing tools, enabling a connected and efficient workflow across your business operations."
       }
     ]
   }
