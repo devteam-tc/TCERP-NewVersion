@@ -1,4 +1,3 @@
-// app/industries/page.js
 export const dynamic = "force-static"; // Ensures this page is statically generated
 import path from 'path';
 import fs from 'fs/promises';
