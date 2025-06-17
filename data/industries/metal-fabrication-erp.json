@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/metal_fabrication_banner_img.webp",
   "title": "Metal Fabrication Industry",
-  "description": "Advanced ERP solutions tailored for metal fabrication companies, optimizing manufacturing, quality control and project management. Our metal fabrication ERP software addresses the complex needs of fabrication and engineering operations. Designed as an ERP for engineering industry, it enhances precision and efficiency. ",
+  "description": "Running a metal fabrication business means handling custom jobs, changing schedules and tight delivery timelines. Our ERP system helps you bring everything together  from quotes to production to delivery  so you can work faster, reduce errors and stay in control.",
   "keyPoints": [
     "Integrated Production Planning",
     "Real-Time Inventory Management",
@@ -34,18 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "How does metal fabrication ERP software improve production efficiency?",
-      "answer": "Our ERP system enables you to manage schedules, inventory and quality control, which eliminates downtime and improves overall accuracy."
+      "question": "How can ERP help my metal fabrication business?",
+      "answer": "ERP brings all your key processes into one system. It helps manage quotes, inventory, production and delivery — making your work faster, more accurate and easier to track."
     },
     {
       "id": 2,
-      "question": " Is this ERP suitable for engineering and fabrication companies?",
-      "answer": " Yes, it is specifically designed as an ERP for engineering industry and ERP for fabrication industry to address their unique challenges."
+      "question": "Can ERP handle custom jobs and one-off orders?",
+      "answer": "Yes, a well-designed ERP system can handle custom BOMs, organize job-specific tasks, and schedule production efficiently—tailored to each unique order."
     },
     {
       "id": 3,
-      "question": "Can the software track project costs and resource usage?",
-      "answer": " Absolutely, it provides detailed job costing and resource tracking to help manage budgets and improve profitability."
+      "question": "Will ERP work with my CAD or CAM software?",
+      "answer": "Most modern ERP systems offer integrations with CAD/CAM tools. This helps your designs flow directly into production without manual work."
     }
   ],
   "industry": "Metal Fabrication",

@@ -80,7 +80,7 @@ const ServiceCard = () => {
         <div className="row mb-xl-5 mb-4 text-center justify-content-center">
           <div className="col-lg-7">
              <div className="feature-text">
-              <SectionTitle subTitle=" OUR FEATURED PROJECTS" title="Services We Provide" />
+              <SectionTitle subTitle="WHAT WE OFFER" title="Advanced Digital Services" />
             </div>
            </div>
         </div>

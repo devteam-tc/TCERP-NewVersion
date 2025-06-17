@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/leather_banner_img.webp",
   "title": "Leather Industry",
-  "description": "Comprehensive ERP solutions designed for leather manufacturers, optimizing tannery operations, quality control, and production processes while ensuring environmental compliance and full material traceability. Our powerful ERP for Leather Industry is specifically crafted to meet the unique demands of leather production and processing units.",
+  "description": "Running a leather business comes with challenges like managing raw hides, tracking production stages, and meeting custom order requirements. An ERP for the leather industry helps organize these operations by connecting inventory, manufacturing, sales and quality control in one system. With better visibility and automation, it supports quicker decisions, reduces waste and improves overall business performance.",
   "keyPoints": [
     "Raw Material Traceability & Batch Control",
     "Tannery Production & Chemical Process Management",
@@ -34,18 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What specific processes does the ERP for leather industry cover?",
-      "answer": "Tech Cloud ERP covers the entire leather production lifecycle — from raw hide procurement, chemical process tracking, tanning and finishing to quality control, costing and delivery."
+      "question": "How does ERP software benefit leather manufacturing businesses?",
+      "answer": "ERP software helps leather manufacturers by integrating processes such as inventory management, production scheduling and quality control. This integration leads to improved efficiency, reduced errors and better decision-making."
     },
     {
       "id": 2,
-      "question": " Is the software suitable for both finished leather and leather goods manufacturers?",
-      "answer": "Whether you’re producing tanned hides or finished goods like bags, belts, or shoes, the ERP supports all manufacturing stages and BOM (Bill of Materials) structures."
+      "question": "Can ERP systems handle custom leather product orders?",
+      "answer": "Yes, ERP systems can manage custom orders by allowing you to define specific product configurations and track them through the production process, ensuring timely delivery and customer satisfaction."
     },
     {
       "id": 3,
-      "question": "Is it suitable for export-oriented leather units?",
-      "answer": "The system supports multi-currency, export documentation and compliance standards for international trade."
+      "question": "Is it possible to track raw materials and finished goods in real-time?",
+      "answer": "Absolutely. ERP systems provide real-time tracking of raw materials and finished products, helping you control inventory levels and respond quickly to market demands."
     }
   ],
   "industry": "Leather",

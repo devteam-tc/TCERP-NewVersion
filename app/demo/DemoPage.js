@@ -6,6 +6,7 @@ import './demopage.scss';
 
 const DemoPage = () => {
   useEffect(() => {
+    // Only load Calendly script
     const script = document.createElement('script');
     script.src = 'https://assets.calendly.com/assets/external/widget.js';
     script.async = true;
@@ -17,20 +18,18 @@ const DemoPage = () => {
   }, []);
 
   return (
-    <>
-     
-
-      <Container>
-        <Row>
-          <Col>
-            <div
-              className="calendly-inline-widget demo-calendly-widget"
-              data-url="https://calendly.com/padmini-techclouderp/demo"
-            ></div>
-          </Col>
-        </Row>
-      </Container>
-    </>
+    <Container>
+      <Row>
+        <Col>
+          <div
+            className="calendly-inline-widget demo-calendly-widget"
+            data-url="https://calendly.com/padmini-techclouderp/demo"
+            data-hide-gdpr-banner="true"
+            data-hide-landing-page-details="true"
+          ></div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

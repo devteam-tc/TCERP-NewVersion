@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/automotive_banner_img.webp",
   "title": "Automotive Industry",
-  "description": "Advanced ERP solutions tailored for automotive manufacturers and suppliers, optimizing production, supply chain and quality control processes. Our ERP for the automotive industry enhances operational efficiency from assembly to delivery. With powerful automotive manufacturing ERP and ERP for automotive manufacturing, manage every stage with precision.",
+  "description": "In today's fast-paced automotive industry, managing challenging supply chains, ensuring quality compliance, and delivering on time are all non-negotiable. Our Automotive ERP solution is tailored to the specific needs of automotive manufacturers, suppliers and distributors, allowing you to achieve complete control over your operations from procurement to manufacturing and delivery.",
   "keyPoints": [
     "Production Planning & Assembly Line Automation",
     "Vendor & Supply Chain Management",
@@ -34,23 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What is ERP for automotive industry?",
-      "answer": "Our system provides end-to-end supply chain visibility with real-time tracking, supplier management and just-in-time inventory optimization."
+      "question": "How is an ERP system beneficial for automotive manufacturers?",
+      "answer": "It helps automate workflows, reduce production downtime, manage complex BOMs (Bills of Materials), improve inventory control, enhance supply chain collaboration and ensure compliance with industry regulations."
     },
     {
       "id": 2,
-      "question": "How does automotive manufacturing ERP improve efficiency?",
-      "answer": "Automotive manufacturing ERP enhances efficiency by streamlining processes across assembly lines, automating inventory updates, managing vendors and ensuring real-time visibility into operations."
+      "question": "Is this ERP system suitable for auto parts suppliers and retailers?",
+      "answer": "Yes. Our ERP solution is built to support not just OEMs, but also tiered suppliers, parts manufacturers and aftermarket parts retailers. It offers modules for inventory, procurement, order management, dealer management and more"
     },
     {
       "id": 3,
-      "question": " What features should I look for in ERP for automotive manufacturing?",
-      "answer": "Key features include production scheduling, BOM management, quality control, supplier tracking, inventory management and integration with shop floor machinery."
-    },
-    {
-      "id": 4,
-      "question": "Can ERP for auto industry handle multi-location operations?",
-      "answer": "Yes, ERP for auto industry supports multi-plant, multi-location and multi-currency operations, making it ideal for OEMs and automotive suppliers with global operations."
+      "question": "Can I customize the ERP according to my business needs?",
+      "answer": "Yes. The ERP is modular and highly customizable, allowing you to tailor workflows, user roles, reports and features to your specific automotive operations."
     }
   ],
   "industry": "Automotive",

@@ -8,6 +8,7 @@ import Header from "../../components/layout/header/Header"
 import PageHeader from "../../components/layout/PageHeader"
 import { FaHome } from 'react-icons/fa';
 import UniqueFeatures from "../../components/containers/home-two/UniqueFeatures";
+import CeoComponent from "../../components/containers/home/modern-ceo-section"
 
 const page = () => {
   const breadcrumbs = [
@@ -21,6 +22,7 @@ const page = () => {
       {/* <PageHeader /> */}
       {/* <About extraClassName="style2"/> */}
       <About />
+      <CeoComponent/>
       {/* <TextSlider/> */}
       <WhoWeAre/>
       <UniqueFeatures/>

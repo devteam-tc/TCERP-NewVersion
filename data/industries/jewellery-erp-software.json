@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/jewellery_banner_img.webp",
   "title": "Jewellery Industry",
-  "description": "Advanced ERP solutions tailored for jewellery manufacturers, ensuring precise precious metal tracking, design management and production control while maintaining the highest standards of quality and security. Our jewellery ERP software is built to streamline every aspect of operations for modern jewellery businesses.",
+  "description": "Managing a jewellery business involves intricate details from tracking inventory and handling custom orders to ensuring compliance with financial regulations. A specialized jewellery ERP software simplifies these operations, integrating billing, inventory management and customer relationship management into a unified system. This not only enhances operational efficiency but also improves customer satisfaction by providing real-time insights and personalized services.",
   "keyPoints": [
     "Precious Metal & Stone Inventory Tracking",
     "Design, CAD & Custom Order Management",
@@ -34,8 +34,8 @@
   "faqData": [
     {
       "id": 1,
-      "question": "How does jewellery ERP software help manage gold and diamonds?",
-      "answer": "Our jewellery ERP software provides precise tracking and stone-wise tracking using real-time inventory tools and automated valuation methods."
+      "question": "How does jewellery ERP software benefit my business?",
+      "answer": "Jewellery ERP software consolidates various business processes, enabling efficient inventory tracking, automated billing and comprehensive customer management. It facilitates real-time data access, ensuring accurate financial reporting and compliance with tax regulations. Additionally, it supports personalised customer interactions, enhancing service quality and fostering customer loyalty."
     },
     {
       "id": 2,

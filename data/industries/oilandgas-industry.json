@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/oilandgas_banner_img.webp",
   "title": "Oil and Gas Industry",
-  "description": "Comprehensive ERP software tailored for the oil and gas sector. From exploration to distribution, streamline your operations, boost visibility and ensure compliance across the entire value chain.",
+  "description": "Oil & Gas ERP software is tailored to the needs of energy companies working in exploration, production, refining and distribution. It unifies asset management, finance, supply chain, field services and compliance into one platform. With real-time data, it helps teams monitor equipment health, manage field operations and reporting and improve safety and efficiency—driving smarter decisions across your business.",
   "keyPoints": [
     "Asset & Equipment Management",
     "Supply Chain & Inventory Control",
@@ -34,18 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What does this oil and gas ERP include?",
-      "answer": "It covers asset management, inventory, energy audits, compliance and accounting, all customized for the oil and gas industry."
+      "question": "What benefits does ERP provide to oil and gas companies?",
+      "answer": "Oil & Gas ERP centralizes data across finance, maintenance, supply chain and field operations. This reduces manual work, improves compliance and allows you to track assets and costs precisely. The result is better performance, lower downtime and stronger control over complex projects."
     },
     {
       "id": 2,
-      "question": "Can it handle industry-specific accounting?",
-      "answer": "Yes. The ERP supports royalty tracking, joint ventures and complex tax compliance."
+      "question": "How does it help with asset and maintenance management?",
+      "answer": "The system keeps records of assets like rigs, pipelines and production equipment. It schedules preventative maintenance, captures performance data in real time and triggers alerts when issues emerge. This approach helps avoid costly breakdowns and maximizes uptime."
     },
     {
       "id": 3,
-      "question": "Is this ERP scalable for growing energy companies?",
-      "answer": "Absolutely. The modular design scales with your business needs and integrates easily with existing platforms."
+      "question": "Can the ERP support financial and regulatory operations globally?",
+      "answer": "Yes — it offers financial and tax reporting tailored for various jurisdictions, equipment and cost tracking under joint ventures or production-sharing agreements and audit trails for safety and environmental compliance. It's built to help energy companies operate confidently across borders."
     }
   ],
   "industry": "Oil and Gas",

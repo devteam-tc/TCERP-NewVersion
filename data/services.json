@@ -22,7 +22,7 @@
       "id": 3,
       "icon": "/images/services/ser-icon3.png",
       "title": "App Development",
-      "description": "We build smooth, user-friendly apps that bring your ideas to life and keep users coming back for more.",
+      "description": "Unleash your app idea with custom mobile solutions built for performance and scale. Dive into our process and success-driven approach.",
       "thumb": "/images/services/mobile-app.webp",
       "link": "/services/app-development",
       "serial": "03"
@@ -31,7 +31,7 @@
       "id": 4,
       "icon": "/images/services/ser-icon3.png",
       "title": "E-Commerce Development",
-      "description": "We build smooth, user-friendly apps that bring your ideas to life and keep users coming back for more.",
+      "description": "Discover how we craft user-friendly, high-converting e-commerce platforms tailored for growth. Explore features that turn casual visitors into loyal buyers.",
       "thumb": "/images/services/mobile-app.webp",
       "link": "/services/e-commerce-development",
       "serial": "04"
@@ -56,14 +56,14 @@
       "id": 3,
       "icon": "/images/services/ser-icon3.png",
       "title": "App Development",
-      "description": "We build smooth, user-friendly apps that bring your ideas to life and keep users coming back for more.",
+      "description": "Unleash your app idea with custom mobile solutions built for performance and scale. Dive into our process and success-driven approach.",
       "thumb": "/images/services/mobile-app.webp"
     },
     "e-commerce-development": {
       "id": 4,
       "icon": "/images/services/ser-icon4.png",
       "title": "E-Commerce Development",
-      "description": "We build smooth, user-friendly apps that bring your ideas to life and keep users coming back for more.",
+      "description": "Discover how we craft user-friendly, high-converting e-commerce platforms tailored for growth. Explore features that turn casual visitors into loyal buyers.",
       "thumb": "/images/services/mobile-app.webp"
     }
   }

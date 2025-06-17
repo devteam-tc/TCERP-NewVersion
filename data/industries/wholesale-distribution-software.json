@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/wholesale_banner_img.webp",
   "title": "Wholesale Industry",
-  "description": "Comprehensive wholesale ERP solutions designed for distributors, streamlining inventory management, order fulfillment and supply chain. Our powerful food distribution system optimizes customer service, multi-location management and operational efficiency. ",
+  "description": "Take control of your wholesale distribution business with a smart, all-in-one software solution. From order processing and billing to inventory, accounting, and deliveries—our Wholesale Distribution Software simplifies every step. Gain real-time insights, streamline operations, and deliver exceptional service while growing your business with speed and confidence.",
   "keyPoints": [
     "Centralized Inventory Management",
     "Automated Order Processing",
@@ -34,8 +34,8 @@
   "faqData": [
     {
       "id": 1,
-      "question": "How does Tech Cloud’s Wholesale ERP improve inventory management?",
-      "answer": "Our wholesale business ERP offers real-time inventory management, automatic replenishment alerts and centralized governance, which minimize stock variance and improve order accuracy."
+      "question": "What does wholesale distribution software do?",
+      "answer": "It helps distributors to manage key tasks, order entry, billing, stock updates, credit control, purchase orders and returns in one system. This keeps data accurate, speeds up processing and supports smarter decision-making."
     },
     {
       "id": 2,

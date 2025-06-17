@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/educational_banner_img.webp",
   "title": "Educational Institute",
-  "description": "Our comprehensive education ERP software is designed for modern educational institutions by streamlining academic operations, student management, and administration. Many schools to colleges and universities benefit from increased efficiency and learning outcomes with our ERP for educational institutions. improves efficiency while supporting better learning outcomes.",
+  "description": "Managing a school is a complex responsibility—it includes keeping track of students, staff, schedules, fees and communication with parents. Our school management system makes that easier by bringing all your important tasks into one simple platform. It saves time, reduces manual work and helps your staff stay focused on what really matters—supporting students and improving learning.",
   "keyPoints": [
     " Student Admission & Enrollment",
     "Course & Curriculum Management",
@@ -34,13 +34,13 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What is a school management system and how does it help?",
-      "answer": "A school management system automates core academic and administrative functions such as admissions, fees, exams and attendance saving time and improving accuracy."
+      "question": "What exactly does a school ERP system do?",
+      "answer": "A school ERP system is a smart platform that handles all the daily operations of your institution in one place. From student admissions and attendance to exam schedules, fee payments and report cards, it keeps everything organised. It also connects teachers, administrators, students and parents, so everyone can see the same information and work together smoothly."
     },
     {
       "id": 2,
-      "question": "Can this ERP support colleges and universities too?",
-      "answer": "Yes, our erp for educational institutions is built for scalability ideal for schools, colleges and ERP higher education campuses with complex operations."
+      "question": "Can this system be used by schools of different sizes and types?",
+      "answer": "Yes. Whether you're running a small kindergarten, a high school, or a large educational institution, the system can be adjusted to fit your structure. You can select only the features you need and add more as your school grows or your requirements change."
     },
     {
       "id": 3,

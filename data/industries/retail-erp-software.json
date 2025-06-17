@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/retail_banner_img.webp",
   "title": "Retail Industry",
-  "description": "Streamline retail operations with a modern, all-in-one ERP for retail that connects inventory, sales, customers and finance in one unified platform. Whether you run a single outlet or a multi-location chain, our scalable ERP software for retail industry improves operational efficiency, enhances customer experience and drives growth. This is the ideal ERP system for retail business looking to stay competitive in today’s dynamic market.",
+  "description": "Retail ERP software combines core functions like inventory, order management, accounting, purchasing, and customer data—into one system. It saves time, reduces errors and delivers live insights to help you plan smarter, fulfill orders more accurately and keep customers happy.",
   "keyPoints": [
     "Inventory & Stock Management",
     "Point of Sale (POS) Integration",
@@ -34,13 +34,13 @@
   "faqData": [
     {
       "id": 1,
-      "question": "What is an ERP system for retail business?",
-      "answer": " An ERP for retail industry is a software solution that integrates sales, inventory, accounting and customer management into one central platform for better control and decision-making."
+      "question": "How does an ERP solution streamline retail business operations?",
+      "answer": "A retail ERP system integrates inventory, sales, orders, accounting, and customer data into a single platform. It helps reduce manual errors, improves efficiency, and gives you complete control over your retail operations."
     },
     {
       "id": 2,
-      "question": "How does a retail ERP software improve store operations?",
-      "answer": "With real-time data, our ERP for retail stores automates stock management, sales tracking and accounting—eliminating manual work and increasing accuracy."
+      "question": "What features should a retail ERP include?",
+      "answer": "Key features include order and inventory tracking, real-time reporting, multichannel sales support and built-in accounting so you can manage operations smoothly and respond quickly."
     },
     {
       "id": 3,

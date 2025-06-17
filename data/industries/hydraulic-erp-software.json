@@ -1,7 +1,7 @@
 {
   "banner": "/images/industries/hydraulic_banner_img.webp",
   "title": "Hydraulic Cylinders Industry",
-  "description": "Specialized ERP solutions designed for hydraulic cylinder manufacturers.Our intelligent solution covers every step from precision engineering to dispatch, ensuring quality, traceability, and compliance.With ERP software for the hydraulic industry, manage materials, track components, and maintain customer specs with confidence.",
+  "description": "Managing hydraulic cylinder manufacturing is very complex like assembling, detailed inventory and timely deliveries. Tech Cloud ERP integrates sales, inventory and production into one platform to control processes more effectively. This integration improves efficiency, minimizes errors and allows your business to fulfill customer requests confidently.",
   "keyPoints": [
     "Cylinder Design & BOM Control",
     " CNC Production & Process Scheduling",
@@ -34,18 +34,18 @@
   "faqData": [
     {
       "id": 1,
-      "question": " How does your ERP help a hydraulic cylinder manufacturer?",
-      "answer": "Our hydraulic ERP system ensures complete control over design, machining, testing and logistics while maintaining precision and compliance."
+      "question": "Can Tech Cloud ERP handle custom hydraulic cylinder configurations?",
+      "answer": "Yes, it allows you to define detailed specifications for each order, accommodating both standard products and custom builds with ease."
     },
     {
       "id": 2,
-      "question": "Can the ERP track cylinder components and variations?",
-      "answer": "Yes, the hydraulic cylinder manufacturer software allows tracking of each cylinder by type, configuration and customer-specific requirements."
+      "question": "How does the system assist with inventory management of components like seals and rods?",
+      "answer": "The ERP enables real time management of components and parts to automate a best level of stock management so you need not to reschedule production due to delays."
     },
     {
       "id": 3,
-      "question": " Is the system suitable for job-based and volume-based manufacturing?",
-      "answer": "Absolutely. Whether you're a custom hydraulic cylinder manufacturer or producing in batches, our ERP adapts to your process seamlessly."
+      "question": "Does Tech Cloud ERP support quality control during manufacturing?",
+      "answer": "Absolutely. It includes quality checkpoints and testing logs to ensure every product meets your standards before it reaches the customer."
     }
   ],
   "industry": "Hydraulic Cylinders",
