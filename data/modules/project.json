@@ -14,7 +14,7 @@
     },
     {
       "featuretitle": "Execution and Monitor Progress",
-      "featuredesc": "As your project continues to move up, Tech Cloud ERP keeps you on track. You have the ability to monitor project updates and the team members’ progress in real time and track milestones and distributions of workload seamlessly. In a scenario where you are required to adapt your timelines or delegate tasks based on new circumstances, Tech Cloud ERP allows you to do all of that without missing a beat.",
+      "featuredesc": "As your project continues to move up, Tech Cloud ERP keeps you on track. You have the ability to monitor project updates and the team members' progress in real time and track milestones and distributions of workload seamlessly. In a scenario where you are required to adapt your timelines or delegate tasks based on new circumstances, Tech Cloud ERP allows you to do all of that without missing a beat.",
      "featurelink": "Explore More",   
         "dashboardImage": "/images/modules/home-four-feature-02.png",
       "imageAlt": "Sales Automation Dashboard"
@@ -69,19 +69,18 @@
         "answer": "As many as you need to. Tech Cloud ERP simplifies multi-project management. You can manage at least one project independently and maintain visibility of everything."
       },
       {
-        "question": "How does it manage resource allocation?",
-        "answer": "You can assign resources of team members to tasks to determine how busy each person is, to ultimately prevent overload and increase balance."
+        "question": "How does the project management module support day-to-day operations?",
+        "answer": "It helps teams plan tasks, assign responsibilities, manage timelines and track deliverables—all in one place. This keeps everyone aligned, improves accountability and ensures projects move forward without confusion."
       },
       {
-        "question": "Is it also for small businesses?",
-        "answer": "Yes. Tech Cloud ERP is modular and scales with you, whether you're a small business or a large and growing enterprise."
+        "question": "Can I track project progress and team performance?",
+        "answer": "Yes, you can monitor timelines, task completion, resource allocation and team productivity in real time, helping you identify risks early and keep projects on track."
       },
       {
-        "question": "Does it work with our existing tools?",
-        "answer": "Yes. Tech Cloud ERP integrates easily with hundreds of apps and tools. This allows for more seamless workflows and lower barriers to switching between existing tools."
+        "question": "Does the system allow budget and cost tracking for each project?",
+        "answer": "Absolutely. It lets you to set budgets, track actual expenses and compare them with projections so you can control costs and make better financial decisions throughout the project."
       }
-    
     ]
   }
-  }
+}
   

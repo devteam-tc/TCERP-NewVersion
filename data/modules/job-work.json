@@ -73,12 +73,12 @@
         "answer": " Yes. The system logs all issued materials as vendor-held stock, ensuring full traceability until they’re returned."
       },
       {
-        "question": "How does Tech Cloud ERP support payment to job workers?",
-        "answer": " It verifies service invoices, updates vendor liabilities and enables secure, timely payments directly through the platform."
+        "question": " How are payments to job workers managed in the system?",
+        "answer": "  The system helps in managing job worker billing, tracks service charges based on tasks done and links it with approvals and payment schedules to ensure timely and accurate payouts."
       },
       {
-        "question": "Is the module suitable for different industries?",
-        "answer": "  Absolutely. Whether you're in engineering, textiles, electronics or any other sector, Tech Cloud ERP’s job work module can be tailored to suit your subcontracting needs."
+        "question": " Is the job work module adaptable to different industries?",
+        "answer": " Absolutely. It supports industry-specific workflows across sectors like manufacturing, textiles, engineering and more—making it a flexible solution for varied operational needs."
       }
     
     ]

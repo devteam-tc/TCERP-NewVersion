@@ -2,7 +2,7 @@
   "mainHeaderSection": {
     "heading": "Purchase Management",
     "maintitle": "Purchase Order System to Manage Your Procurements",
-    "description": "Simplify and manage your procurement process easily with Tech Cloud ERP. From request to payment, handle each step in one place saving time, reducing manual work and helping you make better decisions with clear and simple data."
+    "description": "Our Purchase Management module makes buying smarter and faster. From raising purchase requests to managing suppliers and approvals, everything works together in one easy system. Gain full control over your purchasing process and ensure timely, cost-effective procurement."
   },
   "featureSections": [
     {
@@ -77,8 +77,8 @@
         "answer": "  It helps streamline procurement, avoid manual errors, maintain records and improve transparency across departments and vendors."
       },
       {
-        "question":"Can I customize the purchase order format?",
-        "answer":" Yes. Most systems allow you to tailor the layout and fields to match your company's documentation and compliance needs."
+        "question":"Can I track the status of my purchase orders in real time?",
+        "answer":" Yes, with Tech Cloud ERP you can monitor purchase order progress, approval status, delivery schedules and vendor performance in real time."
       }
     
     ]

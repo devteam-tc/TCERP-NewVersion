@@ -65,18 +65,21 @@
           "title": "Everything You Need to Know About Our CRM Solution",
           "items": [
             {
-              "question": "What is POS software?",
-              "answer": "POS (Point of Sale) software is a system that allows businesses to process sales transactions, manage inventory, track customer data and generate reports. It is used at the point where a customer makes a purchase."
+              "question": "What is the purpose of the design module in ERP?",
+              "answer": "The design module allows teams to upload, manage and review design files in a structured way. It helps centralize creative work, track changes and ensure designs to meet quality standards before moving to production."
             },
             {
-              "question": "Does the software support multiple locations?",
-              "answer": "Yes, you can manage multiple store locations from a single POS dashboard with centralized control over inventory, staff and sales data."
+              "question": "Can I perform quality checks on uploaded designs?",
+              "answer": "Yes, once a design is uploaded, teams can review it, mark any issues or corrections and add notes for reference. This helps to identify errors early and ensures designs are accurate and production-ready."
             },
             {
-              "question": "Is it possible to track real-time sales and inventory?",
-              "answer": "Yes, with our cloud-based POS, you can monitor sales, stock levels and employee activity in real-time from any device."
+              "question": "Is it possible to track design revisions and updates?",
+              "answer": "Absolutely. Every update or correction is saved with version history, so you can track changes over time and ensure the latest design is always available to the right team."
+            },
+            {
+              "question": "Who can access and review the designs?",
+              "answer": "Access can be managed based on roles—designers, QC teams and managers can view, comment or approve designs depending on their permissions, helping maintain control and accountability."
             }
-          
           ]
         }
   }

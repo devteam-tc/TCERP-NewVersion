@@ -65,20 +65,20 @@
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
       {
-        "question": "What is inventory management software?",
-        "answer": "Inventory management software assists companies in tracking and handling their stock levels, overseeing warehouse activities and making sure the correctness of stock data. It aids in automating duties like goods receipt, stock transfers between diverse locations and modifications."
+        "question": " How does inventory management software help a business?",
+        "answer": " It helps track stock levels, manage product movement and reduce overstock or shortages. You can keep operations efficient and make faster, better decisions."
       },
       {
         "question": "How does reorder level management work?",
-        "answer": " Reorder levels allow you to set minimum stock thresholds. When stock levels fall below this threshold, the system automatically triggers a reorder process to avoid stockouts."
+        "answer": "  Reorder levels are set to alert you when stock drops below a defined point. This ensures you restock on time and avoid delays or missed sales."
       },
       {
-        "question": " Can I manage multiple warehouses with Tech Cloud ERP?",
-        "answer": "Indeed, Tech Cloud ERP's robust Warehouse Management System facilitates oversight of stock across various venues. Inventories in diverse depots can be transferred or rectified smoothly."
+        "question": " Can I manage stock across different locations?",
+        "answer": " Yes, you can handle inventory across multiple warehouses and stores in one system, with real-time visibility into stock movement and availability."
       },
       {
-        "question": "  Is the system customizable?",
-        "answer": "Yes. Tech Cloud ERP can be tailored to your specific needs, including customizing material master data fields, inventory workflows and stock transfer rules."
+        "question": "Is the inventory system flexible to fit different business needs?",
+        "answer": " The system can be adjusted to match your workflows, product types and reporting needs so you get the control and visibility your business requires."
       }
     
     ]
