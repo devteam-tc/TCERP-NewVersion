@@ -110,7 +110,7 @@ const InitAnimations = () => {
       if (container.classList.contains("zoom-out")) {
         tl.from(image, {
           duration: 1.5,
-          scale: 1.4,
+          // scale: 1.4,
           ease: "power2.out",
         });
       } else if (container.classList.contains("left") || container.classList.contains("right")) {

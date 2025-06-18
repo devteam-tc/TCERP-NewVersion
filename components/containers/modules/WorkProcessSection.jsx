@@ -1,20 +1,15 @@
-'use client';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'next/image';
 import { FaChevronRight } from 'react-icons/fa';
-import styles from './WorkProcessSection.module.scss';
-
-// const Subtitle = ({ children, className }) => (
-//   <h6 className={`${styles.subtitle} ${className}`}>{children}</h6>
-// );
+import './WorkProcessSection.scss';
 
 const Title = ({ children, className }) => (
-  <h2 className={`${styles.title} ${className}`}>{children}</h2>
+  <h2 className={`title ${className}`}>{children}</h2>
 );
 
 const StyledButton = ({ children }) => (
-  <button className={styles.styledButton}>{children}</button>
+  <button className="styledButton">{children}</button>
 );
 
 const renderTextWithLineBreaks = (text) => {
@@ -27,24 +22,10 @@ const renderTextWithLineBreaks = (text) => {
   ));
 };
 
-const WorkProcessSection = ({ slug }) => {
-  const [data, setData] = useState(null);
+const WorkProcessSection = ({ moduleData }) => {
+  if (!moduleData) return null;
 
-  useEffect(() => {
-    if (slug) {
-      import(`../../../data/modules/${slug}.json`)
-        .then((moduleData) => {
-          setData(moduleData.default);
-        })
-        .catch((err) => {
-          console.error('Failed to load module data:', err);
-        });
-    }
-  }, [slug]);
-
-  if (!data) return null;
-
-  const { featureSections, mainHeaderSection } = data;
+  const { featureSections, mainHeaderSection } = moduleData;
 
   const renderStep = (sectionData, reverse = false, index) => (
     <Row className="align-items-center mb-2" key={index}>
@@ -52,7 +33,7 @@ const WorkProcessSection = ({ slug }) => {
         <Image
           src={sectionData.dashboardImage}
           alt={sectionData.imageAlt || sectionData.featuretitle}
-          className={`img-fluid ${styles.image}`}
+          className="image"
           width={700}
           height={450}
           quality={100}
@@ -60,22 +41,25 @@ const WorkProcessSection = ({ slug }) => {
         />
       </Col>
       <Col md={6} className={reverse ? 'order-md-1' : ''}>
-        <h3 className={styles.stepTitle}>
-          <span className={styles.stepNumber}>{`0${index + 1}`}</span>
+        <h3 className="stepTitle">
+          <span className="stepNumber">{`0${index + 1}`}</span>
           {renderTextWithLineBreaks(sectionData.featuretitle)}
         </h3>
-        <div className={styles.stepDescription}>
+        <div className="stepDescription">
           {renderTextWithLineBreaks(sectionData.featuredesc)}
         </div>
       </Col>
     </Row>
   );
+
   return (
-    <section className={styles.section}>
+    <section className="section">
       <Container className="mt-md-5">
-        <div className={styles.header}>
-          <Title className= {styles.title}>{renderTextWithLineBreaks(mainHeaderSection.maintitle)}</Title>
-          <div className={styles.description}>
+        <div className="header">
+          <Title className="title">
+            {renderTextWithLineBreaks(mainHeaderSection.maintitle)}
+          </Title>
+          <div className="subtitle">
             {renderTextWithLineBreaks(mainHeaderSection.description)}
           </div>
         </div>
@@ -92,4 +76,4 @@ const WorkProcessSection = ({ slug }) => {
   );
 };
 
-export default WorkProcessSection;
+export default WorkProcessSection; 

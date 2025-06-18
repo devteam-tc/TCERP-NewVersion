@@ -1,24 +1,13 @@
-import React, { useState, useEffect, useRef } from 'react';
+'use client';
+
+import React, { useState, useRef } from 'react';
 import { FaMinus, FaTimes } from 'react-icons/fa';
 import '../../../public/sass/components/_video-section.scss';
 import { FaRegSquare } from "react-icons/fa6";
 
-const VideoSection = ({ slug }) => {
-  const [data, setData] = useState(null);
+const VideoSection = ({ moduleData }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef(null);
-
-  useEffect(() => {
-    if (slug) {
-      import(`../../../data/modules/${slug}.json`)
-        .then((moduleData) => {
-          setData(moduleData.default);
-        })
-        .catch((err) => {
-          console.error('Failed to load video data:', err);
-        });
-    }
-  }, [slug]);
 
   const handlePlayClick = () => {
     if (videoRef.current) {
@@ -35,11 +24,11 @@ const VideoSection = ({ slug }) => {
     setIsPlaying(false);
   };
 
-  if (!data?.videosection) {
+  if (!moduleData?.videosection) {
     return null;
   }
 
-  const { title, description, videoUrl } = data.videosection;
+  const { title, description, videoUrl } = moduleData.videosection;
   
   // Add Cloudinary transformations for optimal playback
   const cloudinaryUrl = `${videoUrl}?f_auto,q_auto,w_800,c_scale`;

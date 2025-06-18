@@ -74,6 +74,16 @@ export async function getModuleContent(slug) {
 }
 
 /**
+ * Get all module slugs for static generation
+ * @returns {Array<{params: {slug: string}}>} Array of module slugs
+ */
+export async function getAllModuleSlugs() {
+  return VALID_MODULE_SLUGS.map(slug => ({
+    params: { slug }
+  }));
+}
+
+/**
  * Generate breadcrumbs for module pages
  * @param {string} slug - The module slug
  * @param {string} moduleTitle - The module title
