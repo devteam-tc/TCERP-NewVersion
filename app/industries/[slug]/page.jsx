@@ -57,7 +57,7 @@ const getBaseUrl = () => {
     return 'http://localhost:3000';
   }
   // For production, use the actual domain
-  return process.env.NEXT_PUBLIC_BASE_URL || 'https://tcerp-newversion.web.app';
+  return process.env.NEXT_PUBLIC_BASE_URL || 'https://techclouderp.com/';
 };
 
 // Add metadata generation

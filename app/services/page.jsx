@@ -7,7 +7,10 @@ import DownloadSection from '../../components/containers/services/DownloadSectio
 import { FaHome } from 'react-icons/fa';
  import Howitworks from  "../../components/containers/services/Howitworks";
  
-
+ export const metadata = {
+  title: "Reliable Business Services for Every Industry | Tech Cloud ERP",
+  description: "Experience top-notch services designed to accelerate your business growth. Customized, efficient and results-driven solutions for every need.",
+};
 
 const Page = () => {
   const breadcrumbs = [

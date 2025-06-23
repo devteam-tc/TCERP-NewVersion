@@ -65,8 +65,8 @@
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
       {
-        "question": " What is a purchase order?",
-        "answer": " A purchase order is a formal document sent by a buyer to a supplier outlining the products or services requested along with pricing and delivery terms."
+        "question": "What is the Purchase module in ERP?",
+        "answer": " The Purchase module helps manage supplier quotations, purchase orders, goods receipt and vendor billing."
       },
       {
         "question": "How is a purchase requisition different from a purchase order?",

@@ -9,21 +9,21 @@
       "featuretitle": "Plan and Organize Your Projects",
       "featuredesc": "Every successful project begins with planning. With Tech Cloud ERP, you can define goals, break the project down into smaller tasks and delegate tasks to appropriate personnel. You have the ability to define timelines, monitor updates and communicate with team members to keep everyone on the same page. Whether you are running a single project or filtering through multiple ones, you have the visibility and control from the start. ",
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/home-four-feature-01.png",
+      "dashboardImage": "/images/modules/project/module-1.webp",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Execution and Monitor Progress",
       "featuredesc": "As your project continues to move up, Tech Cloud ERP keeps you on track. You have the ability to monitor project updates and the team members' progress in real time and track milestones and distributions of workload seamlessly. In a scenario where you are required to adapt your timelines or delegate tasks based on new circumstances, Tech Cloud ERP allows you to do all of that without missing a beat.",
      "featurelink": "Explore More",   
-        "dashboardImage": "/images/modules/home-four-feature-02.png",
+        "dashboardImage": "/images/modules/project/module-2.webp",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Analyze and Improve",
       "featuredesc": "At the end of the project, it's time to reflect and implement your learnings. Tech Cloud ERP provides you the clarity of how the project execution unfolded, what worked, what failed and where improvements can be made in the next project. With your lessons learnt around teammate performance, timelines, budgets, etc., you are on the path of continual improvement and the ability to prepare for the next project.",
      "featurelink": "Explore More",   
-        "dashboardImage": "/images/modules/home-four-feature-03.png",
+        "dashboardImage": "/images/modules/project/module-3.webp",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],

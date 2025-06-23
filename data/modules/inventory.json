@@ -69,8 +69,8 @@
         "answer": " It helps track stock levels, manage product movement and reduce overstock or shortages. You can keep operations efficient and make faster, better decisions."
       },
       {
-        "question": "How does reorder level management work?",
-        "answer": "  Reorder levels are set to alert you when stock drops below a defined point. This ensures you restock on time and avoid delays or missed sales."
+        "question": "What is the Inventory module in ERP?",
+        "answer": " The Inventory module manages stock levels, product movement, batch control and warehouse operations."
       },
       {
         "question": " Can I manage stock across different locations?",

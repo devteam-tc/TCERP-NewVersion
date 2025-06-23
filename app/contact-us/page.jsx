@@ -6,6 +6,15 @@ import PageHeader from "../../components/layout/PageHeader";
 import { FaHome } from 'react-icons/fa';
 import MapSection from "../../components/containers/contact/MapSection";
 
+// Generate static metadata
+export async function generateMetadata() {
+  return {
+    title: 'Get in Touch | Customer Support and Inquiries',
+    description: 'Need assistance? Reach out to our expert team anytime. We’re here to answer your questions and provide the support you need quickly and easily.',
+    keywords: 'Contact Tech Cloud ERP, ERP support, ERP consultation, ERP software contact, ERP solutions contact, ERP provider contact',
+  };
+}
+
 const page = () => {
   const breadcrumbs = [
     { label: 'Home', link: '/', icon: FaHome },

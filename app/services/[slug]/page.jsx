@@ -8,6 +8,7 @@ import FAQSection from '../../../components/containers/service-details/FAQSectio
 import Specifications from '../../../components/containers/service-details/Specifications';
 import { getServiceData, getServiceBreadcrumbs, getServiceContent } from '../../utils/serviceUtils';
 import { VALID_SERVICE_SLUGS, COMPANY_NAME, DEFAULT_META } from '../../config/services';
+import metaInfo from '../../utils/metaInfo.json';
 
 export function generateStaticParams() {
   return VALID_SERVICE_SLUGS.map(slug => ({
@@ -26,11 +27,34 @@ export async function generateMetadata({ params }) {
       };
     }
     
+    // Get meta info for the service from metaInfo.json
+    const serviceMeta = metaInfo.services[params.slug];
+    
+    if (serviceMeta) {
+      return {
+        title: serviceMeta.title,
+        description: serviceMeta.description,
+        keywords: serviceMeta.keywords,
+        openGraph: {
+          title: serviceMeta.title,
+          description: serviceMeta.description,
+          type: 'website',
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: serviceMeta.title,
+          description: serviceMeta.description,
+        }
+      };
+    }
+    
+    // Fallback to service data if metaInfo not available
     return {
       title: `${service.title} - ${COMPANY_NAME}`,
       description: service.description || DEFAULT_META.description,
     };
   } catch (error) {
+    console.error('Error generating metadata:', error);
     return DEFAULT_META;
   }
 }

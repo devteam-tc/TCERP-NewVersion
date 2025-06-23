@@ -31,13 +31,13 @@ export default function IndustryPageClient({ industryData }) {
   const breadcrumbs = [
     { label: "Home", link: "/", icon: FaHome },
     { label: "All Industries", link: "/industries" },
-    { label: industryData.title, link: null },
+    { label: industryData.heading, link: null },
   ];
 
   return (
     <>
       <Header />
-      <PageHeader title={industryData.title} breadcrumbs={breadcrumbs} />
+      <PageHeader title={industryData.heading} breadcrumbs={breadcrumbs} />
       
       <section className="ep-project-details-section pt-20">
         <div className="container">

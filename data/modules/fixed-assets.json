@@ -9,21 +9,21 @@
       "featuretitle": " Asset Transactions",
       "featuredesc": " Tech Cloud ERP gives you the ability to manage any function associated with your assets, including adding new assets, modifying assets and disposing of assets. The system automates calculation of depreciation using your choice of methods so that your financial information stays accurate without an opportunity for error by people",
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/home-four-feature-01.png",
+      "dashboardImage": "/images/modules/fixedassets/module-1.webp",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Inquiries & Reporting",
       "featuredesc": "With built-in reporting tools, you can access detailed information about each asset, monitor intricate depreciation schedules and maintain a clear audit trail. This visibility aids in compliance and supports informed decision-making by providing leaders a panoramic picture of their multi asset portfolio, from individual components to entire systems.",
      "featurelink": "Explore More",   
-        "dashboardImage": "/images/modules/home-four-feature-02.png",
+        "dashboardImage": "/images/modules/fixedassets/module-2.webp",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Asset Master & Maintenance",
       "featuredesc": "Each asset's profile includes essential details such as purchase date, cost, vendor information and warranty status. You can schedule regular maintenance activities and track their completion, helping to extend asset life and prevent unexpected downtimes. Proper maintenance of complex machinery is crucial to avoid expensive breakdowns and repairs that can disrupt workflow. Ensuring each component receives scheduled upkeep will optimize performance for years of service.",
      "featurelink": "Explore More",   
-        "dashboardImage": "/images/modules/home-four-feature-03.png",
+        "dashboardImage": "/images/modules/fixedassets/module-3.webp",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],

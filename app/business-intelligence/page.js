@@ -14,8 +14,8 @@ const breadcrumbs = [
   { label: 'Business Intelligence', link: null }
 ];
 export const metadata = {
-  title: "Tech Cloud ERP | Advanced BI for Smarter Decisions",
-  description: "Discover how Tech Cloud ERP's business intelligence tools empower your business with actionable insights. Turn data into your competitive edge today!",
+  title: "Maximize Efficiency with Business Intelligence in ERP Systems",
+  description: "Unlock powerful insights with business intelligence in ERP systems to drive smarter decisions, improve efficiency and boost your company’s growth and performance.",
   keywords: "what is business intelligence, business intelligence, top business intelligence software, ERP and Business Intelligence",
 };
 // Function to generate FAQ structured data
@@ -42,14 +42,13 @@ export default function Page() {
       <Header />
       <main>
       <PageHeader title="Business Intelligence" breadcrumbs={breadcrumbs} />
-        <IntroSection />
+      <IntroSection />
      <AuditPage />
      <BusinessCards />
      <Faq />
-      </main>
+    </main>
       <Footer />
       <CustomCursor/>
-      {/* Inject Structured FAQ Data */}
     </div>
   );
 }

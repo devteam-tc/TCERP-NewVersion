@@ -6,10 +6,6 @@ import { uniquefeaturesdata } from "../utils/constant";
 import "./FeaturePage.scss";
 import Image from "next/image";
 
-export const metadata = {
-    title: "Advanced ERP Features for Smarter Business Management",
-    description: "Enhance business efficiency with powerful ERP features like cloud computing, automation, real-time dashboards, and seamless user collaboration.",
-};
 
 const FeaturePage = () => {
     return (

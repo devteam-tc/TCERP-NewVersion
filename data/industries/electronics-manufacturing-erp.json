@@ -1,6 +1,7 @@
 {
   "banner": "/images/industries/electronics_banner_img.webp",
-  "title": "Electronics Industry",
+  "heading" :"Electronics Industry",
+  "title": "Smart ERP for Electronics Manufacturing Excellence",
   "description": "The electronics manufacturing industry requires precise management of complex processes and components. Electronics manufacturing ERP software helps in simplifying production, controlling inventory and improving product quality. By automating workflows and providing real-time visibility, it enables manufacturers to reduce costs and deliver products faster in a competitive market.",
   "keyPoints": [
     " BOM & Product Lifecycle Management",

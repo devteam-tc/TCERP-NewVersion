@@ -8,7 +8,7 @@ export default function FAQSection({ faqData }) {
   };
 
   return (
-    <div className="faq-section">
+    <div className="faq-section pt-30 pb-30">
       <h2 className="faq-title">Frequently Asked Questions</h2>
       <div className="faq-body">
         <div className="accordion">

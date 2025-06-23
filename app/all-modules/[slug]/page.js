@@ -10,6 +10,7 @@ import { FaHome } from 'react-icons/fa';
 import VideoSection from '../../../components/containers/modules/VideoSection';
 import CtaSection from '../../../components/containers/modules/CtaSection';
 import WorkProcessSection from '../../../components/containers/modules/WorkProcessSection.jsx';
+import metaInfo from '../../utils/metaInfo.json';
 
 const moduleSlugs = [
   'crm',
@@ -29,8 +30,95 @@ const moduleSlugs = [
   'pos',
 ];
 
+// Function to check all modules metadata
+function checkAllModulesMetadata() {
+  console.log('=== Checking All Modules Metadata ===');
+  const availableModules = Object.keys(metaInfo.modules);
+  console.log('Available modules in metaInfo:', availableModules);
+  
+  moduleSlugs.forEach(slug => {
+    const metaKey = slug === 'pos' ? 'POS' : slug;
+    const hasMetadata = metaInfo.modules[metaKey];
+    const hasTitle = hasMetadata?.title;
+    const hasDescription = hasMetadata?.description;
+    
+    console.log(`${slug}: ${hasMetadata ? '✅' : '❌'} Metadata, ${hasTitle ? '✅' : '❌'} Title, ${hasDescription ? '✅' : '❌'} Description`);
+  });
+  console.log('=== End Check ===');
+}
+
 export async function generateStaticParams() {
   return moduleSlugs.map((slug) => ({ slug }));
+}
+
+// Add metadata generation
+export async function generateMetadata({ params }) {
+  try {
+    // Check all modules metadata on first load
+    if (params.slug === 'crm') {
+      checkAllModulesMetadata();
+    }
+    
+    // Get module data (for fallback)
+    const data = await getModuleData(params.slug);
+    
+    if (!data) {
+      throw new Error('Module data not found');
+    }
+    
+    // Handle case sensitivity for POS/pos
+    const metaKey = params.slug === 'pos' ? 'POS' : params.slug;
+    
+    // Get meta info for the module
+    const moduleMeta = metaInfo.modules[metaKey];
+    
+    console.log(`Module: ${params.slug}, MetaKey: ${metaKey}, Has Metadata: ${!!moduleMeta}, Has Title: ${!!moduleMeta?.title}`);
+    
+    if (moduleMeta && moduleMeta.title && moduleMeta.description) {
+      console.log(`✅ Using metadata for ${metaKey}:`, moduleMeta.title);
+      return {
+        title: moduleMeta.title,
+        description: moduleMeta.description,
+        keywords: moduleMeta.keywords,
+        openGraph: {
+          title: moduleMeta.title,
+          description: moduleMeta.description,
+          type: 'website',
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: moduleMeta.title,
+          description: moduleMeta.description,
+        }
+      };
+    }
+    
+    console.log(`❌ No metadata found for ${metaKey}, using fallback`);
+    
+    // Fallback to module data if metaInfo not available
+    const title = data?.mainHeaderSection?.heading || params.slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    return {
+      title: `${title} - Tech Cloud ERP`,
+      description: `Explore ${title} module features and benefits. Optimize your business operations with Tech Cloud ERP solutions.`,
+      keywords: `${params.slug.replace(/-/g, ' ')}, ERP module, business software`,
+      openGraph: {
+        title: `${title} - Tech Cloud ERP`,
+        description: `Explore ${title} module features and benefits.`,
+        type: 'website',
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: `${title} - Tech Cloud ERP`,
+        description: `Explore ${title} module features and benefits.`,
+      }
+    };
+  } catch (error) {
+    console.error('Error generating metadata:', error);
+    return {
+      title: 'Module Not Found - Tech Cloud ERP',
+      description: 'The requested module page could not be found.',
+    };
+  }
 }
 
 async function getModuleData(slug) {

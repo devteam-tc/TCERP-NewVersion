@@ -9,19 +9,21 @@
       "featuretitle": "Plan & Execute Maintenance with Ease",
       "featuredesc": "Stay on top of your maintenance work by creating schedules, assigning technicians and tracking real-time progress. Automated reminders and clear task assignments allow your team to fix issues before they become expensive problems.",
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/home-four-feature-01.png",
+      "dashboardImage": "/images/modules/plantmaintainence/module-1.webp",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Track Performance & Improve",
       "featuredesc": "Track maintenance history and equipment health with informative reports and dashboards. Using this data you'll make better decisions, reduce inefficiencies and remain compliant with safety regulations.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-02.png",
+     "featurelink": "Explore More",    
+       "dashboardImage": "/images/modules/plantmaintainence/module-2.webp",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Master Data Setup",
       "featuredesc": " Our system allows you to create and maintain comprehensive records for all your equipment including specification, maintenance history and associated documents. Having reliable and accurate data in one place will lead to consistency and support efficient maintenance planning and implementation.",
-     "featurelink": "Explore More",      "dashboardImage": "/images/modules/home-four-feature-03.png",
+     "featurelink": "Explore More",   
+        "dashboardImage": "/images/modules/plantmaintainence/module-3.webp",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],
