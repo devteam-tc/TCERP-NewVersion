@@ -4,47 +4,59 @@
       "apparel-erp-software": {
         "title": "ERP Software for Apparel Industry | Increase Efficiency",
         "description": "Apparel ERP software helps clothing brands automate operations, from design to delivery. Boost productivity and gain full control of your supply chain.",
-        "keywords": "Apparel ERP Software, ERP System, Apparel Inventory Management Software, Apparel Manufacturing Software, Clothing Manufacturing Software, Apparel Management Software, Apparel Inventory Software"
+        "keywords": "apparel erp software, apparel manufacturing software, clothing manufacturing software, erp for apparel industry, apparel inventory management software"
       },
       "automotive-erp-software": {
         "title": "Cloud ERP for Automotive Industry | Scalable and Secure",
         "description": "Best ERP for automotive industry helps manufacturers optimize workflows, ensure compliance and drive profitability through smarter, integrated solutions.",
-        "keywords": "automotive it solutions, automotive industry solutions, automotive crm software,automotive industry software"
+        "keywords": "erp for automotive industry, automotive manufacturing erp, erp for automotive manufacturing, erp for auto industry, erp software automotive"
       },
-      "food-and-beverage-erp": {
-        "title": "ERP Software for Food & Beverage Industry | Tech Cloud ERP",
-        "description": "Explore ERP solutions for the furniture industry to optimize manufacturing, inventory and sales operations for improved efficiency and business growth.",
-        "keywords": "food and beverage erp,beverage erp,beverage industry software,beverage manufacturing erp software"
-      },
-      "agriculture-industry": {
-        "title": "All-in-One Farm ERP for Modern Agro-Industry Needs",
-        "description": "Boost your farm’s efficiency and productivity with our advanced farm ERP system. Manage crops, inventory and finances seamlessly in one platform.",
-        "keywords": "farm management software,agro industry,agriculture software,farm technology,farm software"
+      "foundry-erp-solution":{
+        "title": "Smart ERP Solutions for Casting Manufacturers",
+        "description": "ERP for Casting and Foundry Industry simplifies production, inventory and quality management, enabling smoother operations and improved overall efficiency.",
+        "keywords": "ERP for Casting and Foundry, ERP for Casting & Foundry Industry, Foundry ERP Software, Casting Industry ERP, Production Tracking System, Inventory Management for Foundries, Quality Control in Casting ERP"
       },
       "chemical-erp-software": {
         "title": "Best ERP Software for Chemical Industry | Improve Efficiency",
         "description": "Optimize your processes with our chemical manufacturing ERP. Enhance production, ensure compliance and improve efficiency with tailored industry solutions.",
         "keywords": "chemical manufacturing erp, chemical software, chemical erp, chemical industry erp, ERP for Chemical Industry"
       },
+      "construction-erp-software": {
+        "title": "ERP Software for Construction Companies and Contractors",
+        "description": "Boost efficiency and manage projects, resources and budgets with construction ERP software designed to optimize operations for builders and contractors.",
+        "keywords": "construction erp software, erp software for builders, best erp software for construction, construction industry erp, erp system in construction"
+      },
+      
+      "food-and-beverage-erp": {
+        "title": "ERP Software for Food & Beverage Industry | Tech Cloud ERP",
+        "description": "Boost efficiency and compliance with ERP for food & beverage industry. Manage inventory, quality and production with smart, integrated solutions.",
+        "keywords": "beverage erp, food and beverage erp, erp for food and beverage industry, food erp, erp food software"
+      },
+      "agriculture-industry": {
+        "title": "All-in-One Farm ERP for Modern Agro-Industry Needs",
+        "description": "Boost your farm’s efficiency and productivity with our advanced farm ERP system. Manage crops, inventory and finances seamlessly in one platform.",
+        "keywords": "farm erp, farm management software, agriculture software, farm management system, farm accounting software"
+      },
+      
       "school-management-system": {
         "title": "Education ERP Software for Efficient Academic Management",
-        "description": "Transform your institution with education ERP software that automates processes, enhances communication and supports academic and administrative tasks.",
-        "keywords": "Education ERP software,school erp, erp for school management,school management system software, erp for education institutes,erp software for schools & college, school erp software"
+        "description": "Transform your institution with education ERP that automates tasks, boosts communication and streamlines academic and administrative operations.",
+        "keywords": "education ERP software, school management system, erp higher education, education management software, erp for educational institutions"
       },
       "solar-erp-software": {
-        "title": "#1 Best ERP for Electrical & Solar Industry | Tech Cloud ERP",
-        "description": "Discover how ERP for the electrical goods and solar industries boosts efficiency, reduces costs, and improves workflows. Get the best solution for your business today!",
-        "keywords": "Solar ERP, Solar ERP Software, ERP Solution for Solar Businesses, ERP for Renewable Energy"
+        "title": "Smart ERP for Solar Industry to Boost Efficiency",
+        "description": "Optimize your solar operations with ERP for solar industry by managing installations, procurement, finances and reporting all from one integrated platform.",
+        "keywords": "Solar ERP Software, ERP Solar, CRM for Solar Companies, Solar PV Design Software, Software for Solar Installers"
       },
       "electronics-manufacturing-erp": {
-        "title": "#1 Best ERP for Electronics Industry | Tech Cloud ERP",
-        "description": "Tech Cloud ERP offers tailored ERP solutions for the electronics industry to boost efficiency, reduce costs, and streamline production processes.",
-        "keywords": "Electronics industry,Best ERP Software for Electronics Manufacturing Industry,Electronics Manufacturing Software,ERP for Electronics"
+        "title": "Efficient ERP Software for Electronics Industry",
+        "description": "Electronics industry ERP solution that integrates all processes from procurement to delivery, ensuring accuracy, speed and complete control over operations.",
+        "keywords": "ERP for electronics manufacturing, Electronics ERP, Electronic components inventory software, Electronics manufacturing ERP software, ERP for electrical and electronics manufacturing"
       },
       "fmcg-erp-software": {
-        "title": "#1 Best ERP for FMCG Industry | Tech Cloud ERP ",
-        "description": "Tech Cloud ERP provides top FMCG software with advanced inventory, accounting, and billing features to streamline operations and drive business growth.",
-        "keywords": "ERP software for FMCG industry, FMCG ERP Software, ERP for FMCG Business"
+        "title": "FMCG ERP System | Real-Time Insights and Automation",
+        "description": "Scale your FMCG business with ERP software. Control supply chain, inventory and orders precisely using automation and real-time data visibility.",
+        "keywords": "fmcg billing software, billing software for fmcg distributor, fmcg erp software, fmcg accounting software, best software for fmcg distributor"
       },
       "food-industry": {
         "title": "#1 Best Food ERP Software for Manufacturing Industry",
@@ -52,89 +64,89 @@
         "keywords": "Food ERP Software, ERP for Food and Beverage Industry, FOOD Manufacturing Software, Beverage Manufacturing ERP Software"
       },
       "furniture-manufacturing-erp": {
-        "title": "#1 Furniture Manufacturing with Smart ERP",
-        "description": "Tech Cloud ERP Furniture Manufacturing Software helps furniture manufacturers cut inventory and raw material costs while enhancing efficiency.",
-        "keywords": "Best ERP for the Furniture Industry, ERP for Furniture Industry, Furniture ERP Software, Furniture Manufacturing Software"
+        "title": "ERP Software for Furniture Industry | Simplify Operations",
+        "description": "Explore ERP solutions tailored for the furniture industry to streamline manufacturing, inventory and sales for improved efficiency, control and growth.",
+        "keywords": "ERP software for furniture industry, furniture manufacturing ERP, furniture ERP software, ERP for furniture manufacturers, furniture production ERP, furniture industry ERP solution"
       },
       "garment-erp-software": {
-        "title": "#1 Best ERP for Garment Production & Retail",
-        "description": "Discover ERP software for the garment industry. Manage inventory, optimize production, and streamline operations with Tech Cloud ERP",
-        "keywords": "erp software for garment industry, erp software for garment manufacturing company, erp for garment manufacturing, garment manufacturing erp, garment manufacturing erp"
+        "title": "Garment ERP Software | Optimize Your Apparel Business",
+        "description": "Get a comprehensive ERP solution for the garment industry. Improve order management, inventory control and production planning with precision and convenience.",
+        "keywords": "ERP software for garment industry, ERP for garment manufacturing, Garment ERP software, Garment industry ERP, Software for garment manufacturing"
       },
       "hydraulic-erp-software": {
-        "title": "#1 Best ERP for Hydraulic Industry",
-        "description": "ERP software for hydraulic industries streamlines part sales, inventory, and order management, boosting efficiency for growing small businesses.",
-        "keywords": "ERP Software for the Hydraulic Industry, hydraulic cylinder manufacturers, Hydraulic Industry"
+        "title": "Industry-Specific ERP for Hydraulic Cylinder Manufactures",
+        "description": "Advanced ERP for hydraulic cylinder industry manages orders, supplies and production in real time, boosting accuracy and ensuring faster delivery.",
+        "keywords": "hydraulic erp, erp software for the hydraulic industry, hydraulic cylinder industry management software, hydraulic cylinder manufacturer software, hydraulic cylinder manufacturing, hydraulic cylinder manufacturer"
       },
       "jewellery-erp-software": {
-        "title": "#1 Best ERP for Jewellery Business",
-        "description": "Transform your jewellery business with ERP software. Improve inventory tracking, automate tasks, and simplify management processes seamlessly.",
-        "keywords": "jewellery erp software, ERP Software for Jewellery, ERP for Jewellery Industry"
+        "title": "Simplify Management with Best Jewellery ERP Solutions",
+        "description": "Learn how jewellery ERP software can help you simplify operations, manage inventory and improve customer satisfaction in the jewellery industry.",
+        "keywords": "jewellery software, jewellery erp software, jewellery billing software, jewellery erp, jewelry inventory software, software for jewellery shop, jewellery billing software, jewelry inventory management software"
       },
       "leather-erp-software": {
-        "title": "#1 Best ERP for Efficient Leather Production & Waste Reduction",
-        "description": "Optimize your leather business workflow with ERP software. Enhance productivity, control inventory, and simplify operations like never before.",
-        "keywords": "ERP Software for Leather Manufacturing Industry, Leather Manufacturing ERP Software, erp software for Leather industry, erp software for learher tannery, Merchandise Management System, manufacturing and production system"
+        "title": "Best ERP for the Leather Industry | Tech Cloud ERP",
+        "description": "Explore how ERP helps the leather industry. Simplify operations, improve efficiency and grow your business with solutions made for leather manufacturers.",
+        "keywords": "ERP for Leather Industry, ERP Software for Leather Industry, Leather Manufacturing Software, Leather ERP Software, Leather ERP System"
       },
       "logistics-erp-software": {
-        "title": "Best Smart ERP for Logistics & Supply Chain | Tech Cloud ERP",
-        "description": "Optimize logistics & supply chain with Tech Cloud ERP. Streamline operations, reduce costs, and gain real-time insights for seamless management.",
-        "keywords": "logistics erp, logistics erp software, ERP for Logistics Movement, Logistics ERP module, Logistics Management Software, software for Logistics Movement, ERP system for distribution business"
+        "title": "Logistics ERP Software to Improve Supply Chain Efficiency",
+        "description": "Find out how Logistics ERP can optimize your supply chain, enhance operations and reduce costs. Get insights and solutions tailored for the logistics industry.",
+        "keywords": "Logistics ERP, Logistics ERP Software, Logistics Management Software, Freight Management Software, ERP System Logistics"
         },
       "medicalequipmentmanufacturing-industry": {
-        "title": "#1 Best ERP for Medical Device Manufacturing",
-        "description": "Enhance your medical equipment business with ERP software. Track production, maintain regulatory compliance, and improve workflow easily.",
-        "keywords": "Medical ERP System, erp medical, medical erp, Medical Device ERP Software System"
+        "title": "ERP for Medical Industry | Maximise Equipment Manufacturing",
+        "description": "Uncover how ERP in Medical may improve manufacturing efficiency for medical equipment. Smart solutions can help you transform your processes and promote growth.",
+        "keywords": "ERP for Medical Device Manufacturers, Medical ERP, Healthcare ERP, ERP in Medical, microMedical Device ERP"
       },
       "wood-manufacturing-erp": {
-        "title": "#1 Smart Wood Manufacturing ERP | Tech Cloud ERP",
-        "description": "Revolutionize wood manufacturing with ERP tools. Streamline inventory, manage supply chains, and improve daily operations with precision.",
-        "keywords": "ERP Software for Wood Manufacturing Industry, erp wood industry, wood industry erp, ERP Software for Wood Manufacturing Industry"
+        "title": "ERP for Wood Industry | Enhance and Simplify Manufacturing",
+        "description": "Learn how ERP for the wood industry can optimize operations, boost efficiency and enhance productivity in your wood manufacturing business for greater success.",
+        "keywords": "ERP for wood industry, ERP software for wood manufacturing, Wood industry ERP, Furniture manufacturing ERP, Custom furniture ERP"
       },
       "wholesale-distribution-software": {
-        "title": "#1 Best ERP for Wholesale Distribution | Tech Cloud ERP",
-        "description": "Transform your wholesale business with ERP solutions. Simplify inventory management, automate tasks, and enhance customer satisfaction.",
-        "keywords": "wholesale erp, erp software for distributors, erp software for wholesale distributors, wholesale distribution erp software, ERP Software For Wholesale, erp software for distribution, wholesale business erp, wholesale business software"
+        "title": "Top ERP Software for Distributors | Tech Cloud ERP",
+        "description": "Discover top ERP software for distributors to simplify billing, boost efficiency and optimize operations with solutions tailored for the wholesale industry.",
+        "keywords": "wholesale erp, wholesale distribution software, billing software for distributors, distributor software, software for distributors"
       },
       "metal-fabrication-erp": {
-        "title": "#1 Best ERP Software for the Metal Fabrication Industry",
-        "description": "Enhance your metal fabrication processes with ERP solutions. Automate workflows, monitor resources, and deliver top-notch results every time",
-        "keywords": "Metal Fabrication ERP for Manufacturing, erp software for metal fabrication, Metal Fabrication ERP, ERP For Metal Fabricators"
+        "title": "Best ERP Software to Boost Efficiency in Metal Fabrication",
+        "description": "Discover how metal fabrication ERP software can enhance efficiency, reduce costs and increase profitability in your metal fabrication business.",
+        "keywords": "metal fabrication erp software, erp for engineering industry, erp for fabrication industry, erp for metal fabrication"
       },
       "microfinance-software": {
-        "title": "#1 Smart Solutions for Microfinance Growth",
-        "description": "Transform microfinance with ERP software. Manage loans, track repayments, and enhance service delivery for better efficiency and growth.",
-        "keywords": "Microfinance ERP System, Microfinance Software"
+        "title": "Best Microfinance Software: Boost Your Business Efficiency",
+        "description": "Discover how microfinance software can help your business manage operations, increase customer support and manage finances more effectively.",
+        "keywords": "microfinance software, microfinance erp, microfinance management software, micro finance management software, software for microfinance companies"
       },
       "oilandgas-industry": {
-        "title": "#1 Advanced ERP for Oil & Gas Industry",
-        "description": "Improve oil and gas operations with advanced ERP software. Manage production, automate tasks, and reduce costs for optimized performance.",
-        "keywords": "software oil and gas, oil and gas asset management, erp oil and gas, oil and gas erp, oil and gas erp, oil and gas asset management software, oil and gas erp software, oil software, oil and gas software solutions, erp software for oil and gas, ERP Software for the Oil and Gas Industry"
+        "title": "Best Oil & Gas Software Solutions to Maximize Efficiency",
+        "description": "Explore advanced technologies transforming the oil and gas industry, enhancing asset control, regulatory compliance and operational efficiency.",
+        "keywords": "energy management software, oil and gas management  software, oil and gas software, energy audit software, oil and gas erp, accounting software for oil and gas companies"
       },
       "packaging-management-software": {
-        "title": "#1 Best ERP Software for Packaging Industry",
-        "description": "Tech Cloud ERP software for the packaging industry manages lot and serial traceability, UPC labeling, flexible units of measure, and much more.",
-        "keywords": "ERP Software for Printing and Packaging Industry, ERP for Packaging"
+        "title": "Best Packaging Management Software | Cut Waste and Save Time",
+        "description": "Enhance your packaging operations with smart packaging management software. Automate, track and optimize every step for efficiency and cost savings.",
+        "keywords": "packaging management software, erp for packaging industry, packaging software, packaging erp"
       },
       "paper-industry": {
-        "title": "#1 Best ERP Software for Paper Production",
-        "description": "Tech Cloud ERP Cloud-based software for the paper industry. Manage production, materials, quality, inventory, and finance for optimized operations.",
-        "keywords": "Best ERP Software for Paper Manufacturing Industry,erp for paper industry, ERP for Paper Manufacturing"
+        "title": "Best ERP for Paper Industry | Real-Time Data and Automation",
+        "description": "Boost productivity and reduce waste with ERP for paper industry. Simplify operations, manage inventory and optimize your paper manufacturing process.",
+        "keywords": "erp for paper industry, erp software for paper industry, erp for Paper Manufacturing"
       },
       "plastic-erp-software": {
-        "title": "#1 Best Advanced ERP for Plastic Manufacturing ",
-        "description": "Unlock the potential of your plastic manufacturing business. Tech Cloud ERP offers advanced tools to improve operations, boost productivity, and grow faster.",
-        "keywords": "Plastics ERP, Plastics Manufacturing ERP Software, ERP Software for Plastics Manufacturing Industry"
+        "title": "ERP for Plastic Industry | Optimize Production and Inventory",
+        "description": "Plastic ERP software designed to optimize  plastics industry, ensure compliance and improve inventory, batch tracking and quality control.",
+        "keywords": "plastic erp, erp for plastic industry, plastic manufacturing erp, plastic erp software, erp for plastic manufacturing"
       },
       "pharma-erp-software": {
-        "title": "#1 Best ERP Software for Pharmaceutical Industry",
-        "description": "Discover the benefits of pharma ERP systems. Learn how ERP software enhances efficiency, compliance, and growth in the pharmaceutical industry.",
-        "keywords": "Pharma ERP Software, erp software for pharma industry, ERP for Pharmaceutical Industry, erp pharma software"
+        "title": "Best ERP Software for Pharmaceutical Industry   ",
+        "description": "Optimize production, ensure compliance and manage inventory with our ERP for pharmaceutical industry designed to meet GMP, FDA and regulatory standards.",
+        "keywords": "pharma erp software, erp for pharmaceutical industry, pharmaceutical erp software, erp software for pharma industry, erp for pharma companies, pharmaerp"
       },
       "publishing-erp-software": {
-        "title": "#1 Best ERP for Publishing Industry ",
-        "description": "ERP for the Publishing Industry is a software solution designed to streamline operations, improve efficiency, and enhance collaboration, leading to greater productivity and profitability.",
-        "keywords": "erp for publishing industry, publishing erp software, erp for publishers, publishing erp"
+        "title": "Top Publishing ERP | Optimize Print & Digital Workflows",
+        "description": "Boost productivity and reduce costs with ERP for the publishing industry. Centralize operations from content creation to sales and distribution.",
+        "keywords": "publishing erp software, erp for book publishers, erp for publishers, publishing erp"
       },
       "printing-erp-software": {
         "title": "#1 Best ERP Software for the Printing Industry",
@@ -142,39 +154,44 @@
         "keywords": "Best ERP Software for Printing Industry, ERP Systems for the Printing Industry,erp for printing industry, erp software for printing industry, printing erp software, print erp, printing business solutions"
       },
       "pre-engineering-industry": {
-        "title": "#1 Best All in one Pre Engineering Software ",
-        "description": "Revolutionize your pre-engineering business with ERP solutions. Streamline project management, inventory, and production with Tech Cloud ERP.",
-        "keywords": "ERP Software for Engineering, engineering erp, erp engineering, best ERP system for engineering."
+        "title": "Boost Pre-Engineering with Leading Engineering ERP Software",
+        "description": "Manage every stage of your pre-engineering process with an end-to-end engineering ERP system built for enhanced efficiency and team collaboration.",
+        "keywords": "erp for pre engineering, engineering erp, erp engineering, engineering erp software"
       },
       "rubber-manufacturing-erp": {
-        "title": "#1 Best ERP for Rubber Industry | Tech Cloud ERP",
-        "description": "Tech Cloud ERP Rubber ERP Manufacturing Software streamlines your operations by advancing manufacturing technologies, tools, and processes.",
-        "keywords": "Best ERP Software for Rubber Manufacturing Industry, Software for Rubber Industry, ERP Software for Rubber Industry, ERP for Rubber Industry"
+        "title": "Best ERP Software for Rubber Industry | Boost Efficiency",
+        "description": "Choose the best ERP for rubber industry to integrate production, sales and finance to achieve better efficiency, cost control and real-time visibility.",
+        "keywords": "erp for rubber industry, rubber erp, rubber software, software for rubber industry, erp software for rubber industry, best erp software for rubber manufacturing industry"
       },
       "restaurant-industry": {
-        "title": "#1 Best Restaurant ERP | Manage Orders, Inventory & Sales",
-        "description": "Our restaurant ERP solution enables managers to streamline and automate key aspects of inventory management, monitor purchase orders, and more.",
-        "keywords": "ERP for restaurants, Restaurant ERP, Restaurant ERP software, Restaurant ERP Systems"
+        "title": "Best Restaurant Management System for Smart Operations",
+        "description": "Improve your restaurant's performance with a reliable restaurant management system. Get full control of orders, stock, tables and staff in one place.",
+        "keywords": "restaurant management system, pos restaurant software, restaurant software, restaurant crm, restaurant inventory management, restaurant billing system, best restaurant software, restaurant inventory management system, restaurant management software, restaurant erp software"
       },
       "retail-erp-software": {
-        "title": "#1 Complete ERP for Retail Management & Growth",
-        "description": "Upgrade your retail business with ERP software. Streamline operations, boost analytics, and enhance efficiency for improved performance and growth.",
-        "keywords": "ERP for retail, ERP for retail industry, retail erp"
+        "title": "Top ERP Software for Retail | Maximize Sales and Efficiency",
+        "description": "Looking for the best ERP for retail industry? Optimize your inventory, billing and sales processes with an all-in-one retail ERP solution.",
+        "keywords": "ERP for retail, ERP for retail industry, Retail ERP software, ERP for retail stores, ERP software for retail industry, ERP software for retail business, ERP system for retail business"
       },
       "steel-manufacturing-erp": {
-        "title": "#1 Best Advanced ERP for Steel Industry",
-        "description": "Tech cloud ERP software for the steel industry offers complete control, ensuring error-free and efficient operations with a highly customized approach.",
-        "keywords": "ERP for Steel Industry, ERP for Steel manufaturing, ERP Software For Steel Manufacturing"
+        "title": "Top ERP Software for Steel Industry | Boost Productivity",
+        "description": "Get the most reliable ERP for the steel industry. Simplify processes, ensure compliance and boost performance with an integrated ERP solution.",
+        "keywords": "ERP for steel industry, ERP software for steel manufacturing, Steel fabrication ERP software, ERP for steel distributors, Steel ERP software, steel manufacturing erp software"
       },
       "telecom-erp-software": {
-        "title": "#1 Best ERP Solutions for Telecom Sector",
-        "description": "Telecom software delivers seamless communication and efficient management. Discover solutions tailored for your telecom business today.",
-        "keywords": "ERP for telecoms, telecom software, telecom industry software, telecommunication software, telecom cloud solutions, telecom CRM, cloud-based telecom software"
+        "title": "Top Telecommunications Industry Software for Efficiency",
+        "description": "Achieve operational excellence in telecom with ERP-powered telecommunications industry software designed for efficiency, growth and automation. ",
+        "keywords": "ERP for telecoms, telecom CRM, telecommunications CRM, CRM in telecom industry, Telecommunications industry software, Telecom billing system, CRM for telecom industry"
       },
       "textile-erp-software": {
-        "title": "#1 Best Advanced ERP for the Modern Textiles Industry",
-        "description": "Optimize textile manufacturing with ERP. Streamline operations, reduce waste, and increase efficiency with the right ERP solution for your business.",
-        "keywords": "Textile erp, Textile industry software, erp for textile industry, textile erp software, Textile industry erp"
+        "title": "Best ERP for Textile Industry | Grow Smarter and Faster",
+        "description": "Get the best ERP for textile industry to manage operations better, increase productivity, monitor inventory and optimize production in real time.",
+        "keywords": "Textile ERP, ERP for textile industry, Textile ERP software, Textile management software, Textile software, Textile design software, ERP software for textile industry, Textile industry software"
+      },
+      "sign-manufacturing-erp":{
+        "title": "Signage Industry ERP for Smarter Business Operations",
+        "description": "Improve production, inventory and job tracking with sign manufacturing ERP designed to optimize operations and boost efficiency for signage companies.",
+        "keywords": "sign manufacturing erp, erp software for sign companies, sign business management software, custom signage erp solution, erp for signage industry"
       }
 
   },

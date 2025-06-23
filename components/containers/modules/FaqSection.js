@@ -19,7 +19,7 @@ const FaqSection = ({ faqData, extraClassName = '' }) => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
-            <h2 className="faq-title">{faqData.title || "Frequently Asked Questions"}</h2>
+            <h2 className="faq-title">{faqData.subTitle}</h2>
             <div className="faq-body">
               <div className="accordion">
                 {faqData.items.map((item, index) => (

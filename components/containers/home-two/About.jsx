@@ -1,4 +1,4 @@
-import aboutImg from "../../../public/images/about-us/about-img.png";
+import aboutImg from "../../../public/images/about-us/about-img.webp";
 import aboutShape from "../../../public/images/about-us/about-shape.svg";
 import userIcon from "../../../public/images/icons/group-user.svg";
 import Image from "next/image";
@@ -9,7 +9,7 @@ import aboutContent from "../../../data/about/aboutContent.json";
 
 const About = ({extraClassName = ''}) => {
   return (
-    <section className={`ep-about-section pt-30 pb-30 ${extraClassName}`}>
+    <section className={`ep-about-section pt-30 pb-60 ${extraClassName}`}>
       <div className="container">
         <div className="row">
           <div

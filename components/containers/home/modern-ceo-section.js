@@ -31,7 +31,7 @@ export default function CeoComponent() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <motion.div
+          {/* <motion.div
             className="ceo-section__badge"
             initial={{ scale: 0, rotate: -10 }}
             animate={{ scale: 1, rotate: 0 }}
@@ -39,8 +39,8 @@ export default function CeoComponent() {
           >
             <Sparkles className="w-4 h-4" />
             Leadership Excellence
-          </motion.div>
-          <motion.h1
+          </motion.div> */}
+          {/* <motion.h1
             className="ceo-section__title"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -55,7 +55,7 @@ export default function CeoComponent() {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             The innovative mind driving our mission to reshape the future
-          </motion.p>
+          </motion.p> */}
         </motion.div>
 
         {/* Main Card */}

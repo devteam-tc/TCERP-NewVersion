@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function InfoCards({ infoCards }) {
   return (
-    <section className="info-cards py-5">
+    <section className="info-cards">
       <div className="row g-4 two-info-cards">
         {infoCards?.map((card, index) => (
           <div className="col-md-6" key={index}>

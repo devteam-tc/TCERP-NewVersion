@@ -22,11 +22,13 @@ const page = () => {
       {/* <PageHeader /> */}
       {/* <About extraClassName="style2"/> */}
       <About />
-      <CeoComponent/>
+      
       {/* <TextSlider/> */}
       <WhoWeAre/>
+      <CeoComponent/>
       <UniqueFeatures/>
       {/* <Team/> */}
+      
       <Footer/>
       <CustomCursor/>
     </>
