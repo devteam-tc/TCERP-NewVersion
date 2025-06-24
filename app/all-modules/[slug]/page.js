@@ -11,6 +11,7 @@ import VideoSection from '../../../components/containers/modules/VideoSection';
 import CtaSection from '../../../components/containers/modules/CtaSection';
 import WorkProcessSection from '../../../components/containers/modules/WorkProcessSection.jsx';
 import metaInfo from '../../utils/metaInfo.json';
+import { moduleFaqs } from '../../../data/moduleFaqs';
 
 const moduleSlugs = [
   'crm',
@@ -75,7 +76,7 @@ export async function generateMetadata({ params }) {
     console.log(`Module: ${params.slug}, MetaKey: ${metaKey}, Has Metadata: ${!!moduleMeta}, Has Title: ${!!moduleMeta?.title}`);
     
     if (moduleMeta && moduleMeta.title && moduleMeta.description) {
-      console.log(`✅ Using metadata for ${metaKey}:`, moduleMeta.title);
+      const ogImage = moduleMeta.image || '/default-og-image.jpg';
       return {
         title: moduleMeta.title,
         description: moduleMeta.description,
@@ -84,11 +85,21 @@ export async function generateMetadata({ params }) {
           title: moduleMeta.title,
           description: moduleMeta.description,
           type: 'website',
+          images: [
+            {
+              url: ogImage,
+              width: 1200,
+              height: 630,
+              alt: moduleMeta.title,
+              type: 'image/jpeg'
+            }
+          ]
         },
         twitter: {
           card: 'summary_large_image',
           title: moduleMeta.title,
           description: moduleMeta.description,
+          images: [ogImage]
         }
       };
     }
@@ -146,6 +157,48 @@ export default async function ModulePage({ params }) {
     notFound();
     return null;
   }
+// Create FAQ schema
+const modulefaq = moduleFaqs[slug] || [];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "url": `https://techclouderp.com/all-modules/${slug}`,
+  "mainEntity": modulefaq.map(item => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.answer
+    }
+  }))
+};
+
+// Create BreadcrumbList schema
+const breadcrumbSchema = {
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://techclouderp.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Modules",
+      "item": "https://techclouderp.com/all-modules/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": moduleData?.mainHeaderSection?.heading || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
+      "item": `https://techclouderp.com/all-modules/${slug}`
+    }
+  ]
+};
 
   const breadcrumbs = [
     { label: 'Home', link: '/', icon: FaHome },
@@ -155,6 +208,16 @@ export default async function ModulePage({ params }) {
 
   return (
     <>
+       {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <Header />
       <PageHeader 
         title={moduleData?.mainHeaderSection?.heading || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} 

@@ -9,6 +9,7 @@ import Specifications from '../../../components/containers/service-details/Speci
 import { getServiceData, getServiceBreadcrumbs, getServiceContent } from '../../utils/serviceUtils';
 import { VALID_SERVICE_SLUGS, COMPANY_NAME, DEFAULT_META } from '../../config/services';
 import metaInfo from '../../utils/metaInfo.json';
+import { serviceFaqs } from '../../../data/serviceFaqs';
 
 export function generateStaticParams() {
   return VALID_SERVICE_SLUGS.map(slug => ({
@@ -31,6 +32,7 @@ export async function generateMetadata({ params }) {
     const serviceMeta = metaInfo.services[params.slug];
     
     if (serviceMeta) {
+      const ogImage = serviceMeta.image || '/default-og-image.jpg';
       return {
         title: serviceMeta.title,
         description: serviceMeta.description,
@@ -39,11 +41,21 @@ export async function generateMetadata({ params }) {
           title: serviceMeta.title,
           description: serviceMeta.description,
           type: 'website',
+          images: [
+            {
+              url: ogImage,
+              width: 1200,
+              height: 630,
+              alt: serviceMeta.title,
+              type: 'image/jpeg'
+            }
+          ]
         },
         twitter: {
           card: 'summary_large_image',
           title: serviceMeta.title,
           description: serviceMeta.description,
+          images: [ogImage]
         }
       };
     }
@@ -74,8 +86,64 @@ export default async function ServicePage({ params }) {
       notFound();
     }
 
+    // FAQ Schema
+    const faqs = serviceFaqs[params.slug] || [];
+    const faqSchema = faqs.length > 0 ? {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "url": `https://techclouderp.com/services/${params.slug}`,
+      "mainEntity": faqs.map(item => ({
+        "@type": "Question",
+        "name": item.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": item.answer
+        }
+      }))
+    } : null;
+
+    // BreadcrumbList Schema
+    const breadcrumbSchema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://techclouderp.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://techclouderp.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": service.title,
+          "item": `https://techclouderp.com/services/${params.slug}`
+        }
+      ]
+    };
+
+    // Meta Info (OG/Twitter)
+    const serviceMeta = metaInfo.services[params.slug];
+    const ogImage = serviceMeta?.image || '/default-og-image.jpg'; // Add image field in metaInfo if needed
+
     return (
-      <main className="service-page">
+      <>
+        {faqSchema && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+          />
+        )}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        />
         <Header />
         <PageHeader title={service.title} breadcrumbs={breadcrumbs} />
         <div className="container">
@@ -85,7 +153,7 @@ export default async function ServicePage({ params }) {
         <FAQSection service={params.slug} />
         <Footer />
         <CustomCursor />
-      </main>
+      </>
     );
   } catch (error) {
     notFound();

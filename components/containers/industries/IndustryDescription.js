@@ -5,7 +5,7 @@ export default function IndustryDescription({ title, description, keyPoints }) {
   return (
     <>
       <div>
-        <h3 className="title split-text right py-2">{title}</h3>
+        <h1 className="title split-text right py-2">{title}</h1>
         <p className="lead">{description}</p>
       </div>
       <div className="inner-options">

@@ -1,15 +1,17 @@
+'use client';
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'next/image';
 import { FaChevronRight } from 'react-icons/fa';
 import './WorkProcessSection.scss';
+import { useRouter } from 'next/navigation';
 
 const Title = ({ children, className }) => (
   <h2 className={`title ${className}`}>{children}</h2>
 );
 
-const StyledButton = ({ children }) => (
-  <button className="styledButton">{children}</button>
+const StyledButton = ({ children, onClick }) => (
+  <button className="styledButton" onClick={onClick}>{children}</button>
 );
 
 const renderTextWithLineBreaks = (text) => {
@@ -26,6 +28,7 @@ const WorkProcessSection = ({ moduleData }) => {
   if (!moduleData) return null;
 
   const { featureSections, mainHeaderSection } = moduleData;
+  const router = useRouter();
 
   const renderStep = (sectionData, reverse = false, index) => (
     <Row className="align-items-center mb-2" key={index}>
@@ -56,9 +59,9 @@ const WorkProcessSection = ({ moduleData }) => {
     <section className="section">
       <Container className="mt-md-5">
         <div className="header">
-          <Title className="title">
+          <h1 className="title">
             {renderTextWithLineBreaks(mainHeaderSection.maintitle)}
-          </Title>
+          </h1>
           <div className="subtitle">
             {renderTextWithLineBreaks(mainHeaderSection.description)}
           </div>
@@ -69,7 +72,7 @@ const WorkProcessSection = ({ moduleData }) => {
         ))}
 
         <div className="text-center my-5">
-          <StyledButton>Get Started</StyledButton>
+          <StyledButton onClick={() => router.push('/all-modules')}>Get Started</StyledButton>
         </div>
       </Container>
     </section>

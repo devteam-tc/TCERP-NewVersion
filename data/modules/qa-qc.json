@@ -25,8 +25,8 @@
     }
   ],
     "videosection": {
-      "title": "Transform Your Customer Relationships",
-      "description": "Discover how our CRM solution helps you build stronger customer relationships, streamline your sales process, and drive business growth. Watch how our platform enables you to manage contacts, track leads, and deliver exceptional customer experiences.",
+      "title": "Deliver Quality Without Compromise",
+      "description": "Quality matters. Our QA/QC module helps you set inspection rules, log test results and manage any issues that come up. Whether you’re checking raw materials or final products, you can maintain consistent quality at every step.",
       "thumbnail": "/images/modules/video-thumbnail.png",
       "videoUrl": "https://res.cloudinary.com/techclouderp/video/upload/v1749719811/crm-module_htem2g.webm",
       "module": "customer-relationship-management"

@@ -2,8 +2,8 @@
     "services": [
       {
         "title": "Automation",
-        "img": "/images/servicescards/Planning&Research.png",
-        "hoverImg": "/images/servicescards/white/Planning&Research-white.png",
+        "img": "/images/servicescards/Automation.png",
+        "hoverImg": "/images/servicescards/white/Automation-white.png",
         "link": "/services/web-development",
         "description": "Ensure smooth, efficient transactions from start to finish using Tech Cloud ERP’s intelligent automation tools.",
         "icon": "/images/services/ser-icon.png",
@@ -21,7 +21,7 @@
       {
         "title": "Central Database",
         "img": "/images/servicescards/Development&Integration1.png",
-        "hoverImg": "/images/servicescards/white/Development&Integration1-white.png",
+        "hoverImg": "/images/servicescards/white/Development&Integration-white.png",
         "link": "/services/progressive-web-apps",
         "description": "Store all your business data securely and organized in one place with our centralized, efficient database system.",
         "icon": "/images/services/pwa-icon.png",
@@ -29,8 +29,8 @@
       },
       {
         "title": "Search Function",
-        "img": "/images/servicescards/LaunchSupport.png",
-        "hoverImg": "/images/servicescards/white/LaunchSupport-white.png",
+        "img": "/images/servicescards/SearchFunction.png",
+        "hoverImg": "/images/servicescards/white/SearchFunction-white.png",
         "link": "/services/cms-development",
         "description": "Easily find what you need with powerful search tools that make accessing information fast, simple and effortless.",
         "icon": "/images/services/cms-icon.png",
@@ -47,8 +47,8 @@
       },
       {
         "title": "Marketing data visualization",
-        "img": "/images/servicescards/APIDevelopment.png",
-        "hoverImg": "/images/servicescards/white/APIDevelopment-white.png",
+        "img": "/images/servicescards/Marketingdatavisualization.png",
+        "hoverImg": "/images/servicescards/white/Marketingdatavisualization-white.png",
         "link": "/services/web-security",
         "description": "Turn marketing data into clear insights with visualization tools to help you make smarter business decisions.",
         "icon": "/images/services/security-icon.png",
@@ -57,7 +57,7 @@
       
     ],
     "about": {
-      "heading": "Accelerate Growth With Ecommerce Solutions",
+      "heading": "E-Commerce ERP for Growing Digital Retail Brands",
       "paragraph": "At Tech Cloud ERP, we connect your online store with a powerful ERP system that brings together inventory, orders, finance, and fulfillment in one place. With real-time visibility and automated workflows, you can reduce errors, save time, and deliver a better customer experience while confidently growing your business every step of the way.",
       "features": [
         "Unified Ecommerce Operations",

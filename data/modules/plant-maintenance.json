@@ -28,8 +28,8 @@
     }
   ],
     "videosection": {
-      "title": "Transform Your Customer Relationships",
-      "description": "Discover how our CRM solution helps you build stronger customer relationships, streamline your sales process, and drive business growth. Watch how our platform enables you to manage contacts, track leads, and deliver exceptional customer experiences.",
+      "title": "Keep Equipment Performing at Its Best",
+      "description": "Handle equipment upkeep with timely alerts and task tracking. This module supports both preventive and breakdown maintenance, so your machines stay in top shape.",
       "thumbnail": "/images/modules/video-thumbnail.png",
       "videoUrl": "https://res.cloudinary.com/techclouderp/video/upload/v1749719811/crm-module_htem2g.webm",
       "module": "customer-relationship-management"

@@ -14,7 +14,6 @@ export default function IndustryBanner({ banner, title }) {
           style={{
             width: '100%',
             height: '100%',
-            objectFit: 'cover',
             objectPosition: 'center',
             borderRadius :'5px !important',
             transform :'none !important'

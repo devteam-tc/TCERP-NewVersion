@@ -200,99 +200,99 @@
     "crm": {
       "title": "Optimize Sales and Boost Customer Relations with CRM Software",
       "description": "Boost customer relationships and drive sales with CRM software to optimize communication, track leads and enhance customer satisfaction in one platform.",
-      "keywords": "Tech cloud erp, Tech Cloud, best cloud based erp software,"
+      "keywords": "CRM software, CRM for small business, Best CRM for small business,Customer relationship management software, lead management"
     },
     "sales": {
       "title": "Best Sales Tracking Software for Small Businesses",
       "description": "Stay ahead of your targets with advanced sales tracking software. Get detailed reports, real-time insights and performance dashboards to scale fast.",
-      "keywords": "What is Customer Relationship Management, What is CRM, Customer Relationship Management, crm software, crm management software, best crm software, crm system"
+      "keywords": "sales management system, sales tracking software, sales software"
     },
     "purchase": {
       "title": "Track Sales and Purchase Orders Easily | Boost Efficiency",
       "description": "Easily track sales and purchase orders from one dashboard. Boost accuracy, simplify operations and enhance efficiency with a simple, user-friendly system.",
-      "keywords": "POS Software, Point of Sale Software, pos billing software, retail pos software india, best pos software in india, download pos software, best pos billing software in india, best retail pos software in india, pos software india, point of sale software india, free pos software india, pos software for retail stores in india"
+      "keywords": "purchase order, purchase requisition, purchase order management software, purchase order format"
     },
     "inventory": {
       "title": "Top Inventory Management System for Better Productivity",
       "description": "Improve accuracy, reduce costs and boost performance with our advanced inventory management system tailored for businesses of all sizes and industries.",
-      "keywords": "Trading Software, best futures trading platform"
+      "keywords": "inventory management, inventory management system, reorder levels, warehouse management system, inventory control"
     },
     "production": {
       "title": "Best Production Management for Smart Manufacturing",
       "description": "Optimize production workflows, reduce downtime and improve efficiency with smart production management tools designed for modern manufacturing needs.",
-      "keywords": "Build an online store for your ecommerce business, E-commerce software, erp system ecommerce, best ecommerce platform for small business, e commerce platforms, ecommerce inventory management software, ecommerce inventory software"
+      "keywords": "production management, production management system, production management software, production planning software, production order"
     },
     "job-work": {
       "title": "Complete Job Work Management | Cloud ERP Solution",
       "description": "Optimize your job work process with efficient tracking, real-time updates and automated workflows. Enhance accuracy and control with intelligent job work management.",
-      "keywords": "human resources management system, HCM, hr management, erp software, best hr software, best hr systems"
+      "keywords": "Job Work Management"
     },
     "qa-qc": {
       "title": "Effective Quality Control Strategies for Manufacturers",
       "description": "Ensure consistent product quality with proven quality control methods. Discover tools and techniques to improve your processes and meet industry standards.",
-      "keywords": "Financial Management System, financial management software, personal finance management software, personal money management software, finance, accounting, erp financial management tools, cloud financial management"
+      "keywords": "quality control, quality control erp, quality management software"
     },
     "fixed-assets": {
       "title": "Track and Manage Fixed Assets with Ease | ERP Solutions",
       "description": "Enhance fixed asset accounting with real-time tracking, automated depreciation and audit-ready reports to improve compliance and financial decisions.",
-      "keywords": "erp in finance and accounting, erp for finance and accounting, ERP for Accounting and Financial Management"
+      "keywords": "fixed asset accounting, depreciation calculation, asset lifecycle management, subcontracting process, fixed assets management software"
     },
     "plant-maintenance":{
       "title": "Best Preventive Maintenance Software for Equipment Efficiency",
       "description": "Boost equipment reliability and reduce repair costs with our preventive maintenance software. Efficiently manage all maintenance schedules in one platform.",
-      "keywords": "erp in finance and accounting, erp for finance and accounting, ERP for Accounting and Financial Management"
+      "keywords": "Plant Maintenance Software, Preventive Maintenance, Computerized Maintenance Management System (CMMS), Preventive Maintenance Software"
     },
     "hrms":{
       "title": "Best HRMS for Efficient Employee Management Systems",
       "description": "Elevate HR processes with our HRMS solution. Simplify payroll, recruitment, employee management and more for a dynamic workforce experience.",
-      "keywords": "erp in finance and accounting, erp for finance and accounting, ERP for Accounting and Financial Management"
+      "keywords": "HRMS, HRMS Software, HR and Payroll Software"
     },
     "finance-accounting":{
       "title": "Efficient Financial Management System for Better Business Control",
       "description": "Optimize your business with our Finance Software. Manage budgets, expenses and financial reporting efficiently for improved decision-making.",
-      "keywords": "erp in finance and accounting, erp for finance and accounting, ERP for Accounting and Financial Management"
+      "keywords": "Finance and Accounting Software, Accounting Software, Expense Management Software"
     },
     "project":{
       "title": "Best Project Management Software for Collaboration",
       "description": "Stay ahead of deadlines with smart project management tools. From planning to execution, manage every step of your project with ease and confidence.",
-      "keywords": "erp in finance and accounting, erp for finance and accounting, ERP for Accounting and Financial Management"
+      "keywords": "project management software, best project management software, project planning software"
     },
     "design":{
       "title": "Boost Creative Workflow with Design Management Software",
       "description": "Discover powerful design management software to streamline creative workflows, improve team collaboration and deliver projects on time with ease.",
-      "keywords": "erp in finance and accounting, erp for finance and accounting, ERP for Accounting and Financial Management"
+      "keywords": "Design module "
     },
     "POS":{
       "title": "Best POS System for Retail and Restaurants | Fast and Reliable",
       "description": "Optimize sales, manage inventory and enhance customer experience with a smart Point of Sale (POS) system tailored for retail and restaurant businesses.",
-      "keywords": "erp in finance and accounting, erp for finance and accounting, ERP for Accounting and Financial Management"
+      "keywords": "pos software, Point of sale systems,Best POS system for small business"
     },
     "imports-exports":{
       "title": "Best Import Export Software for Efficient Trade Management",
       "description": "Enhance your import-export efficiency with real-time insights, reduced manual work and automated compliance using our all-in-one trade software.",
-      "keywords": "erp in finance and accounting, erp for finance and accounting, ERP for Accounting and Financial Management"
+      "keywords": "export management software, import export management software,software for import export business"
     }
   },
   "services": {
     "digital-marketing": {
       "title": "Top Digital Marketing Services to Elevate Your Online Presence",
       "description": "Get the best digital marketing services to boost your online growth. SEO, PPC, content and social media strategies designed to drive results and grow your brand.",
-      "keywords": "Digital Marketing Services, Digital Marketing company, marketing digital marketing, online digital marketing, marketing agency near me"
+      "keywords": "Digital Marketing Services, Digital Marketing Agency, Social Media Marketing, SEO Digital Marketing"
     },
     "web-development": {
       "title": "Boost Your Brand with Best Web Development Services",
       "description": "Boost your online presence with expert best web development services. We create responsive, SEO-friendly websites to grow your business and engage your audience.",
-      "keywords": "Web Development Services, website development company, web developers near me, website development company, web development firm, Best Website Development Services, Website Development company in india"
+      "keywords": "web development, website development, website developers, website developers near me"
    },
-    "mobile-application-development": {
+    "app-development": {
     "title": "Top Mobile App Development Services for Your Business",
     "description": "Transform your business with TechCloud ERP's expert Mobile App Development. Scalable, innovative apps designed to meet your business goals.",
-    "keywords": "Discover expert mobile app development services for smooth, user-friendly apps. Unlock your business potential with our innovative solutions and top-notch designs"
+    "keywords": "mobile app development, best app developers, android app development"
   },
   "e-commerce-development":{
     "title": "All-in-One E-commerce ERP Solution for Smarter Operations",
     "description": "Accelerate your e-commerce growth with ERP software that integrates inventory, orders and finances | perfect for scaling your online store.",
-    "keywords": "Mobile App Development Services, app development, mobile app development, mobile app development company"
+    "keywords": "ecommerce erp, erp for ecommerce business, best ecommerce erp, best erp for shopify"
   }
   },
   "about-us": {

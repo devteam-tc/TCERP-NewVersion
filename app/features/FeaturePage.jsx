@@ -5,10 +5,22 @@ import { Container, Row, Col } from "react-bootstrap";
 import { uniquefeaturesdata } from "../utils/constant";
 import "./FeaturePage.scss";
 import Image from "next/image";
+import Head from "next/head";
 
+const META = {
+  title: "Tech Cloud ERP Features | Unique ERP Software Capabilities",
+  description: "Explore the unique features of Tech Cloud ERP. Discover how our ERP software can streamline your business operations with advanced, user-friendly capabilities.",
+  keywords: "ERP features, Tech Cloud ERP, ERP software capabilities, business automation, unique ERP features"
+};
 
 const FeaturePage = () => {
     return (
+        <>
+          <Head>
+            <title>{META.title}</title>
+            <meta name="description" content={META.description} />
+            <meta name="keywords" content={META.keywords} />
+          </Head>
         <div className="feature-wrapper">
             <Container className="feature-container">
                 <Row>
@@ -37,6 +49,7 @@ const FeaturePage = () => {
                 </Row>
             </Container>
         </div>
+        </>
     );
 };
 
