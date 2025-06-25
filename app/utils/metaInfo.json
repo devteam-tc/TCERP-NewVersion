@@ -286,7 +286,7 @@
    },
     "app-development": {
     "title": "Top Mobile App Development Services for Your Business",
-    "description": "Transform your business with TechCloud ERP's expert Mobile App Development. Scalable, innovative apps designed to meet your business goals.",
+    "description": "Transform your business with Tech Cloud ERP's expert Mobile App Development. Scalable, innovative apps designed to meet your business goals.",
     "keywords": "mobile app development, best app developers, android app development"
   },
   "e-commerce-development":{
@@ -308,5 +308,28 @@
       "keywords": "erp software solution provider in hyderabad, ERP software solution provider in India"
     }
   }
-}
+},
+
+
+
+
+
+"locations": {
+    "techcloud-erp-software-in-hyderabad": {
+      "title": "Discover Our Network | Best ERP Software Company in India",
+      "description": "Our Branches | Discover the Best ERP Software in Hyderabad - Trusted ERP Solutions for Optimized Business Operations Across Multiple Locations",
+      "keywords": "erp companies in hyderabad, erp software companies in hyderabad, best erp software in hyderabad"
+    },
+    "techcloud-erp-software-in-chennai": {
+      "title": "Top ERP Software in Chennai for Business Growth",
+      "description": "Explore Our Branches in Chennai | Top ERP Software for Your Business Needs | Optimize Operations with Tech Cloud ERP – Trusted by Leading Companies Across India",
+      "keywords": "erp companies in chennai, erp software companies in chennai, erp software development"
+   },
+    "techcloud-erp-software-in-coimbatore": {
+    "title": "Reliable ERP Software in Coimbatore for Smart Business",
+    "description": "Find the Best ERP Software in Coimbatore | Our Branches | Tech Cloud ERP - Delivering Customized ERP Solutions Across Industries with Local Expertise",
+    "keywords": "erp software companies in coimbatore, erp company in coimbatore, erp software in coimbatore"
+  }
+ 
+  }
 }

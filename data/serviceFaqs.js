@@ -41,7 +41,7 @@ export const serviceFaqs = {
         answer: "Yes, we offer ongoing maintenance services including regular updates, security patches, performance optimization and feature enhancements to keep your app current and competitive."
       }
     ],
-    'ecommerce-development': [
+    'e-commerce-development': [
       {
         question: "Is the website secure for transactions?",
         answer: "Yes. Your site will be built with secure HTTPS protocols, SSL certificates and best practices for data protection and PCI compliance."

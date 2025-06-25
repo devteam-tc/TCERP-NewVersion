@@ -1,5 +1,3 @@
-'use client';
-
 import Image from 'next/image';
 import Link from 'next/link';
 import Header from '../../components/layout/header/Header';
@@ -9,29 +7,74 @@ import Integrations from "../../components/containers/locations/Integrations"
 import Footer from '../../components/layout/footer/Footer';
 import Support from '../../components/containers/locations/Support';
 import LocationsGrid from '../../components/containers/locations/LocationsGrid';
+import Head from 'next/head';
 
-const locations = [
-   
-  {
-    title: 'ERP in Chennai',
-    image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
-    description: 'ERP software in Chennai acts as the backbone for modern business management...',
-    link: '/locations/techcloud-erp-software-in-chennai',
+export const metadata = {
+  title: 'Explore Our Locations | Best ERP Software Provider in India',
+  description: 'Explore Our Branches | Best ERP Software in India | Connect with Tech Cloud ERP Experts Across India for Tailored Business Solutions and Local Support',
+  keywords: 'ERP Chennai, ERP Hyderabad, ERP Coimbatore, ERP software locations, Tech Cloud ERP',
+  openGraph: {
+    title: 'Tech Cloud ERP Locations | ERP Software in Chennai, Hyderabad, Coimbatore',
+    description: 'Find Tech Cloud ERP software solutions in Chennai, Hyderabad, and Coimbatore. Discover how our ERP can transform your business operations in key Indian cities.',
+    images: [
+      {
+        url: '/images/locations/og-locations.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Tech Cloud ERP Locations',
+        type: 'image/jpeg'
+      }
+    ]
   },
-  {
-    title: 'ERP in Hyderabad',
-    image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
-    description: 'Transform your business operations with our cutting-edge ERP solutions in Hyderabad, the tech hub of India...',
-    link: '/locations/techcloud-erp-software-in-hyderabad',
-  },
-  {
-    title: 'ERP in Coimbatore',
-    image: 'https://dummyimage.com/300x200/cccccc/000000&text=updating',
-    description: 'Streamline your manufacturing and textile business with our specialized ERP solutions in Coimbatore...',
-    link: '/locations/techcloud-erp-software-in-coimbatore',
-  },
-  
-];
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tech Cloud ERP Locations | ERP Software in Chennai, Hyderabad, Coimbatore',
+    description: 'Find Tech Cloud ERP software solutions in Chennai, Hyderabad, and Coimbatore. Discover how our ERP can transform your business operations in key Indian cities.',
+    images: ['/images/locations/og-locations.jpg']
+  }
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where does Tech Cloud ERP provide ERP software solutions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tech Cloud ERP provides ERP software solutions in Chennai, Hyderabad, Coimbatore, and other major cities across India."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What industries does Tech Cloud ERP serve in these locations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We serve manufacturing, retail, distribution, and service industries with tailored ERP solutions in each location."
+      }
+    }
+  ]
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://techclouderp.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Locations",
+      "item": "https://techclouderp.com/locations/"
+    }
+  ]
+};
 
 export default function LocationsPage() {
   const breadcrumbs = [
@@ -41,6 +84,14 @@ export default function LocationsPage() {
 
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <Header/>
       <PageHeader title="Locations" breadcrumbs={breadcrumbs}/>
       <div className="locations-page">

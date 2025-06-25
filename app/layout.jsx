@@ -53,6 +53,7 @@ export default function RootLayout({ children }) {
           <InitAnimations />
           {children}
         </LayoutWrapper>
+        
       </body>
     </html>
   );
