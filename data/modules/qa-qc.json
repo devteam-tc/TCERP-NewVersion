@@ -9,19 +9,19 @@
       "featuretitle": "Quality Control – Catch Issues Before They Spread",
       "featuredesc": "Quality Control ensures your products meet standards after production. With Tech Cloud ERP, inspect raw materials, monitor production stages and check finished goods. Record test results, track defects and take immediate action to avoid further problems.",
       "dashboardImage": "/images/modules/qa&qc/module-1.webp",
-      "imageAlt": "Lead Management Dashboard"
+      "imageAlt": "QA & QC dashboard showing quality control work order status"
     },
     {
       "featuretitle": " Quality Assurance – Build It Right From the Start",
       "featuredesc": "Quality Assurance focuses on preventing problems before they begin. Create policies, set control plans and ensure teams follow proper procedures. Use tools like SOP documentation, regular audits and training checks to build quality into every task.",
         "dashboardImage": "/images/modules/qa&qc/module-2.webp",
-      "imageAlt": "Sales Automation Dashboard"
+      "imageAlt": "Job work management dashboard showing JBW GRN tracking"
     },
     {
       "featuretitle": "Live Quality Tracking and Reports",
       "featuredesc": "Tech Cloud ERP provides real-time dashboards and reports, so you can track quality performance across suppliers, departments and product lines. From deviation reports to inspection logs and audit trails, everything is available in one place for easy review and regulatory compliance.",
         "dashboardImage": "/images/modules/qa&qc/module-3.webp",
-      "imageAlt": "Sales Automation Dashboard"
+      "imageAlt": "Live quality tracking dashboard showcasing QC reports and logs"
     }
   ],
     "videosection": {
@@ -62,8 +62,8 @@
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
       {
-        "question": "What is the difference between QA and QC?",
-        "answer": " QA focuses on building quality into the process to prevent defects while QC focuses on detecting and fixing defects in the final product."
+        "question": "What is the QA & QC module in ERP?",
+        "answer": " The QA & QC module ensures quality assurance and control during procurement, production and dispatch by enforcing standard tests."
       },
       {
         "question": "Can I track quality issues across production stages?",

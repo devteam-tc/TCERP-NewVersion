@@ -77,8 +77,8 @@
               "answer": "Absolutely. Every update or correction is saved with version history, so you can track changes over time and ensure the latest design is always available to the right team."
             },
             {
-              "question": "Who can access and review the designs?",
-              "answer": "Access can be managed based on roles—designers, QC teams and managers can view, comment or approve designs depending on their permissions, helping maintain control and accountability."
+              "question": "What is the Design module in ERP?",
+              "answer": " The Design module helps manage product blueprints, engineering drawings, version control and approvals in the ERP environment."
             }
           ]
         }

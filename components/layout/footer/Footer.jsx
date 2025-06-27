@@ -68,11 +68,11 @@ const Footer = () => {
                     {/* <i className="fas fa-chevron-right"></i>  */}
                       <li><Link href="/">Home</Link></li>
                       <li><Link href="/about-us"> About Us</Link></li>
-                      <li><Link href="/contact-us">Contact Us</Link></li>
+                      <li><Link href="/contact-us"> Contact Us</Link></li>
                       <li><Link href="/features"> Our Features</Link></li>
                       <li><Link href="/blogs"> Our Blogs</Link></li>
-                      <li><Link href="/locations">Our Locations</Link></li>
-                      <li><Link href="/all-modules">All Modules</Link></li>
+                      <li><Link href="/locations"> Our Locations</Link></li>
+                      <li><Link href="/all-modules"> All Products</Link></li>
                       <li><Link href="/careers"> Careers</Link></li>
                     </ul>
                   </div>

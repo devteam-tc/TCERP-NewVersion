@@ -10,21 +10,21 @@
       "featuredesc": "Capture customer inquiries from multiple channels and manage them efficiently. Quickly create and customize professional sales quotations with dynamic pricing, discount management and approval workflows. Track inquiries and quotations in real time and convert approved quotes instantly into sales orders ensuring no opportunity is lost and every deal is accurately managed.",
       "featurelink": "Explore More",
       "dashboardImage": "/images/modules/sales/module-1.webp",
-      "imageAlt": "Lead Management Dashboard"
+      "imageAlt": "ERP sales management dashboard for lead and quotation"
     },
     {
       "featuretitle": "Sales Order Processing & Delivery",
       "featuredesc": "Process sales orders with real-time inventory checks, automated approval workflows and backorder management. Keep full visibility of order status and delivery schedules to ensure timely fulfilment. Automate billing and invoice generation linked directly to deliveries, integrating with accounting and payment systems to improve operational efficiency and cash flow.",
      "featurelink": "Explore More",     
       "dashboardImage": "/images/modules/sales/module-2.webp",
-      "imageAlt": "Sales Automation Dashboard"
+      "imageAlt": "ERP dashboard for sales order processing and delivery"
     },
     {
       "featuretitle": "Customer Data & Insights",
       "featuredesc": "Maintain a centralized customer database including contacts, purchase history, credit terms and communication logs. Use this data to personalize service, automate credit checks and build targeted sales strategies. Detailed analytics and transaction history provide insights to improve sales performance and customer satisfaction.",
      "featurelink": "Explore More",   
         "dashboardImage": "/images/modules/sales/module-3.webp",
-      "imageAlt": "Sales Automation Dashboard"
+      "imageAlt": "ERP dashboard for customer data and sales insights"
     }
   ],
     "videosection": {

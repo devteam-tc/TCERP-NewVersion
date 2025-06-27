@@ -8,8 +8,8 @@ import { FaHome } from 'react-icons/fa';
 import { getAllCategories } from '../utils/industryUtils';
 
 export const metadata = {
-  title: "ERP Solutions for Manufacturing Industry | Boost Efficiency",
-  description: "Boost manufacturing efficiency with ERP solutions designed to optimize production, manage resources and improve supply chain operations effectively.",
+  title: "Tech Cloud ERP Industries | All-in-One Solutions for Business Growth",
+  description: "Explore Tech Cloud ERP industries to streamline operations, boost efficiency, and drive business growth effectively.",
 };
 
 export default async function IndustriesPage() {

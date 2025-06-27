@@ -6,11 +6,7 @@ import { modulesdata } from "../utils/constant";
 import "./ModulePage.scss";
 import Image from "next/image";
 
-export const metadata = {
-  title: "Advanced ERP module for Smarter Business Management",
-  description:
-    "Enhance business efficiency with powerful ERP module like cloud computing, automation, real-time dashboards, and seamless user collaboration.",
-};
+
 
 const ModulePage = () => {
   return (
@@ -23,7 +19,7 @@ const ModulePage = () => {
                 <div className="imageWrapper">
                   <Image
                     src={module.image || '/images/products/default_pdt.png'}
-                    alt={module.title}
+                    alt={module.imageAlt}
                     width={400}
                     height={300}
                     className="moduleImage"

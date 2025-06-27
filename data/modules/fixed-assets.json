@@ -10,21 +10,21 @@
       "featuredesc": " Tech Cloud ERP gives you the ability to manage any function associated with your assets, including adding new assets, modifying assets and disposing of assets. The system automates calculation of depreciation using your choice of methods so that your financial information stays accurate without an opportunity for error by people",
       "featurelink": "Explore More",
       "dashboardImage": "/images/modules/fixedassets/module-1.webp",
-      "imageAlt": "Lead Management Dashboard"
+      "imageAlt": "Fixed assets dashboard for asset transactions and transfers"
     },
     {
       "featuretitle": "Inquiries & Reporting",
       "featuredesc": "With built-in reporting tools, you can access detailed information about each asset, monitor intricate depreciation schedules and maintain a clear audit trail. This visibility aids in compliance and supports informed decision-making by providing leaders a panoramic picture of their multi asset portfolio, from individual components to entire systems.",
      "featurelink": "Explore More",   
         "dashboardImage": "/images/modules/fixedassets/module-2.webp",
-      "imageAlt": "Sales Automation Dashboard"
+      "imageAlt": "Fixed assets inquiry dashboard with reports and movements"
     },
     {
       "featuretitle": "Asset Master & Maintenance",
       "featuredesc": "Each asset's profile includes essential details such as purchase date, cost, vendor information and warranty status. You can schedule regular maintenance activities and track their completion, helping to extend asset life and prevent unexpected downtimes. Proper maintenance of complex machinery is crucial to avoid expensive breakdowns and repairs that can disrupt workflow. Ensuring each component receives scheduled upkeep will optimize performance for years of service.",
      "featurelink": "Explore More",   
         "dashboardImage": "/images/modules/fixedassets/module-3.webp",
-      "imageAlt": "Sales Automation Dashboard"
+      "imageAlt": "Fixed assets maintenance dashboard with asset master data"
     }
   ],
     "videosection": {
@@ -65,8 +65,8 @@
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
       {
-        "question": "What is a fixed asset?",
-        "answer": "A fixed asset is a long-term material asset used in the operations of a company, such as buildings, furniture, land, equipment and vehicles. They show up on the balance sheet as property, plant and equipment (PP&E) and they are depreciated over time in order to reflect wear and tear."
+        "question": "What is the Fixed Assets module in ERP?",
+        "answer": " The Fixed Assets module manages asset lifecycles including acquisition, depreciation, maintenance and disposal."
       },
       {
         "question": "Why is depreciation important?",

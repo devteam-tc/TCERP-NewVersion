@@ -10,21 +10,21 @@
       "featuredesc": " Keep employee information accurate and accessible by storing all records personal details, job roles and history in one centralized system. Monitor check-ins, check-outs, leaves and working hours with ease. Our system connects with biometric devices to deliver real-time attendance data, improving visibility and control over workforce productivity.",
       "featurelink": "Explore More",
       "dashboardImage": "/images/modules/hrms/module-1.webp",
-      "imageAlt": "Lead Management Dashboard"
+      "imageAlt": "HRMS dashboard with employee details and attendance tracking menu"
     },
     {
       "featuretitle": "Effortless Payroll Management",
       "featuredesc": " Streamline your payroll process from salary calculation to tax deductions and payslip production. With our system, you will be able to minimize manual administration and meet statutory obligations leaving you with a correct and timely payroll every month.",
      "featurelink": "Explore More",     
       "dashboardImage": "/images/modules/hrms/module-2.webp",
-      "imageAlt": "Sales Automation Dashboard"
+      "imageAlt": "ERP payroll dashboard with employee daily attendance and tracker reports"
     },
     {
       "featuretitle": "Performance Tracking Made Simple",
       "featuredesc": "Simple goal setting, reviews and templated structured feedback encourages progress from employees, celebrating success and encouraging development. Our performance tracking tools enable you to keep your team developing",
      "featurelink": "Explore More",  
          "dashboardImage": "/images/modules/hrms/module-3.webp",
-      "imageAlt": "Sales Automation Dashboard"
+      "imageAlt": "HRM ERP holiday list and performance tracking dashboard"
     }
   ],
     "videosection": {
@@ -73,8 +73,8 @@
         "answer": "Yes. Tech Cloud ERP supports Jio tracking, allowing you to monitor the live location and activity of employees working in the field."
       },
       {
-        "question": " Can employees access their own information?",
-        "answer": " Yes. Employees can view and update personal details, apply for leaves and download payslips through the self-service portal."
+        "question": "What is the HRMS module in ERP?",
+        "answer": "  HRMS (Human Resource Management System) handles employee records, payroll, attendance, leaves and appraisals."
       },
       {
         "question": " Does the HRMS support multiple locations and departments?",

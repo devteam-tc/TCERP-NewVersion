@@ -57,7 +57,7 @@ const getBaseUrl = () => {
     return 'http://localhost:3000';
   }
   // For production, use the actual domain
-  return process.env.NEXT_PUBLIC_BASE_URL || 'https://tcerp-newversion.web.app';
+  return process.env.NEXT_PUBLIC_BASE_URL || 'https://techclouderp.com/';
 };
 
 // Add metadata generation
@@ -121,7 +121,7 @@ export async function generateMetadata({ params }) {
     const baseUrl = getBaseUrl();
     const imagePath = getImagePath(params.slug);
     const ogImageUrl = `${baseUrl}${imagePath}`;
-    const pageUrl = `${baseUrl}/all-industries/${params.slug}/`;
+    const pageUrl = `${baseUrl}/industries/${params.slug}/`;
 
     return {
       title: industryMeta.title,
@@ -191,7 +191,7 @@ export default async function IndustryPage({ params }) {
     const faqSchema = {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "url": `https://techclouderp.com/all-industries/${params.slug}/`,
+      "url": `https://techclouderp.com/industries/${params.slug}/`,
       "mainEntity": industryFaq.map(item => ({
         "@type": "Question",
         "name": item.question,
@@ -217,13 +217,13 @@ export default async function IndustryPage({ params }) {
           "@type": "ListItem",
           "position": 2,
           "name": "Industries",
-          "item": "https://techclouderp.com/all-industries/"
+          "item": "https://techclouderp.com/industries/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": industryData.title || params.slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '),
-          "item": `https://techclouderp.com/all-industries/${params.slug}/`
+          "item": `https://techclouderp.com/industries/${params.slug}/`
         }
       ]
     };

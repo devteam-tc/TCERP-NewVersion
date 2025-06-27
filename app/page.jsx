@@ -1,13 +1,9 @@
-// import Pricing from "@/components/containers/home-two/Pricing";
+
 import Pricing from "../components/containers/home-two/Pricing"
 import ServicesTwo from "../components/containers/home/ServicesTwo";
 import Banner from "../components/containers/home/Banner";
-// import Blog from "@/components/containers/home/Blog";
 import Counter from "../components/containers/home/Counter";
-// import Cta from "@/components/containers/home/Cta";
-// import Faq from "@/components/containers/home/Faq";
 import Features from "../components/containers/home/Features";
-// import Projects from "@/components/containers/home/Projects";
 import Services from "../components/containers/home/Services";
 import Testimonial from "../components/containers/home/Testimonial";
 import CustomCursor from "../components/layout/CustomCursor";

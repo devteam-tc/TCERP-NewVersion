@@ -10,21 +10,21 @@
       "featuredesc": "Stay on top of your maintenance work by creating schedules, assigning technicians and tracking real-time progress. Automated reminders and clear task assignments allow your team to fix issues before they become expensive problems.",
       "featurelink": "Explore More",
       "dashboardImage": "/images/modules/plantmaintainence/module-1.webp",
-      "imageAlt": "Lead Management Dashboard"
+      "imageAlt": "Plant maintenance dashboard with schedule and job tracking"
     },
     {
       "featuretitle": "Track Performance & Improve",
       "featuredesc": "Track maintenance history and equipment health with informative reports and dashboards. Using this data you'll make better decisions, reduce inefficiencies and remain compliant with safety regulations.",
      "featurelink": "Explore More",    
        "dashboardImage": "/images/modules/plantmaintainence/module-2.webp",
-      "imageAlt": "Sales Automation Dashboard"
+      "imageAlt": "Dashboard showing maintenance schedule and performance reports"
     },
     {
       "featuretitle": "Master Data Setup",
       "featuredesc": " Our system allows you to create and maintain comprehensive records for all your equipment including specification, maintenance history and associated documents. Having reliable and accurate data in one place will lead to consistency and support efficient maintenance planning and implementation.",
      "featurelink": "Explore More",   
         "dashboardImage": "/images/modules/plantmaintainence/module-3.webp",
-      "imageAlt": "Sales Automation Dashboard"
+      "imageAlt": " Plant maintenance master data setup dashboard with fields like frequency."
     }
   ],
     "videosection": {
@@ -73,8 +73,8 @@
         "answer": " Yes, Tech Cloud ERP maintains a detailed log of all maintenance activities, allowing you to review past services, repairs and inspections for each piece of equipment."
       },
       {
-        "question": "How does the system help in reducing equipment downtime?",
-        "answer": " By proactively scheduling maintenance tasks and providing real-time alerts, the system helps prevent unexpected failures and ensures that issues are addressed promptly."
+        "question": "What is the Plant Maintenance module in ERP?",
+        "answer": " Plant Maintenance module handles scheduling and recording preventive and corrective maintenance for plant equipment and machinery."
       },
       {
         "question": "Is it possible to manage spare parts inventory within the maintenance module?",

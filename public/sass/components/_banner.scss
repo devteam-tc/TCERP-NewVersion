@@ -171,14 +171,16 @@
   50% { transform: translateY(-20px); }
 }
 
-@keyframes float-rocket {
-  0%, 100% {
-    transform: translate(-50%, -50%) translateY(0px);
-  }
-  50% {
-    transform: translate(-50%, -50%) translateY(-45px);
-  }
-}
+// @keyframes float-rocket {
+//   0% {
+//     transform: translate(-50%, -50%) translateY(0);
+//     opacity: 1;
+//   }
+//   100% {
+//     transform: translate(-50%, -50%) translateY(-100px);
+//     opacity: 0;
+//   }
+// }
 
 .circular-icons {
 	position: absolute;
