@@ -1,89 +1,120 @@
 /*=============================
 	08. Who We are CSS Start
 ===============================*/
-.ep-who-we-area-section {
-  .short-info {
-    padding-right: 10px;
 
-    p+p {
-      margin-top: 20px;
-    }
-  }
+.who-we-are-section {
+  // background: #000;
+  border-radius: 0 0 30px 30px;
+  overflow: hidden;
+  // padding-bottom: 0;
 
-  .image {
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    align-items: stretch;
+  .image-container {
+    // position: relative;
+    // width: 100%;
+    // min-height: 500px;
+    // border-radius: 30px 30px 0 0 ;
+    // overflow: hidden;
 
-    .counter {
-      background-color: var(--bs-tertiary-color);
-      padding: 20px;
-      border-top-left-radius: 30px;
-      border-bottom-left-radius: 30px;
-
-      .icon-box {
-        width: 120px;
-        height: 120px;
-      }
-
-      .count {
-        color: var(--bs-black-color);
-        font-family: var(--bs-font-secondary);
-        font-size: 60px;
-        font-weight: 700;
-        line-height: 68px;
-        letter-spacing: -1.48px;
-        margin: 30px 0 5px 0;
-      }
-    }
-
-    .img {
-      max-width: 490px;
+    .main-image {
       width: 100%;
-      margin-left: auto;
-      border-top-right-radius: 30px;
-      border-bottom-right-radius: 30px;
+      height: 520px;
+      object-fit: cover;
+      display: block;
+      border-radius: 30px 30px 0 0;
+    }
+
+    .icon {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      background: #d32f2f;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+      z-index: 2;
+      padding: 10px;
+      transition: transform 0.2s;
+
+      &:hover {
+        transform: scale(1.08);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+      }
+    }
+    .icon.main {
+      width: 110px;
+      height: 110px;
+      background: #d32f2f;
+      border: 6px solid #fff;
+      z-index: 3;
+      padding: 18px;
+    }
+  }
+
+  .who-we-are-description {
+    background: #F15A2B;
+    color: #fff;
+    padding: 32px 24px 28px 24px;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+    margin-top: -25px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+
+    p {
+      margin-bottom: 18px;
+      color: #fff;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
 
-@media (max-width: 1199.98px) {
-  .ep-who-we-area-section .image .img {
-    max-width: 500px;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .ep-who-we-area-section .image .img {
-    max-width: 420px;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .ep-who-we-area-section .image .counter .icon-box {
-    width: 95px;
-    height: 95px;
-
-    img {
-      width: 50px;
+@media (max-width: 767px) {
+  .who-we-are-section {
+    .image-container {
+      min-height: 220px;
+      .main-image {
+        height: 220px;
+      }
+      .icon {
+        width: 40px;
+        height: 40px;
+        padding: 4px;
+      }
+      .icon.main {
+        width: 60px;
+        height: 60px;
+        padding: 8px;
+      }
+    }
+    .who-we-are-description {
+      font-size: 15px;
+      padding: 18px 8px 14px 8px;
     }
   }
-
-  .ep-who-we-area-section .image .counter .count {
-    font-size: 46px;
-    line-height: 42px;
-    margin: 20px 0 0px 0;
-  }
 }
 
-@media (max-width: 575.98px) {
-  .ep-who-we-area-section .image .counter {
-    border-radius: 30px;
-    margin-bottom: 20px;
-  }
+.who-we-are-title {
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--bs-primary-500);
+  margin-top: 32px;
+  margin-bottom: 8px;
+  letter-spacing: -1px;
+}
 
-  .ep-who-we-area-section .image .img {
-    border-radius: 30px;
-    max-width: 100%;
+.who-we-are-subtitle {
+  font-size: 32px;
+  font-weight: 400;
+  // color: #666;
+  margin-bottom: 18px;
+  letter-spacing: 0.2px;
+  @media screen and (max-width:992px) {
+    font-size: 22px;
   }
 }

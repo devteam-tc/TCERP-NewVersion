@@ -18,18 +18,7 @@ const About = ({extraClassName = ''}) => {
             className="col-xl-6 col-lg-7 col-md-10 mx-auto">
             <div className="about-image position-relative">
               <Image src={aboutImg} alt="Business handshake showing trust & partnership in skyline view" className="img-fluid w-100" />
-              {/* <Image src={aboutShape} alt="about-shape" className="about-shape position-absolute" /> */}
-              {/* <div className="clients rounded-20 position-absolute d-flex align-items-center">
-                <div className="icon-box icon-box-tertiary d-flex align-items-center justify-content-center rounded-pill">
-                  <Image src={userIcon} alt="group-user" />
-                </div>
-                <div className="counter-info">
-                  <div className="number">
-                    <OdometerCounter value={5000} />
-                  </div>
-                  <p>Satisfied Clients</p>
-                </div>
-              </div> */}
+            
             </div>
           </div>
           <div
