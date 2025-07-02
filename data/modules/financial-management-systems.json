@@ -1,0 +1,46 @@
+{
+    "mainTitle": "Finance Provide You Best Services",
+    "cards": [
+      {
+        "image": "/products/Finance/functionalities.png",
+        "title": "Functionalities",
+        "text": "We provide tools to optimize financial operations, with real-time reporting, automated billing and seamless data integration for enhanced efficiency.",
+        "items": [
+          "Real-time reporting for accurate insights.",
+          "Automated billing for efficiency.",
+          "Integrated data for informed decisions."
+        ]
+      },
+      {
+        "image": "/products/Finance/report.png",
+        "title": "Inquiries & Reports",
+        "text": "We provide tools to simplify inquiries and generate detailed reports, delivering insights to support informed financial decisions.",
+        "items": [
+          "Comprehensive inquiries for valuable insights.",
+          "Detailed reports to guide decisions.",
+          "Accurate data for better financial strategies."
+        ]
+      },
+      {
+        "image": "/products/Finance/features.png",
+        "title": "Advanced Features",
+        "text": "We offer advanced tools that elevate financial management, tailoring solutions to meet your business needs for optimized operations.",
+        "items": [
+          "Advanced tools for superior financial management.",
+          "Customizable features to fit business requirements.",
+          "Leverage cutting-edge technology for efficiency."
+        ]
+      },
+      {
+        "image": "/products/Finance/report.png",
+        "title": "Multi-Currency",
+        "text": "We provide robust multi-currency support, enabling smooth management of global transactions with accuracy and seamless international operations.",
+        "items": [
+          "Manage global transactions with ease.",
+          "Ensure precise financial reporting across markets.",
+          "Streamline international operations for smooth business workflows."
+        ]
+      }
+    ]
+  }
+  

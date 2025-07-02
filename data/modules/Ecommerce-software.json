@@ -1,0 +1,66 @@
+{
+    "mainTitle": "Our E-Commerce Overview",
+    "cards": [
+      {
+        "image": "/products/ecommerce/automation.png",
+        "title": "Automation",
+        "text": "Simplify your operations with Tech Cloud ERP’s advanced automation, ensuring accurate pricing and smooth transactions from start to finish.",
+        "items": [
+          "Enjoy clear, transparent pricing for all costs.",
+          "Streamline the shopping process with automated calculations.",
+          "Enhance customer satisfaction with smooth, hassle-free transactions."
+        ]
+      },
+      {
+        "image": "/products/ecommerce/website-builder.png",
+        "title": "Website Builder",
+        "text": "Create your perfect website the easy way, with Tech Cloud ERP’s website builder that’s perfect for everyone.",
+        "items": [
+          "Easy to use tools that make building a website a snap.",
+          "Flexible and customisable templates and features.",
+          "Seamless integration for a successful creation process."
+        ]
+      },
+      {
+        "image": "/products/ecommerce/database.png",
+        "title": "Central Database",
+        "text": "Simplify your business operations with our centralized database, offering a secure and efficient way to store and access all your essential data anytime, from anywhere.",
+        "items": [
+          "Centralize your data for seamless operations.",
+          "Access important information anytime, from anywhere.",
+          "Boost efficiency with a reliable and secure data hub."
+        ]
+      },
+      {
+        "image": "/products/ecommerce/search.png",
+        "title": "Search Function",
+        "text": "Quickly find what you're looking for with our advanced search, making it easy to access the right information in seconds.",
+        "items": [
+          "Find what you need instantly.",
+          "Navigate large data effortlessly.",
+          "Boost productivity with fast, accurate results."
+        ]
+      },
+      {
+        "image": "/products/ecommerce/integration.png",
+        "title": "Integration",
+        "text": "Easily connect your tools and systems with our integration solutions, making your business operations smoother and more efficient.",
+        "items": [
+          "Connect tools for better efficiency.",
+          "Sync processes to boost agility.",
+          "Simplify operations with seamless integrations."
+        ]
+      },
+      {
+        "image": "/products/ecommerce/data-visualization.png",
+        "title": "Marketing data visualization",
+        "text": "We provide advanced tools and detailed reports to help you visualize marketing data, unlocking valuable insights for better decision-making.",
+        "items": [
+          "Visualize marketing data with our advanced tools.",
+          "Access detailed reports for deeper insights.",
+          "Make informed decisions to improve your marketing strategy."
+        ]
+      }
+    ]
+  }
+  
