@@ -10,21 +10,21 @@
       "featuredesc": " Record and manage all customer and supplier payments, credit notes, deposits and transfers with full transparency. Easily allocate payments to invoices, make journal entries, reconcile bank accounts and handle costs and revenue accruals all in one place.",
       "featurelink": "Explore More",
       "dashboardImage": "/images/modules/finance&accounting/module-1.webp",
-      "imageAlt": "Lead Management Dashboard"
+      "imageAlt": "Job work management with financial inquiry dashboard UI"
     },
     {
       "featuretitle": "Inquiries and Financial Reporting",
       "featuredesc": " Access all key reports such as trial balances, tax reports, profit & loss drilldowns and general ledger summaries. Use insights from bank transactions, supplier & customer payments and deposits to make smart, data-backed decisions.",
      "featurelink": "Explore More",    
        "dashboardImage": "/images/modules/finance&accounting/module-2.webp",
-      "imageAlt": "Sales Automation Dashboard"
+      "imageAlt": " Finance dashboard with inquiry reports and payment tracking "
     },
     {
       "featuretitle": "Account and Currency Master Setup",
       "featuredesc": " Maintain and configure all financial master data including GL accounts, currencies, exchange rates, account classes, tags and revaluation rules. Easily manage your bank accounts, set up closing transactions and build a strong accounting foundation.",
      "featurelink": "Explore More",    
        "dashboardImage": "/images/modules/finance&accounting/module-3.webp",
-      "imageAlt": "Sales Automation Dashboard"
+      "imageAlt": "Finance dashboard for bank account and currency master setup"
     }
   ],
 
@@ -66,8 +66,8 @@
     "title": "Everything You Need to Know About Our CRM Solution",
     "items": [
       {
-        "question": "What are the key functions of finance and accounting software?",
-        "answer": " Finance and accounting software is designed to handle essential financial tasks such as billing, payments, budgeting, expense tracking and reporting. It helps in maintaining accuracy, ensures compliance and provides a clear view of your financial performance—all within a single platform."
+        "question": "What is the Finance & Accounting module in ERP?",
+        "answer": " Finance & Accounting module records financial transactions, ledgers, accounts receivable/payable and generates financial statements."
       },
       {
         "question": "Can I generate financial reports like profit and loss or balance sheets?",

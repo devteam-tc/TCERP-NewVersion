@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
 // Custom hook to detect mobile/small screens
-function useIsMobile(breakpoint = 768) {
+function useIsMobile(breakpoint = 992) {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -58,14 +58,16 @@ const Banner = () => {
           Your browser does not support the video tag.
         </video>
       )}
-      <div className="banner-center-content" style={{ position: 'relative', zIndex: 1, textAlign: 'center', color: '#fff', paddingTop: '8vw' }}>
-        <h1 className="banner-title">Cloud - Based<br />ERP Software Solutions</h1>
-        <p className="banner-subtitle">
-          Empower your business with Tech Cloud ERP, a scalable cloud-based ERP software that streamlines operations, boosts productivity and fuels growth.
-        </p>
-        <p className='mb-5' style={{ color: '#ef5226', fontWeight: '600' }} >WE DON'T JUST SELL SOFTWARE, WE POWER YOUR BUSINESS AT ROCKET SPEED.</p>
-        <Link href="/demo" className="banner-demo-btn">Book a Demo</Link>
-      </div>
+      {isMobile && (
+        <div className="banner-center-content" style={{ position: 'relative', zIndex: 1, textAlign: 'center', color: '#fff'}}>
+          <h1 className="banner-title">Cloud - Based<br />ERP Software Solutions</h1>
+          <p className="banner-subtitle">
+            Empower your business with Tech Cloud ERP, a scalable cloud-based ERP software that streamlines operations, boosts productivity and fuels growth.
+          </p>
+          <p className='mb-5' style={{ color: '#ef5226', fontWeight: '600' }} >WE DON'T JUST SELL SOFTWARE, WE POWER YOUR BUSINESS AT ROCKET SPEED.</p>
+          <Link href="/demo" className="banner-demo-btn">Book a Demo</Link>
+        </div>
+      )}
     </section>
   );
 };

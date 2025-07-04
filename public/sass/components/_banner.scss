@@ -242,17 +242,4 @@
 		padding-top: 120px;
 	}
 }
-
-// Hide video on 768px and below, hide banner-center-content above 768px
-@media (max-width: 768px) {
-  .banner-video {
-    display: none !important;
-  }
-}
-
-@media (min-width: 769px) {
-  .banner-center-content {
-    display: none !important;
-  }
-}
   

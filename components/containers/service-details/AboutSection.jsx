@@ -42,7 +42,7 @@ const AboutSection = ({ slug, content }) => {
                 </ul>
               </Col>
             </Row>
-            <button className="get-started-button">GET STARTED NOW</button>
+            {/* <button className="get-started-button">GET STARTED NOW</button> */}
           </div>
         </Col>
       </Row>

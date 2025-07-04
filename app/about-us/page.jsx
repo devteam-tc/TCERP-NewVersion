@@ -6,8 +6,8 @@ import Header from "../../components/layout/header/Header"
 import PageHeader from "../../components/layout/PageHeader"
 import { FaHome } from 'react-icons/fa';
 import UniqueFeatures from "../../components/containers/home-two/UniqueFeatures";
-// import CeoComponent from "../../components/containers/home/modern-ceo-section"
-
+import CeoComponent from "../../components/containers/home/modern-ceo-section"
+import OurVisionSection from '../../components/containers/home-two/OurVisionSection'
 // Generate static metadata
 export async function generateMetadata() {
   return {
@@ -26,14 +26,11 @@ const page = () => {
     <>
       <Header/>
       <PageHeader title="About Us" breadcrumbs={breadcrumbs}/>
-      {/* <PageHeader /> */}
-      {/* <About extraClassName="style2"/> */}
-      <About />
-      
-      {/* <TextSlider/> */}
-      <WhoWeAre/>
+      {/* <About /> */}
+      <OurVisionSection />
+            <WhoWeAre/>
+      <CeoComponent/>
       <UniqueFeatures/>
-      {/* <Team/> */}
       
       <Footer/>
       <CustomCursor/>

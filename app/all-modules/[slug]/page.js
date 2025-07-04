@@ -9,7 +9,7 @@ import FaqSection from '../../../components/containers/modules/FaqSection';
 import { FaHome } from 'react-icons/fa';
 import VideoSection from '../../../components/containers/modules/VideoSection';
 import CtaSection from '../../../components/containers/modules/CtaSection';
-import WorkProcessSection from '../../../components/containers/modules/WorkProcessSection.jsx';
+import WorkProcessSection from '../../../components/containers/modules/WorkProcessSection';
 import metaInfo from '../../utils/metaInfo.json';
 import { moduleFaqs } from '../../../data/moduleFaqs';
 

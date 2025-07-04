@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const Features = () => {
   return (
-    <section className="ep-features-section overflow-hidden pt-60 pb-60">
+    <section className="ep-features-section overflow-hidden pb-60 pt-60-desktop">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 order-2 order-md-1 d-none d-lg-block">

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import faqImg1 from "../../../public/images/faq/faq-img-1.webp";
-import faqImg2 from "../../../public/images/faq/faq-img-2.png";
+import faqImg2 from "../../../public/images/faq/faq-img-2.webp";
 import groupIcon from "../../../public/images/icons/group-person-icon.svg";
 import groupIcon2 from "../../../public/images/icons/group-person-icon-2.svg";
 import { faq } from "../../../data/faq";
@@ -96,7 +96,7 @@ const Faq = ({ extraClassName = '' }) => {
                   data-aos-duration="800"
                   data-aos="fade-up"
                   data-aos-delay="400"
-                  className="col-lg-6 col-sm-6 trusted-clients-card">
+                  className="col-lg-6 col-sm-6">
                   <div className="clients rounded-20 text-center d-flex align-items-center justify-content-center flex-column">
                     <Image src={currentIcon} alt="group-person-icon" />
                     <div className="client-number d-flex align-items-center justify-content-center">

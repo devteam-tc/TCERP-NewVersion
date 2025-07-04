@@ -11,4 +11,17 @@
   background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
-} 
+}
+
+.pt-60-mobile {
+  padding-top: 60px;
+}
+
+@media (min-width: 992px) {
+  .pt-60-mobile {
+    padding-top: 0 !important;
+  }
+  .pt-60-desktop {
+    padding-top: 60px;
+  }
+}
