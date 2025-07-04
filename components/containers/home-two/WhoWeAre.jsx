@@ -11,7 +11,8 @@ const WhoWeAre = () => {
         <div className="row">
           <div className="col-12">
             <div className="who-we-are-title text-center">Who We Are</div>
-            <div className="who-we-are-subtitle text-center">Discover the power of Tech Cloud ERP</div>
+            <div className="who-we-are-subtitle text-center">What Sets Us Apart
+            </div>
             <div className="image-container mt-5">
               <Image
                 src={WhoImg}
@@ -23,7 +24,7 @@ const WhoWeAre = () => {
           <div className="col-12">
             <div className="who-we-are-description">
               <p>
-              Our company focusses on providing customised ERP software features at an affordable cost. We simplify the ERP process for manufacturers and provide personalised and developed software to meet specific company requirements across all segments. We have been using the latest technologies to provide the best ERP solutions to our customers for over 25 years.
+              At Tech Cloud ERP we provide industry-specific ERP solutions tailored to your business needs at an affordable cost. With over 25 years of experience, we help manufacturers streamline operations using the latest technologies, offering personalized features and flexible pricing that generic ERP providers often lack.
               </p>
             
             </div>
