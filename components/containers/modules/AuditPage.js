@@ -23,9 +23,9 @@ const AuditPage = () => {
           <div className="col-lg-6">
             <div className="auditContent">
               <div className="section-title">
-                <span className="sub-badge p1-clr fw-semibold fs-seven text-uppercase d-block mb-xxl-4 mb-3">
+                {/* <span className="sub-badge p1-clr fw-semibold fs-seven text-uppercase d-block mb-xxl-4 mb-3">
                   ARRANGE A
-                </span>
+                </span> */}
                 <h2
                   className="wow fadeInUp black fw-bold visible-slowly-right mb-xxl-4 mb-md-3 mb-2"
                   data-wow-delay=".3s"

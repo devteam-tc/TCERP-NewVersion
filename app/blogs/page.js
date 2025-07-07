@@ -1,6 +1,13 @@
+
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../../firebaseConfig"; // Ensure firebase is configured
 import BlogsClient from "./BlogsClient";
+
+export const metadata = {
+  title: "Blogs | Discover Expert ERP Tips & Insights for Growth",
+  description: "Dive into our blog for clear, expert advice on ERP systems. Learn tips, insights, and strategies to boost your business efficiency today",
+  keywords: "manufacturing erp, manufacturing erp software, production erp, production software, erp solutions, erp applications, erp software management, garment manufacturing software, plastic manufacturing industry, leather manufacturing erp software, cloud based erp software"
+};
 
 async function getBlogPosts() {
   const querySnapshot = await getDocs(collection(db, "blogs"));
@@ -9,5 +16,6 @@ async function getBlogPosts() {
 
 export default async function BlogsPage() {
   const blogPosts = await getBlogPosts();
+
   return <BlogsClient blogPosts={blogPosts} />;
 }

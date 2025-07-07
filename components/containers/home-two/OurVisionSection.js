@@ -12,9 +12,7 @@ const OurVisionSection = () => {
             <div className="section-title">
               <h2 className='vision-title'>About us</h2>
               <p className="description">
-                Innovative Hyderabad-based cloud ERP specialists, delivering customizable,
-                scalable, and secure business management solutions with real-time
-                insights and dedicated support.
+              Tech Cloud ERP is a Hyderabad cloud based ERP company delivering secure, customizable and scalable business management solutions. We specialize in helping organizations gain real-time visibility, streamline operations and accelerate growth through powerful automation and dedicated support.
               </p>
             </div>
           </div>

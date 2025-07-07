@@ -1,53 +1,71 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
-import Header from "../../components/layout/header/Header";
-import Footer from "../../components/layout/footer/Footer";
-import PageHeader from "../../components/layout/PageHeader";
-import data from '../../data/blog2.json';
-import  "./BlogGrid.scss";
+import styles from "./page.module.css";
 import { BsArrowRight } from "react-icons/bs";
+import { FaUser, FaRegCalendarAlt } from "react-icons/fa";
 
-const BlogGrid = () => {
+const BlogGrid = ({ posts }) => {
   return (
-    <>
-      <Header />
-      <PageHeader title="Blogs" description="Discover Expert ERP Tips & Insights for Growth" />
-      <section className="newsSection section-padding section-bg">
-        <div className="leftShape">
-          <Image src="/assets/img/news/left-shape.png" alt="img" width={100} height={300} />
-        </div>
-       
-        <div className="container">
-          <div className="row">
-            {data.map((item, i) => (
-              <div key={i} className="col-lg-4 col-md-6">
-                <div className="blogBox">
-                  <div className="imageAnime">
-                    <Image src={item.img} alt="img" width={416} height={315} />
-                  </div>
-                  <div className="heading1">
-                    <div className="authorArea">
-                      <a href="#" className="date">
-                        <Image src="/images/blog/author.svg" alt="img" width={20} height={20} /> Alex Roy
-                      </a>
-                      <a href="#" className="date">
-                        <Image src="/images/blog/date.svg" alt="img" width={20} height={20} /> 8 December 2024
-                      </a>
-                    </div>
-                    <h5><Link href="/blogs-details">{item.title}</Link></h5>
-                    <div className="space20"></div>
-                    <Link className="themeBtn1" href="/blogs-details">
+    <section className={styles.blogGrid}>
+      <div className={styles.container}>
+        <div className={styles.grid}>
+          {posts.map((post) => (
+            <article key={post.id} className={styles.blogCard}>
+              <Link href={`/blogs/${post.slug}`} className={styles.cardLink}>
+                <div className={styles.imageContainer}>
+                  <Image
+                    src={post.imageUrl || "/placeholder.svg"}
+                    alt={post.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className={styles.cardImage}
+                  />
+                </div>
+
+<div className={styles.heading1}>
+  <div className={styles.authorArea}>
+    <a href="#" className={styles.date}>
+      <FaUser style={{ marginRight: 5, marginTop: -2 }} /> Alex Roy
+    </a>
+    <a href="#" className={styles.date}>
+      <FaRegCalendarAlt style={{ marginRight: 5, marginTop: -2 }} /> 8 December 2024
+    </a>
+  </div>
+</div>
+                <div className={styles.cardContent}>
+                  
+                  <h2>
+                    {post.title} <span className={styles.arrow}></span>
+                  </h2>
+                     {/* {post.title} <span className={styles.arrow}>→</span> */}
+
+                  {/* <p>{post.description}</p> */}
+                  {/* <div className={styles.tags}>
+                  <div className={styles.tags}>
+                  {Array.isArray(post.tags) ? (
+                    post.tags.map((tag) => (
+                      <span key={tag} className={styles.tag}>
+                        {tag}
+                      </span>
+                    ))
+                  ) : (
+                    <span className={styles.tag}>No Tags</span> // Optional fallback
+                  )}
+                </div>
+
+                  </div> */}
+                    <Link className={styles.themeBtn1} href={`/blogs/${post.slug}`}>
                       Read More <span><BsArrowRight /></span>
                     </Link>
-                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              </Link>
+            </article>
+          ))}
         </div>
-      </section>
-      <Footer />
-    </>
+      </div>
+    </section>
   );
 };
 
