@@ -53,12 +53,9 @@ const VideoSection = ({ moduleData }) => {
             <video
               ref={videoRef}
               width="100%"
-              height="auto"
               muted
               loop
-              playsInline
               autoPlay
-              preload="auto"
               className="video-section__video"
               onPlay={handleVideoPlay}
               onPause={handleVideoPause}
