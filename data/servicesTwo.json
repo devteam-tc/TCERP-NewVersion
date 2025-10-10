@@ -1,0 +1,76 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Web Based & Cloud Computing",
+      "alt": "Cloud computing backup access",
+      "image": "/images/services/WebBased.webp", 
+      "className": "icon-box-primary icon-box-text-white",
+      "description": "Web-based and cloud computing provide scalable, flexible access to apps and data online."
+    },
+    {
+      "id": 2,
+      "title": "Dynamic Dashboards",
+      "alt": "Interactive data visualization dashboard",
+      "image": "/images/services/DynamicDashboards.webp",
+      "className": "icon-box-secondary icon-box-text-white",
+      "description": "Dynamic dashboards offer real-time, interactive data visualization for better decision-making."
+    },
+    {
+      "id": 3,
+      "title": "Email & WhatsApp Integration",
+      "alt": "Seamless Integration across platforms",
+      "image": "/images/services/Email&Whatsapp.webp",
+      "className": "icon-box-tertiary",
+      "description": "Email and SMS integration enables seamless, efficient communication across both channels."
+    },
+    {
+      "id": 4,
+      "title": "Mobile & Tab Compatibility",
+      "alt": "Mobile and tablet compatability support",
+      "image": "/images/services/Mobile&Tab.webp",
+      "className": "icon-box-primary icon-box-text-white",
+      "description": "Ensures a seamless user experience across devices, enhancing accessibility and usability."
+    },
+    {
+      "id": 5,
+      "title": "Data Auto Backup",
+      "alt": "Cloud data backup automation",
+      "image": "/images/services/databackup.webp",
+      "className": "icon-box-primary icon-box-text-white",
+      "description": "Automates secure data storage, ensuring continuity and protection against loss."
+    },
+    {
+      "id": 6,
+      "title": "Customizable Software",
+      "alt": "Customizable software development",
+      "image": "/images/services/CustomizableSoftware.webp",
+      "className": "icon-box-primary icon-box-text-white",
+      "description": "Our ERP is 90-95% ready for manufacturing businesses, with easy customization to match specific needs."
+    },
+    {
+      "id": 7,
+      "title": "Pay As You Go",
+      "alt": "Smartphone contactless payment method",
+      "image": "/images/services/PayAsYouGo.webp",
+      "className": "icon-box-primary icon-box-text-white",
+      "description": "Enables users to pay for services based on actual usage, promoting flexibility and cost-efficiency."
+    },
+    {
+      "id": 8,
+      "title": "Chat Between Users",
+      "alt": "User engaging in chat",
+      "image": "/images/services/ChatBetweenUsers.webp",
+      "className": "icon-box-primary icon-box-text-white",
+      "description": "Facilitates real-time communication and collaboration, enhancing interaction and connectivity."
+    },
+    {
+      "id": 9,
+      "title": "Unlimited Users",
+      "alt": "Laptop with unlimited user icons",
+      "image": "/images/services/UnlimitedUsers.webp",
+      "className": "icon-box-primary icon-box-text-white",
+      "description": "Accommodates an unlimited number of users, ensuring scalability and accessibility."
+    }
+  ]
+}
