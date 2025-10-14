@@ -124,32 +124,32 @@ vizag: [
 ],
 
 UAE: [
-  {   icon: <img src="/images/location/Bangalore/StreamlinedBusiness.svg" alt="Streamlined Business Workflows" />, 
+  {   icon: <img src="/images/location/UAE/UnifiedBusiness.svg" alt="Streamlined Business Workflows" />, 
     title: 'Unified Business Operations', 
     description: 'Simplify core functions and improve efficiency with ERP tools built for growing enterprises.' 
     },
     { 
-    icon: <img src="/images/location/Bangalore/IndustryModules.svg" alt="Industry Modules" />,
+    icon: <img src="/images/location/UAE/Industry-Focused.svg" alt="Industry Modules" />,
           title: 'Industry-Focused ERP Modules', 
            description: 'Access modules that fit diverse sectors, enabling smooth management of finance, HR and logistics.' 
        },
     { 
-    icon: <img src="/images/location/Bangalore/DeploymentOptions.svg" alt="Deployment Options" />, 
+    icon: <img src="/images/location/UAE/SecureDeployment.svg" alt="Deployment Options" />, 
           title: 'Secure Deployment Models', 
     description: 'Enjoy the flexibility of cloud or on-premise ERP systems designed for data safety and scalability.' 
     },
     { 
-    icon: <img src="/images/location/Bangalore/AnalyticsReports.svg" alt="Analytics & Reports" />, 
+    icon: <img src="/images/location/UAE/Real-TimeInsights.svg" alt="Analytics & Reports" />, 
     title: 'Real-Time Insights', 
     description: 'Track progress through dynamic dashboards and actionable analytics for informed decisions.' 
     },
     { 
-    icon: <img src="/images/location/Bangalore/SystemIntegration.svg" alt="System Integration" />, 
+    icon: <img src="/images/location/UAE/EffortlessIntegration.svg" alt="System Integration" />, 
     title: 'Effortless Integration', 
     description: 'Connect ERP with your existing software ecosystem to streamline every business process.' 
     },
     { 
-    icon: <img src="/images/location/Bangalore/DedicatedSupport.svg" alt="Dedicated ERP Support" />, 
+    icon: <img src="/images/location/UAE/DedicatedSupport.svg" alt="Dedicated ERP Support" />, 
     title: 'Reliable Support Network', 
     description: 'Receive continuous technical assistance to keep your operations running without interruptions.' 
     },
@@ -157,68 +157,68 @@ UAE: [
  
     dubai: [
       {
-        icon: <img src="/images/location/Bangalore/StreamlinedBusiness.svg" alt="Streamlined Business Workflows" />,
+        icon: <img src="/images/location/Dubai/SmartERPInfrastructure.svg" alt="Streamlined Business Workflows" />,
         title: 'Smart ERP Infrastructure',
         description: 'Automate business processes and empower teams with a centralized, intelligent ERP platform.'
       },
       {
-        icon: <img src="/images/location/Bangalore/IndustryModules.svg" alt="Industry Modules" />,
+        icon: <img src="/images/location/Dubai/SpecializedERP.svg" alt="Industry Modules" />,
         title: 'Specialized ERP Solutions',
         description: 'Leverage customized modules that align perfectly with your business goals and operations.'
       },
       {
-        icon: <img src="/images/location/Bangalore/DeploymentOptions.svg" alt="Deployment Options" />,
+        icon: <img src="/images/location/Dubai/Cloud&On-Site.svg" alt="Deployment Options" />,
         title: 'Cloud & On-Site Flexibility',
         description: 'Choose the deployment method that best supports your company’s workflow and data access needs.'
       },
       {
-        icon: <img src="/images/location/Bangalore/AnalyticsReports.svg" alt="Analytics & Reports" />,
+        icon: <img src="/images/location/Dubai/InsightfulBusiness.svg" alt="Analytics & Reports" />,
         title: 'Insightful Business Analytics',
         description: 'Use visual reports and dashboards to identify trends and improve strategic decision-making.'
       },
       {
-        icon: <img src="/images/location/Bangalore/SystemIntegration.svg" alt="System Integration" />,
+        icon: <img src="/images/location/Dubai/SeamlessConnectivity.svg" alt="System Integration" />,
         title: 'Seamless Connectivity',
         description: 'Integrate ERP with third-party applications for uninterrupted and cohesive workflows.'
       },
       {
-        icon: <img src="/images/location/Bangalore/DedicatedSupport.svg" alt="Dedicated ERP Support" />,
+        icon: <img src="/images/location/Dubai/ExpertTechnical.svg" alt="Dedicated ERP Support" />,
         title: 'Expert Technical Assistance',
         description: 'Count on our professionals for quick support and system optimization anytime you need it.'
       },
     ],
     bahrain: [
       { 
-        icon: <img src="/images/location/Bangalore/Complete Business Automation.svg" alt="Streamlined Business Workflows" /> ,
+        icon: <img src="/images/location/Bahrain/CompleteBusiness.svg" alt="Streamlined Business Workflows" /> ,
         title: "Complete Business Automation", 
         description: "Enhance productivity by digitizing operations with a powerful ERP system that adapts to your business.", 
       },
       { 
       
-        icon: <img src="/images/location/Bangalore/Sector-Centric Modules.svg" alt="Industry Modules" /> ,
+        icon: <img src="/images/location/Bahrain/Sector-Centric.svg" alt="Industry Modules" /> ,
         title: "Sector-Centric Modules", 
         description: "Manage every department efficiently with ERP modules customized for various industries.", 
       },
       { 
-       icon: <img src="/images/location/Bangalore/Scalable Cloud Solutions.svg" alt="Deployment Options" /> ,
+       icon: <img src="/images/location/Bahrain/ScalableCloud.svg" alt="Deployment Options" /> ,
        title: "Scalable Cloud Solutions", 
        description: "Experience flexibility with secure, scalable ERP deployments designed for modern enterprises.", 
        
       },
       {  
-        icon: <img src="/images/location/Bangalore/Data-Driven Intelligence.svg" alt="Analytics & Reports" /> ,
+        icon: <img src="/images/location/Bahrain/Data-Driven.svg" alt="Analytics & Reports" /> ,
         title: "Data-Driven Intelligence", 
         description: "Monitor key performance metrics through insightful analytics and reporting tools.", 
       },
       { 
-        icon: <img src="/images/location/Bangalore/Connected Operations.svg" alt="System Integration" /> ,
+        icon: <img src="/images/location/Bahrain/ConnectedOperations.svg" alt="System Integration" /> ,
         title: "Connected Operations", 
         description: "Integrate all business functions under one unified system for better visibility and control.", 
        
       },
       { 
        
-        icon: <img src="/images/location/Bangalore/Trusted Customer Support.svg" alt="Dedicated ERP Support" /> ,
+        icon: <img src="/images/location/Bahrain/TrustedCustomer.svg" alt="Dedicated ERP Support" /> ,
         title: "Trusted Customer Support", 
         description: "Rely on experienced ERP specialists for dependable support and system guidance.", 
       },
@@ -228,32 +228,32 @@ UAE: [
       { 
         title: "Simplified ERP Management", 
         description: "Transform daily business tasks with intelligent ERP tools that automate and optimize workflows.", 
-        icon: <img src="/images/location/Bangalore/Simplified ERP Management.svg" alt="Streamlined Business Workflows" /> 
+        icon: <img src="/images/location/Kuwait/SimplifiedERP.svg" alt="Streamlined Business Workflows" /> 
       },
       { 
         title: "Industry-Ready Modules", 
         description: "Handle finance, operations and inventory effortlessly using purpose-built ERP modules.", 
-        icon: <img src="/images/location/Bangalore/Industry-Ready Modules.svg" alt="Industry Modules" /> 
+        icon: <img src="/images/location/Kuwait/Industry-Ready.svg" alt="Industry Modules" /> 
       },
       { 
         title: "Flexible ERP Setup", 
         description: "Select cloud or on-premise deployment to align with your data and infrastructure goals.", 
-        icon: <img src="/images/location/Bangalore/Flexible ERP Setup.svg" alt="Deployment Options" /> 
+        icon: <img src="/images/location/Kuwait/FlexibleERP.svg" alt="Deployment Options" /> 
       },
       { 
         title: "Performance Tracking Tools", 
         description: "Access real-time analytics that help you measure progress and identify growth opportunities.", 
-        icon: <img src="/images/location/Bangalore/Performance Tracking Tools.svg" alt="Analytics & Reports" /> 
+        icon: <img src="/images/location/Kuwait/PerformanceTracking.svg" alt="Analytics & Reports" /> 
       },
       { 
         title: "Smooth Integration Capability", 
         description: "Combine ERP with existing platforms to maintain uninterrupted business continuity.", 
-        icon: <img src="/images/location/Bangalore/Smooth Integration Capability.svg" alt="System Integration" /> 
+        icon: <img src="/images/location/Kuwait/SmoothIntegration.svg" alt="System Integration" /> 
       },
       { 
         title: "Dedicated Support System", 
         description: "Get responsive technical assistance that ensures efficiency and reliability across your ERP system.", 
-        icon: <img src="/images/location/Bangalore/DedicatedSupport.svg" alt="Dedicated ERP Support" /> 
+        icon: <img src="/images/location/Kuwait/DedicatedSupport.svg" alt="Dedicated ERP Support" /> ,
       },
     ],
   
@@ -261,32 +261,32 @@ UAE: [
       { 
         title: "Next-Gen ERP Platform", 
         description: "Simplify complex workflows and improve team coordination through modern ERP automation.", 
-        icon: <img src="/images/location/Bangalore/Next-Gen ERP Platform.svg" alt="Streamlined Business Workflows" /> 
+        icon: <img src="/images/location/Oman/Next-GenERP.svg" alt="Streamlined Business Workflows" /> 
       },
       { 
         title: "Business-Centric Modules", 
         description: "Manage key areas like finance, HR and supply chain using modules tailored for your industry.", 
-        icon: <img src="/images/location/Bangalore/Business-Centric Modules.svg" alt="Industry Modules" /> 
+        icon: <img src="/images/location/Oman/Business-Centric.svg" alt="Industry Modules" /> ,
       },
       { 
         title: "Cloud or On-Premise Flexibility", 
         description: "Deploy your ERP securely on the cloud or maintain it on-site, depending on your business needs.", 
-        icon: <img src="/images/location/Bangalore/Cloud or On-Premise Flexibility.svg" alt="Deployment Options" /> 
+        icon: <img src="/images/location/Oman/CloudOn-Premise.svg" alt="Deployment Options" /> 
       },
       { 
         title: "Comprehensive Analytics", 
         description: "Use data-driven dashboards to track goals, enhance forecasting and improve decisions.", 
-        icon: <img src="/images/location/Bangalore/Comprehensive Analytics.svg" alt="Analytics & Reports" /> 
+        icon: <img src="/images/location/Oman/ComprehensiveAnalytics.svg" alt="Analytics & Reports" /> 
       },
       { 
         title: "Integrated Business Systems", 
         description: "Ensure seamless communication between departments with an interconnected ERP solution.", 
-        icon: <img src="/images/location/Bangalore/Integrated Business Systems.svg" alt="System Integration" /> 
+        icon: <img src="/images/location/Oman/IntegratedBusiness.svg" alt="System Integration" /> 
       },
       { 
         title: "Ongoing Technical Assistance", 
         description: "Stay supported with expert help and proactive maintenance to keep your ERP performing at its best.", 
-        icon: <img src="/images/location/Bangalore/Ongoing Technical Assistance.svg" alt="Dedicated ERP Support" /> 
+        icon: <img src="/images/location/Oman/OngoingTechnical.svg" alt="Dedicated ERP Support" /> 
       },
     ],
   
@@ -294,32 +294,32 @@ UAE: [
       { 
         title: "Advanced ERP Framework", 
         description: "Digitize and unify your operations with ERP solutions built for growing organizations.", 
-        icon: <img src="/images/location/Delhi/Advanced ERP Framework.svg" alt="Efficient Business Automation" /> 
+        icon: <img src="/images/location/Qatar/AdvancedERP.svg" alt="Efficient Business Automation" /> 
       },
       { 
         title: "Custom-Built Modules", 
         description: "Experience tailored modules that align with specific business functions and industry standards.", 
-        icon: <img src="/images/location/Delhi/Custom-Built Modules.svg" alt="Specialized Modules" /> 
+        icon: <img src="/images/location/Qatar/Custom-Built.svg" alt="Specialized Modules" /> 
       },
       { 
         title: "Deployment That Adapts", 
         description: "Opt for cloud-based or local installations offering flexibility and secure data management.", 
-        icon: <img src="/images/location/Delhi/Deployment That Adapts.svg" alt="Flexible ERP Deployment" /> 
+        icon: <img src="/images/location/Qatar/DeploymentThatAdapts.svg" alt="Flexible ERP Deployment" /> 
       },
       { 
         title: "Real-Time Reporting", 
         description: "Gain visibility into operations through analytics tools and performance dashboards.", 
-        icon: <img src="/images/location/Delhi/Real-Time Reporting.svg" alt="Analytics Tools" /> 
+        icon: <img src="/images/location/Qatar/Real-TimeReporting.svg" alt="Analytics Tools" /> 
       },
       { 
         title: "Effortless ERP Integration", 
         description: "Connect systems, tools and teams in one cohesive platform for smooth business flow.", 
-        icon: <img src="/images/location/Delhi/Effortless ERP Integration.svg" alt="Seamless Software Integration" /> 
+        icon: <img src="/images/location/Qatar/EffortlessERPIntegration.svg" alt="Seamless Software Integration" /> 
       },
       { 
         title: "Dependable Support Services", 
         description: "Get continuous guidance and rapid issue resolution from an experienced ERP team.", 
-        icon: <img src="/images/location/Delhi/Dependable Support Services.svg" alt="Dedicated Support Team" /> 
+        icon: <img src="/images/location/Qatar/DependentSupport.svg" alt="Dedicated Support Team" /> 
       },
     ],
   
@@ -327,32 +327,32 @@ UAE: [
       { 
         title: "Comprehensive ERP Solutions", 
         description: "Automate business functions and enhance decision-making through intelligent ERP software.", 
-        icon: <img src="/images/location/Delhi/Comprehensive ERP Solutions.svg" alt="Efficient Business Automation" /> 
+        icon: <img src="/images/location/USA/ComprehensiveERP.svg" alt="Efficient Business Automation" /> 
       },
       { 
         title: "Industry-Specific Functionality", 
         description: "Access versatile modules designed for manufacturing, retail, services and more.", 
-        icon: <img src="/images/location/Delhi/Industry-Specific Functionality.svg" alt="Specialized Modules" /> 
+        icon: <img src="/images/location/USA/IndustrySpecific.svg" alt="Specialized Modules" /> 
       },
       { 
         title: "Cloud & Hybrid Deployments", 
         description: "Choose between cloud or hybrid ERP systems for scalable, secure business performance.", 
-        icon: <img src="/images/location/Delhi/Cloud & Hybrid Deployments.svg" alt="Flexible ERP Deployment" /> 
+        icon: <img src="/images/location/USA/Cloud&Hybrid.svg" alt="Flexible ERP Deployment" /> 
       },
       { 
         title: "Insight-Driven Dashboards", 
         description: "Make strategic decisions faster using data visualization and performance tracking.", 
-        icon: <img src="/images/location/Delhi/Insight-Driven Dashboards.svg" alt="Analytics Tools" /> 
+        icon: <img src="/images/location/USA/Insight-Driven.svg" alt="Analytics Tools" /> 
       },
       { 
         title: "Streamlined Business Connectivity", 
         description: "Integrate ERP with your existing technology stack to unify processes company-wide.", 
-        icon: <img src="/images/location/Delhi/Streamlined Business Connectivity.svg" alt="Seamless Software Integration" /> 
+        icon: <img src="/images/location/USA/StreamlinedBusiness.svg" alt="Seamless Software Integration" /> 
       },
       { 
         title: "Global ERP Support", 
         description: "Enjoy 24/7 technical support and maintenance for uninterrupted business operations.", 
-        icon: <img src="/images/location/Delhi/Global ERP Support.svg" alt="Dedicated Support Team" /> 
+        icon: <img src="/images/location/USA/GlobalERP.svg" alt="Dedicated Support Team" /> 
       },
     ],
 };

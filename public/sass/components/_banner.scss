@@ -48,7 +48,7 @@
 .banner-subtitle {
 	font-size: 1.15rem;
 	color: #333;
-	margin-bottom: 32px;
+	margin-bottom: 10px;
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
@@ -234,21 +234,36 @@
 
 @media (max-width: 992px) {
 	.banner-hero { padding: 120px 0 20px 0; }
-	.rocket-visual,
+	
 	.rocket-icon,
 	.chart-card {
 		display: none !important;
 	}
+	
+}
+
+
+@media screen and (max-width: 992px) {
+	.rocket-visual{
+	        display: block;
+	        width: 220px;
+	        height: 220px;
+	        top: 0;
+	        margin: 0 auto;
+	}
+	.rocket-center { width: 200px; top: 50%; }
 }
 
 @media (max-width: 767px) {
 	.banner-hero { flex-direction: column; }
 	.banner-title { font-size: 2rem; }
+	/* Ensure rocket sizing and position for phones */
+	.rocket-visual { width: 200px; height: 200px; top: 0; margin: 0 auto; }
+	.rocket-center { width: 90px; top: 60%; }
 	.banner-center-content {
 		align-items: center;
 		justify-content: center;
 		text-align: center;
-		padding-top: 120px;
+		padding-top: 30px;
 	}
 }
-  

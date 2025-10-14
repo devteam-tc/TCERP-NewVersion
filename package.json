@@ -10,7 +10,8 @@
     "build": "set NODE_OPTIONS='--max-old-space-size=8192' && next build",
     "build:light": "set NODE_OPTIONS='--max-old-space-size=8192' && next build --no-lint --no-type-check",
     "start": "next start",
-    "ngrok": "node scripts/start-ngrok.js"
+    "ngrok": "node scripts/start-ngrok.js",
+    "deploy": "npx firebase-tools deploy"
   },
   "dependencies": {
     "@amcharts/amcharts5": "^5.14.2",
@@ -47,6 +48,7 @@
     "@next/bundle-analyzer": "^14.1.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
+    "firebase-tools": "^13.35.1",
     "typescript": "5.9.2"
   },
   "homepage": "https://github.com/devteam-tc/TCERP-NewVersion#readme",

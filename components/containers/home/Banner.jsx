@@ -25,7 +25,7 @@ const Banner = () => (
       <p className="banner-subtitle">
         Empower your business with Tech Cloud ERP, a scalable cloud-based ERP software that streamlines operations, boosts productivity and fuels growth.
       </p>
-      <p className='mb-5' style={{  color: '#ef5226' , fontWeight: '600' }} >Accelerate Your Business Growth with Tech Cloud ERP Delivering Results.</p>
+      <p className='mb-2' style={{  color: '#ef5226' , fontWeight: '600' }} >Accelerate Your Business Growth with Tech Cloud ERP Delivering Results.</p>
       <Link href="/demo" className="banner-demo-btn">Book a Demo</Link>
       <div className="rocket-visual">
         {/* Chart Cards */}

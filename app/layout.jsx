@@ -126,23 +126,21 @@ export default function RootLayout({ children }) {
           <InitAnimations />
           {children}
         </LayoutWrapper>
-        <script src="//code.tidio.co/xzxnjajm1uzqszvjdr4bscq9hfvqpeho.js"></script>
         {/* Start of ChatBot (www.chatbot.com) code */}
-        <script
+        <Script
+          id="chatbot-widget"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               window.__ow = window.__ow || {};
-  window.__ow.organizationId = "65d78923-57ed-4dba-921f-a0cd08fe9f6b";
-  window.__ow.template_id = "c9103514-33ac-432a-be6b-ea307c4b879a";
-  window.__ow.integration_name = "manual_settings";
-  window.__ow.product_name = "chatbot";   
-  ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[OpenWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.openwidget.com/openwidget.js",t.head.appendChild(n)}};!n.__ow.asyncInit&&e.init(),n.OpenWidget=n.OpenWidget||e}(window,document,[].slice))
+              window.__ow.organizationId = "05a24f7f-145b-4112-b26d-b674cb933782";
+              window.__ow.template_id = "fa19a6c1-5ab5-4fa8-8afc-569fd57e5826";
+              window.__ow.integration_name = "manual_settings";
+              window.__ow.product_name = "chatbot";   
+              ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[OpenWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.openwidget.com/openwidget.js",t.head.appendChild(n)}};!n.__ow.asyncInit&&e.init(),n.OpenWidget=n.OpenWidget||e}(window,document,[].slice))
             `
           }}
         />
-        <noscript>
-          You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a>
-        </noscript>
         {/* End of ChatBot code */}
       </body>
     </html>

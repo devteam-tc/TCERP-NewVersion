@@ -101,10 +101,13 @@ const WorldMapWithMarkers = () => {
       { name: 'Delhi', lat: 28.6139, lng: 77.2090, address: 'New Delhi, India' },
       { name: 'Vizag', lat: 17.6868, lng: 83.2185, address: 'Visakhapatnam, Andhra Pradesh, India' },
       { name: 'Dubai', lat: 25.2048, lng: 55.2708, address: 'Dubai, United Arab Emirates' },
-      { name: 'Brazil', lat: -14.2350, lng: -51.9253, address: 'Brazil' },
-      { name: 'Europe', lat: 54.5260, lng: 15.2551, address: 'Europe' },
       { name: 'Bahrain', lat: 26.0667, lng: 50.5577, address: 'Bahrain' },
-      { name: 'Berlin', lat: 52.5200, lng: 13.4050, address: 'Berlin, Germany' }
+      { name: 'UAE', lat: 25.2048, lng: 55.2708, address: 'UAE' },
+      { name: 'Kuwait', lat: 25.2048, lng: 55.2708, address: 'Kuwait' },
+      { name: 'Qatar', lat: 25.2048, lng: 55.2708, address: 'Qatar' },
+      { name: 'Oman', lat: 25.2048, lng: 55.2708, address: 'Oman' },
+      { name: 'USA', lat: 25.2048, lng: 55.2708, address: 'USA' },
+
     ];
 
     pointSeries.data.setAll(

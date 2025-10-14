@@ -68,16 +68,16 @@ const locations = [
   },
   {
     title: 'UAE',
-    image: '/images/contact/uae.webp',
+    image: '/images/contact/UAE.webp',
     description: 'UAE’s businesses thrive on efficiency and innovation. Our ERP helps streamline operations, manage resources, and make smarter decisions.',
     link: '/locations/techcloud-erp-software-in-UAE',
   },
-  {
-    title: 'Dubai',
-    image: '/images/contact/dubai.webp',
-    description: 'Dubai is a hub for growth and enterprise. Our ERP empowers businesses to manage operations efficiently and scale with real-time insights.',
-    link: '/locations/techcloud-erp-software-in-dubai',
-  },
+  // {
+  //   title: 'Dubai',
+  //   image: '/images/contact/dubai.webp',
+  //   description: 'Dubai is a hub for growth and enterprise. Our ERP empowers businesses to manage operations efficiently and scale with real-time insights.',
+  //   link: '/locations/techcloud-erp-software-in-dubai',
+  // },
   {
     title: 'Bahrain',
     image: '/images/contact/bahrain.webp',
@@ -86,7 +86,7 @@ const locations = [
   },
   {
     title: 'Kuwait',
-    image: '/images/contact/kuwait.webp',
+    image: '/images/contact/Kuwait.webp',
     description: 'Kuwait’s industries need seamless operations. Our ERP unifies finance, supply chain, and workflows to boost efficiency and drive growth.',
     link: '/locations/techcloud-erp-software-in-Kuwait',
   },
@@ -94,19 +94,19 @@ const locations = [
   
   {
     title: 'Oman',
-    image: '/images/contact/oman.webp',
+    image: '/images/contact/Oman.webp',
     description: 'Oman’s evolving business environment requires smarter management. Our ERP helps streamline operations and optimize resources for success.',
     link: '/locations/techcloud-erp-software-in-Oman',
   }, 
   {
     title: 'Qatar',
-    image: '/images/contact/qatar.webp',
+    image: '/images/contact/Qatar.webp',
     description: 'Qatar’s enterprises need precision and efficiency. Our ERP integrates finance and operations, providing insights to drive growth confidently.',
     link: '/locations/techcloud-erp-software-in-Qatar',
   },
   {
     title: 'USA',
-    image: '/images/contact/usa.webp',
+    image: '/images/contact/USA.webp',
     description: 'The USA’s dynamic industries require efficient solutions. Our ERP centralises operations, delivers real-time insights, and supports business growth.',
     link: '/locations/techcloud-erp-software-in-USA',
   },
@@ -150,7 +150,7 @@ export default function LocationsGrid() {
             className={`filter-btn ${activeFilter === 'international' ? 'active' : ''}`}
             onClick={() => setActiveFilter('international')}
           >
-            UAE & USA
+            Middle East & USA 
           </button>
         </div>
       </div>

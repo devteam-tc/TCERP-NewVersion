@@ -174,7 +174,7 @@ const locationData = {
   },
   delhi: {
     title: 'Best ERP software in Delhi to Empower Your Business',
-    heading: 'Best ERP Software In Delhi',
+    heading: 'Best ERP Software in Delhi',
     image: '/images/contact/delhi.webp',
     description: 'Tech Cloud ERP is the best Cloud-based ERP Software in India which provides a perfect ERP Software for manufacturing, trading and service-based businesses. Being one of the finest ERP software companies in Delhi, we enable you to simplify operations, enhance productivity and reduce capital expenditures through a fully centralized system. Our scalable ERP Delhi applications are made to fit start-ups and big corporates to offer you real-time insights and more control.',
     features: [
@@ -187,7 +187,7 @@ const locationData = {
   },
   ahmedabad: {
     title: 'Scalable ERP Software in Ahmedabad for Modern Enterprises',
-    heading: 'Best ERP Software In Ahmedabad',
+    heading: 'Best ERP Software in Ahmedabad',
     image: '/images/contact/ahmedabad.webp',
     description: 'At Tech Cloud ERP, we deliver advanced cloud-based ERP solutions in Ahmedabad designed to accelerate business growth and operational excellence. Our ERP in Ahmedabad unifies all core functions from finance, sales, procurement, inventory, HR to production into a single, intelligent platform. With real-time analytics, automated workflows and seamless integrations, businesses gain full visibility, reduce redundancies and scale with confidence.',
     features: [
@@ -213,7 +213,7 @@ const locationData = {
   },
   bangalore: {
     title: 'Scalable ERP Software in Bangalore for Modern Enterprises',
-    heading: 'Best ERP Software In Bangalore',
+    heading: 'Best ERP Software in Bangalore',
     image: '/images/contact/bangalore.webp',
     description: 'Tech Cloud ERP delivers the best cloud-based ERP software in Bangalore, designed to support the city’s thriving IT, startup and manufacturing industries. With our ERP in Bangalore, businesses can streamline finance, HR, inventory and operations through a fully centralized system. Our scalable ERP applications are built to suit startups as well as large enterprises, offering real-time insights, improved efficiency and smarter decision-making. Choose Tech Cloud ERP in Bangalore to drive growth, innovation and long-term success.',
     features: [
@@ -226,8 +226,8 @@ const locationData = {
   },
   UAE: {
     title: 'Scalable ERP Software in UAE for Modern Enterprises',
-    heading: 'Best ERP Software In UAE',
-    image: '/images/contact/uae.webp',
+    heading: 'Best ERP Software in UAE',
+    image: '/images/contact/UAE.webp',
     description: 'UAE’s growing business environment thrives on efficiency, innovation and digital transformation. Our cloud-based ERP in UAE helps enterprises automate operations, optimize resources and enhance decision-making. With real-time analytics and scalability, it supports companies of all sizes. Streamline finance, HR and inventory seamlessly under one platform. Tech Cloud ERP empowers UAE businesses to achieve agility and operational excellence.',
     features: [
       'Centralized Dashboard',
@@ -252,7 +252,7 @@ const locationData = {
   // },
   dubai: {
     title: 'Scalable ERP Software in Dubai for Modern Enterprises',
-    heading: 'Best ERP Software In Dubai',
+    heading: 'Best ERP Software in Dubai',
     image: '/images/contact/dubai.webp',
     description: 'Dubai’s competitive economy demands agility, automation and smarter business control. Our ERP software in Dubai integrates finance, HR, inventory and operations on a unified cloud platform. Gain real-time insights to make informed decisions and drive productivity. Built for startups and large enterprises alike, it simplifies complex workflows. Tech Cloud ERP helps Dubai businesses grow with precision and efficiency.',
     features: [
@@ -266,7 +266,7 @@ const locationData = {
   ,
   bahrain: {
     title: 'Scalable ERP Software in Bahrain for Modern Enterprises',
-    heading: 'Best ERP Software In Bahrain',
+    heading: 'Best ERP Software in Bahrain',
     image: '/images/contact/bahrain.webp',
     description: 'Bahrain’s fast-evolving industries require flexible and efficient management tools. Our ERP system in Bahrain streamlines business processes across finance, HR and supply chain management. With automation and centralized control, companies can boost performance and reduce manual tasks. It enhances data accuracy and supports smarter decisions. Tech Cloud ERP helps Bahraini enterprises stay competitive and future-ready.',
     features: [
@@ -279,8 +279,8 @@ const locationData = {
   },
   Kuwait: {
     title: 'Scalable ERP Software in Kuwait for Modern Enterprises',
-    heading: 'Best ERP Software In Kuwait',
-    image: '/images/contact/kuwait.webp',
+    heading: 'Best ERP Software in Kuwait',
+    image: '/images/contact/Kuwait.webp',
     description: 'Kuwait’s growing economy from oil and gas to retail demand integrated business operations. Our cloud ERP in Kuwait connects finance, inventory and HR to ensure visibility and process automation. It simplifies workflows while improving productivity and resource utilization. Real-time insights enable strategic decision-making and operational growth. Tech Cloud ERP empowers Kuwaiti businesses to scale efficiently and confidently.',
     features: [
       'Centralized Dashboard',
@@ -292,8 +292,8 @@ const locationData = {
   },
   Oman: {
     title: 'Scalable ERP Software in Oman for Modern Enterprises',
-    heading: 'Best ERP Software In Oman',
-    image: '/images/contact/oman.webp',
+    heading: 'Best ERP Software in Oman',
+    image: '/images/contact/Oman.webp',
     description: 'Oman’s developing economy depends on innovation and seamless management systems. Our ERP software in Oman brings all business functions—finance, HR and supply chain—into one centralized platform. It automates daily operations and enhances visibility across departments. With real-time analytics, companies can optimize efficiency and ensure compliance. Tech Cloud ERP drives smarter business performance across Oman’s growing sectors.',
     features: [
       'Centralized Dashboard',
@@ -306,8 +306,8 @@ const locationData = {
   ,
   Qatar: {
     title: 'Scalable ERP Software in Qatar for Modern Enterprises',
-    heading: 'Best ERP Software In Qatar',
-    image: '/images/contact/qatar.webp',
+    heading: 'Best ERP Software in Qatar',
+    image: '/images/contact/Qatar.webp',
     description: 'Qatar’s enterprises aim for precision, performance and long-term sustainability. Our ERP in Qatar unifies finance, HR and operations with intelligent automation and real-time reporting. It reduces manual work, enhances collaboration and improves decision accuracy. Designed for growing organizations, it supports scalability and compliance. Tech Cloud ERP helps Qatar businesses streamline workflows and achieve consistent growth.',
     features: [
       'Centralized Dashboard',
@@ -320,8 +320,8 @@ const locationData = {
   ,
   USA: {
     title: 'Scalable ERP Software in USA for Modern Enterprises',
-    heading: 'Best ERP Software In USA',
-    image: '/images/contact/usa.webp',
+    heading: 'Best ERP Software in USA',
+    image: '/images/contact/USA.webp',
     description: 'The USA’s dynamic industries demand automation, scalability and powerful business control. Our cloud ERP in USA centralizes finance, HR, inventory and operations into one unified solution. It helps businesses analyse data in real time, reduce costs and increase efficiency. Scalable for startups to large corporations, it ensures consistent performance. Tech Cloud ERP supports innovation and growth across all American industries.',
     features: [
       'Centralized Dashboard',

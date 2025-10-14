@@ -35,7 +35,7 @@ const CreativeSection = () => {
       <div className="scrolling-bg" aria-hidden="true"></div>
       <div className="staticImages">
         <div className="aeroplane-container">
-          <Image 
+          {/* <Image 
             ref={planeRef}
             src="/footer/flight.webp" 
             alt="Flying aeroplane animation"
@@ -44,7 +44,7 @@ const CreativeSection = () => {
             className="aeroplane"
             priority
             loading="eager"
-          />
+          /> */}
           {/* <Image 
             src="/footer/flightshadow.webp" 
             alt="Aeroplane shadow"
