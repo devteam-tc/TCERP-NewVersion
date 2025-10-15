@@ -19,7 +19,7 @@ export const categories = [{
     count: 6,
   },
   {
-    name: "Tech Minds Solutions",
+    name: "Tech sssss Solutions",
     count: 4,
   }
 ];
