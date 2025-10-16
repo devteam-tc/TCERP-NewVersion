@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
+import { FaArrowUp } from 'react-icons/fa';
 
 const ScrollProgressButton = () => {
   useEffect(() => {
@@ -40,8 +41,11 @@ const ScrollProgressButton = () => {
       className={`progress-wrap border-0 ${isActive ? "active-progress" : ""}`}
       onClick={handleProgressClick}
       title="Go To Top"
+      style={{ opacity: isActive ? 1 : 0, visibility: isActive ? 'visible' : 'hidden' }}
     >
-      <span></span>
+      <span>
+        <FaArrowUp size={20} color="white" />
+      </span>
       <svg
         className="progress-circle svg-content"
         width="100%"

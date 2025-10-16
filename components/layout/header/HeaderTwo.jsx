@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Menu from "./Menu";
 // import logo from "@/public/images/logo/logo2.svg";
-import logo from "@/public/images/logo/logo.webp";
+import logo from "../../../public/images/logo/logo.svg";
 import Image from "next/image";
 import MobileMenu from "./MobileMenu";
 

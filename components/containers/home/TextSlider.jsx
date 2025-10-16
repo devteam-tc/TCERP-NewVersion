@@ -28,7 +28,7 @@
 
 // export default TextSlider
 import React from 'react';
-import { partnerData } from '@/data/textSlider'
+import { partnerData } from '../../../data/textSlider'
 import { Col } from 'react-bootstrap';
 import Link from 'next/link'; // Use Next.js Link
 import styles from './TextSlider.module.css'; // Import CSS module

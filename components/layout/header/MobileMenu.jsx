@@ -1,194 +1,107 @@
-import logo from "@/public/images/logo/logo.webp";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
-
-const menus = [
-  {
-    id: 1,
-    title: "Home",
-    link: "/home",
-    submenu: [
-      {
-        id: 11,
-        title: "Home One",
-        link: "/",
-      },
-      {
-        id: 12,
-        title: "Home Two",
-        link: "/home-two",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "About",
-    link: "/about",
-  },
-  {
-    id: 3,
-    title: "Services",
-    link: "#",
-    submenu: [
-      {
-        id: 31,
-        title: "Service Single",
-        link: "/services",
-      },
-      {
-        id: 32,
-        title: "Services Details",
-        link: "/service-details",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Products",
-    link: "#",
-    submenu: [
-      {
-        id: 41,
-        title: "Projects Single",
-        link: "/projects",
-      },
-      {
-        id: 42,
-        title: "Project Details",
-        link: "/project-details",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Blog",
-    link: "#",
-    submenu: [
-      {
-        id: 51,
-        title: "Blog Single",
-        link: "/blog",
-      },
-      {
-        id: 52,
-        title: "Blog Details",
-        link: "/blog-details",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Contact",
-    link: "/contact",
-  },
-];
+import logo from "../../../public/images/logo/logo.svg";
+import { menus } from "../../../data/menuData";
+import MobileMenuHeader from "./mobile-menu/MobileMenuHeader";
+import MenuItem from "./mobile-menu/MenuItem";
+import CallToAction from "./mobile-menu/CallToAction";
+import { FaXmark } from "react-icons/fa6";
 
 const MobileMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openSubmenuId, setOpenSubmenuId] = useState(null);
+  const [openIndustrySection, setOpenIndustrySection] = useState(null);
 
-  // Toggle mobile menu
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Close mobile menu
   const closeMenu = () => {
     setIsMenuOpen(false);
     setOpenSubmenuId(null);
+    setOpenIndustrySection(null);
   };
 
-  // Toggle submenu visibility with smooth transition
   const toggleSubmenu = (id) => {
-    setOpenSubmenuId(openSubmenuId === id ? null : id);
+    if (openSubmenuId === id) {
+      setOpenSubmenuId(null);
+      setOpenIndustrySection(null);
+    } else {
+      setOpenSubmenuId(id);
+      setOpenIndustrySection(null);
+    }
+  };
+
+  const toggleIndustrySection = (e, heading) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setOpenIndustrySection(openIndustrySection === heading ? null : heading);
   };
 
   return (
     <div className="mobile-menu-area d-block d-xl-none">
       <div className="container">
-        <div className="mobile-topbar">
-          <div className="d-flex justify-content-between align-items-center">
-            <div className="logo">
-              <Link href="/">
-                <Image src={logo} alt="logo" priority/>
-              </Link>
-            </div>
-            <div className="bars" onClick={toggleMenu}>
-              <i className="fas fa-bars"></i>
-            </div>
-          </div>
-        </div>
+        <MobileMenuHeader toggleMenu={toggleMenu} />
       </div>
 
-      {/* Mobile Menu Overlay */}
       <div
         className={`mobile-menu-overlay ${isMenuOpen ? "active" : ""}`}
         onClick={closeMenu}
       ></div>
 
-      {/* Mobile Menu Main */}
       <div className={`mobile-menu-main ${isMenuOpen ? "active" : ""}`}>
-        <div className="logo">
-          <Link href="/">
-            <Image src={logo} alt="logo" />
-          </Link>
-        </div>
-        <div className="close-mobile-menu" onClick={closeMenu}>
-          <i className="fas fa-times"></i>
+        <div>
+          <div className="logo">
+            <Link href="/">
+              <Image src={logo} alt="logo" width={200} height={100}  />
+            </Link>
+          </div>
+          <div className="close-mobile-menu" onClick={closeMenu}>
+            <FaXmark size={24} />
+          </div>
+          <style jsx>{`
+            .close-mobile-menu {
+              position: absolute;
+              top: 20px;
+              right: 20px;
+              cursor: pointer;
+              width: 40px;
+              height: 40px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 50%;
+              background: rgba(0, 0, 0, 0.05);
+              transition: all 0.3s ease;
+            }
+            .close-mobile-menu:hover {
+              background: rgba(0, 0, 0, 0.1);
+              transform: rotate(90deg);
+            }
+            .close-mobile-menu svg {
+              color: #333;
+            }
+          `}</style>
         </div>
         <div className="menu-body">
           <div className="menu-list">
             <ul className="list-unstyled">
               {menus.map((menu) => (
-                <li className="sub-mobile-menu" key={menu.id}>
-                  {menu.submenu ? (
-                    <>
-                      <Link
-                        href="#"
-                        onClick={() => toggleSubmenu(menu.id)}
-                      >
-                        {menu.title}{" "}
-                        <i
-                          className={`fas float-end ${openSubmenuId === menu.id ? "fa-chevron-up" : "fa-chevron-down"}`}
-                        ></i>
-                      </Link>
-                      <ul
-                        className={`submenu ${openSubmenuId === menu.id ? "open" : ""}`}
-                      >
-                        {menu.submenu.map((submenu) => (
-                          <li key={submenu.id}>
-                            <Link href={submenu.link} onClick={closeMenu}>
-                              {submenu.title}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </>
-                  ) : (
-                    <Link href={menu.link} onClick={closeMenu}>
-                      {menu.title}
-                    </Link>
-                  )}
-                </li>
+                <MenuItem
+                  key={menu.id}
+                  menu={menu}
+                  openSubmenuId={openSubmenuId}
+                  openIndustrySection={openIndustrySection}
+                  toggleSubmenu={toggleSubmenu}
+                  toggleIndustrySection={toggleIndustrySection}
+                  closeMenu={closeMenu}
+                />
               ))}
             </ul>
           </div>
         </div>
-        <div className="call-us p-4">
-          <a
-            href="tel:+91 8919439603"
-            className="call-us-btn d-flex align-items-center gap-3"
-          >
-            <span className="icon d-flex justify-content-center align-items-center">
-              <i className="fa-solid fa-phone"></i>
-            </span>
-            <div className="info">
-              <span className="title">Need ERP?</span>
-              <h5 className="number">+91 8919439603</h5>
-            </div>
-          </a>
-        </div>
+        <CallToAction />
       </div>
     </div>
   );

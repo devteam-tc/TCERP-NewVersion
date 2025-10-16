@@ -1,12 +1,9 @@
 import Link from 'next/link'
-import footerIcon1 from '@/public/images/icons/footer-short-icon-1.svg';
-import footerIcon2 from '@/public/images/icons/footer-short-icon-2.svg';
-import footerIcon3 from '@/public/images/icons/footer-short-icon-3.svg';
-// import logo2 from '@/public/images/logo/logo2.svg';
-import logo2 from '@/public/images/logo/logo.webp';
+import logo2 from '../../../public/images/logo/logo.svg';
 import Image from 'next/image';
-import ScrollToTop from '../ScrollProgressButton';
 import ScrollProgressButton from '../ScrollProgressButton';
+import SocialMediaIcons from './SocialMediaIcons';
+import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -14,75 +11,51 @@ const Footer = () => {
       {/* scroll to top start */}
       <ScrollProgressButton />
       {/* scroll to top end */}
-      <footer className="ep-footer-section pt-120">
+      <footer className="ep-footer-section">
         <div className="footer-bg">
           <div className="container">
-            {/* <div className="row g-4">
-              <div className="col-xl-4 col-md-6">
-                <div className="footer-short-info rounded-20 d-flex align-items-center">
-                  <div className="icon d-flex align-items-center justify-content-center rounded-pill flex-shrink-0">
-                    <Image priority src={footerIcon1} alt="footer-short-icon" />
-                  </div>
-                  <div className="text">
-                    <h4 className="title">Tech Fusion Solutions</h4>
-                    <p>It encompasses the use of computers, networks</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-md-6">
-                <div className="footer-short-info rounded-20 d-flex align-items-center">
-                  <div className="icon d-flex align-items-center justify-content-center rounded-pill flex-shrink-0">
-                    <Image priority src={footerIcon2} alt="footer-short-icon" />
-                  </div>
-                  <div className="text">
-                    <h4 className="title">Digital Edge Innovations</h4>
-                    <p>Other digital technologies to store place network</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-md-6">
-                <div className="footer-short-info rounded-20 d-flex align-items-center">
-                  <div className="icon d-flex align-items-center justify-content-center rounded-pill flex-shrink-0">
-                    <Image priority src={footerIcon3} alt="footer-short-icon" />
-                  </div>
-                  <div className="text">
-                    <h4 className="title">Cloud Wave Services</h4>
-                    <p>The rapid advancement of technology continuously</p>
-                  </div>
-                </div>
-              </div>
-            </div> */}
             <div className="footer-main">
               <div className="row g-4">
                 <div className="col-xl-3 col-lg-3 col-md-6">
                   <div className="footer-widget footer-about">
                     <div className="logo">
                       <Link href="/">
-                        <Image priority src={logo2} alt="logo2" />
+                        <Image priority src={logo2} alt="logo2" width={200} height={100} />
                       </Link>
                     </div>
-                    <div className="short-info">
-                      <p>Tech Cloud ERP delivers top-notch solutions tailored for any business, combining advanced technology, intuitive design, and comprehensive features.</p>
+                    <div className="short-info mt-3">
+                      <p>Tech Cloud ERP delivers top-notch solutions tailored for any business comprehensive features.</p>
                     </div>
                     <div className="contact-info">
                       <ul className="list-unstyled">
                         <li>
                           <div className="d-flex align-items-center gap-2">
                             <div className="icon">
-                              <i className="fas fa-map-marker-alt"></i>
+                              <FaMapMarkerAlt size={20} style={{ color: 'var(--bs-primary-500)' }} />
                             </div>
                             <h4 className="title">Address </h4>
                           </div>
-                          <p>Office Unit No. 705, Jain Sadguru Capital Park, Hyderabad, India-500081.</p>
+                          <p>Plot No. 241, 3rd Floor, VVG Elite, Kavuri Hills, Madhapur, Hyderabad, Telangana - 500081.</p>
                         </li>
                         <li>
                           <div className="d-flex align-items-center gap-2">
                             <div className="icon">
-                              <i className="fas fa-envelope"></i>
+                              <FaEnvelope size={20} style={{ color: 'var(--bs-primary-500)' }} />
                             </div>
                             <h4 className="title">Email </h4>
                           </div>
-                          <a href="mailto:info@techclouderp.com">info@techclouderp.com</a>
+                          <p> <a href="mailto:sales@techclouderp.com">sales@techclouderp.com</a></p>
+                        </li>
+                        <li>
+                          <div className="d-flex align-items-center gap-2">
+                            <div className="icon">
+                              <FaPhoneAlt size={20} style={{ color: 'var(--bs-primary-500)' }} />
+                            </div>
+                            <h4 className="title">Phone</h4>
+                          </div>
+                          <p>
+                            <a href="tel:+918919439603">+91 8919439603</a>, <a href="tel:+917032803200">+91 7032803200</a>
+                          </p>
                         </li>
                       </ul>
                     </div>
@@ -93,14 +66,14 @@ const Footer = () => {
                     <h4 className="footer-title">Useful Links</h4>
                     <ul className="list-unstyled">
                     {/* <i className="fas fa-chevron-right"></i>  */}
-                      <li><Link href="/services">Home</Link></li>
-                      <li><Link href="/services"> About Us</Link></li>
-                      <li><Link href="/services"> Contact Us</Link></li>
-                      <li><Link href="/services"> Our Features</Link></li>
-                      <li><Link href="/services"> Our Blogs</Link></li>
-                      <li><Link href="/services"> Our Branches</Link></li>
-                      <li><Link href="/services"> All Products</Link></li>
-                      <li><Link href="/services"> Careers</Link></li>
+                      <li><Link href="/">Home</Link></li>
+                      <li><Link href="/about-us"> About Us</Link></li>
+                      <li><Link href="/contact-us"> Contact Us</Link></li>
+                      <li><Link href="/features"> Our Features</Link></li>
+                      <li><Link href="/"> Our Blogs</Link></li>
+                      <li><Link href="/locations"> Our Locations</Link></li>
+                      <li><Link href="/all-modules"> All Modules</Link></li>
+                      <li><Link href="/"> Careers</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -108,48 +81,51 @@ const Footer = () => {
                   <div className="footer-widget footer-links links-widget">
                     <h4 className="footer-title">Industries</h4>
                     <ul className="list-unstyled">
-                      <li><Link href="/about">All Industries</Link></li>
-                      <li><Link href="/services">Jewellery</Link></li>
-                      <li><Link href="/projects">Pharma</Link></li>
-                      <li><Link href="/blog">Agriculture</Link></li>
-                      <li><Link href="/contact">Beverage</Link></li>
-                      <li><Link href="/contact">Leather</Link></li>
-                      <li><Link href="/contact">Beverage</Link></li>
-                      <li><Link href="/contact">Textile</Link></li>
-                      {/* <li><Link href="/contact">Food</Link></li>
-                      <li><Link href="/contact">Tech Cloud Trading</Link></li> */}
+                      <li><Link href="/industries">All Industries</Link></li>
+                      <li><Link href="/industries/jewellery-erp-software">Jewellery</Link></li>
+                      <li><Link href="/industries/food-and-beverage-erp">Food & Beverage</Link></li>
+                      <li><Link href="/industries/pharma-erp-software">Pharma</Link></li>
+                      <li><Link href="/industries/plastic-erp-software">Plastic</Link></li>
+                      <li><Link href="/industries/sign-manufacturing-erp">Signage</Link></li>
+                      <li><Link href="/industries/textile-erp-software">Textile</Link></li>
+                      <li><Link href="/industries/foundry-erp-solution">Casting </Link></li>
                     </ul>
                   </div>
                 </div>
                 <div className="col-xl-3 col-lg-3 col-md-6">
                   <div className="footer-widget footer-links links-widget">
-                    <h4 className="footer-title">Services </h4>
+                    <h4 className="footer-title">Others</h4>
                     <ul className="list-unstyled">
-                      <li><Link href="/blog">All Services </Link></li>
-                      <li><Link href="/blog">Web Development</Link></li>
-                      <li><Link href="/contact">E-Commerce Website </Link></li>
-                      <li><Link href="/contact">Mobile App Development</Link></li>
-                      <li><Link href="/contact">Digital Marketing</Link></li>
-                      <li><Link href="/contact">Whatsapp Business</Link></li>
-                      <li><Link href="/contact">Business Intelligence</Link></li>
-                      <li><Link href="/contact">Web Hosting</Link></li>
+                      <li><Link href="/services">All Services </Link></li>
+                      <li><Link href="/services/web-development/">Web Development</Link></li>
+                      <li><Link href="/services/e-commerce-development/">E-Commerce </Link></li>
+                      <li><Link href="/services/app-development/">Mobile App Development</Link></li>
+                      <li><Link href="/services/digital-marketing/">Digital Marketing</Link></li>
+                      {/* <li><Link href="/all-modules/inventory/">Trading Software</Link></li> */}
+                      <li><Link href="/business-intelligence/">Business Intelligence</Link></li>
+                      <li><Link href="/all-modules/pos/">POS</Link></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="footer-bottom">
-                <div className="row g-2">
-                  <div className="col-lg-6">
+                <div className="row align-items-center">
+                  <div className="col-lg-4">
                     <div className="footer-copyright text-center text-lg-start">
                       <p>© 2025 Tech Cloud ERP | All Rights Reserved.</p>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-4">
+                    <div className="social-icons-container text-center">
+                      <SocialMediaIcons />
+                    </div>
+                  </div>
+                  <div className="col-lg-4">
                     <div className="footer-menu text-center text-lg-end">
                       <ul className="list-unstyled">
-                        <li className="d-inline-block"><Link href="#">Terms & Conditions</Link></li>
-                        <li className="d-inline-block"><Link href="#">Privacy Policy</Link></li>
-                        <li className="d-inline-block"><Link href="/contact">Contact Us</Link></li>
+                        <li className="d-inline-block"><Link href="/terms-and-conditions">Terms & Conditions </Link></li>
+                        <li className="d-inline-block"><Link href="/terms-and-conditions">|</Link></li>
+                        <li className="d-inline-block"><Link href="/privacypolicy">Privacy Policy</Link></li>
                       </ul>
                     </div>
                   </div>

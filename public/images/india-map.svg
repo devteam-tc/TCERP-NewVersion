@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- India Outline -->
+  <path d="M400,100 C500,100 600,150 650,250 C700,350 650,450 600,550 C550,650 500,700 400,700 C300,700 250,650 200,550 C150,450 100,350 150,250 C200,150 300,100 400,100 Z" 
+        fill="none" 
+        stroke="#333" 
+        stroke-width="2"/>
+  
+  <!-- Dotted pattern for the map -->
+  <circle cx="400" cy="400" r="2" fill="#333"/>
+  <circle cx="450" cy="350" r="2" fill="#333"/>
+  <circle cx="350" cy="450" r="2" fill="#333"/>
+  <circle cx="500" cy="300" r="2" fill="#333"/>
+  <circle cx="300" cy="500" r="2" fill="#333"/>
+  <circle cx="550" cy="250" r="2" fill="#333"/>
+  <circle cx="250" cy="550" r="2" fill="#333"/>
+  <circle cx="600" cy="200" r="2" fill="#333"/>
+  <circle cx="200" cy="600" r="2" fill="#333"/>
+</svg> 

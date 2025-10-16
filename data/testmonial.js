@@ -1,7 +1,7 @@
 // testimonial images
-import testimonialImg from '@/public/images/testimonial/testimonial-img-1.png';
-import quoteIcon from '@/public/images/icons/quote-icon.png';
-import testimonialImg3 from '@/public/images/testimonial/testimonial-img-3.png';
+import testimonialImg from '../public/images/testimonial/testimonial-img-1.png';
+import quoteIcon from '../public/images/icons/quote-icon.png';
+import testimonialImg3 from '../public/images/testimonial/testimonial-img-3.png';
 
 
 export const testimonials = [{

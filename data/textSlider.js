@@ -1,5 +1,5 @@
 // Text slider image
-import globeIcon from '@/public/images/icons/globe-icon.svg';
+// import globeIcon from '@/public/images/icons/globe-icon.svg';
 
 // export const textSlider = [
 //   {
@@ -29,10 +29,10 @@ import globeIcon from '@/public/images/icons/globe-icon.svg';
 //   },
 // ];
 export const partnerData = [
-  { link: '/products/financial-management-systems', imgSrc: "/partner/finance.png", alt: 'Finance' },
-  { link: '/products/hr-managament-software', imgSrc: "/partner/HRM.png", alt: 'HRMS' },
-  { link: '/products/Ecommerce-software', imgSrc: "/partner/ecomm.png", alt: 'Ecommerce' },
-  { link: '/products/trading-software', imgSrc: "/partner/trading.png", alt: 'Trading' },
-  { link: '/products/point-of-sale', imgSrc: "/partner/POS.png", alt: 'POS' },
-  { link: '/products/customer-relationship-management', imgSrc: "/partner/CRMD.png", alt: 'CRM' },
+  { link: '/products/qc-qa', imgSrc: "/partner/finance.png", alt: 'Finance' },
+  { link: '/products/job-work', imgSrc: "/partner/HRM.png", alt: 'HRMS' },
+  { link: '/products/production', imgSrc: "/partner/ecomm.png", alt: 'Ecommerce' },
+  { link: '/products/inventory', imgSrc: "/partner/trading.png", alt: 'Trading' },
+  { link: '/products/purchase-management', imgSrc: "/partner/POS.png", alt: 'POS' },
+  { link: '/products/sales', imgSrc: "/partner/CRMD.png", alt: 'CRM' },
   ];

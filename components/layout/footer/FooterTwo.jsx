@@ -1,12 +1,12 @@
 "use client";
 import Link from 'next/link'
 // import footerLogo from '@/public/images/logo/logo2.svg';
-import footerLogo from '@/public/images/logo/logo.webp';
-import VideoImg from '@/public/images/img/video-banner-img.png';
+import footerLogo from '../../../public/images/logo/logo.webp';
+import VideoImg from '../../../public/images/img/video-banner-img.png';
 import Image from 'next/image';
 import ScrollProgressButton from '../ScrollProgressButton';
 import { useState } from 'react';
-import YouTubeEmbed from '@/components/containers/YouTubeEmbed';
+import YouTubeEmbed from '../../../components/containers/YouTubeEmbed';
 const FooterTwo = () => {
   const [videoActive, setVideoActive] = useState(false);
   return (
@@ -132,7 +132,7 @@ const FooterTwo = () => {
                       <ul className="list-unstyled">
                         <li className="d-inline-block"><Link href="#">Trams & Condition</Link></li>
                         <li className="d-inline-block"><Link href="#">Privacy Policy</Link></li>
-                        <li className="d-inline-block"><Link href="/contact">Contact Us</Link></li>
+                        <li className="d-inline-block"><Link href="/contact-us">Contact Us</Link></li>
                       </ul>
                     </div>
                   </div>

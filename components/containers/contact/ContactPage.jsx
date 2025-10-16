@@ -1,35 +1,50 @@
 "use client";
-import SimpleReactValidator from 'simple-react-validator';
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import { useState } from 'react';
-const ContactPage = () => {
-  const [forms, setForms] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    phone: '',
-    message: ''
+import React, { useState } from "react";  
+import { Formik, Field, Form } from "formik";
+import * as Yup from "yup";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Button, Form as BootstrapForm } from "react-bootstrap";
+import { FaEnvelope, FaPhoneAlt ,FaMapMarkerAlt  } from "react-icons/fa";
+import { db } from '../../../firebaseConfig'; 
+import { collection, addDoc, doc, getDoc } from "firebase/firestore";
+import emailjs from '@emailjs/browser';
+import './ContactPage.scss';
+
+const ContactForm = () => {
+  const [selectedTags, setSelectedTags] = useState([]);
+  const validationSchema = Yup.object().shape({
+    name: Yup.string().required('Name is required'),
+    email: Yup.string().email('Invalid email').required('Email is required'),
+    phone: Yup.string().required('Phone number is required'),
+    message: Yup.string().required('Message is required'),
+    companyName: Yup.string().nullable(),
   });
-  const [validator] = useState(new SimpleReactValidator({
-    className: 'errorMessage'
-  }));
 
-  const changeHandler = (e) => {
-    setForms({ ...forms, [e.target.name]: e.target.value });
-    if (validator.allValid()) {
-      validator.hideMessages();
-    } else {
-      validator.showMessages();
-    }
-  };
-
-  const submitHandler = (e) => {
-    e.preventDefault();
-    if (validator.allValid()) {
-      validator.hideMessages();
-
-      toast.success("Form submitted successfully!", {
+  const handleSubmit = async (
+    values,
+    { setSubmitting, resetForm }
+  ) => {
+    try {
+      const docRef = await addDoc(collection(db, 'contact_applications'), {
+        ...values,
+        selectedTags,
+        timestamp: new Date(),
+      });
+      
+      const templateParams = {
+        ...values,
+        selectedTags: selectedTags.join(', '),
+      };
+      
+      await emailjs.send(
+        "service_qj3f93o",
+        "template_as8x5t6",
+        templateParams,
+        "-CuhfwvgeA0D1IAeZ"
+      );
+      
+      toast.success('Message sent successfully!', {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
@@ -37,174 +52,95 @@ const ContactPage = () => {
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
+        theme: "light",
       });
-
-      // Clear form fields after successful submission
-      setForms({
-        name: '',
-        email: '',
-        subject: '',
-        phone: '',
-        message: ''
+      resetForm();
+      setSelectedTags([]);
+    } catch (error) {
+      toast.error(`Error submitting form: ${error.message}`, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
       });
-    } else {
-      validator.showMessages();
+    } finally {
+      setSubmitting(false);
     }
   };
 
   return (
-    <>
-      <section className="ep-contact-section pt-120">
-        <div className="container">
-          <div className="contact-information">
-            {/* Static Information like Phone, Email, Location */}
-            <div className="row">
-              <div
-                className="col-lg-6 col-xl-4">
-                <div className="info-item d-flex align-items-center rounded-20 gap-4">
-                  <div className="icon section-bg rounded-pill flex-shrink-0 d-flex align-items-center justify-content-center">
-                    <i className="fa-solid fa-phone"></i>
-                  </div>
-                  <div className="text">
-                    <h4 className="title">Phone</h4>
-                    <ul className="list-unstyled">
-                      <li><a href="tel:(480)555-0103">(480) 555-0103</a></li>
-                      <li><a href="tel:(505)555-0125">(505) 555-0125</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-6 col-xl-4">
-                <div className="info-item d-flex align-items-center rounded-20 gap-4">
-                  <div className="icon section-bg rounded-pill flex-shrink-0 d-flex align-items-center justify-content-center">
-                    <i className="fa-solid fa-envelope"></i>
-                  </div>
-                  <div className="text">
-                    <h4 className="title">Email</h4>
-                    <ul className="list-unstyled">
-                      <li><a href="mailto:info@gmail.com">info@gmail.com</a></li>
-                      <li><a href="mailto:example@example.com">example@example.com</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-6 col-xl-4">
-                <div className="info-item d-flex align-items-center rounded-20 gap-4">
-                  <div className="icon section-bg rounded-pill flex-shrink-0 d-flex align-items-center justify-content-center">
-                    <i className="fa-solid fa-location-dot"></i>
-                  </div>
-                  <div className="text">
-                    <h4 className="title">Location</h4>
-                    <ul className="list-unstyled">
-                      <li>4517 Washington Ave. Manchester, Kentucky 39495</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="contact-form position-relative section-bg">
-            <h2 className="title text-center">Get In Touch</h2>
-            <form onSubmit={submitHandler}>
-              <div className="row g-4">
-                <div className="col-lg-6">
-                  <div className="input-group">
-                    <input required
-                      type="text"
-                      name="name"
-                      value={forms.name}
-                      onBlur={changeHandler}
-                      onChange={changeHandler}
-                      className="form-control form-field shadow-none"
-                      placeholder="Your Name"
-                    />
-                    {validator.message('name', forms.name, 'required|alpha_space')}
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="input-group">
-                    <input required
-                      type="email"
-                      name="email"
-                      value={forms.email}
-                      onBlur={changeHandler}
-                      onChange={changeHandler}
-                      className="form-control form-field shadow-none"
-                      placeholder="Your Email"
-                    />
-                    {validator.message('email', forms.email, 'required|email')}
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="input-group">
-                    <input required
-                      type="phone"
-                      name="phone"
-                      value={forms.phone}
-                      onBlur={changeHandler}
-                      onChange={changeHandler}
-                      className="form-control form-field shadow-none"
-                      placeholder="Your Phone"
-                    />
-                    {validator.message('phone', forms.phone, 'required|phone')}
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="input-group">
-                    <select
-                      name="subject"
-                      value={forms.subject}
-                      onBlur={changeHandler}
-                      onChange={changeHandler}
-                      className="form-control form-field shadow-none"
-                    >
-                      <option value="" disabled>Subject</option>
-                      <option value="Support">Support</option>
-                      <option value="Sales">Sales</option>
-                      <option value="General">General</option>
-                    </select>
-                    {validator.message('subject', forms.subject, 'required')}
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="input-group">
-                    <textarea
-                      name="message"
-                      value={forms.message}
-                      onBlur={changeHandler}
-                      onChange={changeHandler}
-                      className="form-field textarea-control"
-                      placeholder="Message here.."
-                    ></textarea>
-                    {validator.message('message', forms.message, 'required')}
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="text-center">
-                    <button type="submit" className="theme-btn position-relative">
-                      Submit Now
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-
-        <div className="contact-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25280012016!2d-74.14448732737499!3d40.69763123331177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1727346263569!5m2!1sen!2sbd"
-          ></iframe>
-        </div>
-      </section>
-
-      {/* ToastContainer for Toastify notifications */}
+    <div className="contactpage-wrapper pt-120">
       <ToastContainer />
-    </>
+      <div className="contactpage-info">
+      <h1 className="contactpage-info__button">
+        <Button variant="light" className="contactpage-info__button-inner">Contact Us</Button>
+      </h1>
+  <h2 className="contactpage-info__title">Get in Touch With Us</h2>
+  <p className="contactpage-info__desc">
+  Have questions or need assistance? Our team is here to help reach out to us anytime!
+  </p>
+
+  <div className="contactpage-info__card">
+    <div className="contactpage-info__icon"><FaPhoneAlt /></div>
+    <div>
+      <div className="contactpage-info__sub">Give Us a Call</div>
+      <div className="contactpage-info__text contactpage-info__text--phones">
+        <span>+91 8919439603</span>
+        <span>+91 7032803200</span>
+      </div>
+    </div>
+  </div>
+
+  <div className="contactpage-info__card">
+    <div className="contactpage-info__icon"><FaEnvelope /></div>
+    <div>
+      <div className="contactpage-info__sub">Send Us Mail</div>
+      <div className="contactpage-info__text">sales@techclouderp.com</div>
+    </div>
+  </div>
+
+  <div className="contactpage-info__card">
+    <div className="contactpage-info__icon"><FaMapMarkerAlt /></div>
+    <div>
+      <div className="contactpage-info__sub">Visit Our Office</div>
+      <div className="contactpage-info__text">Plot No. 241, 3rd Floor, VVG Elite, Kavuri Hills, 
+      <br /> Phase - 2, Madhapur, Hyderabad, Telangana - 500081</div>
+    </div>
+  </div>
+</div>
+      <div className="contactpage-form-section">
+        <h3 className="contactpage-form-section__title">Send Us a Message</h3>
+        <p className="contactpage-form-section__desc">Let's connect! Just drop us a message below we're happy to assist with anything you need.</p>
+        <Formik
+          initialValues={{ name: '', email: '', phone: '', message: '', companyName: '' }}
+          validationSchema={validationSchema}
+          onSubmit={handleSubmit}
+        >
+          {({ isSubmitting }) => (
+            <Form className="contactpage-form">
+              <div className="contactpage-form__row">
+                <Field as={BootstrapForm.Control} className="contactpage-form__input" type="text" name="name" placeholder="First Name" />
+                <Field as={BootstrapForm.Control} className="contactpage-form__input" type="text" name="companyName" placeholder="Last Name" />
+              </div>
+              <div className="contactpage-form__row">
+                <Field as={BootstrapForm.Control} className="contactpage-form__input" type="email" name="email" placeholder="Email" />
+                <Field as={BootstrapForm.Control} className="contactpage-form__input" type="tel" name="phone" placeholder="Phone" />
+              </div>
+              <Field as={BootstrapForm.Control} className="contactpage-form__input" type="text" name="subject" placeholder="Company Name" />
+              <Field as={BootstrapForm.Control} className="contactpage-form__textarea" name="message" rows="4" placeholder="Message" />
+              <Button type="submit" className="contactpage-form__submit" disabled={isSubmitting}>
+                {isSubmitting ? 'Submitting...' : 'Submit Now →'}
+              </Button>
+            </Form>
+          )}
+        </Formik>
+      </div>
+    </div>
   );
 };
 
-export default ContactPage;
+export default ContactForm;

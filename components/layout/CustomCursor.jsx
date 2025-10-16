@@ -1,53 +1,133 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useEffect, useRef } from "react";
+import "./CustomCursor.scss";
 
 const CustomCursor = () => {
-  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
-  const [isCursorHovering, setIsCursorHovering] = useState(false);
+  const cursorRef = useRef(null);
+  const followerRef = useRef(null);
+  const dotsRef = useRef([]);
 
   useEffect(() => {
+    let mouseX = 0;
+    let mouseY = 0;
+    let posX = 0;
+    let posY = 0;
+    let angle = 0;
+    const radius = 30; // Distance from cursor to dots
+    const dotAngles = [0, (2 * Math.PI) / 3, (4 * Math.PI) / 3]; // 120 degrees apart
+
+    const cursor = cursorRef.current;
+    const cursorFollower = followerRef.current;
+    const dots = dotsRef.current;
+
+    // Mouse move event
     const handleMouseMove = (e) => {
-      requestAnimationFrame(() => {
-        setCursorPosition({ x: e.clientX, y: e.clientY });
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+    };
+
+    // Animation loop
+    const animate = () => {
+      // Easing for the follower
+      const deltaX = mouseX - posX;
+      const deltaY = mouseY - posY;
+      
+      posX += deltaX * 0.1;
+      posY += deltaY * 0.1;
+      
+      // Update main cursor
+      cursor.style.left = `${mouseX}px`;
+      cursor.style.top = `${mouseY}px`;
+      
+      // Update follower
+      cursorFollower.style.left = `${posX}px`;
+      cursorFollower.style.top = `${posY}px`;
+      
+      // Update dots in a circular motion
+      angle += 0.02;
+      
+      dots.forEach((dot, index) => {
+        if (dot) {
+          const dotAngle = angle + dotAngles[index];
+          const dotX = posX + Math.cos(dotAngle) * radius;
+          const dotY = posY + Math.sin(dotAngle) * radius;
+          
+          dot.style.left = `${dotX}px`;
+          dot.style.top = `${dotY}px`;
+        }
+      });
+      
+      requestAnimationFrame(animate);
+    };
+
+    // Click effects
+    const handleMouseDown = () => {
+      cursorFollower.style.transform = 'translate(-50%, -50%) scale(0.8)';
+      dots.forEach(dot => {
+        if (dot) dot.style.transform = 'translate(-50%, -50%) scale(0.8)';
       });
     };
 
-    const handleCursorHover = () => setIsCursorHovering(true);
-    const handleCursorLeave = () => setIsCursorHovering(false);
+    const handleMouseUp = () => {
+      cursorFollower.style.transform = 'translate(-50%, -50%) scale(1)';
+      dots.forEach(dot => {
+        if (dot) dot.style.transform = 'translate(-50%, -50%) scale(1)';
+      });
+    };
 
-    window.addEventListener("mousemove", handleMouseMove);
+    // Hover effects for clickable elements
+    const handleMouseEnter = () => {
+      cursorFollower.style.width = '60px';
+      cursorFollower.style.height = '60px';
+      cursorFollower.style.borderColor = 'rgba(255, 255, 255, 0.8)';
+    };
 
-    const clickableElements = document.querySelectorAll("a, .cursor-pointer");
-    clickableElements.forEach((element) => {
-      element.addEventListener("mouseenter", handleCursorHover);
-      element.addEventListener("mouseleave", handleCursorLeave);
+    const handleMouseLeave = () => {
+      cursorFollower.style.width = '40px';
+      cursorFollower.style.height = '40px';
+      cursorFollower.style.borderColor = 'rgba(255, 255, 255, 0.5)';
+    };
+
+    // Add event listeners
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mousedown', handleMouseDown);
+    document.addEventListener('mouseup', handleMouseUp);
+
+    const clickables = document.querySelectorAll('a, button, .clickable');
+    clickables.forEach(clickable => {
+      clickable.addEventListener('mouseenter', handleMouseEnter);
+      clickable.addEventListener('mouseleave', handleMouseLeave);
     });
 
+    // Start animation
+    const animationId = requestAnimationFrame(animate);
+
+    // Cleanup
     return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-      clickableElements.forEach((element) => {
-        element.removeEventListener("mouseenter", handleCursorHover);
-        element.removeEventListener("mouseleave", handleCursorLeave);
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mousedown', handleMouseDown);
+      document.removeEventListener('mouseup', handleMouseUp);
+      
+      clickables.forEach(clickable => {
+        clickable.removeEventListener('mouseenter', handleMouseEnter);
+        clickable.removeEventListener('mouseleave', handleMouseLeave);
       });
+      
+      cancelAnimationFrame(animationId);
     };
   }, []);
 
   return (
     <>
-      <div
-        className={`mouse-cursor cursor-outer ${isCursorHovering ? "cursor-hover" : ""}`}
-        style={{
-          transform: `translate(${cursorPosition.x}px, ${cursorPosition.y}px)`,
-          transition: "transform 0.15s ease-out",
-        }}
-      />
-      <div
-        className={`mouse-cursor cursor-inner ${isCursorHovering ? "cursor-hover" : ""}`}
-        style={{
-          transform: `translate(${cursorPosition.x}px, ${cursorPosition.y}px)`,
-          transition: "transform 0.05s linear",
-        }}
-      />
+      <div ref={cursorRef} className="cursor" />
+      <div ref={followerRef} className="cursor-follower" />
+      {[1, 2, 3].map((dot, index) => (
+        <div
+          key={dot}
+          ref={el => dotsRef.current[index] = el}
+          className={`cursor-dot dot-${dot}`}
+        />
+      ))}
     </>
   );
 };

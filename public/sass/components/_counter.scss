@@ -5,20 +5,23 @@
 .ep-counter-section {
   .counter-text {
     p {
-      margin-bottom: 68px;
+      // margin-bottom: 68px;
+      margin-bottom: 28px;
+
     }
 
     .counter-wrapper {
       .counter-item {
         background-color: var(--bs-white-color);
         box-shadow: 0 10px 20px rgba(173,216,230,.5),0 6px 6px rgba(173,216,230,.7);
-        padding: 38px 20px;
+        // padding: 38px 20px;
+        padding: 16px 18px;
         transition: var(--bs-transition);
         border: 1px solid transparent;
 
         .number {
-          color: var(--bs-black-color);
-          font-size: 60px;
+          color: var( --Dark-Color);
+          font-size: 50px;
           font-weight: 700;
           line-height: 68px;
           letter-spacing: -1.48px;
@@ -28,9 +31,9 @@
           color: var(--bs-paragraph-color);
         }
 
-        &:hover {
-          border-color: var(--bs-primary-color);
-        }
+        // &:hover {
+        //   border-color: var(--bs-primary-color);
+        // }
       }
     }
   }
@@ -70,7 +73,8 @@
 
 @media (max-width: 1399.98px) {
   .ep-counter-section .counter-text .counter-wrapper .counter-item {
-    padding: 32px 20px;
+    // padding: 32px 20px;
+    padding: 22px 20px;
   }
 
   .ep-counter-section .counter-text .counter-wrapper .counter-item .number {
@@ -86,6 +90,7 @@
 @media (max-width: 1199.98px) {
   .ep-counter-section .counter-text p {
     margin-bottom: 40px;
+    margin-top: 20px;
   }
 }
 
@@ -94,6 +99,11 @@
   .ep-counter-section .counter-image {
     max-width: 100%;
   }
+  .ep-counter-section .counter-text .counter-wrapper .counter-item .number {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
 }
 
 @media (max-width: 767.98px) {
@@ -104,8 +114,8 @@
 
 @media (max-width: 575.98px) {
   .ep-counter-section .heading-style1 {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 25px;
+    line-height: 35px;
   }
 
   .ep-counter-section .section-title-block {
