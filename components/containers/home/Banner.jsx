@@ -25,7 +25,7 @@ const Banner = () => (
       <p className="banner-subtitle">
         Empower your business with Tech Cloud ERP, a scalable cloud-based ERP software that streamlines operations, boosts productivity and fuels growth.
       </p>
-      <p className='mb-2' style={{  color: '#ef5226' , fontWeight: '600' }} >Accelerate Your Business Growth with Tech Cloud ERP Delivering Results.</p>
+      <p className='mb-3' style={{  color: '#ef5226' , fontWeight: '600' }} >Accelerate Your Business Growth with Tech Cloud ERP Delivering Results.</p>
       <Link href="/demo" className="banner-demo-btn">Book a Demo</Link>
       <div className="rocket-visual">
         {/* Chart Cards */}
@@ -44,6 +44,7 @@ const Banner = () => (
         {/* Rocket */}
         <div className="rocket-center">
           <Image 
+            className="rocket-desktop"
             src="/images/banner/icons/rocket.webp" 
             alt="Rocket" 
             width={150} 
@@ -53,6 +54,20 @@ const Banner = () => (
             placeholder="blur"
             blurDataURL="data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQABAABUB8JZwAAp1K3W4AA/v6yAAAA"
             sizes="(max-width: 768px) 100vw, 380px"
+            style={{
+              maxWidth: '100%',
+              height: 'auto',
+              objectFit: 'contain'
+            }}
+          />
+          <Image 
+            className="rocket-mobile"
+            src="/images/banner/icons/mobile-version-01.png" 
+            alt="Rocket Mobile" 
+            width={600} 
+            height={600}
+            priority={true}
+            sizes="(max-width: 767px) 96vw, (max-width: 992px) 98vw, 560px"
             style={{
               maxWidth: '100%',
               height: 'auto',

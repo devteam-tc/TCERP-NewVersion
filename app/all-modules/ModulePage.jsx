@@ -39,6 +39,13 @@ const ModulePage = () => {
             </Col>
           ))}
         </Row>
+        
+        <div className="text-center mt-5">
+          <a href="/features" className="view-all-btn" target="_blank" rel="noopener noreferrer">
+            View All Features
+            <span className="arrow-icon">→</span>
+          </a>
+        </div>
       </Container>
     </>
   );

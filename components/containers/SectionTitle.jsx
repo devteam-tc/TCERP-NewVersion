@@ -9,10 +9,10 @@ const SectionTitle = ({ subTitle, title, extraClass, titleClass }) => {
           {subTitle}
         </h6>
       )}
-      <h1
+      <h2
         className={`section-title title-anim ${titleClass}`}>
         {title}
-      </h1>
+      </h2>
     </div>
   );
 };

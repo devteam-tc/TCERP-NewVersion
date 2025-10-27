@@ -8,6 +8,18 @@ const CustomCursor = () => {
   const dotsRef = useRef([]);
 
   useEffect(() => {
+    // Skip on touch/coarse pointer devices (mobile/tablet)
+    const isCoarsePointer = typeof window !== 'undefined' && (window.matchMedia('(pointer: coarse)').matches || 'ontouchstart' in window);
+    if (isCoarsePointer) {
+      const cursor = cursorRef.current;
+      const cursorFollower = followerRef.current;
+      const dots = dotsRef.current;
+      if (cursor) cursor.style.display = 'none';
+      if (cursorFollower) cursorFollower.style.display = 'none';
+      if (Array.isArray(dots)) dots.forEach(d => { if (d) d.style.display = 'none'; });
+      return;
+    }
+
     let mouseX = 0;
     let mouseY = 0;
     let posX = 0;

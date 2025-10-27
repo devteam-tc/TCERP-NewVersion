@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './_ceo_section.scss';
-import CeoImg from '../../../public/images/about-us/ceo.png'; // Replace with actual CEO image path
+// import CeoImg from '../../../public/images/about-us/ceo.png'; 
 import Image from 'next/image';
 
 const ModernCeoSection = () => {

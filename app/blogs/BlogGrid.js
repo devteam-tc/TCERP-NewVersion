@@ -35,7 +35,6 @@ const BlogGrid = ({ posts }) => {
   </div> */}
 </div>
                 <div className={styles.cardContent}>
-                  
                   <h2>
                     {post.title} <span className={styles.arrow}></span>
                   </h2>

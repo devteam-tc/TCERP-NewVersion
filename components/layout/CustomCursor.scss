@@ -29,7 +29,15 @@ html {
     transition: all 0.3s ease-out;
     mix-blend-mode: difference;
   }
-  
+
+/* Disable custom cursor on touch / mobile devices */
+@media (pointer: coarse), (hover: none) {
+  html { cursor: auto !important; }
+  .cursor,
+  .cursor-follower,
+  .cursor-dot { display: none !important; }
+}
+
   /* Style for all three dots */
   .cursor-dot {
     position: fixed;

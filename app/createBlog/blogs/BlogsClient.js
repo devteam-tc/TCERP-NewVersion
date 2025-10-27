@@ -4,9 +4,9 @@ import { useState } from "react";
 import styles from "./page.module.css";
 import BlogGrid from "./BlogGrid";
 import Pagination from "./Pagination";
-import Footer from "../../components/layout/footer/Footer";
-import Header from "../../components/layout/header/Header";
-import PageHeader from "../../components/layout/PageHeader";
+import Footer from "../../../components/layout/footer/Footer";
+import Header from "../../../components/layout/header/Header";
+import PageHeader from "../../../components/layout/PageHeader";
 
 const POSTS_PER_PAGE = 6;
 

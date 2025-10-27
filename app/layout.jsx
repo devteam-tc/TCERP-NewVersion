@@ -4,12 +4,11 @@ import "../public/sass/main.scss";
 import 'animate.css';
 import InitAnimations from '../components/containers/InitAnimations';
 import LayoutWrapper from './LayoutWrapper';
-import Head from 'next/head';
 import Script from 'next/script';
 
 export const metadata = {
   title: 'Tech Cloud ERP – Cloud ERP Software for Indian Businesses',
-  description: 'Tech Cloud ERP offers comprehensive cloud-based ERP solutions for businesses of all sizes. Streamline your operations with our powerful business management software.',
+  description: 'Tech Cloud ERP provides cloud-based ERP solutions to streamline operations and boost efficiency for businesses of all sizes.',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
@@ -81,7 +80,6 @@ export const metadata = {
     'youtube:channel': 'UChUCWRHTzZkYEPRR-AauNkA',
     'pinterest:username': 'techclouderp',
     'linkedin:company': '13619340',
-    'twitter:site': '@TechCloudERP',
     'google-site-verification': 'tYN1pLqI0Tr2O39pXENnpPijDUfufS4bOQM0sne-r38',
   },
   robots: {
@@ -111,16 +109,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        {/* ✅ External Font Awesome */}
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
-      </Head>
       <body>
         <LayoutWrapper>
           <InitAnimations />
@@ -133,8 +121,8 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{
             __html: `
               window.__ow = window.__ow || {};
-              window.__ow.organizationId = "05a24f7f-145b-4112-b26d-b674cb933782";
-              window.__ow.template_id = "fa19a6c1-5ab5-4fa8-8afc-569fd57e5826";
+              window.__ow.organizationId = "35db0eb8-4536-4d59-9b4b-327abc8e14fd";
+              window.__ow.template_id = "f59710d1-9252-4331-8cca-694347f69ea8";
               window.__ow.integration_name = "manual_settings";
               window.__ow.product_name = "chatbot";   
               ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[OpenWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.openwidget.com/openwidget.js",t.head.appendChild(n)}};!n.__ow.asyncInit&&e.init(),n.OpenWidget=n.OpenWidget||e}(window,document,[].slice))

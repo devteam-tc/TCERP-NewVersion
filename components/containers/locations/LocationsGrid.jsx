@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import { FaTimes } from 'react-icons/fa';
 import './LocationsGrid.scss';
 
 const locations = [
@@ -68,9 +69,9 @@ const locations = [
   },
   {
     title: 'UAE',
-    image: '/images/contact/UAE.webp',
+    image: '/images/contact/uae.webp',
     description: 'UAE’s businesses thrive on efficiency and innovation. Our ERP helps streamline operations, manage resources, and make smarter decisions.',
-    link: '/locations/techcloud-erp-software-in-UAE',
+    link: '/locations/techcloud-erp-software-in-uae',
   },
   // {
   //   title: 'Dubai',
@@ -86,31 +87,33 @@ const locations = [
   },
   {
     title: 'Kuwait',
-    image: '/images/contact/Kuwait.webp',
+    image: '/images/contact/kuwait.webp',
     description: 'Kuwait’s industries need seamless operations. Our ERP unifies finance, supply chain, and workflows to boost efficiency and drive growth.',
-    link: '/locations/techcloud-erp-software-in-Kuwait',
+    link: '/locations/techcloud-erp-software-in-kuwait',
   },
  
   
   {
     title: 'Oman',
-    image: '/images/contact/Oman.webp',
+    image: '/images/contact/oman.webp',
     description: 'Oman’s evolving business environment requires smarter management. Our ERP helps streamline operations and optimize resources for success.',
-    link: '/locations/techcloud-erp-software-in-Oman',
+    link: '/locations/techcloud-erp-software-in-oman',
   }, 
   {
     title: 'Qatar',
-    image: '/images/contact/Qatar.webp',
+    image: '/images/contact/qatar.webp',
     description: 'Qatar’s enterprises need precision and efficiency. Our ERP integrates finance and operations, providing insights to drive growth confidently.',
-    link: '/locations/techcloud-erp-software-in-Qatar',
+    link: '/locations/techcloud-erp-software-in-qatar',
   },
   {
     title: 'USA',
-    image: '/images/contact/USA.webp',
+    image: '/images/contact/usa.webp',
     description: 'The USA’s dynamic industries require efficient solutions. Our ERP centralises operations, delivers real-time insights, and supports business growth.',
-    link: '/locations/techcloud-erp-software-in-USA',
+    link: '/locations/techcloud-erp-software-in-usa',
   },
-];
+    
+  
+]; 
 
 // List of Indian cities for filtering
 const indianCities = ['Hyderabad', 'Coimbatore', 'Chennai', 'Kolkata', 'Mumbai', 'Kochi', 'Delhi', 'Ahmedabad', 'Vizag', 'Bangalore'];
@@ -119,6 +122,7 @@ export default function LocationsGrid() {
   const [isLoading, setIsLoading] = useState(true);
   const [loadedLocations, setLoadedLocations] = useState([]);
   const [activeFilter, setActiveFilter] = useState('india'); // 'all', 'india', 'international'
+  const [showUAECities, setShowUAECities] = useState(false);
 
   useEffect(() => {
     // Simulate loading delay
@@ -150,7 +154,7 @@ export default function LocationsGrid() {
             className={`filter-btn ${activeFilter === 'international' ? 'active' : ''}`}
             onClick={() => setActiveFilter('international')}
           >
-            Middle East & USA 
+              Middle East & USA
           </button>
         </div>
       </div>
@@ -179,9 +183,18 @@ export default function LocationsGrid() {
             />
             <h3>{loc.title}</h3>
             <p>{loc.description}</p>
-            <Link href={loc.link} className="locations-page__card-button">
+            {/* <Link href={loc.link} className="locations-page__card-button">
               Visit this page
-            </Link>
+            </Link> */}
+            {loc.title === 'UAE' ? (
+              <Link href="/locations/techcloud-erp-software-in-uae" className="locations-page__card-button">
+                Visit this page
+              </Link>
+            ) : (
+              <Link href={loc.link} className="locations-page__card-button">
+                Visit this page
+              </Link>
+            )}
           </div>
         ))
       )}

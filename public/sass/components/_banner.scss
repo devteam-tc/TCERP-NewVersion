@@ -99,9 +99,9 @@
 
 .rocket-center {
 	position: absolute;
-	left: 50%;
+	left: 75%;
 	width: 350px;
-  top: 45%;
+	top: 45%;
 	transform: translate(-50%, -50%);
 	z-index: 3;
 	animation: float-rocket 3s infinite ease-in-out;
@@ -115,6 +115,10 @@
 		}
 	}
 }
+
+/* Rocket image variants */
+.rocket-desktop { display: block; }
+.rocket-mobile { display: none; }
 
 .banner-center-content {
 	position: relative;
@@ -175,92 +179,54 @@
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-20px); }
 }
-@keyframes bounce-icon {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
-}
 
-// @keyframes float-rocket {
-//   0% {
-//     transform: translate(-50%, -50%) translateY(0);
-//     opacity: 1;
-//   }
-//   100% {
-//     transform: translate(-50%, -50%) translateY(-100px);
-//     opacity: 0;
-//   }
-// }
-
-.circular-icons {
-	position: absolute;
-	left: 50%;
-	top: 67%;
-	transform: translate(-50%, -50%);
-	width: 400px;
-	height: 400px;
-	z-index: 2;
-	pointer-events: none;
-}
-
-.circular-icon {
-	position: absolute;
-	width: 70px;
-	height: 70px;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%) scale(0);
-	opacity: 0;
-	animation: emerge-icon 6s infinite cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@keyframes emerge-icon {
-	0%, 25% {
-		transform: translate(-50%, -50%) scale(0);
-		opacity: 0;
-	}
-	35% {
-		transform: translate(-50%, -50%) scale(1);
-		opacity: 1;
-	}
-	65% {
-		transform: translate(-50%, -50%) scale(1);
-		opacity: 1;
-	}
-	75%, 100% {
-		transform: translate(-50%, -50%) scale(0);
-		opacity: 0;
-	}
-}
 
 @media (max-width: 992px) {
-	.banner-hero { padding: 120px 0 20px 0; }
-	
+	.banner-hero { padding: 120px 0 50px 0; }
 	.rocket-icon,
 	.chart-card {
 		display: none !important;
 	}
-	
+
+	/* Swap rocket image to mobile variant */
+	.rocket-desktop { display: none !important; }
+	.rocket-mobile { display: block !important; }
+
+	/* Increase mobile rocket size and fix position */
+	.rocket-center {
+		width: 450px;
+		left: 53%;
+        top: 10%;
+		bottom: 0;
+		// top: auto;
+		transform: translate(-50%, 0);
+		animation: none;
+	}
+	.rocket-center .rocket-mobile { width: 450px; height: auto; }
+	.banner-subtitle{
+		padding: 6px 12px;
+		font-size: 15px;
+	}
 }
 
 
 @media screen and (max-width: 992px) {
 	.rocket-visual{
 	        display: block;
-	        width: 220px;
-	        height: 220px;
+	        width: 340px;
+	        height: 340px;
 	        top: 0;
 	        margin: 0 auto;
 	}
-	.rocket-center { width: 200px; top: 50%; }
+
 }
 
 @media (max-width: 767px) {
 	.banner-hero { flex-direction: column; }
 	.banner-title { font-size: 2rem; }
 	/* Ensure rocket sizing and position for phones */
-	.rocket-visual { width: 200px; height: 200px; top: 0; margin: 0 auto; }
-	.rocket-center { width: 90px; top: 60%; }
-	.banner-center-content {
+	.rocket-visual { width: 300px; height: 300px; top: 0; margin: 0 auto; }
+		.banner-center-content {
 		align-items: center;
 		justify-content: center;
 		text-align: center;

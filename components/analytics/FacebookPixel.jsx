@@ -48,7 +48,7 @@ const FacebookPixel = () => {
           width="1"
           style={{ display: 'none' }}
           src={`https://www.facebook.com/tr?id=${FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
-          alt=""
+          alt="Facebook Pixel tracking image"
         />
       </noscript>
       {/* End Facebook Pixel Code */}

@@ -1,5 +1,5 @@
 import { collection, doc, getDoc, getDocs } from "firebase/firestore";
-import { blogDb } from "../../../firebaseConfigBlogs"; // Use blogs-specific Firebase config
+import { blogDb } from "../../../../firebaseConfigBlogs"; // Use blogs-specific Firebase config
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -9,9 +9,9 @@ import styles from "./page.module.css";
 import SocialShare from "./SocialShare";
 import KeywordParser from "./keywordParser";
 import TableOfContents from "./TableOfContents";
-import Header from "../../../components/layout/header/Header";
-import Footer from "../../../components/layout/footer/Footer";
-import PageHeader from "../../../components/layout/PageHeader";
+import Header from "../../../../components/layout/header/Header";
+import Footer from "../../../../components/layout/footer/Footer";
+import PageHeader from "../../../../components/layout/PageHeader";
 
 // import ImageComponent from '../../admin/ImageComponent';
 

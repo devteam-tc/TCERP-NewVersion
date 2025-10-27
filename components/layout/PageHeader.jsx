@@ -25,7 +25,7 @@ const PageHeader = ({ title = '', breadcrumbs = [] }) => {
           <div className="col-md-12 ms-auto">
             <div className="bread-crumb text-center">
             <h3 className="page-title">
-              {title ? title.replace(/\b\w/g, (char) => char.toUpperCase()) : ''}
+              {title || ''}
             </h3>
               <ul className="list-unstyled d-flex flex-wrap align-items-center justify-content-center mt-30">
                 {breadcrumbs.length > 0 && breadcrumbs.map((item, index) => (
