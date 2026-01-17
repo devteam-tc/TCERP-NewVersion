@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import servicesData from '../../../data/services.json';
-import SectionTitle from '../SectionTitle';
+import SectionTitle2 from '../SectionTitle2';
 const ServiceCard = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -80,7 +80,7 @@ const ServiceCard = () => {
         <div className="row mb-xl-5 mb-4 text-center justify-content-center">
           <div className="col-lg-7">
              <div className="feature-text">
-              <SectionTitle subTitle="WHAT WE OFFER" title="Advanced Digital Services" />
+              <SectionTitle2 subTitle="WHAT WE OFFER" title="Advanced Digital Services" />
             </div>
            </div>
         </div>

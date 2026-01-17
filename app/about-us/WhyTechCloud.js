@@ -1,16 +1,10 @@
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
+  
 
 const WhyTechCloud = () => {
   return (
-    <div className="why-tech-cloud" style={{
-      padding: '60px 0',
-      background: '#fff',
-      borderRadius: '16px',
-      width: '100%',
-      maxWidth: '1400px',
-      margin: '0 auto',
-    }}>
+    <div className="why-tech-cloud"  >
       <div className="container">
         <div className="row g-4 g-lg-5 align-items-center">
           {/* Left: Image */}

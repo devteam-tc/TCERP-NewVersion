@@ -35,7 +35,7 @@ const Footer = () => {
                             </div>
                             <h4 className="title">Address </h4>
                           </div>
-                          <p>Plot No. 241, 3rd Floor, VVG Elite, Kavuri Hills, Madhapur, Hyderabad, Telangana - 500081.</p>
+                          <p>Plot No. 241, 4th Floor, VVG Elite, Kavuri Hills, Madhapur, Hyderabad, Telangana - 500081.</p>
                         </li>
                         <li>
                           <div className="d-flex align-items-center gap-2">
@@ -70,7 +70,7 @@ const Footer = () => {
                       <li><Link href="/about-us"> About Us</Link></li>
                       <li><Link href="/contact-us"> Contact Us</Link></li>
                       <li><Link href="/features"> Our Features</Link></li>
-                      <li><Link href="/"> Our Blogs</Link></li>
+                      <li><Link href="/blogs"> Our Blogs</Link></li>
                       <li><Link href="/locations"> Our Locations</Link></li>
                       <li><Link href="/all-modules"> All Modules</Link></li>
                       <li><Link href="/"> Careers</Link></li>
@@ -112,7 +112,7 @@ const Footer = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-4">
                     <div className="footer-copyright text-center text-lg-start">
-                      <p>© 2025 Tech Cloud ERP | All Rights Reserved.</p>
+                      <p>© 2026 Tech Cloud ERP | All Rights Reserved.</p>
                     </div>
                   </div>
                   <div className="col-lg-4">

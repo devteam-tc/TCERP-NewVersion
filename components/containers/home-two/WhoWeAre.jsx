@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import WhoImg from '../../../public/images/img/who-we-are.jpg';
+import WhoImg from '../../../public/images/img/who-we-are.webp';
 import Image from 'next/image';
 
 const WhoWeAre = () => {
@@ -24,11 +24,13 @@ const WhoWeAre = () => {
           <div className="col-12">
             <div className="who-we-are-description">
               <p>
-              With over 25 years of experience, we build ERP systems tailored to your industry and workflow. Our solutions are easy to adopt, quick to implement and more cost-effective than generic ERP platforms.
-              </p>
+               With over 25 years of experience, we create ERP systems tailored to your industry and workflow. Our
+solutions are easy to adopt, quick to implement, and more cost-effective than generic platforms.
+                </p>
             <p>
-            We support manufacturers and other growing businesses by bringing clarity to everyday tasks, improving team coordination and helping you stay in control of inventory, production and costs. With flexible pricing and personalized features, Tech Cloud ERP grows with your business and adapts as your needs change.
-            </p>
+We support manufacturers and growing businesses by improving task clarity, team coordination, and
+control over inventory, production, and costs. With flexible pricing and personalized features, Tech Cloud
+ERP grows with your business and adapts as your needs change.            </p>
             </div>
           </div>
         </div>

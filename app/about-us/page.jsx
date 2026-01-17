@@ -15,8 +15,8 @@ import OurPartnerSection from "../../components/containers/home/OurPartnerSectio
 // Generate static metadata
 export async function generateMetadata() {
   return {
-    title: 'Leading ERP in Hyderabad for Businesses of Every Size',
-    description: 'A trusted provider of ERP in Hyderabad, offering cloud-based, scalable solutions designed to streamline operations and support business growth across regions.',
+    title: 'About Tech Cloud ERP | Best ERP Software Provider in India',
+    description: 'Tech Cloud ERP – the best ERP software provider in India, delivering innovative, customized solutions that streamline operations and support diverse industry needs.',
     keywords: 'ERP software solution in hyderabad, Best ERP Solutions Provider in India, cloud-based ERP solutions provider in India, Manufacturing ERP, Manufacturing Software, Production ERP, Production Software, Manufacturing ERP software, Production ERP software',
   };
 }

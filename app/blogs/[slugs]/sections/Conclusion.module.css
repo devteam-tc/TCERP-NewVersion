@@ -1,0 +1,90 @@
+/* app/blogs2/how-erp-helps-the-signage-industry-work-smarter/sections/Conclusion/Conclusion.module.css */
+ 
+.sectionHeading {
+  color: #D94B23; /* Orange color from your design */
+  /* font-family: 'Poppins', sans-serif; */
+  font-weight: 600;
+  font-size: 32px; 
+  position: relative;
+  line-height: 1;
+  padding-bottom: 0.5rem;
+} 
+.conclusionSection {
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+
+vertical-align: middle; 
+margin-bottom: 1rem;
+color: #000000;
+
+}
+
+.conclusionText {
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #000000;
+ 
+text-align: justify;
+vertical-align: middle; 
+}
+
+.faqContainer {  
+font-weight: 600;
+font-style: SemiBold;
+font-size: 24px;  
+ 
+vertical-align: middle; 
+line-height: 1;
+color: #000000;
+
+}
+@media (max-width: 998px) {
+  .sectionHeading {
+    font-size: 30px;
+  }
+  .conclusionSection {
+    font-size: 22px;
+  }
+  .conclusionText {
+    font-size: 12px;
+  }
+  .faqContainer { 
+    font-size: 22px;  
+
+  }
+}
+  
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem 1rem;
+  }
+  
+  .sectionHeading {
+    font-size: 22px;
+  }
+  
+  .question {
+    font-size: 16px;
+  }
+  
+  .answer {
+    font-size: 14px;
+  }
+  .sectionHeading {
+    font-size: 28px;
+  }
+  .conclusionSection {
+    font-size: 20px;
+  }
+   .conclusionText {
+    font-size: 10px;
+  }
+  .faqContainer { 
+    font-size: 20px;  
+
+  }
+}

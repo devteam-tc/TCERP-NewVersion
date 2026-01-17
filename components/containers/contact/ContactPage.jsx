@@ -76,10 +76,10 @@ const ContactForm = () => {
     <div className="contactpage-wrapper pt-120">
       <ToastContainer />
       <div className="contactpage-info">
-      <h1 className="contactpage-info__button">
+      <h2 className="contactpage-info__button">
         <Button variant="light" className="contactpage-info__button-inner">Contact Us</Button>
-      </h1>
-  <h2 className="contactpage-info__title">Get in Touch With Us</h2>
+      </h2>
+  <h1 className="contactpage-info__title">Get in Touch With Us</h1>
   <p className="contactpage-info__desc">
   Have questions or need assistance? Our team is here to help reach out to us anytime!
   </p>
@@ -107,7 +107,7 @@ const ContactForm = () => {
     <div className="contactpage-info__icon"><FaMapMarkerAlt /></div>
     <div>
       <div className="contactpage-info__sub">Visit Our Office</div>
-      <div className="contactpage-info__text">Plot No. 241, 3rd Floor, VVG Elite, Kavuri Hills, 
+      <div className="contactpage-info__text">Plot No. 241, 4th Floor, VVG Elite, Kavuri Hills, 
       <br /> Phase - 2, Madhapur, Hyderabad, Telangana - 500081</div>
     </div>
   </div>

@@ -21,6 +21,8 @@ const DemoPage = () => {
     <Container>
       <Row>
         <Col>
+        <h1 className="demo-page-heading text-center  ">Get a free demo to help your business grow.</h1>
+       
           <div
             className="calendly-inline-widget demo-calendly-widget"
             data-url="https://calendly.com/padmini-techclouderp/demo"

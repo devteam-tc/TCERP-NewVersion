@@ -13,7 +13,7 @@ const ModulePage = () => {
     <>
       <Container className="container">
         <h1 className="section-title text-center mb-5 
-        ">All ERP Modules in One Powerful Platform</h1>
+        ">All ERP Modules in One Cloud-Based Platform</h1>
         <Row className="g-4">
           {modulesdata.map((module, index) => (
             <Col key={index} sm={12} md={6} lg={4}>

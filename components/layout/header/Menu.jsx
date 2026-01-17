@@ -8,11 +8,35 @@ const Menu = () => {
     <ul className="navbar-nav mx-auto mb-lg-0">
       {menus.map((item, index) => (
         <li key={index} className="nav-item">
-          <Link className="nav-link" href={item.link}>
+          {/* <Link className="nav-link" href={item.link}>
             {item.title}
             {(item.submenu || item.children) && <FaChevronDown className="ms-1" />}
+          </Link> */}
+          <Link 
+            className="nav-link" 
+            href={item.link}
+            onClick={(e) => {
+              // Only prevent default if we're clicking the dropdown arrow
+              if (e.target.closest('.dropdown-arrow')) {
+                e.preventDefault();
+                e.stopPropagation();
+              }
+            }}
+          >
+            {item.title}
+            {(item.submenu || item.children) && (
+              <span 
+                className="dropdown-arrow" 
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  // Toggle dropdown logic would go here if needed
+                }}
+              >
+                <FaChevronDown className="ms-1" />
+              </span>
+            )}
           </Link>
-
           {/* Handle Industries Menu */}
           {item.children && (
             <ul className="sub-menu list-unstyled">

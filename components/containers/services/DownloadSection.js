@@ -10,7 +10,7 @@ const FeatureList = ({ features }) => (
   <ul className="list-item mb_30" style={{ paddingLeft: '20px' }}>
     {features.map((feature, index) => (
       <li key={index} style={{ marginBottom: '12px' }}>
-        <p className="fw-semibold black" style={{ 
+        <p className=" black" style={{ 
           fontSize: 'clamp(13px, 1.5vw, 16px)',
           lineHeight: '1.4',
           margin: 0
@@ -25,24 +25,18 @@ FeatureList.propTypes = {
 };
 
 // Content Box Component
-const ContentBox = ({ title, subtitle, features, buttonText, onDownload }) => (
+const ContentBox = ({ title, features, buttonText, onDownload }) => (
   <div className="content-box" style={{ maxWidth: '100%' }}>
     <h2 style={{
       fontSize: 'clamp(20px, 2.5vw, 28px)',
       lineHeight: '1.3',
       marginBottom: '12px',
-      fontWeight: '600'
+    
     }}>
-      {title} <span style={{
-        fontSize: 'clamp(16px, 2vw, 22px)',
-        display: 'block',
-        marginTop: '4px',
-        fontWeight: '500',
-        color: '#666'
-      }}>{subtitle}</span>
+      {title} 
     </h2>
     <FeatureList features={features} />
-    <div style={{
+    {/* <div style={{
       marginTop: '20px',
       marginBottom: '20px',
       padding: '15px',
@@ -67,7 +61,7 @@ const ContentBox = ({ title, subtitle, features, buttonText, onDownload }) => (
       }}>
         Download the guide and get a complete picture of how Tech Cloud ERP transforms ideas into high-performing digital solutions.
       </p>
-    </div>
+    </div> */}
     <button 
       type="button" 
       className="theme-btn btn-one" 
@@ -77,8 +71,7 @@ const ContentBox = ({ title, subtitle, features, buttonText, onDownload }) => (
         color: '#fff !important',
         fontSize: 'clamp(13px, 1.2vw, 15px)',
         padding: '10px 20px',
-        marginTop: '10px',
-        fontWeight: '500',
+        marginTop: '10px', 
         display: 'flex',
         alignItems: 'center',
         gap: '8px'
@@ -104,9 +97,9 @@ const ImageBox = ({ src, alt, width, height }) => (
     maxWidth: '100%',
     margin: '0 auto',
     position: 'relative',
-    paddingTop: '75%', // 4:3 aspect ratio
+    paddingTop: '100%', // 4:3 aspect ratio
     '@media (max-width: 768px)': {
-      maxWidth: '90%'
+      maxWidth: '100%'
     }
   }}>
     <figure className="image" style={{

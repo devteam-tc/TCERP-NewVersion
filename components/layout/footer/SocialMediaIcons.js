@@ -23,7 +23,7 @@ const SocialMediaIcons = () => {
         <FaFacebookF />
       </a>
       <a
-        href="https://www.linkedin.com/company/13619340/admin/feed/posts/"
+        href="https://www.linkedin.com/company/13619340/admin/dashboard/"
         target="_blank"
         rel="noopener noreferrer"
         className="social-icon"

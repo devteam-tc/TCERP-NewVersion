@@ -18,8 +18,9 @@ export default function IndustryList() {
 
   const categories = [
     { id: "manufacturing", name: "Manufacturing Industries", shortName: "Manufacturing" },
-    { id: "retail", name: "Retail Industries", shortName: "Retail" },
-    { id: "specialized", name: "Specialized Industries", shortName: "Specialized" }
+    { id: "retail", name: "Retail & Service Industries", shortName: "Retail & Service" },
+    { id: "trading", name: "Trading Industries", shortName: "Trading" },
+    
   ];
 
   const currentCategory = industriesData.categories[activeTab];
@@ -63,7 +64,8 @@ export default function IndustryList() {
       <Row>
         {currentCategory.industries.map((industry) => (
           <Col xs={6} sm={6} md={4} key={industry.id} className="mb-4">
-            <div className="industry-card" onClick={() => handleArrowClick(industry.link)}>
+            <div className="industry-card" onClick={() => handleArrowClick(industry.link)}
+              >
               <div className="icon-wrapper">
                 <Image
                   src={industry.icon}

@@ -21,7 +21,7 @@ import usaData from './techcloud-erp-software-in-usa.json';
 import vizagData from './techcloud-erp-software-in-vizag.json';
 
 export const locationData = {
-  abudhabi: abudhabiData.abudhabi,
+  'abu-dhabi': abudhabiData['abu-dhabi'],
   ahmedabad: ahmedabadData.ahmedabad,
   ajman: ajmanData.ajman,
   bahrain: bahrainData.bahrain,

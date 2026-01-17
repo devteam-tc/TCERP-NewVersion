@@ -2,6 +2,7 @@ import React, { useState, useCallback, useEffect } from "react";
 import Image from "next/image";
 import dynamic from 'next/dynamic';
 import { IoMdDownload } from "react-icons/io";
+import { downloadBrochureFile } from "../../utils/brochureOperations";
 
 // Dynamically import the popup to avoid SSR issues
 const DownloadFormPopup = dynamic(() => import('./DownloadFormPopup'), {
@@ -10,42 +11,6 @@ const DownloadFormPopup = dynamic(() => import('./DownloadFormPopup'), {
 
 // Storage key for tracking first submission
 const FIRST_SUBMISSION_KEY = 'tcerp_first_submission_done';
-
-// Helper to get brochure filename
-const getBrochureFilename = (title) => {
-  return title.toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-};
-
-// Helper to download brochure
-const downloadBrochure = async (industryTitle) => {
-  const filename = getBrochureFilename(industryTitle);
-  const brochurePath = `/brochures/${filename}.pdf`;
-  
-  try {
-    const response = await fetch(brochurePath);
-    if (!response.ok) {
-      throw new Error(`Failed to fetch brochure: ${response.status}`);
-    }
-    
-    const blob = await response.blob();
-    const url = window.URL.createObjectURL(blob);
-    
-    const link = document.createElement('a');
-    link.href = url;
-    link.target = '_blank';
-    link.download = `${industryTitle} Brochure.pdf`;
-    
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
-  } catch (error) {
-    console.error('Download failed:', error);
-    throw error;
-  }
-};
 
 const DownloadWidget = ({ bgShape, image, title, spanTitle, buttonText }) => {
   const [showPopup, setShowPopup] = useState(false);

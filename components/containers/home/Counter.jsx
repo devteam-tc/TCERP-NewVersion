@@ -60,7 +60,7 @@ const Counter = () => {
               <div className="reveal left" style={{ height: '100%' }}>
                 <Image 
                   src={counterImg} 
-                  alt="Business handshake with city background" 
+                  alt="business handshake with urban city background" 
                   className="img-fluid w-100"
                   style={{
                     height: '100%',

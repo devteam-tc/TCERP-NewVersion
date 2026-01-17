@@ -11,7 +11,7 @@ const BlogComments = () => (
         <div className="author-area">
           <div className="image">
             <Image src="/assets/img/blog/comment-img1.png" alt="img" width={80} height={80} />
-          </div>
+          </div>   
           <div className="heading">
             <a href="#" className="date"><Image src="/assets/img/icons/date.svg" alt="img" width={20} height={20} />8 December 2024</a>
             <h4><a href="#">Alex Robertson</a></h4>
