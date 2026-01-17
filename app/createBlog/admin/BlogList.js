@@ -118,7 +118,7 @@
 
 "use client";
 import { useEffect, useState } from "react";
-import { blogDb as db } from "../../../firebaseConfigBlogs";
+import { blogDb as db } from "../../../firebaseConfig";
 import { collection, getDocs, deleteDoc, doc } from "firebase/firestore";
 import { useRouter } from "next/navigation";
 import { Button, Table } from "react-bootstrap";

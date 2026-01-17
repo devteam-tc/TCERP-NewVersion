@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { blogStorage as storage, blogDb as db } from "../../firebaseConfigBlogs";
+import { blogStorage as storage, blogDb as db } from "../../firebaseConfig";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { collection, addDoc } from "firebase/firestore";
 

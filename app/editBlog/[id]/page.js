@@ -8,7 +8,7 @@
 
 
 import EditBlogForm from "./EditBlogForm";
-import { blogDb as db } from "../../../firebaseConfigBlogs"; // Use blogs-specific DB
+import { blogDb as db } from "../../../firebaseConfig"; // Use blogs-specific DB
 import { collection, getDocs } from "firebase/firestore";
 
 export async function generateStaticParams() {

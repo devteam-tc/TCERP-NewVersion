@@ -117,7 +117,7 @@ import introStyles from './Introduction.module.css';
 import mainContentStyles from './maincontent.module.css';
 import KeywordParser from './components/KeywordParser';
 import { doc, getDoc } from "firebase/firestore";
-import { blogDb } from '../../../../firebaseConfigBlogs';
+import { blogDb } from '../../../../firebaseConfig';
 
 const FAQItem = ({ question, answer, anchorWords }) => (
   <div className={styles.faqItem}>

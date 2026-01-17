@@ -172,7 +172,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { blogDb as db } from "../../../../firebaseConfigBlogs";
+import { blogDb as db } from "../../../../firebaseConfig";
 import { doc, getDoc, updateDoc } from "firebase/firestore";
 import { Button } from "react-bootstrap";
 

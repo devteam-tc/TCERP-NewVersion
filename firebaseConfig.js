@@ -1,37 +1,4 @@
-// import { initializeApp } from "firebase/app";
-// import { getAnalytics, isSupported } from "firebase/analytics";
-// import { getFirestore } from "firebase/firestore";
-// import { getAuth } from "firebase/auth";
-// import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
-
-// // Correct Firebase configuration
-// const firebaseConfig = {
-//   apiKey: "AIzaSyA3Ln4ByzURA8drIrvka2PYQbPRF_NbVAw",
-//   authDomain: "tech-cloud-erp-1532582683650.firebaseapp.com",
-//   databaseURL: "https://tech-cloud-erp-1532582683650.firebaseio.com",
-//   projectId: "tech-cloud-erp-1532582683650",
-//   storageBucket: "tech-cloud-erp-1532582683650.firebasestorage.app",
-//   messagingSenderId: "595044081279",
-//   appId: "1:595044081279:web:3320af7c412fbc33bb694a",
-// };
-
-// // Initialize Firebase
-// const app = initializeApp(firebaseConfig);
-// export const db = getFirestore(app);
-// export const auth = getAuth(app);
-// export const storage = getStorage(app); // ✅ Ensure storage is exported
-
-// // Initialize Analytics (only on the client-side)
-// let analytics;
-// if (typeof window !== "undefined") {
-//   isSupported().then((supported) => {
-//     if (supported) {
-//       analytics = getAnalytics(app);
-//     }
-//   });
-// }
-
-// export { analytics };
+// firebaseConfig.js
 import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAnalytics, isSupported } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
@@ -39,16 +6,11 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 import { getRemoteConfig } from "firebase/remote-config";
 
+// Single Firebase configuration
 const firebaseConfig = {
-  // apiKey: "AIzaSyA3Ln4ByzURA8drIrvka2PYQbPRF_NbVAw",
-  // authDomain: "tech-cloud-erp-1532582683650.firebaseapp.com",
-  // databaseURL: "https://tech-cloud-erp-1532582683650.firebaseio.com",
-  // projectId: "tech-cloud-erp-1532582683650",
-  // storageBucket: "tech-cloud-erp-1532582683650.firebasestorage.app",
-  // messagingSenderId: "595044081279",
-  // appId: "1:595044081279:web:3320af7c412fbc33bb694a",
   apiKey: "AIzaSyBmC8_22Lg9ftdI9CAO5dSazUqSbZklgMk",
   authDomain: "tcerp-newversion.firebaseapp.com",
+  databaseURL: "https://tcerp-newversion-default-rtdb.firebaseio.com",
   projectId: "tcerp-newversion",
   storageBucket: "tcerp-newversion.firebasestorage.app",
   messagingSenderId: "870652555892",
@@ -56,36 +18,54 @@ const firebaseConfig = {
   measurementId: "G-80X9888HBR"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+// Initialize main Firebase app
+const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
+
+// Initialize blog-specific Firebase app with a unique name
+const blogApp = getApps().find(app => app.name === "blogs-app")
+  ? getApp("blogs-app")
+  : initializeApp(firebaseConfig, "blogs-app");
+
+// Export main app services
 export const db = getFirestore(app);
 export const auth = getAuth(app);
 export const storage = getStorage(app);
+export const remoteConfig = getRemoteConfig(app);
 
-let analytics;
+// Export blog app services
+export const blogDb = getFirestore(blogApp);
+export const blogAuth = getAuth(blogApp);
+export const blogStorage = getStorage(blogApp);
+
+// Analytics (client-only)
+let analytics = null;
+export const getAnalyticsInstance = () => {
+  if (typeof window === "undefined") return null;
+  if (!analytics) {
+    analytics = getAnalytics(app);
+  }
+  return analytics;
+};
+
+// Initialize analytics only on client side
 if (typeof window !== "undefined") {
-  isSupported().then((supported) => {
+  isSupported().then(supported => {
     if (supported) {
-      analytics = getAnalytics(app);
+      getAnalyticsInstance();
     }
   });
 }
 
-export function getFirebaseApp() {
-  return getApps().length ? getApp() : initializeApp(firebaseConfig);
-}
+export { app, blogApp, analytics };
 
+// Remote Config
 export function getFirebaseRemoteConfig() {
-  const app = getFirebaseApp();
-  const remoteConfig = getRemoteConfig(app);
-
+  const remoteConfig = getRemoteConfig(blogApp);
   remoteConfig.settings = {
     minimumFetchIntervalMillis: 3600000,
   };
-
   remoteConfig.defaultConfig = {
-    hero_variant: "A", // default variant
+    hero_variant: "A",
   };
-
   return remoteConfig;
 }

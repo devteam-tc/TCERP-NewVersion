@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { blogDb as db, blogStorage as storage } from "../../../firebaseConfigBlogs";
+import { blogDb as db, blogStorage as storage } from "../../../firebaseConfig";
 import { doc, setDoc, Timestamp } from "firebase/firestore";
 import TitleAndDescription from "./TitleAndDescription";
 import SectionsForm from "./SectionsForm";

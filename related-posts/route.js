@@ -1,5 +1,5 @@
 import { collection, getDocs, query, where, limit } from "firebase/firestore";
-import { blogDb } from "../../../firebaseConfigBlogs";
+import { blogDb } from "../../../firebaseConfig";
 
 
 export async function GET(request) {

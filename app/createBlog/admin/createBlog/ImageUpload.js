@@ -69,7 +69,7 @@
 
 
 import React, { useState } from "react";
-import { blogStorage as storage } from "../../../../firebaseConfigBlogs";
+import { blogStorage as storage } from "../../../../firebaseConfig";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import styles from "./Form.module.css"
 

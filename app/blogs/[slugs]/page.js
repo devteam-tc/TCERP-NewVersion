@@ -2,7 +2,7 @@
 // 'use client';
 
 // import { collection, doc, getDoc, getDocs } from "firebase/firestore";
-// import { blogDb } from "../../../../firebaseConfigBlogs";
+// import { blogDb } from "../../../../firebaseConfig";
 // import { notFound } from "next/navigation";
 // import { useEffect, useState } from "react";
 // import Header from "../../../../components/layout/header/Header";
@@ -200,7 +200,7 @@
 // app/blogs/[slugs]/page.js
 
 import { doc, getDoc, getDocs, collection } from "firebase/firestore";
-import { blogDb } from "../../../firebaseConfigBlogs";
+import { blogDb } from "../../../firebaseConfig";
 
 import { notFound } from "next/navigation";
 import BlogContent from "./BlogContent";

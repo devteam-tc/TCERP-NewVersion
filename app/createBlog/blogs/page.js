@@ -1,6 +1,6 @@
 
 import { collection, getDocs } from "firebase/firestore";
-import { blogDb } from "../../../firebaseConfigBlogs"; // Use blogs-specific Firebase config
+import { blogDb } from "../../../firebaseConfig"; // Use blogs-specific Firebase config
 import BlogsClient from "./BlogsClient";
 
 export const metadata = {
