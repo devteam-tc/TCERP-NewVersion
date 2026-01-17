@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 import Link from "next/link";
 import { menus } from "../../../data/menuData";
@@ -74,3 +75,57 @@ const Menu = () => {
 };
 
 export default Menu;
+=======
+"use client";
+import Link from "next/link";
+import { menus } from "../../../data/menuData";
+import { FaChevronDown, FaChevronRight } from "react-icons/fa";
+
+const Menu = () => {
+  return (
+    <ul className="navbar-nav mx-auto mb-lg-0">
+      {menus.map((item, index) => (
+        <li key={index} className="nav-item">
+          <Link className="nav-link" href={item.link}>
+            {item.title}
+            {(item.submenu || item.children) && <FaChevronDown className="ms-1" />}
+          </Link>
+
+          {/* Handle Industries Menu */}
+          {item.children && (
+            <ul className="sub-menu list-unstyled">
+              {item.children.map((category, catIndex) => (
+                <li key={catIndex}>
+                  <Link href="#">
+                    {category.heading} <FaChevronRight className="ms-1" />
+                  </Link>
+                  <ul className="nested-submenu list-unstyled">
+                    {category.submenu.map((subItem, subIdx) => (
+                      <li key={subIdx}>
+                        <Link href={subItem.href}>{subItem.label}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+              ))}
+            </ul>
+          )}
+
+          {/* Handle Regular Submenus */}
+          {item.submenu && (
+            <ul className="sub-menu list-unstyled">
+              {item.submenu.map((subItem, subIndex) => (
+                <li key={subIndex}>
+                  <Link href={subItem.link}>{subItem.title}</Link>
+                </li>
+              ))}
+            </ul>
+          )}
+        </li>
+      ))}
+    </ul>
+  );
+};
+
+export default Menu;
+>>>>>>> 61b7ab182e6fa8efa1dfad8622b8749b7a6ec29f

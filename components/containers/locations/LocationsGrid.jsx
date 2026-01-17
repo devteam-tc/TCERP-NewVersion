@@ -111,8 +111,36 @@ const locations = [
     description: 'The USA’s dynamic industries require efficient solutions. Our ERP centralises operations, delivers real-time insights, and supports business growth.',
     link: '/locations/techcloud-erp-software-in-usa',
   },
+<<<<<<< HEAD
     
   
+=======
+    {
+    title: 'Dubai',
+    image: '/images/locations/dubai.jpg',
+    description: 'Detailed information about our Dubai location...',
+     link:'/locations/uae/dubai',
+  },
+ {
+    title: 'Abu Dhabi',
+    image: '/images/locations/abudhabi.jpg',
+    description: 'Detailed information about our Abu Dhabi location...',
+     link:'/locations/uae/abudhabi',
+  },
+    
+  {
+    title: 'Sharjah',
+    image: '/images/locations/sharjah.jpg',
+    description: 'Detailed information about our Sharjah location...',
+     link:'/locations/uae/sharjah',
+  }, 
+  {
+    title: 'Ajman',
+    image: '/images/locations/ajman.jpg',
+    description: 'Detailed information about our Ajman location...',
+     link:'/locations/uae/ajman',
+  },
+>>>>>>> 61b7ab182e6fa8efa1dfad8622b8749b7a6ec29f
 ]; 
 
 // List of Indian cities for filtering
@@ -187,7 +215,11 @@ export default function LocationsGrid() {
               Visit this page
             </Link> */}
             {loc.title === 'UAE' ? (
+<<<<<<< HEAD
               <Link href="/locations/techcloud-erp-software-in-uae" className="locations-page__card-button">
+=======
+              <Link href="/locations/uae" className="locations-page__card-button">
+>>>>>>> 61b7ab182e6fa8efa1dfad8622b8749b7a6ec29f
                 Visit this page
               </Link>
             ) : (
