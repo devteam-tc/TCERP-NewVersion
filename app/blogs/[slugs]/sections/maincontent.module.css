@@ -1,0 +1,70 @@
+.mainContentHeading1{
+   /* Always include fallback */
+  font-weight: 600;                    /* SemiBold = 600 */
+  font-style: normal;                  /* CSS uses normal, italic, oblique */
+  font-size: 24px;
+  line-height: 1;                      /* 100% line-height = 1 */
+  letter-spacing: 0;                   /* 0% = 0 */
+  vertical-align: middle;
+  color:#047791;
+  margin-bottom: 1rem;
+  font-family: var(--bs-font-primary);
+}
+
+.imageContainer {
+  margin: 2rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.contentImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.pointImageContainer {
+  margin: 1rem 0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.contentImageContainer {
+  margin: 2rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.contentImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.imageCaption {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-top: 0.5rem;
+}
+.pointImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.contentHeading2 {
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+  color: #b60404;
+  
+}
+.contentSubheading {
+  color:#000000; 
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px; 
+  line-height: 28px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-top: 1rem; 
+}
+ .sectionContent{
+   
+ }

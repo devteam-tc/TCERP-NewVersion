@@ -39,14 +39,14 @@ const Banner = () => (
           <Image src="/images/banner/Chart3.webp" alt="Employee distribution chart 2024" width={200} height={100} />
         </div>
         <div className="chart-card chart-bottom-right">
-          <Image src="/images/banner/Chart4.webp" alt="Sales revenue chart 2024 overview" width={200} height={100} />
+          <Image src="/images/banner/Chart4.webp" alt="sales revenue overview chart" width={200} height={100} />
         </div>
         {/* Rocket */}
         <div className="rocket-center">
           <Image 
             className="rocket-desktop"
             src="/images/banner/icons/rocket.webp" 
-            alt="Rocket" 
+            alt="Cloud Connected to Servers" 
             width={150} 
             height={100}
             priority={true}

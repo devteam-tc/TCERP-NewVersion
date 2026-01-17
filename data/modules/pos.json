@@ -9,21 +9,21 @@
       "featuretitle": "Set Up and Customize your POS",
       "featuredesc": "Tech Cloud ERP allows you to personalize the POS to your needs. It can be configured to fit your business set-up whether you are using at a cafe or a traditional set-up in your boutique. Configure product groups, establish pricing and manual or automatic payment methods to meet your business set-up.",
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/pos/POS-1.png",
+      "dashboardImage": "/images/modules/pos/POS-1.webp",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Streamline Sales and Inventory Management",
       "featuredesc": "Processing your sales is easy and fast after you initially setup. Simply scan the items, apply discounts, payment methods, etc. The system also automatically updates your inventory in real-time, providing you with accurate stock levels. This all-in-one system will help you avoid stockouts and over-stockings and keep your business running smoothly.",
      "featurelink": "Explore More",   
-        "dashboardImage": "/images/modules/pos/POS-2.png",
+        "dashboardImage": "/images/modules/pos/POS-2.webp",
       "imageAlt": "Sales Automation Dashboard"
     },
     {
       "featuretitle": "Analyze Performance and Grow your Business",
       "featuredesc": "Make smarter business decisions with powerful analytics. Tech Cloud ERP's POS module generates detailed daily reports, helping you identify top-performing products, peak sales hours, and key customer trends. With these actionable insights, you can refine promotions, optimize inventory planning, and fuel your business growth strategically.",
      "featurelink": "Explore More",  
-      "dashboardImage": "/images/modules/pos/POS-3.png",
+      "dashboardImage": "/images/modules/pos/POS-3.webp",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],

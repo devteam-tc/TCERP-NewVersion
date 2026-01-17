@@ -1,0 +1,101 @@
+ 
+.tocTitle {
+font-weight: 600;
+font-style: SemiBold;
+font-size: 24px; 
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+}
+
+.tocList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tocItem {
+  margin: 0.4rem 0;
+  line-height: 1.4;
+}
+
+.tocLink {
+  display: block;
+  color: #495057;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.tocLink:hover {
+  color: #1a73e8;
+  background-color: #f1f3f4;
+}
+
+/* Indentation for different heading levels */
+ 
+.sidebarfixed{
+  background: #FEF8F6;
+  border:1px solid #FAC9BC;
+  width: 390;
+  height: 196; 
+  opacity: 1;
+  gap: 12px;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+ 
+/* Active link style */
+.tocLink.active {
+  color: #1a73e8;
+  background-color: #e8f0fe;
+  font-weight: 500;
+}
+
+/* Scrollbar styling */
+.tocContainer::-webkit-scrollbar {
+  width: 6px;
+}
+
+.tocContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.tocContainer::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.tocContainer::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+.loading {
+  color: #6c757d;
+  font-style: italic;
+  font-size: 0.9rem;
+} 
+
+@media (max-width: 998px) {
+  .tocTitle {
+    font-size: 22px; 
+  }
+  .tocLink {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+   .tocTitle {
+    font-size: 20px; 
+  }
+  .tocLink {
+    font-size: 14px;
+  }
+}

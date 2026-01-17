@@ -1,5 +1,6 @@
 import { collection, doc, getDoc, getDocs } from "firebase/firestore";
-import { blogDb } from "../../../../firebaseConfigBlogs"; // Use blogs-specific Firebase config
+import { blogDb } from "../../../../firebaseConfigBlogs";
+// Use blogs-specific Firebase config
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";

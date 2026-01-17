@@ -82,8 +82,8 @@ const urlToDataMap = {
   'usa': 'usa',
   
   // Additional emirates
-  'techcloud-erp-software-in-abu-dhabi': 'abudhabi',
-  'abu-dhabi': 'abudhabi',
+  'techcloud-erp-software-in-abu-dhabi': 'abu-dhabi',
+  'abu-dhabi': 'abu-dhabi',
   'techcloud-erp-software-in-sharjah': 'sharjah',
   'sharjah': 'sharjah',
   'techcloud-erp-software-in-ajman': 'ajman',

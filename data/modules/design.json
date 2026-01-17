@@ -9,14 +9,14 @@
       "featuretitle": "Design & Approval Transactions",
       "featuredesc": "Tech Cloud ERP simplifies design management with a structured workflow that lets you upload, track and organize design jobs efficiently. From customer details and signage specifications to size, quantity and approvals, every detail is recorded in one place. This ensures accuracy, timely updates and full visibility across design transactions, enabling faster execution and improved collaboration.",
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/design/design-1.png",
+      "dashboardImage": "/images/modules/design/design-1.webp",
       "imageAlt": "Lead Management Dashboard"
     },
     {
       "featuretitle": "Design Inquiries and Approvals Management",
       "featuredesc": "A centralized module to manage all design-related requests and approvals, providing clear visibility into inquiries, customer details, signage specifications, dimensions, quantities and statuses. Users can search, filter and track progress with real-time updates, ensuring accuracy, timely responses and streamlined design approval workflows.",
      "featurelink": "Explore More",  
-      "dashboardImage": "/images/modules/design/design-2.png",
+      "dashboardImage": "/images/modules/design/design-2.webp",
       "imageAlt": "Sales Automation Dashboard"
     }
   ],

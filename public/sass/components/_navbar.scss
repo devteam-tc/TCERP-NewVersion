@@ -176,6 +176,14 @@
     justify-content: space-between;
     align-items: center;
   }
+  .btn-icon-one{
+	position: absolute;
+    right: 17px;
+	.svg{
+		 
+	}
+  }
+ 
 // Header section two
 .ep-header-section-two {
 	background-color: var(--bs-background-color);
@@ -307,6 +315,33 @@
 .nested-submenu {
     position: relative;
     display: none;
+    max-height: 300px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+
+    /* Webkit (Chrome, Safari) scrollbar styling */
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 3px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 3px;
+        
+        &:hover {
+            background: #555;
+        }
+    }
+
+    /* Firefox scrollbar styling */
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
 }
 
 .sub-menu > li:hover .nested-submenu {
@@ -389,7 +424,29 @@
 
 	.nested-submenu.open {
 		opacity: 1;
-		height: auto;
+		height: 250px;
+		overflow-y: auto;
+		scrollbar-width: thin;
+		scrollbar-color: #888 #f1f1f1;
+
+		/* Webkit (Chrome, Safari) scrollbar styling */
+		&::-webkit-scrollbar {
+			width: 4px;
+		}
+
+		&::-webkit-scrollbar-track {
+			background: #f1f1f1;
+			border-radius: 2px;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background: #888;
+			border-radius: 2px;
+			
+			&:hover {
+				background: #555;
+			}
+		}
 	}
 
 	.mobile-menu-main {
@@ -400,7 +457,7 @@
 		top: 0;
 		left: -320px;
 		z-index: 999;
-		overflow-y: scroll;
+		overflow: hidden;
 		transition-duration: 0.3s;
 
 		.logo {
@@ -426,7 +483,32 @@
 
 		.menu-body {
 			.menu-list {
+				height: calc(100vh - 100px);
+				overflow-y: auto;
 				padding-top: 10px;
+
+				/* Custom scrollbar for WebKit browsers */
+				&::-webkit-scrollbar {
+					width: 6px;
+				}
+
+				&::-webkit-scrollbar-track {
+					background: #f1f1f1;
+					border-radius: 3px;
+				}
+
+				&::-webkit-scrollbar-thumb {
+					background: #888;
+					border-radius: 3px;
+					
+					&:hover {
+						background: #555;
+					}
+				}
+
+				/* For Firefox */
+				scrollbar-width: thin;
+				scrollbar-color: #888 #f1f1f1;
 
 				ul {
 					list-style: none;

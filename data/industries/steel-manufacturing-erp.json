@@ -2,7 +2,7 @@
   "banner": "/images/industries/steel_banner_img.webp",
   "altimg":"Rolled steel coils in factory",
   "heading" :"Steel Industry",
-  "title": "Best Steel ERP Software Tailored for Metal Fabricators",
+  "title": "Best ERP Software Tailored for Steel Fabricators",
   "description": "Steel manufacturing demands precise coordination from raw materials to finished products. An ERP system built for steel plants supports complex operations and strengthens production control. It offers real-time visibility into inventory and supply chain activities, leading to greater efficiency, reduced costs, and improved product quality.",
   "keyPoints": [
     "Production & Process Management",
@@ -74,7 +74,7 @@
     "bgShape": "/images/shapes/widget-bg.png",
     "image": "/images/industry-icons/book-3.webp",
     "title": " ",
-    "spanTitle": "Steel Manufacturing Guide",
+    "spanTitle": "Steel Manufacturing",
     "buttonText": "Download Brochure"
   }
 }

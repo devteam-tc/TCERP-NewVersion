@@ -1,15 +1,62 @@
 // Brochure filename mapping
 const brochureMap = {
+    // Retail
     'Retail Solutions': 'retail-solutions',
     'Fashion Industry Solutions Guide': 'retail-solutions',
-    'Packaging Industry': 'Packaging-industry',
-    'Packaging': 'Packaging-industry',
-    'Packaging Solutions Guide': 'Packaging-industry',
-    // Add more mappings as brochures are added
+    
+    // Packaging
+    'Packaging Industry': 'packaging-industry',
+    'Packaging': 'packaging-industry',
+    'Packaging': 'packaging-industry',
+    
+    // Agriculture
+    'Agricultural Industry': 'agricultural-industry',
+    'Agriculture': 'agricultural-industry',
+    'Farming': 'agricultural-industry',
+    
+    // Other industries
+    'Casting & Foundry': 'casting-foundry-industry',
+    'Foundry': 'casting-foundry-industry',
+    'Construction': 'construction-industry',
+    'Garment': 'garment-industry',
+    'Apparel': 'garment-industry',
+    'Textile': 'garment-industry',
+    'HRMS': 'HRMS',
+    'Human Resource': 'HRMS',
+    'Jewellery': 'jewellery-industry',
+    'Jewelry': 'jewellery-industry',
+    'Medical Equipment': 'medicalequipment-industry',
+    'Medical': 'medicalequipment-industry',
+    'Healthcare': 'medicalequipment-industry',
+    'Paper': 'paper-industry',
+    'POS': 'POS-industry',
+    'Point of Sale': 'POS-industry',
+    'Publishing': 'publishing-industry',
+    'School': 'school-management',
+    'Education': 'school-management',
+    'Signage': 'signage-industry',
+    'Steel Manufacturing': 'steel-industry',
+    'Metal': 'steel-industry'
   };
   
   // Available brochures list
-  const AVAILABLE_BROCHURES = ['retail-solutions', 'Packaging-industry'];
+  const AVAILABLE_BROCHURES = [
+    'retail-solutions',
+    'packaging-industry',
+    'agricultural-industry',
+    'casting-foundry-industry',
+    'construction-industry',
+    'garment-industry',
+    'HRMS',
+    'jewellery-industry',
+    'medicalequipment-industry',
+    'paper-industry',
+    'POS-industry',
+    'publishing-industry',
+    'school-management',
+    'signage-industry',
+    'steel-industry'
+  ];
   
   export const getBrochureFilename = (title) => {
     // First try to get the mapped filename
@@ -24,32 +71,90 @@ const brochureMap = {
       .replace(/^-+|-+$/g, '');
   };
   
-  export const isBrochureAvailable = (title) => {
-    const filename = getBrochureFilename(title);
-    return AVAILABLE_BROCHURES.includes(filename);
-  };
-  
   export const getBrochureStatus = (title) => {
-    const filename = getBrochureFilename(title);
+    console.log('Getting brochure status for:', title);
     
-    if (!AVAILABLE_BROCHURES.includes(filename)) {
+    // First, clean up the title
+    const cleanTitle = title.replace(/\s*\(.*?\)\s*/g, '').trim();
+    console.log('Cleaned title:', cleanTitle);
+    
+    // 1. Try exact match in brochureMap first
+    if (brochureMap[cleanTitle]) {
+      const filename = brochureMap[cleanTitle];
+      console.log('Exact match found in brochureMap:', { title: cleanTitle, filename });
       return {
-        available: false,
-        message: `The brochure for "${title}" is coming soon. For now, you can download our Retail Solutions brochure.`,
-        fallbackBrochure: 'retail-solutions'
+        available: true,
+        message: null,
+        fallbackBrochure: null,
+        filename: filename
       };
     }
-  
+    
+    // 2. Try to match by industry name in the title (case insensitive)
+    const titleLower = cleanTitle.toLowerCase();
+    
+    // Special handling for Paper industry
+    if (titleLower.includes('paper')) {
+      console.log('Matched Paper industry');
+      return {
+        available: true,
+        message: null,
+        fallbackBrochure: null,
+        filename: 'paper-industry'
+      };
+    }
+    
+    // Check for other industries
+    for (const [brochureTitle, filename] of Object.entries(brochureMap)) {
+      const brochureLower = brochureTitle.toLowerCase();
+      
+      // Check if the brochure title is contained within the page title
+      if (titleLower.includes(brochureLower) || 
+          brochureLower.includes(titleLower) ||
+          titleLower.split(/\s+/).some(word => 
+            word.length > 3 && brochureLower.split(/\s+/).some(bw => 
+              bw.startsWith(word) || word.startsWith(bw)
+            )
+          )) {
+        console.log('Matched industry:', { brochureTitle, filename });
+        return {
+          available: true,
+          message: null,
+          fallbackBrochure: null,
+          filename: filename
+        };
+      }
+    }
+    
+    // 3. Try the generated filename as a last resort
+    const generatedFilename = getBrochureFilename(cleanTitle);
+    if (AVAILABLE_BROCHURES.includes(generatedFilename)) {
+      console.log('Using generated filename:', generatedFilename);
+      return {
+        available: true,
+        message: null,
+        fallbackBrochure: null,
+        filename: generatedFilename
+      };
+    }
+    
+    // If we get here, no matching brochure was found
+    console.log('No matching brochure found for:', cleanTitle);
     return {
-      available: true,
-      message: null,
+      available: false,
+      message: `The brochure for "${cleanTitle}" is coming soon.`,
       fallbackBrochure: null
     };
   };
   
+  export const isBrochureAvailable = (title) => {
+    const status = getBrochureStatus(title);
+    return status.available;
+  };
+  
   export const downloadBrochureFile = async (industryTitle) => {
     const status = getBrochureStatus(industryTitle);
-    const filename = status.available ? getBrochureFilename(industryTitle) : status.fallbackBrochure;
+    const filename = status.available ? status.filename : 'retail-solutions';
     const brochurePath = `/brochures/${filename}.pdf`;
     
     console.log('Attempting to download brochure:', {

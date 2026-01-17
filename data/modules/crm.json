@@ -9,21 +9,21 @@
       "featuretitle": "Lead Management",   
     "featuredesc": " You can enter new leads quickly, set follow-up reminders and track each lead’s progress. This helps your team stay updated and never miss a sales opportunity. You can also change the status of a lead as it moves through different stages such as new, in-progress or converted.",
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/crm/m1.png",
+      "dashboardImage": "/images/modules/crm/m1.webp",
       "imageAlt": "ERP CRM dashboard for lead management"
     },
     {
       "featuretitle": "Opportunity Management",
   "featuredesc": "Tech Cloud ERP’s CRM combines opportunity tracking and quotation management into one seamless process. Create personalized proposals, manage conversations and handle negotiations with ease. Instantly respond to enquiries with professional quotes, all of which are saved and organized for quick access. This streamlined workflow helps your team stay in control of every deal and take the right steps to close faster.",      
       "featurelink": "Explore More",
-      "dashboardImage": "/images/modules/crm/m2.png",
+      "dashboardImage": "/images/modules/crm/m2.webp",
       "imageAlt": "ERP CRM dashboard opportunity quotes"
     },
     {
       "featuretitle": "Sales Order Processing",
       "featuredesc": " Once a quotation is approved, you can instantly turn it into a sales order. Check inventory to make sure the product is in stock and track the delivery process from start to finish. This ensures faster service and keeps your customers happy.",
       "featurelink": "Explore More",    
-       "dashboardImage": "/images/modules/crm/m3.png",
+       "dashboardImage": "/images/modules/crm/m3.webp",
       "imageAlt": "ERP CRM dashboard sales inventory"
     }
   ],
@@ -31,7 +31,7 @@
   "videosection": {
     "title": "Customer Relationship Management",
     "description": "Our CRM helps you manage leads, automate follow-ups and close deals faster. Watch how our platform simplifies your entire sales process in just a few clicks.",
-    "videoUrl": "https://res.cloudinary.com/techclouderp/video/upload/v1749637803/samples/ygdibxhec40kg8nperbz.mp4",
+    "videoUrl": "https://res.cloudinary.com/techclouderp/video/upload/v1766400393/crm_vedio_ssr0jm.mp4",
     "module": "customer-relationship-management"
   },
   "cards": {

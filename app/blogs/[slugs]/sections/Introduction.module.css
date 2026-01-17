@@ -1,0 +1,70 @@
+/* app/blogs2/how-erp-helps-the-signage-industry-work-smarter/sections/Introduction/Introduction.module.css */
+.intro {
+   
+}
+.introImage {
+    width: 40%;
+    max-width: 100%;
+  }
+
+.introImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover; margin-bottom: 1rem;
+}
+
+.introText {
+   margin: 0rem 0 2rem;
+}
+
+.bg_heading1 {
+  color: #D94B23;
+ font-family: var(--bs-font-primary);
+  font-weight: 600;
+  font-size: 32px;
+  margin: 12px 0px 10px;
+   line-height: 28px;
+   
+}
+
+.dec_pr1 {
+  color: #333; 
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px; 
+  line-height: 28px; 
+  text-align: justify;
+  vertical-align: middle; 
+
+}
+
+/* Responsive Design */
+@media (max-width: 998px) {
+  .bg_heading1 {
+    font-size:30px;
+  }
+ .dec_pr1 { 
+  font-size: 16px; 
+  }
+}
+
+@media (min-width: 768px) {
+  .intro {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .introImage {
+    max-height: 300px;
+  }
+  .bg_heading1 {
+   font-size:28px;
+  }
+  .dec_pr1 {
+   font-size: 14px; 
+  }
+}

@@ -14,10 +14,14 @@ const industrySlugs = [
   "school-management-system",
   "solar-erp-software",
   "electronics-manufacturing-erp",
+  "electrical-and-electronics-trading",
   "fmcg-erp-software",
   "food-industry",
   "furniture-manufacturing-erp",
   "garment-erp-software",
+  "grocery-erp-software",
+  "general-trading",
+  "hardware-and-building-material-trading",
   "hydraulic-erp-software",
   "jewellery-erp-software",
   "leather-erp-software",
@@ -44,6 +48,7 @@ const industrySlugs = [
   "sign-manufacturing-erp",
   "foundry-erp-solution",
   "construction-erp-software",
+  "imports-and-exports", 
 ];
 
 // Generate static paths
@@ -78,7 +83,12 @@ export async function generateMetadata({ params }) {
       const imageMap = {
         'agriculture-industry': 'agriculture_banner_img.webp',
         'apparel-erp-software': 'apparel-banner_img.webp',
+        'imports-and-exports': 'imports-banner-img.webp', 
         'automotive-erp-software': 'automotive_banner_img.webp',
+        'electrical-and-electronics-trading': 'electrical-banner-img.webp',
+        'general-trading': 'general-trading-banner-img.webp',
+        'hardware-and-building-material-trading': 'hardware-banner-img.webp',
+        'grocery-erp-software': 'grocery-banner-img.webp',
         "foundry-erp-solution": "casting-banner-img.webp",
         'chemical-erp-software': 'chemical_banner_img.webp',
         'construction-erp-software': 'construction_banner_img.webp',

@@ -1,0 +1,95 @@
+.socialShare {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0; 
+
+}
+
+.shareText {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.socialIcon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.socialIcon:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.facebook {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.linkedin {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.twitter {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.iconText {
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  line-height: 1;
+}
+
+/* For the X (Twitter) icon */
+.twitter .iconText {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* For the LinkedIn 'in' text */
+.linkedin .iconText {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  line-height: 1.1;
+} 
+ @media (max-width: 998px) {
+ .shareText {
+  font-size: 14px;
+  }
+  .twitter .iconText {
+  font-size: 16px;
+  }
+  .linkedin .iconText {
+  font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+   .shareText {
+  font-size: 12px;
+  }
+   .twitter .iconText {
+  font-size: 14px;
+  }
+  .linkedin .iconText {
+  font-size: 12px;
+  }
+}

@@ -43,6 +43,11 @@
           flex-shrink: 0;
           // width: 120px;
           margin: 0;
+          width: 25%;
+          text-wrap-mode: nowrap;
+            @media screen and (max-width : 525px) {
+              width: auto;
+            }
         }
   
         h6 {
@@ -71,6 +76,10 @@
     p {
       font-size: 18px;
       line-height: 26px;
+     @media screen and (max-width : 992px) {
+         font-size: 15px;
+         text-align: justify;
+      }
     }
 
     .inner-options {
@@ -195,6 +204,7 @@
 @media (max-width:1199.98px) {
   .ep-project-details-section .project-banner-image .project-information .title {
     font-size: 22px;
+
   }
 
   .ep-project-details-section .project-banner-image .project-information .options li+li {
@@ -222,7 +232,7 @@
 @media (max-width:767.98px) {
   .ep-project-details-section .project-description .title {
     // margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 24px;
     margin: 0;
   }
 
@@ -233,8 +243,9 @@
 
 @media (max-width:575.98px) {
   .ep-project-details-section .project-description .inner-options ul li {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 26px;
+    
   }
 }
 

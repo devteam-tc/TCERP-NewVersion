@@ -13,7 +13,7 @@
   ],
   "infoCards": [
     {
-      "image": "/images/industry-icons/fmcg-production.png",
+      "image": "/images/industry-icons/fmcg-distribution.png",
       "title": "Inventory & Distribution Management",
       "description": "Ensure uninterrupted supply with powerful tools to track stock, monitor expiry, and optimize delivery channels.",
       "list": [
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "image": "/images/industry-icons/fmcg-distribution.png",
+      "image": "/images/industry-icons/fmcg-production.png",
       "title": "Finance & Billing Automation",
       "description": "Simplify transactions and accounting with intelligent billing software for FMCG distributor operations.",
       "list": [

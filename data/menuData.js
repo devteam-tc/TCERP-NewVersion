@@ -4,7 +4,7 @@ export const industriesMenu = {
   link: "/industries",
   children: [
     {
-      heading: "Manufacturing Industries",
+      heading: "Manufacturing ",
       submenu: [
         { label: "Automative ", href: "/industries/automotive-erp-software" },
         { label: "Casting ", href: "/industries/foundry-erp-solution" },
@@ -12,7 +12,7 @@ export const industriesMenu = {
         { label: "Construction ", href: "/industries/construction-erp-software" },
         { label: "Solar ", href: "/industries/solar-erp-software" },
         { label: "Electronics ", href: "/industries/electronics-manufacturing-erp" },
-        { label: "Food ", href: "/industries/food-industry" },
+        // { label: "Food ", href: "/industries/food-industry" },
         { label: "Furniture ", href: "/industries/furniture-manufacturing-erp" },
         { label: "Hydraulic Cylinders ", href: "/industries/hydraulic-erp-software" },
         { label: "Leather ", href: "/industries/leather-erp-software" },
@@ -22,31 +22,9 @@ export const industriesMenu = {
         { label: "Plastic ", href: "/industries/plastic-erp-software" },
         { label: "Pre Engineering ", href: "/industries/pre-engineering-industry" },
         { label: "Rubber ", href: "/industries/rubber-manufacturing-erp" },
-        { label: "Steel ", href: "/industries/steel-manufacturing-erp" }
-      ],
-    },
-    {
-      heading: "Retail Industries",
-      submenu: [
-        { label: "Apparel ", href: "/industries/apparel-erp-software" },
-        { label: "Food & Bevarage ", href: "/industries/food-and-beverage-erp" },
-        { label: "FMCG ", href: "/industries/fmcg-erp-software" },
-        { label: "Garment ", href: "/industries/garment-erp-software" },
-        { label: "Jewellery ", href: "/industries/jewellery-erp-software" },
-        { label: "Restaurant ", href: "/industries/restaurant-industry" },
-        { label: "Retail ", href: "/industries/retail-erp-software" },
-        { label: "Wholesalers ", href: "/industries/wholesale-distribution-software" },
-        
-      ],
-    },
-    {
-      heading: "Specialized Industries",
-      submenu: [
+        { label: "Steel ", href: "/industries/steel-manufacturing-erp" },
         { label: "Agriculture ", href: "/industries/agriculture-industry" },
-        { label: "Educational Institutes ", href: "/industries/school-management-system" },
-        { label: "Logistics ", href: "/industries/logistics-erp-software" },
         { label: "Medical Equipment Manufacturing ", href: "/industries/medicalequipmentmanufacturing-industry" },
-        { label: "Micro Finance ", href: "/industries/microfinance-software" },
         { label: "Oil & Gas ", href: "/industries/oilandgas-industry" },
         { label: "Pharmaceutical ", href: "/industries/pharma-erp-software" },
         { label: "Printing ", href: "/industries/printing-erp-software" },
@@ -55,8 +33,45 @@ export const industriesMenu = {
         { label: "Telecom ", href: "/industries/telecom-erp-software" },
         { label: "Textile ", href: "/industries/textile-erp-software" },
         { label: "Wood ", href: "/industries/wood-manufacturing-erp" },
+        { label: "FMCG ", href: "/industries/fmcg-erp-software" },
+        { label: "Garment ", href: "/industries/garment-erp-software" },
+        // { label: "Retail ", href: "/industries/retail-erp-software" },
+        
       ],
     },
+    {
+      heading: "Retail ",
+      submenu: [
+        { label: "Apparel ", href: "/industries/apparel-erp-software" },
+        { label: "Jewellery ", href: "/industries/jewellery-erp-software" },
+        // { label: "Food & Bevarage ", href: "/industries/food-and-beverage-erp" },
+        { label: "Grocery ", href: "/industries/grocery-erp-software" },
+      
+      
+      ],
+    },
+    {
+      heading: "Service ",
+      submenu: [
+        { label: "Educational Institutes ", href: "/industries/school-management-system" },
+        { label: "Logistics ", href: "/industries/logistics-erp-software" },
+        { label: "Micro Finance ", href: "/industries/microfinance-software" },
+      { label: "Restaurant ", href: "/industries/restaurant-industry" },
+
+
+      ],
+    },
+    {
+  heading: "Trading ",
+  submenu: [
+    { label: "General Trading ", href: "/industries/general-trading" },
+    { label: "Imports and Exports ", href: "/industries/imports-and-exports" },
+    { label: "Electrical and Electronics Trading ", href: "/industries/electrical-and-electronics-trading" },
+    { label: "Hardware and Building Material Trading ", href: "/industries/hardware-and-building-material-trading" },
+    { label: "Wholesalers ", href: "/industries/wholesale-distribution-software" },
+
+  ],
+}
   ],
 };
 
