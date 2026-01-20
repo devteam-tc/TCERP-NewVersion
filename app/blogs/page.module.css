@@ -1,0 +1,101 @@
+.blogsWrapper {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Add these styles to your existing page.module.css */
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pageNumbers {
+  display: flex;
+  gap: 5px;
+  margin: 0 10px;
+}
+
+.pageItem {
+  background: #fff;
+  border: none;
+  color: #667085;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pageItem:hover:not(:disabled) {
+  background: #f5f5f5;
+}
+
+.pageItem.active {
+  background: #E6F6FA;
+  color: #EF5226;
+  border-color: #E6F6FA;
+}
+
+.navButton {
+  width: auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.navButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Make pagination responsive */
+@media (max-width: 576px) {
+  .pagination {
+    gap: 5px;
+  }
+  
+  .pageItem {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+  
+  .navButton {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+}

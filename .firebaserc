@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "staging": "tcerp-newversion",
+    "default": "web-tcerp",
+    "web": "web-tcerp"
+  },
+  "targets": {},
+  "etags": {}
+}
