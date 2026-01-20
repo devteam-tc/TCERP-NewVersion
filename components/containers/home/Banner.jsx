@@ -29,15 +29,21 @@ const Banner = () => (
     quality={90}
     sizes="100vw"
     style={{
-    objectFit: 'contain',
-    objectPosition: 'center top',
-    transform: 'translateY(-50%)',
-    zIndex: 1,
-    height: '100%',
-    width: '100%',
+      position: 'absolute',
+      height: 'auto',
+      width: '100%',
+      left: 0,
+      top: '-0px',
+      right: 0,
+      bottom: 0,
+      objectFit: 'fill',
+      objectPosition: 'center top',
+      color: 'transparent',
+      transform: 'translateY(-50%)',
+      zIndex: 1,
     }}
   />
-    </div>
+</div>
     <div className="banner-center-content">
       <h1 className="banner-title">Cloud - Based<br />ERP Software Solutions</h1>
       <p className="banner-subtitle">
