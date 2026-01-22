@@ -1,14 +1,18 @@
+// Add this at the top of _banner.scss
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 .banner-hero {
 	position: relative;
 	width: 100%;
 	min-height: 600px;
-	padding: 160px 0 40px 0;
+	  min-height: 100vh; 
 	overflow: hidden;
 	// display: flex;
 	align-items: center;
 	background: none;
 }
-
+.banner-hero2{
+padding: 160px 0 60px 0;
+}
 // .banner-bg-clouds {
 // 	position: absolute;
 // 	top: 0; left: 0; right: 0; bottom: 0;
@@ -19,7 +23,63 @@
 // 	z-index: 0;
 // 	opacity: 1;
 // }
+// .banner-circle-overlay {
+//   position: absolute;
+//   top: 0px;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   pointer-events: none;
+//   z-index: 1;
+// }
+// For desktop (768px and above)
 
+  .banner-circle-overlay {
+    position: absolute;
+    width: 110%;  // Increased width to allow image to extend beyond screen
+    height: 100%;
+    top: -7%;    // Move the container up
+    left: -6%;   // Center the extended width
+    overflow: visible;  // Changed to visible to show extended parts
+    z-index: 1;
+    
+    .banner-circle-image {
+      width: 100% !important;
+      height: auto !important;
+      max-width: none;  // Remove max-width restriction
+      position: absolute;
+      left: 50% !important;
+      top: 2% !important;  // Move the image up within container
+      transform: translate(-50%, -50%) !important;
+      object-fit: contain;
+      object-position: center top;
+    }
+  }
+
+@media (min-width: 768px) {
+	}
+
+// For mobile (below 768px)
+@media (max-width: 767px) {
+  .banner-circle-overlay {
+    position: relative;
+    width: 250%;        // Increased to allow more overflow
+    left: -75%;         // Center the extended width
+    padding-top: 10%;  // Maintain aspect ratio
+    overflow: visible;   // Show extended parts
+    margin-top: -10%;    // Move up slightly
+    
+    .banner-circle-image {
+      position: absolute;
+      width: 100% !important;
+      height: auto !important;
+      left: 50% !important;
+      top: 40% !important;  // Position higher in the container
+      transform: translate(-50%, -50%) !important;
+      max-width: none;      // Remove any max-width restriction
+    }
+  }
+}
 .banner-bg-clouds {
 	position: absolute;
 	top: 0; left: 0; right: 0; bottom: 0;
@@ -37,39 +97,283 @@
 	padding-bottom: 40px;
 }
 
-.banner-title {
-	font-size: 2.8rem;
-	font-weight: 700;
-	color: #222;
-	margin-bottom: 18px;
-	line-height: 1.15;
-}
+// .banner-title { 
+//     font-family: 'Inter';
+// 	line-height: 1.15;
+//  	font-weight: 100; 
+// 	font-style: Semi Bold; 
+// 	font-size: 3.5rem; 
+// 	text-align: center;
+// 	color: #fff;
+// 	letter-spacing: normal;
+// 	margin-bottom: 18px;
+// }
 
+// .banner-subtitle {
+// 	font-size: 0.85rem;
+// 	color: #FFFFFF;
+// 	margin-bottom: 10px;
+// 	max-width: 850px;
+// 	margin-left: auto;
+// 	margin-right: auto;
+// 	font-weight: 100;
+	 
+// }
+// .banner-subtitle-list{
+// 	   color: white;
+//   list-style-type: disc;
+//   margin-bottom: 20px;
+//   display: flex;
+//   max-width: 100%;
+//   font-size: 12px;
+//   flex-direction: row;
+//   gap:10px;
+//   li {
+//     padding-left: 8px;          /* Space between bullet and text */
+//     text-indent: -5px; 
+// 	padding-right: 12px;  
+// 	font-weight: 600;      /* Pull text back to align with bullet */
+//   }
+// }
+// .banner-demo-btn {
+//   width: 350px;  
+//   height: 49px;  
+//   border-radius: 20px;
+//   border: 1px solid transparent;
+//   background: 
+//     linear-gradient(transparent, transparent) padding-box,
+//     linear-gradient(90deg, 
+//       rgba(5, 167, 204, 0.8) 0%, 
+//       rgba(255, 255, 255, 0.8) 100%
+//     ) border-box;
+//   padding: 10px 30px;  
+//   color: white;
+//   font-weight: 500;
+//   font-size: 1rem;
+//   text-align: center;
+//   text-decoration: none;
+//   display: inline-flex; 
+//   align-items: center;   
+//   justify-content: center; 
+//   position: relative;  
+//   overflow: hidden;      
+//   box-sizing: border-box;
+//   cursor: pointer;
+//   transition: all 0.3s ease;
+//   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+//   margin-bottom: 40px;
+//   margin-top: 20px;
+  
+//   &:hover {
+//     transform: translateY(-2px);
+//     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+//   }
+// }
+:root {
+  --font-size-base: 16px; // Default base size
+}
+// Mixin for responsive font sizes
+@mixin responsive-font($min-size, $max-size, $min-width: 320px, $max-width: 1920px) {
+  font-size: calc(#{$min-size} + (#{strip-unit($max-size - $min-size)}) * ((100vw - #{$min-width}) / #{strip-unit($max-width - $min-width)}));
+  
+  @media (max-width: $min-width) {
+    font-size: $min-size;
+  }
+  @media (min-width: $max-width) {
+    font-size: $max-size;
+  }
+}
+// Helper function to strip units
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+// Apply responsive font sizes
+.banner-title { 
+  font-family: 'Inter', sans-serif;
+  line-height: 1.15;
+  font-weight: 600;
+  font-style: normal; // Changed from 'Semi Bold' to use font-weight instead
+  @include responsive-font(1.8rem, 3rem, 320px, 1440px); // Responsive font size
+  text-align: center;
+  color: #fff;
+  letter-spacing: normal;
+  margin-bottom: 18px;
+  
+}
 .banner-subtitle {
-	font-size: 1.15rem;
-	color: #333;
-	margin-bottom: 10px;
-	max-width: 700px;
-	margin-left: auto;
-	margin-right: auto;
+  @include responsive-font(0.75rem, 1.2rem, 320px, 1440px);
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  line-height: 1.5;
 }
+.banner-subtitle-list {
+  color: white;
+  list-style: none;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap; // Allow items to wrap on smaller screens
+  max-width: 100%;
+  @include responsive-font(0.7rem, 0.8rem, 320px, 1440px);
+  flex-direction: row;
+  gap: 10px;
+  
+  li {
+    // padding-left: 8px;
+    // text-indent: -5px; 
+    // padding-right: 12px;  
+    // font-weight: 600;
+	 position: relative;
+    padding-left: 20px; // Space for custom bullet
+    padding-right: 12px;
+    font-weight: 600;
+    
+    &::before {
+      content: "•"; // Custom bullet
+      position: absolute;
+      left: 3px; // Adjust bullet position
+      color: white;
+    }
+	  &::marker {
+		display: none;
+	  }
+  }
+}
+// .banner-demo-btn {
+//   width: 100%;  
+//   max-width: 350px;  
+//   height: auto;  
+//   min-height: 49px;  
+//   padding: 12px 30px;  
+//   @include responsive-font(0.9rem, 1rem, 320px, 1440px); 
+//   border: 3px solid linear-gradient(90.66deg, rgba(5, 167, 204, 0.8) -22.11%, rgba(255, 255, 255, 0.8) 46.34%);
+//    border-radius: 20px;
+//   border-image-slice: 1; 
+//   color: white;
+//   font-weight: 500;
+//   text-align: center;
+//   text-decoration: none;
+//   display: inline-flex; 
+//   align-items: center;   
+//   justify-content: center; 
+//   position: relative;  
+//   overflow: hidden;      
+//   box-sizing: border-box;
+//   cursor: pointer;
+//   transition: all 0.3s ease;
+//   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+//   margin: 20px auto 40px; 
+  
+//   &:hover {
+//     transform: translateY(-2px);
+//     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+//   }
+// }
+  .gradient-btn {
+      position: relative;
+      padding: 16px 34px;
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      background: transparent;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      z-index: 1;
+      overflow: hidden;
+      letter-spacing: 0.3px;
+	  margin: 20px auto 40px; 
+    animation: zoomInOut 4s ease-in-out infinite;
+	cursor: pointer;
+  
+  // Pause animation when user prefers reduced motion
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1); 
+  }
+  50% {
+    transform: scale(1.15);
+	 
 
-.banner-demo-btn {
-	display: inline-block;
-	background: #ff5e3a;
-	color: #fff;
-	font-weight: 600;
-	font-size: 1.1rem;
-	border-radius: 30px;
-	padding: 0.85rem 2.5rem;
-	box-shadow: 0 4px 16px rgba(255,94,58,0.15);
-	transition: background 0.2s;
-	text-decoration: none;
+  }
+  100% {
+    transform: scale(1);
+  }
 }
-.banner-demo-btn:hover {
-	background: #e6451f;
-}
+    /* Animated gradient border */
+    .gradient-btn::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      padding: 2px; /* border thickness */
+      border-radius: 50px;
+	  color: white;
+  	  font-weight: 500;
+      background: linear-gradient(
+        120deg,
+        #05A7CC,
+        #FFFFFF,
+        #05A7CC
+      );
+      background-size: 300% 300%;
+      animation: gradientBorder 3s linear infinite;
 
+      /* Cut out center */
+      -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+              mask-composite: exclude;
+
+      z-index: -1;
+	  
+    }
+
+    /* Hover speed-up (optional) */
+    .gradient-btn:hover::before {
+      animation-duration: 1.4s;
+    }
+
+    /* Animation */
+    @keyframes gradientBorder {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 300% 50%;
+      }
+    }
+// Additional media queries for fine-tuning
+@media (max-width: 768px) {
+  .banner-title {
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+  
+  .banner-subtitle {
+    padding: 0 15px; // Add some padding on mobile
+  }
+  
+  .banner-subtitle-list {
+    flex-direction: row; // Stack list items on mobile
+    align-items: center;
+    padding-left: 20px;
+  }
+}
+// For very small devices
+@media (max-width: 480px) {
+  .banner-demo-btn {
+    width: 90%; // Slightly smaller width on very small screens
+    margin: 15px auto 30px;
+  }
+}
 .banner-right {
 	position: relative;
 	z-index: 2;
@@ -86,6 +390,201 @@
 	height: 420px;
 	margin: 0 auto;
 	margin-top: 60px;
+}
+
+// card images
+// .banner-cards-container {
+// 	display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 20px;
+//     padding: 40px 40px;
+//     position: relative;
+//     z-index: 2;
+//     background: #b6111136; 
+//     border-radius: 20px;
+// }
+// .banner-cards-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 20px;
+//   padding: 40px 40px;
+//   position: relative;
+//   z-index: 2;
+// background-color: transparent;
+//   /* Gradient border only */
+//    border: 2px solid transparent;
+//   border-image-source: linear-gradient(
+//     92.25deg,
+//     #FAFAFA -6.78%,
+//     #FAC9BC 35.59%,
+//     #B2E4EF 69.51%,
+//     #FDEEE9 99.98%
+//   );
+//   border-image-slice: 1;
+//   border-radius: 20px ;
+//   backdrop-filter: blur(50px);
+//   border-radius: 10px;
+//   }
+// .banner-cards-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 20px;
+//   padding: 40px;
+//   position: relative;
+//   z-index: 2;
+//   background-color: transparent;
+  
+//   /* Gradient border with radius */
+//   border: 2px solid transparent;
+//   border-radius: 20px;
+//   background: 
+//     linear-gradient(white, white) padding-box,
+//     linear-gradient(
+//       92.25deg,
+//       #FAFAFA -6.78%,
+//       #FAC9BC 35.59%,
+//       #B2E4EF 69.51%,
+//       #FDEEE9 99.98%
+//     ) border-box;
+  
+//   backdrop-filter: blur(50px);
+  
+//   /* Ensure the gradient border respects the border radius */
+//   -webkit-mask: 
+//     linear-gradient(#fff 0 0) padding-box, 
+//     linear-gradient(#fff 0 0);
+//   -webkit-mask-composite: xor;
+//   mask-composite: exclude;
+// }
+.banner-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  position: relative;
+  z-index: 2;
+  border-radius: 20px;
+  background: transparent; 
+  
+  // Gradient border using a pseudo-element
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    padding: 2px; // This creates the border width
+    background: linear-gradient(
+      92.25deg,
+      #FAFAFA -6.78%,
+      #FAC9BC 35.59%,
+      #B2E4EF 69.51%,
+      #FDEEE9 99.98%
+    );
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none; // Allows clicks to pass through to the content
+ 
+  }
+  
+  // Optional: Add blur effect
+  backdrop-filter: blur(50px);
+}
+// .card-item {
+//   background: rgba(255, 255, 255, 0.9);
+//   border-radius: 12px;
+//   padding: 15px;
+//   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+//   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+//   &:hover {
+//     transform: translateY(-5px);
+//     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+//   }
+  
+//   img {
+//     border-radius: 8px;
+//     width: 100%;
+//     height: auto;
+//   }
+// }
+.card-item {
+ background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    /* padding: 15px; */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(1);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    height: 150px;
+    width: 240px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.1), rgba(247, 147, 30, 0.1));
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 1;
+  }
+  
+  // Active/Click state instead of hover
+  &:active,
+  &:focus,
+  &.clicked {
+    transform: scale(2.08) translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 1);
+    z-index: 10;
+    &::before {
+      opacity: 1;
+    }
+    
+    img {
+      transform: scale(1.05);
+      filter: brightness(1.1);
+    }
+  }
+  
+  // Optional: Keep hover for desktop but make it subtle
+//   &:hover {
+//     transform: scale(1.02);
+//     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+//   }
+  
+  img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    z-index: 2;
+  }
+}
+@media (max-width: 768px) {
+  .banner-cards-container {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .card-item {
+    flex: 1 1 calc(50% - 15px);
+    min-width: 140px;
+  }
 }
 
 @keyframes float-rocket {
@@ -206,6 +705,7 @@
 	.banner-subtitle{
 		padding: 6px 12px;
 		font-size: 15px;
+		max-width: 631px;
 	}
 }
 

@@ -201,8 +201,8 @@ p {
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-paragraph-color); 
-  margin: 0;
-  padding: 0;
+  letter-spacing: -.36px;
+
   // text-align: justify;
 }
 
@@ -515,8 +515,8 @@ p {
 /* Call us btn */
 .call-us-btn {
   .icon {
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     color: var(--bs-secondary-500);
     background: none;
     // background-color:var(--bs-secondary-color);
@@ -543,7 +543,7 @@ p {
     .number {
       color: var(--bs-primary-color);
       font-family: var(--bs-font-secondary);
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 500;
       line-height: 10px;
       transition: var(--bs-transition);

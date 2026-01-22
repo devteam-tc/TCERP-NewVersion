@@ -12,11 +12,13 @@ const Counter = () => {
           <div className="col-lg-6">
             <div className="counter-text">
               <h2 className="heading-style1 title-anim mb-20">
-                Trusted ERP Software Solutions for All Businesses
+                A Proven ERP Partner Businesses Trust
               </h2>
               <p>
-                At Tech Cloud ERP, we deliver innovative ERP solutions that help businesses streamline operations, enhance productivity and drive growth. With decades of expertise, we empower industries worldwide through digital transformation and seamless business management.
-              </p>
+With decades of experience in ERP implementation and business process
+consulting, Tech Cloud ERP has supported organisations in managing complex
+operations, multi-location setups, and project-driven workflows. Our approach is
+built on system stability, domain understanding, and long-term client success.              </p>
               <div className="counter-wrapper">
                 <div className="row g-4">
                   <div data-aos-duration="800" data-aos="fade-up" className="col-6">
@@ -24,7 +26,7 @@ const Counter = () => {
                       <div className="number">
                         <OdometerCounter value={25} /> +
                       </div>
-                      <span className="short-info">Experience</span>
+                      <span className="short-info">Years of ERP Expertise</span>
                     </div>
                   </div>
                   <div data-aos-duration="800" data-aos="fade-up" data-aos-delay="200" className="col-6">
@@ -32,7 +34,7 @@ const Counter = () => {
                       <div className="number">
                         <OdometerCounter value={2000} /> +
                       </div>
-                      <span className="short-info">Happy Clients</span>
+                      <span className="short-info">Implementations Delivered</span>
                     </div>
                   </div>
                   <div data-aos-duration="800" data-aos="fade-up" data-aos-delay="300" className="col-6">
@@ -40,7 +42,7 @@ const Counter = () => {
                       <div className="number">
                         <OdometerCounter value={10000} /> +
                       </div>
-                      <span className="short-info">Users</span>
+                      <span className="short-info">Active ERP Users</span>
                     </div>
                   </div>
                   <div data-aos-duration="800" data-aos="fade-up" data-aos-delay="500" className="col-6">

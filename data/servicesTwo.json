@@ -6,7 +6,8 @@
       "alt": "Cloud computing backup access",
       "image": "/images/services/WebBased.webp", 
       "className": "icon-box-primary icon-box-text-white",
-      "description": "Web-based and cloud computing provide scalable, flexible access to apps and data online."
+      "description": "No IT infrastructure or server maintenance required. Access your cloud-based ERP securely from anywhere, anytime, with centralized data management."
+    
     },
     {
       "id": 2,
@@ -14,7 +15,7 @@
       "alt": "Interactive data visualization dashboard",
       "image": "/images/services/DynamicDashboards.webp",
       "className": "icon-box-secondary icon-box-text-white",
-      "description": "Dynamic dashboards offer real-time, interactive data visualization for better decision-making."
+      "description": "Get real-time business insights through interactive dashboards tailored for owners and teams, enabling faster, data-driven decisions."
     },
     {
       "id": 3,
@@ -22,7 +23,7 @@
       "alt": "Seamless Integration across platforms",
       "image": "/images/services/Email&Whatsapp.webp",
       "className": "icon-box-tertiary",
-      "description": "Email and SMS integration enables seamless, efficient communication across both channels."
+      "description": "Send purchase orders, invoices, approvals, and notifications instantly via Email and WhatsApp, reducing manual follow-ups."
     },
     {
       "id": 4,
@@ -30,7 +31,7 @@
       "alt": "Mobile and tablet compatability support",
       "image": "/images/services/Mobile&Tab.webp",
       "className": "icon-box-primary icon-box-text-white",
-      "description": "Ensures a seamless user experience across devices, enhancing accessibility and usability."
+      "description": "Access the ERP seamlessly on desktop, mobile, or tablet without installation, ensuring flexibility and uninterrupted operations."
     },
     {
       "id": 5,
@@ -38,7 +39,7 @@
       "alt": "Cloud data backup automation",
       "image": "/images/services/databackup.webp",
       "className": "icon-box-primary icon-box-text-white",
-      "description": "Automates secure data storage, ensuring continuity and protection against loss."
+      "description": "Automatic cloud backups ensure data security, reliability, and quick recovery without manual intervention."
     },
     {
       "id": 6,
@@ -46,7 +47,7 @@
       "alt": "Customizable software development",
       "image": "/images/services/CustomizableSoftware.webp",
       "className": "icon-box-primary icon-box-text-white",
-      "description": "Our ERP is 90-95% ready for manufacturing businesses, with easy customization to match specific needs."
+      "description": "ERP is 90–95% industry-ready and easily customizable to match your specific business workflows and processes."
     },
     {
       "id": 7,
@@ -54,7 +55,7 @@
       "alt": "Smartphone contactless payment method",
       "image": "/images/services/PayAsYouGo.webp",
       "className": "icon-box-primary icon-box-text-white",
-      "description": "Enables users to pay for services based on actual usage, promoting flexibility and cost-efficiency."
+      "description": "Flexible pricing model where you pay only for what you use, making it cost-effective and scalable as your business grows."
     },
     {
       "id": 8,
@@ -62,7 +63,7 @@
       "alt": "User engaging in chat",
       "image": "/images/services/ChatBetweenUsers.webp",
       "className": "icon-box-primary icon-box-text-white",
-      "description": "Facilitates real-time communication and collaboration, enhancing interaction and connectivity."
+      "description": "Built-in internal chat enables real-time communication between users, improving collaboration and task coordination."
     },
     {
       "id": 9,
@@ -70,7 +71,31 @@
       "alt": "Laptop with unlimited user icons",
       "image": "/images/services/UnlimitedUsers.webp",
       "className": "icon-box-primary icon-box-text-white",
-      "description": "Accommodates an unlimited number of users, ensuring scalability and accessibility."
+      "description": "No per-user licensing cost. Add unlimited users with role-based access control for secure system usage."
+    },
+    {
+      "id": 10,
+      "title": "Audit Trail",
+      "alt": "Laptop with unlimited user icons",
+      "image": "/images/services/UnlimitedUsers.webp",
+      "className": "icon-box-primary icon-box-text-white",
+      "description": "Every transaction and activity is logged for accountability, transparency, and compliance, preventing unauthorized changes."
+    },
+    {
+      "id": 11,
+      "title": "Multiple Inventory Location",
+      "alt": "Laptop with unlimited user icons",
+      "image": "/images/services/UnlimitedUsers.webp",
+      "className": "icon-box-primary icon-box-text-white",
+      "description": "Track stock movement across multiple warehouses, godowns, or sites with accurate availability and control."
+    },
+    {
+      "id": 12,
+      "title": "GST E-Invoice & E-Way Bill",
+      "alt": "Laptop with unlimited user icons",
+      "image": "/images/services/EwayBill.webp",
+      "className": "icon-box-primary icon-box-text-white",
+      "description": "Generate GST-compliant e-invoices and e-way bills directly from ERP with seamless third party/government portal integration."
     }
   ]
 }

@@ -12,12 +12,45 @@
 
 	.navbar {
 		.header-one-container {
-			background-color: var(--bs-white-color);
-			box-shadow: 0 4px 10px #f1d6cf;
-			// max-width: max-content;
-			border-radius: 80px;
-			padding: 0 50px;
-			// box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+			// background-color: var(--bs-white-color);
+			// box-shadow: 0 4px 10px #f1d6cf;
+			// // max-width: max-content;
+			// border-radius: 80px;
+			// padding: 0 50px;
+			// // box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+			
+			// background-color: var(--bs-white-color);
+			// box-shadow: 0 4px 10px #f1d6cf;
+			// border-radius: 80px;
+			// padding: 0 50px; 
+			// box-shadow: 0px 4px 30px 0px #00000040;
+			// backdrop-filter: blur(43px);
+			// border: 2px solid transparent; /* important */
+			// border-image-source: linear-gradient(
+			// 	90.45deg,
+			// 	#FAFAFA -0.31%,
+			// 	#B2E4EF 55.66%,
+			// 	#210fd7 89.27%,
+			// 	#FAEDEB 105.69%
+			    background-color: var(--bs-white-color);
+    box-shadow: 0 4px 10px #f1d6cf;
+    border-radius: 80px;
+    padding: 0 50px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.2509803922);
+    -webkit-backdrop-filter: blur(43px);
+    backdrop-filter: blur(43px);
+    border: 2px solid linear-gradient(90.45deg, #FAFAFA -0.31%, #B2E4EF 55.66%, #F8AF9B 89.27%, #FAEDEB 105.69%);
+    /* border-image-source: linear-gradient(90.45deg, #FAFAFA -0.31%, #B2E4EF 55.66%, #210fd7 89.27%, #FAEDEB 105.69%); */
+ 	 
+    border: linear-gradient(90.45deg, #FAFAFA -0.31%, #B2E4EF 55.66%, #F8AF9B 89.27%, #FAEDEB 105.69%);
+    // background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90.45deg, #FAFAFA -0.31%, #B2E4EF 55.66%,#F8AF9B 89.27%, #FAEDEB 105.69%) border-box;
+    border-radius: 80px;
+    padding: 0 50px;
+    border: 0px solid transparent;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(43px);
+	
+			 
 		}
 
 		.navbar-nav {
@@ -28,9 +61,9 @@
 				.nav-link {
 					color: var( --Dark-Color);
 					// font-size: 18px;
-					font-size: 14px;
+					font-size: 16px;
 					font-weight: 500;
-					line-height: 78px;
+					line-height: 65px;
 
 					i {
 						font-size: 12px;
@@ -118,9 +151,19 @@
 				}
 			}
 		}
-		
-		  
+		.sticky-menu {
+			.header-one-container {
+				    /* background-color: var(--bs-white-color) !important; */
+    box-shadow: 0px #fff !important;
+    background: transparent !important;
+    border-radius: 0px;
+    box-shadow: 0 4px 10px #f1d6cf00 !important;
+    border-radius: 80px !important;
+    border: 0px !important;
+			}
+		}
 	}
+
 }
 .sub-mobile-menu {
 	.nav-link {
@@ -293,7 +336,6 @@
 		background-color: var(--bs-white-color) !important;
 		box-shadow: 0px 10px 15px -3px transparent !important;
 	}
-
 	.call-us-btn {
 		.icon {
 			// background-color: var(--bs-secondary-color);

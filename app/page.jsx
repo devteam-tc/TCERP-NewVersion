@@ -13,6 +13,7 @@ import CreativeSection from "../components/layout/footer/CreativeSection";
 import WhatsappSection from "../components/containers/home/WhatsappSection";
 import DownloadButtonSection from "../components/containers/home/DownloadButtonSection";
 import { testimonials } from "../data/testmonial";
+ 
 export default function Home() {
 
 
@@ -192,6 +193,7 @@ dangerouslySetInnerHTML={schemaScript}
       <Header/>
       <Banner/>
       <Features/>
+      
       <Services/>
       <Counter/>
       <ServicesTwo />

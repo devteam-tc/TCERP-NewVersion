@@ -27,7 +27,7 @@ const Header = () => {
       <nav className="navbar p-0 navbar-expand-xl d-none d-xl-flex">
         <div className="container header-one-container">
           <Link className="navbar-brand" href="/">
-          <Image src={logo} alt="logo" priority width={200} height={100} />
+          <Image src={logo} alt="logo" priority width={200} height={80} style={{ maxWidth: '90%'}} />
           </Link>
           <button
             className="navbar-toggler"
