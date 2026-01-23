@@ -24,7 +24,7 @@ const WhoWeAre = () => {
           <div className="col-12">
             <div className="who-we-are-description">
               <p>
-               With over 25 years of experience, we create ERP systems tailored to your industry and workflow. Our
+               With over 25+ years of experience, we create ERP systems tailored to your industry and workflow. Our
 solutions are easy to adopt, quick to implement, and more cost-effective than generic platforms.
                 </p>
             <p>

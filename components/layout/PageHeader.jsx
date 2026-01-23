@@ -9,16 +9,14 @@ const PageHeader = ({ title = '', breadcrumbs = [] }) => {
       <Image
         src="/images/Banner_bg.webp"
         alt="Hero background"
-        fill
+        // fill
         priority
         fetchPriority="high"
-        quality={85}
-        sizes="100vw"
-        style={{
-          objectFit: '100% 100%',  
-          objectPosition: 'center', 
-          zIndex: -1,
-        }}
+        quality={85}   sizes="100vw" width={100} height={80}
+          style={{
+      objectFit: 'fill', 
+      position:'absolute' 
+    }}
       />
       <div className="container">
         <div className="row">
@@ -42,7 +40,7 @@ const PageHeader = ({ title = '', breadcrumbs = [] }) => {
                       </span>
                     )}
                     {index < breadcrumbs.length - 1 && (
-                      <FaChevronRight className="ms-2 me-2" style={{ color: 'var(--bs-primary-500)' }} />
+                      <FaChevronRight className="ms-2 me-2" style={{ color: 'var(--bs-white-color)' }} />
                     )}
                   </li>
                 ))}

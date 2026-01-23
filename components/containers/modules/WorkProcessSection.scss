@@ -1,6 +1,6 @@
 .section {
   padding: 80px 0;
-  background-color: #fff;
+  background-color: transparent;
 
   .header {
     text-align: center;
@@ -21,7 +21,10 @@
       font-size: 18px;
       font-weight: 500;
       color: #000;
-      margin-bottom: 5px;
+      margin-bottom: 5px; 
+      span{
+      font-family: var(--bs-font-primary);
+    }
     }
   }
 

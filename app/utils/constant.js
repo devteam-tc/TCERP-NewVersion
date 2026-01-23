@@ -216,7 +216,7 @@ export const uniquefeaturesdata = [
   {
       image: "/images/services/WebBased.webp", 
       title: "Web Based & Cloud Computing",
-      description: "No IT infrastructure or server maintenance needed. Securely access your cloud-based ERP anytime, anywhere with centralized data.",
+      description: "No IT infrastructure needed. Securely access your cloud-based ERP anytime, anywhere with centralized data.",
   },
   {
       image: "/images/services/DynamicDashboards.webp",

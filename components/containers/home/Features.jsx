@@ -1,6 +1,6 @@
 import React from 'react';
 import featureImg1 from '../../../public/images/features/feature-img-1.webp';
- const featureImg2 = "https://res.cloudinary.com/techclouderp/image/upload/v1769061659/Adobe_Express_-_25_Yrs_-02_orange_mhccxm.gif";
+ const featureImg2 = "https://res.cloudinary.com/techclouderp/image/upload/v1769163357/25_Yrs_Final_23-01-2026_fpmiqz.gif";
 
 import SectionTitle from '../SectionTitle'; 
 import Image from 'next/image';
@@ -17,7 +17,7 @@ const Features = () => {
                   className="img-fluid w-100 rounded-20" />
               </div>
               <div className="img-two overflow-hidden position-absolute">
-                 <Image src={featureImg2} alt="25 years business software experience"
+                 <Image src={featureImg2} alt="25+ years business software experience"
                   className="img-fluid w-100 rounded-20"  width={500}  
                    height={300}/>
               </div>
