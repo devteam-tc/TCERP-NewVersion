@@ -50,7 +50,7 @@ const Banner = () => (
 </div>
    <HomeBody/>
      </section>
-
+<Features />
 
   </section>
 );

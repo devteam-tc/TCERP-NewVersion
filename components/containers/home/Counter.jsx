@@ -15,10 +15,11 @@ const Counter = () => {
                 A Proven ERP Partner Businesses Trust
               </h2>
               <p>
-With decades of experience in ERP implementation and business process
-consulting, Tech Cloud ERP has supported organisations in managing complex
-operations, multi-location setups, and project-driven workflows. Our approach is
-built on system stability, domain understanding, and long-term client success.              </p>
+              With decades of experience in ERP implementation and business process
+              consulting, Tech Cloud ERP has supported organisations in managing complex
+              operations, multi-location setups, and project-driven workflows. Our approach is
+              built on system stability, domain understanding, and long-term client success.              
+              </p>
               <div className="counter-wrapper">
                 <div className="row g-4">
                   <div data-aos-duration="800" data-aos="fade-up" className="col-6">
@@ -50,7 +51,7 @@ built on system stability, domain understanding, and long-term client success.  
                       <div className="number">
                         <OdometerCounter value={10} /> +
                       </div>
-                      <span className="short-info">Countries</span>
+                      <span className="short-info">Customers Across Countries</span>
                     </div>
                   </div>
                 </div>

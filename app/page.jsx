@@ -3,7 +3,7 @@ import Pricing from "../components/containers/home-two/Pricing"
 import ServicesTwo from "../components/containers/home/ServicesTwo";
 import Banner from "../components/containers/home/Banner";
 import Counter from "../components/containers/home/Counter";
-import Features from "../components/containers/home/Features";
+// import Features from "../components/containers/home/Features";
 import Services from "../components/containers/home/Services";
 import Testimonial from "../components/containers/home/Testimonial";
 import CustomCursor from "../components/layout/CustomCursor";
@@ -192,7 +192,7 @@ dangerouslySetInnerHTML={schemaScript}
       />
       <Header/>
       <Banner/>
-      <Features/>
+      {/* <Features/> */}
       
       <Services/>
       <Counter/>

@@ -6,7 +6,7 @@
       "alt": "Cloud computing backup access",
       "image": "/images/services/WebBased.webp", 
       "className": "icon-box-primary icon-box-text-white",
-      "description": "No IT infrastructure or server maintenance required. Access your cloud-based ERP securely from anywhere, anytime, with centralized data management."
+      "description": "No IT infrastructure or server maintenance needed. Securely access your cloud-based ERP anytime, anywhere with centralized data."
     
     },
     {
@@ -77,7 +77,7 @@
       "id": 10,
       "title": "Audit Trail",
       "alt": "Laptop with unlimited user icons",
-      "image": "/images/services/UnlimitedUsers.webp",
+      "image": "/images/services/AuditTrail.webp",
       "className": "icon-box-primary icon-box-text-white",
       "description": "Every transaction and activity is logged for accountability, transparency, and compliance, preventing unauthorized changes."
     },
@@ -85,7 +85,7 @@
       "id": 11,
       "title": "Multiple Inventory Location",
       "alt": "Laptop with unlimited user icons",
-      "image": "/images/services/UnlimitedUsers.webp",
+      "image": "/images/services/MultipleInventory.webp",
       "className": "icon-box-primary icon-box-text-white",
       "description": "Track stock movement across multiple warehouses, godowns, or sites with accurate availability and control."
     },
@@ -93,7 +93,7 @@
       "id": 12,
       "title": "GST E-Invoice & E-Way Bill",
       "alt": "Laptop with unlimited user icons",
-      "image": "/images/services/EwayBill.webp",
+      "image": "/images/services/gst&invoice.webp",
       "className": "icon-box-primary icon-box-text-white",
       "description": "Generate GST-compliant e-invoices and e-way bills directly from ERP with seamless third party/government portal integration."
     }

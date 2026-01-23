@@ -216,57 +216,62 @@ export const uniquefeaturesdata = [
   {
       image: "/images/services/WebBased.webp", 
       title: "Web Based & Cloud Computing",
-      description: "No IT infrastructure or server maintenance required—access our cloud-based ERP securely from anywhere, anytime.",
+      description: "No IT infrastructure or server maintenance needed. Securely access your cloud-based ERP anytime, anywhere with centralized data.",
   },
   {
       image: "/images/services/DynamicDashboards.webp",
       title: "Dynamic Dashboards",
-      description: "Get real-time insights with dashboards tailored for business owners and employees, enabling quick, data-driven decisions.",
+      description: "Get real-time business insights through interactive dashboards tailored for owners and teams, enabling faster, data-driven decisions.",
   },
   {
       image: "/images/services/Email&Whatsapp.webp",
       title: "Email & Whatsapp Integration",
-      description: "Send purchase orders, invoices, and updates instantly via email or WhatsApp, reducing manual effort and follow-ups.",
+      description: "Send purchase orders, invoices, approvals, and notifications instantly via Email and WhatsApp, reducing manual follow-ups.",
   },
   {
       image: "/images/services/Mobile&Tab.webp",
       title: "Mobile & Tab Compatibility",
-      description: "Access the ERP on any device—desktop, mobile, or tablet—without installation, making business management seamless.",
+      description: "Access the ERP seamlessly on desktop, mobile, or tablet without installation, ensuring flexibility and uninterrupted operations.",
   },
   {
       image: "/images/services/databackup.webp",
       title: "Data Auto Backup",
-      description: "Automatic cloud backups ensure data security and recovery without manual intervention, keeping operations smooth.",
+      description: "Automatic cloud backups ensure data security, reliability, and quick recovery without manual intervention.",
   },
   {
       image: "/images/services/CustomizableSoftware.webp",
       title: "Customizable Software",
-      description: "Our ERP is 90-95% ready for manufacturing businesses, with easy customization to match specific needs.",
+      description: "ERP is 90–95% industry-ready and easily customizable to match your specific business workflows and processes.",
   },
   {
       image: "/images/services/PayAsYouGo.webp",
       title: "Pay As You Go",
-      description: "Scalable pricing ensures you only pay for what you use, making it cost-effective for businesses of all sizes.",
+      description: "Flexible pricing model where you pay only for what you use, making it cost-effective and scalable as your business grows.",
   },
   {
       image: "/images/services/ChatBetweenUsers.webp",
       title: "Chat Between Users",
-      description: "Internal Chat System - Built-in chat enables real-time communication among users, improving collaboration within the ERP system.",
+      description: "Built-in internal chat enables real-time communication between users, improving collaboration and task coordination.",
   },
   {
       image: "/images/services/UnlimitedUsers.webp",
       title: "Unlimited Users",
-      description: "No per-user licensing fees—add unlimited users with role-based permissions for secure access control.",
+      description: "No per-user licensing cost. Add unlimited users with role-based access control for secure system usage.",
   },
   {
     image: "/images/services/AuditTrail.webp",
     title: "Audit Trail",
-    description: "Every action is logged for accountability, ensuring transparency and preventing unauthorized changes.",
+    description: "Every transaction and activity is logged for accountability, transparency, and compliance, preventing unauthorized changes.",
 },
 {
   image: "/images/services/MultipleInventory.webp",
   title: "Multiple Inventory Location",
-  description: "Track stock movement across multiple warehouses, ensuring proper inventory management and availability.",
+  description: "Track stock movement across multiple warehouses, godowns, or sites with accurate availability and control.",
+},
+{
+  image: "/images/services/gst&invoice.webp",
+  title: "GST E-Invoice & E-Way Bill",
+  description: "Generate GST-compliant e-invoices and e-way bills directly from ERP with seamless third party/government portal integration.",
 },
 ];
 
